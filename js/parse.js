@@ -13,6 +13,8 @@ parse.run=async function()
 	
 	let slug
 	let url
+	let datatype
+	let version
 	
 	for (let line of lines)
 	{
@@ -22,6 +24,14 @@ parse.run=async function()
 		{
 			slug=aa[1]
 			url=aa[3]			
+		}
+		
+		if (aa[0]=="Converting")
+		{
+			datatype=aa[2]
+			version=aa[4]	
+			
+			console.log(`${slug},${line},${url}`)		
 		}
 		
 		if (aa[0]=="dflat:" || aa[0]=="curl:")
