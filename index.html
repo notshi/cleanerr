@@ -22,8 +22,8 @@
 			table		{table-layout:fixed; overflow-wrap:break-word; word-wrap:break-word;}
 			#table_errors th:nth-child(1)	{width:30%;}	/*	slug	*/
 			#table_errors th:nth-child(3)	{width:40%;}	/*	url	*/
-			#table_counts th:nth-child(2)	{width:20%;}	/*	datatype	*/
-			#table_counts th:nth-child(3)	{width:10%;}	/*	count	*/
+			#table_counts th:nth-child(2)	{width:20%;}	/*	type	*/
+			#table_counts th:nth-child(3)	{width:10%;}	/*	num	*/
 			#table_counts th:nth-child(4)	{width:40%;}	/*	url	*/
 						
 			.dataTable-table > tbody > tr > td,
@@ -41,11 +41,17 @@
 			only screen and (min--moz-device-pixel-ratio: 1.5),
 			only screen and (min-device-pixel-ratio: 1.5) {
 
-			*		{width:100%; height:auto; min-height:1px; max-height:999999px;}
-			body	{font-size:3rem; padding:30px 50px;}
+			body		{padding:2vh;}
+			.head_wrap	{padding:1em; margin:0 auto; line-height:2em;}
 			.table_wrap	{padding:initial; max-width:initial;}
 			#table_errors th,
 			#table_counts th	{width:initial;}
+			#table_counts th:nth-child(3)	{width:15%; padding:4px 0px 4px 10px;}	/*	num	*/
+			
+			.dataTable-top > nav:last-child,
+			.dataTable-top > div:last-child,
+			.dataTable-bottom > nav:last-child,
+			.dataTable-bottom > div:last-child {float:none;}
 			}
 		</style>
 		<script src="https://cdn.jsdelivr.net/npm/simple-datatables@latest" type="text/javascript"></script>	

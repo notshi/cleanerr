@@ -43,7 +43,7 @@ parse.run_error=async function()
 
 parse.run_count=async function()
 {
-	console.log("slug,datatype,count,url")
+	console.log("slug,type,num,url")
 	
 	let data=await fsp.readFile(__dirname+"/../logs.txt","utf8")
 	let lines=data.split("\n")
@@ -64,10 +64,10 @@ parse.run_count=async function()
 		
 		if (aa[0]=="found")
 		{
-			count=aa[1]
+			num=aa[1]
 			datatype=aa[2]	
 			
-			console.log(`${slug},${datatype},${count},"${url}"`)		
+			console.log(`${slug},${datatype},${num},"${url}"`)		
 		}
 	
 	}	
