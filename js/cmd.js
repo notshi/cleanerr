@@ -7,7 +7,6 @@ let cmd=exports
 cmd.run=async function()
 {
 	await require("./parse.js").run()
-	await require("./parse_count.js").run()
 	return
 }
 

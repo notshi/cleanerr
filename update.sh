@@ -12,5 +12,3 @@ if [ ! -f "logs.txt" ] ; then
 fi
 
 js/cmd.js > errors.csv
-datatype
-js/cmd.js > errors.csv
