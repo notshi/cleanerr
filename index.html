@@ -4,40 +4,138 @@
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width">
 		<meta name="theme-color" content="#142334">
-		<title>cleanerr: Housekeeping! </title>
+		<title>cleanerr - Housekeeping! </title>
 		<link href="https://cdn.jsdelivr.net/npm/simple-datatables@latest/dist/style.css" rel="stylesheet" type="text/css">
 		<style>
-
+			/*! minireset.css v0.0.3 | MIT License | github.com/jgthms/minireset.css */html,body,p,ol,ul,li,dl,dt,dd,blockquote,figure,fieldset,legend,textarea,pre,iframe,hr,h1,h2,h3,h4,h5,h6{margin:0;padding:0}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal}ul{list-style:none}button,input,select,textarea{margin:0}html{box-sizing:border-box}*,*:before,*:after{box-sizing:inherit}img,embed,iframe,object,audio,video{height:auto;max-width:100%}iframe{border:0}table{border-collapse:collapse;border-spacing:0}td,th{padding:0;text-align:left}
+			
+			body, html	{-webkit-font-smoothing:antialiased; -moz-osx-font-smoothing:grayscale; width:100%; font-weight:normal; font-style:normal;}
+			body	{background:#fff; font-family:sans-serif; font-size:12px; line-height:1.5em; color:#444; padding:50px; min-width:100%; min-height:100%; display:table;}
+			html	{height:100%;}
+			h1		{font-size:4em; font-weight:normal; color:#1400ff;}
+			h2		{font-size:2em; font-weight:normal;}
+			h3		{font-size:1.3em; font-weight:bold;}
+			a		{text-decoration:none;}
+			p		{margin:1.5em 0;}
+			.head_wrap	{padding:0 4em; margin:0 auto;}
+			.table_wrap	{max-width:1280px; padding:2em 4em 4em 4em; margin:0 auto;}
+			table		{table-layout:fixed; overflow-wrap:break-word; word-wrap:break-word;}
+			#table_errors th:nth-child(1)	{width:30%;}	/*	slug	*/
+			#table_errors th:nth-child(3)	{width:40%;}	/*	url	*/
+			#table_counts th:nth-child(2)	{width:20%;}	/*	datatype	*/
+			#table_counts th:nth-child(3)	{width:10%;}	/*	count	*/
+			#table_counts th:nth-child(4)	{width:40%;}	/*	url	*/
+						
+			.dataTable-table > tbody > tr > td,
+			.dataTable-table > tbody > tr > th,
+			.dataTable-table > tfoot > tr > td,
+			.dataTable-table > tfoot > tr > th,
+			.dataTable-table > thead > tr > td,
+			.dataTable-table > thead > tr > th	{padding:4px 10px; border-bottom:1px solid #eee;}
 		</style>
-		<script src="https://cdn.jsdelivr.net/npm/simple-datatables@latest" type="text/javascript"></script>		
+		<script src="https://cdn.jsdelivr.net/npm/simple-datatables@latest" type="text/javascript"></script>	
+		<script>
+			/*	Modified for use. Thank you to Daniel Tillin - https://code.google.com/archive/p/csv-to-array/	*/
+			csvToArray = function (str,o) {
+				var od = {
+					'fSep': ',',
+					'rSep': '\n',
+					'quot': '"',
+					'head': false,
+					'trim': false
+				}
+				if (o) {
+					for (var i in od) {
+						if (!o[i]) o[i] = od[i];
+					}
+				} else {
+					o = od;
+				}
+				var a = [
+					['']
+				];
+				for (var r = f = p = q = 0; p < str.length; p++) {
+					switch (c = str.charAt(p)) {
+					case o.quot:
+						if (q && str.charAt(p + 1) == o.quot) {
+							a[r][f] += o.quot;
+							++p;
+						} else {
+							q ^= 1;
+						}
+						break;
+					case o.fSep:
+						if (!q) {
+							if (o.trim) {
+								a[r][f] = a[r][f].replace(/^\s\s*/, '').replace(/\s\s*$/, '');
+							}
+							a[r][++f] = '';
+						} else {
+							a[r][f] += c;
+						}
+						break;
+					case o.rSep.charAt(0):
+						if (!q && (!o.rSep.charAt(1) || (o.rSep.charAt(1) && o.rSep.charAt(1) == str.charAt(p + 1)))) {
+							if (o.trim) {
+								a[r][f] = a[r][f].replace(/^\s\s*/, '').replace(/\s\s*$/, '');
+							}
+							a[++r] = [''];
+							a[r][f = 0] = '';
+							if (o.rSep.charAt(1)) {
+								++p;
+							}
+						} else {
+							a[r][f] += c;
+						}
+						break;
+					default:
+						a[r][f] += c;
+					}
+				}
+				if (o.head) {
+					a.shift()
+				}
+				if (a[a.length - 1].length < a[0].length) {
+					a.pop()
+				}
+				return a;
+			}
+		</script>	
 	</head>
-	<body>		
-		<table id="table_errors">
-		</table>
-		
+	<body>
+		<div class="head_wrap"><h2>Download and import errors</h2></div>
+		<div class="table_wrap">
+			<table id="table_errors"></table>
+		</div>
+		<div class="head_wrap"><h2>Activity count per dataset</h2></div>
+		<div class="table_wrap">
+			<table id="table_counts"></table>
+		</div>
 
 		<script>
 			fetch("errors.csv")
 			.then(response => response.text())
 			.then(data => {
 				
-				let lines=data.split("\n")
+				let lines=csvToArray(data)
+				
+				console.log(lines)
 				let header
 				let datas=[]
 				
 				for (let line of lines)
-				{
-					let aa=line.split(",")
-					
+				{					
 					if (!header)
 					{
-						header=aa
+						header=line
 					}
 					else
 					{
-						if (aa.length!=1)
+						if (line.length!=1)
 						{
-							datas[datas.length]=aa
+							datas[datas.length]=line
+							line[0]=`<a href="https://iatiregistry.org/dataset/${line[0]}">${line[0]}</a>`
+							line[2]=`<a href="${line[2]}">${line[2]}</a>`
 						}							
 					}
 				}
@@ -47,6 +145,47 @@
 					  headings: header,
 					  data: datas
 					},
+					perPage: 15
+				})
+			})
+		</script>		
+		<script>
+			fetch("counts.csv")
+			.then(response => response.text())
+			.then(data => {
+				
+				let lines=csvToArray(data)
+				let header
+				let datas=[]
+				
+				for (let line of lines)
+				{
+					if (line.length!=4)
+					{
+						console.log(line)
+					}
+					
+					if (!header)
+					{
+						header=line
+					}
+					else
+					{
+						if (line.length!=1)
+						{
+							datas[datas.length]=line
+							line[0]=`<a href="https://iatiregistry.org/dataset/${line[0]}">${line[0]}</a>`
+							line[3]=`<a href="${line[3]}">${line[3]}</a>`
+						}							
+					}
+				}
+												
+				let table = new simpleDatatables.DataTable("#table_counts", {
+					data: {
+					  headings: header,
+					  data: datas
+					},
+					perPage: 15
 				})
 			})
 		</script>

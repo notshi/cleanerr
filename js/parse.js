@@ -31,12 +31,12 @@ parse.run_error=async function()
 			datatype=aa[2]
 			version=aa[4]	
 			
-			console.log(`${slug},${line},${url}`)		
+			console.log(`${slug},${line},"${url}"`)		
 		}
 		
 		if (aa[0]=="dflat:" || aa[0]=="curl:")
 		{
-			console.log(`${slug},${line},${url}`)
+			console.log(`${slug},${line},"${url}"`)
 		}	
 	}	
 }
@@ -67,7 +67,7 @@ parse.run_count=async function()
 			count=aa[1]
 			datatype=aa[2]	
 			
-			console.log(`${slug},${datatype},${count},${url}`)		
+			console.log(`${slug},${datatype},${count},"${url}"`)		
 		}
 	
 	}	
