@@ -129,7 +129,7 @@
 			<table id="table_errors"></table>
 		</div>
 		<div class="table_wrap">
-			<div class="head_wrap"><h2>Activity count per dataset</h2></div>
+			<div class="head_wrap"><h2>Activity or organisation count per dataset</h2></div>
 			<table id="table_counts"></table>
 		</div>
 
@@ -166,6 +166,11 @@
 					  headings: header,
 					  data: datas
 					},
+					labels: {
+						perPage: "{select} datasets per page",
+						info: "Showing {start} to {end} of {rows} datasets",
+					},
+					perPageSelect: [15, 25, 50, 100],
 					perPage: 15
 				})
 			})
@@ -206,6 +211,11 @@
 					  headings: header,
 					  data: datas
 					},
+					labels: {
+						perPage: "{select} datasets per page",
+						info: "Showing {start} to {end} of {rows} datasets",
+					},
+					perPageSelect: [15, 25, 50, 100],
 					perPage: 15
 				})
 			})

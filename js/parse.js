@@ -6,7 +6,7 @@ const fsp=require("fs").promises
 
 parse.run_error=async function()
 {
-	console.log("slug,error,url")
+	console.log("dataset,error,url")
 	
 	let data=await fsp.readFile(__dirname+"/../logs.txt","utf8")
 	let lines=data.split("\n")
@@ -28,9 +28,6 @@ parse.run_error=async function()
 		
 		if (aa[0]=="Converting")
 		{
-			datatype=aa[2]
-			version=aa[4]	
-			
 			console.log(`${slug},${line},"${url}"`)		
 		}
 		
@@ -43,7 +40,7 @@ parse.run_error=async function()
 
 parse.run_count=async function()
 {
-	console.log("slug,type,num,url")
+	console.log("dataset,type,num,url")
 	
 	let data=await fsp.readFile(__dirname+"/../logs.txt","utf8")
 	let lines=data.split("\n")
