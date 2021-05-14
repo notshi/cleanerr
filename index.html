@@ -32,6 +32,21 @@
 			.dataTable-table > tfoot > tr > th,
 			.dataTable-table > thead > tr > td,
 			.dataTable-table > thead > tr > th	{padding:4px 10px; border-bottom:1px solid #eee;}
+			
+			/*	PHONES & STUFF
+				============================================= */
+				
+			@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+			only screen and (-o-min-device-pixel-ratio: 3/2),
+			only screen and (min--moz-device-pixel-ratio: 1.5),
+			only screen and (min-device-pixel-ratio: 1.5) {
+
+			*		{width:100%; height:auto; min-height:1px; max-height:999999px;}
+			body	{font-size:3rem; padding:30px 50px;}
+			.table_wrap	{padding:initial; max-width:initial;}
+			#table_errors th,
+			#table_counts th	{width:initial;}
+			}
 		</style>
 		<script src="https://cdn.jsdelivr.net/npm/simple-datatables@latest" type="text/javascript"></script>	
 		<script>
