@@ -1,0 +1,54 @@
+<!DOCTYPE HTML>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width">
+		<meta name="theme-color" content="#142334">
+		<title>cleanerr: Housekeeping! </title>
+		<link href="https://cdn.jsdelivr.net/npm/simple-datatables@latest/dist/style.css" rel="stylesheet" type="text/css">
+		<style>
+
+		</style>
+		<script src="https://cdn.jsdelivr.net/npm/simple-datatables@latest" type="text/javascript"></script>		
+	</head>
+	<body>		
+		<table id="table_errors">
+		</table>
+		
+
+		<script>
+			fetch("errors.csv")
+			.then(response => response.text())
+			.then(data => {
+				
+				let lines=data.split("\n")
+				let header
+				let datas=[]
+				
+				for (let line of lines)
+				{
+					let aa=line.split(",")
+					
+					if (!header)
+					{
+						header=aa
+					}
+					else
+					{
+						if (aa.length!=1)
+						{
+							datas[datas.length]=aa
+						}							
+					}
+				}
+								
+				let table = new simpleDatatables.DataTable("#table_errors", {
+					data: {
+					  headings: header,
+					  data: datas
+					},
+				})
+			})
+		</script>
+	</body>
+</html>

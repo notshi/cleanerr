@@ -11,4 +11,5 @@ if [ ! -f "logs.txt" ] ; then
 	curl -sS https://raw.githubusercontent.com/xriss/dataiati/main/logs.txt -o logs.txt
 fi
 
-js/cmd.js > errors.csv
+js/cmd.js error > errors.csv
+js/cmd.js count > counts.csv
