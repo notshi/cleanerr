@@ -1,6 +1,6 @@
 ### cleanerr
 
-Converts the logs from https://github.com/xriss/dataiati and displays them as tables.
+Converts the logs from https://github.com/xriss/dataiati and displays them as tables. Logs are updated daily.
 
 There are currently two tables - each row is a dataset.
 
