@@ -1,14 +1,17 @@
 <!DOCTYPE HTML>
-<html lang="en">
+<html id="top" lang="en">
 	<head>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width">
 		<meta name="theme-color" content="#142334">
 		<title>cleanerr - Housekeeping! </title>
 		<link href="https://cdn.jsdelivr.net/npm/simple-datatables@latest/dist/style.css" rel="stylesheet" type="text/css">
+		<!-- Copyright (c) 2021 shi Blank
+			 Licensed under the MIT license whose full text can be found at http://opensource.org/licenses/MIT -->
 		<style>
 			/*! minireset.css v0.0.3 | MIT License | github.com/jgthms/minireset.css */html,body,p,ol,ul,li,dl,dt,dd,blockquote,figure,fieldset,legend,textarea,pre,iframe,hr,h1,h2,h3,h4,h5,h6{margin:0;padding:0}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal}ul{list-style:none}button,input,select,textarea{margin:0}html{box-sizing:border-box}*,*:before,*:after{box-sizing:inherit}img,embed,iframe,object,audio,video{height:auto;max-width:100%}iframe{border:0}table{border-collapse:collapse;border-spacing:0}td,th{padding:0;text-align:left}
 			
+			html	{scroll-behavior:smooth;}
 			body, html	{-webkit-font-smoothing:antialiased; -moz-osx-font-smoothing:grayscale; font-weight:normal; font-style:normal;}
 			body	{background:#fff; font-family:sans-serif; font-size:12px; line-height:1.5em; color:#444;}
 			body	{display:grid; height:100vh; grid-template-rows:auto 1fr auto;}
@@ -17,7 +20,9 @@
 			h3		{font-size:1.3em; font-weight:bold;}
 			a		{text-decoration:none;}
 			p		{margin:1.5em 0;}
+			img		{max-width:100%; height:auto;}
 			.head_wrap	{padding:2em 0; margin:0 auto;}
+			.foot_wrap	{max-width:1280px; padding:2em 4em; margin:0 auto;}
 			.table_wrap	{max-width:1280px; padding:2em 4em 4em 4em; margin:0 auto;}
 			table		{table-layout:fixed; overflow-wrap:break-word; word-wrap:break-word;}
 			#table_errors th:nth-child(1)	{width:30%;}	/*	slug	*/
@@ -25,6 +30,14 @@
 			#table_counts th:nth-child(2)	{width:20%;}	/*	type	*/
 			#table_counts th:nth-child(3)	{width:10%;}	/*	num	*/
 			#table_counts th:nth-child(4)	{width:40%;}	/*	url	*/
+			.foot_wrap	{font-size:14px;}
+			.foot_cont,
+			.foot_cont_right	{box-sizing:border-box; display:inline-block; width:70%; vertical-align:top;}
+			.foot_cont_right	{width:30%;}
+			.foot_cont_right div{font-size:12px;}
+			.foot_cont_right p	{margin:0.5em 0;}
+			.foot_small	{font-size:12px;}
+			.foot_bold	{font-weight:bold;}
 						
 			.dataTable-table > tbody > tr > td,
 			.dataTable-table > tbody > tr > th,
@@ -34,7 +47,7 @@
 			.dataTable-table > thead > tr > th	{padding:4px 10px; border-bottom:1px solid #eee;}
 			
 			/*	Back to top link	*/
-			a.top		{display:block; width:100%; padding:20px 0; text-align:center; font-size:16px; color:#444; -webkit-transition:all .2s ease-in-out; -moz-transition:all .2s ease-in-out; -o-transition:all .2s ease-in-out; -ms-transition:all .2s ease-in-out; transition:all .2s ease-in-out; cursor:pointer;}
+			a.top		{display:block; width:100%; padding:20px 0; text-align:center; font-size:12px; color:#444; cursor:pointer;}
 			a.top:hover	{background-color:#eee;}
 			
 			/*	PHONES & STUFF
@@ -45,9 +58,8 @@
 			only screen and (min--moz-device-pixel-ratio: 1.5),
 			only screen and (min-device-pixel-ratio: 1.5) {
 
-			body		{padding:2vh;}
 			.head_wrap	{padding:1em; margin:0 auto; line-height:2em;}
-			.table_wrap	{padding:initial; max-width:initial;}
+			.table_wrap	{padding:1vh; max-width:initial;}
 			#table_errors th,
 			#table_counts th	{width:initial;}
 			#table_counts th:nth-child(3)	{width:15%; padding:4px 0px 4px 10px;}	/*	num	*/
@@ -223,6 +235,27 @@
 			<div class="head_wrap"><h2>Activity or organisation count per dataset</h2></div>
 			<table id="table_counts"></table>
 		</div>
-		<div class="footer"><a href="#top" class="top">BACK TOP</a></div>
+		<div class="wrap">
+			<div class="foot_wrap">
+				<div class="foot_cont">
+					<div class="foot_bold"><p>About</p></div>
+					<div class="foot_text">
+						Cleaner converts the logs from <a href="https://github.com/xriss/dataiati">DataIATI</a> and displays them as tables. Logs are updated daily.
+					</div>
+					<div class="foot_text">
+						These logs are also available as csv files: [<a href="https://raw.githubusercontent.com/notshi/cleanerr/main/errors.csv">Download Errors</a>] [<a href="https://raw.githubusercontent.com/notshi/cleanerr/main/counts.csv">Download Counts</a>]
+					</div>
+					<div class="foot_bold"><p><a href="http://github.com/notshi/cleanerr">Cleanerr is on Github</a></p></div>
+					<div class="foot_small">Project by Wetgenes, 2021</div>
+				</div><div class="foot_cont_right">
+					<div class="foot_bold"><p>Other tools</p></div>
+					<div class="foot_text"><a href="http://d-preview.codeforiati.org/">d-preview</a></div>
+					<div class="foot_text"><p><a href="https://notshi.github.io/IATIswitcheroo/">IATI Switcheroo</a></p></div>
+					<div class="foot_text"><a href="https://xriss.github.io/freechange-charts/">Freechange</a></div>
+					<div class="foot_text"><p><a href="https://xriss.github.io/D-Portal-Logs/">d-portal logs</a></p></div>
+				</div>
+			</div>
+			<a href="#top" class="top">BACK TOP</a>
+		</div>
 	</body>
 </html>
