@@ -9,9 +9,9 @@
 		<style>
 			/*! minireset.css v0.0.3 | MIT License | github.com/jgthms/minireset.css */html,body,p,ol,ul,li,dl,dt,dd,blockquote,figure,fieldset,legend,textarea,pre,iframe,hr,h1,h2,h3,h4,h5,h6{margin:0;padding:0}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal}ul{list-style:none}button,input,select,textarea{margin:0}html{box-sizing:border-box}*,*:before,*:after{box-sizing:inherit}img,embed,iframe,object,audio,video{height:auto;max-width:100%}iframe{border:0}table{border-collapse:collapse;border-spacing:0}td,th{padding:0;text-align:left}
 			
-			body, html	{-webkit-font-smoothing:antialiased; -moz-osx-font-smoothing:grayscale; width:100%; font-weight:normal; font-style:normal;}
-			body	{background:#fff; font-family:sans-serif; font-size:12px; line-height:1.5em; color:#444; padding:50px; min-width:100%; min-height:100%; display:table;}
-			html	{height:100%;}
+			body, html	{-webkit-font-smoothing:antialiased; -moz-osx-font-smoothing:grayscale; font-weight:normal; font-style:normal;}
+			body	{background:#fff; font-family:sans-serif; font-size:12px; line-height:1.5em; color:#444;}
+			body	{display:grid; height:100vh; grid-template-rows:auto 1fr auto;}
 			h1		{font-size:4em; font-weight:normal; color:#1400ff;}
 			h2		{font-size:2em; font-weight:normal;}
 			h3		{font-size:1.3em; font-weight:bold;}
@@ -32,6 +32,10 @@
 			.dataTable-table > tfoot > tr > th,
 			.dataTable-table > thead > tr > td,
 			.dataTable-table > thead > tr > th	{padding:4px 10px; border-bottom:1px solid #eee;}
+			
+			/*	Back to top link	*/
+			a.top		{display:block; width:100%; padding:20px 0; text-align:center; font-size:16px; color:#444; -webkit-transition:all .2s ease-in-out; -moz-transition:all .2s ease-in-out; -o-transition:all .2s ease-in-out; -ms-transition:all .2s ease-in-out; transition:all .2s ease-in-out; cursor:pointer;}
+			a.top:hover	{background-color:#eee;}
 			
 			/*	PHONES & STUFF
 				============================================= */
@@ -121,18 +125,7 @@
 				}
 				return a;
 			}
-		</script>	
-	</head>
-	<body>
-		<div class="table_wrap">
-			<div class="head_wrap"><h2>Download and import errors</h2></div>
-			<table id="table_errors"></table>
-		</div>
-		<div class="table_wrap">
-			<div class="head_wrap"><h2>Activity or organisation count per dataset</h2></div>
-			<table id="table_counts"></table>
-		</div>
-
+		</script>
 		<script>
 			fetch("errors.csv")
 			.then(response => response.text())
@@ -220,5 +213,16 @@
 				})
 			})
 		</script>
+	</head>
+	<body>
+		<div class="table_wrap">
+			<div class="head_wrap"><h2>Download and import errors</h2></div>
+			<table id="table_errors"></table>
+		</div>
+		<div class="table_wrap">
+			<div class="head_wrap"><h2>Activity or organisation count per dataset</h2></div>
+			<table id="table_counts"></table>
+		</div>
+		<div class="footer"><a href="#top" class="top">BACK TOP</a></div>
 	</body>
 </html>
