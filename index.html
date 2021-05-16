@@ -32,10 +32,10 @@
 			#table_counts th:nth-child(4)	{width:40%;}	/*	url	*/
 			.foot_wrap	{font-size:14px;}
 			.foot_cont,
-			.foot_cont_right	{box-sizing:border-box; display:inline-block; width:70%; vertical-align:top;}
-			.foot_cont_right	{width:30%;}
-			.foot_cont_right div{font-size:12px;}
-			.foot_cont_right p	{margin:0.5em 0;}
+			.foot_cont_right	{box-sizing:border-box; display:inline-block; padding-right:1em; width:70%; vertical-align:top;}
+			.foot_cont_right	{width:30%; padding-right:0;}
+			.foot_cont_right .foot_text 	{font-size:12px;}
+			.foot_cont_right .foot_text p	{margin:0.5em 0;}
 			.foot_small	{font-size:12px;}
 			.foot_bold	{font-weight:bold;}
 						
@@ -59,6 +59,7 @@
 			only screen and (min-device-pixel-ratio: 1.5) {
 
 			.head_wrap	{padding:1em; margin:0 auto; line-height:2em;}
+			.foot_wrap	{padding:2em; font-size:12px;}
 			.table_wrap	{padding:1vh; max-width:initial;}
 			#table_errors th,
 			#table_counts th	{width:initial;}
