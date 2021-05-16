@@ -241,11 +241,18 @@
 				<div class="foot_cont">
 					<div class="foot_bold"><p>About</p></div>
 					<div class="foot_text">
-						Cleaner converts the logs from <a href="https://github.com/xriss/dataiati">DataIATI</a> and displays them as tables. Logs are updated daily.
+						Cleaner converts the logs from <a href="https://github.com/xriss/dataiati">DataIATI</a> and displays them as tables.
 					</div>
 					<div class="foot_text">
 						These logs are also available as csv files: [<a href="https://raw.githubusercontent.com/notshi/cleanerr/main/errors.csv">Download Errors</a>] [<a href="https://raw.githubusercontent.com/notshi/cleanerr/main/counts.csv">Download Counts</a>]
 					</div>
+					<div class="foot_text">
+						Logs are updated daily. Last updated <span id="date"></span>
+					</div>
+					<script>
+						let d = new Date().toUTCString()
+						document.getElementById("date").innerHTML = d.toString();
+					</script>
 					<div class="foot_bold"><p><a href="http://github.com/notshi/cleanerr">Cleanerr is on Github</a></p></div>
 					<div class="foot_small">Project by Wetgenes, 2021</div>
 				</div><div class="foot_cont_right">
