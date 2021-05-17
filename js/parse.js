@@ -6,15 +6,37 @@ const fsp=require("fs").promises
 
 parse.run_error=async function()
 {
-	console.log("dataset,error,url")
+	console.log("dataset,pid,error,url")
 	
 	let data=await fsp.readFile(__dirname+"/../logs.txt","utf8")
 	let lines=data.split("\n")
+	
+	let data_json=await fsp.readFile(__dirname+"/../packages.json","utf8")
+	let j=JSON.parse(data_json)
 	
 	let slug
 	let url
 	let datatype
 	let version
+	let org
+	let orgid
+	
+	let slugs_to_orgid={}
+	
+	Object.getOwnPropertyNames(j).forEach(
+		function (slug, idx, array)
+		{
+			org=j[slug].organization
+			if (org)
+			{
+				orgid=org["name"]
+				if (orgid)
+				{
+					slugs_to_orgid[slug]=orgid
+				}
+			}
+		}
+	)
 	
 	for (let line of lines)
 	{
@@ -23,31 +45,54 @@ parse.run_error=async function()
 		if (aa[0]=="Downloading")
 		{
 			slug=aa[1]
-			url=aa[3]			
+			url=aa[3]
+			orgid=slugs_to_orgid[slug]
 		}
 		
 		if (aa[0]=="Converting")
 		{
-			console.log(`${slug},${line},"${url}"`)		
+			console.log(`${slug},${orgid},${line},"${url}"`)		
 		}
 		
 		if (aa[0]=="dflat:" || aa[0]=="curl:")
 		{
-			console.log(`${slug},${line},"${url}"`)
+			console.log(`${slug},${orgid},${line},"${url}"`)
 		}	
 	}	
 }
 
 parse.run_count=async function()
 {
-	console.log("dataset,type,num,url")
+	console.log("dataset,pid,type,num,url")
 	
 	let data=await fsp.readFile(__dirname+"/../logs.txt","utf8")
 	let lines=data.split("\n")
 	
+	let data_json=await fsp.readFile(__dirname+"/../packages.json","utf8")
+	let j=JSON.parse(data_json)
+	
 	let slug
 	let count
 	let datatype
+	let org
+	let orgid
+	
+	let slugs_to_orgid={}
+	
+	Object.getOwnPropertyNames(j).forEach(
+		function (slug, idx, array)
+		{
+			org=j[slug].organization
+			if (org)
+			{
+				orgid=org["name"]
+				if (orgid)
+				{
+					slugs_to_orgid[slug]=orgid
+				}
+			}
+		}
+	)
 	
 	for (let line of lines)
 	{
@@ -56,7 +101,8 @@ parse.run_count=async function()
 		if (aa[0]=="Downloading")
 		{
 			slug=aa[1]
-			url=aa[3]			
+			url=aa[3]
+			orgid=slugs_to_orgid[slug]		
 		}
 		
 		if (aa[0]=="found")
@@ -64,12 +110,9 @@ parse.run_count=async function()
 			num=aa[1]
 			datatype=aa[2]	
 			
-			console.log(`${slug},${datatype},${num},"${url}"`)		
+			console.log(`${slug},${orgid},${datatype},${num},"${url}"`)		
 		}
 	
 	}	
 }
-
-
-
 

@@ -9,6 +9,7 @@ rm logs.txt
 
 if [ ! -f "logs.txt" ] ; then
 	curl -sS https://raw.githubusercontent.com/xriss/dataiati/main/logs.txt -o logs.txt
+	curl -sS https://raw.githubusercontent.com/devinit/D-Portal/master/dstore/json/packages.json -o packages.json
 fi
 
 js/cmd.js error > errors.csv
