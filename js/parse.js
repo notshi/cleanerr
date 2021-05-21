@@ -1,4 +1,4 @@
-// Copyright (c) 2021 shi Blank
+// Copyright (c) 2021-present, shi Blank
 // Licensed under the MIT license whose full text can be found at http://opensource.org/licenses/MIT
 
 let parse=exports
@@ -54,7 +54,7 @@ parse.run_error=async function()
 			console.log(`${slug},${orgid},${line},"${url}"`)		
 		}
 		
-		if (aa[0]=="dflat:" || aa[0]=="curl:")
+		if (aa[0]=="dflat:") || (aa[0]=="curl:")
 		{
 			console.log(`${slug},${orgid},${line},"${url}"`)
 		}	

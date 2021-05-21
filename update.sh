@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Copyright (c) 2021 shi Blank
+# Copyright (c) 2021-present, shi Blank
 # Licensed under the MIT license whose full text can be found at http://opensource.org/licenses/MIT
 
 dirname=$( dirname "$(readlink -f "$0")" )

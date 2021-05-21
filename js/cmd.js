@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-// Copyright (c) 2021 shi Blank
+// Copyright (c) 2021-present, shi Blank
 // Licensed under the MIT license whose full text can be found at http://opensource.org/licenses/MIT
 
 let cmd=exports
@@ -18,7 +18,7 @@ cmd.run=async function()
 	else
 	{
 		console.log(`
-Use error to parse error or count to parse count.
+Type error or count after cmd.js to run the code
 `)
 	}
 }

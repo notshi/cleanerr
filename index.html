@@ -6,14 +6,14 @@
 		<meta name="theme-color" content="#142334">
 		<title>cleanerr - Housekeeping! </title>
 		<link href="https://cdn.jsdelivr.net/npm/simple-datatables@latest/dist/style.css" rel="stylesheet" type="text/css">
-		<!-- Copyright (c) 2021 shi Blank
+		<!-- Copyright (c) 2021-present, shi Blank
 			 Licensed under the MIT license whose full text can be found at http://opensource.org/licenses/MIT -->
 		<style>
 			/*! minireset.css v0.0.3 | MIT License | github.com/jgthms/minireset.css */html,body,p,ol,ul,li,dl,dt,dd,blockquote,figure,fieldset,legend,textarea,pre,iframe,hr,h1,h2,h3,h4,h5,h6{margin:0;padding:0}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal}ul{list-style:none}button,input,select,textarea{margin:0}html{box-sizing:border-box}*,*:before,*:after{box-sizing:inherit}img,embed,iframe,object,audio,video{height:auto;max-width:100%}iframe{border:0}table{border-collapse:collapse;border-spacing:0}td,th{padding:0;text-align:left}
 			
 			html	{scroll-behavior:smooth;}
 			body, html	{-webkit-font-smoothing:antialiased; -moz-osx-font-smoothing:grayscale; font-weight:normal; font-style:normal;}
-			body	{background:#fff; font-family:sans-serif; font-size:12px; line-height:1.5em; color:#444;}
+			body	{background:#f2f2f2; font-family:sans-serif; font-size:12px; line-height:1.5em; color:#444;}
 			body	{display:grid; height:100vh; grid-template-rows:auto 1fr auto;}
 			h1		{font-size:4em; font-weight:normal; color:#1400ff;}
 			h2		{font-size:2em; font-weight:normal;}
@@ -21,15 +21,20 @@
 			a		{text-decoration:none;}
 			p		{margin:0.5em 0;}
 			img		{max-width:100%; height:auto;}
-			.head_wrap	{padding:2em 0; margin:0 auto;}
-			.foot_wrap	{max-width:1280px; padding:2em 4em; margin:0 auto;}
-			.table_wrap	{max-width:1280px; padding:2em 4em 4em 4em; margin:0 auto;}
-			table		{table-layout:fixed; overflow-wrap:break-word; word-wrap:break-word;}
+			.wrap	{background:#fff;}
+			.head_wrap	{padding:2em 0 0 0; margin:0 auto;}
+			.head_wrap.no_options	{padding-bottom:3em;}
+			.foot_wrap,
+			.table_wrap	{max-width:1280px; padding:2em 4em; margin:0 auto;}
+			table		{table-layout:fixed; overflow:hidden; overflow-wrap:break-word; word-wrap:break-word;}
 			#table_errors th:nth-child(3)	{width:25%;}	/*	error	*/
 			#table_errors th:nth-child(4)	{width:40%;}	/*	url	*/
 			#table_counts th:nth-child(3)	{width:15%;}	/*	type	*/
 			#table_counts th:nth-child(4)	{width:10%;}	/*	num	*/
 			#table_counts th:nth-child(5)	{width:40%;}	/*	url	*/
+			#table_errors_counts th:nth-child(1)	{width:18%;}	/*	count	*/
+			#table_errors_counts th:nth-child(3)	{width:50%;}	/*	description	*/
+			#table_counts_counts th:nth-child(1)	{width:18%;}	/*	count	*/
 			.foot_wrap	{font-size:14px;}
 			.foot_cont,
 			.foot_cont_right	{box-sizing:border-box; display:inline-block; padding-right:1em; width:70%; vertical-align:top;}
@@ -39,7 +44,27 @@
 			.foot_bold	{font-weight:bold;}
 			.foot_bold p{margin:1.5em 0;}
 			span#date	{font-style:italic;}
+			
+			/*	Table style	*/
+			table.dataTable-table	{border-radius:4px; border-bottom:0;}
+			
+			/*	Table alternate rows highlight	*/
+			.dataTable-table tr:nth-child(2n)	{background-color:#F8F8F8;}
+			.dataTable-table tr:nth-child(2n+1)	{background-color:#fff;}
+			
+			/*	Table header	*/
+			.dataTable-sorter::before	{border-top:4px solid #fff; bottom:4px;}
+			.dataTable-sorter::after	{border-bottom:4px solid #fff; top:-1px;}
+			.dataTable-sorter::before,
+			.dataTable-sorter::after	{opacity:1;}
+			.dataTable-table > thead > tr > th	{background-color:#3744ff; color:#fff; text-transform:uppercase; font-size:10px;}
+			.dataTable-table > thead > tr > th:hover	{background-color:#5E68FF;}
+			
+			/*	Table footer	*/
+			.dataTable-wrapper.no-footer .dataTable-container	{border:0;}
+			.show_info .dataTable-bottom > div:last-child	{float:left;}
 						
+			/*	Table grid	*/
 			.dataTable-table > tbody > tr > td,
 			.dataTable-table > tbody > tr > th,
 			.dataTable-table > tfoot > tr > td,
@@ -47,9 +72,20 @@
 			.dataTable-table > thead > tr > td,
 			.dataTable-table > thead > tr > th	{padding:4px 10px; border-bottom:1px solid #eee;}
 			
+			/*	Table top bar	*/
+			.dataTable-top	{margin-top:-3em;}
+			
+			/*	Table dropdown	*/
+			.dataTable-selector {padding:2px 0px; margin-right:5px;}
+			.dataTable-dropdown {padding-bottom:1em;}
+			
+			/*	Table search bar	*/
+			.dataTable-top > div:first-child	{float:right;}
+			.dataTable-top > div:last-child		{padding-right:1em;}
+			
 			/*	Back to top link	*/
 			a.top		{display:block; width:100%; padding:20px 0; text-align:center; font-size:12px; color:#444; cursor:pointer;}
-			a.top:hover	{background-color:#eee;}
+			a.top:hover	{background-color:#F8F8F8;}
 			
 			/*	PHONES & STUFF
 				============================================= */
@@ -62,20 +98,30 @@
 			.head_wrap	{padding:1em; margin:0 auto; line-height:2em;}
 			.foot_wrap	{padding:2em; font-size:12px;}
 			.table_wrap	{padding:1vh; max-width:initial;}
+			#table_errors_counts th,
+			#table_counts_counts th,
 			#table_errors th,
 			#table_counts th	{width:initial;}
 			#table_counts th:nth-child(4)	{width:15%; padding:4px 0px 4px 10px;}	/*	num	*/
 			#table_errors th:nth-child(4),
-			#table_counts th:nth-child(5)	{width:25%;}	/*	url	*/
-			span#date	{display:block; padding-top:1em;
-			
+			#table_counts th:nth-child(5)	{width:20%;}	/*	url	*/
+			#table_counts th:nth-child(3)	{width:20%;}
+			#table_counts th:nth-child(2)	{width:15%;}
+			#table_counts th:nth-child(1)	{width:25%;}
+			#table_counts_counts th:nth-child(1),
+			#table_errors_counts th:nth-child(1) {width:25%;}
+			span#date	{display:block; padding-top:1em;}
+			.head_wrap.no_options {padding-bottom:1em;}
+				
+			.dataTable-top	{margin-top:-1em;}
+			.dataTable-top > div:first-child,
 			.dataTable-top > nav:last-child,
 			.dataTable-top > div:last-child,
 			.dataTable-bottom > nav:last-child,
 			.dataTable-bottom > div:last-child {float:none;}
 			}
 		</style>
-		<script src="https://cdn.jsdelivr.net/npm/simple-datatables@latest" type="text/javascript"></script>	
+		<script src="https://cdn.jsdelivr.net/npm/simple-datatables@latest" type="text/javascript"></script>
 		<script>
 			/*	Modified for use. Thank you to Daniel Tillin - https://code.google.com/archive/p/csv-to-array/	*/
 			csvToArray = function (str,o) {
@@ -147,10 +193,15 @@
 			fetch("errors.csv")
 			.then(response => response.text())
 			.then(data => {
+			fetch("http_codes.json")
+			.then(response => response.json())
+			.then(http_codes => {
 				
 				let lines=csvToArray(data)
 				let header
 				let datas=[]
+				let counts={}
+				let tableErrors=[]
 				
 				for (let line of lines)
 				{					
@@ -166,10 +217,43 @@
 							line[0]=`<a href="https://iatiregistry.org/dataset/${line[0]}">${line[0]}</a>`
 							line[1]=`<a href="https://iatiregistry.org/publisher/${line[1]}">${line[1]}</a>`
 							line[3]=`<a href="${line[3]}">${line[3]}</a>`
+							
+							let v = line[2]
+							counts[v] = (counts[v] || 0) + 1
 						}							
 					}
 				}
 								
+				for (let error in counts)
+				{
+					let aa = error.split(" ")
+					
+					if (aa[0]=="curl:")
+					{
+						let code=aa[3]
+						let response=http_codes[code][0]
+						let description=http_codes[code][1]
+						tableErrors[tableErrors.length] = [counts[error],error,`${code} ${response} : ${description}`]
+					}
+					else
+					{
+						if (aa[0]=="Converting")
+						{
+							tableErrors[tableErrors.length] = [counts[error],error,"These datasets have been converted to version 2.03 of the IATI Standard."]		
+						}
+						
+						if (aa[0]=="dflat:")
+						{
+							tableErrors[tableErrors.length] = [counts[error],error,"There has been an error parsing these datasets."]		
+						}
+					}	
+				}
+				
+				tableErrors.sort(function(a,b)
+				{
+					return b[0] - a[0];
+				})
+				
 				let table = new simpleDatatables.DataTable("#table_errors", {
 					data: {
 					  headings: header,
@@ -182,8 +266,22 @@
 					perPageSelect: [15, 25, 50, 100],
 					perPage: 15
 				})
+				
+				let tableErrorCount = new simpleDatatables.DataTable("#table_errors_counts", {
+					data: {
+					  headings: ["dataset","error","description"],
+					  data: tableErrors
+					},
+					labels: {
+						perPage: "{select} errors per page",
+						info: "Showing {start} to {end} of {rows} errors",
+					},
+					perPageSelect: [15, 25, 50, 100],
+					perPage: 15
+				})
 			})
-		</script>		
+			})
+		</script>	
 		<script>
 			fetch("counts.csv")
 			.then(response => response.text())
@@ -192,6 +290,8 @@
 				let lines=csvToArray(data)
 				let header
 				let datas=[]
+				let counts={}
+				let tableCounts=[]
 				
 				for (let line of lines)
 				{
@@ -207,6 +307,10 @@
 							line[0]=`<a href="https://iatiregistry.org/dataset/${line[0]}">${line[0]}</a>`
 							line[1]=`<a href="https://iatiregistry.org/publisher/${line[1]}">${line[1]}</a>`
 							line[4]=`<a href="${line[4]}">${line[4]}</a>`
+							
+							let v = line[2]
+							let x = line[3]
+							counts[v] = (counts[v] || 0) + parseInt(x)
 						}							
 					}
 				}
@@ -223,6 +327,27 @@
 					perPageSelect: [15, 25, 50, 100],
 					perPage: 15
 				})
+				
+				for (let file in counts)
+				{
+					tableCounts[tableCounts.length] = [counts[file],file]
+				}
+				
+				tableCounts.sort(function(a,b)
+				{
+					return b[0] - a[0];
+				})
+				
+				let tableCountCount = new simpleDatatables.DataTable("#table_counts_counts", {
+					data: {
+					  headings: ["count","type"],
+					  data: tableCounts
+					},
+					layout: {
+						top: "",
+						bottom: ""
+					}
+				})
 			})
 		</script>
 	</head>
@@ -230,6 +355,14 @@
 		<div class="table_wrap">
 			<div class="head_wrap"><h2>Download and import errors</h2></div>
 			<table id="table_errors"></table>
+		</div>
+		<div class="table_wrap show_info">
+			<div class="head_wrap"><h2>Error count</h2></div>
+			<table id="table_errors_counts"></table>
+		</div>
+		<div class="table_wrap">
+			<div class="head_wrap no_options"><h2>File type count</h2></div>
+			<table id="table_counts_counts"></table>
 		</div>
 		<div class="table_wrap">
 			<div class="head_wrap"><h2>Activity or organisation count per dataset</h2></div>
@@ -253,7 +386,7 @@
 						document.getElementById("date").innerHTML = "Last updated "+d.toString();
 					</script>
 					<div class="foot_bold"><p><a href="http://github.com/notshi/cleanerr">Cleanerr is on Github</a></p></div>
-					<div class="foot_small">Project by Wetgenes, 2021</div>
+					<div class="foot_small">Project by Wetgenes, 2021-present</div>
 				</div><div class="foot_cont_right">
 					<div class="foot_bold"><p>Other tools</p></div>
 					<div class="foot_text"><a href="http://d-preview.codeforiati.org/">d-preview</a></div>
