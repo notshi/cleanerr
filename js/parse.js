@@ -54,30 +54,6 @@ parse.run_error=async function()
 			console.log(`${slug},${orgid},${line},"${url}"`)		
 		}
 		
-		if (aa[0]=="dflat:" || (aa[0]=="curl:")
-		{
-			console.log(`${slug},${orgid},${line},"${url}"`)
-		}	
-	}	
-}
-
-
-	for (let line of lines)
-	{
-		let aa=line.split(" ")
-		
-		if (aa[0]=="Downloading")
-		{
-			slug=aa[1]
-			url=aa[3]
-			orgid=slugs_to_orgid[slug]
-		}
-		
-		if (aa[0]=="Converting")
-		{
-			console.log(`${slug},${orgid},${line},"${url}"`)		
-		}
-		
 		if (aa[0]=="dflat:" || aa[0]=="curl:")
 		{
 			console.log(`${slug},${orgid},${line},"${url}"`)
