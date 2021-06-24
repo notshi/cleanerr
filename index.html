@@ -220,6 +220,14 @@
 							line[3]=`<a href="${line[3]}">${line[3]}</a>`
 							
 							let v = line[2]
+							let aa = v.split(" ")
+							
+							if (aa[0]=="restored")
+							{
+								aa[1]="(number)"
+							}
+							
+							v=aa.join(" ")
 							counts[v] = (counts[v] || 0) + 1
 						}							
 					}
@@ -250,7 +258,7 @@
 						
 						if (aa[0]=="restored")
 						{
-							tableErrors[tableErrors.length] = [counts[error],"restored (number) files","Due to current errors, previous successfully parsed files have been restored instead."]		
+							tableErrors[tableErrors.length] = [counts[error],error,"Due to current errors, previous successfully parsed files have been restored instead."]		
 						}
 					}	
 				}
