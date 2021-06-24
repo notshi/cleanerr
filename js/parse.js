@@ -20,6 +20,7 @@ parse.run_error=async function()
 	let version
 	let org
 	let orgid
+	let restore
 	
 	let slugs_to_orgid={}
 	
@@ -49,15 +50,20 @@ parse.run_error=async function()
 			orgid=slugs_to_orgid[slug]
 		}
 		
+		if (aa[0]=="restored")
+		{
+			restore=aa[1]		
+		}	
+		
 		if (aa[0]=="Converting")
 		{
 			console.log(`${slug},${orgid},${line},"${url}"`)		
 		}
 		
-		if (aa[0]=="dflat:" || aa[0]=="curl:")
+		if (aa[0]=="dflat:" || aa[0]=="curl:" || aa[0]=="restored")
 		{
 			console.log(`${slug},${orgid},${line},"${url}"`)
-		}	
+		}
 	}	
 }
 
@@ -76,6 +82,7 @@ parse.run_count=async function()
 	let datatype
 	let org
 	let orgid
+	let restore
 	
 	let slugs_to_orgid={}
 	
@@ -105,10 +112,11 @@ parse.run_count=async function()
 			orgid=slugs_to_orgid[slug]		
 		}
 		
-		if (aa[0]=="found")
+		if (aa[0]=="found" || aa[0]=="restored")
 		{
 			num=aa[1]
 			datatype=aa[2]	
+			restore=aa[1]
 			
 			console.log(`${slug},${orgid},${datatype},${num},"${url}"`)		
 		}

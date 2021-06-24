@@ -24,6 +24,7 @@
 			.wrap	{background:#fff;}
 			.head_wrap	{padding:2em 0 0 0; margin:0 auto;}
 			.head_wrap.no_options	{padding-bottom:3em;}
+			.info_wrap	{padding-left:7px;}
 			.foot_wrap,
 			.table_wrap	{max-width:1280px; padding:2em 4em; margin:0 auto;}
 			table		{table-layout:fixed; overflow:hidden; overflow-wrap:break-word; word-wrap:break-word;}
@@ -246,6 +247,11 @@
 						{
 							tableErrors[tableErrors.length] = [counts[error],error,"There has been an error parsing these datasets."]		
 						}
+						
+						if (aa[0]=="restored")
+						{
+							tableErrors[tableErrors.length] = [counts[error],"restored (number) files","Due to current errors, previous successfully parsed files have been restored instead."]		
+						}
 					}	
 				}
 				
@@ -363,6 +369,11 @@
 		<div class="table_wrap">
 			<div class="head_wrap no_options"><h2>File type count</h2></div>
 			<table id="table_counts_counts"></table>
+			<div class="info_wrap">
+				<div><b>Activities</b> refer to total number of activities that have been downloaded and parsed successfully during the nightly import.</div>
+				<div><b>Files</b> refer to total number of restored files due to current parsing errors during the nightly import.</div>
+				<div><b>Organisations</b> refer to total number of publishers (PID) derived from the data.</div>
+			</div>
 		</div>
 		<div class="table_wrap">
 			<div class="head_wrap"><h2>Activity or organisation count per dataset</h2></div>
