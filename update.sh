@@ -12,5 +12,6 @@ if [ ! -f "logs.txt" ] ; then
 	curl -sS https://raw.githubusercontent.com/devinit/D-Portal/master/dstore/json/packages.json -o packages.json
 fi
 
+date > date.txt
 js/cmd.js error > errors.csv
 js/cmd.js count > counts.csv
