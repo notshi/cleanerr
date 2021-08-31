@@ -62,5 +62,13 @@
 "507":["Insufficient Storage (WebDAV)","The method could not be performed on the resource because the server is unable to store the representation needed to successfully complete the request."],
 "508":["Loop Detected (WebDAV)","The server detected an infinite loop while processing the request."],
 "510":["Not Extended","Further extensions to the request are required for the server to fulfill it."],
-"511":["Network Authentication Required","The 511 status code indicates that the client needs to authenticate to gain network access."]
+"511":["Network Authentication Required","The 511 status code indicates that the client needs to authenticate to gain network access."],
+"520":["Web server returns an unknown error","Origin server returns an empty, unknown, or unexpected response to Cloudflare. https://support.cloudflare.com/hc/en-us/articles/115003011431"],
+"521":["Web server is down","The origin web server refuses connections from Cloudflare. https://support.cloudflare.com/hc/en-us/articles/115003011431"],
+"522":["Connection timed out","Cloudflare times out contacting the origin web server. https://support.cloudflare.com/hc/en-us/articles/115003011431"],
+"523":["Origin is unreachable","Cloudflare cannot contact your origin web server. https://support.cloudflare.com/hc/en-us/articles/115003011431"],
+"524":["A timeout occurred","Cloudflare successfully connected to the origin web server, but the origin did not provide an HTTP response before the default 100 second connection timed out. https://support.cloudflare.com/hc/en-us/articles/115003011431"],
+"525":["SSL handshake failed","Cloudflare configuration issue on the origin web server. https://support.cloudflare.com/hc/en-us/articles/115003011431"],
+"526":["Invalid SSL certificate","Cloudflare cannot validate the SSL certificate at your origin web server. https://support.cloudflare.com/hc/en-us/articles/115003011431"],
+"527":["Railgun Listener to origin error","Interrupted connection between Cloudflare and your origin's Railgun server (rg-listener). https://support.cloudflare.com/hc/en-us/articles/115003011431"]
 }

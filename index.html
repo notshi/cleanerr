@@ -241,8 +241,9 @@
 					if (aa[0]=="curl:")
 					{
 						let code=aa[3]
-						let response=http_codes[code][0]
-						let description=http_codes[code][1]
+						let it=http_codes[code] || ["Unknown Error","Description unknown. Please check the internet."]
+						let response=it[0]
+						let description=it[1]
 						tableErrors[tableErrors.length] = [counts[error],error,`${code} ${response} : ${description}`]
 					}
 					else
@@ -365,6 +366,14 @@
 				})
 			})
 		</script>
+		<script>
+			fetch("date.txt")
+			.then(response => response.text())
+			.then(data => {
+				let d = data
+				document.getElementById("date").innerHTML = "Last updated "+d.toString();
+			})
+		</script>
 	</head>
 	<body>
 		<div class="table_wrap">
@@ -401,10 +410,6 @@
 					<div class="foot_text">
 						<p>Logs are updated daily. <span id="date"></span></p>
 					</div>
-					<script>
-						let d = new Date().toUTCString()
-						document.getElementById("date").innerHTML = "Last updated "+d.toString();
-					</script>
 					<div class="foot_bold"><p><a href="http://github.com/notshi/cleanerr">Cleanerr is on Github</a></p></div>
 					<div class="foot_small">Project by Wetgenes, 2021-present</div>
 				</div><div class="foot_cont_right">
