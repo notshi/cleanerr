@@ -10,6 +10,8 @@ rm logs.txt
 if [ ! -f "logs.txt" ] ; then
 	curl -sS https://raw.githubusercontent.com/xriss/dataiati/main/logs.txt -o logs.txt
 	curl -sS https://raw.githubusercontent.com/devinit/D-Portal/master/dstore/json/packages.json -o packages.json
+	curl -sS https://github.com/xriss/dataiati/blob/main/json/organisation-identifiers.errors.json -o organisation-identifiers.errors.json
+	curl -sS https://github.com/xriss/dataiati/blob/main/json/activity-identifiers.errors.json -o activity-identifiers.errors.json
 fi
 
 date > date.txt
