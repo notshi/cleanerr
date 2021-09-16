@@ -6,7 +6,7 @@ const fsp=require("fs").promises
 
 parse.run_error=async function()
 {
-	console.log("dataset,pid,error,url")
+	console.log("dataset,pub,error,url")
 	
 	let data=await fsp.readFile(__dirname+"/../logs.txt","utf8")
 	let lines=data.split("\n")
@@ -69,7 +69,7 @@ parse.run_error=async function()
 
 parse.run_count=async function()
 {
-	console.log("dataset,pid,type,num,url")
+	console.log("dataset,pub,type,num,url")
 	
 	let data=await fsp.readFile(__dirname+"/../logs.txt","utf8")
 	let lines=data.split("\n")

@@ -6,26 +6,19 @@ const fsp=require("fs").promises
 
 parse.run=async function()
 {
-	console.log("dataset,pid")
 
-	let data=await fsp.readFile(__dirname+"/../packages.json","utf8")
+	let data=await fsp.readFile(__dirname+"/../organisation-identifiers.errors.json","utf8")
 	let aa=JSON.parse(data)
 	
 	let org
-	let orgid
+	let dataset
 	
 	Object.getOwnPropertyNames(aa).forEach(
 		function (slug, idx, array)
 		{
-			org=aa[slug].organization
-			if (org)
-			{
-				orgid=org["name"]
-				if (orgid)
-				{
-					console.log(`${slug},${orgid}`);
-				}
-			}
+			org=aa[slug]
+			dataset=org[]
+			console.log(`${slug},${dataset}`);
 		}
 	)
 }

@@ -16,9 +16,14 @@ cmd.run=async function()
 		await require("./parse.js").run_count()	
 	}
 	else
+	if (process.argv[2]=="json")
+	{
+		await require("./parse_json.js").run()
+	}
+	else
 	{
 		console.log(`
-Type error or count after cmd.js to run the code
+Type error or count or json after cmd.js to run the code
 `)
 	}
 }
