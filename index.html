@@ -24,16 +24,23 @@
 			.wrap	{background:#fff;}
 			.head_wrap	{padding:2em 0 0 0; margin:0 auto;}
 			.head_wrap.no_options	{padding-bottom:3em;}
-			.info_wrap	{padding-left:7px;}
+			.info_wrap	{padding:2em 0 0 7px;}
 			.foot_wrap,
 			.table_wrap	{max-width:1280px; padding:2em 4em; margin:0 auto;}
 			.table_wrap	{font-size:12px; line-height:1.5em;}
+			.table_wrap.no_bottom .dataTable-bottom	{display:none;}
 			.legend_wrap{padding:2em 0;}
 			table		{table-layout:fixed; overflow:hidden; overflow-wrap:break-word; word-wrap:break-word;}
+			table.total_duplicates,
 			table.legend	{width:100%;}
-			table.legend tr:nth-child(2n) {background-color:#F8F8F8;}
+			table.total_duplicates tr:nth-child(2n+1),
+			table.legend tr:nth-child(2n)	{background-color:#F8F8F8;}
+			table.total_duplicates tr:nth-child(2n),
 			table.legend tr:nth-child(2n+1) {background-color:#fff;}
+			table.total_duplicates td,
 			table.legend td {padding:4px 10px; border-top:1px solid #eee;}
+			table.total_duplicates tr:first-child td	{border:0;}
+			table.total_duplicates td:nth-child(2n)		{width:82%;}	/*	legend description	*/
 			table.legend td:nth-child(2n)	{width:80%;}	/*	legend description	*/
 			#aid_errors   th:nth-child(2)	{width:10%;}	/*	count	*/
 			#aid_errors   th:nth-child(3)	{width:70%;}	/*	datasets	*/
@@ -47,6 +54,7 @@
 			#table_errors_counts th:nth-child(1)	{width:18%;}	/*	count	*/
 			#table_errors_counts th:nth-child(3)	{width:50%;}	/*	description	*/
 			#table_counts_counts th:nth-child(1)	{width:18%;}	/*	count	*/
+			#table_counts_counts td	{text-transform:capitalize;}
 			.foot_wrap	{font-size:14px;}
 			.foot_cont,
 			.foot_cont_right	{box-sizing:border-box; display:inline-block; padding-right:1em; width:70%; vertical-align:top;}
@@ -389,6 +397,7 @@
 				
 				let datas=[]
 				let header=["pid","count","datasets"]
+				let total=0
 				
 				for (let id in data)
 				{
@@ -400,9 +409,12 @@
 						aa.push(`<a href="https://iatiregistry.org/dataset/${ab[0]}" target="_blank">${ab[0]}</a>`)
 					}
 					
+					total = total + data[id].length - 1
+					
 					datas.push([id,data[id].length,aa.join(" , ")])
 				}
 
+				document.getElementById("total_pid_duplicates").innerHTML = total.toString();
 				
 				let table = new simpleDatatables.DataTable("#orgid_errors", {
 					data: {
@@ -426,6 +438,7 @@
 				
 				let datas=[]
 				let header=["aid","count","datasets"]
+				let total=0
 				
 				for (let id in data)
 				{
@@ -437,9 +450,12 @@
 						aa.push(`<a href="https://iatiregistry.org/dataset/${ab[0]}" target="_blank">${ab[0]}</a>`)
 					}
 					
+					total = total + data[id].length - 1
+					
 					datas.push([id,data[id].length,aa.join(" , ")])
 				}
-
+				
+				document.getElementById("total_aid_duplicates").innerHTML = total.toString();
 				
 				let table = new simpleDatatables.DataTable("#aid_errors", {
 					data: {
@@ -482,13 +498,17 @@
 			<div class="head_wrap"><h2>Error count</h2></div>
 			<table id="table_errors_counts"></table>
 		</div>
-		<div class="table_wrap">
+		<div class="table_wrap no_bottom">
 			<div class="head_wrap no_options"><h2>File type total count</h2></div>
 			<table id="table_counts_counts"></table>
+			<table class="total_duplicates">
+				<tr><td><div id="total_pid_duplicates"></div></td><td>Total number of duplicate organisation identifiers</td></tr>
+				<tr><td><div id="total_aid_duplicates"></div></td><td>Total number of duplicate activity identifiers</td></tr>
+			</table>
 			<div class="info_wrap">
-				<div><b>Activities</b> refer to total number of activities that have been downloaded and parsed successfully during the nightly import.</div>
+				<div><b>Activities</b> refer to total number of activities that have been downloaded and parsed successfully during the nightly import. Includes duplicate data.</div>
 				<div><b>Files</b> refer to total number of restored files due to current parsing errors during the nightly import.</div>
-				<div><b>Organisations</b> refer to total number of publisher identifiers (PID) derived from the data.</div>
+				<div><b>Organisations</b> refer to total number of organisations derived from the data. Includes duplicate data.</div>
 			</div>
 		</div>
 		<div class="table_wrap">
