@@ -15,6 +15,6 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          email: plated@github.actions
-          build_dir: docs
+          email: cleanerr@github.actions
+          build_dir: ./
           jekyll: no
