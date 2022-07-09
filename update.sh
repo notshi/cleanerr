@@ -5,6 +5,7 @@
 dirname=$( dirname "$(readlink -f "$0")" )
 cd "$dirname"
 
+ls
 rm logs.txt
 
 if [ ! -f "logs.txt" ] ; then
