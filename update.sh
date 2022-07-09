@@ -5,15 +5,15 @@
 dirname=$( dirname "$(readlink -f "$0")" )
 cd "$dirname"
 
-ls
-rm logs.txt
+# ls
+# rm logs.txt
 
-if [ ! -f "logs.txt" ] ; then
+# if [ ! -f "logs.txt" ] ; then
 	curl -sS https://raw.githubusercontent.com/xriss/dataiati/main/logs.txt -o logs.txt
 	curl -sS https://raw.githubusercontent.com/devinit/D-Portal/master/dstore/json/packages.json -o packages.json
 	curl -sS https://raw.githubusercontent.com/xriss/dataiati/main/json/organisation-identifiers.errors.json -o organisation-identifiers.errors.json
 	curl -sS https://raw.githubusercontent.com/xriss/dataiati/main/json/activity-identifiers.errors.json -o activity-identifiers.errors.json
-fi
+# fi
 
 date > date.txt
 js/cmd.js error > errors.csv
