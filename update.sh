@@ -10,9 +10,13 @@ cd "$dirname"
 
 # if [ ! -f "logs.txt" ] ; then
 	curl --show-error --silent https://raw.githubusercontent.com/xriss/dataiati/main/logs.txt -o logs.txt
+	echo 1
 	curl --show-error --silent https://raw.githubusercontent.com/devinit/D-Portal/master/dstore/json/packages.json -o packages.json
+	echo 2
 	curl --show-error --silent https://raw.githubusercontent.com/xriss/dataiati/main/json/organisation-identifiers.errors.json -o organisation-identifiers.errors.json
+	echo 3
 	curl --show-error --silent https://raw.githubusercontent.com/xriss/dataiati/main/json/activity-identifiers.errors.json -o activity-identifiers.errors.json
+	echo 4
 # fi
 
 date > date.txt
