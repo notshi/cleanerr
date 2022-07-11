@@ -17,6 +17,7 @@ cd "$dirname"
 	echo 3
 	curl --show-error --silent https://raw.githubusercontent.com/xriss/dataiati/main/json/activity-identifiers.errors.json -o activity-identifiers.errors.json
 	echo 4
+	cat logs.txt
 # fi
 
 date > date.txt
