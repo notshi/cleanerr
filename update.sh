@@ -17,9 +17,12 @@ cd "$dirname"
 	echo 3
 	curl --show-error --silent https://raw.githubusercontent.com/xriss/dataiati/main/json/activity-identifiers.errors.json -o activity-identifiers.errors.json
 	echo 4
-	cat logs.txt
+	# cat logs.txt
 # fi
 
 date > date.txt
+echo 5
 js/cmd.js error > errors.csv
+echo 6
 js/cmd.js count > counts.csv
+echo 7
