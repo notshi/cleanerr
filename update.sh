@@ -26,3 +26,4 @@ js/cmd.js error > errors.csv
 echo 6
 js/cmd.js count > counts.csv
 echo 7
+cat date
