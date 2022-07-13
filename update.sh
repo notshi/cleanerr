@@ -13,4 +13,3 @@ curl --show-error --silent https://raw.githubusercontent.com/xriss/dataiati/main
 date > date.txt
 js/cmd.js error > errors.csv
 js/cmd.js count > counts.csv
-date
