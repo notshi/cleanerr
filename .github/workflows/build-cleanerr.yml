@@ -1,8 +1,7 @@
 name: Build Cleanerr
 on:
   schedule:
-    # * is a special character in YAML so you have to quote this string
-    - cron:  '35 20 * * *'
+    - cron:  '35 08 * * *'
 jobs:
   Build-Cleanerr:
     runs-on: ubuntu-latest
