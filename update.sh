@@ -5,25 +5,12 @@
 dirname=$( dirname "$(readlink -f "$0")" )
 cd "$dirname"
 
-# ls
-# rm logs.txt
-
-# if [ ! -f "logs.txt" ] ; then
-	curl --show-error --silent https://raw.githubusercontent.com/xriss/dataiati/main/logs.txt -o logs.txt
-	echo 1
-	curl --show-error --silent https://raw.githubusercontent.com/devinit/D-Portal/master/dstore/json/packages.json -o packages.json
-	echo 2
-	curl --show-error --silent https://raw.githubusercontent.com/xriss/dataiati/main/json/organisation-identifiers.errors.json -o organisation-identifiers.errors.json
-	echo 3
-	curl --show-error --silent https://raw.githubusercontent.com/xriss/dataiati/main/json/activity-identifiers.errors.json -o activity-identifiers.errors.json
-	echo 4
-	# cat logs.txt
-# fi
+curl --show-error --silent https://raw.githubusercontent.com/xriss/dataiati/main/logs.txt -o logs.txt
+curl --show-error --silent https://raw.githubusercontent.com/devinit/D-Portal/master/dstore/json/packages.json -o packages.json
+curl --show-error --silent https://raw.githubusercontent.com/xriss/dataiati/main/json/organisation-identifiers.errors.json -o organisation-identifiers.errors.json
+curl --show-error --silent https://raw.githubusercontent.com/xriss/dataiati/main/json/activity-identifiers.errors.json -o activity-identifiers.errors.json
 
 date > date.txt
-echo 5
 js/cmd.js error > errors.csv
-echo 6
 js/cmd.js count > counts.csv
-echo 7
 date
