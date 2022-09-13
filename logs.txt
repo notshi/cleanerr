@@ -2843,7 +2843,7 @@ found 81 activities
 
 Downloading arcfge-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/arcfge-activities.xml
 Parsing arcfge-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/arcfge-activities.xml
-found 34 activities
+found 41 activities
 
 Downloading arcfge-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/arcfge-org.xml
 Parsing arcfge-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/arcfge-org.xml
@@ -6160,7 +6160,7 @@ found 265 activities
 
 Downloading cerf-projectsfunded2022 from https://cerfgms-webapi.unocha.org/v1/iati/project/year/2022.xml
 Parsing cerf-projectsfunded2022 from https://cerfgms-webapi.unocha.org/v1/iati/project/year/2022.xml
-found 265 activities
+found 267 activities
 
 Downloading cesc-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/cesc-activities.xml
 Parsing cesc-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/cesc-activities.xml
@@ -7964,7 +7964,7 @@ found 1 organisations
 
 Downloading duf-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/duf-activities.xml
 Parsing duf-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/duf-activities.xml
-found 120 activities
+found 119 activities
 
 Downloading duf-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/duf-org.xml
 Parsing duf-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/duf-org.xml
@@ -8051,10 +8051,8 @@ Parsing ec-echo-2020 from https://webgate.ec.europa.eu/hac/IATI/ec-echo-2020.xml
 found 516 activities
 
 Downloading ec-echo-2021 from https://webgate.ec.europa.eu/hac/IATI/ec-echo-2021.xml
-curl: download ERROR 000
 Parsing ec-echo-2021 from https://webgate.ec.europa.eu/hac/IATI/ec-echo-2021.xml
-dflat: input XML file does not exist
-restored 686 files
+found 686 activities
 
 Downloading ec-echo-2022 from https://webgate.ec.europa.eu/hac/IATI/ec-echo-2022.xml
 Parsing ec-echo-2022 from https://webgate.ec.europa.eu/hac/IATI/ec-echo-2022.xml
@@ -24921,6 +24919,19 @@ found 1 organisations
 
 Downloading soscvkenya-001 from https://raw.githubusercontent.com/IATI/CSV2IATI-public-backup/master/1442398280.44.xml
 Converting IATI activities version 1.03 to version 2.03
+./iati-activities.xsl:309: namespace error : Failed to parse QName 'xsl:'
+    <xsl:if test="@vocabulary = 'RO2'"><xsl:attribute name="vocabulary">98</xsl:
+                                                                               ^
+./iati-activities.xsl:309: parser error : expected '>'
+    <xsl:if test="@vocabulary = 'RO2'"><xsl:attribute name="vocabulary">98</xsl:
+                                                                               ^
+./iati-activities.xsl:309: parser error : Opening and ending tag mismatch: attribute line 309 and xsl:
+    <xsl:if test="@vocabulary = 'RO2'"><xsl:attribute name="vocabulary">98</xsl:
+                                                                               ^
+./iati-activities.xsl:309: parser error : Premature end of data in tag if line 309
+    <xsl:if test="@vocabulary = 'RO2'"><xsl:attribute name="vocabulary">98</xsl:
+                                                                               ^
+cannot parse ./iati-activities.xsl
 Parsing soscvkenya-001 from https://raw.githubusercontent.com/IATI/CSV2IATI-public-backup/master/1442398280.44.xml
 found 1 activities
 
@@ -25316,8 +25327,8 @@ Downloading tdh_foundation-org from https://aidstream.s3.us-west-2.amazonaws.com
 Parsing tdh_foundation-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/tdh_foundation-org.xml
 found 1 organisations
 
-Downloading tdh_nl-201607311659 from https://raw.githubusercontent.com/ProjectBackOfficeTdH/IATI-Reports-TdHNL/master/NL-KVK-41149287Sept07.xml
-Parsing tdh_nl-201607311659 from https://raw.githubusercontent.com/ProjectBackOfficeTdH/IATI-Reports-TdHNL/master/NL-KVK-41149287Sept07.xml
+Downloading tdh_nl-201607311659 from https://raw.githubusercontent.com/ProjectBackOfficeTdH/IATI-Reports-TdHNL/master/NLKVK411492812Sept07.xml
+Parsing tdh_nl-201607311659 from https://raw.githubusercontent.com/ProjectBackOfficeTdH/IATI-Reports-TdHNL/master/NLKVK411492812Sept07.xml
 found 390 activities
 
 Downloading tearfund-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/tearfund-activities.xml
@@ -31241,7 +31252,7 @@ found 80 activities
 
 Downloading unocha-cbpf-drc-allocation-2022 from https://cbpfapi.unocha.org/iati/iati/24/2022/GetAllocation.xml
 Parsing unocha-cbpf-drc-allocation-2022 from https://cbpfapi.unocha.org/iati/iati/24/2022/GetAllocation.xml
-found 11 activities
+found 12 activities
 
 Downloading unocha-cbpf-drc-allocation-2023 from https://cbpfapi.unocha.org/iati/iati/24/2023/GetAllocation.xml
 Parsing unocha-cbpf-drc-allocation-2023 from https://cbpfapi.unocha.org/iati/iati/24/2023/GetAllocation.xml
@@ -36586,7 +36597,7 @@ restored 0 files
 
 Downloading whh-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/whh-activities.xml
 Parsing whh-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/whh-activities.xml
-found 86 activities
+found 85 activities
 
 Downloading whh-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/whh-org.xml
 Parsing whh-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/whh-org.xml
