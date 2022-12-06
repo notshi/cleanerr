@@ -6431,7 +6431,7 @@ found 1 organisations
 
 Downloading cerf-contributionstodate from https://cerfgms-webapi.unocha.org/v1/iati/donorcontribution.xml
 Parsing cerf-contributionstodate from https://cerfgms-webapi.unocha.org/v1/iati/donorcontribution.xml
-found 1448 activities
+found 1452 activities
 
 Downloading cerf-organization from https://cerfgms-webapi.unocha.org/v1/iati/organizations.xml
 Parsing cerf-organization from https://cerfgms-webapi.unocha.org/v1/iati/organizations.xml
@@ -6965,7 +6965,7 @@ found 9 activities
 
 Downloading cisu-gaia from https://vores.cisu.dk/activities.xml
 Parsing cisu-gaia from https://vores.cisu.dk/activities.xml
-found 2361 activities
+found 2363 activities
 
 Downloading cisu-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/cisu-org.xml
 Parsing cisu-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/cisu-org.xml
@@ -7334,7 +7334,8 @@ found 36 activities
 
 Downloading commonwealthsecretariat-xi_iati_cwsec_activity from https://dbsstore.blob.core.windows.net/public/iati/CommonwealthSecretariat_ActivityStandard.xml
 Parsing commonwealthsecretariat-xi_iati_cwsec_activity from https://dbsstore.blob.core.windows.net/public/iati/CommonwealthSecretariat_ActivityStandard.xml
-found 51 activities
+dflat: invalid XML format
+restored 51 files
 
 Downloading commonwealthsecretariat-xi_iati_cwsec_org_2022_1 from https://dbsstore.blob.core.windows.net/public/iati/CommonwealthSecretariat_OrganisationStandard_2022.xml
 Parsing commonwealthsecretariat-xi_iati_cwsec_org_2022_1 from https://dbsstore.blob.core.windows.net/public/iati/CommonwealthSecretariat_OrganisationStandard_2022.xml
@@ -7481,12 +7482,13 @@ Downloading cpi-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/cpi-or
 Parsing cpi-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/cpi-org.xml
 found 1 organisations
 
-Downloading cprojects-grants from https://assets.ctfassets.net/zsfivwzfgl3t/2At0x1lsfw9X4d4rzk9veO/16585f9dc63b0a9469e25b41ba5ce1b2/IATI_Activity_File_Comic_Relief_2022-08.xml
-Parsing cprojects-grants from https://assets.ctfassets.net/zsfivwzfgl3t/2At0x1lsfw9X4d4rzk9veO/16585f9dc63b0a9469e25b41ba5ce1b2/IATI_Activity_File_Comic_Relief_2022-08.xml
-found 388 activities
+Downloading cprojects-grants from https://assets.ctfassets.net/zsfivwzfgl3t/0xCXk1db8v6LgB9aVsjI7/f58cc8a1f3955700fee182b01114b4f9/IATI_Activity_File_Comic_Relief_2022-11.xml
+Parsing cprojects-grants from https://assets.ctfassets.net/zsfivwzfgl3t/0xCXk1db8v6LgB9aVsjI7/f58cc8a1f3955700fee182b01114b4f9/IATI_Activity_File_Comic_Relief_2022-11.xml
+dflat: invalid XML format
+restored 388 files
 
-Downloading cprojects-initiatives from https://assets.ctfassets.net/zsfivwzfgl3t/otzztCI0FBHa8dqzEwaow/37a00c683961b5c7521aa8cd4eac8308/IATI_Organisation_File_Comic_Relief_2022-08.xml
-Parsing cprojects-initiatives from https://assets.ctfassets.net/zsfivwzfgl3t/otzztCI0FBHa8dqzEwaow/37a00c683961b5c7521aa8cd4eac8308/IATI_Organisation_File_Comic_Relief_2022-08.xml
+Downloading cprojects-initiatives from https://assets.ctfassets.net/zsfivwzfgl3t/7tuKFZ2qHRXibTUo6NpoBE/0dac677959437b2c3736d14ba3322112/IATI_Organisation_File_Comic_Relief_2022-11.xml
+Parsing cprojects-initiatives from https://assets.ctfassets.net/zsfivwzfgl3t/7tuKFZ2qHRXibTUo6NpoBE/0dac677959437b2c3736d14ba3322112/IATI_Organisation_File_Comic_Relief_2022-11.xml
 found 1 organisations
 
 Downloading cprojects-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/cprojects-org.xml
@@ -7764,8 +7766,10 @@ Parsing danida-all_1 from http://iati.um.dk/api/v2/files/iati1.xml
 found 2513 activities
 
 Downloading danida-all_2 from http://iati.um.dk/api/v2/files/iati2.xml
+curl: download ERROR 404
 Parsing danida-all_2 from http://iati.um.dk/api/v2/files/iati2.xml
-found 2513 activities
+dflat: input XML file does not exist
+restored 2513 files
 
 Downloading danida-all_3 from http://iati.um.dk/api/v2/files/iati3.xml
 Parsing danida-all_3 from http://iati.um.dk/api/v2/files/iati3.xml
@@ -7834,9 +7838,29 @@ Downloading dca-998 from https://aidstream.s3.us-west-2.amazonaws.com/xml/dca-99
 Parsing dca-998 from https://aidstream.s3.us-west-2.amazonaws.com/xml/dca-998.xml
 found 4 activities
 
+Downloading dca-bd from https://aidstream.s3.us-west-2.amazonaws.com/xml/dca-bd.xml
+Parsing dca-bd from https://aidstream.s3.us-west-2.amazonaws.com/xml/dca-bd.xml
+found 21 activities
+
+Downloading dca-cf from https://aidstream.s3.us-west-2.amazonaws.com/xml/dca-cf.xml
+Parsing dca-cf from https://aidstream.s3.us-west-2.amazonaws.com/xml/dca-cf.xml
+found 40 activities
+
+Downloading dca-cg from https://aidstream.s3.us-west-2.amazonaws.com/xml/dca-cg.xml
+Parsing dca-cg from https://aidstream.s3.us-west-2.amazonaws.com/xml/dca-cg.xml
+found 12 activities
+
 Downloading dc-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/dc-activities.xml
 Parsing dc-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/dc-activities.xml
 found 1 activities
+
+Downloading dca-dk from https://aidstream.s3.us-west-2.amazonaws.com/xml/dca-dk.xml
+Parsing dca-dk from https://aidstream.s3.us-west-2.amazonaws.com/xml/dca-dk.xml
+found 293 activities
+
+Downloading dca-et from https://aidstream.s3.us-west-2.amazonaws.com/xml/dca-et.xml
+Parsing dca-et from https://aidstream.s3.us-west-2.amazonaws.com/xml/dca-et.xml
+found 167 activities
 
 Downloading dcaf-189 from https://aidstream.s3.us-west-2.amazonaws.com/xml/dcaf-189.xml
 Parsing dcaf-189 from https://aidstream.s3.us-west-2.amazonaws.com/xml/dcaf-189.xml
@@ -7858,6 +7882,38 @@ Downloading dcaf-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/dcaf-
 Parsing dcaf-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/dcaf-org.xml
 found 1 organisations
 
+Downloading dca-iq from https://aidstream.s3.us-west-2.amazonaws.com/xml/dca-iq.xml
+Parsing dca-iq from https://aidstream.s3.us-west-2.amazonaws.com/xml/dca-iq.xml
+found 20 activities
+
+Downloading dca-ke from https://aidstream.s3.us-west-2.amazonaws.com/xml/dca-ke.xml
+Parsing dca-ke from https://aidstream.s3.us-west-2.amazonaws.com/xml/dca-ke.xml
+found 103 activities
+
+Downloading dca-kh from https://aidstream.s3.us-west-2.amazonaws.com/xml/dca-kh.xml
+Parsing dca-kh from https://aidstream.s3.us-west-2.amazonaws.com/xml/dca-kh.xml
+found 150 activities
+
+Downloading dca-lb from https://aidstream.s3.us-west-2.amazonaws.com/xml/dca-lb.xml
+Parsing dca-lb from https://aidstream.s3.us-west-2.amazonaws.com/xml/dca-lb.xml
+found 7 activities
+
+Downloading dca-ly from https://aidstream.s3.us-west-2.amazonaws.com/xml/dca-ly.xml
+Parsing dca-ly from https://aidstream.s3.us-west-2.amazonaws.com/xml/dca-ly.xml
+found 4 activities
+
+Downloading dca-mm from https://aidstream.s3.us-west-2.amazonaws.com/xml/dca-mm.xml
+Parsing dca-mm from https://aidstream.s3.us-west-2.amazonaws.com/xml/dca-mm.xml
+found 141 activities
+
+Downloading dca-mw from https://aidstream.s3.us-west-2.amazonaws.com/xml/dca-mw.xml
+Parsing dca-mw from https://aidstream.s3.us-west-2.amazonaws.com/xml/dca-mw.xml
+found 78 activities
+
+Downloading dca-np from https://aidstream.s3.us-west-2.amazonaws.com/xml/dca-np.xml
+Parsing dca-np from https://aidstream.s3.us-west-2.amazonaws.com/xml/dca-np.xml
+found 178 activities
+
 Downloading dca-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/dca-org.xml
 Parsing dca-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/dca-org.xml
 found 1 organisations
@@ -7865,6 +7921,38 @@ found 1 organisations
 Downloading dcapitalpartners-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/dcapitalpartners-activities.xml
 Parsing dcapitalpartners-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/dcapitalpartners-activities.xml
 found 13 activities
+
+Downloading dca-ps from https://aidstream.s3.us-west-2.amazonaws.com/xml/dca-ps.xml
+Parsing dca-ps from https://aidstream.s3.us-west-2.amazonaws.com/xml/dca-ps.xml
+found 156 activities
+
+Downloading dca-so from https://aidstream.s3.us-west-2.amazonaws.com/xml/dca-so.xml
+Parsing dca-so from https://aidstream.s3.us-west-2.amazonaws.com/xml/dca-so.xml
+found 24 activities
+
+Downloading dca-ss from https://aidstream.s3.us-west-2.amazonaws.com/xml/dca-ss.xml
+Parsing dca-ss from https://aidstream.s3.us-west-2.amazonaws.com/xml/dca-ss.xml
+found 103 activities
+
+Downloading dca-sy from https://aidstream.s3.us-west-2.amazonaws.com/xml/dca-sy.xml
+Parsing dca-sy from https://aidstream.s3.us-west-2.amazonaws.com/xml/dca-sy.xml
+found 21 activities
+
+Downloading dca-ua from https://aidstream.s3.us-west-2.amazonaws.com/xml/dca-ua.xml
+Parsing dca-ua from https://aidstream.s3.us-west-2.amazonaws.com/xml/dca-ua.xml
+found 7 activities
+
+Downloading dca-ug from https://aidstream.s3.us-west-2.amazonaws.com/xml/dca-ug.xml
+Parsing dca-ug from https://aidstream.s3.us-west-2.amazonaws.com/xml/dca-ug.xml
+found 156 activities
+
+Downloading dca-zm from https://aidstream.s3.us-west-2.amazonaws.com/xml/dca-zm.xml
+Parsing dca-zm from https://aidstream.s3.us-west-2.amazonaws.com/xml/dca-zm.xml
+found 7 activities
+
+Downloading dca-zw from https://aidstream.s3.us-west-2.amazonaws.com/xml/dca-zw.xml
+Parsing dca-zw from https://aidstream.s3.us-west-2.amazonaws.com/xml/dca-zw.xml
+found 171 activities
 
 Downloading dciecpatnl-298 from https://aidstream.s3.us-west-2.amazonaws.com/xml/dciecpatnl-298.xml
 Parsing dciecpatnl-298 from https://aidstream.s3.us-west-2.amazonaws.com/xml/dciecpatnl-298.xml
@@ -8496,8 +8584,10 @@ Parsing ec-fpi-br from https://ec.europa.eu/international-partnerships/assets/ia
 found 19 activities
 
 Downloading ec-fpi-bt from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_BT.xml
+curl: download ERROR 000
 Parsing ec-fpi-bt from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_BT.xml
-found 2 activities
+dflat: input XML file does not exist
+restored 2 files
 
 Downloading ec-fpi-by from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_BY.xml
 Parsing ec-fpi-by from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_BY.xml
@@ -8740,8 +8830,10 @@ Parsing ec-fpi-mv from https://ec.europa.eu/international-partnerships/assets/ia
 found 8 activities
 
 Downloading ec-fpi-mw from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_MW.xml
+curl: download ERROR 000
 Parsing ec-fpi-mw from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_MW.xml
-found 6 activities
+dflat: input XML file does not exist
+restored 6 files
 
 Downloading ec-fpi-mx from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_MX.xml
 Parsing ec-fpi-mx from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_MX.xml
@@ -9032,8 +9124,10 @@ Parsing ec-intpa-ar from https://ec.europa.eu/international-partnerships/assets/
 found 197 activities
 
 Downloading ec-intpa-aw from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_AW.xml
+curl: download ERROR 000
 Parsing ec-intpa-aw from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_AW.xml
-found 25 activities
+dflat: input XML file does not exist
+restored 25 files
 
 Downloading ec-intpa-az from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_AZ.xml
 Parsing ec-intpa-az from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_AZ.xml
@@ -9400,8 +9494,10 @@ Parsing ec-intpa-ml from https://ec.europa.eu/international-partnerships/assets/
 found 1154 activities
 
 Downloading ec-intpa-mm from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_MM.xml
+curl: download ERROR 000
 Parsing ec-intpa-mm from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_MM.xml
-found 331 activities
+dflat: input XML file does not exist
+restored 331 files
 
 Downloading ec-intpa-mn from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_MN.xml
 Parsing ec-intpa-mn from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_MN.xml
@@ -9456,8 +9552,10 @@ Parsing ec-intpa-ne from https://ec.europa.eu/international-partnerships/assets/
 found 1118 activities
 
 Downloading ec-intpa-ng from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_NG.xml
+curl: download ERROR 000
 Parsing ec-intpa-ng from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_NG.xml
-found 883 activities
+dflat: input XML file does not exist
+restored 883 files
 
 Downloading ec-intpa-ni from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_NI.xml
 Parsing ec-intpa-ni from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_NI.xml
@@ -9660,8 +9758,10 @@ Parsing ec-intpa-ug from https://ec.europa.eu/international-partnerships/assets/
 found 1134 activities
 
 Downloading ec-intpa-uy from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_UY.xml
+curl: download ERROR 000
 Parsing ec-intpa-uy from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_UY.xml
-found 137 activities
+dflat: input XML file does not exist
+restored 137 files
 
 Downloading ec-intpa-uz from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_UZ.xml
 Parsing ec-intpa-uz from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_UZ.xml
@@ -9768,8 +9868,10 @@ Parsing ec-near-ba from https://ec.europa.eu/international-partnerships/assets/i
 found 451 activities
 
 Downloading ec-near-bg from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_NEAR_C_BG.xml
+curl: download ERROR 000
 Parsing ec-near-bg from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_NEAR_C_BG.xml
-found 36 activities
+dflat: input XML file does not exist
+restored 36 files
 
 Downloading ec-near-by from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_NEAR_C_BY.xml
 Parsing ec-near-by from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_NEAR_C_BY.xml
@@ -9796,8 +9898,10 @@ Parsing ec-near-eg from https://ec.europa.eu/international-partnerships/assets/i
 found 740 activities
 
 Downloading ec-near-ge from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_NEAR_C_GE.xml
+curl: download ERROR 000
 Parsing ec-near-ge from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_NEAR_C_GE.xml
-found 236 activities
+dflat: input XML file does not exist
+restored 236 files
 
 Downloading ec-near-hr from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_NEAR_C_HR.xml
 Parsing ec-near-hr from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_NEAR_C_HR.xml
@@ -10445,94 +10549,64 @@ Parsing fcdf-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/fcdf-org.
 found 1 organisations
 
 Downloading fcdo-189 from http://iati.fcdo.gov.uk/iati_files/Region/FCDO-North-of-Sahara-regional-189.xml
-curl: download ERROR 403
 Parsing fcdo-189 from http://iati.fcdo.gov.uk/iati_files/Region/FCDO-North-of-Sahara-regional-189.xml
-dflat: input XML file does not exist
-restored 14 files
+found 14 activities
 
 Downloading fcdo-289 from http://iati.fcdo.gov.uk/iati_files/Region/FCDO-South-of-Sahara-regional-289.xml
-curl: download ERROR 403
 Parsing fcdo-289 from http://iati.fcdo.gov.uk/iati_files/Region/FCDO-South-of-Sahara-regional-289.xml
-dflat: input XML file does not exist
-restored 292 files
+found 294 activities
 
 Downloading fcdo-298 from http://iati.fcdo.gov.uk/iati_files/Region/FCDO-Africa-regional-298.xml
-curl: download ERROR 403
 Parsing fcdo-298 from http://iati.fcdo.gov.uk/iati_files/Region/FCDO-Africa-regional-298.xml
-dflat: input XML file does not exist
-restored 1040 files
+found 1041 activities
 
 Downloading fcdo-380 from http://iati.fcdo.gov.uk/iati_files/Region/FCDO-West-Indies-regional-380.xml
-curl: download ERROR 403
 Parsing fcdo-380 from http://iati.fcdo.gov.uk/iati_files/Region/FCDO-West-Indies-regional-380.xml
-dflat: input XML file does not exist
-restored 246 files
+found 246 activities
 
 Downloading fcdo-389 from http://iati.fcdo.gov.uk/iati_files/Region/FCDO-North-and-Central-America-regional-389.xml
-curl: download ERROR 403
 Parsing fcdo-389 from http://iati.fcdo.gov.uk/iati_files/Region/FCDO-North-and-Central-America-regional-389.xml
-dflat: input XML file does not exist
-restored 12 files
+found 12 activities
 
 Downloading fcdo-589 from http://iati.fcdo.gov.uk/iati_files/Region/FCDO-Middle-East-regional-589.xml
-curl: download ERROR 403
 Parsing fcdo-589 from http://iati.fcdo.gov.uk/iati_files/Region/FCDO-Middle-East-regional-589.xml
-dflat: input XML file does not exist
-restored 90 files
+found 90 activities
 
 Downloading fcdo-679 from http://iati.fcdo.gov.uk/iati_files/Region/FCDO-South-Asia-regional-679.xml
-curl: download ERROR 403
 Parsing fcdo-679 from http://iati.fcdo.gov.uk/iati_files/Region/FCDO-South-Asia-regional-679.xml
-dflat: input XML file does not exist
-restored 13 files
+found 13 activities
 
 Downloading fcdo-798 from http://iati.fcdo.gov.uk/iati_files/Region/FCDO-Asia-regional-798.xml
-curl: download ERROR 403
 Parsing fcdo-798 from http://iati.fcdo.gov.uk/iati_files/Region/FCDO-Asia-regional-798.xml
-dflat: input XML file does not exist
-restored 207 files
+found 207 activities
 
 Downloading fcdo-889 from http://iati.fcdo.gov.uk/iati_files/Region/FCDO-Oceania-regional-889.xml
-curl: download ERROR 403
 Parsing fcdo-889 from http://iati.fcdo.gov.uk/iati_files/Region/FCDO-Oceania-regional-889.xml
-dflat: input XML file does not exist
-restored 3 files
+found 3 activities
 
 Downloading fcdo-89 from http://iati.fcdo.gov.uk/iati_files/Region/FCDO-Europe-regional-89.xml
-curl: download ERROR 403
 Parsing fcdo-89 from http://iati.fcdo.gov.uk/iati_files/Region/FCDO-Europe-regional-89.xml
-dflat: input XML file does not exist
-restored 53 files
+found 53 activities
 
 Downloading fcdo-998_1 from http://iati.fcdo.gov.uk/iati_files/Region/FCDO-Developing-countries-unspecified-998-1.xml
-curl: download ERROR 403
 Parsing fcdo-998_1 from http://iati.fcdo.gov.uk/iati_files/Region/FCDO-Developing-countries-unspecified-998-1.xml
-dflat: input XML file does not exist
-restored 1339 files
+found 1339 activities
 
 Downloading fcdo-998_2 from http://iati.fcdo.gov.uk/iati_files/Region/FCDO-Developing-countries-unspecified-998-2.xml
-curl: download ERROR 403
 Parsing fcdo-998_2 from http://iati.fcdo.gov.uk/iati_files/Region/FCDO-Developing-countries-unspecified-998-2.xml
-dflat: input XML file does not exist
-restored 1288 files
+found 1288 activities
 
 Downloading fcdo-998_3 from http://iati.fcdo.gov.uk/iati_files/Region/FCDO-Developing-countries-unspecified-998-3.xml
-curl: download ERROR 403
 Parsing fcdo-998_3 from http://iati.fcdo.gov.uk/iati_files/Region/FCDO-Developing-countries-unspecified-998-3.xml
-dflat: input XML file does not exist
-restored 1303 files
+found 1303 activities
 
 Downloading fcdo-998_4 from http://iati.fcdo.gov.uk/iati_files/Region/FCDO-Developing-countries-unspecified-998-4.xml
-curl: download ERROR 403
 Parsing fcdo-998_4 from http://iati.fcdo.gov.uk/iati_files/Region/FCDO-Developing-countries-unspecified-998-4.xml
-dflat: input XML file does not exist
-restored 2642 files
+found 2659 activities
 
 Downloading fcdo-ac from http://iati.fcdo.gov.uk/iati_files/Country/FCDO-Ascension-Island-AC.xml
-curl: download ERROR 403
 Parsing fcdo-ac from http://iati.fcdo.gov.uk/iati_files/Country/FCDO-Ascension-Island-AC.xml
-dflat: input XML file does not exist
-restored 8 files
+found 8 activities
 
 Downloading fcdo-ae from http://iati.fcdo.gov.uk/iati_files/Country/FCDO-United-Arab-Emirates-AE.xml
 curl: download ERROR 403
@@ -10541,188 +10615,132 @@ dflat: input XML file does not exist
 restored 0 files
 
 Downloading fcdo-af from http://iati.fcdo.gov.uk/iati_files/Country/FCDO-Afghanistan-AF.xml
-curl: download ERROR 403
 Parsing fcdo-af from http://iati.fcdo.gov.uk/iati_files/Country/FCDO-Afghanistan-AF.xml
-dflat: input XML file does not exist
-restored 85 files
+found 87 activities
 
 Downloading fcdo-alb from http://iati.fcdo.gov.uk/iati_files/converted_files/arms-length-bodies-oda-data.xml
 Parsing fcdo-alb from http://iati.fcdo.gov.uk/iati_files/converted_files/arms-length-bodies-oda-data.xml
 found 10 activities
 
 Downloading fcdo-al from http://iati.fcdo.gov.uk/iati_files/Country/FCDO-Albania-AL.xml
-curl: download ERROR 403
 Parsing fcdo-al from http://iati.fcdo.gov.uk/iati_files/Country/FCDO-Albania-AL.xml
-dflat: input XML file does not exist
-restored 12 files
+found 12 activities
 
 Downloading fcdo-am from http://iati.fcdo.gov.uk/iati_files/Country/FCDO-Armenia-AM.xml
-curl: download ERROR 403
 Parsing fcdo-am from http://iati.fcdo.gov.uk/iati_files/Country/FCDO-Armenia-AM.xml
-dflat: input XML file does not exist
-restored 16 files
+found 16 activities
 
 Downloading fcdo-ao from http://iati.fcdo.gov.uk/iati_files/Country/FCDO-Angola-AO.xml
-curl: download ERROR 403
 Parsing fcdo-ao from http://iati.fcdo.gov.uk/iati_files/Country/FCDO-Angola-AO.xml
-dflat: input XML file does not exist
-restored 16 files
+found 16 activities
 
 Downloading fcdo-as from http://iati.fcdo.gov.uk/iati_files/Country/FCDO-Samoa-American-AS.xml
-curl: download ERROR 403
 Parsing fcdo-as from http://iati.fcdo.gov.uk/iati_files/Country/FCDO-Samoa-American-AS.xml
-dflat: input XML file does not exist
-restored 2 files
+found 2 activities
 
 Downloading fcdo-ba from http://iati.fcdo.gov.uk/iati_files/Country/FCDO-Bosnia-and-Herzegovina-BA.xml
-curl: download ERROR 403
 Parsing fcdo-ba from http://iati.fcdo.gov.uk/iati_files/Country/FCDO-Bosnia-and-Herzegovina-BA.xml
-dflat: input XML file does not exist
-restored 55 files
+found 55 activities
 
 Downloading fcdo-bbcws from http://iati.fcdo.gov.uk/iati_files/converted_files/bbc-world-service-oda-data.xml
 Parsing fcdo-bbcws from http://iati.fcdo.gov.uk/iati_files/converted_files/bbc-world-service-oda-data.xml
 found 2 activities
 
 Downloading fcdo-bd from http://iati.fcdo.gov.uk/iati_files/Country/FCDO-Bangladesh-BD.xml
-curl: download ERROR 403
 Parsing fcdo-bd from http://iati.fcdo.gov.uk/iati_files/Country/FCDO-Bangladesh-BD.xml
-dflat: input XML file does not exist
-restored 504 files
+found 506 activities
 
 Downloading fcdo-bf from http://iati.fcdo.gov.uk/iati_files/Country/FCDO-Burkina-Faso-BF.xml
-curl: download ERROR 403
 Parsing fcdo-bf from http://iati.fcdo.gov.uk/iati_files/Country/FCDO-Burkina-Faso-BF.xml
-dflat: input XML file does not exist
-restored 5 files
+found 5 activities
 
 Downloading fcdo-bh from http://iati.fcdo.gov.uk/iati_files/Country/FCDO-Bahrain-BH.xml
-curl: download ERROR 403
 Parsing fcdo-bh from http://iati.fcdo.gov.uk/iati_files/Country/FCDO-Bahrain-BH.xml
-dflat: input XML file does not exist
-restored 2 files
+found 2 activities
 
 Downloading fcdo-bi from http://iati.fcdo.gov.uk/iati_files/Country/FCDO-Burundi-BI.xml
-curl: download ERROR 403
 Parsing fcdo-bi from http://iati.fcdo.gov.uk/iati_files/Country/FCDO-Burundi-BI.xml
-dflat: input XML file does not exist
-restored 83 files
+found 83 activities
 
 Downloading fcdo-bj from http://iati.fcdo.gov.uk/iati_files/Country/FCDO-Benin-BJ.xml
-curl: download ERROR 403
 Parsing fcdo-bj from http://iati.fcdo.gov.uk/iati_files/Country/FCDO-Benin-BJ.xml
-dflat: input XML file does not exist
-restored 2 files
+found 2 activities
 
 Downloading fcdo-british-council from http://iati.fcdo.gov.uk/iati_files/converted_files/british-council-oda-data.xml
 Parsing fcdo-british-council from http://iati.fcdo.gov.uk/iati_files/converted_files/british-council-oda-data.xml
 found 2 activities
 
 Downloading fcdo-br from http://iati.fcdo.gov.uk/iati_files/Country/FCDO-Brazil-BR.xml
-curl: download ERROR 403
 Parsing fcdo-br from http://iati.fcdo.gov.uk/iati_files/Country/FCDO-Brazil-BR.xml
-dflat: input XML file does not exist
-restored 18 files
+found 18 activities
 
 Downloading fcdo-bs from http://iati.fcdo.gov.uk/iati_files/Country/FCDO-The-Bahamas-BS.xml
-curl: download ERROR 403
 Parsing fcdo-bs from http://iati.fcdo.gov.uk/iati_files/Country/FCDO-The-Bahamas-BS.xml
-dflat: input XML file does not exist
-restored 2 files
+found 2 activities
 
 Downloading fcdo-cd from http://iati.fcdo.gov.uk/iati_files/Country/FCDO-Congo-Democratic-Republic-CD.xml
-curl: download ERROR 403
 Parsing fcdo-cd from http://iati.fcdo.gov.uk/iati_files/Country/FCDO-Congo-Democratic-Republic-CD.xml
-dflat: input XML file does not exist
-restored 349 files
+found 349 activities
 
 Downloading fcdo-cf from http://iati.fcdo.gov.uk/iati_files/Country/FCDO-Central-African-Republic-CF.xml
-curl: download ERROR 403
 Parsing fcdo-cf from http://iati.fcdo.gov.uk/iati_files/Country/FCDO-Central-African-Republic-CF.xml
-dflat: input XML file does not exist
-restored 45 files
+found 45 activities
 
 Downloading fcdo-cg from http://iati.fcdo.gov.uk/iati_files/Country/FCDO-Congo-CG.xml
-curl: download ERROR 403
 Parsing fcdo-cg from http://iati.fcdo.gov.uk/iati_files/Country/FCDO-Congo-CG.xml
-dflat: input XML file does not exist
-restored 4 files
+found 4 activities
 
 Downloading fcdo-ci from http://iati.fcdo.gov.uk/iati_files/Country/FCDO-Ivory-Coast-CI.xml
-curl: download ERROR 403
 Parsing fcdo-ci from http://iati.fcdo.gov.uk/iati_files/Country/FCDO-Ivory-Coast-CI.xml
-dflat: input XML file does not exist
-restored 12 files
+found 12 activities
 
 Downloading fcdo-cl from http://iati.fcdo.gov.uk/iati_files/Country/FCDO-Chile-CL.xml
-curl: download ERROR 403
 Parsing fcdo-cl from http://iati.fcdo.gov.uk/iati_files/Country/FCDO-Chile-CL.xml
-dflat: input XML file does not exist
-restored 3 files
+found 3 activities
 
 Downloading fcdo-cm from http://iati.fcdo.gov.uk/iati_files/Country/FCDO-Cameroon-CM.xml
-curl: download ERROR 403
 Parsing fcdo-cm from http://iati.fcdo.gov.uk/iati_files/Country/FCDO-Cameroon-CM.xml
-dflat: input XML file does not exist
-restored 26 files
+found 26 activities
 
 Downloading fcdo-cn from http://iati.fcdo.gov.uk/iati_files/Country/FCDO-China-CN.xml
-curl: download ERROR 403
 Parsing fcdo-cn from http://iati.fcdo.gov.uk/iati_files/Country/FCDO-China-CN.xml
-dflat: input XML file does not exist
-restored 98 files
+found 98 activities
 
 Downloading fcdo-cssf from http://iati.fcdo.gov.uk/iati_files/converted_files/cssf-oda-data.xml
 Parsing fcdo-cssf from http://iati.fcdo.gov.uk/iati_files/converted_files/cssf-oda-data.xml
 found 92 activities
 
 Downloading fcdo-cu from http://iati.fcdo.gov.uk/iati_files/Country/FCDO-Cuba-CU.xml
-curl: download ERROR 403
 Parsing fcdo-cu from http://iati.fcdo.gov.uk/iati_files/Country/FCDO-Cuba-CU.xml
-dflat: input XML file does not exist
-restored 2 files
+found 2 activities
 
 Downloading fcdo-cv from http://iati.fcdo.gov.uk/iati_files/Country/FCDO-Cape-Verde-CV.xml
-curl: download ERROR 403
 Parsing fcdo-cv from http://iati.fcdo.gov.uk/iati_files/Country/FCDO-Cape-Verde-CV.xml
-dflat: input XML file does not exist
-restored 2 files
+found 2 activities
 
 Downloading fcdo-dm from http://iati.fcdo.gov.uk/iati_files/Country/FCDO-Dominica-DM.xml
-curl: download ERROR 403
 Parsing fcdo-dm from http://iati.fcdo.gov.uk/iati_files/Country/FCDO-Dominica-DM.xml
-dflat: input XML file does not exist
-restored 9 files
+found 9 activities
 
 Downloading fcdo-ec from http://iati.fcdo.gov.uk/iati_files/Country/FCDO-Ecuador-EC.xml
-curl: download ERROR 403
 Parsing fcdo-ec from http://iati.fcdo.gov.uk/iati_files/Country/FCDO-Ecuador-EC.xml
-dflat: input XML file does not exist
-restored 3 files
+found 3 activities
 
 Downloading fcdo-eg from http://iati.fcdo.gov.uk/iati_files/Country/FCDO-Egypt-EG.xml
-curl: download ERROR 403
 Parsing fcdo-eg from http://iati.fcdo.gov.uk/iati_files/Country/FCDO-Egypt-EG.xml
-dflat: input XML file does not exist
-restored 21 files
+found 21 activities
 
 Downloading fcdo-er from http://iati.fcdo.gov.uk/iati_files/Country/FCDO-Eritrea-ER.xml
-curl: download ERROR 403
 Parsing fcdo-er from http://iati.fcdo.gov.uk/iati_files/Country/FCDO-Eritrea-ER.xml
-dflat: input XML file does not exist
-restored 16 files
+found 16 activities
 
 Downloading fcdo-et from http://iati.fcdo.gov.uk/iati_files/Country/FCDO-Ethiopia-ET.xml
-curl: download ERROR 403
 Parsing fcdo-et from http://iati.fcdo.gov.uk/iati_files/Country/FCDO-Ethiopia-ET.xml
-dflat: input XML file does not exist
-restored 577 files
+found 577 activities
 
 Downloading fcdo-fj from http://iati.fcdo.gov.uk/iati_files/Country/FCDO-Fiji-FJ.xml
-curl: download ERROR 403
 Parsing fcdo-fj from http://iati.fcdo.gov.uk/iati_files/Country/FCDO-Fiji-FJ.xml
-dflat: input XML file does not exist
-restored 2 files
+found 2 activities
 
 Downloading fcdo-frontlinediplomaticactivity from http://iati.fcdo.gov.uk/iati_files/converted_files/frontline-diplomatic-activity-oda-data.xml
 Parsing fcdo-frontlinediplomaticactivity from http://iati.fcdo.gov.uk/iati_files/converted_files/frontline-diplomatic-activity-oda-data.xml
@@ -10733,70 +10751,48 @@ Parsing fcdo-gb-gov-3-org from http://iati.fcdo.gov.uk/iati_files/organisation-G
 found 1 organisations
 
 Downloading fcdo-gb from http://iati.fcdo.gov.uk/iati_files/Country/FCDO-United-Kingdom-GB.xml
-curl: download ERROR 403
 Parsing fcdo-gb from http://iati.fcdo.gov.uk/iati_files/Country/FCDO-United-Kingdom-GB.xml
-dflat: input XML file does not exist
-restored 20 files
+found 20 activities
 
 Downloading fcdo-ge from http://iati.fcdo.gov.uk/iati_files/Country/FCDO-Georgia-GE.xml
-curl: download ERROR 403
 Parsing fcdo-ge from http://iati.fcdo.gov.uk/iati_files/Country/FCDO-Georgia-GE.xml
-dflat: input XML file does not exist
-restored 14 files
+found 14 activities
 
 Downloading fcdo-gh from http://iati.fcdo.gov.uk/iati_files/Country/FCDO-Ghana-GH.xml
-curl: download ERROR 403
 Parsing fcdo-gh from http://iati.fcdo.gov.uk/iati_files/Country/FCDO-Ghana-GH.xml
-dflat: input XML file does not exist
-restored 378 files
+found 381 activities
 
 Downloading fcdo-gm from http://iati.fcdo.gov.uk/iati_files/Country/FCDO-The-Gambia-GM.xml
-curl: download ERROR 403
 Parsing fcdo-gm from http://iati.fcdo.gov.uk/iati_files/Country/FCDO-The-Gambia-GM.xml
-dflat: input XML file does not exist
-restored 20 files
+found 20 activities
 
 Downloading fcdo-gn from http://iati.fcdo.gov.uk/iati_files/Country/FCDO-Guinea-GN.xml
-curl: download ERROR 403
 Parsing fcdo-gn from http://iati.fcdo.gov.uk/iati_files/Country/FCDO-Guinea-GN.xml
-dflat: input XML file does not exist
-restored 2 files
+found 2 activities
 
 Downloading fcdo-gr from http://iati.fcdo.gov.uk/iati_files/Country/FCDO-Greece-GR.xml
-curl: download ERROR 403
 Parsing fcdo-gr from http://iati.fcdo.gov.uk/iati_files/Country/FCDO-Greece-GR.xml
-dflat: input XML file does not exist
-restored 7 files
+found 7 activities
 
 Downloading fcdo-gt from http://iati.fcdo.gov.uk/iati_files/Country/FCDO-Guatemala-GT.xml
-curl: download ERROR 403
 Parsing fcdo-gt from http://iati.fcdo.gov.uk/iati_files/Country/FCDO-Guatemala-GT.xml
-dflat: input XML file does not exist
-restored 5 files
+found 5 activities
 
 Downloading fcdo-gy from http://iati.fcdo.gov.uk/iati_files/Country/FCDO-Guyana-GY.xml
-curl: download ERROR 403
 Parsing fcdo-gy from http://iati.fcdo.gov.uk/iati_files/Country/FCDO-Guyana-GY.xml
-dflat: input XML file does not exist
-restored 24 files
+found 24 activities
 
 Downloading fcdo-hn from http://iati.fcdo.gov.uk/iati_files/Country/FCDO-Honduras-HN.xml
-curl: download ERROR 403
 Parsing fcdo-hn from http://iati.fcdo.gov.uk/iati_files/Country/FCDO-Honduras-HN.xml
-dflat: input XML file does not exist
-restored 2 files
+found 2 activities
 
 Downloading fcdo-ht from http://iati.fcdo.gov.uk/iati_files/Country/FCDO-Haiti-HT.xml
-curl: download ERROR 403
 Parsing fcdo-ht from http://iati.fcdo.gov.uk/iati_files/Country/FCDO-Haiti-HT.xml
-dflat: input XML file does not exist
-restored 58 files
+found 58 activities
 
 Downloading fcdo-id from http://iati.fcdo.gov.uk/iati_files/Country/FCDO-Indonesia-ID.xml
-curl: download ERROR 403
 Parsing fcdo-id from http://iati.fcdo.gov.uk/iati_files/Country/FCDO-Indonesia-ID.xml
-dflat: input XML file does not exist
-restored 179 files
+found 179 activities
 
 Downloading fcdo-international-programmes-oda-dataset from http://iati.fcdo.gov.uk/iati_files/converted_files/international-programmes-oda-dataset.xml
 Parsing fcdo-international-programmes-oda-dataset from http://iati.fcdo.gov.uk/iati_files/converted_files/international-programmes-oda-dataset.xml
@@ -10807,10 +10803,8 @@ Parsing fcdo-intsubs from http://iati.fcdo.gov.uk/iati_files/converted_files/int
 found 2 activities
 
 Downloading fcdo-in from http://iati.fcdo.gov.uk/iati_files/Country/FCDO-India-IN.xml
-curl: download ERROR 403
 Parsing fcdo-in from http://iati.fcdo.gov.uk/iati_files/Country/FCDO-India-IN.xml
-dflat: input XML file does not exist
-restored 499 files
+found 499 activities
 
 Downloading fcdo-iq from http://iati.fcdo.gov.uk/iati_files/Country/FCDO-Iraq-IQ.xml
 Parsing fcdo-iq from http://iati.fcdo.gov.uk/iati_files/Country/FCDO-Iraq-IQ.xml
@@ -13985,7 +13979,7 @@ found 1 activities
 
 Downloading hi_fed-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/hi_fed-activities.xml
 Parsing hi_fed-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/hi_fed-activities.xml
-found 12 activities
+found 13 activities
 
 Downloading hi_fed-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/hi_fed-org.xml
 Parsing hi_fed-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/hi_fed-org.xml
@@ -17837,9 +17831,15 @@ Downloading ketou-org from https://rsr.akvo.org/organisation/4144/iati-org/
 Parsing ketou-org from https://rsr.akvo.org/organisation/4144/iati-org/
 found 1 organisations
 
-Downloading khf-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/khf-activities.xml
-Parsing khf-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/khf-activities.xml
-found 31 activities
+Downloading khf-activities from https://validator.iatistandard.org/validate/lbatrq490a9ovsnae4jn
+Parsing khf-activities from https://validator.iatistandard.org/validate/lbatrq490a9ovsnae4jn
+dflat: invalid XML format
+restored 31 files
+
+Downloading khf-yhr-2020 from https://validator.iatistandard.org/validate/lbatrq490a9ovsnae4jn
+Parsing khf-yhr-2020 from https://validator.iatistandard.org/validate/lbatrq490a9ovsnae4jn
+dflat: invalid XML format
+restored 0 files
 
 Downloading kidasha-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/kidasha-activities.xml
 Parsing kidasha-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/kidasha-activities.xml
@@ -26822,6 +26822,10 @@ Downloading ticah-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/tica
 Parsing ticah-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/ticah-org.xml
 found 1 organisations
 
+Downloading tifa_foundation-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/tifa_foundation-activities.xml
+Parsing tifa_foundation-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/tifa_foundation-activities.xml
+found 1 activities
+
 Downloading ti_kenya-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/ti_kenya-activities.xml
 Parsing ti_kenya-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/ti_kenya-activities.xml
 found 3 activities
@@ -35125,6 +35129,11 @@ Downloading usaid-mr from https://s3.amazonaws.com/files.explorer.devtechlab.com
 Parsing usaid-mr from https://s3.amazonaws.com/files.explorer.devtechlab.com/iati-activities-Mauritania.xml
 found 36 activities
 
+Downloading usaid-multi-19 from https://s3.console.aws.amazon.com/s3/object/files.explorer.devtechlab.com?region=us-east-1&prefix=iati-activities-Multiple+Countries-19.xml
+Parsing usaid-multi-19 from https://s3.console.aws.amazon.com/s3/object/files.explorer.devtechlab.com?region=us-east-1&prefix=iati-activities-Multiple+Countries-19.xml
+dflat: invalid XML format
+restored 0 files
+
 Downloading usaid-multiple-10 from https://s3.amazonaws.com/files.explorer.devtechlab.com/iati-activities-Multiple%20Countries-10.xml
 Parsing usaid-multiple-10 from https://s3.amazonaws.com/files.explorer.devtechlab.com/iati-activities-Multiple%20Countries-10.xml
 found 285 activities
@@ -35719,7 +35728,7 @@ found 1 activities
 
 Downloading wageningen_ur-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/wageningen_ur-activities.xml
 Parsing wageningen_ur-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/wageningen_ur-activities.xml
-found 14 activities
+found 15 activities
 
 Downloading wageningen_ur-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/wageningen_ur-org.xml
 Parsing wageningen_ur-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/wageningen_ur-org.xml
