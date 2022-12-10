@@ -2012,7 +2012,7 @@ Parsing aics-798 from http://openaid.aics.gov.it/iati/aics-798.xml
 found 3 activities
 
 Downloading aics-88 from http://openaid.aics.gov.it/iati/aics-88.xml
-curl: download ERROR 404
+curl: download ERROR 502
 Parsing aics-88 from http://openaid.aics.gov.it/iati/aics-88.xml
 dflat: input XML file does not exist
 restored 0 files
@@ -2302,7 +2302,7 @@ Parsing aics-sy from http://openaid.aics.gov.it/iati/aics-sy.xml
 found 73 activities
 
 Downloading aics-tl from http://openaid.aics.gov.it/iati/aics-tl.xml
-curl: download ERROR 404
+curl: download ERROR 502
 Parsing aics-tl from http://openaid.aics.gov.it/iati/aics-tl.xml
 dflat: input XML file does not exist
 restored 0 files
@@ -5408,7 +5408,7 @@ found 1 activities
 
 Downloading britishcouncil-et from https://aidstream.s3.us-west-2.amazonaws.com/xml/britishcouncil-et.xml
 Parsing britishcouncil-et from https://aidstream.s3.us-west-2.amazonaws.com/xml/britishcouncil-et.xml
-found 1 activities
+found 2 activities
 
 Downloading britishcouncil-gb from https://aidstream.s3.us-west-2.amazonaws.com/xml/britishcouncil-gb.xml
 Parsing britishcouncil-gb from https://aidstream.s3.us-west-2.amazonaws.com/xml/britishcouncil-gb.xml
@@ -6965,7 +6965,7 @@ found 9 activities
 
 Downloading cisu-gaia from https://vores.cisu.dk/activities.xml
 Parsing cisu-gaia from https://vores.cisu.dk/activities.xml
-found 2364 activities
+found 2367 activities
 
 Downloading cisu-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/cisu-org.xml
 Parsing cisu-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/cisu-org.xml
@@ -7061,7 +7061,7 @@ found 6 activities
 
 Downloading cku-all from https://pdb.cku.dk/iati/reportDMRU
 Parsing cku-all from https://pdb.cku.dk/iati/reportDMRU
-found 693 activities
+found 695 activities
 
 Downloading cku-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/cku-org.xml
 Parsing cku-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/cku-org.xml
@@ -7833,9 +7833,29 @@ Downloading dca-998 from https://aidstream.s3.us-west-2.amazonaws.com/xml/dca-99
 Parsing dca-998 from https://aidstream.s3.us-west-2.amazonaws.com/xml/dca-998.xml
 found 4 activities
 
+Downloading dca-bd from https://aidstream.s3.us-west-2.amazonaws.com/xml/dca-bd.xml
+Parsing dca-bd from https://aidstream.s3.us-west-2.amazonaws.com/xml/dca-bd.xml
+found 27 activities
+
+Downloading dca-cf from https://aidstream.s3.us-west-2.amazonaws.com/xml/dca-cf.xml
+Parsing dca-cf from https://aidstream.s3.us-west-2.amazonaws.com/xml/dca-cf.xml
+found 50 activities
+
+Downloading dca-cg from https://aidstream.s3.us-west-2.amazonaws.com/xml/dca-cg.xml
+Parsing dca-cg from https://aidstream.s3.us-west-2.amazonaws.com/xml/dca-cg.xml
+found 15 activities
+
 Downloading dc-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/dc-activities.xml
 Parsing dc-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/dc-activities.xml
 found 1 activities
+
+Downloading dca-dk from https://aidstream.s3.us-west-2.amazonaws.com/xml/dca-dk.xml
+Parsing dca-dk from https://aidstream.s3.us-west-2.amazonaws.com/xml/dca-dk.xml
+found 407 activities
+
+Downloading dca-et from https://aidstream.s3.us-west-2.amazonaws.com/xml/dca-et.xml
+Parsing dca-et from https://aidstream.s3.us-west-2.amazonaws.com/xml/dca-et.xml
+found 229 activities
 
 Downloading dcaf-189 from https://aidstream.s3.us-west-2.amazonaws.com/xml/dcaf-189.xml
 Parsing dcaf-189 from https://aidstream.s3.us-west-2.amazonaws.com/xml/dcaf-189.xml
@@ -7857,6 +7877,38 @@ Downloading dcaf-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/dcaf-
 Parsing dcaf-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/dcaf-org.xml
 found 1 organisations
 
+Downloading dca-iq from https://aidstream.s3.us-west-2.amazonaws.com/xml/dca-iq.xml
+Parsing dca-iq from https://aidstream.s3.us-west-2.amazonaws.com/xml/dca-iq.xml
+found 26 activities
+
+Downloading dca-ke from https://aidstream.s3.us-west-2.amazonaws.com/xml/dca-ke.xml
+Parsing dca-ke from https://aidstream.s3.us-west-2.amazonaws.com/xml/dca-ke.xml
+found 144 activities
+
+Downloading dca-kh from https://aidstream.s3.us-west-2.amazonaws.com/xml/dca-kh.xml
+Parsing dca-kh from https://aidstream.s3.us-west-2.amazonaws.com/xml/dca-kh.xml
+found 215 activities
+
+Downloading dca-lb from https://aidstream.s3.us-west-2.amazonaws.com/xml/dca-lb.xml
+Parsing dca-lb from https://aidstream.s3.us-west-2.amazonaws.com/xml/dca-lb.xml
+found 10 activities
+
+Downloading dca-ly from https://aidstream.s3.us-west-2.amazonaws.com/xml/dca-ly.xml
+Parsing dca-ly from https://aidstream.s3.us-west-2.amazonaws.com/xml/dca-ly.xml
+found 6 activities
+
+Downloading dca-mm from https://aidstream.s3.us-west-2.amazonaws.com/xml/dca-mm.xml
+Parsing dca-mm from https://aidstream.s3.us-west-2.amazonaws.com/xml/dca-mm.xml
+found 197 activities
+
+Downloading dca-mw from https://aidstream.s3.us-west-2.amazonaws.com/xml/dca-mw.xml
+Parsing dca-mw from https://aidstream.s3.us-west-2.amazonaws.com/xml/dca-mw.xml
+found 102 activities
+
+Downloading dca-np from https://aidstream.s3.us-west-2.amazonaws.com/xml/dca-np.xml
+Parsing dca-np from https://aidstream.s3.us-west-2.amazonaws.com/xml/dca-np.xml
+found 242 activities
+
 Downloading dca-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/dca-org.xml
 Parsing dca-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/dca-org.xml
 found 1 organisations
@@ -7864,6 +7916,34 @@ found 1 organisations
 Downloading dcapitalpartners-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/dcapitalpartners-activities.xml
 Parsing dcapitalpartners-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/dcapitalpartners-activities.xml
 found 13 activities
+
+Downloading dca-ps from https://aidstream.s3.us-west-2.amazonaws.com/xml/dca-ps.xml
+Parsing dca-ps from https://aidstream.s3.us-west-2.amazonaws.com/xml/dca-ps.xml
+found 223 activities
+
+Downloading dca-so from https://aidstream.s3.us-west-2.amazonaws.com/xml/dca-so.xml
+Parsing dca-so from https://aidstream.s3.us-west-2.amazonaws.com/xml/dca-so.xml
+found 32 activities
+
+Downloading dca-ss from https://aidstream.s3.us-west-2.amazonaws.com/xml/dca-ss.xml
+Parsing dca-ss from https://aidstream.s3.us-west-2.amazonaws.com/xml/dca-ss.xml
+found 136 activities
+
+Downloading dca-sy from https://aidstream.s3.us-west-2.amazonaws.com/xml/dca-sy.xml
+Parsing dca-sy from https://aidstream.s3.us-west-2.amazonaws.com/xml/dca-sy.xml
+found 27 activities
+
+Downloading dca-ug from https://aidstream.s3.us-west-2.amazonaws.com/xml/dca-ug.xml
+Parsing dca-ug from https://aidstream.s3.us-west-2.amazonaws.com/xml/dca-ug.xml
+found 222 activities
+
+Downloading dca-zm from https://aidstream.s3.us-west-2.amazonaws.com/xml/dca-zm.xml
+Parsing dca-zm from https://aidstream.s3.us-west-2.amazonaws.com/xml/dca-zm.xml
+found 11 activities
+
+Downloading dca-zw from https://aidstream.s3.us-west-2.amazonaws.com/xml/dca-zw.xml
+Parsing dca-zw from https://aidstream.s3.us-west-2.amazonaws.com/xml/dca-zw.xml
+found 243 activities
 
 Downloading dciecpatnl-298 from https://aidstream.s3.us-west-2.amazonaws.com/xml/dciecpatnl-298.xml
 Parsing dciecpatnl-298 from https://aidstream.s3.us-west-2.amazonaws.com/xml/dciecpatnl-298.xml
@@ -8376,7 +8456,7 @@ found 690 activities
 
 Downloading ec-echo-2022 from https://webgate.ec.europa.eu/hac/IATI/ec-echo-2022.xml
 Parsing ec-echo-2022 from https://webgate.ec.europa.eu/hac/IATI/ec-echo-2022.xml
-found 388 activities
+found 390 activities
 
 Downloading ec-echo-org from https://webgate.ec.europa.eu/hac/IATI/iati-organisation-file.xml
 Parsing ec-echo-org from https://webgate.ec.europa.eu/hac/IATI/iati-organisation-file.xml
@@ -8559,10 +8639,8 @@ Parsing ec-fpi-ec from https://ec.europa.eu/international-partnerships/assets/ia
 found 14 activities
 
 Downloading ec-fpi-eg from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_EG.xml
-curl: download ERROR 000
 Parsing ec-fpi-eg from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_EG.xml
-dflat: input XML file does not exist
-restored 11 files
+found 11 activities
 
 Downloading ec-fpi-er from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_ER.xml
 Parsing ec-fpi-er from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_ER.xml
@@ -8769,10 +8847,8 @@ Parsing ec-fpi-ng from https://ec.europa.eu/international-partnerships/assets/ia
 found 50 activities
 
 Downloading ec-fpi-ni from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_NI.xml
-curl: download ERROR 000
 Parsing ec-fpi-ni from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_NI.xml
-dflat: input XML file does not exist
-restored 13 files
+found 13 activities
 
 Downloading ec-fpi-np from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_NP.xml
 Parsing ec-fpi-np from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_NP.xml
@@ -9091,10 +9167,8 @@ Parsing ec-intpa-bw from https://ec.europa.eu/international-partnerships/assets/
 found 236 activities
 
 Downloading ec-intpa-by from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_BY.xml
-curl: download ERROR 000
 Parsing ec-intpa-by from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_BY.xml
-dflat: input XML file does not exist
-restored 104 files
+found 104 activities
 
 Downloading ec-intpa-bz from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_BZ.xml
 Parsing ec-intpa-bz from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_BZ.xml
@@ -9129,10 +9203,8 @@ Parsing ec-intpa-cm from https://ec.europa.eu/international-partnerships/assets/
 found 982 activities
 
 Downloading ec-intpa-cn from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_CN.xml
-curl: download ERROR 000
 Parsing ec-intpa-cn from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_CN.xml
-dflat: input XML file does not exist
-restored 379 files
+found 379 activities
 
 Downloading ec-intpa-co from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_CO.xml
 Parsing ec-intpa-co from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_CO.xml
@@ -9223,10 +9295,8 @@ Parsing ec-intpa-gl from https://ec.europa.eu/international-partnerships/assets/
 found 24 activities
 
 Downloading ec-intpa-gm from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_GM.xml
-curl: download ERROR 000
 Parsing ec-intpa-gm from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_GM.xml
-dflat: input XML file does not exist
-restored 319 files
+found 319 activities
 
 Downloading ec-intpa-gn from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_GN.xml
 Parsing ec-intpa-gn from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_GN.xml
@@ -9585,10 +9655,8 @@ Parsing ec-intpa-ss from https://ec.europa.eu/international-partnerships/assets/
 found 232 activities
 
 Downloading ec-intpa-st from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_ST.xml
-curl: download ERROR 000
 Parsing ec-intpa-st from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_ST.xml
-dflat: input XML file does not exist
-restored 223 files
+found 223 activities
 
 Downloading ec-intpa-sv from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_SV.xml
 Parsing ec-intpa-sv from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_SV.xml
@@ -9651,10 +9719,8 @@ Parsing ec-intpa-tt from https://ec.europa.eu/international-partnerships/assets/
 found 146 activities
 
 Downloading ec-intpa-tv from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_TV.xml
-curl: download ERROR 000
 Parsing ec-intpa-tv from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_TV.xml
-dflat: input XML file does not exist
-restored 48 files
+found 48 activities
 
 Downloading ec-intpa-tw from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_TW.xml
 Parsing ec-intpa-tw from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_TW.xml
@@ -9669,10 +9735,8 @@ Parsing ec-intpa-ua from https://ec.europa.eu/international-partnerships/assets/
 found 570 activities
 
 Downloading ec-intpa-ug from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_UG.xml
-curl: download ERROR 000
 Parsing ec-intpa-ug from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_UG.xml
-dflat: input XML file does not exist
-restored 1134 files
+found 1134 activities
 
 Downloading ec-intpa-uy from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_UY.xml
 Parsing ec-intpa-uy from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_UY.xml
@@ -9771,10 +9835,8 @@ Parsing ec-near-al from https://ec.europa.eu/international-partnerships/assets/i
 found 363 activities
 
 Downloading ec-near-am from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_NEAR_C_AM.xml
-curl: download ERROR 000
 Parsing ec-near-am from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_NEAR_C_AM.xml
-dflat: input XML file does not exist
-restored 156 files
+found 156 activities
 
 Downloading ec-near-az from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_NEAR_C_AZ.xml
 Parsing ec-near-az from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_NEAR_C_AZ.xml
@@ -9817,10 +9879,8 @@ Parsing ec-near-ge from https://ec.europa.eu/international-partnerships/assets/i
 found 236 activities
 
 Downloading ec-near-hr from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_NEAR_C_HR.xml
-curl: download ERROR 000
 Parsing ec-near-hr from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_NEAR_C_HR.xml
-dflat: input XML file does not exist
-restored 188 files
+found 188 activities
 
 Downloading ec-near-hu from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_NEAR_C_HU.xml
 Parsing ec-near-hu from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_NEAR_C_HU.xml
@@ -9907,10 +9967,8 @@ Parsing ec-near-si from https://ec.europa.eu/international-partnerships/assets/i
 found 11 activities
 
 Downloading ec-near-sk from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_NEAR_C_SK.xml
-curl: download ERROR 000
 Parsing ec-near-sk from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_NEAR_C_SK.xml
-dflat: input XML file does not exist
-restored 13 files
+found 13 activities
 
 Downloading ec-near-sy from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_NEAR_C_SY.xml
 Parsing ec-near-sy from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_NEAR_C_SY.xml
@@ -12567,11 +12625,11 @@ found 1 organisations
 
 Downloading gac-amc-act_2_3 from http://w05.international.gc.ca/projectbrowser-banqueprojets/iita-iati/dfatd-maecd_activit_status_2_3.xml
 Parsing gac-amc-act_2_3 from http://w05.international.gc.ca/projectbrowser-banqueprojets/iita-iati/dfatd-maecd_activit_status_2_3.xml
-found 1769 activities
+found 1764 activities
 
 Downloading gac-amc-act_4 from http://w05.international.gc.ca/projectbrowser-banqueprojets/iita-iati/dfatd-maecd_activit_status_4.xml
 Parsing gac-amc-act_4 from http://w05.international.gc.ca/projectbrowser-banqueprojets/iita-iati/dfatd-maecd_activit_status_4.xml
-found 4065 activities
+found 4077 activities
 
 Downloading gac-amc-org from http://w05.international.gc.ca/projectbrowser-banqueprojets/iita-iati/dfatd-maecd_organisation.xml
 Parsing gac-amc-org from http://w05.international.gc.ca/projectbrowser-banqueprojets/iita-iati/dfatd-maecd_organisation.xml
@@ -15068,7 +15126,7 @@ found 1 organisations
 
 Downloading idbinvest-projects from https://idbinvest.org/sites/default/files/iati_publish_projects.xml
 Parsing idbinvest-projects from https://idbinvest.org/sites/default/files/iati_publish_projects.xml
-found 1754 activities
+found 1755 activities
 
 Downloading idea-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/idea-activities.xml
 Parsing idea-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/idea-activities.xml
@@ -20675,7 +20733,7 @@ found 956 activities
 
 Downloading minbuza_nl-activities20222023 from https://static.rijksoverheid.nl/bz/IATIACTIVITIES20222023.xml
 Parsing minbuza_nl-activities20222023 from https://static.rijksoverheid.nl/bz/IATIACTIVITIES20222023.xml
-found 218 activities
+found 324 activities
 
 Downloading minbuza_nl-organisation from https://static.rijksoverheid.nl/bz/IATI_ORGANISATION.xml
 Parsing minbuza_nl-organisation from https://static.rijksoverheid.nl/bz/IATI_ORGANISATION.xml
@@ -31425,6 +31483,10 @@ Downloading universityofbirmingham-gb from https://aidstream.s3.us-west-2.amazon
 Parsing universityofbirmingham-gb from https://aidstream.s3.us-west-2.amazonaws.com/xml/universityofbirmingham-gb.xml
 found 3 activities
 
+Downloading universityofbirmingham-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/universityofbirmingham-org.xml
+Parsing universityofbirmingham-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/universityofbirmingham-org.xml
+found 1 organisations
+
 Downloading unocha-afghanistan from https://oct.unocha.org/octws/OCTPublishData.svc/GetIATIContribution?activity=O445
 Parsing unocha-afghanistan from https://oct.unocha.org/octws/OCTPublishData.svc/GetIATIContribution?activity=O445
 found 1 activities
@@ -31875,39 +31937,39 @@ found 0 activities
 
 Downloading unocha-cbpf-drc-contribution-2016 from https://cbpfapi.unocha.org/iati/iati/24/2016/GetContribution.xml
 Parsing unocha-cbpf-drc-contribution-2016 from https://cbpfapi.unocha.org/iati/iati/24/2016/GetContribution.xml
-found 10 activities
+found 0 activities
 
 Downloading unocha-cbpf-drc-contribution-2017 from https://cbpfapi.unocha.org/iati/iati/24/2017/GetContribution.xml
 Parsing unocha-cbpf-drc-contribution-2017 from https://cbpfapi.unocha.org/iati/iati/24/2017/GetContribution.xml
-found 16 activities
+found 0 activities
 
 Downloading unocha-cbpf-drc-contribution-2018 from https://cbpfapi.unocha.org/iati/iati/24/2018/GetContribution.xml
 Parsing unocha-cbpf-drc-contribution-2018 from https://cbpfapi.unocha.org/iati/iati/24/2018/GetContribution.xml
-found 16 activities
+found 0 activities
 
 Downloading unocha-cbpf-drc-contribution-2019 from https://cbpfapi.unocha.org/iati/iati/24/2019/GetContribution.xml
 Parsing unocha-cbpf-drc-contribution-2019 from https://cbpfapi.unocha.org/iati/iati/24/2019/GetContribution.xml
-found 12 activities
+found 0 activities
 
 Downloading unocha-cbpf-drc-contribution-2020 from https://cbpfapi.unocha.org/iati/iati/24/2020/GetContribution.xml
 Parsing unocha-cbpf-drc-contribution-2020 from https://cbpfapi.unocha.org/iati/iati/24/2020/GetContribution.xml
-found 16 activities
+found 0 activities
 
 Downloading unocha-cbpf-drc-contribution-2021 from https://cbpfapi.unocha.org/iati/iati/24/2021/GetContribution.xml
 Parsing unocha-cbpf-drc-contribution-2021 from https://cbpfapi.unocha.org/iati/iati/24/2021/GetContribution.xml
-found 17 activities
+found 0 activities
 
 Downloading unocha-cbpf-drc-contribution-2022 from https://cbpfapi.unocha.org/iati/iati/24/2022/GetContribution.xml
 Parsing unocha-cbpf-drc-contribution-2022 from https://cbpfapi.unocha.org/iati/iati/24/2022/GetContribution.xml
-found 13 activities
+found 0 activities
 
 Downloading unocha-cbpf-drc-contribution-2023 from https://cbpfapi.unocha.org/iati/iati/24/2023/GetContribution.xml
 Parsing unocha-cbpf-drc-contribution-2023 from https://cbpfapi.unocha.org/iati/iati/24/2023/GetContribution.xml
-found 1 activities
+found 0 activities
 
 Downloading unocha-cbpf-drc-contribution-2024 from https://cbpfapi.unocha.org/iati/iati/24/2024/GetContribution.xml
 Parsing unocha-cbpf-drc-contribution-2024 from https://cbpfapi.unocha.org/iati/iati/24/2024/GetContribution.xml
-found 1 activities
+found 0 activities
 
 Downloading unocha-cbpf-ethiopia-2016 from https://cbpfapi.unocha.org/iati/iati/53/2016/GetPooledFund.xml
 Parsing unocha-cbpf-ethiopia-2016 from https://cbpfapi.unocha.org/iati/iati/53/2016/GetPooledFund.xml
@@ -34625,7 +34687,7 @@ found 1 organisations
 
 Downloading usaid-19 from https://s3.amazonaws.com/files.explorer.devtechlab.com/iati-activities-Multiple+Countries-19.xml
 Parsing usaid-19 from https://s3.amazonaws.com/files.explorer.devtechlab.com/iati-activities-Multiple+Countries-19.xml
-found 350 activities
+found 345 activities
 
 Downloading usaid-289 from https://s3.amazonaws.com/files.explorer.devtechlab.com/iati-activities-South%20of%20Sahara%20regional.xml
 Parsing usaid-289 from https://s3.amazonaws.com/files.explorer.devtechlab.com/iati-activities-South%20of%20Sahara%20regional.xml
@@ -34677,11 +34739,11 @@ found 101 activities
 
 Downloading usaid-998-1 from https://s3.amazonaws.com/files.explorer.devtechlab.com/iati-activities-Worldwide-1.xml
 Parsing usaid-998-1 from https://s3.amazonaws.com/files.explorer.devtechlab.com/iati-activities-Worldwide-1.xml
-found 4905 activities
+found 4895 activities
 
 Downloading usaid-998-2 from https://s3.amazonaws.com/files.explorer.devtechlab.com/iati-activities-Worldwide-2.xml
 Parsing usaid-998-2 from https://s3.amazonaws.com/files.explorer.devtechlab.com/iati-activities-Worldwide-2.xml
-found 1964 activities
+found 1974 activities
 
 Downloading usaid-ae from https://s3.amazonaws.com/files.explorer.devtechlab.com/iati-activities-United%20Arab%20Emirates.xml
 Parsing usaid-ae from https://s3.amazonaws.com/files.explorer.devtechlab.com/iati-activities-United%20Arab%20Emirates.xml
@@ -35082,7 +35144,7 @@ found 340 activities
 
 Downloading usaid-multiple-17 from https://s3.amazonaws.com/files.explorer.devtechlab.com/iati-activities-Multiple+Countries-17.xml
 Parsing usaid-multiple-17 from https://s3.amazonaws.com/files.explorer.devtechlab.com/iati-activities-Multiple+Countries-17.xml
-found 625 activities
+found 660 activities
 
 Downloading usaid-multiple-1 from https://s3.amazonaws.com/files.explorer.devtechlab.com/iati-activities-Multiple%20Countries-1.xml
 Parsing usaid-multiple-1 from https://s3.amazonaws.com/files.explorer.devtechlab.com/iati-activities-Multiple%20Countries-1.xml
@@ -35122,7 +35184,7 @@ found 225 activities
 
 Downloading usaid-multiple-countries-16 from https://s3.amazonaws.com/files.explorer.devtechlab.com/iati-activities-Multiple+Countries-16.xml
 Parsing usaid-multiple-countries-16 from https://s3.amazonaws.com/files.explorer.devtechlab.com/iati-activities-Multiple+Countries-16.xml
-found 770 activities
+found 735 activities
 
 Downloading usaid-multiple-countries-18 from https://s3.amazonaws.com/files.explorer.devtechlab.com/iati-activities-Multiple+Countries-18.xml
 Parsing usaid-multiple-countries-18 from https://s3.amazonaws.com/files.explorer.devtechlab.com/iati-activities-Multiple+Countries-18.xml
