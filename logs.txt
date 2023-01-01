@@ -6670,9 +6670,8 @@ dflat: invalid XML format
 restored 0 files
 
 Downloading cif-998 from http://siteresources.worldbank.org/IATI/CIF/CIF-998.xml
-curl: download ERROR 404
 Parsing cif-998 from http://siteresources.worldbank.org/IATI/CIF/CIF-998.xml
-dflat: input XML file does not exist
+dflat: invalid XML format
 restored 0 files
 
 Downloading cifal-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/cifal-activities.xml
@@ -6705,9 +6704,8 @@ Parsing cif-br from http://doumodqax2qi2.cloudfront.net/CIF/CIF-05-2020/CIF-BR.x
 found 11 activities
 
 Downloading cif-cd from http://siteresources.worldbank.org/IATI/CIF/CIF-CD.xml
-curl: download ERROR 404
 Parsing cif-cd from http://siteresources.worldbank.org/IATI/CIF/CIF-CD.xml
-dflat: input XML file does not exist
+dflat: invalid XML format
 restored 0 files
 
 Downloading cif-ci from http://doumodqax2qi2.cloudfront.net/CIF/CIF-05-2020/CIF-CI.xml
@@ -7748,31 +7746,31 @@ found 1 organisations
 
 Downloading danida-all_1 from http://iati.um.dk/api/v2/files/iati1.xml
 Parsing danida-all_1 from http://iati.um.dk/api/v2/files/iati1.xml
-found 2543 activities
+found 2544 activities
 
 Downloading danida-all_2 from http://iati.um.dk/api/v2/files/iati2.xml
 Parsing danida-all_2 from http://iati.um.dk/api/v2/files/iati2.xml
-found 2543 activities
+found 2544 activities
 
 Downloading danida-all_3 from http://iati.um.dk/api/v2/files/iati3.xml
 Parsing danida-all_3 from http://iati.um.dk/api/v2/files/iati3.xml
-found 2543 activities
+found 2544 activities
 
 Downloading danida-all_4 from http://iati.um.dk/api/v2/files/iati4.xml
 Parsing danida-all_4 from http://iati.um.dk/api/v2/files/iati4.xml
-found 2543 activities
+found 2544 activities
 
 Downloading danida-all_5 from http://iati.um.dk/api/v2/files/iati5.xml
 Parsing danida-all_5 from http://iati.um.dk/api/v2/files/iati5.xml
-found 2543 activities
+found 2544 activities
 
 Downloading danida-all_6 from http://iati.um.dk/api/v2/files/iati6.xml
 Parsing danida-all_6 from http://iati.um.dk/api/v2/files/iati6.xml
-found 2543 activities
+found 2544 activities
 
 Downloading danida-all_7 from http://iati.um.dk/api/v2/files/iati7.xml
 Parsing danida-all_7 from http://iati.um.dk/api/v2/files/iati7.xml
-found 2542 activities
+found 2538 activities
 
 Downloading danida-org from http://iati.um.dk/api/v2/organisations/files/iati-organisations.xml
 Parsing danida-org from http://iati.um.dk/api/v2/organisations/files/iati-organisations.xml
@@ -11338,6 +11336,10 @@ found 5 activities
 
 Downloading finland_mfa-bo from http://formin.finland.fi/opendata/IATI/Finland_BO.xml
 Converting IATI activities version 1.00 to version 2.03
+./iati-activities.xsl:1: parser error : Document is empty
+
+^
+cannot parse ./iati-activities.xsl
 Parsing finland_mfa-bo from http://formin.finland.fi/opendata/IATI/Finland_BO.xml
 found 14 activities
 
@@ -11853,6 +11855,19 @@ found 114 activities
 
 Downloading finland_mfa-ua from http://formin.finland.fi/opendata/IATI/Finland_UA.xml
 Converting IATI activities version 1.00 to version 2.03
+./iati-activities.xsl:62: parser error : AttValue: ' expected
+                    <xsl:for-each select="participatin
+                                                      ^
+./iati-activities.xsl:62: parser error : attributes construct error
+                    <xsl:for-each select="participatin
+                                                      ^
+./iati-activities.xsl:62: parser error : Couldn't find end of Start Tag for-each line 62
+                    <xsl:for-each select="participatin
+                                                      ^
+./iati-activities.xsl:62: parser error : Premature end of data in tag iati-activity line 11
+                    <xsl:for-each select="participatin
+                                                      ^
+cannot parse ./iati-activities.xsl
 Parsing finland_mfa-ua from http://formin.finland.fi/opendata/IATI/Finland_UA.xml
 found 28 activities
 
@@ -15276,7 +15291,7 @@ found 14 activities
 
 Downloading ifad-activitity-bt from https://webapps.ifad.org/iati/ifad_bt_activities.xml
 Parsing ifad-activitity-bt from https://webapps.ifad.org/iati/ifad_bt_activities.xml
-found 8 activities
+found 9 activities
 
 Downloading ifad-activitity-bw from https://webapps.ifad.org/iati/ifad_bw_activities.xml
 Parsing ifad-activitity-bw from https://webapps.ifad.org/iati/ifad_bw_activities.xml
@@ -15744,7 +15759,7 @@ found 87 activities
 
 Downloading ifcwbg-189 from https://disclosures.ifc.org/IATI/IFC-189.xml
 Parsing ifcwbg-189 from https://disclosures.ifc.org/IATI/IFC-189.xml
-found 4 activities
+found 1 activities
 
 Downloading ifcwbg-21 from https://disclosures.ifc.org/IATI/IFC-21.xml
 Parsing ifcwbg-21 from https://disclosures.ifc.org/IATI/IFC-21.xml
@@ -15856,7 +15871,7 @@ found 1 activities
 
 Downloading ifcwbg-bd from https://disclosures.ifc.org/iati/ifc-bd.xml
 Parsing ifcwbg-bd from https://disclosures.ifc.org/iati/ifc-bd.xml
-found 80 activities
+found 81 activities
 
 Downloading ifcwbg-bf from https://disclosures.ifc.org/iati/ifc-bf.xml
 Parsing ifcwbg-bf from https://disclosures.ifc.org/iati/ifc-bf.xml
@@ -15884,7 +15899,7 @@ found 20 activities
 
 Downloading ifcwbg-br from https://disclosures.ifc.org/iati/ifc-br.xml
 Parsing ifcwbg-br from https://disclosures.ifc.org/iati/ifc-br.xml
-found 282 activities
+found 281 activities
 
 Downloading ifcwbg-bt from https://disclosures.ifc.org/iati/ifc-bt.xml
 Parsing ifcwbg-bt from https://disclosures.ifc.org/iati/ifc-bt.xml
@@ -15928,11 +15943,11 @@ found 29 activities
 
 Downloading ifcwbg-cn from https://disclosures.ifc.org/iati/ifc-cn.xml
 Parsing ifcwbg-cn from https://disclosures.ifc.org/iati/ifc-cn.xml
-found 292 activities
+found 293 activities
 
 Downloading ifcwbg-co from https://disclosures.ifc.org/iati/ifc-co.xml
 Parsing ifcwbg-co from https://disclosures.ifc.org/iati/ifc-co.xml
-found 119 activities
+found 120 activities
 
 Downloading ifcwbg-cr from https://disclosures.ifc.org/iati/ifc-cr.xml
 Parsing ifcwbg-cr from https://disclosures.ifc.org/iati/ifc-cr.xml
@@ -16080,7 +16095,7 @@ found 1 activities
 
 Downloading ifcwbg-kz from https://disclosures.ifc.org/iati/ifc-kz.xml
 Parsing ifcwbg-kz from https://disclosures.ifc.org/iati/ifc-kz.xml
-found 38 activities
+found 39 activities
 
 Downloading ifcwbg-la from https://disclosures.ifc.org/iati/ifc-la.xml
 Parsing ifcwbg-la from https://disclosures.ifc.org/iati/ifc-la.xml
@@ -16124,7 +16139,7 @@ found 7 activities
 
 Downloading ifcwbg-mg from https://disclosures.ifc.org/iati/ifc-mg.xml
 Parsing ifcwbg-mg from https://disclosures.ifc.org/iati/ifc-mg.xml
-found 14 activities
+found 15 activities
 
 Downloading ifcwbg-mh from https://disclosures.ifc.org/iati/ifc-mh.xml
 Parsing ifcwbg-mh from https://disclosures.ifc.org/iati/ifc-mh.xml
@@ -16220,7 +16235,7 @@ found 79 activities
 
 Downloading ifcwbg-pl from https://disclosures.ifc.org/iati/ifc-pl.xml
 Parsing ifcwbg-pl from https://disclosures.ifc.org/iati/ifc-pl.xml
-found 17 activities
+found 18 activities
 
 Downloading ifcwbg-py from https://disclosures.ifc.org/iati/ifc-py.xml
 Parsing ifcwbg-py from https://disclosures.ifc.org/iati/ifc-py.xml
@@ -16228,7 +16243,7 @@ found 26 activities
 
 Downloading ifcwbg-ro from https://disclosures.ifc.org/iati/ifc-ro.xml
 Parsing ifcwbg-ro from https://disclosures.ifc.org/iati/ifc-ro.xml
-found 90 activities
+found 91 activities
 
 Downloading ifcwbg-rs from https://disclosures.ifc.org/iati/ifc-rs.xml
 Parsing ifcwbg-rs from https://disclosures.ifc.org/iati/ifc-rs.xml
@@ -16318,7 +16333,7 @@ found 22 activities
 
 Downloading ifcwbg-tr from https://disclosures.ifc.org/iati/ifc-tr.xml
 Parsing ifcwbg-tr from https://disclosures.ifc.org/iati/ifc-tr.xml
-found 226 activities
+found 232 activities
 
 Downloading ifcwbg-tt from https://disclosures.ifc.org/iati/ifc-tt.xml
 Parsing ifcwbg-tt from https://disclosures.ifc.org/iati/ifc-tt.xml
@@ -16330,11 +16345,11 @@ found 51 activities
 
 Downloading ifcwbg-ua from https://disclosures.ifc.org/iati/ifc-ua.xml
 Parsing ifcwbg-ua from https://disclosures.ifc.org/iati/ifc-ua.xml
-found 88 activities
+found 87 activities
 
 Downloading ifcwbg-ug from https://disclosures.ifc.org/iati/ifc-ug.xml
 Parsing ifcwbg-ug from https://disclosures.ifc.org/iati/ifc-ug.xml
-found 35 activities
+found 36 activities
 
 Downloading ifcwbg-uy from https://disclosures.ifc.org/iati/ifc-uy.xml
 Parsing ifcwbg-uy from https://disclosures.ifc.org/iati/ifc-uy.xml
@@ -16342,7 +16357,7 @@ found 12 activities
 
 Downloading ifcwbg-uz from https://disclosures.ifc.org/iati/ifc-uz.xml
 Parsing ifcwbg-uz from https://disclosures.ifc.org/iati/ifc-uz.xml
-found 31 activities
+found 32 activities
 
 Downloading ifcwbg-ve from https://disclosures.ifc.org/iati/ifc-ve.xml
 Parsing ifcwbg-ve from https://disclosures.ifc.org/iati/ifc-ve.xml
@@ -16350,7 +16365,7 @@ found 12 activities
 
 Downloading ifcwbg-vn from https://disclosures.ifc.org/iati/ifc-vn.xml
 Parsing ifcwbg-vn from https://disclosures.ifc.org/iati/ifc-vn.xml
-found 89 activities
+found 91 activities
 
 Downloading ifcwbg-vu from https://disclosures.ifc.org/iati/ifc-vu.xml
 Parsing ifcwbg-vu from https://disclosures.ifc.org/iati/ifc-vu.xml
@@ -16370,7 +16385,7 @@ found 9 activities
 
 Downloading ifcwbg-za from https://disclosures.ifc.org/iati/ifc-za.xml
 Parsing ifcwbg-za from https://disclosures.ifc.org/iati/ifc-za.xml
-found 111 activities
+found 112 activities
 
 Downloading ifcwbg-zm from https://disclosures.ifc.org/iati/ifc-zm.xml
 Parsing ifcwbg-zm from https://disclosures.ifc.org/iati/ifc-zm.xml
