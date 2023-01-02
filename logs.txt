@@ -5637,7 +5637,7 @@ found 2 activities
 
 Downloading bylc-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/bylc-activities.xml
 Parsing bylc-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/bylc-activities.xml
-found 3 activities
+found 4 activities
 
 Downloading bylc-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/bylc-org.xml
 Parsing bylc-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/bylc-org.xml
@@ -6704,8 +6704,9 @@ Parsing cif-br from http://doumodqax2qi2.cloudfront.net/CIF/CIF-05-2020/CIF-BR.x
 found 11 activities
 
 Downloading cif-cd from http://siteresources.worldbank.org/IATI/CIF/CIF-CD.xml
+curl: download ERROR 404
 Parsing cif-cd from http://siteresources.worldbank.org/IATI/CIF/CIF-CD.xml
-dflat: invalid XML format
+dflat: input XML file does not exist
 restored 0 files
 
 Downloading cif-ci from http://doumodqax2qi2.cloudfront.net/CIF/CIF-05-2020/CIF-CI.xml
@@ -11336,10 +11337,6 @@ found 5 activities
 
 Downloading finland_mfa-bo from http://formin.finland.fi/opendata/IATI/Finland_BO.xml
 Converting IATI activities version 1.00 to version 2.03
-./iati-activities.xsl:1: parser error : Document is empty
-
-^
-cannot parse ./iati-activities.xsl
 Parsing finland_mfa-bo from http://formin.finland.fi/opendata/IATI/Finland_BO.xml
 found 14 activities
 
@@ -11855,19 +11852,6 @@ found 114 activities
 
 Downloading finland_mfa-ua from http://formin.finland.fi/opendata/IATI/Finland_UA.xml
 Converting IATI activities version 1.00 to version 2.03
-./iati-activities.xsl:62: parser error : AttValue: ' expected
-                    <xsl:for-each select="participatin
-                                                      ^
-./iati-activities.xsl:62: parser error : attributes construct error
-                    <xsl:for-each select="participatin
-                                                      ^
-./iati-activities.xsl:62: parser error : Couldn't find end of Start Tag for-each line 62
-                    <xsl:for-each select="participatin
-                                                      ^
-./iati-activities.xsl:62: parser error : Premature end of data in tag iati-activity line 11
-                    <xsl:for-each select="participatin
-                                                      ^
-cannot parse ./iati-activities.xsl
 Parsing finland_mfa-ua from http://formin.finland.fi/opendata/IATI/Finland_UA.xml
 found 28 activities
 
@@ -12550,11 +12534,11 @@ found 1 organisations
 
 Downloading gac-amc-act_2_3 from http://w05.international.gc.ca/projectbrowser-banqueprojets/iita-iati/dfatd-maecd_activit_status_2_3.xml
 Parsing gac-amc-act_2_3 from http://w05.international.gc.ca/projectbrowser-banqueprojets/iita-iati/dfatd-maecd_activit_status_2_3.xml
-found 1779 activities
+found 1782 activities
 
 Downloading gac-amc-act_4 from http://w05.international.gc.ca/projectbrowser-banqueprojets/iita-iati/dfatd-maecd_activit_status_4.xml
 Parsing gac-amc-act_4 from http://w05.international.gc.ca/projectbrowser-banqueprojets/iita-iati/dfatd-maecd_activit_status_4.xml
-found 4090 activities
+found 4095 activities
 
 Downloading gac-amc-org from http://w05.international.gc.ca/projectbrowser-banqueprojets/iita-iati/dfatd-maecd_organisation.xml
 Parsing gac-amc-org from http://w05.international.gc.ca/projectbrowser-banqueprojets/iita-iati/dfatd-maecd_organisation.xml
@@ -13607,6 +13591,10 @@ found 1 organisations
 
 Downloading gsma_foundation-datasetdec22 from https://dl.dropboxusercontent.com/s/01mk2yni5kfdlmg/231222.xml
 Parsing gsma_foundation-datasetdec22 from https://dl.dropboxusercontent.com/s/01mk2yni5kfdlmg/231222.xml
+found 138 activities
+
+Downloading gsma_foundation-datasetjan23 from https://dl.dropboxusercontent.com/s/fx6ef2tp3ag2nc4/010123.xml
+Parsing gsma_foundation-datasetjan23 from https://dl.dropboxusercontent.com/s/fx6ef2tp3ag2nc4/010123.xml
 found 138 activities
 
 Downloading gsma_foundation-org2 from https://dl.dropboxusercontent.com/s/lwu8rjvbbbnc5cj/040821.xml
@@ -15523,7 +15511,7 @@ found 2 activities
 
 Downloading ifad-activitity-ml from https://webapps.ifad.org/iati/ifad_ml_activities.xml
 Parsing ifad-activitity-ml from https://webapps.ifad.org/iati/ifad_ml_activities.xml
-found 16 activities
+found 17 activities
 
 Downloading ifad-activitity-mm from https://webapps.ifad.org/iati/ifad_mm_activities.xml
 Parsing ifad-activitity-mm from https://webapps.ifad.org/iati/ifad_mm_activities.xml
@@ -30221,7 +30209,7 @@ found 190 activities
 
 Downloading unido-activity-2013 from https://www.unido.org/sites/default/files/iati/2013-unido-activities.xml
 Parsing unido-activity-2013 from https://www.unido.org/sites/default/files/iati/2013-unido-activities.xml
-found 1175 activities
+found 1176 activities
 
 Downloading unido-activity-2014 from https://www.unido.org/sites/default/files/iati/2014-unido-activities.xml
 Parsing unido-activity-2014 from https://www.unido.org/sites/default/files/iati/2014-unido-activities.xml
@@ -30253,23 +30241,23 @@ found 984 activities
 
 Downloading unido-activity-2021 from https://www.unido.org/sites/default/files/iati/2021-unido-activities.xml
 Parsing unido-activity-2021 from https://www.unido.org/sites/default/files/iati/2021-unido-activities.xml
-found 990 activities
+found 991 activities
 
 Downloading unido-activity-2022 from https://www.unido.org/sites/default/files/iati/2022-unido-activities.xml
 Parsing unido-activity-2022 from https://www.unido.org/sites/default/files/iati/2022-unido-activities.xml
-found 975 activities
+found 979 activities
 
 Downloading unido-activity-2023 from https://www.unido.org/sites/default/files/iati/2023-unido-activities.xml
 Parsing unido-activity-2023 from https://www.unido.org/sites/default/files/iati/2023-unido-activities.xml
-found 336 activities
+found 412 activities
 
 Downloading unido-activity-2024 from https://www.unido.org/sites/default/files/iati/2024-unido-activities.xml
 Parsing unido-activity-2024 from https://www.unido.org/sites/default/files/iati/2024-unido-activities.xml
-found 114 activities
+found 120 activities
 
 Downloading unido-activity-2025 from https://www.unido.org/sites/default/files/iati/2025-unido-activities.xml
 Parsing unido-activity-2025 from https://www.unido.org/sites/default/files/iati/2025-unido-activities.xml
-found 50 activities
+found 51 activities
 
 Downloading unido-org from https://open.unido.org/download/unido-organization.xml
 Parsing unido-org from https://open.unido.org/download/unido-organization.xml
