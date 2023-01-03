@@ -6670,8 +6670,9 @@ dflat: invalid XML format
 restored 0 files
 
 Downloading cif-998 from http://siteresources.worldbank.org/IATI/CIF/CIF-998.xml
+curl: download ERROR 404
 Parsing cif-998 from http://siteresources.worldbank.org/IATI/CIF/CIF-998.xml
-dflat: invalid XML format
+dflat: input XML file does not exist
 restored 0 files
 
 Downloading cifal-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/cifal-activities.xml
@@ -6704,9 +6705,8 @@ Parsing cif-br from http://doumodqax2qi2.cloudfront.net/CIF/CIF-05-2020/CIF-BR.x
 found 11 activities
 
 Downloading cif-cd from http://siteresources.worldbank.org/IATI/CIF/CIF-CD.xml
-curl: download ERROR 404
 Parsing cif-cd from http://siteresources.worldbank.org/IATI/CIF/CIF-CD.xml
-dflat: input XML file does not exist
+dflat: invalid XML format
 restored 0 files
 
 Downloading cif-ci from http://doumodqax2qi2.cloudfront.net/CIF/CIF-05-2020/CIF-CI.xml
@@ -6894,8 +6894,9 @@ Parsing cif-ws from http://doumodqax2qi2.cloudfront.net/CIF/CIF-05-2020/CIF-WS.x
 found 2 activities
 
 Downloading cif-ye from http://siteresources.worldbank.org/IATI/CIF/CIF-YE.xml
+curl: download ERROR 404
 Parsing cif-ye from http://siteresources.worldbank.org/IATI/CIF/CIF-YE.xml
-dflat: invalid XML format
+dflat: input XML file does not exist
 restored 0 files
 
 Downloading cif-za from http://doumodqax2qi2.cloudfront.net/CIF/CIF-05-2020/CIF-ZA.xml
@@ -7813,6 +7814,10 @@ found 4 activities
 Downloading dba-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/dba-org.xml
 Parsing dba-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/dba-org.xml
 found 1 organisations
+
+Downloading dca-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/dca-activities.xml
+Parsing dca-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/dca-activities.xml
+found 2577 activities
 
 Downloading dc-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/dc-activities.xml
 Parsing dc-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/dc-activities.xml
