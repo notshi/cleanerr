@@ -3113,7 +3113,7 @@ found 1 organisations
 
 Downloading asi-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/asi-activities.xml
 Parsing asi-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/asi-activities.xml
-found 8 activities
+found 9 activities
 
 Downloading asil-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/asil-activities.xml
 Parsing asil-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/asil-activities.xml
@@ -6491,7 +6491,7 @@ found 265 activities
 
 Downloading cerf-projectsfunded2022 from https://cerfgms-webapi.unocha.org/v1/iati/project/year/2022.xml
 Parsing cerf-projectsfunded2022 from https://cerfgms-webapi.unocha.org/v1/iati/project/year/2022.xml
-found 377 activities
+found 379 activities
 
 Downloading cesc-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/cesc-activities.xml
 Parsing cesc-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/cesc-activities.xml
@@ -6665,9 +6665,8 @@ dflat: invalid XML format
 restored 0 files
 
 Downloading cif-889 from http://siteresources.worldbank.org/IATI/CIF/CIF-889.xml
-curl: download ERROR 404
 Parsing cif-889 from http://siteresources.worldbank.org/IATI/CIF/CIF-889.xml
-dflat: input XML file does not exist
+dflat: invalid XML format
 restored 0 files
 
 Downloading cif-998 from http://siteresources.worldbank.org/IATI/CIF/CIF-998.xml
@@ -6954,7 +6953,7 @@ found 9 activities
 
 Downloading cisu-gaia from https://vores.cisu.dk/activities.xml
 Parsing cisu-gaia from https://vores.cisu.dk/activities.xml
-found 2383 activities
+found 2384 activities
 
 Downloading cisu-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/cisu-org.xml
 Parsing cisu-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/cisu-org.xml
@@ -8492,8 +8491,10 @@ Parsing ec-fpi-bt from https://ec.europa.eu/international-partnerships/assets/ia
 found 2 activities
 
 Downloading ec-fpi-by from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_BY.xml
+curl: download ERROR 000
 Parsing ec-fpi-by from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_BY.xml
-found 6 activities
+dflat: input XML file does not exist
+restored 6 files
 
 Downloading ec-fpi-ca from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_CA.xml
 Parsing ec-fpi-ca from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_CA.xml
@@ -15047,7 +15048,7 @@ found 1 organisations
 
 Downloading idbinvest-projects from https://idbinvest.org/sites/default/files/iati_publish_projects.xml
 Parsing idbinvest-projects from https://idbinvest.org/sites/default/files/iati_publish_projects.xml
-found 1757 activities
+found 1759 activities
 
 Downloading idea-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/idea-activities.xml
 Parsing idea-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/idea-activities.xml
@@ -16994,12 +16995,16 @@ Parsing international-alert-activities from https://aidstream.s3.us-west-2.amazo
 found 272 activities
 
 Downloading interpeace-activity from https://www.interpeace.org/wp-content/uploads/iati/IATI-activities.xml
+curl: download ERROR 000
 Parsing interpeace-activity from https://www.interpeace.org/wp-content/uploads/iati/IATI-activities.xml
-found 94 activities
+dflat: input XML file does not exist
+restored 94 files
 
 Downloading interpeace-org from https://www.interpeace.org/wp-content/uploads/iati/Interpeace-Org.xml
+curl: download ERROR 000
 Parsing interpeace-org from https://www.interpeace.org/wp-content/uploads/iati/Interpeace-Org.xml
-found 1 organisations
+dflat: input XML file does not exist
+restored 1 files
 
 Downloading intersos_main-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/intersos_main-activities.xml
 Parsing intersos_main-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/intersos_main-activities.xml
@@ -22468,7 +22473,7 @@ found 1 organisations
 
 Downloading oyw-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/oyw-activities.xml
 Parsing oyw-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/oyw-activities.xml
-found 7 activities
+found 8 activities
 
 Downloading oyw-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/oyw-org.xml
 Parsing oyw-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/oyw-org.xml
@@ -23767,7 +23772,7 @@ found 1 activities
 
 Downloading rutgers-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/rutgers-activities.xml
 Parsing rutgers-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/rutgers-activities.xml
-found 59 activities
+found 60 activities
 
 Downloading rutgers-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/rutgers-org.xml
 Parsing rutgers-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/rutgers-org.xml
@@ -23847,16 +23852,22 @@ Parsing sawdf-admin-np from https://aidstream.s3.us-west-2.amazonaws.com/xml/saw
 found 2 activities
 
 Downloading sccf-currentactivities from http://transparency.secours-catholique.org/currentActivities.xml
+curl: download ERROR 000
 Parsing sccf-currentactivities from http://transparency.secours-catholique.org/currentActivities.xml
-found 257 activities
+dflat: input XML file does not exist
+restored 257 files
 
 Downloading sccf-org from http://transparency.secours-catholique.org/sccf-org.xml
+curl: download ERROR 000
 Parsing sccf-org from http://transparency.secours-catholique.org/sccf-org.xml
-found 1 organisations
+dflat: input XML file does not exist
+restored 1 files
 
 Downloading sccf-pastactivities from http://transparency.secours-catholique.org/pastActivities.xml
+curl: download ERROR 000
 Parsing sccf-pastactivities from http://transparency.secours-catholique.org/pastActivities.xml
-found 238 activities
+dflat: input XML file does not exist
+restored 238 files
 
 Downloading sci-activities from http://iati.savethechildren.org.uk/Files/SCI/activities.xml
 Parsing sci-activities from http://iati.savethechildren.org.uk/Files/SCI/activities.xml
@@ -33457,7 +33468,7 @@ found 26 activities
 
 Downloading unocha-cbpf-ukraine-allocation-2022 from https://cbpfapi.unocha.org/iati/iati/81/2022/GetAllocation.xml
 Parsing unocha-cbpf-ukraine-allocation-2022 from https://cbpfapi.unocha.org/iati/iati/81/2022/GetAllocation.xml
-found 104 activities
+found 109 activities
 
 Downloading unocha-cbpf-ukraine-allocation-2023 from https://cbpfapi.unocha.org/iati/iati/81/2023/GetAllocation.xml
 Parsing unocha-cbpf-ukraine-allocation-2023 from https://cbpfapi.unocha.org/iati/iati/81/2023/GetAllocation.xml
