@@ -6706,9 +6706,8 @@ Parsing cif-br from http://doumodqax2qi2.cloudfront.net/CIF/CIF-05-2020/CIF-BR.x
 found 11 activities
 
 Downloading cif-cd from http://siteresources.worldbank.org/IATI/CIF/CIF-CD.xml
-curl: download ERROR 404
 Parsing cif-cd from http://siteresources.worldbank.org/IATI/CIF/CIF-CD.xml
-dflat: input XML file does not exist
+dflat: invalid XML format
 restored 0 files
 
 Downloading cif-ci from http://doumodqax2qi2.cloudfront.net/CIF/CIF-05-2020/CIF-CI.xml
@@ -7749,27 +7748,27 @@ found 1 organisations
 
 Downloading danida-all_1 from http://iati.um.dk/api/v2/files/iati1.xml
 Parsing danida-all_1 from http://iati.um.dk/api/v2/files/iati1.xml
-found 2559 activities
+found 2560 activities
 
 Downloading danida-all_2 from http://iati.um.dk/api/v2/files/iati2.xml
 Parsing danida-all_2 from http://iati.um.dk/api/v2/files/iati2.xml
-found 2559 activities
+found 2560 activities
 
 Downloading danida-all_3 from http://iati.um.dk/api/v2/files/iati3.xml
 Parsing danida-all_3 from http://iati.um.dk/api/v2/files/iati3.xml
-found 2559 activities
+found 2560 activities
 
 Downloading danida-all_4 from http://iati.um.dk/api/v2/files/iati4.xml
 Parsing danida-all_4 from http://iati.um.dk/api/v2/files/iati4.xml
-found 2559 activities
+found 2560 activities
 
 Downloading danida-all_5 from http://iati.um.dk/api/v2/files/iati5.xml
 Parsing danida-all_5 from http://iati.um.dk/api/v2/files/iati5.xml
-found 2559 activities
+found 2560 activities
 
 Downloading danida-all_6 from http://iati.um.dk/api/v2/files/iati6.xml
 Parsing danida-all_6 from http://iati.um.dk/api/v2/files/iati6.xml
-found 2559 activities
+found 2560 activities
 
 Downloading danida-all_7 from http://iati.um.dk/api/v2/files/iati7.xml
 Parsing danida-all_7 from http://iati.um.dk/api/v2/files/iati7.xml
@@ -8554,8 +8553,10 @@ Parsing ec-fpi-eg from https://ec.europa.eu/international-partnerships/assets/ia
 found 11 activities
 
 Downloading ec-fpi-er from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_ER.xml
+curl: download ERROR 000
 Parsing ec-fpi-er from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_ER.xml
-found 2 activities
+dflat: input XML file does not exist
+restored 2 files
 
 Downloading ec-fpi-et from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_ET.xml
 Parsing ec-fpi-et from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_ET.xml
@@ -8650,8 +8651,10 @@ Parsing ec-fpi-ke from https://ec.europa.eu/international-partnerships/assets/ia
 found 31 activities
 
 Downloading ec-fpi-kg from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_KG.xml
+curl: download ERROR 000
 Parsing ec-fpi-kg from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_KG.xml
-found 44 activities
+dflat: input XML file does not exist
+restored 44 files
 
 Downloading ec-fpi-kh from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_KH.xml
 Parsing ec-fpi-kh from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_KH.xml
@@ -31629,7 +31632,7 @@ found 0 activities
 
 Downloading unocha-cbpf-burkinafasorhpf-allocation-2022 from https://cbpfapi.unocha.org/iati/iati/85/2022/GetAllocation.xml
 Parsing unocha-cbpf-burkinafasorhpf-allocation-2022 from https://cbpfapi.unocha.org/iati/iati/85/2022/GetAllocation.xml
-found 34 activities
+found 40 activities
 
 Downloading unocha-cbpf-burkinafasorhpf-allocation-2023 from https://cbpfapi.unocha.org/iati/iati/85/2023/GetAllocation.xml
 Parsing unocha-cbpf-burkinafasorhpf-allocation-2023 from https://cbpfapi.unocha.org/iati/iati/85/2023/GetAllocation.xml
