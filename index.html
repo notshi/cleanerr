@@ -28,7 +28,7 @@
 			.foot_wrap,
 			.table_wrap	{max-width:1280px; padding:2em 4em; margin:0 auto;}
 			.table_wrap	{font-size:12px; line-height:1.5em;}
-			.table_wrap.no_bottom .dataTable-bottom	{display:none;}
+			.table_wrap.no_bottom .datatable-bottom	{display:none;}
 			.legend_wrap{padding:2em 0;}
 			table		{table-layout:fixed; overflow:hidden; overflow-wrap:break-word; word-wrap:break-word;}
 			table.total_duplicates,
@@ -66,42 +66,42 @@
 			span#date	{font-style:italic;}
 			
 			/*	Table style	*/
-			table.dataTable-table	{border-radius:4px; border-bottom:0;}
+			table.datatable-table	{border-radius:4px; border-bottom:0;}
 			
 			/*	Table alternate rows highlight	*/
-			.dataTable-table tr:nth-child(2n)	{background-color:#F8F8F8;}
-			.dataTable-table tr:nth-child(2n+1)	{background-color:#fff;}
+			.datatable-table tr:nth-child(2n)	{background-color:#F8F8F8;}
+			.datatable-table tr:nth-child(2n+1)	{background-color:#fff;}
 			
 			/*	Table header	*/
-			.dataTable-sorter::before	{border-top:4px solid #fff; bottom:4px;}
-			.dataTable-sorter::after	{border-bottom:4px solid #fff; top:-1px;}
-			.dataTable-sorter::before,
-			.dataTable-sorter::after	{opacity:1;}
-			.dataTable-table > thead > tr > th	{background-color:#3744ff; color:#fff; text-transform:uppercase; font-size:10px;}
-			.dataTable-table > thead > tr > th:hover	{background-color:#5E68FF;}
+			.datatable-sorter::before	{border-top:4px solid #fff; bottom:4px;}
+			.datatable-sorter::after	{border-bottom:4px solid #fff; top:-1px;}
+			.datatable-sorter::before,
+			.datatable-sorter::after	{opacity:1;}
+			.datatable-table > thead > tr > th	{background-color:#3744ff; color:#fff; text-transform:uppercase; font-size:10px;}
+			.datatable-table > thead > tr > th:hover	{background-color:#5E68FF;}
 			
 			/*	Table footer	*/
-			.dataTable-wrapper.no-footer .dataTable-container	{border:0;}
-			.show_info .dataTable-bottom > div:last-child	{float:left;}
+			.datatable-wrapper.no-footer .datatable-container	{border:0;}
+			.show_info .datatable-bottom > div:last-child	{float:left;}
 						
 			/*	Table grid	*/
-			.dataTable-table > tbody > tr > td,
-			.dataTable-table > tbody > tr > th,
-			.dataTable-table > tfoot > tr > td,
-			.dataTable-table > tfoot > tr > th,
-			.dataTable-table > thead > tr > td,
-			.dataTable-table > thead > tr > th	{padding:4px 10px; border-bottom:1px solid #eee;}
+			.datatable-table > tbody > tr > td,
+			.datatable-table > tbody > tr > th,
+			.datatable-table > tfoot > tr > td,
+			.datatable-table > tfoot > tr > th,
+			.datatable-table > thead > tr > td,
+			.datatable-table > thead > tr > th	{padding:4px 10px; border-bottom:1px solid #eee;}
 			
 			/*	Table top bar	*/
-			.dataTable-top	{margin-top:-3em;}
+			.datatable-top	{margin-top:-3em;}
 			
 			/*	Table dropdown	*/
-			.dataTable-selector {padding:2px 0px; margin-right:5px;}
-			.dataTable-dropdown {padding-bottom:1em;}
+			.datatable-selector {padding:2px 0px; margin-right:5px;}
+			.datatable-dropdown {padding-bottom:1em;}
 			
 			/*	Table search bar	*/
-			.dataTable-top > div:first-child	{float:right;}
-			.dataTable-top > div:last-child		{padding-right:1em;}
+			.datatable-top > div:first-child	{float:right;}
+			.datatable-top > div:last-child		{padding-right:1em;}
 			
 			/*	Back to top link	*/
 			a.top		{display:block; width:100%; padding:20px 0; text-align:center; font-size:12px; color:#444; cursor:pointer;}
@@ -139,12 +139,12 @@
 			span#date	{display:block; padding-top:1em;}
 			.head_wrap.no_options {padding-bottom:1em;}
 				
-			.dataTable-top	{margin-top:-1em;}
-			.dataTable-top > div:first-child,
-			.dataTable-top > nav:last-child,
-			.dataTable-top > div:last-child,
-			.dataTable-bottom > nav:last-child,
-			.dataTable-bottom > div:last-child {float:none;}
+			.datatable-top	{margin-top:-1em;}
+			.datatable-top > div:first-child,
+			.datatable-top > nav:last-child,
+			.datatable-top > div:last-child,
+			.datatable-bottom > nav:last-child,
+			.datatable-bottom > div:last-child {float:none;}
 			}
 		</style>
 		<script src="https://cdn.jsdelivr.net/npm/simple-datatables@latest" type="text/javascript"></script>
@@ -215,7 +215,7 @@
 				return a;
 			}
 		</script>
-		<script>
+		<script>	/*	Download and import errors & Error Count */
 			fetch("errors.csv")
 			.then(response => response.text())
 			.then(data => {
@@ -322,7 +322,7 @@
 			})
 			})
 		</script>	
-		<script>
+		<script>	/*	File type total count	*/
 			fetch("counts.csv")
 			.then(response => response.text())
 			.then(data => {
@@ -390,7 +390,7 @@
 				})
 			})
 		</script>
-		<script>
+		<script>	/*	Duplicate organisation identifiers	*/
 			fetch("organisation-identifiers.errors.json")
 			.then(response => response.json())
 			.then(data => {
@@ -431,7 +431,7 @@
 				
 			})
 		</script>
-		<script>
+		<script>	/*	Duplicate activity identifiers	*/
 			fetch("activity-identifiers.errors.json")
 			.then(response => response.json())
 			.then(data => {
