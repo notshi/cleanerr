@@ -45,7 +45,11 @@ found 1 activities
 
 Downloading 72728-activities from https://iatipublisher-prod.s3.amazonaws.com/xml/mergedActivityXml/72728-activities.xml
 Parsing 72728-activities from https://iatipublisher-prod.s3.amazonaws.com/xml/mergedActivityXml/72728-activities.xml
-found 0 activities
+found 1 activities
+
+Downloading 72728-organisation from https://iatipublisher-prod.s3.amazonaws.com/organizationXmlFiles/72728-organisation.xml
+Parsing 72728-organisation from https://iatipublisher-prod.s3.amazonaws.com/organizationXmlFiles/72728-organisation.xml
+found 1 organisations
 
 Downloading 7272-activities from https://iatipublisher-prod.s3.amazonaws.com/xml/mergedActivityXml/7272-activities.xml
 Parsing 7272-activities from https://iatipublisher-prod.s3.amazonaws.com/xml/mergedActivityXml/7272-activities.xml
@@ -409,6 +413,10 @@ Downloading acf-pk from https://aidstream.s3.us-west-2.amazonaws.com/xml/acf-pk.
 Parsing acf-pk from https://aidstream.s3.us-west-2.amazonaws.com/xml/acf-pk.xml
 found 3 activities
 
+Downloading acf-pl from https://aidstream.s3.us-west-2.amazonaws.com/xml/acf-pl.xml
+Parsing acf-pl from https://aidstream.s3.us-west-2.amazonaws.com/xml/acf-pl.xml
+found 1 activities
+
 Downloading acfshr-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/acfshr-activities.xml
 Parsing acfshr-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/acfshr-activities.xml
 found 2 activities
@@ -427,7 +435,7 @@ found 2 activities
 
 Downloading acf-so from https://aidstream.s3.us-west-2.amazonaws.com/xml/acf-so.xml
 Parsing acf-so from https://aidstream.s3.us-west-2.amazonaws.com/xml/acf-so.xml
-found 8 activities
+found 9 activities
 
 Downloading acfspain-bd from https://aidstream.s3.us-west-2.amazonaws.com/xml/acfspain-bd.xml
 Parsing acfspain-bd from https://aidstream.s3.us-west-2.amazonaws.com/xml/acfspain-bd.xml
@@ -4283,6 +4291,14 @@ Downloading avt-l-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/avt-
 Parsing avt-l-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/avt-l-org.xml
 found 1 organisations
 
+Downloading awaketravel-activities from https://iatipublisher-prod.s3.amazonaws.com/xml/mergedActivityXml/awaketravel-activities.xml
+Parsing awaketravel-activities from https://iatipublisher-prod.s3.amazonaws.com/xml/mergedActivityXml/awaketravel-activities.xml
+found 1 activities
+
+Downloading awaketravel-organisation from https://iatipublisher-prod.s3.amazonaws.com/organizationXmlFiles/awaketravel-organisation.xml
+Parsing awaketravel-organisation from https://iatipublisher-prod.s3.amazonaws.com/organizationXmlFiles/awaketravel-organisation.xml
+found 1 organisations
+
 Downloading awa_sn-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/awa_sn-activities.xml
 Parsing awa_sn-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/awa_sn-activities.xml
 found 1 activities
@@ -6688,8 +6704,9 @@ Parsing cidr-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/ci
 found 1 activities
 
 Downloading cif-389 from http://siteresources.worldbank.org/IATI/CIF/CIF-389.xml
+curl: download ERROR 404
 Parsing cif-389 from http://siteresources.worldbank.org/IATI/CIF/CIF-389.xml
-dflat: invalid XML format
+dflat: input XML file does not exist
 restored 0 files
 
 Downloading cif-889 from http://siteresources.worldbank.org/IATI/CIF/CIF-889.xml
@@ -6698,9 +6715,8 @@ dflat: invalid XML format
 restored 0 files
 
 Downloading cif-998 from http://siteresources.worldbank.org/IATI/CIF/CIF-998.xml
-curl: download ERROR 404
 Parsing cif-998 from http://siteresources.worldbank.org/IATI/CIF/CIF-998.xml
-dflat: input XML file does not exist
+dflat: invalid XML format
 restored 0 files
 
 Downloading cifal-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/cifal-activities.xml
@@ -6922,9 +6938,8 @@ Parsing cif-ws from http://doumodqax2qi2.cloudfront.net/CIF/CIF-05-2020/CIF-WS.x
 found 2 activities
 
 Downloading cif-ye from http://siteresources.worldbank.org/IATI/CIF/CIF-YE.xml
-curl: download ERROR 404
 Parsing cif-ye from http://siteresources.worldbank.org/IATI/CIF/CIF-YE.xml
-dflat: input XML file does not exist
+dflat: invalid XML format
 restored 0 files
 
 Downloading cif-za from http://doumodqax2qi2.cloudfront.net/CIF/CIF-05-2020/CIF-ZA.xml
@@ -7795,10 +7810,8 @@ Parsing danida-all_4 from http://iati.um.dk/api/v2/files/iati4.xml
 found 2579 activities
 
 Downloading danida-all_5 from http://iati.um.dk/api/v2/files/iati5.xml
-curl: download ERROR 404
 Parsing danida-all_5 from http://iati.um.dk/api/v2/files/iati5.xml
-dflat: input XML file does not exist
-restored 2579 files
+found 2579 activities
 
 Downloading danida-all_6 from http://iati.um.dk/api/v2/files/iati6.xml
 Parsing danida-all_6 from http://iati.um.dk/api/v2/files/iati6.xml
@@ -11270,13 +11283,11 @@ found 690 activities
 
 Downloading ec-echo-2022 from https://webgate.ec.europa.eu/hac/IATI/ec-echo-2022.xml
 Parsing ec-echo-2022 from https://webgate.ec.europa.eu/hac/IATI/ec-echo-2022.xml
-found 19 activities
+found 413 activities
 
 Downloading ec-echo-2023 from https://webgate.ec.europa.eu/hac/IATI/ec-echo-2023.xml
-curl: download ERROR 404
 Parsing ec-echo-2023 from https://webgate.ec.europa.eu/hac/IATI/ec-echo-2023.xml
-dflat: input XML file does not exist
-restored 0 files
+found 18 activities
 
 Downloading ec-echo-org from https://webgate.ec.europa.eu/hac/IATI/iati-organisation-file.xml
 Parsing ec-echo-org from https://webgate.ec.europa.eu/hac/IATI/iati-organisation-file.xml
@@ -13084,7 +13095,7 @@ found 1 organisations
 
 Downloading enabel-all-activities from https://open.enabel.be/iati/all-activities.xml
 Parsing enabel-all-activities from https://open.enabel.be/iati/all-activities.xml
-found 1076 activities
+found 1075 activities
 
 Downloading enabel-contractors from https://open.enabel.be/iati/contractors.xml
 Parsing enabel-contractors from https://open.enabel.be/iati/contractors.xml
@@ -16856,6 +16867,14 @@ Converting IATI organisations version 1.03 to version 2.03
 Parsing growmovement_admin-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/growmovement_admin-org.xml
 found 1 organisations
 
+Downloading grupoe3-activities from https://iatipublisher-prod.s3.amazonaws.com/xml/mergedActivityXml/grupoe3-activities.xml
+Parsing grupoe3-activities from https://iatipublisher-prod.s3.amazonaws.com/xml/mergedActivityXml/grupoe3-activities.xml
+found 8 activities
+
+Downloading grupoe3-organisation from https://iatipublisher-prod.s3.amazonaws.com/organizationXmlFiles/grupoe3-organisation.xml
+Parsing grupoe3-organisation from https://iatipublisher-prod.s3.amazonaws.com/organizationXmlFiles/grupoe3-organisation.xml
+found 1 organisations
+
 Downloading gsg-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/gsg-activities.xml
 Parsing gsg-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/gsg-activities.xml
 found 2 activities
@@ -19658,7 +19677,7 @@ found 10 activities
 
 Downloading ifcwbg-eg from https://disclosures.ifc.org/iati/ifc-eg.xml
 Parsing ifcwbg-eg from https://disclosures.ifc.org/iati/ifc-eg.xml
-found 116 activities
+found 117 activities
 
 Downloading ifcwbg-er from https://disclosures.ifc.org/iati/ifc-er.xml
 Parsing ifcwbg-er from https://disclosures.ifc.org/iati/ifc-er.xml
@@ -26841,7 +26860,7 @@ found 1 organisations
 
 Downloading plannlno-ao from https://iati.plannederland.nl/NL-KVK-41198890-IATI-activity-file.xml
 Parsing plannlno-ao from https://iati.plannederland.nl/NL-KVK-41198890-IATI-activity-file.xml
-found 226 activities
+found 229 activities
 
 Downloading plannlno-org from https://iati.plannederland.nl/plannlno-org.xml
 Parsing plannlno-org from https://iati.plannederland.nl/plannlno-org.xml
@@ -27794,7 +27813,7 @@ found 1 organisations
 
 Downloading rvo-01 from https://projects.rvo.nl/opendata/iati.xml
 Parsing rvo-01 from https://projects.rvo.nl/opendata/iati.xml
-found 4092 activities
+found 4093 activities
 
 Downloading rvo-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/rvo-activities.xml
 Parsing rvo-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/rvo-activities.xml
@@ -28266,7 +28285,7 @@ found 1 activities
 
 Downloading sense_international-ke from https://aidstream.s3.us-west-2.amazonaws.com/xml/sense_international-ke.xml
 Parsing sense_international-ke from https://aidstream.s3.us-west-2.amazonaws.com/xml/sense_international-ke.xml
-found 5 activities
+found 6 activities
 
 Downloading sense_international-np from https://aidstream.s3.us-west-2.amazonaws.com/xml/sense_international-np.xml
 Parsing sense_international-np from https://aidstream.s3.us-west-2.amazonaws.com/xml/sense_international-np.xml
@@ -28279,7 +28298,7 @@ found 1 organisations
 
 Downloading sense_international-tz from https://aidstream.s3.us-west-2.amazonaws.com/xml/sense_international-tz.xml
 Parsing sense_international-tz from https://aidstream.s3.us-west-2.amazonaws.com/xml/sense_international-tz.xml
-found 1 activities
+found 2 activities
 
 Downloading ser-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/ser-activities.xml
 Parsing ser-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/ser-activities.xml
@@ -35059,1134 +35078,6 @@ Downloading uni_of_nottingham-activities from https://aidstream.s3.us-west-2.ama
 Parsing uni_of_nottingham-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/uni_of_nottingham-activities.xml
 found 1 activities
 
-Downloading unitedstates-189 from https://dept-of-state-iati.s3.amazonaws.com/activity/north-of-sahara-regional.xml
-Parsing unitedstates-189 from https://dept-of-state-iati.s3.amazonaws.com/activity/north-of-sahara-regional.xml
-found 52 activities
-
-Downloading unitedstates-289 from https://dept-of-state-iati.s3.amazonaws.com/activity/south-of-sahara-regional.xml
-Parsing unitedstates-289 from https://dept-of-state-iati.s3.amazonaws.com/activity/south-of-sahara-regional.xml
-found 979 activities
-
-Downloading unitedstates-389 from https://dept-of-state-iati.s3.amazonaws.com/activity/north-&-central-america-regional.xml
-Parsing unitedstates-389 from https://dept-of-state-iati.s3.amazonaws.com/activity/north-&-central-america-regional.xml
-found 479 activities
-
-Downloading unitedstates-489 from https://dept-of-state-iati.s3.amazonaws.com/activity/south-america-regional.xml
-Parsing unitedstates-489 from https://dept-of-state-iati.s3.amazonaws.com/activity/south-america-regional.xml
-found 343 activities
-
-Downloading unitedstates-589 from https://dept-of-state-iati.s3.amazonaws.com/activity/middle-east-regional.xml
-Parsing unitedstates-589 from https://dept-of-state-iati.s3.amazonaws.com/activity/middle-east-regional.xml
-found 1059 activities
-
-Downloading unitedstates-689 from https://dept-of-state-iati.s3.amazonaws.com/activity/south-&-central-asia-regional.xml
-Parsing unitedstates-689 from https://dept-of-state-iati.s3.amazonaws.com/activity/south-&-central-asia-regional.xml
-found 315 activities
-
-Downloading unitedstates-789 from https://dept-of-state-iati.s3.amazonaws.com/activity/far-east-asia-regional.xml
-Parsing unitedstates-789 from https://dept-of-state-iati.s3.amazonaws.com/activity/far-east-asia-regional.xml
-found 330 activities
-
-Downloading unitedstates-889 from https://dept-of-state-iati.s3.amazonaws.com/activity/oceania-regional.xml
-Parsing unitedstates-889 from https://dept-of-state-iati.s3.amazonaws.com/activity/oceania-regional.xml
-found 9 activities
-
-Downloading unitedstates-89 from https://dept-of-state-iati.s3.amazonaws.com/activity/europe-regional.xml
-Parsing unitedstates-89 from https://dept-of-state-iati.s3.amazonaws.com/activity/europe-regional.xml
-found 1422 activities
-
-Downloading unitedstates-998-part-10 from https://dept-of-state-iati.s3.amazonaws.com/activity/developing-countries-unspecified-part-10.xml
-Parsing unitedstates-998-part-10 from https://dept-of-state-iati.s3.amazonaws.com/activity/developing-countries-unspecified-part-10.xml
-found 3295 activities
-
-Downloading unitedstates-998-part-11 from https://dept-of-state-iati.s3.amazonaws.com/activity/developing-countries-unspecified-part-11.xml
-Parsing unitedstates-998-part-11 from https://dept-of-state-iati.s3.amazonaws.com/activity/developing-countries-unspecified-part-11.xml
-found 3295 activities
-
-Downloading unitedstates-998-part-12 from https://dept-of-state-iati.s3.amazonaws.com/activity/developing-countries-unspecified-part-12.xml
-Parsing unitedstates-998-part-12 from https://dept-of-state-iati.s3.amazonaws.com/activity/developing-countries-unspecified-part-12.xml
-found 3295 activities
-
-Downloading unitedstates-998-part-13 from https://dept-of-state-iati.s3.amazonaws.com/activity/developing-countries-unspecified-part-13.xml
-Parsing unitedstates-998-part-13 from https://dept-of-state-iati.s3.amazonaws.com/activity/developing-countries-unspecified-part-13.xml
-found 3294 activities
-
-Downloading unitedstates-998-part-14 from https://dept-of-state-iati.s3.amazonaws.com/activity/developing-countries-unspecified-part-14.xml
-Parsing unitedstates-998-part-14 from https://dept-of-state-iati.s3.amazonaws.com/activity/developing-countries-unspecified-part-14.xml
-found 3294 activities
-
-Downloading unitedstates-998-part-15 from https://dept-of-state-iati.s3.amazonaws.com/activity/developing-countries-unspecified-part-15.xml
-Parsing unitedstates-998-part-15 from https://dept-of-state-iati.s3.amazonaws.com/activity/developing-countries-unspecified-part-15.xml
-found 3295 activities
-
-Downloading unitedstates-998-part-16 from https://dept-of-state-iati.s3.amazonaws.com/activity/developing-countries-unspecified-part-16.xml
-Parsing unitedstates-998-part-16 from https://dept-of-state-iati.s3.amazonaws.com/activity/developing-countries-unspecified-part-16.xml
-found 3295 activities
-
-Downloading unitedstates-998-part-17 from https://dept-of-state-iati.s3.amazonaws.com/activity/developing-countries-unspecified-part-17.xml
-Parsing unitedstates-998-part-17 from https://dept-of-state-iati.s3.amazonaws.com/activity/developing-countries-unspecified-part-17.xml
-found 3296 activities
-
-Downloading unitedstates-998-part-18 from https://dept-of-state-iati.s3.amazonaws.com/activity/developing-countries-unspecified-part-18.xml
-Parsing unitedstates-998-part-18 from https://dept-of-state-iati.s3.amazonaws.com/activity/developing-countries-unspecified-part-18.xml
-found 3295 activities
-
-Downloading unitedstates-998-part-19 from https://dept-of-state-iati.s3.amazonaws.com/activity/developing-countries-unspecified-part-19.xml
-Parsing unitedstates-998-part-19 from https://dept-of-state-iati.s3.amazonaws.com/activity/developing-countries-unspecified-part-19.xml
-found 3295 activities
-
-Downloading unitedstates-998-part-1 from https://dept-of-state-iati.s3.amazonaws.com/activity/developing-countries-unspecified-part-1.xml
-Parsing unitedstates-998-part-1 from https://dept-of-state-iati.s3.amazonaws.com/activity/developing-countries-unspecified-part-1.xml
-found 3222 activities
-
-Downloading unitedstates-998-part-20 from https://dept-of-state-iati.s3.amazonaws.com/activity/developing-countries-unspecified-part-20.xml
-Parsing unitedstates-998-part-20 from https://dept-of-state-iati.s3.amazonaws.com/activity/developing-countries-unspecified-part-20.xml
-found 3295 activities
-
-Downloading unitedstates-998-part-21 from https://dept-of-state-iati.s3.amazonaws.com/activity/developing-countries-unspecified-part-21.xml
-Parsing unitedstates-998-part-21 from https://dept-of-state-iati.s3.amazonaws.com/activity/developing-countries-unspecified-part-21.xml
-found 3296 activities
-
-Downloading unitedstates-998-part-22 from https://dept-of-state-iati.s3.amazonaws.com/activity/developing-countries-unspecified-part-22.xml
-Parsing unitedstates-998-part-22 from https://dept-of-state-iati.s3.amazonaws.com/activity/developing-countries-unspecified-part-22.xml
-found 3296 activities
-
-Downloading unitedstates-998-part-23 from https://dept-of-state-iati.s3.amazonaws.com/activity/developing-countries-unspecified-part-23.xml
-Parsing unitedstates-998-part-23 from https://dept-of-state-iati.s3.amazonaws.com/activity/developing-countries-unspecified-part-23.xml
-found 3296 activities
-
-Downloading unitedstates-998-part-2 from https://dept-of-state-iati.s3.amazonaws.com/activity/developing-countries-unspecified-part-2.xml
-Parsing unitedstates-998-part-2 from https://dept-of-state-iati.s3.amazonaws.com/activity/developing-countries-unspecified-part-2.xml
-found 3287 activities
-
-Downloading unitedstates-998-part-3 from https://dept-of-state-iati.s3.amazonaws.com/activity/developing-countries-unspecified-part-3.xml
-Parsing unitedstates-998-part-3 from https://dept-of-state-iati.s3.amazonaws.com/activity/developing-countries-unspecified-part-3.xml
-found 3292 activities
-
-Downloading unitedstates-998-part-4 from https://dept-of-state-iati.s3.amazonaws.com/activity/developing-countries-unspecified-part-4.xml
-Parsing unitedstates-998-part-4 from https://dept-of-state-iati.s3.amazonaws.com/activity/developing-countries-unspecified-part-4.xml
-found 3293 activities
-
-Downloading unitedstates-998-part-5 from https://dept-of-state-iati.s3.amazonaws.com/activity/developing-countries-unspecified-part-5.xml
-Parsing unitedstates-998-part-5 from https://dept-of-state-iati.s3.amazonaws.com/activity/developing-countries-unspecified-part-5.xml
-found 3295 activities
-
-Downloading unitedstates-998-part-6 from https://dept-of-state-iati.s3.amazonaws.com/activity/developing-countries-unspecified-part-6.xml
-Parsing unitedstates-998-part-6 from https://dept-of-state-iati.s3.amazonaws.com/activity/developing-countries-unspecified-part-6.xml
-found 3295 activities
-
-Downloading unitedstates-998-part-7 from https://dept-of-state-iati.s3.amazonaws.com/activity/developing-countries-unspecified-part-7.xml
-Parsing unitedstates-998-part-7 from https://dept-of-state-iati.s3.amazonaws.com/activity/developing-countries-unspecified-part-7.xml
-found 3295 activities
-
-Downloading unitedstates-998-part-8 from https://dept-of-state-iati.s3.amazonaws.com/activity/developing-countries-unspecified-part-8.xml
-Parsing unitedstates-998-part-8 from https://dept-of-state-iati.s3.amazonaws.com/activity/developing-countries-unspecified-part-8.xml
-found 3295 activities
-
-Downloading unitedstates-998-part-9 from https://dept-of-state-iati.s3.amazonaws.com/activity/developing-countries-unspecified-part-9.xml
-Parsing unitedstates-998-part-9 from https://dept-of-state-iati.s3.amazonaws.com/activity/developing-countries-unspecified-part-9.xml
-found 3295 activities
-
-Downloading unitedstates-adf from https://dept-of-state-iati.s3.amazonaws.com/organisation/adf.xml
-Parsing unitedstates-adf from https://dept-of-state-iati.s3.amazonaws.com/organisation/adf.xml
-found 1 organisations
-
-Downloading unitedstates-ae from https://dept-of-state-iati.s3.amazonaws.com/activity/united-arab-emirates.xml
-Parsing unitedstates-ae from https://dept-of-state-iati.s3.amazonaws.com/activity/united-arab-emirates.xml
-found 179 activities
-
-Downloading unitedstates-af-part-1 from https://dept-of-state-iati.s3.amazonaws.com/activity/afghanistan-part-1.xml
-Parsing unitedstates-af-part-1 from https://dept-of-state-iati.s3.amazonaws.com/activity/afghanistan-part-1.xml
-found 2224 activities
-
-Downloading unitedstates-af-part-2 from https://dept-of-state-iati.s3.amazonaws.com/activity/afghanistan-part-2.xml
-Parsing unitedstates-af-part-2 from https://dept-of-state-iati.s3.amazonaws.com/activity/afghanistan-part-2.xml
-found 2226 activities
-
-Downloading unitedstates-af-part-3 from https://dept-of-state-iati.s3.amazonaws.com/activity/afghanistan-part-3.xml
-Parsing unitedstates-af-part-3 from https://dept-of-state-iati.s3.amazonaws.com/activity/afghanistan-part-3.xml
-found 2229 activities
-
-Downloading unitedstates-ag from https://dept-of-state-iati.s3.amazonaws.com/activity/antigua-and-barbuda.xml
-Parsing unitedstates-ag from https://dept-of-state-iati.s3.amazonaws.com/activity/antigua-and-barbuda.xml
-found 34 activities
-
-Downloading unitedstates-ai from https://dept-of-state-iati.s3.amazonaws.com/activity/anguilla.xml
-Parsing unitedstates-ai from https://dept-of-state-iati.s3.amazonaws.com/activity/anguilla.xml
-found 1 activities
-
-Downloading unitedstates-al from https://dept-of-state-iati.s3.amazonaws.com/activity/albania.xml
-Parsing unitedstates-al from https://dept-of-state-iati.s3.amazonaws.com/activity/albania.xml
-found 1224 activities
-
-Downloading unitedstates-am from https://dept-of-state-iati.s3.amazonaws.com/activity/armenia.xml
-Parsing unitedstates-am from https://dept-of-state-iati.s3.amazonaws.com/activity/armenia.xml
-found 2685 activities
-
-Downloading unitedstates-ao from https://dept-of-state-iati.s3.amazonaws.com/activity/angola.xml
-Parsing unitedstates-ao from https://dept-of-state-iati.s3.amazonaws.com/activity/angola.xml
-found 280 activities
-
-Downloading unitedstates-ar from https://dept-of-state-iati.s3.amazonaws.com/activity/argentina.xml
-Parsing unitedstates-ar from https://dept-of-state-iati.s3.amazonaws.com/activity/argentina.xml
-found 304 activities
-
-Downloading unitedstates-at from https://dept-of-state-iati.s3.amazonaws.com/activity/austria.xml
-Parsing unitedstates-at from https://dept-of-state-iati.s3.amazonaws.com/activity/austria.xml
-found 362 activities
-
-Downloading unitedstates-au from https://dept-of-state-iati.s3.amazonaws.com/activity/australia.xml
-Parsing unitedstates-au from https://dept-of-state-iati.s3.amazonaws.com/activity/australia.xml
-found 19 activities
-
-Downloading unitedstates-aw from https://dept-of-state-iati.s3.amazonaws.com/activity/aruba.xml
-Parsing unitedstates-aw from https://dept-of-state-iati.s3.amazonaws.com/activity/aruba.xml
-found 5 activities
-
-Downloading unitedstates-az from https://dept-of-state-iati.s3.amazonaws.com/activity/azerbaijan.xml
-Parsing unitedstates-az from https://dept-of-state-iati.s3.amazonaws.com/activity/azerbaijan.xml
-found 590 activities
-
-Downloading unitedstates-ba from https://dept-of-state-iati.s3.amazonaws.com/activity/bosnia-and-herzegovina.xml
-Parsing unitedstates-ba from https://dept-of-state-iati.s3.amazonaws.com/activity/bosnia-and-herzegovina.xml
-found 2047 activities
-
-Downloading unitedstates-bb from https://dept-of-state-iati.s3.amazonaws.com/activity/barbados.xml
-Parsing unitedstates-bb from https://dept-of-state-iati.s3.amazonaws.com/activity/barbados.xml
-found 1930 activities
-
-Downloading unitedstates-bd from https://dept-of-state-iati.s3.amazonaws.com/activity/bangladesh.xml
-Parsing unitedstates-bd from https://dept-of-state-iati.s3.amazonaws.com/activity/bangladesh.xml
-found 923 activities
-
-Downloading unitedstates-be from https://dept-of-state-iati.s3.amazonaws.com/activity/belgium.xml
-Parsing unitedstates-be from https://dept-of-state-iati.s3.amazonaws.com/activity/belgium.xml
-found 35 activities
-
-Downloading unitedstates-bf from https://dept-of-state-iati.s3.amazonaws.com/activity/burkina-faso.xml
-Parsing unitedstates-bf from https://dept-of-state-iati.s3.amazonaws.com/activity/burkina-faso.xml
-found 664 activities
-
-Downloading unitedstates-bg from https://dept-of-state-iati.s3.amazonaws.com/activity/bulgaria.xml
-Parsing unitedstates-bg from https://dept-of-state-iati.s3.amazonaws.com/activity/bulgaria.xml
-found 156 activities
-
-Downloading unitedstates-bh from https://dept-of-state-iati.s3.amazonaws.com/activity/bahrain.xml
-Parsing unitedstates-bh from https://dept-of-state-iati.s3.amazonaws.com/activity/bahrain.xml
-found 69 activities
-
-Downloading unitedstates-bi from https://dept-of-state-iati.s3.amazonaws.com/activity/burundi.xml
-Parsing unitedstates-bi from https://dept-of-state-iati.s3.amazonaws.com/activity/burundi.xml
-found 239 activities
-
-Downloading unitedstates-bj from https://dept-of-state-iati.s3.amazonaws.com/activity/benin.xml
-Parsing unitedstates-bj from https://dept-of-state-iati.s3.amazonaws.com/activity/benin.xml
-found 847 activities
-
-Downloading unitedstates-bl from https://dept-of-state-iati.s3.amazonaws.com/activity/saint-barthelemy.xml
-Parsing unitedstates-bl from https://dept-of-state-iati.s3.amazonaws.com/activity/saint-barthelemy.xml
-found 1 activities
-
-Downloading unitedstates-bn from https://dept-of-state-iati.s3.amazonaws.com/activity/brunei.xml
-Parsing unitedstates-bn from https://dept-of-state-iati.s3.amazonaws.com/activity/brunei.xml
-found 6 activities
-
-Downloading unitedstates-bo from https://dept-of-state-iati.s3.amazonaws.com/activity/bolivia.xml
-Parsing unitedstates-bo from https://dept-of-state-iati.s3.amazonaws.com/activity/bolivia.xml
-found 171 activities
-
-Downloading unitedstates-br from https://dept-of-state-iati.s3.amazonaws.com/activity/brazil.xml
-Parsing unitedstates-br from https://dept-of-state-iati.s3.amazonaws.com/activity/brazil.xml
-found 795 activities
-
-Downloading unitedstates-bs from https://dept-of-state-iati.s3.amazonaws.com/activity/bahamas-the.xml
-Parsing unitedstates-bs from https://dept-of-state-iati.s3.amazonaws.com/activity/bahamas-the.xml
-found 1029 activities
-
-Downloading unitedstates-bt from https://dept-of-state-iati.s3.amazonaws.com/activity/bhutan.xml
-Parsing unitedstates-bt from https://dept-of-state-iati.s3.amazonaws.com/activity/bhutan.xml
-found 15 activities
-
-Downloading unitedstates-bw from https://dept-of-state-iati.s3.amazonaws.com/activity/botswana.xml
-Parsing unitedstates-bw from https://dept-of-state-iati.s3.amazonaws.com/activity/botswana.xml
-found 2442 activities
-
-Downloading unitedstates-by from https://dept-of-state-iati.s3.amazonaws.com/activity/belarus.xml
-Parsing unitedstates-by from https://dept-of-state-iati.s3.amazonaws.com/activity/belarus.xml
-found 617 activities
-
-Downloading unitedstates-bz from https://dept-of-state-iati.s3.amazonaws.com/activity/belize.xml
-Parsing unitedstates-bz from https://dept-of-state-iati.s3.amazonaws.com/activity/belize.xml
-found 1980 activities
-
-Downloading unitedstates-ca from https://dept-of-state-iati.s3.amazonaws.com/activity/canada.xml
-Parsing unitedstates-ca from https://dept-of-state-iati.s3.amazonaws.com/activity/canada.xml
-found 178 activities
-
-Downloading unitedstates-cd from https://dept-of-state-iati.s3.amazonaws.com/activity/congo-kinshasa.xml
-Parsing unitedstates-cd from https://dept-of-state-iati.s3.amazonaws.com/activity/congo-kinshasa.xml
-found 1300 activities
-
-Downloading unitedstates-cf from https://dept-of-state-iati.s3.amazonaws.com/activity/central-african-republic.xml
-Parsing unitedstates-cf from https://dept-of-state-iati.s3.amazonaws.com/activity/central-african-republic.xml
-found 474 activities
-
-Downloading unitedstates-cg from https://dept-of-state-iati.s3.amazonaws.com/activity/congo-brazzaville.xml
-Parsing unitedstates-cg from https://dept-of-state-iati.s3.amazonaws.com/activity/congo-brazzaville.xml
-found 153 activities
-
-Downloading unitedstates-ch from https://dept-of-state-iati.s3.amazonaws.com/activity/switzerland.xml
-Parsing unitedstates-ch from https://dept-of-state-iati.s3.amazonaws.com/activity/switzerland.xml
-found 280 activities
-
-Downloading unitedstates-ci from https://dept-of-state-iati.s3.amazonaws.com/activity/cote-divoire.xml
-Parsing unitedstates-ci from https://dept-of-state-iati.s3.amazonaws.com/activity/cote-divoire.xml
-found 1286 activities
-
-Downloading unitedstates-ck from https://dept-of-state-iati.s3.amazonaws.com/activity/cook-islands.xml
-Parsing unitedstates-ck from https://dept-of-state-iati.s3.amazonaws.com/activity/cook-islands.xml
-found 1 activities
-
-Downloading unitedstates-cl from https://dept-of-state-iati.s3.amazonaws.com/activity/chile.xml
-Parsing unitedstates-cl from https://dept-of-state-iati.s3.amazonaws.com/activity/chile.xml
-found 102 activities
-
-Downloading unitedstates-cm from https://dept-of-state-iati.s3.amazonaws.com/activity/cameroon.xml
-Parsing unitedstates-cm from https://dept-of-state-iati.s3.amazonaws.com/activity/cameroon.xml
-found 1200 activities
-
-Downloading unitedstates-cn from https://dept-of-state-iati.s3.amazonaws.com/activity/china.xml
-Parsing unitedstates-cn from https://dept-of-state-iati.s3.amazonaws.com/activity/china.xml
-found 643 activities
-
-Downloading unitedstates-co-part-1 from https://dept-of-state-iati.s3.amazonaws.com/activity/colombia-part-1.xml
-Parsing unitedstates-co-part-1 from https://dept-of-state-iati.s3.amazonaws.com/activity/colombia-part-1.xml
-found 2914 activities
-
-Downloading unitedstates-co-part-2 from https://dept-of-state-iati.s3.amazonaws.com/activity/colombia-part-2.xml
-Parsing unitedstates-co-part-2 from https://dept-of-state-iati.s3.amazonaws.com/activity/colombia-part-2.xml
-found 2914 activities
-
-Downloading unitedstates-co-part-3 from https://dept-of-state-iati.s3.amazonaws.com/activity/colombia-part-3.xml
-Parsing unitedstates-co-part-3 from https://dept-of-state-iati.s3.amazonaws.com/activity/colombia-part-3.xml
-found 2913 activities
-
-Downloading unitedstates-co-part-4 from https://dept-of-state-iati.s3.amazonaws.com/activity/colombia-part-4.xml
-Parsing unitedstates-co-part-4 from https://dept-of-state-iati.s3.amazonaws.com/activity/colombia-part-4.xml
-found 2914 activities
-
-Downloading unitedstates-co-part-5 from https://dept-of-state-iati.s3.amazonaws.com/activity/colombia-part-5.xml
-Parsing unitedstates-co-part-5 from https://dept-of-state-iati.s3.amazonaws.com/activity/colombia-part-5.xml
-found 2914 activities
-
-Downloading unitedstates-cr-part-1 from https://dept-of-state-iati.s3.amazonaws.com/activity/costa-rica-part-1.xml
-Parsing unitedstates-cr-part-1 from https://dept-of-state-iati.s3.amazonaws.com/activity/costa-rica-part-1.xml
-found 3350 activities
-
-Downloading unitedstates-cr-part-2 from https://dept-of-state-iati.s3.amazonaws.com/activity/costa-rica-part-2.xml
-Parsing unitedstates-cr-part-2 from https://dept-of-state-iati.s3.amazonaws.com/activity/costa-rica-part-2.xml
-found 3350 activities
-
-Downloading unitedstates-cu from https://dept-of-state-iati.s3.amazonaws.com/activity/cuba.xml
-Parsing unitedstates-cu from https://dept-of-state-iati.s3.amazonaws.com/activity/cuba.xml
-found 120 activities
-
-Downloading unitedstates-cv from https://dept-of-state-iati.s3.amazonaws.com/activity/cabo-verde.xml
-Parsing unitedstates-cv from https://dept-of-state-iati.s3.amazonaws.com/activity/cabo-verde.xml
-found 195 activities
-
-Downloading unitedstates-cw from https://dept-of-state-iati.s3.amazonaws.com/activity/curacao.xml
-Parsing unitedstates-cw from https://dept-of-state-iati.s3.amazonaws.com/activity/curacao.xml
-found 5 activities
-
-Downloading unitedstates-cy from https://dept-of-state-iati.s3.amazonaws.com/activity/cyprus.xml
-Parsing unitedstates-cy from https://dept-of-state-iati.s3.amazonaws.com/activity/cyprus.xml
-found 61 activities
-
-Downloading unitedstates-cz from https://dept-of-state-iati.s3.amazonaws.com/activity/czechia.xml
-Parsing unitedstates-cz from https://dept-of-state-iati.s3.amazonaws.com/activity/czechia.xml
-found 33 activities
-
-Downloading unitedstates-de from https://dept-of-state-iati.s3.amazonaws.com/activity/germany.xml
-Parsing unitedstates-de from https://dept-of-state-iati.s3.amazonaws.com/activity/germany.xml
-found 73 activities
-
-Downloading unitedstates-dfc from https://dept-of-state-iati.s3.amazonaws.com/organisation/dfc.xml
-Parsing unitedstates-dfc from https://dept-of-state-iati.s3.amazonaws.com/organisation/dfc.xml
-found 1 organisations
-
-Downloading unitedstates-dj from https://dept-of-state-iati.s3.amazonaws.com/activity/djibouti.xml
-Parsing unitedstates-dj from https://dept-of-state-iati.s3.amazonaws.com/activity/djibouti.xml
-found 194 activities
-
-Downloading unitedstates-dk from https://dept-of-state-iati.s3.amazonaws.com/activity/denmark.xml
-Parsing unitedstates-dk from https://dept-of-state-iati.s3.amazonaws.com/activity/denmark.xml
-found 39 activities
-
-Downloading unitedstates-dm from https://dept-of-state-iati.s3.amazonaws.com/activity/dominica.xml
-Parsing unitedstates-dm from https://dept-of-state-iati.s3.amazonaws.com/activity/dominica.xml
-found 36 activities
-
-Downloading unitedstates-dod from https://dept-of-state-iati.s3.amazonaws.com/organisation/dod.xml
-Parsing unitedstates-dod from https://dept-of-state-iati.s3.amazonaws.com/organisation/dod.xml
-found 1 organisations
-
-Downloading unitedstates-doe from https://dept-of-state-iati.s3.amazonaws.com/organisation/doe.xml
-Parsing unitedstates-doe from https://dept-of-state-iati.s3.amazonaws.com/organisation/doe.xml
-found 1 organisations
-
-Downloading unitedstates-doi from https://dept-of-state-iati.s3.amazonaws.com/organisation/doi.xml
-Parsing unitedstates-doi from https://dept-of-state-iati.s3.amazonaws.com/organisation/doi.xml
-found 1 organisations
-
-Downloading unitedstates-dol from https://dept-of-state-iati.s3.amazonaws.com/organisation/dol.xml
-Parsing unitedstates-dol from https://dept-of-state-iati.s3.amazonaws.com/organisation/dol.xml
-found 1 organisations
-
-Downloading unitedstates-dos-and-usaid from https://dept-of-state-iati.s3.amazonaws.com/organisation/dos%20and%20usaid.xml
-Parsing unitedstates-dos-and-usaid from https://dept-of-state-iati.s3.amazonaws.com/organisation/dos%20and%20usaid.xml
-found 1 organisations
-
-Downloading unitedstates-do from https://dept-of-state-iati.s3.amazonaws.com/activity/dominican-republic.xml
-Parsing unitedstates-do from https://dept-of-state-iati.s3.amazonaws.com/activity/dominican-republic.xml
-found 2808 activities
-
-Downloading unitedstates-dz from https://dept-of-state-iati.s3.amazonaws.com/activity/algeria.xml
-Parsing unitedstates-dz from https://dept-of-state-iati.s3.amazonaws.com/activity/algeria.xml
-found 273 activities
-
-Downloading unitedstates-ec from https://dept-of-state-iati.s3.amazonaws.com/activity/ecuador.xml
-Parsing unitedstates-ec from https://dept-of-state-iati.s3.amazonaws.com/activity/ecuador.xml
-found 1443 activities
-
-Downloading unitedstates-ee from https://dept-of-state-iati.s3.amazonaws.com/activity/estonia.xml
-Parsing unitedstates-ee from https://dept-of-state-iati.s3.amazonaws.com/activity/estonia.xml
-found 77 activities
-
-Downloading unitedstates-eg from https://dept-of-state-iati.s3.amazonaws.com/activity/egypt.xml
-Parsing unitedstates-eg from https://dept-of-state-iati.s3.amazonaws.com/activity/egypt.xml
-found 736 activities
-
-Downloading unitedstates-eh from https://dept-of-state-iati.s3.amazonaws.com/activity/western-sahara.xml
-Parsing unitedstates-eh from https://dept-of-state-iati.s3.amazonaws.com/activity/western-sahara.xml
-found 38 activities
-
-Downloading unitedstates-epa from https://dept-of-state-iati.s3.amazonaws.com/organisation/epa.xml
-Parsing unitedstates-epa from https://dept-of-state-iati.s3.amazonaws.com/organisation/epa.xml
-found 1 organisations
-
-Downloading unitedstates-er from https://dept-of-state-iati.s3.amazonaws.com/activity/eritrea.xml
-Parsing unitedstates-er from https://dept-of-state-iati.s3.amazonaws.com/activity/eritrea.xml
-found 2 activities
-
-Downloading unitedstates-es from https://dept-of-state-iati.s3.amazonaws.com/activity/spain.xml
-Parsing unitedstates-es from https://dept-of-state-iati.s3.amazonaws.com/activity/spain.xml
-found 31 activities
-
-Downloading unitedstates-et from https://dept-of-state-iati.s3.amazonaws.com/activity/ethiopia.xml
-Parsing unitedstates-et from https://dept-of-state-iati.s3.amazonaws.com/activity/ethiopia.xml
-found 1510 activities
-
-Downloading unitedstates-fi from https://dept-of-state-iati.s3.amazonaws.com/activity/finland.xml
-Parsing unitedstates-fi from https://dept-of-state-iati.s3.amazonaws.com/activity/finland.xml
-found 6 activities
-
-Downloading unitedstates-fj from https://dept-of-state-iati.s3.amazonaws.com/activity/fiji.xml
-Parsing unitedstates-fj from https://dept-of-state-iati.s3.amazonaws.com/activity/fiji.xml
-found 173 activities
-
-Downloading unitedstates-fm from https://dept-of-state-iati.s3.amazonaws.com/activity/micronesia-federated-states-of.xml
-Parsing unitedstates-fm from https://dept-of-state-iati.s3.amazonaws.com/activity/micronesia-federated-states-of.xml
-found 313 activities
-
-Downloading unitedstates-fr from https://dept-of-state-iati.s3.amazonaws.com/activity/france.xml
-Parsing unitedstates-fr from https://dept-of-state-iati.s3.amazonaws.com/activity/france.xml
-found 68 activities
-
-Downloading unitedstates-ga from https://dept-of-state-iati.s3.amazonaws.com/activity/gabon.xml
-Parsing unitedstates-ga from https://dept-of-state-iati.s3.amazonaws.com/activity/gabon.xml
-found 267 activities
-
-Downloading unitedstates-gb from https://dept-of-state-iati.s3.amazonaws.com/activity/united-kingdom.xml
-Parsing unitedstates-gb from https://dept-of-state-iati.s3.amazonaws.com/activity/united-kingdom.xml
-found 62 activities
-
-Downloading unitedstates-gd from https://dept-of-state-iati.s3.amazonaws.com/activity/grenada.xml
-Parsing unitedstates-gd from https://dept-of-state-iati.s3.amazonaws.com/activity/grenada.xml
-found 36 activities
-
-Downloading unitedstates-ge-part-1 from https://dept-of-state-iati.s3.amazonaws.com/activity/georgia-part-1.xml
-Parsing unitedstates-ge-part-1 from https://dept-of-state-iati.s3.amazonaws.com/activity/georgia-part-1.xml
-found 2145 activities
-
-Downloading unitedstates-ge-part-2 from https://dept-of-state-iati.s3.amazonaws.com/activity/georgia-part-2.xml
-Parsing unitedstates-ge-part-2 from https://dept-of-state-iati.s3.amazonaws.com/activity/georgia-part-2.xml
-found 2145 activities
-
-Downloading unitedstates-gh from https://dept-of-state-iati.s3.amazonaws.com/activity/ghana.xml
-Parsing unitedstates-gh from https://dept-of-state-iati.s3.amazonaws.com/activity/ghana.xml
-found 1420 activities
-
-Downloading unitedstates-gi from https://dept-of-state-iati.s3.amazonaws.com/activity/gibraltar.xml
-Parsing unitedstates-gi from https://dept-of-state-iati.s3.amazonaws.com/activity/gibraltar.xml
-found 2 activities
-
-Downloading unitedstates-gl from https://dept-of-state-iati.s3.amazonaws.com/activity/greenland.xml
-Parsing unitedstates-gl from https://dept-of-state-iati.s3.amazonaws.com/activity/greenland.xml
-found 1 activities
-
-Downloading unitedstates-gm from https://dept-of-state-iati.s3.amazonaws.com/activity/gambia-the.xml
-Parsing unitedstates-gm from https://dept-of-state-iati.s3.amazonaws.com/activity/gambia-the.xml
-found 178 activities
-
-Downloading unitedstates-gn from https://dept-of-state-iati.s3.amazonaws.com/activity/guinea.xml
-Parsing unitedstates-gn from https://dept-of-state-iati.s3.amazonaws.com/activity/guinea.xml
-found 713 activities
-
-Downloading unitedstates-gq from https://dept-of-state-iati.s3.amazonaws.com/activity/equatorial-guinea.xml
-Parsing unitedstates-gq from https://dept-of-state-iati.s3.amazonaws.com/activity/equatorial-guinea.xml
-found 44 activities
-
-Downloading unitedstates-gr from https://dept-of-state-iati.s3.amazonaws.com/activity/greece.xml
-Parsing unitedstates-gr from https://dept-of-state-iati.s3.amazonaws.com/activity/greece.xml
-found 47 activities
-
-Downloading unitedstates-gt-part-1 from https://dept-of-state-iati.s3.amazonaws.com/activity/guatemala-part-1.xml
-Parsing unitedstates-gt-part-1 from https://dept-of-state-iati.s3.amazonaws.com/activity/guatemala-part-1.xml
-found 3141 activities
-
-Downloading unitedstates-gt-part-2 from https://dept-of-state-iati.s3.amazonaws.com/activity/guatemala-part-2.xml
-Parsing unitedstates-gt-part-2 from https://dept-of-state-iati.s3.amazonaws.com/activity/guatemala-part-2.xml
-found 3153 activities
-
-Downloading unitedstates-gt-part-3 from https://dept-of-state-iati.s3.amazonaws.com/activity/guatemala-part-3.xml
-Parsing unitedstates-gt-part-3 from https://dept-of-state-iati.s3.amazonaws.com/activity/guatemala-part-3.xml
-found 3154 activities
-
-Downloading unitedstates-gt-part-4 from https://dept-of-state-iati.s3.amazonaws.com/activity/guatemala-part-4.xml
-Parsing unitedstates-gt-part-4 from https://dept-of-state-iati.s3.amazonaws.com/activity/guatemala-part-4.xml
-found 3155 activities
-
-Downloading unitedstates-gw from https://dept-of-state-iati.s3.amazonaws.com/activity/guinea-bissau.xml
-Parsing unitedstates-gw from https://dept-of-state-iati.s3.amazonaws.com/activity/guinea-bissau.xml
-found 59 activities
-
-Downloading unitedstates-gy from https://dept-of-state-iati.s3.amazonaws.com/activity/guyana.xml
-Parsing unitedstates-gy from https://dept-of-state-iati.s3.amazonaws.com/activity/guyana.xml
-found 558 activities
-
-Downloading unitedstates-hhs from https://dept-of-state-iati.s3.amazonaws.com/organisation/hhs.xml
-Parsing unitedstates-hhs from https://dept-of-state-iati.s3.amazonaws.com/organisation/hhs.xml
-found 1 organisations
-
-Downloading unitedstates-hk from https://dept-of-state-iati.s3.amazonaws.com/activity/hong-kong.xml
-Parsing unitedstates-hk from https://dept-of-state-iati.s3.amazonaws.com/activity/hong-kong.xml
-found 11 activities
-
-Downloading unitedstates-hn-part-1 from https://dept-of-state-iati.s3.amazonaws.com/activity/honduras-part-1.xml
-Parsing unitedstates-hn-part-1 from https://dept-of-state-iati.s3.amazonaws.com/activity/honduras-part-1.xml
-found 2628 activities
-
-Downloading unitedstates-hn-part-2 from https://dept-of-state-iati.s3.amazonaws.com/activity/honduras-part-2.xml
-Parsing unitedstates-hn-part-2 from https://dept-of-state-iati.s3.amazonaws.com/activity/honduras-part-2.xml
-found 2630 activities
-
-Downloading unitedstates-hn-part-3 from https://dept-of-state-iati.s3.amazonaws.com/activity/honduras-part-3.xml
-Parsing unitedstates-hn-part-3 from https://dept-of-state-iati.s3.amazonaws.com/activity/honduras-part-3.xml
-found 2632 activities
-
-Downloading unitedstates-hn-part-4 from https://dept-of-state-iati.s3.amazonaws.com/activity/honduras-part-4.xml
-Parsing unitedstates-hn-part-4 from https://dept-of-state-iati.s3.amazonaws.com/activity/honduras-part-4.xml
-found 2631 activities
-
-Downloading unitedstates-hr from https://dept-of-state-iati.s3.amazonaws.com/activity/croatia.xml
-Parsing unitedstates-hr from https://dept-of-state-iati.s3.amazonaws.com/activity/croatia.xml
-found 680 activities
-
-Downloading unitedstates-ht-part-1 from https://dept-of-state-iati.s3.amazonaws.com/activity/haiti-part-1.xml
-Parsing unitedstates-ht-part-1 from https://dept-of-state-iati.s3.amazonaws.com/activity/haiti-part-1.xml
-found 2617 activities
-
-Downloading unitedstates-ht-part-2 from https://dept-of-state-iati.s3.amazonaws.com/activity/haiti-part-2.xml
-Parsing unitedstates-ht-part-2 from https://dept-of-state-iati.s3.amazonaws.com/activity/haiti-part-2.xml
-found 2616 activities
-
-Downloading unitedstates-hu from https://dept-of-state-iati.s3.amazonaws.com/activity/hungary.xml
-Parsing unitedstates-hu from https://dept-of-state-iati.s3.amazonaws.com/activity/hungary.xml
-found 216 activities
-
-Downloading unitedstates-iaf from https://dept-of-state-iati.s3.amazonaws.com/organisation/iaf.xml
-Parsing unitedstates-iaf from https://dept-of-state-iati.s3.amazonaws.com/organisation/iaf.xml
-found 1 organisations
-
-Downloading unitedstates-id from https://dept-of-state-iati.s3.amazonaws.com/activity/indonesia.xml
-Parsing unitedstates-id from https://dept-of-state-iati.s3.amazonaws.com/activity/indonesia.xml
-found 2564 activities
-
-Downloading unitedstates-ie from https://dept-of-state-iati.s3.amazonaws.com/activity/ireland.xml
-Parsing unitedstates-ie from https://dept-of-state-iati.s3.amazonaws.com/activity/ireland.xml
-found 4 activities
-
-Downloading unitedstates-il from https://dept-of-state-iati.s3.amazonaws.com/activity/israel.xml
-Parsing unitedstates-il from https://dept-of-state-iati.s3.amazonaws.com/activity/israel.xml
-found 3612 activities
-
-Downloading unitedstates-in from https://dept-of-state-iati.s3.amazonaws.com/activity/india.xml
-Parsing unitedstates-in from https://dept-of-state-iati.s3.amazonaws.com/activity/india.xml
-found 1304 activities
-
-Downloading unitedstates-io from https://dept-of-state-iati.s3.amazonaws.com/activity/british-indian-ocean-territory.xml
-Parsing unitedstates-io from https://dept-of-state-iati.s3.amazonaws.com/activity/british-indian-ocean-territory.xml
-found 1 activities
-
-Downloading unitedstates-iq from https://dept-of-state-iati.s3.amazonaws.com/activity/iraq.xml
-Parsing unitedstates-iq from https://dept-of-state-iati.s3.amazonaws.com/activity/iraq.xml
-found 1102 activities
-
-Downloading unitedstates-is from https://dept-of-state-iati.s3.amazonaws.com/activity/iceland.xml
-Parsing unitedstates-is from https://dept-of-state-iati.s3.amazonaws.com/activity/iceland.xml
-found 4 activities
-
-Downloading unitedstates-it from https://dept-of-state-iati.s3.amazonaws.com/activity/italy.xml
-Parsing unitedstates-it from https://dept-of-state-iati.s3.amazonaws.com/activity/italy.xml
-found 77 activities
-
-Downloading unitedstates-je from https://dept-of-state-iati.s3.amazonaws.com/activity/jersey.xml
-Parsing unitedstates-je from https://dept-of-state-iati.s3.amazonaws.com/activity/jersey.xml
-found 1 activities
-
-Downloading unitedstates-jm from https://dept-of-state-iati.s3.amazonaws.com/activity/jamaica.xml
-Parsing unitedstates-jm from https://dept-of-state-iati.s3.amazonaws.com/activity/jamaica.xml
-found 1908 activities
-
-Downloading unitedstates-jo from https://dept-of-state-iati.s3.amazonaws.com/activity/jordan.xml
-Parsing unitedstates-jo from https://dept-of-state-iati.s3.amazonaws.com/activity/jordan.xml
-found 1146 activities
-
-Downloading unitedstates-jp from https://dept-of-state-iati.s3.amazonaws.com/activity/japan.xml
-Parsing unitedstates-jp from https://dept-of-state-iati.s3.amazonaws.com/activity/japan.xml
-found 27 activities
-
-Downloading unitedstates-ke from https://dept-of-state-iati.s3.amazonaws.com/activity/kenya.xml
-Parsing unitedstates-ke from https://dept-of-state-iati.s3.amazonaws.com/activity/kenya.xml
-found 4264 activities
-
-Downloading unitedstates-kg from https://dept-of-state-iati.s3.amazonaws.com/activity/kyrgyzstan.xml
-Parsing unitedstates-kg from https://dept-of-state-iati.s3.amazonaws.com/activity/kyrgyzstan.xml
-found 984 activities
-
-Downloading unitedstates-kh from https://dept-of-state-iati.s3.amazonaws.com/activity/cambodia.xml
-Parsing unitedstates-kh from https://dept-of-state-iati.s3.amazonaws.com/activity/cambodia.xml
-found 630 activities
-
-Downloading unitedstates-ki from https://dept-of-state-iati.s3.amazonaws.com/activity/kiribati.xml
-Parsing unitedstates-ki from https://dept-of-state-iati.s3.amazonaws.com/activity/kiribati.xml
-found 9 activities
-
-Downloading unitedstates-km from https://dept-of-state-iati.s3.amazonaws.com/activity/comoros.xml
-Parsing unitedstates-km from https://dept-of-state-iati.s3.amazonaws.com/activity/comoros.xml
-found 66 activities
-
-Downloading unitedstates-kn from https://dept-of-state-iati.s3.amazonaws.com/activity/saint-kitts-and-nevis.xml
-Parsing unitedstates-kn from https://dept-of-state-iati.s3.amazonaws.com/activity/saint-kitts-and-nevis.xml
-found 27 activities
-
-Downloading unitedstates-kr from https://dept-of-state-iati.s3.amazonaws.com/activity/korea-south.xml
-Parsing unitedstates-kr from https://dept-of-state-iati.s3.amazonaws.com/activity/korea-south.xml
-found 23 activities
-
-Downloading unitedstates-kw from https://dept-of-state-iati.s3.amazonaws.com/activity/kuwait.xml
-Parsing unitedstates-kw from https://dept-of-state-iati.s3.amazonaws.com/activity/kuwait.xml
-found 301 activities
-
-Downloading unitedstates-kz from https://dept-of-state-iati.s3.amazonaws.com/activity/kazakhstan.xml
-Parsing unitedstates-kz from https://dept-of-state-iati.s3.amazonaws.com/activity/kazakhstan.xml
-found 3158 activities
-
-Downloading unitedstates-la from https://dept-of-state-iati.s3.amazonaws.com/activity/laos.xml
-Parsing unitedstates-la from https://dept-of-state-iati.s3.amazonaws.com/activity/laos.xml
-found 759 activities
-
-Downloading unitedstates-lb from https://dept-of-state-iati.s3.amazonaws.com/activity/lebanon.xml
-Parsing unitedstates-lb from https://dept-of-state-iati.s3.amazonaws.com/activity/lebanon.xml
-found 2278 activities
-
-Downloading unitedstates-lc from https://dept-of-state-iati.s3.amazonaws.com/activity/saint-lucia.xml
-Parsing unitedstates-lc from https://dept-of-state-iati.s3.amazonaws.com/activity/saint-lucia.xml
-found 16 activities
-
-Downloading unitedstates-lk from https://dept-of-state-iati.s3.amazonaws.com/activity/sri-lanka.xml
-Parsing unitedstates-lk from https://dept-of-state-iati.s3.amazonaws.com/activity/sri-lanka.xml
-found 253 activities
-
-Downloading unitedstates-lr from https://dept-of-state-iati.s3.amazonaws.com/activity/liberia.xml
-Parsing unitedstates-lr from https://dept-of-state-iati.s3.amazonaws.com/activity/liberia.xml
-found 1591 activities
-
-Downloading unitedstates-ls from https://dept-of-state-iati.s3.amazonaws.com/activity/lesotho.xml
-Parsing unitedstates-ls from https://dept-of-state-iati.s3.amazonaws.com/activity/lesotho.xml
-found 800 activities
-
-Downloading unitedstates-lt from https://dept-of-state-iati.s3.amazonaws.com/activity/lithuania.xml
-Parsing unitedstates-lt from https://dept-of-state-iati.s3.amazonaws.com/activity/lithuania.xml
-found 60 activities
-
-Downloading unitedstates-lu from https://dept-of-state-iati.s3.amazonaws.com/activity/luxembourg.xml
-Parsing unitedstates-lu from https://dept-of-state-iati.s3.amazonaws.com/activity/luxembourg.xml
-found 1 activities
-
-Downloading unitedstates-lv from https://dept-of-state-iati.s3.amazonaws.com/activity/latvia.xml
-Parsing unitedstates-lv from https://dept-of-state-iati.s3.amazonaws.com/activity/latvia.xml
-found 71 activities
-
-Downloading unitedstates-ly from https://dept-of-state-iati.s3.amazonaws.com/activity/libya.xml
-Parsing unitedstates-ly from https://dept-of-state-iati.s3.amazonaws.com/activity/libya.xml
-found 246 activities
-
-Downloading unitedstates-ma from https://dept-of-state-iati.s3.amazonaws.com/activity/morocco.xml
-Parsing unitedstates-ma from https://dept-of-state-iati.s3.amazonaws.com/activity/morocco.xml
-found 2247 activities
-
-Downloading unitedstates-mc from https://dept-of-state-iati.s3.amazonaws.com/activity/monaco.xml
-Parsing unitedstates-mc from https://dept-of-state-iati.s3.amazonaws.com/activity/monaco.xml
-found 5 activities
-
-Downloading unitedstates-md from https://dept-of-state-iati.s3.amazonaws.com/activity/moldova.xml
-Parsing unitedstates-md from https://dept-of-state-iati.s3.amazonaws.com/activity/moldova.xml
-found 3023 activities
-
-Downloading unitedstates-me from https://dept-of-state-iati.s3.amazonaws.com/activity/montenegro.xml
-Parsing unitedstates-me from https://dept-of-state-iati.s3.amazonaws.com/activity/montenegro.xml
-found 1381 activities
-
-Downloading unitedstates-mf from https://dept-of-state-iati.s3.amazonaws.com/activity/saint-martin.xml
-Parsing unitedstates-mf from https://dept-of-state-iati.s3.amazonaws.com/activity/saint-martin.xml
-found 1 activities
-
-Downloading unitedstates-mg from https://dept-of-state-iati.s3.amazonaws.com/activity/madagascar.xml
-Parsing unitedstates-mg from https://dept-of-state-iati.s3.amazonaws.com/activity/madagascar.xml
-found 243 activities
-
-Downloading unitedstates-mh from https://dept-of-state-iati.s3.amazonaws.com/activity/marshall-islands.xml
-Parsing unitedstates-mh from https://dept-of-state-iati.s3.amazonaws.com/activity/marshall-islands.xml
-found 218 activities
-
-Downloading unitedstates-mk from https://dept-of-state-iati.s3.amazonaws.com/activity/north-macedonia.xml
-Parsing unitedstates-mk from https://dept-of-state-iati.s3.amazonaws.com/activity/north-macedonia.xml
-found 1948 activities
-
-Downloading unitedstates-ml from https://dept-of-state-iati.s3.amazonaws.com/activity/mali.xml
-Parsing unitedstates-ml from https://dept-of-state-iati.s3.amazonaws.com/activity/mali.xml
-found 1051 activities
-
-Downloading unitedstates-mm from https://dept-of-state-iati.s3.amazonaws.com/activity/burma.xml
-Parsing unitedstates-mm from https://dept-of-state-iati.s3.amazonaws.com/activity/burma.xml
-found 749 activities
-
-Downloading unitedstates-mn from https://dept-of-state-iati.s3.amazonaws.com/activity/mongolia.xml
-Parsing unitedstates-mn from https://dept-of-state-iati.s3.amazonaws.com/activity/mongolia.xml
-found 227 activities
-
-Downloading unitedstates-mr from https://dept-of-state-iati.s3.amazonaws.com/activity/mauritania.xml
-Parsing unitedstates-mr from https://dept-of-state-iati.s3.amazonaws.com/activity/mauritania.xml
-found 440 activities
-
-Downloading unitedstates-mt from https://dept-of-state-iati.s3.amazonaws.com/activity/malta.xml
-Parsing unitedstates-mt from https://dept-of-state-iati.s3.amazonaws.com/activity/malta.xml
-found 67 activities
-
-Downloading unitedstates-mu from https://dept-of-state-iati.s3.amazonaws.com/activity/mauritius.xml
-Parsing unitedstates-mu from https://dept-of-state-iati.s3.amazonaws.com/activity/mauritius.xml
-found 143 activities
-
-Downloading unitedstates-mv from https://dept-of-state-iati.s3.amazonaws.com/activity/maldives.xml
-Parsing unitedstates-mv from https://dept-of-state-iati.s3.amazonaws.com/activity/maldives.xml
-found 84 activities
-
-Downloading unitedstates-mw from https://dept-of-state-iati.s3.amazonaws.com/activity/malawi.xml
-Parsing unitedstates-mw from https://dept-of-state-iati.s3.amazonaws.com/activity/malawi.xml
-found 1329 activities
-
-Downloading unitedstates-mx-part-1 from https://dept-of-state-iati.s3.amazonaws.com/activity/mexico-part-1.xml
-Parsing unitedstates-mx-part-1 from https://dept-of-state-iati.s3.amazonaws.com/activity/mexico-part-1.xml
-found 2835 activities
-
-Downloading unitedstates-mx-part-2 from https://dept-of-state-iati.s3.amazonaws.com/activity/mexico-part-2.xml
-Parsing unitedstates-mx-part-2 from https://dept-of-state-iati.s3.amazonaws.com/activity/mexico-part-2.xml
-found 2835 activities
-
-Downloading unitedstates-mx-part-3 from https://dept-of-state-iati.s3.amazonaws.com/activity/mexico-part-3.xml
-Parsing unitedstates-mx-part-3 from https://dept-of-state-iati.s3.amazonaws.com/activity/mexico-part-3.xml
-found 2835 activities
-
-Downloading unitedstates-mx-part-4 from https://dept-of-state-iati.s3.amazonaws.com/activity/mexico-part-4.xml
-Parsing unitedstates-mx-part-4 from https://dept-of-state-iati.s3.amazonaws.com/activity/mexico-part-4.xml
-found 2835 activities
-
-Downloading unitedstates-mx-part-5 from https://dept-of-state-iati.s3.amazonaws.com/activity/mexico-part-5.xml
-Parsing unitedstates-mx-part-5 from https://dept-of-state-iati.s3.amazonaws.com/activity/mexico-part-5.xml
-found 2836 activities
-
-Downloading unitedstates-my from https://dept-of-state-iati.s3.amazonaws.com/activity/malaysia.xml
-Parsing unitedstates-my from https://dept-of-state-iati.s3.amazonaws.com/activity/malaysia.xml
-found 585 activities
-
-Downloading unitedstates-mz from https://dept-of-state-iati.s3.amazonaws.com/activity/mozambique.xml
-Parsing unitedstates-mz from https://dept-of-state-iati.s3.amazonaws.com/activity/mozambique.xml
-found 2116 activities
-
-Downloading unitedstates-na from https://dept-of-state-iati.s3.amazonaws.com/activity/namibia.xml
-Parsing unitedstates-na from https://dept-of-state-iati.s3.amazonaws.com/activity/namibia.xml
-found 864 activities
-
-Downloading unitedstates-nc from https://dept-of-state-iati.s3.amazonaws.com/activity/new-caledonia.xml
-Parsing unitedstates-nc from https://dept-of-state-iati.s3.amazonaws.com/activity/new-caledonia.xml
-found 4 activities
-
-Downloading unitedstates-ne from https://dept-of-state-iati.s3.amazonaws.com/activity/niger.xml
-Parsing unitedstates-ne from https://dept-of-state-iati.s3.amazonaws.com/activity/niger.xml
-found 809 activities
-
-Downloading unitedstates-ng from https://dept-of-state-iati.s3.amazonaws.com/activity/nigeria.xml
-Parsing unitedstates-ng from https://dept-of-state-iati.s3.amazonaws.com/activity/nigeria.xml
-found 2905 activities
-
-Downloading unitedstates-ni from https://dept-of-state-iati.s3.amazonaws.com/activity/nicaragua.xml
-Parsing unitedstates-ni from https://dept-of-state-iati.s3.amazonaws.com/activity/nicaragua.xml
-found 538 activities
-
-Downloading unitedstates-nl from https://dept-of-state-iati.s3.amazonaws.com/activity/netherlands.xml
-Parsing unitedstates-nl from https://dept-of-state-iati.s3.amazonaws.com/activity/netherlands.xml
-found 123 activities
-
-Downloading unitedstates-no from https://dept-of-state-iati.s3.amazonaws.com/activity/norway.xml
-Parsing unitedstates-no from https://dept-of-state-iati.s3.amazonaws.com/activity/norway.xml
-found 8 activities
-
-Downloading unitedstates-np from https://dept-of-state-iati.s3.amazonaws.com/activity/nepal.xml
-Parsing unitedstates-np from https://dept-of-state-iati.s3.amazonaws.com/activity/nepal.xml
-found 486 activities
-
-Downloading unitedstates-nr from https://dept-of-state-iati.s3.amazonaws.com/activity/nauru.xml
-Parsing unitedstates-nr from https://dept-of-state-iati.s3.amazonaws.com/activity/nauru.xml
-found 4 activities
-
-Downloading unitedstates-nu from https://dept-of-state-iati.s3.amazonaws.com/activity/niue.xml
-Parsing unitedstates-nu from https://dept-of-state-iati.s3.amazonaws.com/activity/niue.xml
-found 2 activities
-
-Downloading unitedstates-nz from https://dept-of-state-iati.s3.amazonaws.com/activity/new-zealand.xml
-Parsing unitedstates-nz from https://dept-of-state-iati.s3.amazonaws.com/activity/new-zealand.xml
-found 15 activities
-
-Downloading unitedstates-om from https://dept-of-state-iati.s3.amazonaws.com/activity/oman.xml
-Parsing unitedstates-om from https://dept-of-state-iati.s3.amazonaws.com/activity/oman.xml
-found 155 activities
-
-Downloading unitedstates-pa-part-1 from https://dept-of-state-iati.s3.amazonaws.com/activity/panama-part-1.xml
-Parsing unitedstates-pa-part-1 from https://dept-of-state-iati.s3.amazonaws.com/activity/panama-part-1.xml
-found 3379 activities
-
-Downloading unitedstates-pa-part-2 from https://dept-of-state-iati.s3.amazonaws.com/activity/panama-part-2.xml
-Parsing unitedstates-pa-part-2 from https://dept-of-state-iati.s3.amazonaws.com/activity/panama-part-2.xml
-found 3379 activities
-
-Downloading unitedstates-pc from https://dept-of-state-iati.s3.amazonaws.com/organisation/pc.xml
-Parsing unitedstates-pc from https://dept-of-state-iati.s3.amazonaws.com/organisation/pc.xml
-found 1 organisations
-
-Downloading unitedstates-pe-part-1 from https://dept-of-state-iati.s3.amazonaws.com/activity/peru-part-1.xml
-Parsing unitedstates-pe-part-1 from https://dept-of-state-iati.s3.amazonaws.com/activity/peru-part-1.xml
-found 2605 activities
-
-Downloading unitedstates-pe-part-2 from https://dept-of-state-iati.s3.amazonaws.com/activity/peru-part-2.xml
-Parsing unitedstates-pe-part-2 from https://dept-of-state-iati.s3.amazonaws.com/activity/peru-part-2.xml
-found 2606 activities
-
-Downloading unitedstates-pe-part-3 from https://dept-of-state-iati.s3.amazonaws.com/activity/peru-part-3.xml
-Parsing unitedstates-pe-part-3 from https://dept-of-state-iati.s3.amazonaws.com/activity/peru-part-3.xml
-found 2608 activities
-
-Downloading unitedstates-pe-part-4 from https://dept-of-state-iati.s3.amazonaws.com/activity/peru-part-4.xml
-Parsing unitedstates-pe-part-4 from https://dept-of-state-iati.s3.amazonaws.com/activity/peru-part-4.xml
-found 2608 activities
-
-Downloading unitedstates-pepfar from https://dept-of-state-iati.s3.amazonaws.com/PEPFAR.xml
-Parsing unitedstates-pepfar from https://dept-of-state-iati.s3.amazonaws.com/PEPFAR.xml
-found 1721 activities
-
-Downloading unitedstates-pg from https://dept-of-state-iati.s3.amazonaws.com/activity/papua-new-guinea.xml
-Parsing unitedstates-pg from https://dept-of-state-iati.s3.amazonaws.com/activity/papua-new-guinea.xml
-found 134 activities
-
-Downloading unitedstates-ph from https://dept-of-state-iati.s3.amazonaws.com/activity/philippines.xml
-Parsing unitedstates-ph from https://dept-of-state-iati.s3.amazonaws.com/activity/philippines.xml
-found 2521 activities
-
-Downloading unitedstates-pk-part-1 from https://dept-of-state-iati.s3.amazonaws.com/activity/pakistan-part-1.xml
-Parsing unitedstates-pk-part-1 from https://dept-of-state-iati.s3.amazonaws.com/activity/pakistan-part-1.xml
-found 2576 activities
-
-Downloading unitedstates-pk-part-2 from https://dept-of-state-iati.s3.amazonaws.com/activity/pakistan-part-2.xml
-Parsing unitedstates-pk-part-2 from https://dept-of-state-iati.s3.amazonaws.com/activity/pakistan-part-2.xml
-found 2578 activities
-
-Downloading unitedstates-pl from https://dept-of-state-iati.s3.amazonaws.com/activity/poland.xml
-Parsing unitedstates-pl from https://dept-of-state-iati.s3.amazonaws.com/activity/poland.xml
-found 54 activities
-
-Downloading unitedstates-ps from https://dept-of-state-iati.s3.amazonaws.com/activity/west-bank-and-gaza.xml
-Parsing unitedstates-ps from https://dept-of-state-iati.s3.amazonaws.com/activity/west-bank-and-gaza.xml
-found 50 activities
-
-Downloading unitedstates-pt from https://dept-of-state-iati.s3.amazonaws.com/activity/portugal.xml
-Parsing unitedstates-pt from https://dept-of-state-iati.s3.amazonaws.com/activity/portugal.xml
-found 29 activities
-
-Downloading unitedstates-pw from https://dept-of-state-iati.s3.amazonaws.com/activity/palau.xml
-Parsing unitedstates-pw from https://dept-of-state-iati.s3.amazonaws.com/activity/palau.xml
-found 62 activities
-
-Downloading unitedstates-py from https://dept-of-state-iati.s3.amazonaws.com/activity/paraguay.xml
-Parsing unitedstates-py from https://dept-of-state-iati.s3.amazonaws.com/activity/paraguay.xml
-found 745 activities
-
-Downloading unitedstates-qa from https://dept-of-state-iati.s3.amazonaws.com/activity/qatar.xml
-Parsing unitedstates-qa from https://dept-of-state-iati.s3.amazonaws.com/activity/qatar.xml
-found 43 activities
-
-Downloading unitedstates-ro from https://dept-of-state-iati.s3.amazonaws.com/activity/romania.xml
-Parsing unitedstates-ro from https://dept-of-state-iati.s3.amazonaws.com/activity/romania.xml
-found 224 activities
-
-Downloading unitedstates-rs from https://dept-of-state-iati.s3.amazonaws.com/activity/serbia.xml
-Parsing unitedstates-rs from https://dept-of-state-iati.s3.amazonaws.com/activity/serbia.xml
-found 1839 activities
-
-Downloading unitedstates-ru from https://dept-of-state-iati.s3.amazonaws.com/activity/russia.xml
-Parsing unitedstates-ru from https://dept-of-state-iati.s3.amazonaws.com/activity/russia.xml
-found 556 activities
-
-Downloading unitedstates-rw from https://dept-of-state-iati.s3.amazonaws.com/activity/rwanda.xml
-Parsing unitedstates-rw from https://dept-of-state-iati.s3.amazonaws.com/activity/rwanda.xml
-found 694 activities
-
-Downloading unitedstates-sa from https://dept-of-state-iati.s3.amazonaws.com/activity/saudi-arabia.xml
-Parsing unitedstates-sa from https://dept-of-state-iati.s3.amazonaws.com/activity/saudi-arabia.xml
-found 55 activities
-
-Downloading unitedstates-sb from https://dept-of-state-iati.s3.amazonaws.com/activity/solomon-islands.xml
-Parsing unitedstates-sb from https://dept-of-state-iati.s3.amazonaws.com/activity/solomon-islands.xml
-found 32 activities
-
-Downloading unitedstates-sc from https://dept-of-state-iati.s3.amazonaws.com/activity/seychelles.xml
-Parsing unitedstates-sc from https://dept-of-state-iati.s3.amazonaws.com/activity/seychelles.xml
-found 28 activities
-
-Downloading unitedstates-sd from https://dept-of-state-iati.s3.amazonaws.com/activity/sudan.xml
-Parsing unitedstates-sd from https://dept-of-state-iati.s3.amazonaws.com/activity/sudan.xml
-found 136 activities
-
-Downloading unitedstates-se from https://dept-of-state-iati.s3.amazonaws.com/activity/sweden.xml
-Parsing unitedstates-se from https://dept-of-state-iati.s3.amazonaws.com/activity/sweden.xml
-found 18 activities
-
-Downloading unitedstates-sg from https://dept-of-state-iati.s3.amazonaws.com/activity/singapore.xml
-Parsing unitedstates-sg from https://dept-of-state-iati.s3.amazonaws.com/activity/singapore.xml
-found 56 activities
-
-Downloading unitedstates-si from https://dept-of-state-iati.s3.amazonaws.com/activity/slovenia.xml
-Parsing unitedstates-si from https://dept-of-state-iati.s3.amazonaws.com/activity/slovenia.xml
-found 36 activities
-
-Downloading unitedstates-sk from https://dept-of-state-iati.s3.amazonaws.com/activity/slovakia.xml
-Parsing unitedstates-sk from https://dept-of-state-iati.s3.amazonaws.com/activity/slovakia.xml
-found 32 activities
-
-Downloading unitedstates-sl from https://dept-of-state-iati.s3.amazonaws.com/activity/sierra-leone.xml
-Parsing unitedstates-sl from https://dept-of-state-iati.s3.amazonaws.com/activity/sierra-leone.xml
-found 381 activities
-
-Downloading unitedstates-sn from https://dept-of-state-iati.s3.amazonaws.com/activity/senegal.xml
-Parsing unitedstates-sn from https://dept-of-state-iati.s3.amazonaws.com/activity/senegal.xml
-found 941 activities
-
-Downloading unitedstates-so from https://dept-of-state-iati.s3.amazonaws.com/activity/somalia.xml
-Parsing unitedstates-so from https://dept-of-state-iati.s3.amazonaws.com/activity/somalia.xml
-found 498 activities
-
-Downloading unitedstates-sr from https://dept-of-state-iati.s3.amazonaws.com/activity/suriname.xml
-Parsing unitedstates-sr from https://dept-of-state-iati.s3.amazonaws.com/activity/suriname.xml
-found 238 activities
-
-Downloading unitedstates-ss from https://dept-of-state-iati.s3.amazonaws.com/activity/south-sudan.xml
-Parsing unitedstates-ss from https://dept-of-state-iati.s3.amazonaws.com/activity/south-sudan.xml
-found 530 activities
-
-Downloading unitedstates-st from https://dept-of-state-iati.s3.amazonaws.com/activity/sao-tome-and-principe.xml
-Parsing unitedstates-st from https://dept-of-state-iati.s3.amazonaws.com/activity/sao-tome-and-principe.xml
-found 36 activities
-
-Downloading unitedstates-sv-part-1 from https://dept-of-state-iati.s3.amazonaws.com/activity/el-salvador-part-1.xml
-Parsing unitedstates-sv-part-1 from https://dept-of-state-iati.s3.amazonaws.com/activity/el-salvador-part-1.xml
-found 2459 activities
-
-Downloading unitedstates-sv-part-2 from https://dept-of-state-iati.s3.amazonaws.com/activity/el-salvador-part-2.xml
-Parsing unitedstates-sv-part-2 from https://dept-of-state-iati.s3.amazonaws.com/activity/el-salvador-part-2.xml
-found 2461 activities
-
-Downloading unitedstates-sv-part-3 from https://dept-of-state-iati.s3.amazonaws.com/activity/el-salvador-part-3.xml
-Parsing unitedstates-sv-part-3 from https://dept-of-state-iati.s3.amazonaws.com/activity/el-salvador-part-3.xml
-found 2461 activities
-
-Downloading unitedstates-sy from https://dept-of-state-iati.s3.amazonaws.com/activity/syria.xml
-Parsing unitedstates-sy from https://dept-of-state-iati.s3.amazonaws.com/activity/syria.xml
-found 153 activities
-
-Downloading unitedstates-sz from https://dept-of-state-iati.s3.amazonaws.com/activity/eswatini.xml
-Parsing unitedstates-sz from https://dept-of-state-iati.s3.amazonaws.com/activity/eswatini.xml
-found 953 activities
-
-Downloading unitedstates-tc from https://dept-of-state-iati.s3.amazonaws.com/activity/turks-and-caicos-islands.xml
-Parsing unitedstates-tc from https://dept-of-state-iati.s3.amazonaws.com/activity/turks-and-caicos-islands.xml
-found 2 activities
-
-Downloading unitedstates-td from https://dept-of-state-iati.s3.amazonaws.com/activity/chad.xml
-Parsing unitedstates-td from https://dept-of-state-iati.s3.amazonaws.com/activity/chad.xml
-found 329 activities
-
-Downloading unitedstates-tg from https://dept-of-state-iati.s3.amazonaws.com/activity/togo.xml
-Parsing unitedstates-tg from https://dept-of-state-iati.s3.amazonaws.com/activity/togo.xml
-found 325 activities
-
-Downloading unitedstates-th-part-1 from https://dept-of-state-iati.s3.amazonaws.com/activity/thailand-part-1.xml
-Parsing unitedstates-th-part-1 from https://dept-of-state-iati.s3.amazonaws.com/activity/thailand-part-1.xml
-found 2454 activities
-
-Downloading unitedstates-th-part-2 from https://dept-of-state-iati.s3.amazonaws.com/activity/thailand-part-2.xml
-Parsing unitedstates-th-part-2 from https://dept-of-state-iati.s3.amazonaws.com/activity/thailand-part-2.xml
-found 2455 activities
-
-Downloading unitedstates-tj from https://dept-of-state-iati.s3.amazonaws.com/activity/tajikistan.xml
-Parsing unitedstates-tj from https://dept-of-state-iati.s3.amazonaws.com/activity/tajikistan.xml
-found 1818 activities
-
-Downloading unitedstates-tl from https://dept-of-state-iati.s3.amazonaws.com/activity/timor-leste.xml
-Parsing unitedstates-tl from https://dept-of-state-iati.s3.amazonaws.com/activity/timor-leste.xml
-found 186 activities
-
-Downloading unitedstates-tm from https://dept-of-state-iati.s3.amazonaws.com/activity/turkmenistan.xml
-Parsing unitedstates-tm from https://dept-of-state-iati.s3.amazonaws.com/activity/turkmenistan.xml
-found 311 activities
-
-Downloading unitedstates-tn from https://dept-of-state-iati.s3.amazonaws.com/activity/tunisia.xml
-Parsing unitedstates-tn from https://dept-of-state-iati.s3.amazonaws.com/activity/tunisia.xml
-found 3028 activities
-
-Downloading unitedstates-to from https://dept-of-state-iati.s3.amazonaws.com/activity/tonga.xml
-Parsing unitedstates-to from https://dept-of-state-iati.s3.amazonaws.com/activity/tonga.xml
-found 92 activities
-
-Downloading unitedstates-treasury from https://dept-of-state-iati.s3.amazonaws.com/organisation/treasury.xml
-Parsing unitedstates-treasury from https://dept-of-state-iati.s3.amazonaws.com/organisation/treasury.xml
-found 1 organisations
-
-Downloading unitedstates-tr from https://dept-of-state-iati.s3.amazonaws.com/activity/turkey.xml
-Parsing unitedstates-tr from https://dept-of-state-iati.s3.amazonaws.com/activity/turkey.xml
-found 241 activities
-
-Downloading unitedstates-tt from https://dept-of-state-iati.s3.amazonaws.com/activity/trinidad-and-tobago.xml
-Parsing unitedstates-tt from https://dept-of-state-iati.s3.amazonaws.com/activity/trinidad-and-tobago.xml
-found 882 activities
-
-Downloading unitedstates-tv from https://dept-of-state-iati.s3.amazonaws.com/activity/tuvalu.xml
-Parsing unitedstates-tv from https://dept-of-state-iati.s3.amazonaws.com/activity/tuvalu.xml
-found 5 activities
-
-Downloading unitedstates-tw from https://dept-of-state-iati.s3.amazonaws.com/activity/taiwan.xml
-Parsing unitedstates-tw from https://dept-of-state-iati.s3.amazonaws.com/activity/taiwan.xml
-found 22 activities
-
-Downloading unitedstates-tz from https://dept-of-state-iati.s3.amazonaws.com/activity/tanzania.xml
-Parsing unitedstates-tz from https://dept-of-state-iati.s3.amazonaws.com/activity/tanzania.xml
-found 1951 activities
-
-Downloading unitedstates-ua-part-1 from https://dept-of-state-iati.s3.amazonaws.com/activity/ukraine-part-1.xml
-Parsing unitedstates-ua-part-1 from https://dept-of-state-iati.s3.amazonaws.com/activity/ukraine-part-1.xml
-found 2346 activities
-
-Downloading unitedstates-ua-part-2 from https://dept-of-state-iati.s3.amazonaws.com/activity/ukraine-part-2.xml
-Parsing unitedstates-ua-part-2 from https://dept-of-state-iati.s3.amazonaws.com/activity/ukraine-part-2.xml
-found 2350 activities
-
-Downloading unitedstates-ua-part-3 from https://dept-of-state-iati.s3.amazonaws.com/activity/ukraine-part-3.xml
-Parsing unitedstates-ua-part-3 from https://dept-of-state-iati.s3.amazonaws.com/activity/ukraine-part-3.xml
-found 2351 activities
-
-Downloading unitedstates-ug from https://dept-of-state-iati.s3.amazonaws.com/activity/uganda.xml
-Parsing unitedstates-ug from https://dept-of-state-iati.s3.amazonaws.com/activity/uganda.xml
-found 1798 activities
-
-Downloading unitedstates-usda from https://dept-of-state-iati.s3.amazonaws.com/organisation/usda.xml
-Parsing unitedstates-usda from https://dept-of-state-iati.s3.amazonaws.com/organisation/usda.xml
-found 1 organisations
-
-Downloading unitedstates-ustda from https://dept-of-state-iati.s3.amazonaws.com/organisation/ustda.xml
-Parsing unitedstates-ustda from https://dept-of-state-iati.s3.amazonaws.com/organisation/ustda.xml
-found 1 organisations
-
-Downloading unitedstates-uy from https://dept-of-state-iati.s3.amazonaws.com/activity/uruguay.xml
-Parsing unitedstates-uy from https://dept-of-state-iati.s3.amazonaws.com/activity/uruguay.xml
-found 126 activities
-
-Downloading unitedstates-uz from https://dept-of-state-iati.s3.amazonaws.com/activity/uzbekistan.xml
-Parsing unitedstates-uz from https://dept-of-state-iati.s3.amazonaws.com/activity/uzbekistan.xml
-found 914 activities
-
-Downloading unitedstates-va from https://dept-of-state-iati.s3.amazonaws.com/activity/holy-see.xml
-Parsing unitedstates-va from https://dept-of-state-iati.s3.amazonaws.com/activity/holy-see.xml
-found 4 activities
-
-Downloading unitedstates-vc from https://dept-of-state-iati.s3.amazonaws.com/activity/saint-vincent-and-the-grenadines.xml
-Parsing unitedstates-vc from https://dept-of-state-iati.s3.amazonaws.com/activity/saint-vincent-and-the-grenadines.xml
-found 31 activities
-
-Downloading unitedstates-ve from https://dept-of-state-iati.s3.amazonaws.com/activity/venezuela.xml
-Parsing unitedstates-ve from https://dept-of-state-iati.s3.amazonaws.com/activity/venezuela.xml
-found 30 activities
-
-Downloading unitedstates-vn from https://dept-of-state-iati.s3.amazonaws.com/activity/vietnam.xml
-Parsing unitedstates-vn from https://dept-of-state-iati.s3.amazonaws.com/activity/vietnam.xml
-found 2210 activities
-
-Downloading unitedstates-vu from https://dept-of-state-iati.s3.amazonaws.com/activity/vanuatu.xml
-Parsing unitedstates-vu from https://dept-of-state-iati.s3.amazonaws.com/activity/vanuatu.xml
-found 85 activities
-
-Downloading unitedstates-ws from https://dept-of-state-iati.s3.amazonaws.com/activity/samoa.xml
-Parsing unitedstates-ws from https://dept-of-state-iati.s3.amazonaws.com/activity/samoa.xml
-found 94 activities
-
-Downloading unitedstates-xk from https://dept-of-state-iati.s3.amazonaws.com/activity/kosovo.xml
-Parsing unitedstates-xk from https://dept-of-state-iati.s3.amazonaws.com/activity/kosovo.xml
-found 2207 activities
-
-Downloading unitedstates-ye from https://dept-of-state-iati.s3.amazonaws.com/activity/yemen.xml
-Parsing unitedstates-ye from https://dept-of-state-iati.s3.amazonaws.com/activity/yemen.xml
-found 239 activities
-
-Downloading unitedstates-za from https://dept-of-state-iati.s3.amazonaws.com/activity/south-africa.xml
-Parsing unitedstates-za from https://dept-of-state-iati.s3.amazonaws.com/activity/south-africa.xml
-found 2494 activities
-
-Downloading unitedstates-zm from https://dept-of-state-iati.s3.amazonaws.com/activity/zambia.xml
-Parsing unitedstates-zm from https://dept-of-state-iati.s3.amazonaws.com/activity/zambia.xml
-found 1594 activities
-
-Downloading unitedstates-zw from https://dept-of-state-iati.s3.amazonaws.com/activity/zimbabwe.xml
-Parsing unitedstates-zw from https://dept-of-state-iati.s3.amazonaws.com/activity/zimbabwe.xml
-found 732 activities
-
 Downloading united_work-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/united_work-org.xml
 Parsing united_work-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/united_work-org.xml
 found 2 organisations
@@ -39380,6 +38271,10 @@ found 1639 activities
 Downloading unw-org from https://unwmeusstaticcontent.blob.core.windows.net/iati/organization_global_programmes.xml
 Parsing unw-org from https://unwmeusstaticcontent.blob.core.windows.net/iati/organization_global_programmes.xml
 found 1 organisations
+
+Downloading uoa-activities from https://iatipublisher-prod.s3.amazonaws.com/xml/mergedActivityXml/uoa-activities.xml
+Parsing uoa-activities from https://iatipublisher-prod.s3.amazonaws.com/xml/mergedActivityXml/uoa-activities.xml
+found 1 activities
 
 Downloading uoa-organisation from https://iatipublisher-prod.s3.amazonaws.com/organizationXmlFiles/uoa-organisation.xml
 Parsing uoa-organisation from https://iatipublisher-prod.s3.amazonaws.com/organizationXmlFiles/uoa-organisation.xml
@@ -44100,7 +42995,8 @@ found 18 activities
 
 Downloading worldbank-gn from http://doumodqax2qi2.cloudfront.net/IATI-11-2022/WB-GN.xml
 Parsing worldbank-gn from http://doumodqax2qi2.cloudfront.net/IATI-11-2022/WB-GN.xml
-found 32 activities
+dflat: invalid XML format
+restored 32 files
 
 Downloading worldbank-gt from http://doumodqax2qi2.cloudfront.net/IATI-11-2022/WB-GT.xml
 Parsing worldbank-gt from http://doumodqax2qi2.cloudfront.net/IATI-11-2022/WB-GT.xml
@@ -44845,7 +43741,7 @@ found 1 organisations
 
 Downloading yipl-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/yipl-activities.xml
 Parsing yipl-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/yipl-activities.xml
-found 1 activities
+found 3 activities
 
 Downloading yipl-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/yipl-org.xml
 Parsing yipl-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/yipl-org.xml
