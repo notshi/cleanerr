@@ -6463,7 +6463,7 @@ found 1 organisations
 
 Downloading cerf-contributionstodate from https://cerfgms-webapi.unocha.org/v1/iati/donorcontribution.xml
 Parsing cerf-contributionstodate from https://cerfgms-webapi.unocha.org/v1/iati/donorcontribution.xml
-found 1488 activities
+found 1489 activities
 
 Downloading cerf-organization from https://cerfgms-webapi.unocha.org/v1/iati/organizations.xml
 Parsing cerf-organization from https://cerfgms-webapi.unocha.org/v1/iati/organizations.xml
@@ -6714,9 +6714,8 @@ dflat: invalid XML format
 restored 0 files
 
 Downloading cif-998 from http://siteresources.worldbank.org/IATI/CIF/CIF-998.xml
-curl: download ERROR 404
 Parsing cif-998 from http://siteresources.worldbank.org/IATI/CIF/CIF-998.xml
-dflat: input XML file does not exist
+dflat: invalid XML format
 restored 0 files
 
 Downloading cifal-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/cifal-activities.xml
@@ -6998,7 +6997,7 @@ found 10 activities
 
 Downloading cisu-gaia from https://vores.cisu.dk/activities.xml
 Parsing cisu-gaia from https://vores.cisu.dk/activities.xml
-found 2396 activities
+found 2397 activities
 
 Downloading cisu-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/cisu-org.xml
 Parsing cisu-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/cisu-org.xml
@@ -7622,8 +7621,8 @@ Downloading csc-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml
 Parsing csc-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/csc-activities.xml
 found 2 activities
 
-Downloading csci_benkadi-actvities from https://www.woordendaad.nl/wp-content/uploads/2022/11/IATI-activities-1.xml
-Parsing csci_benkadi-actvities from https://www.woordendaad.nl/wp-content/uploads/2022/11/IATI-activities-1.xml
+Downloading csci_benkadi-actvities from https://www.woordendaad.nl/wp-content/uploads/2023/02/IATI-activities-1.xml
+Parsing csci_benkadi-actvities from https://www.woordendaad.nl/wp-content/uploads/2023/02/IATI-activities-1.xml
 found 1 activities
 
 Downloading csc-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/csc-org.xml
@@ -11238,8 +11237,10 @@ Parsing ecdpm-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/e
 found 11 activities
 
 Downloading ecdpm-act from https://storage.googleapis.com/ecdpmimake-iati-exports/iati-export-2022-04-22T08:41:50.960Z.xml
+curl: download ERROR 404
 Parsing ecdpm-act from https://storage.googleapis.com/ecdpmimake-iati-exports/iati-export-2022-04-22T08:41:50.960Z.xml
-found 21 activities
+dflat: input XML file does not exist
+restored 21 files
 
 Downloading ecdpm-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/ecdpm-org.xml
 Parsing ecdpm-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/ecdpm-org.xml
@@ -13652,6 +13653,10 @@ Downloading fcdo-cn from http://iati.fcdo.gov.uk/iati_files/Country/FCDO-China-C
 Parsing fcdo-cn from http://iati.fcdo.gov.uk/iati_files/Country/FCDO-China-CN.xml
 found 98 activities
 
+Downloading fcdo-co from http://iati.fcdo.gov.uk/iati_files/Country/FCDO-Colombia-CO.xml
+Parsing fcdo-co from http://iati.fcdo.gov.uk/iati_files/Country/FCDO-Colombia-CO.xml
+found 12 activities
+
 Downloading fcdo-cssf from http://iati.fcdo.gov.uk/iati_files/converted_files/cssf-oda-data.xml
 Parsing fcdo-cssf from http://iati.fcdo.gov.uk/iati_files/converted_files/cssf-oda-data.xml
 found 92 activities
@@ -15796,7 +15801,7 @@ found 1 organisations
 
 Downloading gac-amc-act_2_3 from http://w05.international.gc.ca/projectbrowser-banqueprojets/iita-iati/dfatd-maecd_activit_status_2_3.xml
 Parsing gac-amc-act_2_3 from http://w05.international.gc.ca/projectbrowser-banqueprojets/iita-iati/dfatd-maecd_activit_status_2_3.xml
-found 1761 activities
+found 1763 activities
 
 Downloading gac-amc-act_4 from http://w05.international.gc.ca/projectbrowser-banqueprojets/iita-iati/dfatd-maecd_activit_status_4.xml
 Parsing gac-amc-act_4 from http://w05.international.gc.ca/projectbrowser-banqueprojets/iita-iati/dfatd-maecd_activit_status_4.xml
@@ -15820,7 +15825,7 @@ found 1 organisations
 
 Downloading gain-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/gain-activities.xml
 Parsing gain-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/gain-activities.xml
-found 665 activities
+found 674 activities
 
 Downloading gain-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/gain-org.xml
 Parsing gain-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/gain-org.xml
@@ -18853,7 +18858,7 @@ found 1 organisations
 
 Downloading ids-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/ids-activities.xml
 Parsing ids-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/ids-activities.xml
-found 21 activities
+found 22 activities
 
 Downloading ids-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/ids-org.xml
 Parsing ids-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/ids-org.xml
@@ -22168,7 +22173,7 @@ found 3 activities
 
 Downloading lshtm-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/lshtm-activities.xml
 Parsing lshtm-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/lshtm-activities.xml
-found 4 activities
+found 5 activities
 
 Downloading lstm-998 from https://aidstream.s3.us-west-2.amazonaws.com/xml/lstm-998.xml
 Parsing lstm-998 from https://aidstream.s3.us-west-2.amazonaws.com/xml/lstm-998.xml
@@ -23733,7 +23738,7 @@ found 2 activities
 
 Downloading mamac-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/mamac-activities.xml
 Parsing mamac-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/mamac-activities.xml
-found 44 activities
+found 53 activities
 
 Downloading mamac-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/mamac-org.xml
 Parsing mamac-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/mamac-org.xml
@@ -23816,7 +23821,8 @@ found 1 organisations
 
 Downloading mastercard-foundation-ca-01 from https://www.ajah.ca/s/mastercard-foundation-activities.xml
 Parsing mastercard-foundation-ca-01 from https://www.ajah.ca/s/mastercard-foundation-activities.xml
-found 1140 activities
+dflat: invalid XML format
+restored 1140 files
 
 Downloading mastercard-foundation-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/mastercard-foundation-org.xml
 Parsing mastercard-foundation-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/mastercard-foundation-org.xml
@@ -25418,8 +25424,7 @@ restored 0 files
 
 Downloading odakorea-act4 from https://www.odakorea.go.kr/opm/iati_act_KR-GOV-051.xml
 Parsing odakorea-act4 from https://www.odakorea.go.kr/opm/iati_act_KR-GOV-051.xml
-dflat: invalid XML format
-restored 2294 files
+found 2294 activities
 
 Downloading odakorea-act50 from https://www.odakorea.go.kr/opm/iati_act_KR-GOV-500.xml
 Parsing odakorea-act50 from https://www.odakorea.go.kr/opm/iati_act_KR-GOV-500.xml
@@ -25550,7 +25555,7 @@ found 2227 activities
 
 Downloading onl-activity from https://www.oxfamnovib.nl/redactie/Downloads/XML/iati.xml
 Parsing onl-activity from https://www.oxfamnovib.nl/redactie/Downloads/XML/iati.xml
-found 1683 activities
+found 1685 activities
 
 Downloading onl-org from https://www.oxfamnovib.nl/redactie/downloads/xml/IATI_NL-KVK-27108436.xml
 Parsing onl-org from https://www.oxfamnovib.nl/redactie/downloads/xml/IATI_NL-KVK-27108436.xml
@@ -26289,8 +26294,8 @@ Downloading partos_nl-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/
 Parsing partos_nl-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/partos_nl-org.xml
 found 1 organisations
 
-Downloading pascib_benin-actvities from https://www.woordendaad.nl/wp-content/uploads/2022/11/IATI-activities-2.xml
-Parsing pascib_benin-actvities from https://www.woordendaad.nl/wp-content/uploads/2022/11/IATI-activities-2.xml
+Downloading pascib_benin-actvities from https://www.woordendaad.nl/wp-content/uploads/2023/02/IATI-activities-2.xml
+Parsing pascib_benin-actvities from https://www.woordendaad.nl/wp-content/uploads/2023/02/IATI-activities-2.xml
 found 1 activities
 
 Downloading pascib_benin-org from https://www.woordendaad.nl/wp-content/uploads/2022/04/org-PASCIB.xml
@@ -27818,7 +27823,7 @@ found 1 organisations
 
 Downloading rvo-01 from https://projects.rvo.nl/opendata/iati.xml
 Parsing rvo-01 from https://projects.rvo.nl/opendata/iati.xml
-found 4093 activities
+found 4095 activities
 
 Downloading rvo-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/rvo-activities.xml
 Parsing rvo-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/rvo-activities.xml
@@ -28227,8 +28232,8 @@ Downloading sdsna-activities from https://aidstream.s3.us-west-2.amazonaws.com/x
 Parsing sdsna-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/sdsna-activities.xml
 found 3 activities
 
-Downloading seco-ong-mali-activities from https://www.woordendaad.nl/wp-content/uploads/2022/11/IATI-activities-3.xml
-Parsing seco-ong-mali-activities from https://www.woordendaad.nl/wp-content/uploads/2022/11/IATI-activities-3.xml
+Downloading seco-ong-mali-activities from https://www.woordendaad.nl/wp-content/uploads/2023/02/IATI-activities-3.xml
+Parsing seco-ong-mali-activities from https://www.woordendaad.nl/wp-content/uploads/2023/02/IATI-activities-3.xml
 found 1 activities
 
 Downloading seco-ong-mali-org from https://www.woordendaad.nl/wp-content/uploads/2022/04/org-Seco-ONG.xml
@@ -29590,8 +29595,8 @@ Downloading spark-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/spar
 Parsing spark-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/spark-org.xml
 found 1 organisations
 
-Downloading spong-burkina-activities from https://www.woordendaad.nl/wp-content/uploads/2022/11/IATI-activities-4.xml
-Parsing spong-burkina-activities from https://www.woordendaad.nl/wp-content/uploads/2022/11/IATI-activities-4.xml
+Downloading spong-burkina-activities from https://www.woordendaad.nl/wp-content/uploads/2023/02/IATI-activities-4.xml
+Parsing spong-burkina-activities from https://www.woordendaad.nl/wp-content/uploads/2023/02/IATI-activities-4.xml
 found 2 activities
 
 Downloading spong-burkina-org from https://www.woordendaad.nl/wp-content/uploads/2022/04/org-Spong.xml
@@ -30034,7 +30039,7 @@ found 1 activities
 
 Downloading stichtingfern-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/stichtingfern-activities.xml
 Parsing stichtingfern-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/stichtingfern-activities.xml
-found 22 activities
+found 23 activities
 
 Downloading stichtingfern-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/stichtingfern-org.xml
 Parsing stichtingfern-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/stichtingfern-org.xml
@@ -35033,47 +35038,47 @@ found 1176 activities
 
 Downloading unido-activity-2014 from https://www.unido.org/sites/default/files/iati/2014-unido-activities.xml
 Parsing unido-activity-2014 from https://www.unido.org/sites/default/files/iati/2014-unido-activities.xml
-found 1171 activities
+found 1172 activities
 
 Downloading unido-activity-2015 from https://www.unido.org/sites/default/files/iati/2016-unido-activities.xml
 Parsing unido-activity-2015 from https://www.unido.org/sites/default/files/iati/2016-unido-activities.xml
-found 1287 activities
+found 1289 activities
 
 Downloading unido-activity-2016 from https://www.unido.org/sites/default/files/iati/2016-unido-activities.xml
 Parsing unido-activity-2016 from https://www.unido.org/sites/default/files/iati/2016-unido-activities.xml
-found 1287 activities
+found 1289 activities
 
 Downloading unido-activity-2017 from https://www.unido.org/sites/default/files/iati/2017-unido-activities.xml
 Parsing unido-activity-2017 from https://www.unido.org/sites/default/files/iati/2017-unido-activities.xml
-found 1176 activities
+found 1182 activities
 
 Downloading unido-activity-2018 from https://www.unido.org/sites/default/files/iati/2018-unido-activities.xml
 Parsing unido-activity-2018 from https://www.unido.org/sites/default/files/iati/2018-unido-activities.xml
-found 1189 activities
+found 1193 activities
 
 Downloading unido-activity-2019 from https://www.unido.org/sites/default/files/iati/2019-unido-activities.xml
 Parsing unido-activity-2019 from https://www.unido.org/sites/default/files/iati/2019-unido-activities.xml
-found 1033 activities
+found 1038 activities
 
 Downloading unido-activity-2020 from https://www.unido.org/sites/default/files/iati/2020-unido-activities.xml
 Parsing unido-activity-2020 from https://www.unido.org/sites/default/files/iati/2020-unido-activities.xml
-found 984 activities
+found 986 activities
 
 Downloading unido-activity-2021 from https://www.unido.org/sites/default/files/iati/2021-unido-activities.xml
 Parsing unido-activity-2021 from https://www.unido.org/sites/default/files/iati/2021-unido-activities.xml
-found 991 activities
+found 994 activities
 
 Downloading unido-activity-2022 from https://www.unido.org/sites/default/files/iati/2022-unido-activities.xml
 Parsing unido-activity-2022 from https://www.unido.org/sites/default/files/iati/2022-unido-activities.xml
-found 979 activities
+found 960 activities
 
 Downloading unido-activity-2023 from https://www.unido.org/sites/default/files/iati/2023-unido-activities.xml
 Parsing unido-activity-2023 from https://www.unido.org/sites/default/files/iati/2023-unido-activities.xml
-found 412 activities
+found 712 activities
 
 Downloading unido-activity-2024 from https://www.unido.org/sites/default/files/iati/2024-unido-activities.xml
 Parsing unido-activity-2024 from https://www.unido.org/sites/default/files/iati/2024-unido-activities.xml
-found 120 activities
+found 140 activities
 
 Downloading unido-activity-2025 from https://www.unido.org/sites/default/files/iati/2025-unido-activities.xml
 Parsing unido-activity-2025 from https://www.unido.org/sites/default/files/iati/2025-unido-activities.xml
@@ -35665,7 +35670,7 @@ found 175 activities
 
 Downloading unocha-cbpf-ethiopia-allocation-2022 from https://cbpfapi.unocha.org/iati/iati/53/2022/GetAllocation.xml
 Parsing unocha-cbpf-ethiopia-allocation-2022 from https://cbpfapi.unocha.org/iati/iati/53/2022/GetAllocation.xml
-found 20 activities
+found 22 activities
 
 Downloading unocha-cbpf-ethiopia-allocation-2023 from https://cbpfapi.unocha.org/iati/iati/53/2023/GetAllocation.xml
 Parsing unocha-cbpf-ethiopia-allocation-2023 from https://cbpfapi.unocha.org/iati/iati/53/2023/GetAllocation.xml
@@ -40415,7 +40420,7 @@ found 1 organisations
 
 Downloading warchildholland-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/warchildholland-activities.xml
 Parsing warchildholland-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/warchildholland-activities.xml
-found 412 activities
+found 413 activities
 
 Downloading warchildholland-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/warchildholland-org.xml
 Parsing warchildholland-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/warchildholland-org.xml
@@ -40624,7 +40629,7 @@ found 2 activities
 
 Downloading wbtf-tf027862 from https://d2mxkr7359ifh6.cloudfront.net/TF027862.xml
 Parsing wbtf-tf027862 from https://d2mxkr7359ifh6.cloudfront.net/TF027862.xml
-found 29 activities
+found 34 activities
 
 Downloading wbtf-tf050398 from https://d2mxkr7359ifh6.cloudfront.net/TF050398.xml
 Parsing wbtf-tf050398 from https://d2mxkr7359ifh6.cloudfront.net/TF050398.xml
@@ -40656,7 +40661,7 @@ found 2 activities
 
 Downloading wbtf-tf070380 from https://d2mxkr7359ifh6.cloudfront.net/TF070380.xml
 Parsing wbtf-tf070380 from https://d2mxkr7359ifh6.cloudfront.net/TF070380.xml
-found 7 activities
+found 21 activities
 
 Downloading wbtf-tf070390 from https://d2mxkr7359ifh6.cloudfront.net/TF070390.xml
 Parsing wbtf-tf070390 from https://d2mxkr7359ifh6.cloudfront.net/TF070390.xml
@@ -40672,7 +40677,7 @@ found 2 activities
 
 Downloading wbtf-tf070478 from https://d2mxkr7359ifh6.cloudfront.net/TF070478.xml
 Parsing wbtf-tf070478 from https://d2mxkr7359ifh6.cloudfront.net/TF070478.xml
-found 16 activities
+found 19 activities
 
 Downloading wbtf-tf070514 from https://d2mxkr7359ifh6.cloudfront.net/TF070514.xml
 Parsing wbtf-tf070514 from https://d2mxkr7359ifh6.cloudfront.net/TF070514.xml
@@ -40688,7 +40693,7 @@ found 2 activities
 
 Downloading wbtf-tf070599 from https://d2mxkr7359ifh6.cloudfront.net/TF070599.xml
 Parsing wbtf-tf070599 from https://d2mxkr7359ifh6.cloudfront.net/TF070599.xml
-found 2 activities
+found 1 activities
 
 Downloading wbtf-tf070637 from https://d2mxkr7359ifh6.cloudfront.net/TF070637.xml
 Parsing wbtf-tf070637 from https://d2mxkr7359ifh6.cloudfront.net/TF070637.xml
@@ -40704,7 +40709,7 @@ found 2 activities
 
 Downloading wbtf-tf070803 from https://d2mxkr7359ifh6.cloudfront.net/TF070803.xml
 Parsing wbtf-tf070803 from https://d2mxkr7359ifh6.cloudfront.net/TF070803.xml
-found 2 activities
+found 1 activities
 
 Downloading wbtf-tf070812 from https://d2mxkr7359ifh6.cloudfront.net/TF070812.xml
 Parsing wbtf-tf070812 from https://d2mxkr7359ifh6.cloudfront.net/TF070812.xml
@@ -40732,7 +40737,7 @@ found 2 activities
 
 Downloading wbtf-tf070968 from https://d2mxkr7359ifh6.cloudfront.net/TF070968.xml
 Parsing wbtf-tf070968 from https://d2mxkr7359ifh6.cloudfront.net/TF070968.xml
-found 6 activities
+found 7 activities
 
 Downloading wbtf-tf071039 from https://d2mxkr7359ifh6.cloudfront.net/TF071039.xml
 Parsing wbtf-tf071039 from https://d2mxkr7359ifh6.cloudfront.net/TF071039.xml
@@ -40740,15 +40745,15 @@ found 6 activities
 
 Downloading wbtf-tf071070 from https://d2mxkr7359ifh6.cloudfront.net/TF071070.xml
 Parsing wbtf-tf071070 from https://d2mxkr7359ifh6.cloudfront.net/TF071070.xml
-found 35 activities
+found 34 activities
 
 Downloading wbtf-tf071144 from https://d2mxkr7359ifh6.cloudfront.net/TF071144.xml
 Parsing wbtf-tf071144 from https://d2mxkr7359ifh6.cloudfront.net/TF071144.xml
-found 2 activities
+found 3 activities
 
 Downloading wbtf-tf071153 from https://d2mxkr7359ifh6.cloudfront.net/TF071153.xml
 Parsing wbtf-tf071153 from https://d2mxkr7359ifh6.cloudfront.net/TF071153.xml
-found 2 activities
+found 5 activities
 
 Downloading wbtf-tf071192 from https://d2mxkr7359ifh6.cloudfront.net/TF071192.xml
 Parsing wbtf-tf071192 from https://d2mxkr7359ifh6.cloudfront.net/TF071192.xml
@@ -40780,7 +40785,7 @@ found 2 activities
 
 Downloading wbtf-tf071234 from https://d2mxkr7359ifh6.cloudfront.net/TF071234.xml
 Parsing wbtf-tf071234 from https://d2mxkr7359ifh6.cloudfront.net/TF071234.xml
-found 2 activities
+found 1 activities
 
 Downloading wbtf-tf071235 from https://d2mxkr7359ifh6.cloudfront.net/TF071235.xml
 Parsing wbtf-tf071235 from https://d2mxkr7359ifh6.cloudfront.net/TF071235.xml
@@ -40820,19 +40825,19 @@ found 2 activities
 
 Downloading wbtf-tf071379 from https://d2mxkr7359ifh6.cloudfront.net/TF071379.xml
 Parsing wbtf-tf071379 from https://d2mxkr7359ifh6.cloudfront.net/TF071379.xml
-found 2 activities
+found 3 activities
 
 Downloading wbtf-tf071380 from https://d2mxkr7359ifh6.cloudfront.net/TF071380.xml
 Parsing wbtf-tf071380 from https://d2mxkr7359ifh6.cloudfront.net/TF071380.xml
-found 2 activities
+found 1 activities
 
 Downloading wbtf-tf071389 from https://d2mxkr7359ifh6.cloudfront.net/TF071389.xml
 Parsing wbtf-tf071389 from https://d2mxkr7359ifh6.cloudfront.net/TF071389.xml
-found 2 activities
+found 3 activities
 
 Downloading wbtf-tf071407 from https://d2mxkr7359ifh6.cloudfront.net/TF071407.xml
 Parsing wbtf-tf071407 from https://d2mxkr7359ifh6.cloudfront.net/TF071407.xml
-found 12 activities
+found 10 activities
 
 Downloading wbtf-tf071417 from https://d2mxkr7359ifh6.cloudfront.net/TF071417.xml
 Parsing wbtf-tf071417 from https://d2mxkr7359ifh6.cloudfront.net/TF071417.xml
@@ -40844,19 +40849,19 @@ found 6 activities
 
 Downloading wbtf-tf071424 from https://d2mxkr7359ifh6.cloudfront.net/TF071424.xml
 Parsing wbtf-tf071424 from https://d2mxkr7359ifh6.cloudfront.net/TF071424.xml
-found 19 activities
+found 17 activities
 
 Downloading wbtf-tf071441 from https://d2mxkr7359ifh6.cloudfront.net/TF071441.xml
 Parsing wbtf-tf071441 from https://d2mxkr7359ifh6.cloudfront.net/TF071441.xml
-found 2 activities
+found 1 activities
 
 Downloading wbtf-tf071472 from https://d2mxkr7359ifh6.cloudfront.net/TF071472.xml
 Parsing wbtf-tf071472 from https://d2mxkr7359ifh6.cloudfront.net/TF071472.xml
-found 2 activities
+found 1 activities
 
 Downloading wbtf-tf071473 from https://d2mxkr7359ifh6.cloudfront.net/TF071473.xml
 Parsing wbtf-tf071473 from https://d2mxkr7359ifh6.cloudfront.net/TF071473.xml
-found 3 activities
+found 1 activities
 
 Downloading wbtf-tf071492 from https://d2mxkr7359ifh6.cloudfront.net/TF071492.xml
 Parsing wbtf-tf071492 from https://d2mxkr7359ifh6.cloudfront.net/TF071492.xml
@@ -40872,7 +40877,7 @@ found 3 activities
 
 Downloading wbtf-tf071508 from https://d2mxkr7359ifh6.cloudfront.net/TF071508.xml
 Parsing wbtf-tf071508 from https://d2mxkr7359ifh6.cloudfront.net/TF071508.xml
-found 15 activities
+found 1 activities
 
 Downloading wbtf-tf071521 from https://d2mxkr7359ifh6.cloudfront.net/TF071521.xml
 Parsing wbtf-tf071521 from https://d2mxkr7359ifh6.cloudfront.net/TF071521.xml
@@ -40880,12 +40885,11 @@ found 2 activities
 
 Downloading wbtf-tf071562 from https://d2mxkr7359ifh6.cloudfront.net/TF071562.xml
 Parsing wbtf-tf071562 from https://d2mxkr7359ifh6.cloudfront.net/TF071562.xml
-found 8 activities
+found 1 activities
 
 Downloading wbtf-tf071579 from https://d2mxkr7359ifh6.cloudfront.net/TF071579.xml
 Parsing wbtf-tf071579 from https://d2mxkr7359ifh6.cloudfront.net/TF071579.xml
-dflat: invalid XML format
-restored 0 files
+found 4 activities
 
 Downloading wbtf-tf071580 from https://d2mxkr7359ifh6.cloudfront.net/TF071580.xml
 Parsing wbtf-tf071580 from https://d2mxkr7359ifh6.cloudfront.net/TF071580.xml
@@ -40897,7 +40901,7 @@ found 4 activities
 
 Downloading wbtf-tf071597 from https://d2mxkr7359ifh6.cloudfront.net/TF071597.xml
 Parsing wbtf-tf071597 from https://d2mxkr7359ifh6.cloudfront.net/TF071597.xml
-found 10 activities
+found 1 activities
 
 Downloading wbtf-tf071611 from https://d2mxkr7359ifh6.cloudfront.net/TF071611.xml
 Parsing wbtf-tf071611 from https://d2mxkr7359ifh6.cloudfront.net/TF071611.xml
@@ -40905,7 +40909,7 @@ found 2 activities
 
 Downloading wbtf-tf071612 from https://d2mxkr7359ifh6.cloudfront.net/TF071612.xml
 Parsing wbtf-tf071612 from https://d2mxkr7359ifh6.cloudfront.net/TF071612.xml
-found 2 activities
+found 1 activities
 
 Downloading wbtf-tf071613 from https://d2mxkr7359ifh6.cloudfront.net/TF071613.xml
 Parsing wbtf-tf071613 from https://d2mxkr7359ifh6.cloudfront.net/TF071613.xml
@@ -40917,7 +40921,7 @@ found 7 activities
 
 Downloading wbtf-tf071624 from https://d2mxkr7359ifh6.cloudfront.net/TF071624.xml
 Parsing wbtf-tf071624 from https://d2mxkr7359ifh6.cloudfront.net/TF071624.xml
-found 53 activities
+found 50 activities
 
 Downloading wbtf-tf071628 from https://d2mxkr7359ifh6.cloudfront.net/TF071628.xml
 Parsing wbtf-tf071628 from https://d2mxkr7359ifh6.cloudfront.net/TF071628.xml
@@ -40941,15 +40945,15 @@ found 2 activities
 
 Downloading wbtf-tf071664 from https://d2mxkr7359ifh6.cloudfront.net/TF071664.xml
 Parsing wbtf-tf071664 from https://d2mxkr7359ifh6.cloudfront.net/TF071664.xml
-found 3 activities
+found 5 activities
 
 Downloading wbtf-tf071668 from https://d2mxkr7359ifh6.cloudfront.net/TF071668.xml
 Parsing wbtf-tf071668 from https://d2mxkr7359ifh6.cloudfront.net/TF071668.xml
-found 2 activities
+found 1 activities
 
 Downloading wbtf-tf071682 from https://d2mxkr7359ifh6.cloudfront.net/TF071682.xml
 Parsing wbtf-tf071682 from https://d2mxkr7359ifh6.cloudfront.net/TF071682.xml
-found 4 activities
+found 1 activities
 
 Downloading wbtf-tf071691 from https://d2mxkr7359ifh6.cloudfront.net/TF071691.xml
 Parsing wbtf-tf071691 from https://d2mxkr7359ifh6.cloudfront.net/TF071691.xml
@@ -40969,11 +40973,11 @@ found 2 activities
 
 Downloading wbtf-tf071705 from https://d2mxkr7359ifh6.cloudfront.net/TF071705.xml
 Parsing wbtf-tf071705 from https://d2mxkr7359ifh6.cloudfront.net/TF071705.xml
-found 2 activities
+found 1 activities
 
 Downloading wbtf-tf071706 from https://d2mxkr7359ifh6.cloudfront.net/TF071706.xml
 Parsing wbtf-tf071706 from https://d2mxkr7359ifh6.cloudfront.net/TF071706.xml
-found 2 activities
+found 1 activities
 
 Downloading wbtf-tf071710 from https://d2mxkr7359ifh6.cloudfront.net/TF071710.xml
 Parsing wbtf-tf071710 from https://d2mxkr7359ifh6.cloudfront.net/TF071710.xml
@@ -40981,11 +40985,11 @@ found 2 activities
 
 Downloading wbtf-tf071718 from https://d2mxkr7359ifh6.cloudfront.net/TF071718.xml
 Parsing wbtf-tf071718 from https://d2mxkr7359ifh6.cloudfront.net/TF071718.xml
-found 2 activities
+found 1 activities
 
 Downloading wbtf-tf071730 from https://d2mxkr7359ifh6.cloudfront.net/TF071730.xml
 Parsing wbtf-tf071730 from https://d2mxkr7359ifh6.cloudfront.net/TF071730.xml
-found 2 activities
+found 1 activities
 
 Downloading wbtf-tf071737 from https://d2mxkr7359ifh6.cloudfront.net/TF071737.xml
 Parsing wbtf-tf071737 from https://d2mxkr7359ifh6.cloudfront.net/TF071737.xml
@@ -41045,8 +41049,7 @@ found 9 activities
 
 Downloading wbtf-tf071866 from https://d2mxkr7359ifh6.cloudfront.net/TF071866.xml
 Parsing wbtf-tf071866 from https://d2mxkr7359ifh6.cloudfront.net/TF071866.xml
-dflat: invalid XML format
-restored 0 files
+found 34 activities
 
 Downloading wbtf-tf071876 from https://d2mxkr7359ifh6.cloudfront.net/TF071876.xml
 Parsing wbtf-tf071876 from https://d2mxkr7359ifh6.cloudfront.net/TF071876.xml
@@ -41094,7 +41097,7 @@ found 2 activities
 
 Downloading wbtf-tf071969 from https://d2mxkr7359ifh6.cloudfront.net/TF071969.xml
 Parsing wbtf-tf071969 from https://d2mxkr7359ifh6.cloudfront.net/TF071969.xml
-found 2 activities
+found 1 activities
 
 Downloading wbtf-tf071986 from https://d2mxkr7359ifh6.cloudfront.net/TF071986.xml
 Parsing wbtf-tf071986 from https://d2mxkr7359ifh6.cloudfront.net/TF071986.xml
@@ -41122,7 +41125,7 @@ found 2 activities
 
 Downloading wbtf-tf072023 from https://d2mxkr7359ifh6.cloudfront.net/TF072023.xml
 Parsing wbtf-tf072023 from https://d2mxkr7359ifh6.cloudfront.net/TF072023.xml
-found 3 activities
+found 4 activities
 
 Downloading wbtf-tf072024 from https://d2mxkr7359ifh6.cloudfront.net/TF072024.xml
 Parsing wbtf-tf072024 from https://d2mxkr7359ifh6.cloudfront.net/TF072024.xml
@@ -41146,7 +41149,7 @@ found 5 activities
 
 Downloading wbtf-tf072050 from https://d2mxkr7359ifh6.cloudfront.net/TF072050.xml
 Parsing wbtf-tf072050 from https://d2mxkr7359ifh6.cloudfront.net/TF072050.xml
-found 2 activities
+found 1 activities
 
 Downloading wbtf-tf072052 from https://d2mxkr7359ifh6.cloudfront.net/TF072052.xml
 Parsing wbtf-tf072052 from https://d2mxkr7359ifh6.cloudfront.net/TF072052.xml
@@ -41174,7 +41177,7 @@ found 2 activities
 
 Downloading wbtf-tf072090 from https://d2mxkr7359ifh6.cloudfront.net/TF072090.xml
 Parsing wbtf-tf072090 from https://d2mxkr7359ifh6.cloudfront.net/TF072090.xml
-found 2 activities
+found 1 activities
 
 Downloading wbtf-tf072092 from https://d2mxkr7359ifh6.cloudfront.net/TF072092.xml
 Parsing wbtf-tf072092 from https://d2mxkr7359ifh6.cloudfront.net/TF072092.xml
@@ -41186,7 +41189,7 @@ found 2 activities
 
 Downloading wbtf-tf072101 from https://d2mxkr7359ifh6.cloudfront.net/TF072101.xml
 Parsing wbtf-tf072101 from https://d2mxkr7359ifh6.cloudfront.net/TF072101.xml
-found 2 activities
+found 1 activities
 
 Downloading wbtf-tf072102 from https://d2mxkr7359ifh6.cloudfront.net/TF072102.xml
 Parsing wbtf-tf072102 from https://d2mxkr7359ifh6.cloudfront.net/TF072102.xml
@@ -41278,7 +41281,7 @@ found 4 activities
 
 Downloading wbtf-tf072305 from https://d2mxkr7359ifh6.cloudfront.net/TF072305.xml
 Parsing wbtf-tf072305 from https://d2mxkr7359ifh6.cloudfront.net/TF072305.xml
-found 16 activities
+found 1 activities
 
 Downloading wbtf-tf072313 from https://d2mxkr7359ifh6.cloudfront.net/TF072313.xml
 Parsing wbtf-tf072313 from https://d2mxkr7359ifh6.cloudfront.net/TF072313.xml
@@ -41334,7 +41337,7 @@ found 2 activities
 
 Downloading wbtf-tf072463 from https://d2mxkr7359ifh6.cloudfront.net/TF072463.xml
 Parsing wbtf-tf072463 from https://d2mxkr7359ifh6.cloudfront.net/TF072463.xml
-found 2 activities
+found 1 activities
 
 Downloading wbtf-tf072467 from https://d2mxkr7359ifh6.cloudfront.net/TF072467.xml
 Parsing wbtf-tf072467 from https://d2mxkr7359ifh6.cloudfront.net/TF072467.xml
@@ -41350,7 +41353,7 @@ found 2 activities
 
 Downloading wbtf-tf072493 from https://d2mxkr7359ifh6.cloudfront.net/TF072493.xml
 Parsing wbtf-tf072493 from https://d2mxkr7359ifh6.cloudfront.net/TF072493.xml
-found 3 activities
+found 1 activities
 
 Downloading wbtf-tf072498 from https://d2mxkr7359ifh6.cloudfront.net/TF072498.xml
 Parsing wbtf-tf072498 from https://d2mxkr7359ifh6.cloudfront.net/TF072498.xml
@@ -41378,7 +41381,7 @@ found 2 activities
 
 Downloading wbtf-tf072541 from https://d2mxkr7359ifh6.cloudfront.net/TF072541.xml
 Parsing wbtf-tf072541 from https://d2mxkr7359ifh6.cloudfront.net/TF072541.xml
-found 3 activities
+found 1 activities
 
 Downloading wbtf-tf072548 from https://d2mxkr7359ifh6.cloudfront.net/TF072548.xml
 Parsing wbtf-tf072548 from https://d2mxkr7359ifh6.cloudfront.net/TF072548.xml
@@ -41390,7 +41393,7 @@ found 2 activities
 
 Downloading wbtf-tf072553 from https://d2mxkr7359ifh6.cloudfront.net/TF072553.xml
 Parsing wbtf-tf072553 from https://d2mxkr7359ifh6.cloudfront.net/TF072553.xml
-found 7 activities
+found 1 activities
 
 Downloading wbtf-tf072559 from https://d2mxkr7359ifh6.cloudfront.net/TF072559.xml
 Parsing wbtf-tf072559 from https://d2mxkr7359ifh6.cloudfront.net/TF072559.xml
@@ -41398,7 +41401,7 @@ found 5 activities
 
 Downloading wbtf-tf072561 from https://d2mxkr7359ifh6.cloudfront.net/TF072561.xml
 Parsing wbtf-tf072561 from https://d2mxkr7359ifh6.cloudfront.net/TF072561.xml
-found 4 activities
+found 1 activities
 
 Downloading wbtf-tf072562 from https://d2mxkr7359ifh6.cloudfront.net/TF072562.xml
 Parsing wbtf-tf072562 from https://d2mxkr7359ifh6.cloudfront.net/TF072562.xml
@@ -41422,11 +41425,11 @@ found 2 activities
 
 Downloading wbtf-tf072577 from https://d2mxkr7359ifh6.cloudfront.net/TF072577.xml
 Parsing wbtf-tf072577 from https://d2mxkr7359ifh6.cloudfront.net/TF072577.xml
-found 2 activities
+found 1 activities
 
 Downloading wbtf-tf072581 from https://d2mxkr7359ifh6.cloudfront.net/TF072581.xml
 Parsing wbtf-tf072581 from https://d2mxkr7359ifh6.cloudfront.net/TF072581.xml
-found 2 activities
+found 3 activities
 
 Downloading wbtf-tf072582 from https://d2mxkr7359ifh6.cloudfront.net/TF072582.xml
 Parsing wbtf-tf072582 from https://d2mxkr7359ifh6.cloudfront.net/TF072582.xml
@@ -41446,7 +41449,7 @@ found 5 activities
 
 Downloading wbtf-tf072600 from https://d2mxkr7359ifh6.cloudfront.net/TF072600.xml
 Parsing wbtf-tf072600 from https://d2mxkr7359ifh6.cloudfront.net/TF072600.xml
-found 13 activities
+found 14 activities
 
 Downloading wbtf-tf072601 from https://d2mxkr7359ifh6.cloudfront.net/TF072601.xml
 Parsing wbtf-tf072601 from https://d2mxkr7359ifh6.cloudfront.net/TF072601.xml
@@ -41458,15 +41461,15 @@ found 2 activities
 
 Downloading wbtf-tf072608 from https://d2mxkr7359ifh6.cloudfront.net/TF072608.xml
 Parsing wbtf-tf072608 from https://d2mxkr7359ifh6.cloudfront.net/TF072608.xml
-found 20 activities
+found 24 activities
 
 Downloading wbtf-tf072613 from https://d2mxkr7359ifh6.cloudfront.net/TF072613.xml
 Parsing wbtf-tf072613 from https://d2mxkr7359ifh6.cloudfront.net/TF072613.xml
-found 3 activities
+found 1 activities
 
 Downloading wbtf-tf072614 from https://d2mxkr7359ifh6.cloudfront.net/TF072614.xml
 Parsing wbtf-tf072614 from https://d2mxkr7359ifh6.cloudfront.net/TF072614.xml
-found 5 activities
+found 4 activities
 
 Downloading wbtf-tf072619 from https://d2mxkr7359ifh6.cloudfront.net/TF072619.xml
 Parsing wbtf-tf072619 from https://d2mxkr7359ifh6.cloudfront.net/TF072619.xml
@@ -41486,8 +41489,7 @@ found 2 activities
 
 Downloading wbtf-tf072663 from https://d2mxkr7359ifh6.cloudfront.net/TF072663.xml
 Parsing wbtf-tf072663 from https://d2mxkr7359ifh6.cloudfront.net/TF072663.xml
-dflat: invalid XML format
-restored 0 files
+found 2 activities
 
 Downloading wbtf-tf072664 from https://d2mxkr7359ifh6.cloudfront.net/TF072664.xml
 Parsing wbtf-tf072664 from https://d2mxkr7359ifh6.cloudfront.net/TF072664.xml
@@ -41495,7 +41497,7 @@ found 2 activities
 
 Downloading wbtf-tf072675 from https://d2mxkr7359ifh6.cloudfront.net/TF072675.xml
 Parsing wbtf-tf072675 from https://d2mxkr7359ifh6.cloudfront.net/TF072675.xml
-found 2 activities
+found 1 activities
 
 Downloading wbtf-tf072678 from https://d2mxkr7359ifh6.cloudfront.net/TF072678.xml
 Parsing wbtf-tf072678 from https://d2mxkr7359ifh6.cloudfront.net/TF072678.xml
@@ -41507,11 +41509,11 @@ found 2 activities
 
 Downloading wbtf-tf072706 from https://d2mxkr7359ifh6.cloudfront.net/TF072706.xml
 Parsing wbtf-tf072706 from https://d2mxkr7359ifh6.cloudfront.net/TF072706.xml
-found 3 activities
+found 1 activities
 
 Downloading wbtf-tf072707 from https://d2mxkr7359ifh6.cloudfront.net/TF072707.xml
 Parsing wbtf-tf072707 from https://d2mxkr7359ifh6.cloudfront.net/TF072707.xml
-found 2 activities
+found 1 activities
 
 Downloading wbtf-tf072721 from https://d2mxkr7359ifh6.cloudfront.net/TF072721.xml
 Parsing wbtf-tf072721 from https://d2mxkr7359ifh6.cloudfront.net/TF072721.xml
@@ -41523,7 +41525,7 @@ found 2 activities
 
 Downloading wbtf-tf072726 from https://d2mxkr7359ifh6.cloudfront.net/TF072726.xml
 Parsing wbtf-tf072726 from https://d2mxkr7359ifh6.cloudfront.net/TF072726.xml
-found 2 activities
+found 1 activities
 
 Downloading wbtf-tf072727 from https://d2mxkr7359ifh6.cloudfront.net/TF072727.xml
 Parsing wbtf-tf072727 from https://d2mxkr7359ifh6.cloudfront.net/TF072727.xml
@@ -41531,7 +41533,7 @@ found 2 activities
 
 Downloading wbtf-tf072737 from https://d2mxkr7359ifh6.cloudfront.net/TF072737.xml
 Parsing wbtf-tf072737 from https://d2mxkr7359ifh6.cloudfront.net/TF072737.xml
-found 3 activities
+found 1 activities
 
 Downloading wbtf-tf072741 from https://d2mxkr7359ifh6.cloudfront.net/TF072741.xml
 Parsing wbtf-tf072741 from https://d2mxkr7359ifh6.cloudfront.net/TF072741.xml
@@ -41539,7 +41541,7 @@ found 8 activities
 
 Downloading wbtf-tf072742 from https://d2mxkr7359ifh6.cloudfront.net/TF072742.xml
 Parsing wbtf-tf072742 from https://d2mxkr7359ifh6.cloudfront.net/TF072742.xml
-found 4 activities
+found 1 activities
 
 Downloading wbtf-tf072750 from https://d2mxkr7359ifh6.cloudfront.net/TF072750.xml
 Parsing wbtf-tf072750 from https://d2mxkr7359ifh6.cloudfront.net/TF072750.xml
@@ -41551,7 +41553,7 @@ found 2 activities
 
 Downloading wbtf-tf072765 from https://d2mxkr7359ifh6.cloudfront.net/TF072765.xml
 Parsing wbtf-tf072765 from https://d2mxkr7359ifh6.cloudfront.net/TF072765.xml
-found 3 activities
+found 1 activities
 
 Downloading wbtf-tf072766 from https://d2mxkr7359ifh6.cloudfront.net/TF072766.xml
 Parsing wbtf-tf072766 from https://d2mxkr7359ifh6.cloudfront.net/TF072766.xml
@@ -41559,7 +41561,7 @@ found 2 activities
 
 Downloading wbtf-tf072776 from https://d2mxkr7359ifh6.cloudfront.net/TF072776.xml
 Parsing wbtf-tf072776 from https://d2mxkr7359ifh6.cloudfront.net/TF072776.xml
-found 3 activities
+found 4 activities
 
 Downloading wbtf-tf072778 from https://d2mxkr7359ifh6.cloudfront.net/TF072778.xml
 Parsing wbtf-tf072778 from https://d2mxkr7359ifh6.cloudfront.net/TF072778.xml
@@ -41567,15 +41569,15 @@ found 6 activities
 
 Downloading wbtf-tf072784 from https://d2mxkr7359ifh6.cloudfront.net/TF072784.xml
 Parsing wbtf-tf072784 from https://d2mxkr7359ifh6.cloudfront.net/TF072784.xml
-found 2 activities
+found 1 activities
 
 Downloading wbtf-tf072791 from https://d2mxkr7359ifh6.cloudfront.net/TF072791.xml
 Parsing wbtf-tf072791 from https://d2mxkr7359ifh6.cloudfront.net/TF072791.xml
-found 2 activities
+found 1 activities
 
 Downloading wbtf-tf072798 from https://d2mxkr7359ifh6.cloudfront.net/TF072798.xml
 Parsing wbtf-tf072798 from https://d2mxkr7359ifh6.cloudfront.net/TF072798.xml
-found 2 activities
+found 1 activities
 
 Downloading wbtf-tf072819 from https://d2mxkr7359ifh6.cloudfront.net/TF072819.xml
 Parsing wbtf-tf072819 from https://d2mxkr7359ifh6.cloudfront.net/TF072819.xml
@@ -41591,15 +41593,15 @@ found 2 activities
 
 Downloading wbtf-tf072826 from https://d2mxkr7359ifh6.cloudfront.net/TF072826.xml
 Parsing wbtf-tf072826 from https://d2mxkr7359ifh6.cloudfront.net/TF072826.xml
-found 4 activities
+found 1 activities
 
 Downloading wbtf-tf072828 from https://d2mxkr7359ifh6.cloudfront.net/TF072828.xml
 Parsing wbtf-tf072828 from https://d2mxkr7359ifh6.cloudfront.net/TF072828.xml
-found 3 activities
+found 13 activities
 
 Downloading wbtf-tf072837 from https://d2mxkr7359ifh6.cloudfront.net/TF072837.xml
 Parsing wbtf-tf072837 from https://d2mxkr7359ifh6.cloudfront.net/TF072837.xml
-found 2 activities
+found 1 activities
 
 Downloading wbtf-tf072847 from https://d2mxkr7359ifh6.cloudfront.net/TF072847.xml
 Parsing wbtf-tf072847 from https://d2mxkr7359ifh6.cloudfront.net/TF072847.xml
@@ -41627,7 +41629,7 @@ found 2 activities
 
 Downloading wbtf-tf072927 from https://d2mxkr7359ifh6.cloudfront.net/TF072927.xml
 Parsing wbtf-tf072927 from https://d2mxkr7359ifh6.cloudfront.net/TF072927.xml
-found 2 activities
+found 1 activities
 
 Downloading wbtf-tf072953 from https://d2mxkr7359ifh6.cloudfront.net/TF072953.xml
 Parsing wbtf-tf072953 from https://d2mxkr7359ifh6.cloudfront.net/TF072953.xml
@@ -41647,7 +41649,7 @@ found 2 activities
 
 Downloading wbtf-tf073002 from https://d2mxkr7359ifh6.cloudfront.net/TF073002.xml
 Parsing wbtf-tf073002 from https://d2mxkr7359ifh6.cloudfront.net/TF073002.xml
-found 2 activities
+found 1 activities
 
 Downloading wbtf-tf073011 from https://d2mxkr7359ifh6.cloudfront.net/TF073011.xml
 Parsing wbtf-tf073011 from https://d2mxkr7359ifh6.cloudfront.net/TF073011.xml
@@ -41659,7 +41661,7 @@ found 2 activities
 
 Downloading wbtf-tf073022 from https://d2mxkr7359ifh6.cloudfront.net/TF073022.xml
 Parsing wbtf-tf073022 from https://d2mxkr7359ifh6.cloudfront.net/TF073022.xml
-found 9 activities
+found 1 activities
 
 Downloading wbtf-tf073035 from https://d2mxkr7359ifh6.cloudfront.net/TF073035.xml
 Parsing wbtf-tf073035 from https://d2mxkr7359ifh6.cloudfront.net/TF073035.xml
@@ -41679,11 +41681,11 @@ found 2 activities
 
 Downloading wbtf-tf073069 from https://d2mxkr7359ifh6.cloudfront.net/TF073069.xml
 Parsing wbtf-tf073069 from https://d2mxkr7359ifh6.cloudfront.net/TF073069.xml
-found 2 activities
+found 1 activities
 
 Downloading wbtf-tf073081 from https://d2mxkr7359ifh6.cloudfront.net/TF073081.xml
 Parsing wbtf-tf073081 from https://d2mxkr7359ifh6.cloudfront.net/TF073081.xml
-found 2 activities
+found 1 activities
 
 Downloading wbtf-tf073096 from https://d2mxkr7359ifh6.cloudfront.net/TF073096.xml
 Parsing wbtf-tf073096 from https://d2mxkr7359ifh6.cloudfront.net/TF073096.xml
@@ -41711,7 +41713,7 @@ found 2 activities
 
 Downloading wbtf-tf073217 from https://d2mxkr7359ifh6.cloudfront.net/TF073217.xml
 Parsing wbtf-tf073217 from https://d2mxkr7359ifh6.cloudfront.net/TF073217.xml
-found 2 activities
+found 1 activities
 
 Downloading wbtf-tf073222 from https://d2mxkr7359ifh6.cloudfront.net/TF073222.xml
 Parsing wbtf-tf073222 from https://d2mxkr7359ifh6.cloudfront.net/TF073222.xml
@@ -41727,11 +41729,11 @@ found 2 activities
 
 Downloading wbtf-tf073236 from https://d2mxkr7359ifh6.cloudfront.net/TF073236.xml
 Parsing wbtf-tf073236 from https://d2mxkr7359ifh6.cloudfront.net/TF073236.xml
-found 3 activities
+found 16 activities
 
 Downloading wbtf-tf073238 from https://d2mxkr7359ifh6.cloudfront.net/TF073238.xml
 Parsing wbtf-tf073238 from https://d2mxkr7359ifh6.cloudfront.net/TF073238.xml
-found 2 activities
+found 1 activities
 
 Downloading wbtf-tf073240 from https://d2mxkr7359ifh6.cloudfront.net/TF073240.xml
 Parsing wbtf-tf073240 from https://d2mxkr7359ifh6.cloudfront.net/TF073240.xml
@@ -41739,19 +41741,19 @@ found 2 activities
 
 Downloading wbtf-tf073249 from https://d2mxkr7359ifh6.cloudfront.net/TF073249.xml
 Parsing wbtf-tf073249 from https://d2mxkr7359ifh6.cloudfront.net/TF073249.xml
-found 3 activities
+found 2 activities
 
 Downloading wbtf-tf073250 from https://d2mxkr7359ifh6.cloudfront.net/TF073250.xml
 Parsing wbtf-tf073250 from https://d2mxkr7359ifh6.cloudfront.net/TF073250.xml
-found 3 activities
+found 4 activities
 
 Downloading wbtf-tf073270 from https://d2mxkr7359ifh6.cloudfront.net/TF073270.xml
 Parsing wbtf-tf073270 from https://d2mxkr7359ifh6.cloudfront.net/TF073270.xml
-found 3 activities
+found 4 activities
 
 Downloading wbtf-tf073292 from https://d2mxkr7359ifh6.cloudfront.net/TF073292.xml
 Parsing wbtf-tf073292 from https://d2mxkr7359ifh6.cloudfront.net/TF073292.xml
-found 2 activities
+found 3 activities
 
 Downloading wbtf-tf073326 from https://d2mxkr7359ifh6.cloudfront.net/TF073326.xml
 Parsing wbtf-tf073326 from https://d2mxkr7359ifh6.cloudfront.net/TF073326.xml
@@ -41815,8 +41817,8 @@ Downloading wcuk-activities from https://aidstream.s3.us-west-2.amazonaws.com/xm
 Parsing wcuk-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/wcuk-activities.xml
 found 131 activities
 
-Downloading w-d-actitvities from https://www.woordendaad.nl/wp-content/uploads/2022/11/IATI-activities.xml
-Parsing w-d-actitvities from https://www.woordendaad.nl/wp-content/uploads/2022/11/IATI-activities.xml
+Downloading w-d-actitvities from https://www.woordendaad.nl/wp-content/uploads/2023/02/IATI-activities.xml
+Parsing w-d-actitvities from https://www.woordendaad.nl/wp-content/uploads/2023/02/IATI-activities.xml
 found 17 activities
 
 Downloading w-d-org from https://aidstream.s3.amazonaws.com/xml/w-d-org.xml
@@ -42227,7 +42229,7 @@ found 55 activities
 
 Downloading who-grd from http://open.who.int/api/iatiFiles/iati-file-content/GRD
 Parsing who-grd from http://open.who.int/api/iatiFiles/iati-file-content/GRD
-found 63 activities
+found 181 activities
 
 Downloading who-gtm from http://open.who.int/api/iatiFiles/iati-file-content/GTM
 Parsing who-gtm from http://open.who.int/api/iatiFiles/iati-file-content/GTM
