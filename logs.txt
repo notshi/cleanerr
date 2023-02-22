@@ -6526,7 +6526,7 @@ found 1 organisations
 
 Downloading cerf-contributionstodate from https://cerfgms-webapi.unocha.org/v1/iati/donorcontribution.xml
 Parsing cerf-contributionstodate from https://cerfgms-webapi.unocha.org/v1/iati/donorcontribution.xml
-found 1495 activities
+found 1496 activities
 
 Downloading cerf-organization from https://cerfgms-webapi.unocha.org/v1/iati/organizations.xml
 Parsing cerf-organization from https://cerfgms-webapi.unocha.org/v1/iati/organizations.xml
@@ -6772,9 +6772,8 @@ dflat: invalid XML format
 restored 0 files
 
 Downloading cif-889 from http://siteresources.worldbank.org/IATI/CIF/CIF-889.xml
-curl: download ERROR 404
 Parsing cif-889 from http://siteresources.worldbank.org/IATI/CIF/CIF-889.xml
-dflat: input XML file does not exist
+dflat: invalid XML format
 restored 0 files
 
 Downloading cif-998 from http://siteresources.worldbank.org/IATI/CIF/CIF-998.xml
@@ -7061,7 +7060,7 @@ found 10 activities
 
 Downloading cisu-gaia from https://vores.cisu.dk/activities.xml
 Parsing cisu-gaia from https://vores.cisu.dk/activities.xml
-found 2380 activities
+found 2381 activities
 
 Downloading cisu-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/cisu-org.xml
 Parsing cisu-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/cisu-org.xml
@@ -13063,16 +13062,12 @@ Parsing ehpea-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/ehpea-or
 found 3 organisations
 
 Downloading eib-act from http://www.eib.org/about/partners/cso/iati/activity.xml
-curl: download ERROR 404
 Parsing eib-act from http://www.eib.org/about/partners/cso/iati/activity.xml
-dflat: input XML file does not exist
-restored 636 files
+found 636 activities
 
 Downloading eib-org from http://www.eib.org/about/partners/cso/iati/organisation.xml
-curl: download ERROR 404
 Parsing eib-org from http://www.eib.org/about/partners/cso/iati/organisation.xml
-dflat: input XML file does not exist
-restored 1 files
+found 1 organisations
 
 Downloading eif-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/eif-activities.xml
 Parsing eif-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/eif-activities.xml
@@ -13160,7 +13155,7 @@ found 1 organisations
 
 Downloading enabel-all-activities from https://open.enabel.be/iati/all-activities.xml
 Parsing enabel-all-activities from https://open.enabel.be/iati/all-activities.xml
-found 1078 activities
+found 1080 activities
 
 Downloading enabel-contractors from https://open.enabel.be/iati/contractors.xml
 Parsing enabel-contractors from https://open.enabel.be/iati/contractors.xml
@@ -18332,7 +18327,7 @@ found 1 organisations
 
 Downloading idbinvest-projects from https://idbinvest.org/sites/default/files/iati_publish_projects.xml
 Parsing idbinvest-projects from https://idbinvest.org/sites/default/files/iati_publish_projects.xml
-found 1762 activities
+found 1763 activities
 
 Downloading idea-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/idea-activities.xml
 Parsing idea-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/idea-activities.xml
@@ -20049,10 +20044,8 @@ Parsing ilo-ao2018 from https://www.ilo.org/legacy/english/pardev/iati-data/ilo-
 found 871 activities
 
 Downloading ilo-ao-2019 from https://www.ilo.org/legacy/english/pardev/iati-data/iati-2019.xml
-curl: download ERROR 000
 Parsing ilo-ao-2019 from https://www.ilo.org/legacy/english/pardev/iati-data/iati-2019.xml
-dflat: input XML file does not exist
-restored 875 files
+found 875 activities
 
 Downloading ilo-ao from http://www.ilo.org/legacy/english/pardev/iati-data/ilo2012-13rbsaxbtc.xml
 Parsing ilo-ao from http://www.ilo.org/legacy/english/pardev/iati-data/ilo2012-13rbsaxbtc.xml
@@ -23717,6 +23710,10 @@ Downloading mfat-org-file from https://www.mfat.govt.nz/assets/Aid/IATI/NZ-MFAT-
 Parsing mfat-org-file from https://www.mfat.govt.nz/assets/Aid/IATI/NZ-MFAT-IATI-ORG.xml
 found 1 organisations
 
+Downloading mfwa-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/mfwa-activities.xml
+Parsing mfwa-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/mfwa-activities.xml
+found 1 activities
+
 Downloading mgcubed-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/mgcubed-activities.xml
 Parsing mgcubed-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/mgcubed-activities.xml
 found 1 activities
@@ -26062,11 +26059,11 @@ found 1 organisations
 
 Downloading peace-albania from https://iati-reporting.s3.amazonaws.com/peace_corp/xml/iati-activities-Albania.xml
 Parsing peace-albania from https://iati-reporting.s3.amazonaws.com/peace_corp/xml/iati-activities-Albania.xml
-found 16 activities
+found 18 activities
 
 Downloading peace-armenia from https://iati-reporting.s3.amazonaws.com/peace_corp/xml/iati-activities-Armenia.xml
 Parsing peace-armenia from https://iati-reporting.s3.amazonaws.com/peace_corp/xml/iati-activities-Armenia.xml
-found 9 activities
+found 11 activities
 
 Downloading peace-azerbaijan from https://iati-reporting.s3.amazonaws.com/peace_corp/xml/iati-activities-Azerbaijan.xml
 Parsing peace-azerbaijan from https://iati-reporting.s3.amazonaws.com/peace_corp/xml/iati-activities-Azerbaijan.xml
@@ -26078,7 +26075,7 @@ found 13 activities
 
 Downloading peace-benin from https://iati-reporting.s3.amazonaws.com/peace_corp/xml/iati-activities-Benin.xml
 Parsing peace-benin from https://iati-reporting.s3.amazonaws.com/peace_corp/xml/iati-activities-Benin.xml
-found 25 activities
+found 22 activities
 
 Downloading peace-botswana from https://iati-reporting.s3.amazonaws.com/peace_corp/xml/iati-activities-Botswana.xml
 Parsing peace-botswana from https://iati-reporting.s3.amazonaws.com/peace_corp/xml/iati-activities-Botswana.xml
@@ -26090,35 +26087,35 @@ found 1 activities
 
 Downloading peace-burkinafaso from https://iati-reporting.s3.amazonaws.com/peace_corp/xml/iati-activities-Burkina%20Faso.xml
 Parsing peace-burkinafaso from https://iati-reporting.s3.amazonaws.com/peace_corp/xml/iati-activities-Burkina%20Faso.xml
-found 7 activities
+found 3 activities
 
 Downloading peace-burma from https://iati-reporting.s3.amazonaws.com/peace_corp/xml/iati-activities-Burma.xml
 Parsing peace-burma from https://iati-reporting.s3.amazonaws.com/peace_corp/xml/iati-activities-Burma.xml
-found 18 activities
+found 13 activities
 
 Downloading peace-cambodia from https://iati-reporting.s3.amazonaws.com/peace_corp/xml/iati-activities-Cambodia.xml
 Parsing peace-cambodia from https://iati-reporting.s3.amazonaws.com/peace_corp/xml/iati-activities-Cambodia.xml
-found 8 activities
+found 11 activities
 
 Downloading peace-cameroon from https://iati-reporting.s3.amazonaws.com/peace_corp/xml/iati-activities-Cameroon.xml
 Parsing peace-cameroon from https://iati-reporting.s3.amazonaws.com/peace_corp/xml/iati-activities-Cameroon.xml
-found 20 activities
+found 15 activities
 
 Downloading peace-china from https://iati-reporting.s3.amazonaws.com/peace_corp/xml/iati-activities-China.xml
 Parsing peace-china from https://iati-reporting.s3.amazonaws.com/peace_corp/xml/iati-activities-China.xml
-found 169 activities
+found 11 activities
 
 Downloading peace-colombia from https://iati-reporting.s3.amazonaws.com/peace_corp/xml/iati-activities-Colombia.xml
 Parsing peace-colombia from https://iati-reporting.s3.amazonaws.com/peace_corp/xml/iati-activities-Colombia.xml
-found 36 activities
+found 9 activities
 
 Downloading peace-comoros from https://iati-reporting.s3.amazonaws.com/peace_corp/xml/iati-activities-Comoros.xml
 Parsing peace-comoros from https://iati-reporting.s3.amazonaws.com/peace_corp/xml/iati-activities-Comoros.xml
-found 10 activities
+found 12 activities
 
 Downloading peace-costarica from https://iati-reporting.s3.amazonaws.com/peace_corp/xml/iati-activities-Costa%20Rica.xml
 Parsing peace-costarica from https://iati-reporting.s3.amazonaws.com/peace_corp/xml/iati-activities-Costa%20Rica.xml
-found 11 activities
+found 9 activities
 
 Downloading peacedirect-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/peacedirect-activities.xml
 Parsing peacedirect-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/peacedirect-activities.xml
@@ -26126,15 +26123,15 @@ found 1 activities
 
 Downloading peace-dominicanrepublic from https://iati-reporting.s3.amazonaws.com/peace_corp/xml/iati-activities-Dominican%20Republic.xml
 Parsing peace-dominicanrepublic from https://iati-reporting.s3.amazonaws.com/peace_corp/xml/iati-activities-Dominican%20Republic.xml
-found 18 activities
+found 11 activities
 
 Downloading peace-ecuador from https://iati-reporting.s3.amazonaws.com/peace_corp/xml/iati-activities-Ecuador.xml
 Parsing peace-ecuador from https://iati-reporting.s3.amazonaws.com/peace_corp/xml/iati-activities-Ecuador.xml
-found 15 activities
+found 14 activities
 
 Downloading peace-elsalvador from https://iati-reporting.s3.amazonaws.com/peace_corp/xml/iati-activities-El%20Salvador.xml
 Parsing peace-elsalvador from https://iati-reporting.s3.amazonaws.com/peace_corp/xml/iati-activities-El%20Salvador.xml
-found 13 activities
+found 1 activities
 
 Downloading peace-eswatini from https://iati-reporting.s3.amazonaws.com/peace_corp/xml/iati-activities-eSwatini.xml
 Parsing peace-eswatini from https://iati-reporting.s3.amazonaws.com/peace_corp/xml/iati-activities-eSwatini.xml
@@ -26142,7 +26139,7 @@ found 17 activities
 
 Downloading peace-ethiopia from https://iati-reporting.s3.amazonaws.com/peace_corp/xml/iati-activities-Ethiopia.xml
 Parsing peace-ethiopia from https://iati-reporting.s3.amazonaws.com/peace_corp/xml/iati-activities-Ethiopia.xml
-found 20 activities
+found 15 activities
 
 Downloading peace-fiji from https://iati-reporting.s3.amazonaws.com/peace_corp/xml/iati-activities-Fiji.xml
 Parsing peace-fiji from https://iati-reporting.s3.amazonaws.com/peace_corp/xml/iati-activities-Fiji.xml
@@ -26154,11 +26151,11 @@ found 21 activities
 
 Downloading peace-georgia from https://iati-reporting.s3.amazonaws.com/peace_corp/xml/iati-activities-Georgia.xml
 Parsing peace-georgia from https://iati-reporting.s3.amazonaws.com/peace_corp/xml/iati-activities-Georgia.xml
-found 13 activities
+found 10 activities
 
 Downloading peace-ghana from https://iati-reporting.s3.amazonaws.com/peace_corp/xml/iati-activities-Ghana.xml
 Parsing peace-ghana from https://iati-reporting.s3.amazonaws.com/peace_corp/xml/iati-activities-Ghana.xml
-found 36 activities
+found 18 activities
 
 Downloading peace-guatemala from https://iati-reporting.s3.amazonaws.com/peace_corp/xml/iati-activities-Guatemala.xml
 Parsing peace-guatemala from https://iati-reporting.s3.amazonaws.com/peace_corp/xml/iati-activities-Guatemala.xml
@@ -26166,7 +26163,7 @@ found 20 activities
 
 Downloading peace-guinea from https://iati-reporting.s3.amazonaws.com/peace_corp/xml/iati-activities-Guinea.xml
 Parsing peace-guinea from https://iati-reporting.s3.amazonaws.com/peace_corp/xml/iati-activities-Guinea.xml
-found 20 activities
+found 17 activities
 
 Downloading peace-guyana from https://iati-reporting.s3.amazonaws.com/peace_corp/xml/iati-activities-Guyana.xml
 Parsing peace-guyana from https://iati-reporting.s3.amazonaws.com/peace_corp/xml/iati-activities-Guyana.xml
@@ -26174,11 +26171,11 @@ found 16 activities
 
 Downloading peace-indonesia from https://iati-reporting.s3.amazonaws.com/peace_corp/xml/iati-activities-Indonesia.xml
 Parsing peace-indonesia from https://iati-reporting.s3.amazonaws.com/peace_corp/xml/iati-activities-Indonesia.xml
-found 29 activities
+found 7 activities
 
 Downloading peace-jamaica from https://iati-reporting.s3.amazonaws.com/peace_corp/xml/iati-activities-Jamaica.xml
 Parsing peace-jamaica from https://iati-reporting.s3.amazonaws.com/peace_corp/xml/iati-activities-Jamaica.xml
-found 26 activities
+found 17 activities
 
 Downloading peace-jordan from https://iati-reporting.s3.amazonaws.com/peace_corp/xml/iati-activities-Jordan.xml
 Parsing peace-jordan from https://iati-reporting.s3.amazonaws.com/peace_corp/xml/iati-activities-Jordan.xml
@@ -26190,7 +26187,7 @@ found 18 activities
 
 Downloading peace-kenya from https://iati-reporting.s3.amazonaws.com/peace_corp/xml/iati-activities-Kenya.xml
 Parsing peace-kenya from https://iati-reporting.s3.amazonaws.com/peace_corp/xml/iati-activities-Kenya.xml
-found 28 activities
+found 7 activities
 
 Downloading peace-kosovo from https://iati-reporting.s3.amazonaws.com/peace_corp/xml/iati-activities-Kosovo.xml
 Parsing peace-kosovo from https://iati-reporting.s3.amazonaws.com/peace_corp/xml/iati-activities-Kosovo.xml
@@ -26198,11 +26195,11 @@ found 9 activities
 
 Downloading peace-kyrgyzstan from https://iati-reporting.s3.amazonaws.com/peace_corp/xml/iati-activities-Kyrgyzstan.xml
 Parsing peace-kyrgyzstan from https://iati-reporting.s3.amazonaws.com/peace_corp/xml/iati-activities-Kyrgyzstan.xml
-found 16 activities
+found 14 activities
 
 Downloading peace-lesotho from https://iati-reporting.s3.amazonaws.com/peace_corp/xml/iati-activities-Lesotho.xml
 Parsing peace-lesotho from https://iati-reporting.s3.amazonaws.com/peace_corp/xml/iati-activities-Lesotho.xml
-found 19 activities
+found 14 activities
 
 Downloading peace-liberia from https://iati-reporting.s3.amazonaws.com/peace_corp/xml/iati-activities-Liberia.xml
 Parsing peace-liberia from https://iati-reporting.s3.amazonaws.com/peace_corp/xml/iati-activities-Liberia.xml
@@ -26210,15 +26207,15 @@ found 14 activities
 
 Downloading peace-madagascar from https://iati-reporting.s3.amazonaws.com/peace_corp/xml/iati-activities-Madagascar.xml
 Parsing peace-madagascar from https://iati-reporting.s3.amazonaws.com/peace_corp/xml/iati-activities-Madagascar.xml
-found 19 activities
+found 18 activities
 
 Downloading peace-malawi from https://iati-reporting.s3.amazonaws.com/peace_corp/xml/iati-activities-Malawi.xml
 Parsing peace-malawi from https://iati-reporting.s3.amazonaws.com/peace_corp/xml/iati-activities-Malawi.xml
-found 16 activities
+found 14 activities
 
 Downloading peace-mexico from https://iati-reporting.s3.amazonaws.com/peace_corp/xml/iati-activities-Mexico.xml
 Parsing peace-mexico from https://iati-reporting.s3.amazonaws.com/peace_corp/xml/iati-activities-Mexico.xml
-found 43 activities
+found 10 activities
 
 Downloading peace-micronesiafederatedstatesof from https://iati-reporting.s3.amazonaws.com/peace_corp/xml/iati-activities-Micronesia%20Federated%20States%20of.xml
 Parsing peace-micronesiafederatedstatesof from https://iati-reporting.s3.amazonaws.com/peace_corp/xml/iati-activities-Micronesia%20Federated%20States%20of.xml
@@ -26226,11 +26223,11 @@ found 3 activities
 
 Downloading peace-moldova from https://iati-reporting.s3.amazonaws.com/peace_corp/xml/iati-activities-Moldova.xml
 Parsing peace-moldova from https://iati-reporting.s3.amazonaws.com/peace_corp/xml/iati-activities-Moldova.xml
-found 10 activities
+found 9 activities
 
 Downloading peace-mongolia from https://iati-reporting.s3.amazonaws.com/peace_corp/xml/iati-activities-Mongolia.xml
 Parsing peace-mongolia from https://iati-reporting.s3.amazonaws.com/peace_corp/xml/iati-activities-Mongolia.xml
-found 15 activities
+found 12 activities
 
 Downloading peace-montenegro from https://iati-reporting.s3.amazonaws.com/peace_corp/xml/iati-activities-Montenegro.xml
 Parsing peace-montenegro from https://iati-reporting.s3.amazonaws.com/peace_corp/xml/iati-activities-Montenegro.xml
@@ -26238,15 +26235,15 @@ found 4 activities
 
 Downloading peace-morocco from https://iati-reporting.s3.amazonaws.com/peace_corp/xml/iati-activities-Morocco.xml
 Parsing peace-morocco from https://iati-reporting.s3.amazonaws.com/peace_corp/xml/iati-activities-Morocco.xml
-found 33 activities
+found 12 activities
 
 Downloading peace-mozambique from https://iati-reporting.s3.amazonaws.com/peace_corp/xml/iati-activities-Mozambique.xml
 Parsing peace-mozambique from https://iati-reporting.s3.amazonaws.com/peace_corp/xml/iati-activities-Mozambique.xml
-found 15 activities
+found 8 activities
 
 Downloading peace-namibia from https://iati-reporting.s3.amazonaws.com/peace_corp/xml/iati-activities-Namibia.xml
 Parsing peace-namibia from https://iati-reporting.s3.amazonaws.com/peace_corp/xml/iati-activities-Namibia.xml
-found 13 activities
+found 9 activities
 
 Downloading peace-nepal from https://iati-reporting.s3.amazonaws.com/peace_corp/xml/iati-activities-Nepal.xml
 Parsing peace-nepal from https://iati-reporting.s3.amazonaws.com/peace_corp/xml/iati-activities-Nepal.xml
@@ -26254,7 +26251,7 @@ found 13 activities
 
 Downloading peace-nicaragua from https://iati-reporting.s3.amazonaws.com/peace_corp/xml/iati-activities-Nicaragua.xml
 Parsing peace-nicaragua from https://iati-reporting.s3.amazonaws.com/peace_corp/xml/iati-activities-Nicaragua.xml
-found 10 activities
+found 9 activities
 
 Downloading peace-niger from https://iati-reporting.s3.amazonaws.com/peace_corp/xml/iati-activities-Niger.xml
 Parsing peace-niger from https://iati-reporting.s3.amazonaws.com/peace_corp/xml/iati-activities-Niger.xml
@@ -26270,7 +26267,7 @@ found 1 organisations
 
 Downloading peace-panama from https://iati-reporting.s3.amazonaws.com/peace_corp/xml/iati-activities-Panama.xml
 Parsing peace-panama from https://iati-reporting.s3.amazonaws.com/peace_corp/xml/iati-activities-Panama.xml
-found 35 activities
+found 20 activities
 
 Downloading peace-paraguay from https://iati-reporting.s3.amazonaws.com/peace_corp/xml/iati-activities-Paraguay.xml
 Parsing peace-paraguay from https://iati-reporting.s3.amazonaws.com/peace_corp/xml/iati-activities-Paraguay.xml
@@ -26278,11 +26275,11 @@ found 13 activities
 
 Downloading peace-peru from https://iati-reporting.s3.amazonaws.com/peace_corp/xml/iati-activities-Peru.xml
 Parsing peace-peru from https://iati-reporting.s3.amazonaws.com/peace_corp/xml/iati-activities-Peru.xml
-found 19 activities
+found 18 activities
 
 Downloading peace-philippines from https://iati-reporting.s3.amazonaws.com/peace_corp/xml/iati-activities-Philippines.xml
 Parsing peace-philippines from https://iati-reporting.s3.amazonaws.com/peace_corp/xml/iati-activities-Philippines.xml
-found 42 activities
+found 14 activities
 
 Downloading peace-romania from https://iati-reporting.s3.amazonaws.com/peace_corp/xml/iati-activities-Romania.xml
 Parsing peace-romania from https://iati-reporting.s3.amazonaws.com/peace_corp/xml/iati-activities-Romania.xml
@@ -26290,7 +26287,7 @@ found 25 activities
 
 Downloading peace-rwanda from https://iati-reporting.s3.amazonaws.com/peace_corp/xml/iati-activities-Rwanda.xml
 Parsing peace-rwanda from https://iati-reporting.s3.amazonaws.com/peace_corp/xml/iati-activities-Rwanda.xml
-found 24 activities
+found 16 activities
 
 Downloading peace-samoa from https://iati-reporting.s3.amazonaws.com/peace_corp/xml/iati-activities-Samoa.xml
 Parsing peace-samoa from https://iati-reporting.s3.amazonaws.com/peace_corp/xml/iati-activities-Samoa.xml
@@ -26298,15 +26295,15 @@ found 11 activities
 
 Downloading peace-senegal from https://iati-reporting.s3.amazonaws.com/peace_corp/xml/iati-activities-Senegal.xml
 Parsing peace-senegal from https://iati-reporting.s3.amazonaws.com/peace_corp/xml/iati-activities-Senegal.xml
-found 29 activities
+found 22 activities
 
 Downloading peace-sierraleone from https://iati-reporting.s3.amazonaws.com/peace_corp/xml/iati-activities-Sierra%20Leone.xml
 Parsing peace-sierraleone from https://iati-reporting.s3.amazonaws.com/peace_corp/xml/iati-activities-Sierra%20Leone.xml
-found 19 activities
+found 16 activities
 
 Downloading peace-southafrica from https://iati-reporting.s3.amazonaws.com/peace_corp/xml/iati-activities-South%20Africa.xml
 Parsing peace-southafrica from https://iati-reporting.s3.amazonaws.com/peace_corp/xml/iati-activities-South%20Africa.xml
-found 61 activities
+found 11 activities
 
 Downloading peace-southamericaregional from https://iati-reporting.s3.amazonaws.com/peace_corp/xml/iati-activities-South%20America%20regional.xml
 Parsing peace-southamericaregional from https://iati-reporting.s3.amazonaws.com/peace_corp/xml/iati-activities-South%20America%20regional.xml
@@ -26314,7 +26311,7 @@ found 7 activities
 
 Downloading peace-southofsahararegional from https://iati-reporting.s3.amazonaws.com/peace_corp/xml/iati-activities-South%20of%20Sahara%20regional.xml
 Parsing peace-southofsahararegional from https://iati-reporting.s3.amazonaws.com/peace_corp/xml/iati-activities-South%20of%20Sahara%20regional.xml
-found 51 activities
+found 1 activities
 
 Downloading peace-srilanka from https://iati-reporting.s3.amazonaws.com/peace_corp/xml/iati-activities-Sri%20Lanka.xml
 Parsing peace-srilanka from https://iati-reporting.s3.amazonaws.com/peace_corp/xml/iati-activities-Sri%20Lanka.xml
@@ -26322,11 +26319,11 @@ found 8 activities
 
 Downloading peace-tanzania from https://iati-reporting.s3.amazonaws.com/peace_corp/xml/iati-activities-Tanzania.xml
 Parsing peace-tanzania from https://iati-reporting.s3.amazonaws.com/peace_corp/xml/iati-activities-Tanzania.xml
-found 22 activities
+found 15 activities
 
 Downloading peace-thailand from https://iati-reporting.s3.amazonaws.com/peace_corp/xml/iati-activities-Thailand.xml
 Parsing peace-thailand from https://iati-reporting.s3.amazonaws.com/peace_corp/xml/iati-activities-Thailand.xml
-found 20 activities
+found 13 activities
 
 Downloading peace-timorleste from https://iati-reporting.s3.amazonaws.com/peace_corp/xml/iati-activities-Timor-Leste.xml
 Parsing peace-timorleste from https://iati-reporting.s3.amazonaws.com/peace_corp/xml/iati-activities-Timor-Leste.xml
@@ -26338,15 +26335,15 @@ found 14 activities
 
 Downloading peace-tonga from https://iati-reporting.s3.amazonaws.com/peace_corp/xml/iati-activities-Tonga.xml
 Parsing peace-tonga from https://iati-reporting.s3.amazonaws.com/peace_corp/xml/iati-activities-Tonga.xml
-found 14 activities
+found 13 activities
 
 Downloading peace-uganda from https://iati-reporting.s3.amazonaws.com/peace_corp/xml/iati-activities-Uganda.xml
 Parsing peace-uganda from https://iati-reporting.s3.amazonaws.com/peace_corp/xml/iati-activities-Uganda.xml
-found 12 activities
+found 9 activities
 
 Downloading peace-ukraine from https://iati-reporting.s3.amazonaws.com/peace_corp/xml/iati-activities-Ukraine.xml
 Parsing peace-ukraine from https://iati-reporting.s3.amazonaws.com/peace_corp/xml/iati-activities-Ukraine.xml
-found 20 activities
+found 10 activities
 
 Downloading peace-vanuatu from https://iati-reporting.s3.amazonaws.com/peace_corp/xml/iati-activities-Vanuatu.xml
 Parsing peace-vanuatu from https://iati-reporting.s3.amazonaws.com/peace_corp/xml/iati-activities-Vanuatu.xml
@@ -26354,19 +26351,19 @@ found 10 activities
 
 Downloading peace-vietnam from https://iati-reporting.s3.amazonaws.com/peace_corp/xml/iati-activities-Vietnam.xml
 Parsing peace-vietnam from https://iati-reporting.s3.amazonaws.com/peace_corp/xml/iati-activities-Vietnam.xml
-found 47 activities
+found 5 activities
 
 Downloading peace-westindiesregional from https://iati-reporting.s3.amazonaws.com/peace_corp/xml/iati-activities-West%20Indies%20regional.xml
 Parsing peace-westindiesregional from https://iati-reporting.s3.amazonaws.com/peace_corp/xml/iati-activities-West%20Indies%20regional.xml
-found 13 activities
+found 12 activities
 
 Downloading peace-worldwide from https://iati-reporting.s3.amazonaws.com/peace_corp/xml/iati-activities-Worldwide.xml
 Parsing peace-worldwide from https://iati-reporting.s3.amazonaws.com/peace_corp/xml/iati-activities-Worldwide.xml
-found 120 activities
+found 86 activities
 
 Downloading peace-zambia from https://iati-reporting.s3.amazonaws.com/peace_corp/xml/iati-activities-Zambia.xml
 Parsing peace-zambia from https://iati-reporting.s3.amazonaws.com/peace_corp/xml/iati-activities-Zambia.xml
-found 26 activities
+found 15 activities
 
 Downloading peas-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/peas-activities.xml
 Parsing peas-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/peas-activities.xml
@@ -28539,8 +28536,10 @@ Parsing sida-np from http://iati.openaid.se/xml/NP.xml
 found 506 activities
 
 Downloading sida-org from http://iati.openaid.se/other/sweden_organisation.xml
+curl: download ERROR 403
 Parsing sida-org from http://iati.openaid.se/other/sweden_organisation.xml
-found 1 organisations
+dflat: input XML file does not exist
+restored 1 files
 
 Downloading sida-palau from http://iati.openaid.se/xml/PW.xml
 Parsing sida-palau from http://iati.openaid.se/xml/PW.xml
@@ -29292,263 +29291,328 @@ found 1 organisations
 
 Downloading state-afghanistan from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Afghanistan.xml
 Parsing state-afghanistan from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Afghanistan.xml
-found 5 activities
+dflat: invalid XML format
+restored 5 files
 
 Downloading state-albania from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Albania.xml
 Parsing state-albania from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Albania.xml
-found 84 activities
+dflat: invalid XML format
+restored 84 files
 
 Downloading state-americaregional from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-America%20regional.xml
 Parsing state-americaregional from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-America%20regional.xml
-found 2 activities
+dflat: invalid XML format
+restored 2 files
 
 Downloading state-argentina from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Argentina.xml
 Parsing state-argentina from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Argentina.xml
-found 12 activities
+dflat: invalid XML format
+restored 12 files
 
 Downloading state-armenia from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Armenia.xml
 Parsing state-armenia from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Armenia.xml
-found 30 activities
+dflat: invalid XML format
+restored 30 files
 
 Downloading state-bahamasthe from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Bahamas%20The.xml
 Parsing state-bahamasthe from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Bahamas%20The.xml
-found 41 activities
+dflat: invalid XML format
+restored 41 files
 
 Downloading state-bangladesh from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Bangladesh.xml
 Parsing state-bangladesh from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Bangladesh.xml
-found 1 activities
+dflat: invalid XML format
+restored 1 files
 
 Downloading state-barbados from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Barbados.xml
 Parsing state-barbados from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Barbados.xml
-found 167 activities
+dflat: invalid XML format
+restored 167 files
 
 Downloading state-belize from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Belize.xml
 Parsing state-belize from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Belize.xml
-found 211 activities
+dflat: invalid XML format
+restored 211 files
 
 Downloading state-benin from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Benin.xml
 Parsing state-benin from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Benin.xml
-found 2 activities
+dflat: invalid XML format
+restored 2 files
 
 Downloading state-bosniaandherzegovina from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Bosnia%20and%20Herzegovina.xml
 Parsing state-bosniaandherzegovina from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Bosnia%20and%20Herzegovina.xml
-found 262 activities
+dflat: invalid XML format
+restored 262 files
 
 Downloading state-botswana from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Botswana.xml
 Parsing state-botswana from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Botswana.xml
-found 31 activities
+dflat: invalid XML format
+restored 31 files
 
 Downloading state-burma from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Burma.xml
 Parsing state-burma from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Burma.xml
-found 37 activities
+dflat: invalid XML format
+restored 37 files
 
 Downloading state-burundi from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Burundi.xml
 Parsing state-burundi from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Burundi.xml
-found 7 activities
+dflat: invalid XML format
+restored 7 files
 
 Downloading state-caboverde from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Cabo%20Verde.xml
 Parsing state-caboverde from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Cabo%20Verde.xml
-found 42 activities
+dflat: invalid XML format
+restored 42 files
 
 Downloading state-cambodia from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Cambodia.xml
 Parsing state-cambodia from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Cambodia.xml
-found 4 activities
+dflat: invalid XML format
+restored 4 files
 
 Downloading state-centralafricanrepublic from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Central%20African%20Republic.xml
 Parsing state-centralafricanrepublic from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Central%20African%20Republic.xml
-found 12 activities
+dflat: invalid XML format
+restored 12 files
 
 Downloading state-chad from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Chad.xml
 Parsing state-chad from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Chad.xml
-found 9 activities
+dflat: invalid XML format
+restored 9 files
 
 Downloading state-colombia from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Colombia.xml
 Parsing state-colombia from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Colombia.xml
-found 46 activities
+dflat: invalid XML format
+restored 46 files
 
 Downloading state-congokinshasa from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Congo%20Kinshasa.xml
 Parsing state-congokinshasa from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Congo%20Kinshasa.xml
-found 54 activities
+dflat: invalid XML format
+restored 54 files
 
 Downloading state-costarica from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Costa%20Rica.xml
 Parsing state-costarica from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Costa%20Rica.xml
-found 961 activities
+dflat: invalid XML format
+restored 961 files
 
 Downloading state-cotedivoire from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Cote%20dIvoire.xml
 Parsing state-cotedivoire from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Cote%20dIvoire.xml
-found 7 activities
+dflat: invalid XML format
+restored 7 files
 
 Downloading state-croatia from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Croatia.xml
 Parsing state-croatia from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Croatia.xml
-found 43 activities
+dflat: invalid XML format
+restored 43 files
 
 Downloading state-dominicanrepublic from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Dominican%20Republic.xml
 Parsing state-dominicanrepublic from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Dominican%20Republic.xml
-found 403 activities
+dflat: invalid XML format
+restored 403 files
 
 Downloading state-eastasiaandoceaniaregion from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-East%20Asia%20and%20Oceania%20Region.xml
 Parsing state-eastasiaandoceaniaregion from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-East%20Asia%20and%20Oceania%20Region.xml
-found 9 activities
+dflat: invalid XML format
+restored 9 files
 
 Downloading state-ecuador from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Ecuador.xml
 Parsing state-ecuador from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Ecuador.xml
-found 148 activities
+dflat: invalid XML format
+restored 148 files
 
 Downloading state-egypt from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Egypt.xml
 Parsing state-egypt from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Egypt.xml
-found 6 activities
+dflat: invalid XML format
+restored 6 files
 
 Downloading state-elsalvador from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-El%20Salvador.xml
 Parsing state-elsalvador from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-El%20Salvador.xml
-found 840 activities
+dflat: invalid XML format
+restored 840 files
 
 Downloading state-ethiopia from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Ethiopia.xml
 Parsing state-ethiopia from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Ethiopia.xml
-found 24 activities
+dflat: invalid XML format
+restored 24 files
 
 Downloading state-europeregional from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Europe%20regional.xml
 Parsing state-europeregional from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Europe%20regional.xml
-found 14 activities
+dflat: invalid XML format
+restored 14 files
 
 Downloading state-fareastasiaregional from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Far%20East%20Asia%20regional.xml
 Parsing state-fareastasiaregional from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Far%20East%20Asia%20regional.xml
-found 2 activities
+dflat: invalid XML format
+restored 2 files
 
 Downloading state-georgia from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Georgia.xml
 Parsing state-georgia from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Georgia.xml
-found 16 activities
+dflat: invalid XML format
+restored 16 files
 
 Downloading state-ghana from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Ghana.xml
 Parsing state-ghana from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Ghana.xml
-found 66 activities
+dflat: invalid XML format
+restored 66 files
 
 Downloading state-guatemala from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Guatemala.xml
 Parsing state-guatemala from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Guatemala.xml
-found 1020 activities
+dflat: invalid XML format
+restored 1020 files
 
 Downloading state-guinea from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Guinea.xml
 Parsing state-guinea from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Guinea.xml
-found 23 activities
+dflat: invalid XML format
+restored 23 files
 
 Downloading state-guyana from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Guyana.xml
 Parsing state-guyana from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Guyana.xml
-found 5 activities
+dflat: invalid XML format
+restored 5 files
 
 Downloading state-haiti from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Haiti.xml
 Parsing state-haiti from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Haiti.xml
-found 37 activities
+dflat: invalid XML format
+restored 37 files
 
 Downloading state-honduras from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Honduras.xml
 Parsing state-honduras from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Honduras.xml
-found 936 activities
+dflat: invalid XML format
+restored 936 files
 
 Downloading state-india from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-India.xml
 Parsing state-india from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-India.xml
-found 6 activities
+dflat: invalid XML format
+restored 6 files
 
 Downloading state-indonesia from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Indonesia.xml
 Parsing state-indonesia from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Indonesia.xml
-found 31 activities
+dflat: invalid XML format
+restored 31 files
 
 Downloading state-iraq from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Iraq.xml
 Parsing state-iraq from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Iraq.xml
-found 4 activities
+dflat: invalid XML format
+restored 4 files
 
 Downloading state-israel from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Israel.xml
 Parsing state-israel from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Israel.xml
-found 1 activities
+dflat: invalid XML format
+restored 1 files
 
 Downloading state-jamaica from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Jamaica.xml
 Parsing state-jamaica from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Jamaica.xml
-found 156 activities
+dflat: invalid XML format
+restored 156 files
 
 Downloading state-jordan from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Jordan.xml
 Parsing state-jordan from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Jordan.xml
-found 7 activities
+dflat: invalid XML format
+restored 7 files
 
 Downloading state-kazakhstan from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Kazakhstan.xml
 Parsing state-kazakhstan from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Kazakhstan.xml
-found 73 activities
+dflat: invalid XML format
+restored 73 files
 
 Downloading state-kenya from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Kenya.xml
 Parsing state-kenya from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Kenya.xml
-found 66 activities
+dflat: invalid XML format
+restored 66 files
 
 Downloading state-kosovo from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Kosovo.xml
 Parsing state-kosovo from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Kosovo.xml
-found 24 activities
+dflat: invalid XML format
+restored 24 files
 
 Downloading state-kyrgyzstan from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Kyrgyzstan.xml
 Parsing state-kyrgyzstan from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Kyrgyzstan.xml
-found 24 activities
+dflat: invalid XML format
+restored 24 files
 
 Downloading state-lebanon from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Lebanon.xml
 Parsing state-lebanon from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Lebanon.xml
-found 81 activities
+dflat: invalid XML format
+restored 81 files
 
 Downloading state-liberia from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Liberia.xml
 Parsing state-liberia from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Liberia.xml
-found 6 activities
+dflat: invalid XML format
+restored 6 files
 
 Downloading state-malaysia from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Malaysia.xml
 Parsing state-malaysia from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Malaysia.xml
-found 95 activities
+dflat: invalid XML format
+restored 95 files
 
 Downloading state-mali from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Mali.xml
 Parsing state-mali from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Mali.xml
-found 27 activities
+dflat: invalid XML format
+restored 27 files
 
 Downloading state-mauritania from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Mauritania.xml
 Parsing state-mauritania from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Mauritania.xml
-found 9 activities
+dflat: invalid XML format
+restored 9 files
 
 Downloading state-mexico from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Mexico.xml
 Parsing state-mexico from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Mexico.xml
-found 879 activities
+dflat: invalid XML format
+restored 879 files
 
 Downloading state-middleeastregional from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Middle%20East%20regional.xml
 Parsing state-middleeastregional from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Middle%20East%20regional.xml
-found 32 activities
+dflat: invalid XML format
+restored 32 files
 
 Downloading state-moldova from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Moldova.xml
 Parsing state-moldova from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Moldova.xml
-found 58 activities
+dflat: invalid XML format
+restored 58 files
 
 Downloading state-mongolia from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Mongolia.xml
 Parsing state-mongolia from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Mongolia.xml
-found 2 activities
+dflat: invalid XML format
+restored 2 files
 
 Downloading state-montenegro from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Montenegro.xml
 Parsing state-montenegro from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Montenegro.xml
-found 10 activities
+dflat: invalid XML format
+restored 10 files
 
 Downloading state-morocco from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Morocco.xml
 Parsing state-morocco from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Morocco.xml
-found 115 activities
+dflat: invalid XML format
+restored 115 files
 
 Downloading state-multiplecountries from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Multiple%20Countries.xml
 Parsing state-multiplecountries from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Multiple%20Countries.xml
-found 1 activities
+dflat: invalid XML format
+restored 1 files
 
 Downloading state-nepal from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Nepal.xml
 Parsing state-nepal from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Nepal.xml
-found 2 activities
+dflat: invalid XML format
+restored 2 files
 
 Downloading state-nicaragua from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Nicaragua.xml
 Parsing state-nicaragua from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Nicaragua.xml
-found 13 activities
+dflat: invalid XML format
+restored 13 files
 
 Downloading state-nigeria from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Nigeria.xml
 Parsing state-nigeria from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Nigeria.xml
-found 62 activities
+dflat: invalid XML format
+restored 62 files
 
 Downloading state-niger from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Niger.xml
 Parsing state-niger from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Niger.xml
-found 24 activities
+dflat: invalid XML format
+restored 24 files
 
 Downloading state-northmacedonia from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-North%20Macedonia.xml
 Parsing state-northmacedonia from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-North%20Macedonia.xml
-found 103 activities
+dflat: invalid XML format
+restored 103 files
 
 Downloading state-org from https://dept-of-state-iati.s3.amazonaws.com/organisation/dos+and+usaid.xml
 Parsing state-org from https://dept-of-state-iati.s3.amazonaws.com/organisation/dos+and+usaid.xml
@@ -29556,107 +29620,133 @@ found 1 organisations
 
 Downloading state-pakistan from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Pakistan.xml
 Parsing state-pakistan from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Pakistan.xml
-found 234 activities
+dflat: invalid XML format
+restored 234 files
 
 Downloading state-panama from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Panama.xml
 Parsing state-panama from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Panama.xml
-found 633 activities
+dflat: invalid XML format
+restored 633 files
 
 Downloading state-peru from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Peru.xml
 Parsing state-peru from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Peru.xml
-found 4 activities
+dflat: invalid XML format
+restored 4 files
 
 Downloading state-philippines from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Philippines.xml
 Parsing state-philippines from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Philippines.xml
-found 59 activities
+dflat: invalid XML format
+restored 59 files
 
 Downloading state-romania from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Romania.xml
 Parsing state-romania from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Romania.xml
-found 7 activities
+dflat: invalid XML format
+restored 7 files
 
 Downloading state-russia from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Russia.xml
 Parsing state-russia from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Russia.xml
-found 7 activities
+dflat: invalid XML format
+restored 7 files
 
 Downloading state-senegal from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Senegal.xml
 Parsing state-senegal from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Senegal.xml
-found 40 activities
+dflat: invalid XML format
+restored 40 files
 
 Downloading state-serbia from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Serbia.xml
 Parsing state-serbia from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Serbia.xml
-found 10 activities
+dflat: invalid XML format
+restored 10 files
 
 Downloading state-sierraleone from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Sierra%20Leone.xml
 Parsing state-sierraleone from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Sierra%20Leone.xml
-found 2 activities
+dflat: invalid XML format
+restored 2 files
 
 Downloading state-somalia from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Somalia.xml
 Parsing state-somalia from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Somalia.xml
-found 9 activities
+dflat: invalid XML format
+restored 9 files
 
 Downloading state-southofsahararegional from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-South%20of%20Sahara%20regional.xml
 Parsing state-southofsahararegional from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-South%20of%20Sahara%20regional.xml
-found 83 activities
+dflat: invalid XML format
+restored 83 files
 
 Downloading state-southsudan from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-South%20Sudan.xml
 Parsing state-southsudan from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-South%20Sudan.xml
-found 18 activities
+dflat: invalid XML format
+restored 18 files
 
 Downloading state-srilanka from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Sri%20Lanka.xml
 Parsing state-srilanka from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Sri%20Lanka.xml
-found 3 activities
+dflat: invalid XML format
+restored 3 files
 
 Downloading state-sudan from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Sudan.xml
 Parsing state-sudan from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Sudan.xml
-found 5 activities
+dflat: invalid XML format
+restored 5 files
 
 Downloading state-tajikistan from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Tajikistan.xml
 Parsing state-tajikistan from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Tajikistan.xml
-found 159 activities
+dflat: invalid XML format
+restored 159 files
 
 Downloading state-tanzania from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Tanzania.xml
 Parsing state-tanzania from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Tanzania.xml
-found 5 activities
+dflat: invalid XML format
+restored 5 files
 
 Downloading state-thailand from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Thailand.xml
 Parsing state-thailand from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Thailand.xml
-found 105 activities
+dflat: invalid XML format
+restored 105 files
 
 Downloading state-timorleste from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Timor-Leste.xml
 Parsing state-timorleste from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Timor-Leste.xml
-found 4 activities
+dflat: invalid XML format
+restored 4 files
 
 Downloading state-trinidadandtobago from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Trinidad%20and%20Tobago.xml
 Parsing state-trinidadandtobago from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Trinidad%20and%20Tobago.xml
-found 70 activities
+dflat: invalid XML format
+restored 70 files
 
 Downloading state-tunisia from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Tunisia.xml
 Parsing state-tunisia from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Tunisia.xml
-found 105 activities
+dflat: invalid XML format
+restored 105 files
 
 Downloading state-uganda from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Uganda.xml
 Parsing state-uganda from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Uganda.xml
-found 2 activities
+dflat: invalid XML format
+restored 2 files
 
 Downloading state-uzbekistan from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Uzbekistan.xml
 Parsing state-uzbekistan from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Uzbekistan.xml
-found 71 activities
+dflat: invalid XML format
+restored 71 files
 
 Downloading state-vietnam from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Vietnam.xml
 Parsing state-vietnam from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Vietnam.xml
-found 276 activities
+dflat: invalid XML format
+restored 276 files
 
 Downloading state-worldwide from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Worldwide.xml
 Parsing state-worldwide from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Worldwide.xml
-found 341 activities
+dflat: invalid XML format
+restored 341 files
 
 Downloading state-yemen from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Yemen.xml
 Parsing state-yemen from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Yemen.xml
-found 2 activities
+dflat: invalid XML format
+restored 2 files
 
 Downloading state-zimbabwe from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Zimbabwe.xml
 Parsing state-zimbabwe from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Zimbabwe.xml
-found 2 activities
+dflat: invalid XML format
+restored 2 files
 
 Downloading stc-international-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/stc-international-activities.xml
 Parsing stc-international-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/stc-international-activities.xml
@@ -34069,7 +34159,7 @@ found 1 organisations
 
 Downloading unicef-afghanistan from https://open.unicef.org/sites/transparency/files/countrydata/iatiActivity_Afghanistan.xml
 Parsing unicef-afghanistan from https://open.unicef.org/sites/transparency/files/countrydata/iatiActivity_Afghanistan.xml
-found 167 activities
+found 168 activities
 
 Downloading unicef-albania from https://open.unicef.org/sites/transparency/files/countrydata/iatiActivity_Albania.xml
 Parsing unicef-albania from https://open.unicef.org/sites/transparency/files/countrydata/iatiActivity_Albania.xml
@@ -34157,7 +34247,7 @@ found 92 activities
 
 Downloading unicef-cameroon from https://open.unicef.org/sites/transparency/files/countrydata/iatiActivity_Republic%20of%20Cameroon.xml
 Parsing unicef-cameroon from https://open.unicef.org/sites/transparency/files/countrydata/iatiActivity_Republic%20of%20Cameroon.xml
-found 257 activities
+found 258 activities
 
 Downloading unicef-centralafricanrepublic from https://open.unicef.org/sites/transparency/files/countrydata/iatiActivity_Central%20African%20Republic.xml
 Parsing unicef-centralafricanrepublic from https://open.unicef.org/sites/transparency/files/countrydata/iatiActivity_Central%20African%20Republic.xml
@@ -34305,11 +34395,11 @@ found 78 activities
 
 Downloading unicef-hqs from https://open.unicef.org/sites/transparency/files/countrydata/iatiActivity_HQ.xml
 Parsing unicef-hqs from https://open.unicef.org/sites/transparency/files/countrydata/iatiActivity_HQ.xml
-found 1061 activities
+found 1080 activities
 
 Downloading unicef-india from https://open.unicef.org/sites/transparency/files/countrydata/iatiActivity_India.xml
 Parsing unicef-india from https://open.unicef.org/sites/transparency/files/countrydata/iatiActivity_India.xml
-found 1028 activities
+found 1060 activities
 
 Downloading unicef-indonesia from https://open.unicef.org/sites/transparency/files/countrydata/iatiActivity_Indonesia.xml
 Parsing unicef-indonesia from https://open.unicef.org/sites/transparency/files/countrydata/iatiActivity_Indonesia.xml
@@ -34393,7 +34483,7 @@ found 54 activities
 
 Downloading unicef-mali from https://open.unicef.org/sites/transparency/files/countrydata/iatiActivity_Mali.xml
 Parsing unicef-mali from https://open.unicef.org/sites/transparency/files/countrydata/iatiActivity_Mali.xml
-found 134 activities
+found 135 activities
 
 Downloading unicef-mauritania from https://open.unicef.org/sites/transparency/files/countrydata/iatiActivity_Mauritania.xml
 Parsing unicef-mauritania from https://open.unicef.org/sites/transparency/files/countrydata/iatiActivity_Mauritania.xml
@@ -34445,11 +34535,11 @@ found 58 activities
 
 Downloading unicef-nigeria from https://open.unicef.org/sites/transparency/files/countrydata/iatiActivity_Nigeria.xml
 Parsing unicef-nigeria from https://open.unicef.org/sites/transparency/files/countrydata/iatiActivity_Nigeria.xml
-found 325 activities
+found 357 activities
 
 Downloading unicef-niger from https://open.unicef.org/sites/transparency/files/countrydata/iatiActivity_Niger.xml
 Parsing unicef-niger from https://open.unicef.org/sites/transparency/files/countrydata/iatiActivity_Niger.xml
-found 155 activities
+found 179 activities
 
 Downloading unicefnl-activities from https://www.dataworkbench.io/publisher/unicef-nl/iati-activities.xml
 Parsing unicefnl-activities from https://www.dataworkbench.io/publisher/unicef-nl/iati-activities.xml
@@ -34493,7 +34583,7 @@ found 1 organisations
 
 Downloading unicef-pacificislands from https://open.unicef.org/sites/transparency/files/countrydata/iatiActivity_Fiji%20%28Pacific%20Islands%29.xml
 Parsing unicef-pacificislands from https://open.unicef.org/sites/transparency/files/countrydata/iatiActivity_Fiji%20%28Pacific%20Islands%29.xml
-found 206 activities
+found 226 activities
 
 Downloading unicef-pakistan from https://open.unicef.org/sites/transparency/files/countrydata/iatiActivity_Pakistan.xml
 Parsing unicef-pakistan from https://open.unicef.org/sites/transparency/files/countrydata/iatiActivity_Pakistan.xml
@@ -34569,7 +34659,7 @@ found 99 activities
 
 Downloading unicef-southsudan from https://open.unicef.org/sites/transparency/files/countrydata/iatiActivity_South%20Sudan.xml
 Parsing unicef-southsudan from https://open.unicef.org/sites/transparency/files/countrydata/iatiActivity_South%20Sudan.xml
-found 171 activities
+found 209 activities
 
 Downloading unicef-srilanka from https://open.unicef.org/sites/transparency/files/countrydata/iatiActivity_Sri%20Lanka.xml
 Parsing unicef-srilanka from https://open.unicef.org/sites/transparency/files/countrydata/iatiActivity_Sri%20Lanka.xml
@@ -34581,7 +34671,7 @@ found 209 activities
 
 Downloading unicef-syria from https://open.unicef.org/sites/transparency/files/countrydata/iatiActivity_Syria.xml
 Parsing unicef-syria from https://open.unicef.org/sites/transparency/files/countrydata/iatiActivity_Syria.xml
-found 202 activities
+found 204 activities
 
 Downloading unicef-tajikistan from https://open.unicef.org/sites/transparency/files/countrydata/iatiActivity_Tajikistan.xml
 Parsing unicef-tajikistan from https://open.unicef.org/sites/transparency/files/countrydata/iatiActivity_Tajikistan.xml
@@ -34645,7 +34735,7 @@ found 114 activities
 
 Downloading unicef-yemen from https://open.unicef.org/sites/transparency/files/countrydata/iatiActivity_Yemen.xml
 Parsing unicef-yemen from https://open.unicef.org/sites/transparency/files/countrydata/iatiActivity_Yemen.xml
-found 132 activities
+found 168 activities
 
 Downloading unicef-zambia from https://open.unicef.org/sites/transparency/files/countrydata/iatiActivity_Zambia.xml
 Parsing unicef-zambia from https://open.unicef.org/sites/transparency/files/countrydata/iatiActivity_Zambia.xml
@@ -36729,7 +36819,7 @@ found 27 activities
 
 Downloading unocha-cbpf-syriacrossborder-contribution-2023 from https://cbpfapi.unocha.org/iati/iati/70/2023/GetContribution.xml
 Parsing unocha-cbpf-syriacrossborder-contribution-2023 from https://cbpfapi.unocha.org/iati/iati/70/2023/GetContribution.xml
-found 8 activities
+found 9 activities
 
 Downloading unocha-cbpf-syriacrossborder-contribution-2024 from https://cbpfapi.unocha.org/iati/iati/70/2024/GetContribution.xml
 Parsing unocha-cbpf-syriacrossborder-contribution-2024 from https://cbpfapi.unocha.org/iati/iati/70/2024/GetContribution.xml
@@ -42361,11 +42451,6 @@ Downloading wilpf_22-activities from https://aidstream.s3.us-west-2.amazonaws.co
 Parsing wilpf_22-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/wilpf_22-activities.xml
 found 1 activities
 
-Downloading wilpf_22-org from https://aidstream.org/organization/25119
-Parsing wilpf_22-org from https://aidstream.org/organization/25119
-dflat: invalid XML format
-restored 0 files
-
 Downloading win-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/win-activities.xml
 Parsing win-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/win-activities.xml
 found 12 activities
@@ -43447,7 +43532,7 @@ found 13 activities
 
 Downloading zoa-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/zoa-activities.xml
 Parsing zoa-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/zoa-activities.xml
-found 114 activities
+found 115 activities
 
 Downloading zoa-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/zoa-org.xml
 Parsing zoa-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/zoa-org.xml
