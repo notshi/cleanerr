@@ -38,7 +38,10 @@
 			table.total_duplicates tr:nth-child(2n),
 			table.legend tr:nth-child(2n+1) {background-color:#fff;}
 			table.total_duplicates td,
-			table.legend td {padding:4px 10px; border-top:1px solid #eee;}
+			table.legend td,
+			table.legend th {padding:4px 10px; border-top:1px solid #eee;}
+			table.legend th {font-weight:normal;}
+			table.legend th.legend_name	{width:25%;}
 			table.total_duplicates tr:first-child td	{border:0;}
 			table.total_duplicates td:nth-child(2n)		{width:82%;}	/*	legend description	*/
 			table.legend td:nth-child(2n)	{width:80%;}	/*	legend description	*/
@@ -117,6 +120,7 @@
 
 			.head_wrap	{padding:1em; margin:0 auto; line-height:2em;}
 			.foot_wrap	{padding:2em; font-size:12px;}
+			.legend_wrap{padding:1em 0 2em 0;}
 			.table_wrap	{padding:1vh; max-width:initial;}
 			#aid_errors th,
 			#orgid_errors th,
@@ -133,7 +137,8 @@
 			#table_counts th:nth-child(2)	{width:15%;}
 			#table_counts th:nth-child(1)	{width:25%;}
 			#table_counts_counts th:nth-child(1),
-			#table_errors_counts th:nth-child(1) {width:25%;}
+			#table_errors_counts th:nth-child(1)	{width:25%;}
+			table.total_duplicates td:nth-child(2n)	{width:75%;}
 			#aid_errors th:nth-child(3),
 			#orgid_errors th:nth-child(3)	{width:40%;}
 			span#date	{display:block; padding-top:1em;}
@@ -521,16 +526,20 @@
 			<div class="head_wrap"><h2>Legend</h2></div>
 			<div class="legend_wrap">
 				<table class="legend">
-					<tr><td><b>Dataset</b></td><td>IATI Registry dataset identifier (link opens in new window / tab)</td></tr>
-					<tr><td><b>Pub</b></td><td>IATI Registry publisher identifier (link opens in new window / tab)</td></tr>
-					<tr><td><b>AID</b></td><td>IATI activity identifier</td></tr>
-					<tr><td><b>PID</b></td><td>IATI organisation identifier</td></tr>
-					<tr><td><b>Type</b></td><td>File type can be activity or organisation</td></tr>
-					<tr><td><b>Count</b></td><td>Total number of instances counted</td></tr>
-					<tr><td><b>Num</b></td><td>Total number of activities or organisations in the dataset</td></tr>
-					<tr><td><b>Error</b></td><td>Error messages encountered during import</td></tr>
-					<tr><td><b>Description</b></td><td>Verbose description of error</td></tr>
-					<tr><td><b>Url</b></td><td>Link to publisher provided data source (link opens in new window / tab)</td></tr>
+					<thead>
+						<tr><th class="legend_name"><b>Dataset</b></th><th>IATI Registry dataset identifier (link opens in new window / tab)</th></tr>
+					</thead>
+					<tbody>
+						<tr><td><b>Pub</b></td><td>IATI Registry publisher identifier (link opens in new window / tab)</td></tr>
+						<tr><td><b>AID</b></td><td>IATI activity identifier</td></tr>
+						<tr><td><b>PID</b></td><td>IATI organisation identifier</td></tr>
+						<tr><td><b>Type</b></td><td>File type can be activity or organisation</td></tr>
+						<tr><td><b>Count</b></td><td>Total number of instances counted</td></tr>
+						<tr><td><b>Num</b></td><td>Total number of activities or organisations in the dataset</td></tr>
+						<tr><td><b>Error</b></td><td>Error messages encountered during import</td></tr>
+						<tr><td><b>Description</b></td><td>Verbose description of error</td></tr>
+						<tr><td><b>Url</b></td><td>Link to publisher provided data source (link opens in new window / tab)</td></tr>
+					</tbody>
 				</table>
 			</div>
 		</div>
