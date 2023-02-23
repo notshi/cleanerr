@@ -4,6 +4,8 @@ Converts the logs from https://github.com/xriss/dataiati and displays them as ta
 
 | Table 	| Description 	|
 |-	|-	|
+| Duplicate organisation identifiers 	| Displays duplicate org identifiers and their count, includes links to dataset.  Each row is a dataset. 	|
+| Duplicate activity identifiers 	| Displays duplicate activity identifiers and their count, includes links to dataset.  Each row is a dataset. 	|
 | Download and import errors 	| Displays errors and messages during nightly import, includes links to dataset, publisher and source.  Each row is a dataset. 	|
 | Error count 	| Displays count of the errors and messages, including detailed descriptions. 	|
 | File type count 	| Displays total count of activities and organisations found in nightly import.  	|
