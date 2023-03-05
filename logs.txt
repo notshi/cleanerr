@@ -6767,9 +6767,8 @@ dflat: input XML file does not exist
 restored 0 files
 
 Downloading cif-889 from http://siteresources.worldbank.org/IATI/CIF/CIF-889.xml
-curl: download ERROR 404
 Parsing cif-889 from http://siteresources.worldbank.org/IATI/CIF/CIF-889.xml
-dflat: input XML file does not exist
+dflat: invalid XML format
 restored 0 files
 
 Downloading cif-998 from http://siteresources.worldbank.org/IATI/CIF/CIF-998.xml
@@ -6807,9 +6806,8 @@ Parsing cif-br from http://doumodqax2qi2.cloudfront.net/CIF/CIF-05-2020/CIF-BR.x
 found 11 activities
 
 Downloading cif-cd from http://siteresources.worldbank.org/IATI/CIF/CIF-CD.xml
-curl: download ERROR 404
 Parsing cif-cd from http://siteresources.worldbank.org/IATI/CIF/CIF-CD.xml
-dflat: input XML file does not exist
+dflat: invalid XML format
 restored 0 files
 
 Downloading cif-ci from http://doumodqax2qi2.cloudfront.net/CIF/CIF-05-2020/CIF-CI.xml
@@ -6997,9 +6995,8 @@ Parsing cif-ws from http://doumodqax2qi2.cloudfront.net/CIF/CIF-05-2020/CIF-WS.x
 found 2 activities
 
 Downloading cif-ye from http://siteresources.worldbank.org/IATI/CIF/CIF-YE.xml
-curl: download ERROR 404
 Parsing cif-ye from http://siteresources.worldbank.org/IATI/CIF/CIF-YE.xml
-dflat: input XML file does not exist
+dflat: invalid XML format
 restored 0 files
 
 Downloading cif-za from http://doumodqax2qi2.cloudfront.net/CIF/CIF-05-2020/CIF-ZA.xml
@@ -7854,27 +7851,27 @@ found 1 organisations
 
 Downloading danida-all_1 from http://iati.um.dk/api/v2/files/iati1.xml
 Parsing danida-all_1 from http://iati.um.dk/api/v2/files/iati1.xml
-found 2587 activities
+found 2588 activities
 
 Downloading danida-all_2 from http://iati.um.dk/api/v2/files/iati2.xml
 Parsing danida-all_2 from http://iati.um.dk/api/v2/files/iati2.xml
-found 2587 activities
+found 2588 activities
 
 Downloading danida-all_3 from http://iati.um.dk/api/v2/files/iati3.xml
 Parsing danida-all_3 from http://iati.um.dk/api/v2/files/iati3.xml
-found 2587 activities
+found 2588 activities
 
 Downloading danida-all_4 from http://iati.um.dk/api/v2/files/iati4.xml
 Parsing danida-all_4 from http://iati.um.dk/api/v2/files/iati4.xml
-found 2587 activities
+found 2588 activities
 
 Downloading danida-all_5 from http://iati.um.dk/api/v2/files/iati5.xml
 Parsing danida-all_5 from http://iati.um.dk/api/v2/files/iati5.xml
-found 2587 activities
+found 2588 activities
 
 Downloading danida-all_6 from http://iati.um.dk/api/v2/files/iati6.xml
 Parsing danida-all_6 from http://iati.um.dk/api/v2/files/iati6.xml
-found 2587 activities
+found 2588 activities
 
 Downloading danida-all_7 from http://iati.um.dk/api/v2/files/iati7.xml
 Parsing danida-all_7 from http://iati.um.dk/api/v2/files/iati7.xml
@@ -13774,8 +13771,10 @@ Parsing fimi_iiwf_2019-pe from https://aidstream.s3.us-west-2.amazonaws.com/xml/
 found 1 activities
 
 Downloading finance_canada-activity from https://www.canada.ca/content/dam/fin/migration/assistance-aide/iati-iita-act.xml
+curl: download ERROR 000
 Parsing finance_canada-activity from https://www.canada.ca/content/dam/fin/migration/assistance-aide/iati-iita-act.xml
-found 70 activities
+dflat: input XML file does not exist
+restored 70 files
 
 Downloading finance_canada-org from https://www.canada.ca/content/dam/fin/migration/assistance-aide/iati-iita-org.xml
 Parsing finance_canada-org from https://www.canada.ca/content/dam/fin/migration/assistance-aide/iati-iita-org.xml
@@ -23646,15 +23645,12 @@ Parsing mfat-iati-latin-america-and-caribbean from https://www.mfat.govt.nz/asse
 found 65 activities
 
 Downloading mfat-iati-multi-country from https://www.mfat.govt.nz/assets/Aid/IATI/IATI-Multi-Country.xml
-curl: download ERROR 000
 Parsing mfat-iati-multi-country from https://www.mfat.govt.nz/assets/Aid/IATI/IATI-Multi-Country.xml
-dflat: input XML file does not exist
-restored 254 files
+found 254 activities
 
 Downloading mfat-iati-multilateral-agencies from https://www.mfat.govt.nz/assets/Aid/IATI/IATI-Multilateral-Agencies.xml
 Parsing mfat-iati-multilateral-agencies from https://www.mfat.govt.nz/assets/Aid/IATI/IATI-Multilateral-Agencies.xml
-dflat: invalid XML format
-restored 132 files
+found 132 activities
 
 Downloading mfat-iati-nauru from https://www.mfat.govt.nz/assets/Aid/IATI/IATI-Nauru.xml
 Parsing mfat-iati-nauru from https://www.mfat.govt.nz/assets/Aid/IATI/IATI-Nauru.xml
@@ -23669,10 +23665,8 @@ Parsing mfat-iati-north-pacific from https://www.mfat.govt.nz/assets/Aid/IATI/IA
 found 19 activities
 
 Downloading mfat-iati-other-asia from https://www.mfat.govt.nz/assets/Aid/IATI/IATI-Other-Asia.xml
-curl: download ERROR 000
 Parsing mfat-iati-other-asia from https://www.mfat.govt.nz/assets/Aid/IATI/IATI-Other-Asia.xml
-dflat: input XML file does not exist
-restored 145 files
+found 145 activities
 
 Downloading mfat-iati-pacific-regional from https://www.mfat.govt.nz/assets/Aid/IATI/IATI-Pacific-Regional.xml
 Parsing mfat-iati-pacific-regional from https://www.mfat.govt.nz/assets/Aid/IATI/IATI-Pacific-Regional.xml
@@ -25177,7 +25171,7 @@ found 2221 activities
 
 Downloading onl-activity from https://www.oxfamnovib.nl/redactie/Downloads/XML/iati.xml
 Parsing onl-activity from https://www.oxfamnovib.nl/redactie/Downloads/XML/iati.xml
-found 1701 activities
+found 1704 activities
 
 Downloading onl-org from https://www.oxfamnovib.nl/redactie/downloads/xml/IATI_NL-KVK-27108436.xml
 Parsing onl-org from https://www.oxfamnovib.nl/redactie/downloads/xml/IATI_NL-KVK-27108436.xml
@@ -37435,7 +37429,7 @@ found 106 activities
 
 Downloading unocha-cbpf-yemen-allocation-2022 from https://cbpfapi.unocha.org/iati/iati/64/2022/GetAllocation.xml
 Parsing unocha-cbpf-yemen-allocation-2022 from https://cbpfapi.unocha.org/iati/iati/64/2022/GetAllocation.xml
-found 100 activities
+found 102 activities
 
 Downloading unocha-cbpf-yemen-allocation-2023 from https://cbpfapi.unocha.org/iati/iati/64/2023/GetAllocation.xml
 Parsing unocha-cbpf-yemen-allocation-2023 from https://cbpfapi.unocha.org/iati/iati/64/2023/GetAllocation.xml
