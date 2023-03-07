@@ -5881,8 +5881,7 @@ restored 0 files
 
 Downloading cafod-haiti from https://cafod.org.uk/extra/data/iati/IATIFile_Haiti.xml
 Parsing cafod-haiti from https://cafod.org.uk/extra/data/iati/IATIFile_Haiti.xml
-dflat: no activities or organisations found in XML file
-restored 2 files
+found 2 activities
 
 Downloading cafod-honduras from https://cafod.org.uk/extra/data/iati/IATIFile_Honduras.xml
 Parsing cafod-honduras from https://cafod.org.uk/extra/data/iati/IATIFile_Honduras.xml
@@ -6079,14 +6078,14 @@ dflat: no activities or organisations found in XML file
 restored 4 files
 
 Downloading cafod-stlucia from https://cafod.org.uk/extra/data/iati/IATIFile_St_Lucia.xml
+curl: download ERROR 404
 Parsing cafod-stlucia from https://cafod.org.uk/extra/data/iati/IATIFile_St_Lucia.xml
-dflat: no activities or organisations found in XML file
+dflat: input XML file does not exist
 restored 0 files
 
 Downloading cafod-sudan from https://cafod.org.uk/extra/data/iati/IATIFile_Sudan.xml
 Parsing cafod-sudan from https://cafod.org.uk/extra/data/iati/IATIFile_Sudan.xml
-dflat: no activities or organisations found in XML file
-restored 37 files
+found 37 activities
 
 Downloading cafod-swaziland from https://cafod.org.uk/extra/data/iati/IATIFile_Swaziland.xml
 Parsing cafod-swaziland from https://cafod.org.uk/extra/data/iati/IATIFile_Swaziland.xml
@@ -6284,7 +6283,7 @@ found 2 activities
 
 Downloading caribank-bs from https://aidstream.s3.us-west-2.amazonaws.com/xml/caribank-bs.xml
 Parsing caribank-bs from https://aidstream.s3.us-west-2.amazonaws.com/xml/caribank-bs.xml
-found 1 activities
+found 2 activities
 
 Downloading caribank-bz from https://aidstream.s3.us-west-2.amazonaws.com/xml/caribank-bz.xml
 Parsing caribank-bz from https://aidstream.s3.us-west-2.amazonaws.com/xml/caribank-bz.xml
@@ -6761,9 +6760,8 @@ Parsing cidr-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/ci
 found 1 activities
 
 Downloading cif-389 from http://siteresources.worldbank.org/IATI/CIF/CIF-389.xml
-curl: download ERROR 404
 Parsing cif-389 from http://siteresources.worldbank.org/IATI/CIF/CIF-389.xml
-dflat: input XML file does not exist
+dflat: invalid XML format
 restored 0 files
 
 Downloading cif-889 from http://siteresources.worldbank.org/IATI/CIF/CIF-889.xml
@@ -6772,8 +6770,9 @@ dflat: invalid XML format
 restored 0 files
 
 Downloading cif-998 from http://siteresources.worldbank.org/IATI/CIF/CIF-998.xml
+curl: download ERROR 404
 Parsing cif-998 from http://siteresources.worldbank.org/IATI/CIF/CIF-998.xml
-dflat: invalid XML format
+dflat: input XML file does not exist
 restored 0 files
 
 Downloading cifal-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/cifal-activities.xml
@@ -6806,8 +6805,9 @@ Parsing cif-br from http://doumodqax2qi2.cloudfront.net/CIF/CIF-05-2020/CIF-BR.x
 found 11 activities
 
 Downloading cif-cd from http://siteresources.worldbank.org/IATI/CIF/CIF-CD.xml
+curl: download ERROR 404
 Parsing cif-cd from http://siteresources.worldbank.org/IATI/CIF/CIF-CD.xml
-dflat: invalid XML format
+dflat: input XML file does not exist
 restored 0 files
 
 Downloading cif-ci from http://doumodqax2qi2.cloudfront.net/CIF/CIF-05-2020/CIF-CI.xml
@@ -16062,7 +16062,7 @@ found 18 activities
 
 Downloading gef-tl from https://d2mxkr7359ifh6.cloudfront.net/GEF/998.xml
 Parsing gef-tl from https://d2mxkr7359ifh6.cloudfront.net/GEF/998.xml
-found 412 activities
+found 966 activities
 
 Downloading gef-tm from https://d2mxkr7359ifh6.cloudfront.net/GEF/TM.xml
 Parsing gef-tm from https://d2mxkr7359ifh6.cloudfront.net/GEF/TM.xml
@@ -20876,8 +20876,10 @@ Parsing jica-889_2014 from https://www.jica.go.jp/activities/achievement/downloa
 found 744 activities
 
 Downloading jica-889_2015 from https://www.jica.go.jp/activities/achievement/downloads/ku57pq00002ir3yy-att/889_2015.xml
+curl: download ERROR 000
 Parsing jica-889_2015 from https://www.jica.go.jp/activities/achievement/downloads/ku57pq00002ir3yy-att/889_2015.xml
-found 769 activities
+dflat: input XML file does not exist
+restored 769 files
 
 Downloading jica-998_2013 from https://www.jica.go.jp/activities/achievement/downloads/ku57pq00002ir3yy-att/998_2013.xml
 Parsing jica-998_2013 from https://www.jica.go.jp/activities/achievement/downloads/ku57pq00002ir3yy-att/998_2013.xml
@@ -21765,6 +21767,10 @@ found 1 organisations
 Downloading loop-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/loop-activities.xml
 Parsing loop-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/loop-activities.xml
 found 3 activities
+
+Downloading lpa-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/lpa-activities.xml
+Parsing lpa-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/lpa-activities.xml
+found 1 activities
 
 Downloading lpi-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/lpi-activities.xml
 Parsing lpi-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/lpi-activities.xml
@@ -25971,6 +25977,10 @@ found 4 activities
 Downloading pax-pax-iati-organisationfile from https://files.aida.tools/organisation/NL-KVK-30214009/bbb5edce-5e15-4b6f-9ea5-fbeca29e4e28/PAX-IATI-organisationfile.xml
 Parsing pax-pax-iati-organisationfile from https://files.aida.tools/organisation/NL-KVK-30214009/bbb5edce-5e15-4b6f-9ea5-fbeca29e4e28/PAX-IATI-organisationfile.xml
 found 1 organisations
+
+Downloading pax-pax-poc-activitydataset from https://files.aida.tools/activities/NL-KVK-30214009/a8ee94f6-5170-4488-8f49-36f795606b94/PAX-PoC-Activitydataset.xml
+Parsing pax-pax-poc-activitydataset from https://files.aida.tools/activities/NL-KVK-30214009/a8ee94f6-5170-4488-8f49-36f795606b94/PAX-PoC-Activitydataset.xml
+found 5 activities
 
 Downloading pax-paxpocactivitydataset from https://files.aida.tools/activities/NL-KVK-30214009/8806320c-3c2f-487e-8fc8-e018b9256917/PAXPoCActivitydataset.xml
 Parsing pax-paxpocactivitydataset from https://files.aida.tools/activities/NL-KVK-30214009/8806320c-3c2f-487e-8fc8-e018b9256917/PAXPoCActivitydataset.xml
@@ -35223,7 +35233,7 @@ found 4 activities
 
 Downloading universiteit_leiden-998 from https://aidstream.s3.us-west-2.amazonaws.com/xml/universiteit_leiden-998.xml
 Parsing universiteit_leiden-998 from https://aidstream.s3.us-west-2.amazonaws.com/xml/universiteit_leiden-998.xml
-found 1 activities
+found 2 activities
 
 Downloading universiteit_leiden-ly from https://aidstream.s3.us-west-2.amazonaws.com/xml/universiteit_leiden-ly.xml
 Parsing universiteit_leiden-ly from https://aidstream.s3.us-west-2.amazonaws.com/xml/universiteit_leiden-ly.xml
