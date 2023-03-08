@@ -9,7 +9,7 @@ found 1 organisations
 
 Downloading 12921047-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/12921047-activities.xml
 Parsing 12921047-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/12921047-activities.xml
-found 13 activities
+found 12 activities
 
 Downloading 1-uz-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/1-uz-org.xml
 Parsing 1-uz-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/1-uz-org.xml
@@ -4255,7 +4255,7 @@ restored 112 files
 
 Downloading auxfinbi-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/auxfinbi-activities.xml
 Parsing auxfinbi-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/auxfinbi-activities.xml
-found 8 activities
+found 9 activities
 
 Downloading auxfinbi-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/auxfinbi-org.xml
 Parsing auxfinbi-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/auxfinbi-org.xml
@@ -5881,7 +5881,8 @@ restored 0 files
 
 Downloading cafod-haiti from https://cafod.org.uk/extra/data/iati/IATIFile_Haiti.xml
 Parsing cafod-haiti from https://cafod.org.uk/extra/data/iati/IATIFile_Haiti.xml
-found 2 activities
+dflat: no activities or organisations found in XML file
+restored 2 files
 
 Downloading cafod-honduras from https://cafod.org.uk/extra/data/iati/IATIFile_Honduras.xml
 Parsing cafod-honduras from https://cafod.org.uk/extra/data/iati/IATIFile_Honduras.xml
@@ -6078,14 +6079,14 @@ dflat: no activities or organisations found in XML file
 restored 4 files
 
 Downloading cafod-stlucia from https://cafod.org.uk/extra/data/iati/IATIFile_St_Lucia.xml
-curl: download ERROR 404
 Parsing cafod-stlucia from https://cafod.org.uk/extra/data/iati/IATIFile_St_Lucia.xml
-dflat: input XML file does not exist
+dflat: no activities or organisations found in XML file
 restored 0 files
 
 Downloading cafod-sudan from https://cafod.org.uk/extra/data/iati/IATIFile_Sudan.xml
 Parsing cafod-sudan from https://cafod.org.uk/extra/data/iati/IATIFile_Sudan.xml
-found 37 activities
+dflat: no activities or organisations found in XML file
+restored 37 files
 
 Downloading cafod-swaziland from https://cafod.org.uk/extra/data/iati/IATIFile_Swaziland.xml
 Parsing cafod-swaziland from https://cafod.org.uk/extra/data/iati/IATIFile_Swaziland.xml
@@ -6805,9 +6806,8 @@ Parsing cif-br from http://doumodqax2qi2.cloudfront.net/CIF/CIF-05-2020/CIF-BR.x
 found 11 activities
 
 Downloading cif-cd from http://siteresources.worldbank.org/IATI/CIF/CIF-CD.xml
-curl: download ERROR 404
 Parsing cif-cd from http://siteresources.worldbank.org/IATI/CIF/CIF-CD.xml
-dflat: input XML file does not exist
+dflat: invalid XML format
 restored 0 files
 
 Downloading cif-ci from http://doumodqax2qi2.cloudfront.net/CIF/CIF-05-2020/CIF-CI.xml
@@ -6995,8 +6995,9 @@ Parsing cif-ws from http://doumodqax2qi2.cloudfront.net/CIF/CIF-05-2020/CIF-WS.x
 found 2 activities
 
 Downloading cif-ye from http://siteresources.worldbank.org/IATI/CIF/CIF-YE.xml
+curl: download ERROR 404
 Parsing cif-ye from http://siteresources.worldbank.org/IATI/CIF/CIF-YE.xml
-dflat: invalid XML format
+dflat: input XML file does not exist
 restored 0 files
 
 Downloading cif-za from http://doumodqax2qi2.cloudfront.net/CIF/CIF-05-2020/CIF-ZA.xml
@@ -7151,7 +7152,7 @@ found 6 activities
 
 Downloading cku-all from https://pdb.cku.dk/iati/reportDMRU
 Parsing cku-all from https://pdb.cku.dk/iati/reportDMRU
-found 1052 activities
+found 1053 activities
 
 Downloading cku-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/cku-org.xml
 Parsing cku-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/cku-org.xml
@@ -7875,7 +7876,7 @@ found 2588 activities
 
 Downloading danida-all_7 from http://iati.um.dk/api/v2/files/iati7.xml
 Parsing danida-all_7 from http://iati.um.dk/api/v2/files/iati7.xml
-found 2582 activities
+found 2588 activities
 
 Downloading danida-org from http://iati.um.dk/api/v2/organisations/files/iati-organisations.xml
 Parsing danida-org from http://iati.um.dk/api/v2/organisations/files/iati-organisations.xml
@@ -13630,7 +13631,7 @@ found 2827 activities
 
 Downloading fcdo-step-9 from http://iati.fcdo.gov.uk/iati_files/solr/FCDO-set-9.xml
 Parsing fcdo-step-9 from http://iati.fcdo.gov.uk/iati_files/solr/FCDO-set-9.xml
-found 2610 activities
+found 2613 activities
 
 Downloading fcdo-z_historic-programme from http://iati.fcdo.gov.uk/iati_files/converted_files/fco-programme-oda-data-2016-to-2017.xml
 Parsing fcdo-z_historic-programme from http://iati.fcdo.gov.uk/iati_files/converted_files/fco-programme-oda-data-2016-to-2017.xml
@@ -15367,7 +15368,7 @@ found 1 organisations
 
 Downloading gac-amc-act_2_3 from http://w05.international.gc.ca/projectbrowser-banqueprojets/iita-iati/dfatd-maecd_activit_status_2_3.xml
 Parsing gac-amc-act_2_3 from http://w05.international.gc.ca/projectbrowser-banqueprojets/iita-iati/dfatd-maecd_activit_status_2_3.xml
-found 1768 activities
+found 1769 activities
 
 Downloading gac-amc-act_4 from http://w05.international.gc.ca/projectbrowser-banqueprojets/iita-iati/dfatd-maecd_activit_status_4.xml
 Parsing gac-amc-act_4 from http://w05.international.gc.ca/projectbrowser-banqueprojets/iita-iati/dfatd-maecd_activit_status_4.xml
@@ -20876,10 +20877,8 @@ Parsing jica-889_2014 from https://www.jica.go.jp/activities/achievement/downloa
 found 744 activities
 
 Downloading jica-889_2015 from https://www.jica.go.jp/activities/achievement/downloads/ku57pq00002ir3yy-att/889_2015.xml
-curl: download ERROR 000
 Parsing jica-889_2015 from https://www.jica.go.jp/activities/achievement/downloads/ku57pq00002ir3yy-att/889_2015.xml
-dflat: input XML file does not exist
-restored 769 files
+found 769 activities
 
 Downloading jica-998_2013 from https://www.jica.go.jp/activities/achievement/downloads/ku57pq00002ir3yy-att/998_2013.xml
 Parsing jica-998_2013 from https://www.jica.go.jp/activities/achievement/downloads/ku57pq00002ir3yy-att/998_2013.xml
@@ -27842,7 +27841,7 @@ found 1 organisations
 
 Downloading sddirect-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/sddirect-activities.xml
 Parsing sddirect-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/sddirect-activities.xml
-found 26 activities
+found 31 activities
 
 Downloading sdi-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/sdi-activities.xml
 Parsing sdi-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/sdi-activities.xml
@@ -29223,8 +29222,8 @@ Downloading spark-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/spar
 Parsing spark-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/spark-org.xml
 found 1 organisations
 
-Downloading spong-burkina-activities from https://www.woordendaad.nl/wp-content/uploads/2023/02/IATI-activities-4.xml
-Parsing spong-burkina-activities from https://www.woordendaad.nl/wp-content/uploads/2023/02/IATI-activities-4.xml
+Downloading spong-burkina-activities from https://www.woordendaad.nl/wp-content/uploads/2023/03/IATI-activities.xml
+Parsing spong-burkina-activities from https://www.woordendaad.nl/wp-content/uploads/2023/03/IATI-activities.xml
 found 2 activities
 
 Downloading spong-burkina-org from https://www.woordendaad.nl/wp-content/uploads/2022/04/org-Spong.xml
@@ -37129,7 +37128,7 @@ found 20 activities
 
 Downloading unocha-cbpf-syria-contribution-2023 from https://cbpfapi.unocha.org/iati/iati/62/2023/GetContribution.xml
 Parsing unocha-cbpf-syria-contribution-2023 from https://cbpfapi.unocha.org/iati/iati/62/2023/GetContribution.xml
-found 10 activities
+found 11 activities
 
 Downloading unocha-cbpf-syria-contribution-2024 from https://cbpfapi.unocha.org/iati/iati/62/2024/GetContribution.xml
 Parsing unocha-cbpf-syria-contribution-2024 from https://cbpfapi.unocha.org/iati/iati/62/2024/GetContribution.xml
@@ -38449,9 +38448,9 @@ Downloading uol-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/uol-or
 Parsing uol-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/uol-org.xml
 found 1 organisations
 
-Downloading uom-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/uom-activities.xml
-Parsing uom-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/uom-activities.xml
-found 5 activities
+Downloading uom-activities from https://iatipublisher-prod.s3.amazonaws.com/xml/mergedActivityXml/uom-activities.xml
+Parsing uom-activities from https://iatipublisher-prod.s3.amazonaws.com/xml/mergedActivityXml/uom-activities.xml
+found 1 activities
 
 Downloading uom-organisation from https://iatipublisher-prod.s3.amazonaws.com/organizationXmlFiles/uom-organisation.xml
 Parsing uom-organisation from https://iatipublisher-prod.s3.amazonaws.com/organizationXmlFiles/uom-organisation.xml
