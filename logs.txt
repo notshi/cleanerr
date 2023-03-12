@@ -2789,10 +2789,6 @@ found 1 organisations
 
 Downloading anda-gec from https://www.vsointernational.org/sites/default/files/anda_gec.xml
 Converting IATI activities version 1.03 to version 2.03
-./iati-activities.xsl:428: parser error : Premature end of data in tag transaction-type line 427
- 
- ^
-cannot parse ./iati-activities.xsl
 Parsing anda-gec from https://www.vsointernational.org/sites/default/files/anda_gec.xml
 found 2 activities
 
@@ -6773,9 +6769,8 @@ Parsing cidr-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/ci
 found 1 activities
 
 Downloading cif-389 from http://siteresources.worldbank.org/IATI/CIF/CIF-389.xml
-curl: download ERROR 404
 Parsing cif-389 from http://siteresources.worldbank.org/IATI/CIF/CIF-389.xml
-dflat: input XML file does not exist
+dflat: invalid XML format
 restored 0 files
 
 Downloading cif-889 from http://siteresources.worldbank.org/IATI/CIF/CIF-889.xml
@@ -11353,7 +11348,7 @@ found 418 activities
 
 Downloading ec-echo-2023 from https://webgate.ec.europa.eu/hac/IATI/ec-echo-2023.xml
 Parsing ec-echo-2023 from https://webgate.ec.europa.eu/hac/IATI/ec-echo-2023.xml
-found 21 activities
+found 22 activities
 
 Downloading ec-echo-org from https://webgate.ec.europa.eu/hac/IATI/iati-organisation-file.xml
 Parsing ec-echo-org from https://webgate.ec.europa.eu/hac/IATI/iati-organisation-file.xml
@@ -27485,7 +27480,7 @@ found 1 organisations
 
 Downloading rvo-01 from https://projects.rvo.nl/opendata/iati.xml
 Parsing rvo-01 from https://projects.rvo.nl/opendata/iati.xml
-found 4133 activities
+found 4134 activities
 
 Downloading rvo-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/rvo-activities.xml
 Parsing rvo-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/rvo-activities.xml
@@ -35675,7 +35670,7 @@ found 54 activities
 
 Downloading unocha-cbpf-car-allocation-2022 from https://cbpfapi.unocha.org/iati/iati/17/2022/GetAllocation.xml
 Parsing unocha-cbpf-car-allocation-2022 from https://cbpfapi.unocha.org/iati/iati/17/2022/GetAllocation.xml
-found 56 activities
+found 58 activities
 
 Downloading unocha-cbpf-car-allocation-2023 from https://cbpfapi.unocha.org/iati/iati/17/2023/GetAllocation.xml
 Parsing unocha-cbpf-car-allocation-2023 from https://cbpfapi.unocha.org/iati/iati/17/2023/GetAllocation.xml
@@ -36355,7 +36350,7 @@ found 45 activities
 
 Downloading unocha-cbpf-myanmar-allocation-2022 from https://cbpfapi.unocha.org/iati/iati/59/2022/GetAllocation.xml
 Parsing unocha-cbpf-myanmar-allocation-2022 from https://cbpfapi.unocha.org/iati/iati/59/2022/GetAllocation.xml
-found 21 activities
+found 22 activities
 
 Downloading unocha-cbpf-myanmar-allocation-2023 from https://cbpfapi.unocha.org/iati/iati/59/2023/GetAllocation.xml
 Parsing unocha-cbpf-myanmar-allocation-2023 from https://cbpfapi.unocha.org/iati/iati/59/2023/GetAllocation.xml
@@ -36887,7 +36882,7 @@ found 144 activities
 
 Downloading unocha-cbpf-somalia-allocation-2023 from https://cbpfapi.unocha.org/iati/iati/21/2023/GetAllocation.xml
 Parsing unocha-cbpf-somalia-allocation-2023 from https://cbpfapi.unocha.org/iati/iati/21/2023/GetAllocation.xml
-found 0 activities
+found 1 activities
 
 Downloading unocha-cbpf-somalia-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/21/2024/GetAllocation.xml
 Parsing unocha-cbpf-somalia-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/21/2024/GetAllocation.xml
@@ -37099,7 +37094,7 @@ found 82 activities
 
 Downloading unocha-cbpf-sudan-allocation-2022 from https://cbpfapi.unocha.org/iati/iati/15/2022/GetAllocation.xml
 Parsing unocha-cbpf-sudan-allocation-2022 from https://cbpfapi.unocha.org/iati/iati/15/2022/GetAllocation.xml
-found 72 activities
+found 78 activities
 
 Downloading unocha-cbpf-sudan-allocation-2023 from https://cbpfapi.unocha.org/iati/iati/15/2023/GetAllocation.xml
 Parsing unocha-cbpf-sudan-allocation-2023 from https://cbpfapi.unocha.org/iati/iati/15/2023/GetAllocation.xml
