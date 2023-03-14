@@ -6769,8 +6769,9 @@ Parsing cidr-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/ci
 found 1 activities
 
 Downloading cif-389 from http://siteresources.worldbank.org/IATI/CIF/CIF-389.xml
+curl: download ERROR 404
 Parsing cif-389 from http://siteresources.worldbank.org/IATI/CIF/CIF-389.xml
-dflat: invalid XML format
+dflat: input XML file does not exist
 restored 0 files
 
 Downloading cif-889 from http://siteresources.worldbank.org/IATI/CIF/CIF-889.xml
@@ -6779,8 +6780,9 @@ dflat: invalid XML format
 restored 0 files
 
 Downloading cif-998 from http://siteresources.worldbank.org/IATI/CIF/CIF-998.xml
+curl: download ERROR 404
 Parsing cif-998 from http://siteresources.worldbank.org/IATI/CIF/CIF-998.xml
-dflat: invalid XML format
+dflat: input XML file does not exist
 restored 0 files
 
 Downloading cifal-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/cifal-activities.xml
@@ -6813,9 +6815,8 @@ Parsing cif-br from http://doumodqax2qi2.cloudfront.net/CIF/CIF-05-2020/CIF-BR.x
 found 11 activities
 
 Downloading cif-cd from http://siteresources.worldbank.org/IATI/CIF/CIF-CD.xml
-curl: download ERROR 404
 Parsing cif-cd from http://siteresources.worldbank.org/IATI/CIF/CIF-CD.xml
-dflat: input XML file does not exist
+dflat: invalid XML format
 restored 0 files
 
 Downloading cif-ci from http://doumodqax2qi2.cloudfront.net/CIF/CIF-05-2020/CIF-CI.xml
@@ -15375,11 +15376,11 @@ found 1 organisations
 
 Downloading gac-amc-act_2_3 from http://w05.international.gc.ca/projectbrowser-banqueprojets/iita-iati/dfatd-maecd_activit_status_2_3.xml
 Parsing gac-amc-act_2_3 from http://w05.international.gc.ca/projectbrowser-banqueprojets/iita-iati/dfatd-maecd_activit_status_2_3.xml
-found 1770 activities
+found 1773 activities
 
 Downloading gac-amc-act_4 from http://w05.international.gc.ca/projectbrowser-banqueprojets/iita-iati/dfatd-maecd_activit_status_4.xml
 Parsing gac-amc-act_4 from http://w05.international.gc.ca/projectbrowser-banqueprojets/iita-iati/dfatd-maecd_activit_status_4.xml
-found 4174 activities
+found 4177 activities
 
 Downloading gac-amc-org from http://w05.international.gc.ca/projectbrowser-banqueprojets/iita-iati/dfatd-maecd_organisation.xml
 Parsing gac-amc-org from http://w05.international.gc.ca/projectbrowser-banqueprojets/iita-iati/dfatd-maecd_organisation.xml
@@ -23840,10 +23841,8 @@ Parsing millenniumchallenge-hn from https://inventory.data.gov/dataset/d4b25051-
 found 82 activities
 
 Downloading millenniumchallenge-id from https://inventory.data.gov/dataset/d4b25051-0bf8-4dd1-8c06-bbed2e4bb193/resource/7bd5051a-72c4-46a9-b955-d97cff713567/download/mcc_id.xml
-curl: download ERROR 000
 Parsing millenniumchallenge-id from https://inventory.data.gov/dataset/d4b25051-0bf8-4dd1-8c06-bbed2e4bb193/resource/7bd5051a-72c4-46a9-b955-d97cff713567/download/mcc_id.xml
-dflat: input XML file does not exist
-restored 108 files
+found 108 activities
 
 Downloading millenniumchallenge-jo from https://inventory.data.gov/dataset/d4b25051-0bf8-4dd1-8c06-bbed2e4bb193/resource/d4eef87c-ffc6-4301-9e29-ea2632ae3ffa/download/mcc_jo.xml
 Parsing millenniumchallenge-jo from https://inventory.data.gov/dataset/d4b25051-0bf8-4dd1-8c06-bbed2e4bb193/resource/d4eef87c-ffc6-4301-9e29-ea2632ae3ffa/download/mcc_jo.xml
@@ -32897,7 +32896,7 @@ found 210 activities
 
 Downloading undp-eri from http://open.undp.org/download/iati_xml/Eritrea_projects.xml
 Parsing undp-eri from http://open.undp.org/download/iati_xml/Eritrea_projects.xml
-found 63 activities
+found 61 activities
 
 Downloading undp-eth from http://open.undp.org/download/iati_xml/Ethiopia_projects.xml
 Parsing undp-eth from http://open.undp.org/download/iati_xml/Ethiopia_projects.xml
@@ -32985,7 +32984,7 @@ found 101 activities
 
 Downloading undp-jor from http://open.undp.org/download/iati_xml/Jordan_projects.xml
 Parsing undp-jor from http://open.undp.org/download/iati_xml/Jordan_projects.xml
-found 124 activities
+found 126 activities
 
 Downloading undp-kaz from http://open.undp.org/download/iati_xml/Kazakhstan_projects.xml
 Parsing undp-kaz from http://open.undp.org/download/iati_xml/Kazakhstan_projects.xml
@@ -33029,7 +33028,7 @@ found 168 activities
 
 Downloading undp-lbr from http://open.undp.org/download/iati_xml/Liberia_projects.xml
 Parsing undp-lbr from http://open.undp.org/download/iati_xml/Liberia_projects.xml
-found 168 activities
+found 166 activities
 
 Downloading undp-lby from http://open.undp.org/download/iati_xml/Libya_projects.xml
 Parsing undp-lby from http://open.undp.org/download/iati_xml/Libya_projects.xml
@@ -33179,11 +33178,11 @@ found 183 activities
 
 Downloading undp-rwa from http://open.undp.org/download/iati_xml/Rwanda_projects.xml
 Parsing undp-rwa from http://open.undp.org/download/iati_xml/Rwanda_projects.xml
-found 132 activities
+found 134 activities
 
 Downloading undp-sau from http://open.undp.org/download/iati_xml/Saudi_Arabia_projects.xml
 Parsing undp-sau from http://open.undp.org/download/iati_xml/Saudi_Arabia_projects.xml
-found 70 activities
+found 76 activities
 
 Downloading undp-sdn from http://open.undp.org/download/iati_xml/Sudan_Republic_of_the_projects.xml
 Parsing undp-sdn from http://open.undp.org/download/iati_xml/Sudan_Republic_of_the_projects.xml
@@ -33203,7 +33202,7 @@ found 119 activities
 
 Downloading undp-slv from http://open.undp.org/download/iati_xml/El_Salvador_projects.xml
 Parsing undp-slv from http://open.undp.org/download/iati_xml/El_Salvador_projects.xml
-found 133 activities
+found 135 activities
 
 Downloading undp-som from http://open.undp.org/download/iati_xml/Somalia_projects.xml
 Parsing undp-som from http://open.undp.org/download/iati_xml/Somalia_projects.xml
@@ -33215,7 +33214,7 @@ found 228 activities
 
 Downloading undp-ssd from http://open.undp.org/download/iati_xml/South_Sudan_Republic_of_projects.xml
 Parsing undp-ssd from http://open.undp.org/download/iati_xml/South_Sudan_Republic_of_projects.xml
-found 680 activities
+found 686 activities
 
 Downloading undp-stp from http://open.undp.org/download/iati_xml/Sao_Tome_and_Principe_projects.xml
 Parsing undp-stp from http://open.undp.org/download/iati_xml/Sao_Tome_and_Principe_projects.xml
@@ -33223,7 +33222,7 @@ found 60 activities
 
 Downloading undp-sur from http://open.undp.org/download/iati_xml/Suriname_projects.xml
 Parsing undp-sur from http://open.undp.org/download/iati_xml/Suriname_projects.xml
-found 61 activities
+found 63 activities
 
 Downloading undp-swz from http://open.undp.org/download/iati_xml/eSwatini_projects.xml
 Parsing undp-swz from http://open.undp.org/download/iati_xml/eSwatini_projects.xml
@@ -40409,6 +40408,14 @@ Downloading utz-org from https://rsr.akvo.org/organisation/3656/iati-org/
 Parsing utz-org from https://rsr.akvo.org/organisation/3656/iati-org/
 found 1 organisations
 
+Downloading uuk-activities from https://iatipublisher-prod.s3.amazonaws.com/xml/mergedActivityXml/uuk-activities.xml
+Parsing uuk-activities from https://iatipublisher-prod.s3.amazonaws.com/xml/mergedActivityXml/uuk-activities.xml
+found 1 activities
+
+Downloading uuk-organisation from https://iatipublisher-prod.s3.amazonaws.com/organizationXmlFiles/uuk-organisation.xml
+Parsing uuk-organisation from https://iatipublisher-prod.s3.amazonaws.com/organizationXmlFiles/uuk-organisation.xml
+found 1 organisations
+
 Downloading uva_org-activities from https://www.dataworkbench.io/publisher/uva/iati-activities.xml
 Parsing uva_org-activities from https://www.dataworkbench.io/publisher/uva/iati-activities.xml
 found 12 activities
@@ -41178,10 +41185,8 @@ Parsing wbtf-tf071617 from https://d2mxkr7359ifh6.cloudfront.net/TF071617.xml
 found 7 activities
 
 Downloading wbtf-tf071624 from https://d2mxkr7359ifh6.cloudfront.net/TF071624.xml
-curl: download ERROR 000
 Parsing wbtf-tf071624 from https://d2mxkr7359ifh6.cloudfront.net/TF071624.xml
-dflat: input XML file does not exist
-restored 50 files
+found 50 activities
 
 Downloading wbtf-tf071628 from https://d2mxkr7359ifh6.cloudfront.net/TF071628.xml
 Parsing wbtf-tf071628 from https://d2mxkr7359ifh6.cloudfront.net/TF071628.xml
@@ -41192,10 +41197,8 @@ Parsing wbtf-tf071654 from https://d2mxkr7359ifh6.cloudfront.net/TF071654.xml
 found 2 activities
 
 Downloading wbtf-tf071656 from https://d2mxkr7359ifh6.cloudfront.net/TF071656.xml
-curl: download ERROR 000
 Parsing wbtf-tf071656 from https://d2mxkr7359ifh6.cloudfront.net/TF071656.xml
-dflat: input XML file does not exist
-restored 2 files
+found 2 activities
 
 Downloading wbtf-tf071661 from https://d2mxkr7359ifh6.cloudfront.net/TF071661.xml
 Parsing wbtf-tf071661 from https://d2mxkr7359ifh6.cloudfront.net/TF071661.xml
@@ -42251,7 +42254,7 @@ found 1 activities
 
 Downloading who-alb from http://open.who.int/api/iatiFiles/iati-file-content/ALB
 Parsing who-alb from http://open.who.int/api/iatiFiles/iati-file-content/ALB
-found 113 activities
+found 112 activities
 
 Downloading who-and from http://open.who.int/api/iatiFiles/iati-file-content/AND
 Parsing who-and from http://open.who.int/api/iatiFiles/iati-file-content/AND
@@ -42303,7 +42306,7 @@ found 90 activities
 
 Downloading who-bhr from http://open.who.int/api/iatiFiles/iati-file-content/BHR
 Parsing who-bhr from http://open.who.int/api/iatiFiles/iati-file-content/BHR
-found 75 activities
+found 76 activities
 
 Downloading who-bhs from http://open.who.int/api/iatiFiles/iati-file-content/BHS
 Parsing who-bhs from http://open.who.int/api/iatiFiles/iati-file-content/BHS
@@ -42311,7 +42314,7 @@ found 105 activities
 
 Downloading who-bih from http://open.who.int/api/iatiFiles/iati-file-content/BIH
 Parsing who-bih from http://open.who.int/api/iatiFiles/iati-file-content/BIH
-found 91 activities
+found 90 activities
 
 Downloading who-blr from http://open.who.int/api/iatiFiles/iati-file-content/BLR
 Parsing who-blr from http://open.who.int/api/iatiFiles/iati-file-content/BLR
@@ -42347,7 +42350,7 @@ found 132 activities
 
 Downloading who-bwa from http://open.who.int/api/iatiFiles/iati-file-content/BWA
 Parsing who-bwa from http://open.who.int/api/iatiFiles/iati-file-content/BWA
-found 125 activities
+found 124 activities
 
 Downloading who-caf from http://open.who.int/api/iatiFiles/iati-file-content/CAF
 Parsing who-caf from http://open.who.int/api/iatiFiles/iati-file-content/CAF
@@ -42359,7 +42362,7 @@ found 2 activities
 
 Downloading who-chl from http://open.who.int/api/iatiFiles/iati-file-content/CHL
 Parsing who-chl from http://open.who.int/api/iatiFiles/iati-file-content/CHL
-found 98 activities
+found 96 activities
 
 Downloading who-chn from http://open.who.int/api/iatiFiles/iati-file-content/CHN
 Parsing who-chn from http://open.who.int/api/iatiFiles/iati-file-content/CHN
@@ -42375,7 +42378,7 @@ found 149 activities
 
 Downloading who-cod from http://open.who.int/api/iatiFiles/iati-file-content/COD
 Parsing who-cod from http://open.who.int/api/iatiFiles/iati-file-content/COD
-found 180 activities
+found 183 activities
 
 Downloading who-cog from http://open.who.int/api/iatiFiles/iati-file-content/COG
 Parsing who-cog from http://open.who.int/api/iatiFiles/iati-file-content/COG
@@ -42391,7 +42394,7 @@ found 172 activities
 
 Downloading who-com from http://open.who.int/api/iatiFiles/iati-file-content/COM
 Parsing who-com from http://open.who.int/api/iatiFiles/iati-file-content/COM
-found 166 activities
+found 167 activities
 
 Downloading who-cpv from http://open.who.int/api/iatiFiles/iati-file-content/CPV
 Parsing who-cpv from http://open.who.int/api/iatiFiles/iati-file-content/CPV
@@ -42399,7 +42402,7 @@ found 128 activities
 
 Downloading who-cri from http://open.who.int/api/iatiFiles/iati-file-content/CRI
 Parsing who-cri from http://open.who.int/api/iatiFiles/iati-file-content/CRI
-found 111 activities
+found 109 activities
 
 Downloading who-cub from http://open.who.int/api/iatiFiles/iati-file-content/CUB
 Parsing who-cub from http://open.who.int/api/iatiFiles/iati-file-content/CUB
@@ -42479,7 +42482,7 @@ found 145 activities
 
 Downloading who-gnb from http://open.who.int/api/iatiFiles/iati-file-content/GNB
 Parsing who-gnb from http://open.who.int/api/iatiFiles/iati-file-content/GNB
-found 125 activities
+found 124 activities
 
 Downloading who-gnq from http://open.who.int/api/iatiFiles/iati-file-content/GNQ
 Parsing who-gnq from http://open.who.int/api/iatiFiles/iati-file-content/GNQ
@@ -42579,7 +42582,7 @@ found 62 activities
 
 Downloading who-kna from http://open.who.int/api/iatiFiles/iati-file-content/KNA
 Parsing who-kna from http://open.who.int/api/iatiFiles/iati-file-content/KNA
-found 59 activities
+found 56 activities
 
 Downloading who-kwt from http://open.who.int/api/iatiFiles/iati-file-content/KWT
 Parsing who-kwt from http://open.who.int/api/iatiFiles/iati-file-content/KWT
@@ -42591,7 +42594,7 @@ found 151 activities
 
 Downloading who-lbn from http://open.who.int/api/iatiFiles/iati-file-content/LBN
 Parsing who-lbn from http://open.who.int/api/iatiFiles/iati-file-content/LBN
-found 146 activities
+found 145 activities
 
 Downloading who-lbr from http://open.who.int/api/iatiFiles/iati-file-content/LBR
 Parsing who-lbr from http://open.who.int/api/iatiFiles/iati-file-content/LBR
@@ -42603,7 +42606,7 @@ found 124 activities
 
 Downloading who-lca from http://open.who.int/api/iatiFiles/iati-file-content/LCA
 Parsing who-lca from http://open.who.int/api/iatiFiles/iati-file-content/LCA
-found 66 activities
+found 65 activities
 
 Downloading who-lka from http://open.who.int/api/iatiFiles/iati-file-content/LKA
 Parsing who-lka from http://open.who.int/api/iatiFiles/iati-file-content/LKA
@@ -42683,7 +42686,7 @@ found 153 activities
 
 Downloading who-mus from http://open.who.int/api/iatiFiles/iati-file-content/MUS
 Parsing who-mus from http://open.who.int/api/iatiFiles/iati-file-content/MUS
-found 112 activities
+found 113 activities
 
 Downloading who-mwi from http://open.who.int/api/iatiFiles/iati-file-content/MWI
 Parsing who-mwi from http://open.who.int/api/iatiFiles/iati-file-content/MWI
@@ -42723,7 +42726,7 @@ found 20 activities
 
 Downloading who-omn from http://open.who.int/api/iatiFiles/iati-file-content/OMN
 Parsing who-omn from http://open.who.int/api/iatiFiles/iati-file-content/OMN
-found 121 activities
+found 122 activities
 
 Downloading who-org from http://open.who.int/api/iatiFiles/iati-file-content/World%20Health%20Organization.xml
 Parsing who-org from http://open.who.int/api/iatiFiles/iati-file-content/World%20Health%20Organization.xml
@@ -42783,7 +42786,7 @@ found 78 activities
 
 Downloading who-rou from http://open.who.int/api/iatiFiles/iati-file-content/ROU
 Parsing who-rou from http://open.who.int/api/iatiFiles/iati-file-content/ROU
-found 81 activities
+found 82 activities
 
 Downloading who-rus from http://open.who.int/api/iatiFiles/iati-file-content/RUS
 Parsing who-rus from http://open.who.int/api/iatiFiles/iati-file-content/RUS
@@ -42795,7 +42798,7 @@ found 159 activities
 
 Downloading who-sau from http://open.who.int/api/iatiFiles/iati-file-content/SAU
 Parsing who-sau from http://open.who.int/api/iatiFiles/iati-file-content/SAU
-found 119 activities
+found 120 activities
 
 Downloading who-sdn from http://open.who.int/api/iatiFiles/iati-file-content/SDN
 Parsing who-sdn from http://open.who.int/api/iatiFiles/iati-file-content/SDN
@@ -42831,7 +42834,7 @@ found 184 activities
 
 Downloading who-srb from http://open.who.int/api/iatiFiles/iati-file-content/SRB
 Parsing who-srb from http://open.who.int/api/iatiFiles/iati-file-content/SRB
-found 108 activities
+found 109 activities
 
 Downloading who-ssd from http://open.who.int/api/iatiFiles/iati-file-content/SSD
 Parsing who-ssd from http://open.who.int/api/iatiFiles/iati-file-content/SSD
@@ -42923,7 +42926,7 @@ found 157 activities
 
 Downloading who-ukr from http://open.who.int/api/iatiFiles/iati-file-content/UKR
 Parsing who-ukr from http://open.who.int/api/iatiFiles/iati-file-content/UKR
-found 169 activities
+found 168 activities
 
 Downloading who-ury from http://open.who.int/api/iatiFiles/iati-file-content/URY
 Parsing who-ury from http://open.who.int/api/iatiFiles/iati-file-content/URY
@@ -42935,7 +42938,7 @@ found 2 activities
 
 Downloading who-uzb from http://open.who.int/api/iatiFiles/iati-file-content/UZB
 Parsing who-uzb from http://open.who.int/api/iatiFiles/iati-file-content/UZB
-found 132 activities
+found 130 activities
 
 Downloading who-vct from http://open.who.int/api/iatiFiles/iati-file-content/VCT
 Parsing who-vct from http://open.who.int/api/iatiFiles/iati-file-content/VCT
