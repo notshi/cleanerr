@@ -6779,9 +6779,8 @@ dflat: invalid XML format
 restored 0 files
 
 Downloading cif-998 from http://siteresources.worldbank.org/IATI/CIF/CIF-998.xml
-curl: download ERROR 404
 Parsing cif-998 from http://siteresources.worldbank.org/IATI/CIF/CIF-998.xml
-dflat: input XML file does not exist
+dflat: invalid XML format
 restored 0 files
 
 Downloading cifal-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/cifal-activities.xml
@@ -7003,9 +7002,8 @@ Parsing cif-ws from http://doumodqax2qi2.cloudfront.net/CIF/CIF-05-2020/CIF-WS.x
 found 2 activities
 
 Downloading cif-ye from http://siteresources.worldbank.org/IATI/CIF/CIF-YE.xml
-curl: download ERROR 404
 Parsing cif-ye from http://siteresources.worldbank.org/IATI/CIF/CIF-YE.xml
-dflat: input XML file does not exist
+dflat: invalid XML format
 restored 0 files
 
 Downloading cif-za from http://doumodqax2qi2.cloudfront.net/CIF/CIF-05-2020/CIF-ZA.xml
@@ -7875,8 +7873,10 @@ Parsing danida-all_4 from http://iati.um.dk/api/v2/files/iati4.xml
 found 2589 activities
 
 Downloading danida-all_5 from http://iati.um.dk/api/v2/files/iati5.xml
+curl: download ERROR 404
 Parsing danida-all_5 from http://iati.um.dk/api/v2/files/iati5.xml
-found 2589 activities
+dflat: input XML file does not exist
+restored 2589 files
 
 Downloading danida-all_6 from http://iati.um.dk/api/v2/files/iati6.xml
 Parsing danida-all_6 from http://iati.um.dk/api/v2/files/iati6.xml
@@ -14285,6 +14285,10 @@ found 3 activities
 
 Downloading finland_mfa-mk from http://formin.finland.fi/opendata/IATI/Finland_MK.xml
 Converting IATI activities version 1.00 to version 2.03
+./iati-activities.xsl:531: parser error : Premature end of data in tag for-each line 530
+          
+          ^
+cannot parse ./iati-activities.xsl
 Parsing finland_mfa-mk from http://formin.finland.fi/opendata/IATI/Finland_MK.xml
 found 7 activities
 
@@ -14440,6 +14444,10 @@ found 42 activities
 
 Downloading finland_mfa-sr from http://formin.finland.fi/opendata/IATI/Finland_SR.xml
 Converting IATI activities version 1.00 to version 2.03
+./iati-activities.xsl:531: parser error : Premature end of data in tag for-each line 530
+          
+          ^
+cannot parse ./iati-activities.xsl
 Parsing finland_mfa-sr from http://formin.finland.fi/opendata/IATI/Finland_SR.xml
 found 1 activities
 
@@ -14450,6 +14458,10 @@ found 3 activities
 
 Downloading finland_mfa-sy from http://formin.finland.fi/opendata/IATI/Finland_SY.xml
 Converting IATI activities version 1.00 to version 2.03
+./iati-activities.xsl:531: parser error : Premature end of data in tag for-each line 530
+          
+          ^
+cannot parse ./iati-activities.xsl
 Parsing finland_mfa-sy from http://formin.finland.fi/opendata/IATI/Finland_SY.xml
 found 3 activities
 
@@ -43678,6 +43690,10 @@ found 6 activities
 Downloading worldeconomicforum-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/worldeconomicforum-org.xml
 Parsing worldeconomicforum-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/worldeconomicforum-org.xml
 found 1 organisations
+
+Downloading worldrelief-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/worldrelief-activities.xml
+Parsing worldrelief-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/worldrelief-activities.xml
+found 1 activities
 
 Downloading worldveg-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/worldveg-activities.xml
 Parsing worldveg-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/worldveg-activities.xml
