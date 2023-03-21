@@ -2477,7 +2477,7 @@ Parsing aiddata-wb from https://github.com/AidData-WM/public_datasets/raw/master
 found 5881 activities
 
 Downloading aidenvironment-20180601 from http://www.aidenvironment.org/iati/NL-KVK-41208024-20180601.php
-curl: download ERROR 404
+curl: download ERROR 500
 Parsing aidenvironment-20180601 from http://www.aidenvironment.org/iati/NL-KVK-41208024-20180601.php
 dflat: input XML file does not exist
 restored 0 files
@@ -6769,13 +6769,15 @@ Parsing cidr-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/ci
 found 1 activities
 
 Downloading cif-389 from http://siteresources.worldbank.org/IATI/CIF/CIF-389.xml
+curl: download ERROR 404
 Parsing cif-389 from http://siteresources.worldbank.org/IATI/CIF/CIF-389.xml
-dflat: invalid XML format
+dflat: input XML file does not exist
 restored 0 files
 
 Downloading cif-889 from http://siteresources.worldbank.org/IATI/CIF/CIF-889.xml
+curl: download ERROR 404
 Parsing cif-889 from http://siteresources.worldbank.org/IATI/CIF/CIF-889.xml
-dflat: invalid XML format
+dflat: input XML file does not exist
 restored 0 files
 
 Downloading cif-998 from http://siteresources.worldbank.org/IATI/CIF/CIF-998.xml
@@ -7873,10 +7875,8 @@ Parsing danida-all_4 from http://iati.um.dk/api/v2/files/iati4.xml
 found 2589 activities
 
 Downloading danida-all_5 from http://iati.um.dk/api/v2/files/iati5.xml
-curl: download ERROR 404
 Parsing danida-all_5 from http://iati.um.dk/api/v2/files/iati5.xml
-dflat: input XML file does not exist
-restored 2589 files
+found 2589 activities
 
 Downloading danida-all_6 from http://iati.um.dk/api/v2/files/iati6.xml
 Parsing danida-all_6 from http://iati.um.dk/api/v2/files/iati6.xml
@@ -14285,10 +14285,6 @@ found 3 activities
 
 Downloading finland_mfa-mk from http://formin.finland.fi/opendata/IATI/Finland_MK.xml
 Converting IATI activities version 1.00 to version 2.03
-./iati-activities.xsl:531: parser error : Premature end of data in tag for-each line 530
-          
-          ^
-cannot parse ./iati-activities.xsl
 Parsing finland_mfa-mk from http://formin.finland.fi/opendata/IATI/Finland_MK.xml
 found 7 activities
 
@@ -14444,10 +14440,6 @@ found 42 activities
 
 Downloading finland_mfa-sr from http://formin.finland.fi/opendata/IATI/Finland_SR.xml
 Converting IATI activities version 1.00 to version 2.03
-./iati-activities.xsl:531: parser error : Premature end of data in tag for-each line 530
-          
-          ^
-cannot parse ./iati-activities.xsl
 Parsing finland_mfa-sr from http://formin.finland.fi/opendata/IATI/Finland_SR.xml
 found 1 activities
 
@@ -14458,10 +14450,6 @@ found 3 activities
 
 Downloading finland_mfa-sy from http://formin.finland.fi/opendata/IATI/Finland_SY.xml
 Converting IATI activities version 1.00 to version 2.03
-./iati-activities.xsl:531: parser error : Premature end of data in tag for-each line 530
-          
-          ^
-cannot parse ./iati-activities.xsl
 Parsing finland_mfa-sy from http://formin.finland.fi/opendata/IATI/Finland_SY.xml
 found 3 activities
 
@@ -14811,6 +14799,10 @@ restored 0 files
 Downloading fowode-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/fowode-activities.xml
 Parsing fowode-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/fowode-activities.xml
 found 1 activities
+
+Downloading fowode-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/fowode-org.xml
+Parsing fowode-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/fowode-org.xml
+found 1 organisations
 
 Downloading france-af from https://baseprojets.transparence-aide.gouv.fr/api/iati/2.01/AF.xml
 Parsing france-af from https://baseprojets.transparence-aide.gouv.fr/api/iati/2.01/AF.xml
@@ -15388,11 +15380,11 @@ found 1 organisations
 
 Downloading gac-amc-act_2_3 from http://w05.international.gc.ca/projectbrowser-banqueprojets/iita-iati/dfatd-maecd_activit_status_2_3.xml
 Parsing gac-amc-act_2_3 from http://w05.international.gc.ca/projectbrowser-banqueprojets/iita-iati/dfatd-maecd_activit_status_2_3.xml
-found 1763 activities
+found 1762 activities
 
 Downloading gac-amc-act_4 from http://w05.international.gc.ca/projectbrowser-banqueprojets/iita-iati/dfatd-maecd_activit_status_4.xml
 Parsing gac-amc-act_4 from http://w05.international.gc.ca/projectbrowser-banqueprojets/iita-iati/dfatd-maecd_activit_status_4.xml
-found 4188 activities
+found 4189 activities
 
 Downloading gac-amc-org from http://w05.international.gc.ca/projectbrowser-banqueprojets/iita-iati/dfatd-maecd_organisation.xml
 Parsing gac-amc-org from http://w05.international.gc.ca/projectbrowser-banqueprojets/iita-iati/dfatd-maecd_organisation.xml
@@ -16370,7 +16362,7 @@ found 1 organisations
 
 Downloading gnbcc-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/gnbcc-activities.xml
 Parsing gnbcc-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/gnbcc-activities.xml
-found 6 activities
+found 10 activities
 
 Downloading gnbcc-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/gnbcc-org.xml
 Parsing gnbcc-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/gnbcc-org.xml
@@ -18375,7 +18367,7 @@ found 1 organisations
 
 Downloading idbinvest-projects from https://idbinvest.org/sites/default/files/iati_publish_projects.xml
 Parsing idbinvest-projects from https://idbinvest.org/sites/default/files/iati_publish_projects.xml
-found 1764 activities
+found 1765 activities
 
 Downloading idea-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/idea-activities.xml
 Parsing idea-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/idea-activities.xml
@@ -24529,7 +24521,8 @@ found 1 activities
 
 Downloading nlrc-activities from https://nrkia-open.azurewebsites.net/home/Iati_document
 Parsing nlrc-activities from https://nrkia-open.azurewebsites.net/home/Iati_document
-found 1194 activities
+dflat: invalid XML format
+restored 1194 files
 
 Downloading nlrc-dchi-activities from https://aidstream.s3.amazonaws.com/xml/NL-KVK-40409352-activities.xml
 Parsing nlrc-dchi-activities from https://aidstream.s3.amazonaws.com/xml/NL-KVK-40409352-activities.xml
@@ -27497,6 +27490,10 @@ found 1 activities
 
 Downloading rtp-org from https://aidstream.org/files/xml/rtp-org.xml
 Parsing rtp-org from https://aidstream.org/files/xml/rtp-org.xml
+found 1 organisations
+
+Downloading rtp_uk-organisation from https://iatipublisher-prod.s3.amazonaws.com/organizationXmlFiles/rtp_uk-organisation.xml
+Parsing rtp_uk-organisation from https://iatipublisher-prod.s3.amazonaws.com/organizationXmlFiles/rtp_uk-organisation.xml
 found 1 organisations
 
 Downloading ruaf-bd from https://aidstream.s3.us-west-2.amazonaws.com/xml/ruaf-bd.xml
@@ -44062,7 +44059,7 @@ found 1 organisations
 
 Downloading yipl-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/yipl-activities.xml
 Parsing yipl-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/yipl-activities.xml
-found 3 activities
+found 0 activities
 
 Downloading yipl-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/yipl-org.xml
 Parsing yipl-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/yipl-org.xml
