@@ -2477,7 +2477,7 @@ Parsing aiddata-wb from https://github.com/AidData-WM/public_datasets/raw/master
 found 5881 activities
 
 Downloading aidenvironment-20180601 from http://www.aidenvironment.org/iati/NL-KVK-41208024-20180601.php
-curl: download ERROR 500
+curl: download ERROR 404
 Parsing aidenvironment-20180601 from http://www.aidenvironment.org/iati/NL-KVK-41208024-20180601.php
 dflat: input XML file does not exist
 restored 0 files
@@ -6775,14 +6775,14 @@ dflat: input XML file does not exist
 restored 0 files
 
 Downloading cif-889 from http://siteresources.worldbank.org/IATI/CIF/CIF-889.xml
-curl: download ERROR 404
 Parsing cif-889 from http://siteresources.worldbank.org/IATI/CIF/CIF-889.xml
-dflat: input XML file does not exist
+dflat: invalid XML format
 restored 0 files
 
 Downloading cif-998 from http://siteresources.worldbank.org/IATI/CIF/CIF-998.xml
+curl: download ERROR 404
 Parsing cif-998 from http://siteresources.worldbank.org/IATI/CIF/CIF-998.xml
-dflat: invalid XML format
+dflat: input XML file does not exist
 restored 0 files
 
 Downloading cifal-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/cifal-activities.xml
@@ -11321,8 +11321,10 @@ Parsing ec-echo-2015 from https://webgate.ec.europa.eu/hac/IATI/ec-echo-2015.xml
 found 892 activities
 
 Downloading ec-echo-2016 from https://webgate.ec.europa.eu/hac/IATI/ec-echo-2016.xml
+curl: download ERROR 000
 Parsing ec-echo-2016 from https://webgate.ec.europa.eu/hac/IATI/ec-echo-2016.xml
-found 819 activities
+dflat: input XML file does not exist
+restored 819 files
 
 Downloading ec-echo-2017 from https://webgate.ec.europa.eu/hac/IATI/ec-echo-2017.xml
 Parsing ec-echo-2017 from https://webgate.ec.europa.eu/hac/IATI/ec-echo-2017.xml
@@ -11350,7 +11352,7 @@ found 418 activities
 
 Downloading ec-echo-2023 from https://webgate.ec.europa.eu/hac/IATI/ec-echo-2023.xml
 Parsing ec-echo-2023 from https://webgate.ec.europa.eu/hac/IATI/ec-echo-2023.xml
-found 26 activities
+found 27 activities
 
 Downloading ec-echo-org from https://webgate.ec.europa.eu/hac/IATI/iati-organisation-file.xml
 Parsing ec-echo-org from https://webgate.ec.europa.eu/hac/IATI/iati-organisation-file.xml
@@ -15380,7 +15382,7 @@ found 1 organisations
 
 Downloading gac-amc-act_2_3 from http://w05.international.gc.ca/projectbrowser-banqueprojets/iita-iati/dfatd-maecd_activit_status_2_3.xml
 Parsing gac-amc-act_2_3 from http://w05.international.gc.ca/projectbrowser-banqueprojets/iita-iati/dfatd-maecd_activit_status_2_3.xml
-found 1762 activities
+found 1763 activities
 
 Downloading gac-amc-act_4 from http://w05.international.gc.ca/projectbrowser-banqueprojets/iita-iati/dfatd-maecd_activit_status_4.xml
 Parsing gac-amc-act_4 from http://w05.international.gc.ca/projectbrowser-banqueprojets/iita-iati/dfatd-maecd_activit_status_4.xml
@@ -20095,8 +20097,8 @@ Downloading ilo-ao from http://www.ilo.org/legacy/english/pardev/iati-data/ilo20
 Parsing ilo-ao from http://www.ilo.org/legacy/english/pardev/iati-data/ilo2012-13rbsaxbtc.xml
 found 1902 activities
 
-Downloading ilo-org from https://www.ilo.org/legacy/english/pardev/iati-data/iloorganization.xml
-Parsing ilo-org from https://www.ilo.org/legacy/english/pardev/iati-data/iloorganization.xml
+Downloading ilo-org from https://www.ilo.org/legacy/english/pardev/iati-data/iatixml/iloorganization.xml
+Parsing ilo-org from https://www.ilo.org/legacy/english/pardev/iati-data/iatixml/iloorganization.xml
 found 1 organisations
 
 Downloading ilo-xmdac-41302-2020-21_1 from https://www.ilo.org/legacy/english/pardev/iati-data/ilo-xmdac-41302-2020-21_1.xml
@@ -21223,11 +21225,11 @@ found 2 activities
 
 Downloading ksrelief291-1030 from https://aidstream.s3.us-west-2.amazonaws.com/xml/ksrelief291-1030.xml
 Parsing ksrelief291-1030 from https://aidstream.s3.us-west-2.amazonaws.com/xml/ksrelief291-1030.xml
-found 8 activities
+found 11 activities
 
 Downloading ksrelief291-298 from https://aidstream.s3.us-west-2.amazonaws.com/xml/ksrelief291-298.xml
 Parsing ksrelief291-298 from https://aidstream.s3.us-west-2.amazonaws.com/xml/ksrelief291-298.xml
-found 12 activities
+found 13 activities
 
 Downloading ksrelief291-589 from https://aidstream.s3.us-west-2.amazonaws.com/xml/ksrelief291-589.xml
 Parsing ksrelief291-589 from https://aidstream.s3.us-west-2.amazonaws.com/xml/ksrelief291-589.xml
@@ -24521,8 +24523,7 @@ found 1 activities
 
 Downloading nlrc-activities from https://nrkia-open.azurewebsites.net/home/Iati_document
 Parsing nlrc-activities from https://nrkia-open.azurewebsites.net/home/Iati_document
-dflat: invalid XML format
-restored 1194 files
+found 1194 activities
 
 Downloading nlrc-dchi-activities from https://aidstream.s3.amazonaws.com/xml/NL-KVK-40409352-activities.xml
 Parsing nlrc-dchi-activities from https://aidstream.s3.amazonaws.com/xml/NL-KVK-40409352-activities.xml
@@ -34703,36 +34704,52 @@ dflat: input XML file does not exist
 restored 824 files
 
 Downloading unhcr-2016 from http://reporting.unhcr.org/sites/default/files/IATI/UNHCR-Activities-2016.xml
+curl: download ERROR 404
 Parsing unhcr-2016 from http://reporting.unhcr.org/sites/default/files/IATI/UNHCR-Activities-2016.xml
-found 107 activities
+dflat: input XML file does not exist
+restored 107 files
 
 Downloading unhcr-2017 from http://reporting.unhcr.org/sites/default/files/IATI/UNHCR-Activities-2017.xml
+curl: download ERROR 404
 Parsing unhcr-2017 from http://reporting.unhcr.org/sites/default/files/IATI/UNHCR-Activities-2017.xml
-found 106 activities
+dflat: input XML file does not exist
+restored 106 files
 
 Downloading unhcr-2018 from http://reporting.unhcr.org/sites/default/files/IATI/UNHCR-Activities-2018.xml
+curl: download ERROR 404
 Parsing unhcr-2018 from http://reporting.unhcr.org/sites/default/files/IATI/UNHCR-Activities-2018.xml
-found 105 activities
+dflat: input XML file does not exist
+restored 105 files
 
 Downloading unhcr-2019 from http://reporting.unhcr.org/sites/default/files/IATI/UNHCR-Activities-2019.xml
+curl: download ERROR 404
 Parsing unhcr-2019 from http://reporting.unhcr.org/sites/default/files/IATI/UNHCR-Activities-2019.xml
-found 115 activities
+dflat: input XML file does not exist
+restored 115 files
 
 Downloading unhcr-2020 from http://reporting.unhcr.org/sites/default/files/IATI/UNHCR-Activities-2020.xml
+curl: download ERROR 404
 Parsing unhcr-2020 from http://reporting.unhcr.org/sites/default/files/IATI/UNHCR-Activities-2020.xml
-found 128 activities
+dflat: input XML file does not exist
+restored 128 files
 
 Downloading unhcr-2021 from http://reporting.unhcr.org/sites/default/files/IATI/UNHCR-Activities-2021.xml
+curl: download ERROR 404
 Parsing unhcr-2021 from http://reporting.unhcr.org/sites/default/files/IATI/UNHCR-Activities-2021.xml
-found 133 activities
+dflat: input XML file does not exist
+restored 133 files
 
 Downloading unhcr-2022 from http://reporting.unhcr.org/sites/default/files/IATI/UNHCR-Activities-2022.xml
+curl: download ERROR 404
 Parsing unhcr-2022 from http://reporting.unhcr.org/sites/default/files/IATI/UNHCR-Activities-2022.xml
-found 131 activities
+dflat: input XML file does not exist
+restored 131 files
 
 Downloading unhcr-org from http://reporting.unhcr.org/sites/default/files/IATI/UNHCR-Organisation.xml
+curl: download ERROR 404
 Parsing unhcr-org from http://reporting.unhcr.org/sites/default/files/IATI/UNHCR-Organisation.xml
-found 1 organisations
+dflat: input XML file does not exist
+restored 1 files
 
 Downloading unicef-afghanistan from https://open.unicef.org/sites/transparency/files/countrydata/iatiActivity_Afghanistan.xml
 Parsing unicef-afghanistan from https://open.unicef.org/sites/transparency/files/countrydata/iatiActivity_Afghanistan.xml
@@ -37288,7 +37305,7 @@ found 20 activities
 
 Downloading unocha-cbpf-syria-contribution-2023 from https://cbpfapi.unocha.org/iati/iati/62/2023/GetContribution.xml
 Parsing unocha-cbpf-syria-contribution-2023 from https://cbpfapi.unocha.org/iati/iati/62/2023/GetContribution.xml
-found 14 activities
+found 15 activities
 
 Downloading unocha-cbpf-syria-contribution-2024 from https://cbpfapi.unocha.org/iati/iati/62/2024/GetContribution.xml
 Parsing unocha-cbpf-syria-contribution-2024 from https://cbpfapi.unocha.org/iati/iati/62/2024/GetContribution.xml
