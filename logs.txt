@@ -6769,9 +6769,8 @@ Parsing cidr-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/ci
 found 1 activities
 
 Downloading cif-389 from http://siteresources.worldbank.org/IATI/CIF/CIF-389.xml
-curl: download ERROR 404
 Parsing cif-389 from http://siteresources.worldbank.org/IATI/CIF/CIF-389.xml
-dflat: input XML file does not exist
+dflat: invalid XML format
 restored 0 files
 
 Downloading cif-889 from http://siteresources.worldbank.org/IATI/CIF/CIF-889.xml
@@ -6780,9 +6779,8 @@ dflat: invalid XML format
 restored 0 files
 
 Downloading cif-998 from http://siteresources.worldbank.org/IATI/CIF/CIF-998.xml
-curl: download ERROR 404
 Parsing cif-998 from http://siteresources.worldbank.org/IATI/CIF/CIF-998.xml
-dflat: input XML file does not exist
+dflat: invalid XML format
 restored 0 files
 
 Downloading cifal-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/cifal-activities.xml
@@ -6815,8 +6813,9 @@ Parsing cif-br from http://doumodqax2qi2.cloudfront.net/CIF/CIF-05-2020/CIF-BR.x
 found 11 activities
 
 Downloading cif-cd from http://siteresources.worldbank.org/IATI/CIF/CIF-CD.xml
+curl: download ERROR 404
 Parsing cif-cd from http://siteresources.worldbank.org/IATI/CIF/CIF-CD.xml
-dflat: invalid XML format
+dflat: input XML file does not exist
 restored 0 files
 
 Downloading cif-ci from http://doumodqax2qi2.cloudfront.net/CIF/CIF-05-2020/CIF-CI.xml
@@ -7064,7 +7063,7 @@ found 10 activities
 
 Downloading cisu-gaia from https://vores.cisu.dk/activities.xml
 Parsing cisu-gaia from https://vores.cisu.dk/activities.xml
-found 2387 activities
+found 2388 activities
 
 Downloading cisu-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/cisu-org.xml
 Parsing cisu-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/cisu-org.xml
@@ -7900,7 +7899,7 @@ found 1 organisations
 
 Downloading danmission-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/danmission-activities.xml
 Parsing danmission-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/danmission-activities.xml
-found 40 activities
+found 42 activities
 
 Downloading danmission-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/danmission-org.xml
 Parsing danmission-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/danmission-org.xml
@@ -11321,10 +11320,8 @@ Parsing ec-echo-2015 from https://webgate.ec.europa.eu/hac/IATI/ec-echo-2015.xml
 found 892 activities
 
 Downloading ec-echo-2016 from https://webgate.ec.europa.eu/hac/IATI/ec-echo-2016.xml
-curl: download ERROR 000
 Parsing ec-echo-2016 from https://webgate.ec.europa.eu/hac/IATI/ec-echo-2016.xml
-dflat: input XML file does not exist
-restored 819 files
+found 819 activities
 
 Downloading ec-echo-2017 from https://webgate.ec.europa.eu/hac/IATI/ec-echo-2017.xml
 Parsing ec-echo-2017 from https://webgate.ec.europa.eu/hac/IATI/ec-echo-2017.xml
@@ -11348,11 +11345,11 @@ found 690 activities
 
 Downloading ec-echo-2022 from https://webgate.ec.europa.eu/hac/IATI/ec-echo-2022.xml
 Parsing ec-echo-2022 from https://webgate.ec.europa.eu/hac/IATI/ec-echo-2022.xml
-found 418 activities
+found 419 activities
 
 Downloading ec-echo-2023 from https://webgate.ec.europa.eu/hac/IATI/ec-echo-2023.xml
 Parsing ec-echo-2023 from https://webgate.ec.europa.eu/hac/IATI/ec-echo-2023.xml
-found 27 activities
+found 28 activities
 
 Downloading ec-echo-org from https://webgate.ec.europa.eu/hac/IATI/iati-organisation-file.xml
 Parsing ec-echo-org from https://webgate.ec.europa.eu/hac/IATI/iati-organisation-file.xml
@@ -15382,11 +15379,11 @@ found 1 organisations
 
 Downloading gac-amc-act_2_3 from http://w05.international.gc.ca/projectbrowser-banqueprojets/iita-iati/dfatd-maecd_activit_status_2_3.xml
 Parsing gac-amc-act_2_3 from http://w05.international.gc.ca/projectbrowser-banqueprojets/iita-iati/dfatd-maecd_activit_status_2_3.xml
-found 1763 activities
+found 0 activities
 
 Downloading gac-amc-act_4 from http://w05.international.gc.ca/projectbrowser-banqueprojets/iita-iati/dfatd-maecd_activit_status_4.xml
 Parsing gac-amc-act_4 from http://w05.international.gc.ca/projectbrowser-banqueprojets/iita-iati/dfatd-maecd_activit_status_4.xml
-found 4189 activities
+found 0 activities
 
 Downloading gac-amc-org from http://w05.international.gc.ca/projectbrowser-banqueprojets/iita-iati/dfatd-maecd_organisation.xml
 Parsing gac-amc-org from http://w05.international.gc.ca/projectbrowser-banqueprojets/iita-iati/dfatd-maecd_organisation.xml
@@ -16288,9 +16285,8 @@ dflat: input XML file does not exist
 restored 0 files
 
 Downloading gl-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/gl-activities.xml
-Converting IATI activities version 1.03 to version 2.03
 Parsing gl-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/gl-activities.xml
-found 12 activities
+found 8 activities
 
 Downloading gl-ar2017 from https://genderlinks.org.za/who-we-are/annual-reports/annual-report-2017/
 Parsing gl-ar2017 from https://genderlinks.org.za/who-we-are/annual-reports/annual-report-2017/
@@ -19213,7 +19209,7 @@ found 20 activities
 
 Downloading ifcwbg-br from https://disclosures.ifc.org/iati/ifc-br.xml
 Parsing ifcwbg-br from https://disclosures.ifc.org/iati/ifc-br.xml
-found 283 activities
+found 284 activities
 
 Downloading ifcwbg-bt from https://disclosures.ifc.org/iati/ifc-bt.xml
 Parsing ifcwbg-bt from https://disclosures.ifc.org/iati/ifc-bt.xml
@@ -19647,7 +19643,7 @@ found 22 activities
 
 Downloading ifcwbg-tr from https://disclosures.ifc.org/iati/ifc-tr.xml
 Parsing ifcwbg-tr from https://disclosures.ifc.org/iati/ifc-tr.xml
-found 234 activities
+found 235 activities
 
 Downloading ifcwbg-tt from https://disclosures.ifc.org/iati/ifc-tt.xml
 Parsing ifcwbg-tt from https://disclosures.ifc.org/iati/ifc-tt.xml
@@ -21594,7 +21590,7 @@ found 1 activities
 
 Downloading larive-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/larive-activities.xml
 Parsing larive-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/larive-activities.xml
-found 10 activities
+found 15 activities
 
 Downloading larive-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/larive-org.xml
 Parsing larive-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/larive-org.xml
@@ -25227,7 +25223,7 @@ found 2221 activities
 
 Downloading onl-activity from https://www.oxfamnovib.nl/redactie/Downloads/XML/iati.xml
 Parsing onl-activity from https://www.oxfamnovib.nl/redactie/Downloads/XML/iati.xml
-found 1723 activities
+found 1725 activities
 
 Downloading onl-org from https://www.oxfamnovib.nl/redactie/downloads/xml/IATI_NL-KVK-27108436.xml
 Parsing onl-org from https://www.oxfamnovib.nl/redactie/downloads/xml/IATI_NL-KVK-27108436.xml
@@ -27527,7 +27523,7 @@ found 1 organisations
 
 Downloading rvo-01 from https://projects.rvo.nl/opendata/iati.xml
 Parsing rvo-01 from https://projects.rvo.nl/opendata/iati.xml
-found 4135 activities
+found 4136 activities
 
 Downloading rvo-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/rvo-activities.xml
 Parsing rvo-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/rvo-activities.xml
@@ -31328,6 +31324,10 @@ Parsing tib-org from http://www.ti-bangladesh.org/beta3/images/2015/doc_iati_tib
 dflat: input XML file does not exist
 restored 1 files
 
+Downloading tib-pacta-june-2022-iati from https://www.ti-bangladesh.org/images/2020/iati/TIB-CFPI-Project-Updated-as-of-30-June-2020.xml
+Parsing tib-pacta-june-2022-iati from https://www.ti-bangladesh.org/images/2020/iati/TIB-CFPI-Project-Updated-as-of-30-June-2020.xml
+found 1 activities
+
 Downloading tib-project12 from https://www.ti-bangladesh.org/beta3/images/2018/iati/TIB-BIBEC-Project-Updated-as-of-31-December-2017.xml
 curl: download ERROR 404
 Parsing tib-project12 from https://www.ti-bangladesh.org/beta3/images/2018/iati/TIB-BIBEC-Project-Updated-as-of-31-December-2017.xml
@@ -31412,11 +31412,9 @@ Parsing tib-project24 from https://www.ti-bangladesh.org/beta3/images/2019/iati/
 dflat: input XML file does not exist
 restored 1 files
 
-Downloading tib-project25 from https://www.ti-bangladesh.org/beta3/images/2019/iati/TIB-CFPI-Project-Updated-as-of-30-June-2019.xml
-curl: download ERROR 404
-Parsing tib-project25 from https://www.ti-bangladesh.org/beta3/images/2019/iati/TIB-CFPI-Project-Updated-as-of-30-June-2019.xml
-dflat: input XML file does not exist
-restored 1 files
+Downloading tib-project25 from https://www.ti-bangladesh.org/images/2019/iati/TIB-CFPI-Project-Updated-as-of-30-June-2019.xml
+Parsing tib-project25 from https://www.ti-bangladesh.org/images/2019/iati/TIB-CFPI-Project-Updated-as-of-30-June-2019.xml
+found 1 activities
 
 Downloading tib-project2 from https://www.ti-bangladesh.org/beta3/images/2017/TIB-CFPI-Project-Updated-as-of-30-September-2017.xml
 curl: download ERROR 404
@@ -36345,7 +36343,7 @@ found 14 activities
 
 Downloading unocha-cbpf-lebanon-contribution-2023 from https://cbpfapi.unocha.org/iati/iati/71/2023/GetContribution.xml
 Parsing unocha-cbpf-lebanon-contribution-2023 from https://cbpfapi.unocha.org/iati/iati/71/2023/GetContribution.xml
-found 2 activities
+found 3 activities
 
 Downloading unocha-cbpf-lebanon-contribution-2024 from https://cbpfapi.unocha.org/iati/iati/71/2024/GetContribution.xml
 Parsing unocha-cbpf-lebanon-contribution-2024 from https://cbpfapi.unocha.org/iati/iati/71/2024/GetContribution.xml
@@ -37305,7 +37303,7 @@ found 20 activities
 
 Downloading unocha-cbpf-syria-contribution-2023 from https://cbpfapi.unocha.org/iati/iati/62/2023/GetContribution.xml
 Parsing unocha-cbpf-syria-contribution-2023 from https://cbpfapi.unocha.org/iati/iati/62/2023/GetContribution.xml
-found 15 activities
+found 16 activities
 
 Downloading unocha-cbpf-syria-contribution-2024 from https://cbpfapi.unocha.org/iati/iati/62/2024/GetContribution.xml
 Parsing unocha-cbpf-syria-contribution-2024 from https://cbpfapi.unocha.org/iati/iati/62/2024/GetContribution.xml
@@ -37413,7 +37411,7 @@ found 27 activities
 
 Downloading unocha-cbpf-syriacrossborder-contribution-2023 from https://cbpfapi.unocha.org/iati/iati/70/2023/GetContribution.xml
 Parsing unocha-cbpf-syriacrossborder-contribution-2023 from https://cbpfapi.unocha.org/iati/iati/70/2023/GetContribution.xml
-found 15 activities
+found 16 activities
 
 Downloading unocha-cbpf-syriacrossborder-contribution-2024 from https://cbpfapi.unocha.org/iati/iati/70/2024/GetContribution.xml
 Parsing unocha-cbpf-syriacrossborder-contribution-2024 from https://cbpfapi.unocha.org/iati/iati/70/2024/GetContribution.xml
@@ -37485,7 +37483,7 @@ found 55 activities
 
 Downloading unocha-cbpf-ukraine-contribution-2023 from https://cbpfapi.unocha.org/iati/iati/81/2023/GetContribution.xml
 Parsing unocha-cbpf-ukraine-contribution-2023 from https://cbpfapi.unocha.org/iati/iati/81/2023/GetContribution.xml
-found 2 activities
+found 3 activities
 
 Downloading unocha-cbpf-ukraine-contribution-2024 from https://cbpfapi.unocha.org/iati/iati/81/2024/GetContribution.xml
 Parsing unocha-cbpf-ukraine-contribution-2024 from https://cbpfapi.unocha.org/iati/iati/81/2024/GetContribution.xml
@@ -38635,7 +38633,7 @@ found 1 organisations
 
 Downloading uoy-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/uoy-activities.xml
 Parsing uoy-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/uoy-activities.xml
-found 3 activities
+found 4 activities
 
 Downloading upm-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/upm-activities.xml
 Parsing upm-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/upm-activities.xml
