@@ -6813,13 +6813,15 @@ Parsing cidr-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/ci
 found 1 activities
 
 Downloading cif-389 from http://siteresources.worldbank.org/IATI/CIF/CIF-389.xml
+curl: download ERROR 404
 Parsing cif-389 from http://siteresources.worldbank.org/IATI/CIF/CIF-389.xml
-dflat: invalid XML format
+dflat: input XML file does not exist
 restored 0 files
 
 Downloading cif-889 from http://siteresources.worldbank.org/IATI/CIF/CIF-889.xml
+curl: download ERROR 404
 Parsing cif-889 from http://siteresources.worldbank.org/IATI/CIF/CIF-889.xml
-dflat: invalid XML format
+dflat: input XML file does not exist
 restored 0 files
 
 Downloading cif-998 from http://siteresources.worldbank.org/IATI/CIF/CIF-998.xml
@@ -7054,9 +7056,8 @@ Parsing cif-ws from http://doumodqax2qi2.cloudfront.net/CIF/CIF-05-2020/CIF-WS.x
 found 2 activities
 
 Downloading cif-ye from http://siteresources.worldbank.org/IATI/CIF/CIF-YE.xml
-curl: download ERROR 404
 Parsing cif-ye from http://siteresources.worldbank.org/IATI/CIF/CIF-YE.xml
-dflat: input XML file does not exist
+dflat: invalid XML format
 restored 0 files
 
 Downloading cif-za from http://doumodqax2qi2.cloudfront.net/CIF/CIF-05-2020/CIF-ZA.xml
@@ -7211,7 +7212,7 @@ found 6 activities
 
 Downloading cku-all from https://pdb.cku.dk/iati/reportDMRU
 Parsing cku-all from https://pdb.cku.dk/iati/reportDMRU
-found 1053 activities
+found 1055 activities
 
 Downloading cku-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/cku-org.xml
 Parsing cku-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/cku-org.xml
@@ -11232,7 +11233,7 @@ found 1 organisations
 
 Downloading dpod-2020 from https://info.handicap.dk/iati/reportDH
 Parsing dpod-2020 from https://info.handicap.dk/iati/reportDH
-found 287 activities
+found 288 activities
 
 Downloading dpod-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/dpod-activities.xml
 Parsing dpod-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/dpod-activities.xml
@@ -11409,7 +11410,7 @@ found 421 activities
 
 Downloading ec-echo-2023 from https://webgate.ec.europa.eu/hac/IATI/ec-echo-2023.xml
 Parsing ec-echo-2023 from https://webgate.ec.europa.eu/hac/IATI/ec-echo-2023.xml
-found 148 activities
+found 157 activities
 
 Downloading ec-echo-org from https://webgate.ec.europa.eu/hac/IATI/iati-organisation-file.xml
 Parsing ec-echo-org from https://webgate.ec.europa.eu/hac/IATI/iati-organisation-file.xml
@@ -13730,6 +13731,14 @@ found 1 activities
 
 Downloading fedesarrollo-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/fedesarrollo-org.xml
 Parsing fedesarrollo-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/fedesarrollo-org.xml
+found 1 organisations
+
+Downloading female-activities from https://iatipublisher-prod.s3.amazonaws.com/xml/mergedActivityXml/female-activities.xml
+Parsing female-activities from https://iatipublisher-prod.s3.amazonaws.com/xml/mergedActivityXml/female-activities.xml
+found 1 activities
+
+Downloading female-organisation from https://iatipublisher-prod.s3.amazonaws.com/organizationXmlFiles/female-organisation.xml
+Parsing female-organisation from https://iatipublisher-prod.s3.amazonaws.com/organizationXmlFiles/female-organisation.xml
 found 1 organisations
 
 Downloading femnet-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/femnet-activities.xml
@@ -19166,7 +19175,7 @@ found 25 activities
 
 Downloading ifcwbg-274 from https://disclosures.ifc.org/IATI/IFC-274.xml
 Parsing ifcwbg-274 from https://disclosures.ifc.org/IATI/IFC-274.xml
-found 29 activities
+found 30 activities
 
 Downloading ifcwbg-51 from https://disclosures.ifc.org/IATI/IFC-51.xml
 Parsing ifcwbg-51 from https://disclosures.ifc.org/IATI/IFC-51.xml
@@ -19282,7 +19291,7 @@ found 20 activities
 
 Downloading ifcwbg-br from https://disclosures.ifc.org/iati/ifc-br.xml
 Parsing ifcwbg-br from https://disclosures.ifc.org/iati/ifc-br.xml
-found 288 activities
+found 289 activities
 
 Downloading ifcwbg-bt from https://disclosures.ifc.org/iati/ifc-bt.xml
 Parsing ifcwbg-bt from https://disclosures.ifc.org/iati/ifc-bt.xml
@@ -19318,7 +19327,7 @@ found 48 activities
 
 Downloading ifcwbg-cl from https://disclosures.ifc.org/iati/ifc-cl.xml
 Parsing ifcwbg-cl from https://disclosures.ifc.org/iati/ifc-cl.xml
-found 49 activities
+found 50 activities
 
 Downloading ifcwbg-cm from https://disclosures.ifc.org/iati/ifc-cm.xml
 Parsing ifcwbg-cm from https://disclosures.ifc.org/iati/ifc-cm.xml
@@ -19450,7 +19459,7 @@ found 453 activities
 
 Downloading ifcwbg-iq from https://disclosures.ifc.org/iati/ifc-iq.xml
 Parsing ifcwbg-iq from https://disclosures.ifc.org/iati/ifc-iq.xml
-found 20 activities
+found 21 activities
 
 Downloading ifcwbg-ir from https://disclosures.ifc.org/iati/ifc-ir.xml
 Parsing ifcwbg-ir from https://disclosures.ifc.org/iati/ifc-ir.xml
@@ -20487,6 +20496,10 @@ found 1 organisations
 Downloading ipa-298 from https://aidstream.s3.us-west-2.amazonaws.com/xml/ipa-298.xml
 Parsing ipa-298 from https://aidstream.s3.us-west-2.amazonaws.com/xml/ipa-298.xml
 found 2 activities
+
+Downloading ipa_-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/ipa_-activities.xml
+Parsing ipa_-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/ipa_-activities.xml
+found 3 activities
 
 Downloading ipa-lr from https://aidstream.s3.us-west-2.amazonaws.com/xml/ipa-lr.xml
 Parsing ipa-lr from https://aidstream.s3.us-west-2.amazonaws.com/xml/ipa-lr.xml
