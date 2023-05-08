@@ -6821,8 +6821,9 @@ Parsing cidr-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/ci
 found 1 activities
 
 Downloading cif-389 from http://siteresources.worldbank.org/IATI/CIF/CIF-389.xml
+curl: download ERROR 404
 Parsing cif-389 from http://siteresources.worldbank.org/IATI/CIF/CIF-389.xml
-dflat: invalid XML format
+dflat: input XML file does not exist
 restored 0 files
 
 Downloading cif-889 from http://siteresources.worldbank.org/IATI/CIF/CIF-889.xml
@@ -6831,8 +6832,9 @@ dflat: invalid XML format
 restored 0 files
 
 Downloading cif-998 from http://siteresources.worldbank.org/IATI/CIF/CIF-998.xml
+curl: download ERROR 404
 Parsing cif-998 from http://siteresources.worldbank.org/IATI/CIF/CIF-998.xml
-dflat: invalid XML format
+dflat: input XML file does not exist
 restored 0 files
 
 Downloading c_i_f-activities from https://iatipublisher-prod.s3.amazonaws.com/xml/mergedActivityXml/c_i_f-activities.xml
@@ -6869,8 +6871,9 @@ Parsing cif-br from http://doumodqax2qi2.cloudfront.net/CIF/CIF-05-2020/CIF-BR.x
 found 11 activities
 
 Downloading cif-cd from http://siteresources.worldbank.org/IATI/CIF/CIF-CD.xml
+curl: download ERROR 404
 Parsing cif-cd from http://siteresources.worldbank.org/IATI/CIF/CIF-CD.xml
-dflat: invalid XML format
+dflat: input XML file does not exist
 restored 0 files
 
 Downloading cif-ci from http://doumodqax2qi2.cloudfront.net/CIF/CIF-05-2020/CIF-CI.xml
@@ -7062,9 +7065,8 @@ Parsing cif-ws from http://doumodqax2qi2.cloudfront.net/CIF/CIF-05-2020/CIF-WS.x
 found 2 activities
 
 Downloading cif-ye from http://siteresources.worldbank.org/IATI/CIF/CIF-YE.xml
-curl: download ERROR 404
 Parsing cif-ye from http://siteresources.worldbank.org/IATI/CIF/CIF-YE.xml
-dflat: input XML file does not exist
+dflat: invalid XML format
 restored 0 files
 
 Downloading cif-za from http://doumodqax2qi2.cloudfront.net/CIF/CIF-05-2020/CIF-ZA.xml
@@ -7131,7 +7133,7 @@ found 1 organisations
 
 Downloading ciuk-dec from https://careinternational.org.uk/xml/dec.xml
 Parsing ciuk-dec from https://careinternational.org.uk/xml/dec.xml
-found 31 activities
+found 33 activities
 
 Downloading ciuk-ec_echo from https://careinternational.org.uk/xml/ec-echo.xml
 Parsing ciuk-ec_echo from https://careinternational.org.uk/xml/ec-echo.xml
@@ -7139,7 +7141,7 @@ found 16 activities
 
 Downloading ciuk-fcdoactive from https://careinternational.org.uk/xml/fcdo-active.xml
 Parsing ciuk-fcdoactive from https://careinternational.org.uk/xml/fcdo-active.xml
-found 14 activities
+found 16 activities
 
 Downloading ciuk-fcdoclosed from https://careinternational.org.uk/xml/fcdo-closed.xml
 Parsing ciuk-fcdoclosed from https://careinternational.org.uk/xml/fcdo-closed.xml
@@ -7151,7 +7153,7 @@ found 9 activities
 
 Downloading ciuk-newfunding from https://careinternational.org.uk/xml/new-funding.xml
 Parsing ciuk-newfunding from https://careinternational.org.uk/xml/new-funding.xml
-found 44 activities
+found 47 activities
 
 Downloading ciuk-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/ciuk-org.xml
 Parsing ciuk-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/ciuk-org.xml
@@ -7159,11 +7161,11 @@ found 1 organisations
 
 Downloading ciuk-privatesector from https://careinternational.org.uk/xml/private-sector.xml
 Parsing ciuk-privatesector from https://careinternational.org.uk/xml/private-sector.xml
-found 13 activities
+found 14 activities
 
 Downloading ciuk-startfunding from https://careinternational.org.uk/xml/start-funding.xml
 Parsing ciuk-startfunding from https://careinternational.org.uk/xml/start-funding.xml
-found 92 activities
+found 98 activities
 
 Downloading civic_admin-af from https://aidstream.s3.us-west-2.amazonaws.com/xml/civic_admin-af.xml
 Parsing civic_admin-af from https://aidstream.s3.us-west-2.amazonaws.com/xml/civic_admin-af.xml
@@ -7686,7 +7688,7 @@ found 1 organisations
 
 Downloading creausa-org-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/creausa-org-activities.xml
 Parsing creausa-org-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/creausa-org-activities.xml
-found 78 activities
+found 77 activities
 
 Downloading creausa-org-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/creausa-org-org.xml
 Parsing creausa-org-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/creausa-org-org.xml
@@ -7930,10 +7932,8 @@ Parsing dangbo-org from https://rsr.akvo.org/organisation/4646/iati-org/
 found 1 organisations
 
 Downloading danida-all_1 from http://iati.um.dk/api/v2/files/iati1.xml
-curl: download ERROR 404
 Parsing danida-all_1 from http://iati.um.dk/api/v2/files/iati1.xml
-dflat: input XML file does not exist
-restored 2583 files
+found 2583 activities
 
 Downloading danida-all_2 from http://iati.um.dk/api/v2/files/iati2.xml
 Parsing danida-all_2 from http://iati.um.dk/api/v2/files/iati2.xml
@@ -28138,7 +28138,7 @@ found 2 activities
 
 Downloading sense_international-bd from https://aidstream.s3.us-west-2.amazonaws.com/xml/sense_international-bd.xml
 Parsing sense_international-bd from https://aidstream.s3.us-west-2.amazonaws.com/xml/sense_international-bd.xml
-found 5 activities
+found 6 activities
 
 Downloading sense_international-gb from https://aidstream.s3.us-west-2.amazonaws.com/xml/sense_international-gb.xml
 Parsing sense_international-gb from https://aidstream.s3.us-west-2.amazonaws.com/xml/sense_international-gb.xml
