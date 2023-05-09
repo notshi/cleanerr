@@ -6821,9 +6821,8 @@ Parsing cidr-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/ci
 found 1 activities
 
 Downloading cif-389 from http://siteresources.worldbank.org/IATI/CIF/CIF-389.xml
-curl: download ERROR 404
 Parsing cif-389 from http://siteresources.worldbank.org/IATI/CIF/CIF-389.xml
-dflat: input XML file does not exist
+dflat: invalid XML format
 restored 0 files
 
 Downloading cif-889 from http://siteresources.worldbank.org/IATI/CIF/CIF-889.xml
@@ -6832,9 +6831,8 @@ dflat: invalid XML format
 restored 0 files
 
 Downloading cif-998 from http://siteresources.worldbank.org/IATI/CIF/CIF-998.xml
-curl: download ERROR 404
 Parsing cif-998 from http://siteresources.worldbank.org/IATI/CIF/CIF-998.xml
-dflat: input XML file does not exist
+dflat: invalid XML format
 restored 0 files
 
 Downloading c_i_f-activities from https://iatipublisher-prod.s3.amazonaws.com/xml/mergedActivityXml/c_i_f-activities.xml
@@ -18284,7 +18282,7 @@ found 41 activities
 
 Downloading ibis_denmark-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/ibis_denmark-activities.xml
 Parsing ibis_denmark-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/ibis_denmark-activities.xml
-found 36 activities
+found 55 activities
 
 Downloading ibis_denmark-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/ibis_denmark-org.xml
 Parsing ibis_denmark-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/ibis_denmark-org.xml
@@ -20252,6 +20250,19 @@ found 1 activities
 
 Downloading imcw_admin-04 from https://raw.githubusercontent.com/IATI/CSV2IATI-public-backup/master/1504188822.85.xml
 Converting IATI activities version 1.03 to version 2.03
+./iati-activities.xsl:309: namespace error : Failed to parse QName 'xsl:'
+    <xsl:if test="@vocabulary = 'RO2'"><xsl:attribute name="vocabulary">98</xsl:
+                                                                               ^
+./iati-activities.xsl:309: parser error : expected '>'
+    <xsl:if test="@vocabulary = 'RO2'"><xsl:attribute name="vocabulary">98</xsl:
+                                                                               ^
+./iati-activities.xsl:309: parser error : Opening and ending tag mismatch: attribute line 309 and xsl:
+    <xsl:if test="@vocabulary = 'RO2'"><xsl:attribute name="vocabulary">98</xsl:
+                                                                               ^
+./iati-activities.xsl:309: parser error : Premature end of data in tag if line 309
+    <xsl:if test="@vocabulary = 'RO2'"><xsl:attribute name="vocabulary">98</xsl:
+                                                                               ^
+cannot parse ./iati-activities.xsl
 Parsing imcw_admin-04 from https://raw.githubusercontent.com/IATI/CSV2IATI-public-backup/master/1504188822.85.xml
 found 1 activities
 
@@ -38808,112 +38819,166 @@ Parsing uq-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/uq-org.xml
 found 1 organisations
 
 Downloading usadf-angola from https://iati-reporting.s3.amazonaws.com/african_development_foundation/xml/iati-activities-Angola.xml
+curl: download ERROR 403
 Parsing usadf-angola from https://iati-reporting.s3.amazonaws.com/african_development_foundation/xml/iati-activities-Angola.xml
-found 1 activities
+dflat: input XML file does not exist
+restored 1 files
 
 Downloading usadf-benin from https://iati-reporting.s3.amazonaws.com/african_development_foundation/xml/iati-activities-Benin.xml
+curl: download ERROR 403
 Parsing usadf-benin from https://iati-reporting.s3.amazonaws.com/african_development_foundation/xml/iati-activities-Benin.xml
-found 170 activities
+dflat: input XML file does not exist
+restored 170 files
 
 Downloading usadf-botswana from https://iati-reporting.s3.amazonaws.com/african_development_foundation/xml/iati-activities-Botswana.xml
+curl: download ERROR 403
 Parsing usadf-botswana from https://iati-reporting.s3.amazonaws.com/african_development_foundation/xml/iati-activities-Botswana.xml
-found 23 activities
+dflat: input XML file does not exist
+restored 23 files
 
 Downloading usadf-burkinafaso from https://iati-reporting.s3.amazonaws.com/african_development_foundation/xml/iati-activities-Burkina%20Faso.xml
+curl: download ERROR 403
 Parsing usadf-burkinafaso from https://iati-reporting.s3.amazonaws.com/african_development_foundation/xml/iati-activities-Burkina%20Faso.xml
-found 192 activities
+dflat: input XML file does not exist
+restored 192 files
 
 Downloading usadf-burundi from https://iati-reporting.s3.amazonaws.com/african_development_foundation/xml/iati-activities-Burundi.xml
+curl: download ERROR 403
 Parsing usadf-burundi from https://iati-reporting.s3.amazonaws.com/african_development_foundation/xml/iati-activities-Burundi.xml
-found 141 activities
+dflat: input XML file does not exist
+restored 141 files
 
 Downloading usadf-caboverde from https://iati-reporting.s3.amazonaws.com/african_development_foundation/xml/iati-activities-Cabo%20Verde.xml
+curl: download ERROR 403
 Parsing usadf-caboverde from https://iati-reporting.s3.amazonaws.com/african_development_foundation/xml/iati-activities-Cabo%20Verde.xml
-found 62 activities
+dflat: input XML file does not exist
+restored 62 files
 
 Downloading usadf-cameroon from https://iati-reporting.s3.amazonaws.com/african_development_foundation/xml/iati-activities-Cameroon.xml
+curl: download ERROR 403
 Parsing usadf-cameroon from https://iati-reporting.s3.amazonaws.com/african_development_foundation/xml/iati-activities-Cameroon.xml
-found 12 activities
+dflat: input XML file does not exist
+restored 12 files
 
 Downloading usadf-centralafricanrepublic from https://iati-reporting.s3.amazonaws.com/african_development_foundation/xml/iati-activities-Central%20African%20Republic.xml
+curl: download ERROR 403
 Parsing usadf-centralafricanrepublic from https://iati-reporting.s3.amazonaws.com/african_development_foundation/xml/iati-activities-Central%20African%20Republic.xml
-found 1 activities
+dflat: input XML file does not exist
+restored 1 files
 
 Downloading usadf-chad from https://iati-reporting.s3.amazonaws.com/african_development_foundation/xml/iati-activities-Chad.xml
+curl: download ERROR 403
 Parsing usadf-chad from https://iati-reporting.s3.amazonaws.com/african_development_foundation/xml/iati-activities-Chad.xml
-found 28 activities
+dflat: input XML file does not exist
+restored 28 files
 
 Downloading usadf-congobrazzaville from https://iati-reporting.s3.amazonaws.com/african_development_foundation/xml/iati-activities-Congo%20Brazzaville.xml
+curl: download ERROR 403
 Parsing usadf-congobrazzaville from https://iati-reporting.s3.amazonaws.com/african_development_foundation/xml/iati-activities-Congo%20Brazzaville.xml
-found 1 activities
+dflat: input XML file does not exist
+restored 1 files
 
 Downloading usadf-congokinshasa from https://iati-reporting.s3.amazonaws.com/african_development_foundation/xml/iati-activities-Congo%20Kinshasa.xml
+curl: download ERROR 403
 Parsing usadf-congokinshasa from https://iati-reporting.s3.amazonaws.com/african_development_foundation/xml/iati-activities-Congo%20Kinshasa.xml
-found 46 activities
+dflat: input XML file does not exist
+restored 46 files
 
 Downloading usadf-cotedivoire from https://iati-reporting.s3.amazonaws.com/african_development_foundation/xml/iati-activities-Cote%20dIvoire.xml
+curl: download ERROR 403
 Parsing usadf-cotedivoire from https://iati-reporting.s3.amazonaws.com/african_development_foundation/xml/iati-activities-Cote%20dIvoire.xml
-found 22 activities
+dflat: input XML file does not exist
+restored 22 files
 
 Downloading usadf-eswatini from https://iati-reporting.s3.amazonaws.com/african_development_foundation/xml/iati-activities-eSwatini.xml
+curl: download ERROR 403
 Parsing usadf-eswatini from https://iati-reporting.s3.amazonaws.com/african_development_foundation/xml/iati-activities-eSwatini.xml
-found 29 activities
+dflat: input XML file does not exist
+restored 29 files
 
 Downloading usadf-ethiopia from https://iati-reporting.s3.amazonaws.com/african_development_foundation/xml/iati-activities-Ethiopia.xml
+curl: download ERROR 403
 Parsing usadf-ethiopia from https://iati-reporting.s3.amazonaws.com/african_development_foundation/xml/iati-activities-Ethiopia.xml
-found 46 activities
+dflat: input XML file does not exist
+restored 46 files
 
 Downloading usadf-gabon from https://iati-reporting.s3.amazonaws.com/african_development_foundation/xml/iati-activities-Gabon.xml
+curl: download ERROR 403
 Parsing usadf-gabon from https://iati-reporting.s3.amazonaws.com/african_development_foundation/xml/iati-activities-Gabon.xml
-found 3 activities
+dflat: input XML file does not exist
+restored 3 files
 
 Downloading usadf-gambiathe from https://iati-reporting.s3.amazonaws.com/african_development_foundation/xml/iati-activities-Gambia%20The.xml
+curl: download ERROR 403
 Parsing usadf-gambiathe from https://iati-reporting.s3.amazonaws.com/african_development_foundation/xml/iati-activities-Gambia%20The.xml
-found 1 activities
+dflat: input XML file does not exist
+restored 1 files
 
 Downloading usadf-ghana from https://iati-reporting.s3.amazonaws.com/african_development_foundation/xml/iati-activities-Ghana.xml
+curl: download ERROR 403
 Parsing usadf-ghana from https://iati-reporting.s3.amazonaws.com/african_development_foundation/xml/iati-activities-Ghana.xml
-found 69 activities
+dflat: input XML file does not exist
+restored 69 files
 
 Downloading usadf-guinea from https://iati-reporting.s3.amazonaws.com/african_development_foundation/xml/iati-activities-Guinea.xml
+curl: download ERROR 403
 Parsing usadf-guinea from https://iati-reporting.s3.amazonaws.com/african_development_foundation/xml/iati-activities-Guinea.xml
-found 57 activities
+dflat: input XML file does not exist
+restored 57 files
 
 Downloading usadf-kenya from https://iati-reporting.s3.amazonaws.com/african_development_foundation/xml/iati-activities-Kenya.xml
+curl: download ERROR 403
 Parsing usadf-kenya from https://iati-reporting.s3.amazonaws.com/african_development_foundation/xml/iati-activities-Kenya.xml
-found 249 activities
+dflat: input XML file does not exist
+restored 249 files
 
 Downloading usadf-lesotho from https://iati-reporting.s3.amazonaws.com/african_development_foundation/xml/iati-activities-Lesotho.xml
+curl: download ERROR 403
 Parsing usadf-lesotho from https://iati-reporting.s3.amazonaws.com/african_development_foundation/xml/iati-activities-Lesotho.xml
-found 3 activities
+dflat: input XML file does not exist
+restored 3 files
 
 Downloading usadf-liberia from https://iati-reporting.s3.amazonaws.com/african_development_foundation/xml/iati-activities-Liberia.xml
+curl: download ERROR 403
 Parsing usadf-liberia from https://iati-reporting.s3.amazonaws.com/african_development_foundation/xml/iati-activities-Liberia.xml
-found 158 activities
+dflat: input XML file does not exist
+restored 158 files
 
 Downloading usadf-madagascar from https://iati-reporting.s3.amazonaws.com/african_development_foundation/xml/iati-activities-Madagascar.xml
+curl: download ERROR 403
 Parsing usadf-madagascar from https://iati-reporting.s3.amazonaws.com/african_development_foundation/xml/iati-activities-Madagascar.xml
-found 8 activities
+dflat: input XML file does not exist
+restored 8 files
 
 Downloading usadf-malawi from https://iati-reporting.s3.amazonaws.com/african_development_foundation/xml/iati-activities-Malawi.xml
+curl: download ERROR 403
 Parsing usadf-malawi from https://iati-reporting.s3.amazonaws.com/african_development_foundation/xml/iati-activities-Malawi.xml
-found 185 activities
+dflat: input XML file does not exist
+restored 185 files
 
 Downloading usadf-mali from https://iati-reporting.s3.amazonaws.com/african_development_foundation/xml/iati-activities-Mali.xml
+curl: download ERROR 403
 Parsing usadf-mali from https://iati-reporting.s3.amazonaws.com/african_development_foundation/xml/iati-activities-Mali.xml
-found 99 activities
+dflat: input XML file does not exist
+restored 99 files
 
 Downloading usadf-mauritania from https://iati-reporting.s3.amazonaws.com/african_development_foundation/xml/iati-activities-Mauritania.xml
+curl: download ERROR 403
 Parsing usadf-mauritania from https://iati-reporting.s3.amazonaws.com/african_development_foundation/xml/iati-activities-Mauritania.xml
-found 142 activities
+dflat: input XML file does not exist
+restored 142 files
 
 Downloading usadf-mauritius from https://iati-reporting.s3.amazonaws.com/african_development_foundation/xml/iati-activities-Mauritius.xml
+curl: download ERROR 403
 Parsing usadf-mauritius from https://iati-reporting.s3.amazonaws.com/african_development_foundation/xml/iati-activities-Mauritius.xml
-found 7 activities
+dflat: input XML file does not exist
+restored 7 files
 
 Downloading usadf-mozambique from https://iati-reporting.s3.amazonaws.com/african_development_foundation/xml/iati-activities-Mozambique.xml
+curl: download ERROR 403
 Parsing usadf-mozambique from https://iati-reporting.s3.amazonaws.com/african_development_foundation/xml/iati-activities-Mozambique.xml
-found 1 activities
+dflat: input XML file does not exist
+restored 1 files
 
 Downloading usadf-multiplecountries from https://iati-reporting.s3.amazonaws.com/african_development_foundation/xml/iati-activities-Multiple%20Countries.xml
 curl: download ERROR 403
@@ -38922,72 +38987,104 @@ dflat: input XML file does not exist
 restored 3 files
 
 Downloading usadf-namibia from https://iati-reporting.s3.amazonaws.com/african_development_foundation/xml/iati-activities-Namibia.xml
+curl: download ERROR 403
 Parsing usadf-namibia from https://iati-reporting.s3.amazonaws.com/african_development_foundation/xml/iati-activities-Namibia.xml
-found 9 activities
+dflat: input XML file does not exist
+restored 9 files
 
 Downloading usadf-nigeria from https://iati-reporting.s3.amazonaws.com/african_development_foundation/xml/iati-activities-Nigeria.xml
+curl: download ERROR 403
 Parsing usadf-nigeria from https://iati-reporting.s3.amazonaws.com/african_development_foundation/xml/iati-activities-Nigeria.xml
-found 293 activities
+dflat: input XML file does not exist
+restored 293 files
 
 Downloading usadf-niger from https://iati-reporting.s3.amazonaws.com/african_development_foundation/xml/iati-activities-Niger.xml
+curl: download ERROR 403
 Parsing usadf-niger from https://iati-reporting.s3.amazonaws.com/african_development_foundation/xml/iati-activities-Niger.xml
-found 159 activities
+dflat: input XML file does not exist
+restored 159 files
 
 Downloading usadf-org from https://dept-of-state-iati.s3.amazonaws.com/organisation/adf.xml
 Parsing usadf-org from https://dept-of-state-iati.s3.amazonaws.com/organisation/adf.xml
 found 1 organisations
 
 Downloading usadf-rwanda from https://iati-reporting.s3.amazonaws.com/african_development_foundation/xml/iati-activities-Rwanda.xml
+curl: download ERROR 403
 Parsing usadf-rwanda from https://iati-reporting.s3.amazonaws.com/african_development_foundation/xml/iati-activities-Rwanda.xml
-found 119 activities
+dflat: input XML file does not exist
+restored 119 files
 
 Downloading usadf-saotomeandprincipe from https://iati-reporting.s3.amazonaws.com/african_development_foundation/xml/iati-activities-Sao%20Tome%20and%20Principe.xml
+curl: download ERROR 403
 Parsing usadf-saotomeandprincipe from https://iati-reporting.s3.amazonaws.com/african_development_foundation/xml/iati-activities-Sao%20Tome%20and%20Principe.xml
-found 7 activities
+dflat: input XML file does not exist
+restored 7 files
 
 Downloading usadf-senegal from https://iati-reporting.s3.amazonaws.com/african_development_foundation/xml/iati-activities-Senegal.xml
+curl: download ERROR 403
 Parsing usadf-senegal from https://iati-reporting.s3.amazonaws.com/african_development_foundation/xml/iati-activities-Senegal.xml
-found 136 activities
+dflat: input XML file does not exist
+restored 136 files
 
 Downloading usadf-sierraleone from https://iati-reporting.s3.amazonaws.com/african_development_foundation/xml/iati-activities-Sierra%20Leone.xml
+curl: download ERROR 403
 Parsing usadf-sierraleone from https://iati-reporting.s3.amazonaws.com/african_development_foundation/xml/iati-activities-Sierra%20Leone.xml
-found 32 activities
+dflat: input XML file does not exist
+restored 32 files
 
 Downloading usadf-somalia from https://iati-reporting.s3.amazonaws.com/african_development_foundation/xml/iati-activities-Somalia.xml
+curl: download ERROR 403
 Parsing usadf-somalia from https://iati-reporting.s3.amazonaws.com/african_development_foundation/xml/iati-activities-Somalia.xml
-found 72 activities
+dflat: input XML file does not exist
+restored 72 files
 
 Downloading usadf-southafrica from https://iati-reporting.s3.amazonaws.com/african_development_foundation/xml/iati-activities-South%20Africa.xml
+curl: download ERROR 403
 Parsing usadf-southafrica from https://iati-reporting.s3.amazonaws.com/african_development_foundation/xml/iati-activities-South%20Africa.xml
-found 39 activities
+dflat: input XML file does not exist
+restored 39 files
 
 Downloading usadf-southofsahararegional from https://iati-reporting.s3.amazonaws.com/african_development_foundation/xml/iati-activities-South%20of%20Sahara%20regional.xml
+curl: download ERROR 403
 Parsing usadf-southofsahararegional from https://iati-reporting.s3.amazonaws.com/african_development_foundation/xml/iati-activities-South%20of%20Sahara%20regional.xml
-found 3 activities
+dflat: input XML file does not exist
+restored 3 files
 
 Downloading usadf-southsudan from https://iati-reporting.s3.amazonaws.com/african_development_foundation/xml/iati-activities-South%20Sudan.xml
+curl: download ERROR 403
 Parsing usadf-southsudan from https://iati-reporting.s3.amazonaws.com/african_development_foundation/xml/iati-activities-South%20Sudan.xml
-found 49 activities
+dflat: input XML file does not exist
+restored 49 files
 
 Downloading usadf-tanzania from https://iati-reporting.s3.amazonaws.com/african_development_foundation/xml/iati-activities-Tanzania.xml
+curl: download ERROR 403
 Parsing usadf-tanzania from https://iati-reporting.s3.amazonaws.com/african_development_foundation/xml/iati-activities-Tanzania.xml
-found 136 activities
+dflat: input XML file does not exist
+restored 136 files
 
 Downloading usadf-togo from https://iati-reporting.s3.amazonaws.com/african_development_foundation/xml/iati-activities-Togo.xml
+curl: download ERROR 403
 Parsing usadf-togo from https://iati-reporting.s3.amazonaws.com/african_development_foundation/xml/iati-activities-Togo.xml
-found 5 activities
+dflat: input XML file does not exist
+restored 5 files
 
 Downloading usadf-uganda from https://iati-reporting.s3.amazonaws.com/african_development_foundation/xml/iati-activities-Uganda.xml
+curl: download ERROR 403
 Parsing usadf-uganda from https://iati-reporting.s3.amazonaws.com/african_development_foundation/xml/iati-activities-Uganda.xml
-found 232 activities
+dflat: input XML file does not exist
+restored 232 files
 
 Downloading usadf-zambia from https://iati-reporting.s3.amazonaws.com/african_development_foundation/xml/iati-activities-Zambia.xml
+curl: download ERROR 403
 Parsing usadf-zambia from https://iati-reporting.s3.amazonaws.com/african_development_foundation/xml/iati-activities-Zambia.xml
-found 171 activities
+dflat: input XML file does not exist
+restored 171 files
 
 Downloading usadf-zimbabwe from https://iati-reporting.s3.amazonaws.com/african_development_foundation/xml/iati-activities-Zimbabwe.xml
+curl: download ERROR 403
 Parsing usadf-zimbabwe from https://iati-reporting.s3.amazonaws.com/african_development_foundation/xml/iati-activities-Zimbabwe.xml
-found 160 activities
+dflat: input XML file does not exist
+restored 160 files
 
 Downloading usaid-19 from https://s3.amazonaws.com/files.explorer.devtechlab.com/iati-activities-Multiple+Countries-19.xml
 Parsing usaid-19 from https://s3.amazonaws.com/files.explorer.devtechlab.com/iati-activities-Multiple+Countries-19.xml
@@ -44240,7 +44337,7 @@ found 1 organisations
 
 Downloading yipl-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/yipl-activities.xml
 Parsing yipl-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/yipl-activities.xml
-found 0 activities
+found 3 activities
 
 Downloading yipl-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/yipl-org.xml
 Parsing yipl-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/yipl-org.xml
