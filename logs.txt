@@ -6822,9 +6822,8 @@ dflat: invalid XML format
 restored 0 files
 
 Downloading cif-889 from http://siteresources.worldbank.org/IATI/CIF/CIF-889.xml
-curl: download ERROR 404
 Parsing cif-889 from http://siteresources.worldbank.org/IATI/CIF/CIF-889.xml
-dflat: input XML file does not exist
+dflat: invalid XML format
 restored 0 files
 
 Downloading cif-998 from http://siteresources.worldbank.org/IATI/CIF/CIF-998.xml
@@ -7060,8 +7059,9 @@ Parsing cif-ws from http://doumodqax2qi2.cloudfront.net/CIF/CIF-05-2020/CIF-WS.x
 found 2 activities
 
 Downloading cif-ye from http://siteresources.worldbank.org/IATI/CIF/CIF-YE.xml
+curl: download ERROR 404
 Parsing cif-ye from http://siteresources.worldbank.org/IATI/CIF/CIF-YE.xml
-dflat: invalid XML format
+dflat: input XML file does not exist
 restored 0 files
 
 Downloading cif-za from http://doumodqax2qi2.cloudfront.net/CIF/CIF-05-2020/CIF-ZA.xml
@@ -7216,7 +7216,7 @@ found 6 activities
 
 Downloading cku-all from https://pdb.cku.dk/iati/reportDMRU
 Parsing cku-all from https://pdb.cku.dk/iati/reportDMRU
-found 1054 activities
+found 1055 activities
 
 Downloading cku-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/cku-org.xml
 Parsing cku-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/cku-org.xml
@@ -7947,8 +7947,10 @@ Parsing danida-all_5 from http://iati.um.dk/api/v2/files/iati5.xml
 found 2584 activities
 
 Downloading danida-all_6 from http://iati.um.dk/api/v2/files/iati6.xml
+curl: download ERROR 404
 Parsing danida-all_6 from http://iati.um.dk/api/v2/files/iati6.xml
-found 2584 activities
+dflat: input XML file does not exist
+restored 2584 files
 
 Downloading danida-all_7 from http://iati.um.dk/api/v2/files/iati7.xml
 Parsing danida-all_7 from http://iati.um.dk/api/v2/files/iati7.xml
@@ -11389,7 +11391,7 @@ found 1 organisations
 
 Downloading dpod-2020 from https://info.handicap.dk/iati/reportDH
 Parsing dpod-2020 from https://info.handicap.dk/iati/reportDH
-found 290 activities
+found 291 activities
 
 Downloading dpod-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/dpod-activities.xml
 Parsing dpod-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/dpod-activities.xml
@@ -11566,7 +11568,7 @@ found 423 activities
 
 Downloading ec-echo-2023 from https://webgate.ec.europa.eu/hac/IATI/ec-echo-2023.xml
 Parsing ec-echo-2023 from https://webgate.ec.europa.eu/hac/IATI/ec-echo-2023.xml
-found 210 activities
+found 223 activities
 
 Downloading ec-echo-org from https://webgate.ec.europa.eu/hac/IATI/iati-organisation-file.xml
 Parsing ec-echo-org from https://webgate.ec.europa.eu/hac/IATI/iati-organisation-file.xml
@@ -12709,10 +12711,8 @@ Parsing ec-intpa-pw from https://ec.europa.eu/international-partnerships/assets/
 found 24 activities
 
 Downloading ec-intpa-py from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_PY.xml
-curl: download ERROR 000
 Parsing ec-intpa-py from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_PY.xml
-dflat: input XML file does not exist
-restored 277 files
+found 277 activities
 
 Downloading ec-intpa-ro from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_RO.xml
 Parsing ec-intpa-ro from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_RO.xml
@@ -15618,7 +15618,7 @@ found 1 organisations
 
 Downloading gac-amc-act_2_3 from http://w05.international.gc.ca/projectbrowser-banqueprojets/iita-iati/dfatd-maecd_activit_status_2_3.xml
 Parsing gac-amc-act_2_3 from http://w05.international.gc.ca/projectbrowser-banqueprojets/iita-iati/dfatd-maecd_activit_status_2_3.xml
-found 1775 activities
+found 1778 activities
 
 Downloading gac-amc-act_4 from http://w05.international.gc.ca/projectbrowser-banqueprojets/iita-iati/dfatd-maecd_activit_status_4.xml
 Parsing gac-amc-act_4 from http://w05.international.gc.ca/projectbrowser-banqueprojets/iita-iati/dfatd-maecd_activit_status_4.xml
@@ -16565,7 +16565,7 @@ found 1 organisations
 
 Downloading globalgiving-activity from http://www.globalgiving.org/iati/activities.xml
 Parsing globalgiving-activity from http://www.globalgiving.org/iati/activities.xml
-found 26022 activities
+found 26025 activities
 
 Downloading globalgiving-org from http://www.globalgiving.org/iati/organisations.xml
 Parsing globalgiving-org from http://www.globalgiving.org/iati/organisations.xml
@@ -19489,7 +19489,7 @@ found 48 activities
 
 Downloading ifcwbg-cl from https://disclosures.ifc.org/iati/ifc-cl.xml
 Parsing ifcwbg-cl from https://disclosures.ifc.org/iati/ifc-cl.xml
-found 51 activities
+found 52 activities
 
 Downloading ifcwbg-cm from https://disclosures.ifc.org/iati/ifc-cm.xml
 Parsing ifcwbg-cm from https://disclosures.ifc.org/iati/ifc-cm.xml
@@ -19617,7 +19617,7 @@ found 2 activities
 
 Downloading ifcwbg-in from https://disclosures.ifc.org/iati/ifc-in.xml
 Parsing ifcwbg-in from https://disclosures.ifc.org/iati/ifc-in.xml
-found 455 activities
+found 454 activities
 
 Downloading ifcwbg-iq from https://disclosures.ifc.org/iati/ifc-iq.xml
 Parsing ifcwbg-iq from https://disclosures.ifc.org/iati/ifc-iq.xml
@@ -19797,7 +19797,7 @@ found 26 activities
 
 Downloading ifcwbg-ro from https://disclosures.ifc.org/iati/ifc-ro.xml
 Parsing ifcwbg-ro from https://disclosures.ifc.org/iati/ifc-ro.xml
-found 91 activities
+found 92 activities
 
 Downloading ifcwbg-rs from https://disclosures.ifc.org/iati/ifc-rs.xml
 Parsing ifcwbg-rs from https://disclosures.ifc.org/iati/ifc-rs.xml
