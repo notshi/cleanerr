@@ -6817,8 +6817,9 @@ Parsing cidr-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/ci
 found 1 activities
 
 Downloading cif-389 from http://siteresources.worldbank.org/IATI/CIF/CIF-389.xml
+curl: download ERROR 404
 Parsing cif-389 from http://siteresources.worldbank.org/IATI/CIF/CIF-389.xml
-dflat: invalid XML format
+dflat: input XML file does not exist
 restored 0 files
 
 Downloading cif-889 from http://siteresources.worldbank.org/IATI/CIF/CIF-889.xml
@@ -7947,10 +7948,8 @@ Parsing danida-all_5 from http://iati.um.dk/api/v2/files/iati5.xml
 found 2584 activities
 
 Downloading danida-all_6 from http://iati.um.dk/api/v2/files/iati6.xml
-curl: download ERROR 404
 Parsing danida-all_6 from http://iati.um.dk/api/v2/files/iati6.xml
-dflat: input XML file does not exist
-restored 2584 files
+found 2584 activities
 
 Downloading danida-all_7 from http://iati.um.dk/api/v2/files/iati7.xml
 Parsing danida-all_7 from http://iati.um.dk/api/v2/files/iati7.xml
@@ -11568,7 +11567,7 @@ found 423 activities
 
 Downloading ec-echo-2023 from https://webgate.ec.europa.eu/hac/IATI/ec-echo-2023.xml
 Parsing ec-echo-2023 from https://webgate.ec.europa.eu/hac/IATI/ec-echo-2023.xml
-found 223 activities
+found 226 activities
 
 Downloading ec-echo-org from https://webgate.ec.europa.eu/hac/IATI/iati-organisation-file.xml
 Parsing ec-echo-org from https://webgate.ec.europa.eu/hac/IATI/iati-organisation-file.xml
@@ -16565,7 +16564,7 @@ found 1 organisations
 
 Downloading globalgiving-activity from http://www.globalgiving.org/iati/activities.xml
 Parsing globalgiving-activity from http://www.globalgiving.org/iati/activities.xml
-found 26025 activities
+found 26028 activities
 
 Downloading globalgiving-org from http://www.globalgiving.org/iati/organisations.xml
 Parsing globalgiving-org from http://www.globalgiving.org/iati/organisations.xml
@@ -19497,7 +19496,7 @@ found 30 activities
 
 Downloading ifcwbg-cn from https://disclosures.ifc.org/iati/ifc-cn.xml
 Parsing ifcwbg-cn from https://disclosures.ifc.org/iati/ifc-cn.xml
-found 293 activities
+found 292 activities
 
 Downloading ifcwbg-co from https://disclosures.ifc.org/iati/ifc-co.xml
 Parsing ifcwbg-co from https://disclosures.ifc.org/iati/ifc-co.xml
@@ -21505,7 +21504,7 @@ found 15 activities
 
 Downloading ksrelief291-589 from https://aidstream.s3.us-west-2.amazonaws.com/xml/ksrelief291-589.xml
 Parsing ksrelief291-589 from https://aidstream.s3.us-west-2.amazonaws.com/xml/ksrelief291-589.xml
-found 71 activities
+found 72 activities
 
 Downloading ksrelief291-619 from https://aidstream.s3.us-west-2.amazonaws.com/xml/ksrelief291-619.xml
 Parsing ksrelief291-619 from https://aidstream.s3.us-west-2.amazonaws.com/xml/ksrelief291-619.xml
@@ -23663,7 +23662,7 @@ found 2 activities
 
 Downloading mamac-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/mamac-activities.xml
 Parsing mamac-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/mamac-activities.xml
-found 53 activities
+found 52 activities
 
 Downloading mamac-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/mamac-org.xml
 Parsing mamac-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/mamac-org.xml
@@ -38741,7 +38740,7 @@ found 10747 activities
 
 Downloading unrwa-all from http://static.iati.unrwa.org.s3-website-eu-west-1.amazonaws.com/xml/unrwa-xml-iati-activities.xml
 Parsing unrwa-all from http://static.iati.unrwa.org.s3-website-eu-west-1.amazonaws.com/xml/unrwa-xml-iati-activities.xml
-found 1551 activities
+found 1553 activities
 
 Downloading unrwa-organisation from http://static.iati.unrwa.org/xml/unrwa-organisation.xml
 Parsing unrwa-organisation from http://static.iati.unrwa.org/xml/unrwa-organisation.xml
