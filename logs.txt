@@ -6817,14 +6817,14 @@ Parsing cidr-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/ci
 found 1 activities
 
 Downloading cif-389 from http://siteresources.worldbank.org/IATI/CIF/CIF-389.xml
-curl: download ERROR 404
 Parsing cif-389 from http://siteresources.worldbank.org/IATI/CIF/CIF-389.xml
-dflat: input XML file does not exist
+dflat: invalid XML format
 restored 0 files
 
 Downloading cif-889 from http://siteresources.worldbank.org/IATI/CIF/CIF-889.xml
+curl: download ERROR 404
 Parsing cif-889 from http://siteresources.worldbank.org/IATI/CIF/CIF-889.xml
-dflat: invalid XML format
+dflat: input XML file does not exist
 restored 0 files
 
 Downloading cif-998 from http://siteresources.worldbank.org/IATI/CIF/CIF-998.xml
@@ -6866,8 +6866,9 @@ Parsing cif-br from http://doumodqax2qi2.cloudfront.net/CIF/CIF-05-2020/CIF-BR.x
 found 11 activities
 
 Downloading cif-cd from http://siteresources.worldbank.org/IATI/CIF/CIF-CD.xml
+curl: download ERROR 404
 Parsing cif-cd from http://siteresources.worldbank.org/IATI/CIF/CIF-CD.xml
-dflat: invalid XML format
+dflat: input XML file does not exist
 restored 0 files
 
 Downloading cif-ci from http://doumodqax2qi2.cloudfront.net/CIF/CIF-05-2020/CIF-CI.xml
@@ -7119,7 +7120,7 @@ found 12 activities
 
 Downloading cisu-gaia from https://vores.cisu.dk/activities.xml
 Parsing cisu-gaia from https://vores.cisu.dk/activities.xml
-found 2466 activities
+found 2467 activities
 
 Downloading cisu-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/cisu-org.xml
 Parsing cisu-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/cisu-org.xml
@@ -7615,12 +7616,12 @@ Downloading cowi-org from https://rsr.akvo.org/organisation/4662/iati-org/
 Parsing cowi-org from https://rsr.akvo.org/organisation/4662/iati-org/
 found 1 organisations
 
-Downloading cpd_2021-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/cpd_2021-activities.xml
-Parsing cpd_2021-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/cpd_2021-activities.xml
+Downloading cpd_2021-activities from https://iatipublisher-prod.s3.amazonaws.com/xml/mergedActivityXml/cpd_2021-activities.xml
+Parsing cpd_2021-activities from https://iatipublisher-prod.s3.amazonaws.com/xml/mergedActivityXml/cpd_2021-activities.xml
 found 4 activities
 
-Downloading cpd_2021-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/cpd_2021-org.xml
-Parsing cpd_2021-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/cpd_2021-org.xml
+Downloading cpd_2021-organisation from https://iatipublisher-prod.s3.amazonaws.com/organizationXmlFiles/cpd_2021-organisation.xml
+Parsing cpd_2021-organisation from https://iatipublisher-prod.s3.amazonaws.com/organizationXmlFiles/cpd_2021-organisation.xml
 found 1 organisations
 
 Downloading cpd-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/cpd-activities.xml
@@ -11565,7 +11566,7 @@ found 423 activities
 
 Downloading ec-echo-2023 from https://webgate.ec.europa.eu/hac/IATI/ec-echo-2023.xml
 Parsing ec-echo-2023 from https://webgate.ec.europa.eu/hac/IATI/ec-echo-2023.xml
-found 226 activities
+found 233 activities
 
 Downloading ec-echo-org from https://webgate.ec.europa.eu/hac/IATI/iati-organisation-file.xml
 Parsing ec-echo-org from https://webgate.ec.europa.eu/hac/IATI/iati-organisation-file.xml
@@ -15615,11 +15616,11 @@ found 1 organisations
 
 Downloading gac-amc-act_2_3 from http://w05.international.gc.ca/projectbrowser-banqueprojets/iita-iati/dfatd-maecd_activit_status_2_3.xml
 Parsing gac-amc-act_2_3 from http://w05.international.gc.ca/projectbrowser-banqueprojets/iita-iati/dfatd-maecd_activit_status_2_3.xml
-found 1778 activities
+found 1784 activities
 
 Downloading gac-amc-act_4 from http://w05.international.gc.ca/projectbrowser-banqueprojets/iita-iati/dfatd-maecd_activit_status_4.xml
 Parsing gac-amc-act_4 from http://w05.international.gc.ca/projectbrowser-banqueprojets/iita-iati/dfatd-maecd_activit_status_4.xml
-found 4232 activities
+found 4233 activities
 
 Downloading gac-amc-org from http://w05.international.gc.ca/projectbrowser-banqueprojets/iita-iati/dfatd-maecd_organisation.xml
 Parsing gac-amc-org from http://w05.international.gc.ca/projectbrowser-banqueprojets/iita-iati/dfatd-maecd_organisation.xml
@@ -16562,11 +16563,11 @@ found 1 organisations
 
 Downloading globalgiving-activity from http://www.globalgiving.org/iati/activities.xml
 Parsing globalgiving-activity from http://www.globalgiving.org/iati/activities.xml
-found 26031 activities
+found 26033 activities
 
 Downloading globalgiving-org from http://www.globalgiving.org/iati/organisations.xml
 Parsing globalgiving-org from http://www.globalgiving.org/iati/organisations.xml
-found 14990 organisations
+found 14991 organisations
 
 Downloading globalshea-activities from https://iatipublisher-prod.s3.amazonaws.com/xml/mergedActivityXml/globalshea-activities.xml
 Parsing globalshea-activities from https://iatipublisher-prod.s3.amazonaws.com/xml/mergedActivityXml/globalshea-activities.xml
@@ -16752,12 +16753,12 @@ Downloading guttmacher-org from https://aidstream.s3.us-west-2.amazonaws.com/xml
 Parsing guttmacher-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/guttmacher-org.xml
 found 1 organisations
 
-Downloading gvtc-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/gvtc-activities.xml
-Parsing gvtc-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/gvtc-activities.xml
+Downloading gvtc-activities from https://iatipublisher-prod.s3.amazonaws.com/xml/mergedActivityXml/gvtc-activities.xml
+Parsing gvtc-activities from https://iatipublisher-prod.s3.amazonaws.com/xml/mergedActivityXml/gvtc-activities.xml
 found 1 activities
 
-Downloading gvtc-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/gvtc-org.xml
-Parsing gvtc-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/gvtc-org.xml
+Downloading gvtc-organisation from https://iatipublisher-prod.s3.amazonaws.com/organizationXmlFiles/gvtc-organisation.xml
+Parsing gvtc-organisation from https://iatipublisher-prod.s3.amazonaws.com/organizationXmlFiles/gvtc-organisation.xml
 found 1 organisations
 
 Downloading gwp-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/gwp-activities.xml
@@ -19422,7 +19423,7 @@ found 1 activities
 
 Downloading ifcwbg-bd from https://disclosures.ifc.org/iati/ifc-bd.xml
 Parsing ifcwbg-bd from https://disclosures.ifc.org/iati/ifc-bd.xml
-found 81 activities
+found 82 activities
 
 Downloading ifcwbg-bf from https://disclosures.ifc.org/iati/ifc-bf.xml
 Parsing ifcwbg-bf from https://disclosures.ifc.org/iati/ifc-bf.xml
@@ -19614,7 +19615,7 @@ found 2 activities
 
 Downloading ifcwbg-in from https://disclosures.ifc.org/iati/ifc-in.xml
 Parsing ifcwbg-in from https://disclosures.ifc.org/iati/ifc-in.xml
-found 454 activities
+found 455 activities
 
 Downloading ifcwbg-iq from https://disclosures.ifc.org/iati/ifc-iq.xml
 Parsing ifcwbg-iq from https://disclosures.ifc.org/iati/ifc-iq.xml
@@ -21300,12 +21301,12 @@ Downloading kcdf-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/kcdf-
 Parsing kcdf-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/kcdf-org.xml
 found 1 organisations
 
-Downloading keele-university-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/keele-university-activities.xml
-Parsing keele-university-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/keele-university-activities.xml
+Downloading keele-university-activities from https://iatipublisher-prod.s3.amazonaws.com/xml/mergedActivityXml/keele-university-activities.xml
+Parsing keele-university-activities from https://iatipublisher-prod.s3.amazonaws.com/xml/mergedActivityXml/keele-university-activities.xml
 found 1 activities
 
-Downloading keele-university-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/keele-university-org.xml
-Parsing keele-university-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/keele-university-org.xml
+Downloading keele-university-organisation from https://iatipublisher-prod.s3.amazonaws.com/organizationXmlFiles/keele-university-organisation.xml
+Parsing keele-university-organisation from https://iatipublisher-prod.s3.amazonaws.com/organizationXmlFiles/keele-university-organisation.xml
 found 1 organisations
 
 Downloading kemitraan-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/kemitraan-activities.xml
@@ -24104,7 +24105,7 @@ found 148 activities
 
 Downloading millenniumchallenge-bj from https://inventory.data.gov/dataset/d4b25051-0bf8-4dd1-8c06-bbed2e4bb193/resource/0dd6c1d7-1d27-436d-a230-8086d49f41ba/download/mcc_bj.xml
 Parsing millenniumchallenge-bj from https://inventory.data.gov/dataset/d4b25051-0bf8-4dd1-8c06-bbed2e4bb193/resource/0dd6c1d7-1d27-436d-a230-8086d49f41ba/download/mcc_bj.xml
-found 202 activities
+found 206 activities
 
 Downloading millenniumchallenge-bo from https://inventory.data.gov/dataset/d4b25051-0bf8-4dd1-8c06-bbed2e4bb193/resource/03edacb8-4771-4ffe-9d84-c89d16cff6a8/download/mcc_bo.xml
 Parsing millenniumchallenge-bo from https://inventory.data.gov/dataset/d4b25051-0bf8-4dd1-8c06-bbed2e4bb193/resource/03edacb8-4771-4ffe-9d84-c89d16cff6a8/download/mcc_bo.xml
@@ -24112,7 +24113,7 @@ found 3 activities
 
 Downloading millenniumchallenge-ci from https://inventory.data.gov/dataset/d4b25051-0bf8-4dd1-8c06-bbed2e4bb193/resource/caf681aa-2a90-4f9f-9931-684dc5f3d4bd/download/mcc_ci.xml
 Parsing millenniumchallenge-ci from https://inventory.data.gov/dataset/d4b25051-0bf8-4dd1-8c06-bbed2e4bb193/resource/caf681aa-2a90-4f9f-9931-684dc5f3d4bd/download/mcc_ci.xml
-found 94 activities
+found 97 activities
 
 Downloading millenniumchallenge-cv from https://inventory.data.gov/dataset/d4b25051-0bf8-4dd1-8c06-bbed2e4bb193/resource/5eae179f-9d4a-4963-b069-f75c8cd4b58e/download/mcc_cv.xml
 Parsing millenniumchallenge-cv from https://inventory.data.gov/dataset/d4b25051-0bf8-4dd1-8c06-bbed2e4bb193/resource/5eae179f-9d4a-4963-b069-f75c8cd4b58e/download/mcc_cv.xml
@@ -24176,7 +24177,7 @@ found 65 activities
 
 Downloading millenniumchallenge-ls from https://inventory.data.gov/dataset/d4b25051-0bf8-4dd1-8c06-bbed2e4bb193/resource/5aa8e5e2-9142-4ce8-8cf2-be95cffa4a40/download/mcc_ls.xml
 Parsing millenniumchallenge-ls from https://inventory.data.gov/dataset/d4b25051-0bf8-4dd1-8c06-bbed2e4bb193/resource/5aa8e5e2-9142-4ce8-8cf2-be95cffa4a40/download/mcc_ls.xml
-found 170 activities
+found 172 activities
 
 Downloading millenniumchallenge-ma from https://inventory.data.gov/dataset/d4b25051-0bf8-4dd1-8c06-bbed2e4bb193/resource/b68de60e-196d-429f-bf79-c11f5b645646/download/mcc_ma.xml
 Parsing millenniumchallenge-ma from https://inventory.data.gov/dataset/d4b25051-0bf8-4dd1-8c06-bbed2e4bb193/resource/b68de60e-196d-429f-bf79-c11f5b645646/download/mcc_ma.xml
@@ -24200,11 +24201,11 @@ found 173 activities
 
 Downloading millenniumchallenge-mw from https://inventory.data.gov/dataset/d4b25051-0bf8-4dd1-8c06-bbed2e4bb193/resource/dc166e3c-6225-4e38-b006-746a7ff3ead4/download/mcc_mw.xml
 Parsing millenniumchallenge-mw from https://inventory.data.gov/dataset/d4b25051-0bf8-4dd1-8c06-bbed2e4bb193/resource/dc166e3c-6225-4e38-b006-746a7ff3ead4/download/mcc_mw.xml
-found 137 activities
+found 139 activities
 
 Downloading millenniumchallenge-mz from https://inventory.data.gov/dataset/d4b25051-0bf8-4dd1-8c06-bbed2e4bb193/resource/31d51a70-9922-4887-b9e1-5bc0242fec3e/download/mcc_mz.xml
 Parsing millenniumchallenge-mz from https://inventory.data.gov/dataset/d4b25051-0bf8-4dd1-8c06-bbed2e4bb193/resource/31d51a70-9922-4887-b9e1-5bc0242fec3e/download/mcc_mz.xml
-found 125 activities
+found 126 activities
 
 Downloading millenniumchallenge-na from https://inventory.data.gov/dataset/d4b25051-0bf8-4dd1-8c06-bbed2e4bb193/resource/18ab6bbe-31a9-4ffe-b26b-2ce5f63fc4d4/download/mcc_na.xml
 Parsing millenniumchallenge-na from https://inventory.data.gov/dataset/d4b25051-0bf8-4dd1-8c06-bbed2e4bb193/resource/18ab6bbe-31a9-4ffe-b26b-2ce5f63fc4d4/download/mcc_na.xml
@@ -24212,7 +24213,7 @@ found 81 activities
 
 Downloading millenniumchallenge-ne from https://inventory.data.gov/dataset/d4b25051-0bf8-4dd1-8c06-bbed2e4bb193/resource/a57fed37-839e-4ed4-80c9-b89c2af54276/download/mcc_ne.xml
 Parsing millenniumchallenge-ne from https://inventory.data.gov/dataset/d4b25051-0bf8-4dd1-8c06-bbed2e4bb193/resource/a57fed37-839e-4ed4-80c9-b89c2af54276/download/mcc_ne.xml
-found 129 activities
+found 132 activities
 
 Downloading millenniumchallenge-ni from https://inventory.data.gov/dataset/d4b25051-0bf8-4dd1-8c06-bbed2e4bb193/resource/38953f3d-a277-4248-9df6-1d2ea54470d2/download/mcc_ni.xml
 Parsing millenniumchallenge-ni from https://inventory.data.gov/dataset/d4b25051-0bf8-4dd1-8c06-bbed2e4bb193/resource/38953f3d-a277-4248-9df6-1d2ea54470d2/download/mcc_ni.xml
@@ -24220,7 +24221,7 @@ found 95 activities
 
 Downloading millenniumchallenge-np from https://inventory.data.gov/dataset/d4b25051-0bf8-4dd1-8c06-bbed2e4bb193/resource/b90d10a0-b3bb-46fd-b4ed-11f277925dd3/download/mcc_np.xml
 Parsing millenniumchallenge-np from https://inventory.data.gov/dataset/d4b25051-0bf8-4dd1-8c06-bbed2e4bb193/resource/b90d10a0-b3bb-46fd-b4ed-11f277925dd3/download/mcc_np.xml
-found 66 activities
+found 68 activities
 
 Downloading millenniumchallenge-org from https://inventory.data.gov/dataset/d4b25051-0bf8-4dd1-8c06-bbed2e4bb193/resource/9d0af48a-e44c-41b9-b572-729068438a92/download/organisation.xml
 Parsing millenniumchallenge-org from https://inventory.data.gov/dataset/d4b25051-0bf8-4dd1-8c06-bbed2e4bb193/resource/9d0af48a-e44c-41b9-b572-729068438a92/download/organisation.xml
@@ -24240,7 +24241,7 @@ found 22 activities
 
 Downloading millenniumchallenge-sl from https://inventory.data.gov/dataset/d4b25051-0bf8-4dd1-8c06-bbed2e4bb193/resource/f786f7e6-0f46-421e-9ceb-e824c7eedd8e/download/mcc_sl.xml
 Parsing millenniumchallenge-sl from https://inventory.data.gov/dataset/d4b25051-0bf8-4dd1-8c06-bbed2e4bb193/resource/f786f7e6-0f46-421e-9ceb-e824c7eedd8e/download/mcc_sl.xml
-found 79 activities
+found 81 activities
 
 Downloading millenniumchallenge-sn from https://inventory.data.gov/dataset/d4b25051-0bf8-4dd1-8c06-bbed2e4bb193/resource/07f35ebb-3e0d-48b6-893c-09ecb6bcee93/download/mcc_sn.xml
 Parsing millenniumchallenge-sn from https://inventory.data.gov/dataset/d4b25051-0bf8-4dd1-8c06-bbed2e4bb193/resource/07f35ebb-3e0d-48b6-893c-09ecb6bcee93/download/mcc_sn.xml
@@ -24260,7 +24261,7 @@ found 34 activities
 
 Downloading millenniumchallenge-tl from https://inventory.data.gov/dataset/d4b25051-0bf8-4dd1-8c06-bbed2e4bb193/resource/3d887246-3395-45d6-a54c-2f52b85528b2/download/mcc_tl.xml
 Parsing millenniumchallenge-tl from https://inventory.data.gov/dataset/d4b25051-0bf8-4dd1-8c06-bbed2e4bb193/resource/3d887246-3395-45d6-a54c-2f52b85528b2/download/mcc_tl.xml
-found 75 activities
+found 77 activities
 
 Downloading millenniumchallenge-tn from https://inventory.data.gov/dataset/d4b25051-0bf8-4dd1-8c06-bbed2e4bb193/resource/a31ac84e-e981-4fa4-ad25-35c3c6094d22/download/mcc_tn.xml
 Parsing millenniumchallenge-tn from https://inventory.data.gov/dataset/d4b25051-0bf8-4dd1-8c06-bbed2e4bb193/resource/a31ac84e-e981-4fa4-ad25-35c3c6094d22/download/mcc_tn.xml
@@ -24280,7 +24281,7 @@ found 54 activities
 
 Downloading millenniumchallenge-xk from https://inventory.data.gov/dataset/d4b25051-0bf8-4dd1-8c06-bbed2e4bb193/resource/d2ff0f14-fdbd-458b-8729-35929f61fcb0/download/mcc_xk.xml
 Parsing millenniumchallenge-xk from https://inventory.data.gov/dataset/d4b25051-0bf8-4dd1-8c06-bbed2e4bb193/resource/d2ff0f14-fdbd-458b-8729-35929f61fcb0/download/mcc_xk.xml
-found 90 activities
+found 92 activities
 
 Downloading millenniumchallenge-zm from https://inventory.data.gov/dataset/d4b25051-0bf8-4dd1-8c06-bbed2e4bb193/resource/ceb1021f-df21-413b-a877-68ce78eff6ee/download/mcc_zm.xml
 Parsing millenniumchallenge-zm from https://inventory.data.gov/dataset/d4b25051-0bf8-4dd1-8c06-bbed2e4bb193/resource/ceb1021f-df21-413b-a877-68ce78eff6ee/download/mcc_zm.xml
@@ -24497,12 +24498,12 @@ Downloading mrf-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/mrf-or
 Parsing mrf-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/mrf-org.xml
 found 1 organisations
 
-Downloading mrg-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/mrg-activities.xml
-Parsing mrg-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/mrg-activities.xml
+Downloading mrg-activities from https://iatipublisher-prod.s3.amazonaws.com/xml/mergedActivityXml/mrg-activities.xml
+Parsing mrg-activities from https://iatipublisher-prod.s3.amazonaws.com/xml/mergedActivityXml/mrg-activities.xml
 found 4 activities
 
-Downloading mrg-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/mrg-org.xml
-Parsing mrg-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/mrg-org.xml
+Downloading mrg-organisation from https://iatipublisher-prod.s3.amazonaws.com/organizationXmlFiles/mrg-organisation.xml
+Parsing mrg-organisation from https://iatipublisher-prod.s3.amazonaws.com/organizationXmlFiles/mrg-organisation.xml
 found 1 organisations
 
 Downloading msi-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/msi-activities.xml
@@ -25521,7 +25522,7 @@ found 2220 activities
 
 Downloading onl-activity from https://www.oxfamnovib.nl/redactie/Downloads/XML/iati.xml
 Parsing onl-activity from https://www.oxfamnovib.nl/redactie/Downloads/XML/iati.xml
-found 1848 activities
+found 1849 activities
 
 Downloading onl-org from https://www.oxfamnovib.nl/redactie/downloads/xml/IATI_NL-KVK-27108436.xml
 Parsing onl-org from https://www.oxfamnovib.nl/redactie/downloads/xml/IATI_NL-KVK-27108436.xml
@@ -27857,7 +27858,7 @@ found 1 organisations
 
 Downloading rvo-01 from https://projects.rvo.nl/opendata/iati.xml
 Parsing rvo-01 from https://projects.rvo.nl/opendata/iati.xml
-found 4193 activities
+found 4194 activities
 
 Downloading rvo-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/rvo-activities.xml
 Parsing rvo-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/rvo-activities.xml
@@ -29647,11 +29648,9 @@ Downloading state-afghanistan from https://iati-reporting.s3.amazonaws.com/depar
 Parsing state-afghanistan from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Afghanistan.xml
 found 1798 activities
 
-Downloading state-africanorthofthesahara from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Africa%20North%20of%20the%20Sahara.xml
-curl: download ERROR 403
-Parsing state-africanorthofthesahara from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Africa%20North%20of%20the%20Sahara.xml
-dflat: input XML file does not exist
-restored 0 files
+Downloading state-africanorthofthesahara from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Africa%20North%20of%20Sahara.xml
+Parsing state-africanorthofthesahara from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Africa%20North%20of%20Sahara.xml
+found 51 activities
 
 Downloading state-albania from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Albania.xml
 Parsing state-albania from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Albania.xml
@@ -29669,6 +29668,12 @@ Downloading state-angola from https://iati-reporting.s3.amazonaws.com/department
 Parsing state-angola from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Angola.xml
 found 139 activities
 
+Downloading state-antiguaandbarbuda from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-antigua%20and%20barbuda.xml
+curl: download ERROR 403
+Parsing state-antiguaandbarbuda from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-antigua%20and%20barbuda.xml
+dflat: input XML file does not exist
+restored 0 files
+
 Downloading state-argentina from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Argentina.xml
 Parsing state-argentina from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Argentina.xml
 found 219 activities
@@ -29676,6 +29681,36 @@ found 219 activities
 Downloading state-armenia from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Armenia.xml
 Parsing state-armenia from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Armenia.xml
 found 1201 activities
+
+Downloading state-aruba from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-aruba.xml
+curl: download ERROR 403
+Parsing state-aruba from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-aruba.xml
+dflat: input XML file does not exist
+restored 0 files
+
+Downloading state-asiamiddleeastandnorthafrica from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-asia,%20middle%20east%20and%20north%20afri.xml
+curl: download ERROR 403
+Parsing state-asiamiddleeastandnorthafrica from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-asia,%20middle%20east%20and%20north%20afri.xml
+dflat: input XML file does not exist
+restored 0 files
+
+Downloading state-asiaregional from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-asia%20regional.xml
+curl: download ERROR 403
+Parsing state-asiaregional from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-asia%20regional.xml
+dflat: input XML file does not exist
+restored 0 files
+
+Downloading state-austria from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-austria.xml
+curl: download ERROR 403
+Parsing state-austria from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-austria.xml
+dflat: input XML file does not exist
+restored 0 files
+
+Downloading state-azerbaijan from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-azerbaijan.xml
+curl: download ERROR 403
+Parsing state-azerbaijan from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-azerbaijan.xml
+dflat: input XML file does not exist
+restored 0 files
 
 Downloading state-bahamasthe from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Bahamas%20The.xml
 Parsing state-bahamasthe from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Bahamas%20The.xml
@@ -29705,6 +29740,18 @@ Downloading state-benin from https://iati-reporting.s3.amazonaws.com/department_
 Parsing state-benin from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Benin.xml
 found 322 activities
 
+Downloading state-bhutan from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-bhutan.xml
+curl: download ERROR 403
+Parsing state-bhutan from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-bhutan.xml
+dflat: input XML file does not exist
+restored 0 files
+
+Downloading state-bolivia from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-bolivia.xml
+curl: download ERROR 403
+Parsing state-bolivia from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-bolivia.xml
+dflat: input XML file does not exist
+restored 0 files
+
 Downloading state-bosniaandherzegovina from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Bosnia%20and%20Herzegovina.xml
 Parsing state-bosniaandherzegovina from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Bosnia%20and%20Herzegovina.xml
 found 1931 activities
@@ -29712,6 +29759,24 @@ found 1931 activities
 Downloading state-botswana from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Botswana.xml
 Parsing state-botswana from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Botswana.xml
 found 515 activities
+
+Downloading state-brazil from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-brazil.xml
+curl: download ERROR 403
+Parsing state-brazil from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-brazil.xml
+dflat: input XML file does not exist
+restored 0 files
+
+Downloading state-bulgaria from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-bulgaria.xml
+curl: download ERROR 403
+Parsing state-bulgaria from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-bulgaria.xml
+dflat: input XML file does not exist
+restored 0 files
+
+Downloading state-burkinafaso from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-burkina%20faso.xml
+curl: download ERROR 403
+Parsing state-burkinafaso from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-burkina%20faso.xml
+dflat: input XML file does not exist
+restored 0 files
 
 Downloading state-burma from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Burma.xml
 Parsing state-burma from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Burma.xml
@@ -29729,21 +29794,35 @@ Downloading state-cambodia from https://iati-reporting.s3.amazonaws.com/departme
 Parsing state-cambodia from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Cambodia.xml
 found 203 activities
 
+Downloading state-cameroon from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-cameroon.xml
+curl: download ERROR 403
+Parsing state-cameroon from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-cameroon.xml
+dflat: input XML file does not exist
+restored 0 files
+
+Downloading state-canada from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-canada.xml
+curl: download ERROR 403
+Parsing state-canada from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-canada.xml
+dflat: input XML file does not exist
+restored 0 files
+
+Downloading state-caribbean from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-caribbean.xml
+curl: download ERROR 403
+Parsing state-caribbean from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-caribbean.xml
+dflat: input XML file does not exist
+restored 0 files
+
 Downloading state-centralafricanrepublic from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Central%20African%20Republic.xml
 Parsing state-centralafricanrepublic from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Central%20African%20Republic.xml
 found 247 activities
 
-Downloading state-centralamericanandcaribbeanregional from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Central%20American%20and%20Caribbean%20Regional.xml
-curl: download ERROR 403
-Parsing state-centralamericanandcaribbeanregional from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Central%20American%20and%20Caribbean%20Regional.xml
-dflat: input XML file does not exist
-restored 0 files
+Downloading state-centralamericanandcaribbeanregional from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Central%20America%20and%20Caribbean%20Re.xml
+Parsing state-centralamericanandcaribbeanregional from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Central%20America%20and%20Caribbean%20Re.xml
+found 112 activities
 
-Downloading state-centralasiaregional from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Central%20Asia%20Regional.xml
-curl: download ERROR 403
-Parsing state-centralasiaregional from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Central%20Asia%20Regional.xml
-dflat: input XML file does not exist
-restored 0 files
+Downloading state-centralasiaregional from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Central%20Asia%20regional.xml
+Parsing state-centralasiaregional from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Central%20Asia%20regional.xml
+found 51 activities
 
 Downloading state-chad from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Chad.xml
 Parsing state-chad from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Chad.xml
@@ -29753,9 +29832,13 @@ Downloading state-chile from https://iati-reporting.s3.amazonaws.com/department_
 Parsing state-chile from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Chile.xml
 found 88 activities
 
-Downloading state-chinaprhongkong from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-China%20PR%20Hong%20Kong.xml
+Downloading state-chinaprhongkong from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-China%20%28P.R.%20Hong%20Kong%29.xml
+Parsing state-chinaprhongkong from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-China%20%28P.R.%20Hong%20Kong%29.xml
+found 7 activities
+
+Downloading state-chinarepublicoftaiwan from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-china%20%28republic%20of%20taiwan%29.xml
 curl: download ERROR 403
-Parsing state-chinaprhongkong from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-China%20PR%20Hong%20Kong.xml
+Parsing state-chinarepublicoftaiwan from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-china%20%28republic%20of%20taiwan%29.xml
 dflat: input XML file does not exist
 restored 0 files
 
@@ -29770,6 +29853,12 @@ found 7035 activities
 Downloading state-comoros from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Comoros.xml
 Parsing state-comoros from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Comoros.xml
 found 3 activities
+
+Downloading state-congobrazzaville from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-congo%20brazzaville.xml
+curl: download ERROR 403
+Parsing state-congobrazzaville from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-congo%20brazzaville.xml
+dflat: input XML file does not exist
+restored 0 files
 
 Downloading state-congokinshasa from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Congo%20Kinshasa.xml
 Parsing state-congokinshasa from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Congo%20Kinshasa.xml
@@ -29791,6 +29880,18 @@ Downloading state-cuba from https://iati-reporting.s3.amazonaws.com/department_o
 Parsing state-cuba from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Cuba.xml
 found 36 activities
 
+Downloading state-curacao from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-curacao.xml
+curl: download ERROR 403
+Parsing state-curacao from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-curacao.xml
+dflat: input XML file does not exist
+restored 0 files
+
+Downloading state-cyprus from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-cyprus.xml
+curl: download ERROR 403
+Parsing state-cyprus from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-cyprus.xml
+dflat: input XML file does not exist
+restored 0 files
+
 Downloading state-czechrepublic from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Czech%20Republic.xml
 Parsing state-czechrepublic from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Czech%20Republic.xml
 found 37 activities
@@ -29802,6 +29903,12 @@ found 289 activities
 Downloading state-dominicanrepublic from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Dominican%20Republic.xml
 Parsing state-dominicanrepublic from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Dominican%20Republic.xml
 found 1160 activities
+
+Downloading state-dominica from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-dominica.xml
+curl: download ERROR 403
+Parsing state-dominica from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-dominica.xml
+dflat: input XML file does not exist
+restored 0 files
 
 Downloading state-eastasiaandoceaniaregion from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-East%20Asia%20and%20Oceania%20Region.xml
 Parsing state-eastasiaandoceaniaregion from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-East%20Asia%20and%20Oceania%20Region.xml
@@ -29819,9 +29926,29 @@ Downloading state-elsalvador from https://iati-reporting.s3.amazonaws.com/depart
 Parsing state-elsalvador from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-El%20Salvador.xml
 found 3733 activities
 
-Downloading state-eswatini from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-eSwatini.xml
-Parsing state-eswatini from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-eSwatini.xml
-found 536 activities
+Downloading state-equatorialguinea from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-equatorial%20guinea.xml
+curl: download ERROR 403
+Parsing state-equatorialguinea from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-equatorial%20guinea.xml
+dflat: input XML file does not exist
+restored 0 files
+
+Downloading state-eritrea from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-eritrea.xml
+curl: download ERROR 403
+Parsing state-eritrea from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-eritrea.xml
+dflat: input XML file does not exist
+restored 0 files
+
+Downloading state-estonia from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-estonia.xml
+curl: download ERROR 403
+Parsing state-estonia from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-estonia.xml
+dflat: input XML file does not exist
+restored 0 files
+
+Downloading state-eswatini from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-eswatini.xml
+curl: download ERROR 403
+Parsing state-eswatini from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-eswatini.xml
+dflat: input XML file does not exist
+restored 536 files
 
 Downloading state-ethiopia from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Ethiopia.xml
 Parsing state-ethiopia from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Ethiopia.xml
@@ -29835,6 +29962,24 @@ Downloading state-fareastasiaregional from https://iati-reporting.s3.amazonaws.c
 Parsing state-fareastasiaregional from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Far%20East%20Asia%20regional.xml
 found 35 activities
 
+Downloading state-fiji from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-fiji.xml
+curl: download ERROR 403
+Parsing state-fiji from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-fiji.xml
+dflat: input XML file does not exist
+restored 0 files
+
+Downloading state-france from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-france.xml
+curl: download ERROR 403
+Parsing state-france from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-france.xml
+dflat: input XML file does not exist
+restored 0 files
+
+Downloading state-gabon from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-gabon.xml
+curl: download ERROR 403
+Parsing state-gabon from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-gabon.xml
+dflat: input XML file does not exist
+restored 0 files
+
 Downloading state-gambiathe from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Gambia%20The.xml
 Parsing state-gambiathe from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Gambia%20The.xml
 found 78 activities
@@ -29846,6 +29991,12 @@ found 1485 activities
 Downloading state-ghana from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Ghana.xml
 Parsing state-ghana from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Ghana.xml
 found 575 activities
+
+Downloading state-greece from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-greece.xml
+curl: download ERROR 403
+Parsing state-greece from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-greece.xml
+dflat: input XML file does not exist
+restored 0 files
 
 Downloading state-greenland from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Greenland.xml
 Parsing state-greenland from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Greenland.xml
@@ -29891,6 +30042,12 @@ Downloading state-iraq from https://iati-reporting.s3.amazonaws.com/department_o
 Parsing state-iraq from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Iraq.xml
 found 2042 activities
 
+Downloading state-ireland from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-ireland.xml
+curl: download ERROR 403
+Parsing state-ireland from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-ireland.xml
+dflat: input XML file does not exist
+restored 0 files
+
 Downloading state-israel from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Israel.xml
 Parsing state-israel from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Israel.xml
 found 1015 activities
@@ -29911,6 +30068,12 @@ Downloading state-kenya from https://iati-reporting.s3.amazonaws.com/department_
 Parsing state-kenya from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Kenya.xml
 found 4314 activities
 
+Downloading state-kiribati from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-kiribati.xml
+curl: download ERROR 403
+Parsing state-kiribati from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-kiribati.xml
+dflat: input XML file does not exist
+restored 0 files
+
 Downloading state-koreanorth from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Korea%20North.xml
 Parsing state-koreanorth from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Korea%20North.xml
 found 18 activities
@@ -29923,6 +30086,12 @@ Downloading state-kosovo from https://iati-reporting.s3.amazonaws.com/department
 Parsing state-kosovo from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Kosovo.xml
 found 984 activities
 
+Downloading state-kuwait from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-kuwait.xml
+curl: download ERROR 403
+Parsing state-kuwait from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-kuwait.xml
+dflat: input XML file does not exist
+restored 0 files
+
 Downloading state-kyrgyzstan from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Kyrgyzstan.xml
 Parsing state-kyrgyzstan from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Kyrgyzstan.xml
 found 736 activities
@@ -29930,6 +30099,18 @@ found 736 activities
 Downloading state-laos from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Laos.xml
 Parsing state-laos from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Laos.xml
 found 518 activities
+
+Downloading state-latinamericaregion from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-latin%20america%20region.xml
+curl: download ERROR 403
+Parsing state-latinamericaregion from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-latin%20america%20region.xml
+dflat: input XML file does not exist
+restored 0 files
+
+Downloading state-latvia from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-latvia.xml
+curl: download ERROR 403
+Parsing state-latvia from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-latvia.xml
+dflat: input XML file does not exist
+restored 0 files
 
 Downloading state-lebanon from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Lebanon.xml
 Parsing state-lebanon from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Lebanon.xml
@@ -29946,6 +30127,18 @@ found 376 activities
 Downloading state-libya from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Libya.xml
 Parsing state-libya from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Libya.xml
 found 347 activities
+
+Downloading state-lithuanua from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-lithuanua.xml
+curl: download ERROR 403
+Parsing state-lithuanua from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-lithuanua.xml
+dflat: input XML file does not exist
+restored 0 files
+
+Downloading state-macau from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-macau.xml
+curl: download ERROR 403
+Parsing state-macau from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-macau.xml
+dflat: input XML file does not exist
+restored 0 files
 
 Downloading state-madagascar from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Madagascar.xml
 Parsing state-madagascar from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Madagascar.xml
@@ -29967,6 +30160,12 @@ Downloading state-mali from https://iati-reporting.s3.amazonaws.com/department_o
 Parsing state-mali from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Mali.xml
 found 932 activities
 
+Downloading state-malta from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-malta.xml
+curl: download ERROR 403
+Parsing state-malta from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-malta.xml
+dflat: input XML file does not exist
+restored 0 files
+
 Downloading state-marshallislands from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Marshall%20Islands.xml
 Parsing state-marshallislands from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Marshall%20Islands.xml
 found 40 activities
@@ -29974,6 +30173,12 @@ found 40 activities
 Downloading state-mauritania from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Mauritania.xml
 Parsing state-mauritania from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Mauritania.xml
 found 501 activities
+
+Downloading state-mauritius from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-mauritius.xml
+curl: download ERROR 403
+Parsing state-mauritius from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-mauritius.xml
+dflat: input XML file does not exist
+restored 0 files
 
 Downloading state-mexico from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Mexico.xml
 Parsing state-mexico from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Mexico.xml
@@ -30007,105 +30212,73 @@ Downloading state-mozambique from https://iati-reporting.s3.amazonaws.com/depart
 Parsing state-mozambique from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Mozambique.xml
 found 995 activities
 
-Downloading state-multiplecountries-10 from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-MultipleCountries-10.xml
-curl: download ERROR 403
-Parsing state-multiplecountries-10 from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-MultipleCountries-10.xml
-dflat: input XML file does not exist
-restored 0 files
+Downloading state-multiplecountries-10 from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Multiple%20Countries-10.xml
+Parsing state-multiplecountries-10 from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Multiple%20Countries-10.xml
+found 10405 activities
 
-Downloading state-multiplecountries-11 from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-MultipleCountries-11.xml
-curl: download ERROR 403
-Parsing state-multiplecountries-11 from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-MultipleCountries-11.xml
-dflat: input XML file does not exist
-restored 0 files
+Downloading state-multiplecountries-11 from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Multiple%20Countries-11.xml
+Parsing state-multiplecountries-11 from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Multiple%20Countries-11.xml
+found 10450 activities
 
-Downloading state-multiplecountries-12 from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-MultipleCountries-12.xml
-curl: download ERROR 403
-Parsing state-multiplecountries-12 from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-MultipleCountries-12.xml
-dflat: input XML file does not exist
-restored 0 files
+Downloading state-multiplecountries-12 from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Multiple%20Countries-12.xml
+Parsing state-multiplecountries-12 from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Multiple%20Countries-12.xml
+found 10460 activities
 
-Downloading state-multiplecountries-13 from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-MultipleCountries-13.xml
-curl: download ERROR 403
-Parsing state-multiplecountries-13 from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-MultipleCountries-13.xml
-dflat: input XML file does not exist
-restored 0 files
+Downloading state-multiplecountries-13 from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Multiple%20Countries-13.xml
+Parsing state-multiplecountries-13 from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Multiple%20Countries-13.xml
+found 10505 activities
 
-Downloading state-multiplecountries-14 from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-MultipleCountries-14.xml
-curl: download ERROR 403
-Parsing state-multiplecountries-14 from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-MultipleCountries-14.xml
-dflat: input XML file does not exist
-restored 0 files
+Downloading state-multiplecountries-14 from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Multiple%20Countries-14.xml
+Parsing state-multiplecountries-14 from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Multiple%20Countries-14.xml
+found 10280 activities
 
-Downloading state-multiplecountries-15 from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-MultipleCountries-15.xml
-curl: download ERROR 403
-Parsing state-multiplecountries-15 from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-MultipleCountries-15.xml
-dflat: input XML file does not exist
-restored 0 files
+Downloading state-multiplecountries-15 from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Multiple%20Countries-15.xml
+Parsing state-multiplecountries-15 from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Multiple%20Countries-15.xml
+found 10105 activities
 
-Downloading state-multiplecountries-16 from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-MultipleCountries-16.xml
-curl: download ERROR 403
-Parsing state-multiplecountries-16 from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-MultipleCountries-16.xml
-dflat: input XML file does not exist
-restored 0 files
+Downloading state-multiplecountries-16 from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Multiple%20Countries-16.xml
+Parsing state-multiplecountries-16 from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Multiple%20Countries-16.xml
+found 10185 activities
 
-Downloading state-multiplecountries-17 from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-MultipleCountries-17.xml
-curl: download ERROR 403
-Parsing state-multiplecountries-17 from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-MultipleCountries-17.xml
-dflat: input XML file does not exist
-restored 0 files
+Downloading state-multiplecountries-17 from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Multiple%20Countries-17.xml
+Parsing state-multiplecountries-17 from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Multiple%20Countries-17.xml
+found 1134 activities
 
 Downloading state-multiplecountries-1 from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Multiple%20Countries-1.xml
 Parsing state-multiplecountries-1 from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Multiple%20Countries-1.xml
 found 10410 activities
 
-Downloading state-multiplecountries-2 from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-MultipleCountries-2.xml
-curl: download ERROR 403
-Parsing state-multiplecountries-2 from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-MultipleCountries-2.xml
-dflat: input XML file does not exist
-restored 0 files
+Downloading state-multiplecountries-2 from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Multiple%20Countries-2.xml
+Parsing state-multiplecountries-2 from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Multiple%20Countries-2.xml
+found 10360 activities
 
-Downloading state-multiplecountries-3 from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-MultipleCountries-3.xml
-curl: download ERROR 403
-Parsing state-multiplecountries-3 from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-MultipleCountries-3.xml
-dflat: input XML file does not exist
-restored 0 files
+Downloading state-multiplecountries-3 from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Multiple%20Countries-3.xml
+Parsing state-multiplecountries-3 from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Multiple%20Countries-3.xml
+found 10700 activities
 
-Downloading state-multiplecountries-4 from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-MultipleCountries-4.xml
-curl: download ERROR 403
-Parsing state-multiplecountries-4 from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-MultipleCountries-4.xml
-dflat: input XML file does not exist
-restored 0 files
+Downloading state-multiplecountries-4 from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Multiple%20Countries-4.xml
+Parsing state-multiplecountries-4 from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Multiple%20Countries-4.xml
+found 10650 activities
 
-Downloading state-multiplecountries-5 from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-MultipleCountries-5.xml
-curl: download ERROR 403
-Parsing state-multiplecountries-5 from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-MultipleCountries-5.xml
-dflat: input XML file does not exist
-restored 0 files
+Downloading state-multiplecountries-5 from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Multiple%20Countries-5.xml
+Parsing state-multiplecountries-5 from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Multiple%20Countries-5.xml
+found 10725 activities
 
-Downloading state-multiplecountries-6 from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-MultipleCountries-6.xml
-curl: download ERROR 403
-Parsing state-multiplecountries-6 from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-MultipleCountries-6.xml
-dflat: input XML file does not exist
-restored 0 files
+Downloading state-multiplecountries-6 from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Multiple%20Countries-6.xml
+Parsing state-multiplecountries-6 from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Multiple%20Countries-6.xml
+found 10395 activities
 
-Downloading state-multiplecountries-7 from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-MultipleCountries-7.xml
-curl: download ERROR 403
-Parsing state-multiplecountries-7 from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-MultipleCountries-7.xml
-dflat: input XML file does not exist
-restored 0 files
+Downloading state-multiplecountries-7 from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Multiple%20Countries-7.xml
+Parsing state-multiplecountries-7 from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Multiple%20Countries-7.xml
+found 10355 activities
 
-Downloading state-multiplecountries-8 from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-MultipleCountries-8.xml
-curl: download ERROR 403
-Parsing state-multiplecountries-8 from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-MultipleCountries-8.xml
-dflat: input XML file does not exist
-restored 0 files
+Downloading state-multiplecountries-8 from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Multiple%20Countries-8.xml
+Parsing state-multiplecountries-8 from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Multiple%20Countries-8.xml
+found 10460 activities
 
-Downloading state-multiplecountries-9 from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-MultipleCountries-9.xml
-curl: download ERROR 403
-Parsing state-multiplecountries-9 from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-MultipleCountries-9.xml
-dflat: input XML file does not exist
-restored 0 files
+Downloading state-multiplecountries-9 from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Multiple%20Countries-9.xml
+Parsing state-multiplecountries-9 from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Multiple%20Countries-9.xml
+found 10480 activities
 
 Downloading state-namibia from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Namibia.xml
 Parsing state-namibia from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Namibia.xml
@@ -30135,11 +30308,9 @@ Downloading state-northmacedonia from https://iati-reporting.s3.amazonaws.com/de
 Parsing state-northmacedonia from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-North%20Macedonia.xml
 found 1059 activities
 
-Downloading state-oceaniaregional from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Oceania%20Regional.xml
-curl: download ERROR 403
-Parsing state-oceaniaregional from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Oceania%20Regional.xml
-dflat: input XML file does not exist
-restored 0 files
+Downloading state-oceaniaregional from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Oceania%20regional.xml
+Parsing state-oceaniaregional from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Oceania%20regional.xml
+found 42 activities
 
 Downloading state-oman from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Oman.xml
 Parsing state-oman from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Oman.xml
@@ -30181,6 +30352,12 @@ Downloading state-poland from https://iati-reporting.s3.amazonaws.com/department
 Parsing state-poland from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Poland.xml
 found 23 activities
 
+Downloading state-portugal from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-portugal.xml
+curl: download ERROR 403
+Parsing state-portugal from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-portugal.xml
+dflat: input XML file does not exist
+restored 0 files
+
 Downloading state-qatar from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Qatar.xml
 Parsing state-qatar from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Qatar.xml
 found 86 activities
@@ -30205,6 +30382,12 @@ Downloading state-samoa from https://iati-reporting.s3.amazonaws.com/department_
 Parsing state-samoa from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Samoa.xml
 found 5 activities
 
+Downloading state-saotomeandprincipe from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-sao%20tome%20and%20principe.xml
+curl: download ERROR 403
+Parsing state-saotomeandprincipe from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-sao%20tome%20and%20principe.xml
+dflat: input XML file does not exist
+restored 0 files
+
 Downloading state-saudiarabia from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Saudi%20Arabia.xml
 Parsing state-saudiarabia from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Saudi%20Arabia.xml
 found 98 activities
@@ -30225,11 +30408,27 @@ Downloading state-sierraleone from https://iati-reporting.s3.amazonaws.com/depar
 Parsing state-sierraleone from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Sierra%20Leone.xml
 found 104 activities
 
-Downloading state-solomonislands from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-SolomonI%20slands.xml
+Downloading state-singapore from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-singapore.xml
 curl: download ERROR 403
-Parsing state-solomonislands from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-SolomonI%20slands.xml
+Parsing state-singapore from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-singapore.xml
 dflat: input XML file does not exist
 restored 0 files
+
+Downloading state-slovakia from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-slovakia.xml
+curl: download ERROR 403
+Parsing state-slovakia from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-slovakia.xml
+dflat: input XML file does not exist
+restored 0 files
+
+Downloading state-slovenia from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-slovenia.xml
+curl: download ERROR 403
+Parsing state-slovenia from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-slovenia.xml
+dflat: input XML file does not exist
+restored 0 files
+
+Downloading state-solomonislands from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Solomon%20Islands.xml
+Parsing state-solomonislands from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Solomon%20Islands.xml
+found 20 activities
 
 Downloading state-somalia from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Somalia.xml
 Parsing state-somalia from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Somalia.xml
@@ -30239,23 +30438,17 @@ Downloading state-southafrica from https://iati-reporting.s3.amazonaws.com/depar
 Parsing state-southafrica from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-South%20Africa.xml
 found 1105 activities
 
-Downloading state-southamericaregional from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-South%20America%20Regional.xml
-curl: download ERROR 403
-Parsing state-southamericaregional from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-South%20America%20Regional.xml
-dflat: input XML file does not exist
-restored 0 files
+Downloading state-southamericaregional from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-South%20America%20regional.xml
+Parsing state-southamericaregional from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-South%20America%20regional.xml
+found 188 activities
 
-Downloading state-southandcentralasiaregional from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-South%20and%20Central%20Asia%20Regional.xml
-curl: download ERROR 403
-Parsing state-southandcentralasiaregional from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-South%20and%20Central%20Asia%20Regional.xml
-dflat: input XML file does not exist
-restored 0 files
+Downloading state-southandcentralasiaregional from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-South%20and%20Central%20Asia%20Region.xml
+Parsing state-southandcentralasiaregional from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-South%20and%20Central%20Asia%20Region.xml
+found 302 activities
 
-Downloading state-southasiaregional from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-South%20Asia%20Regional.xml
-curl: download ERROR 403
-Parsing state-southasiaregional from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-South%20Asia%20Regional.xml
-dflat: input XML file does not exist
-restored 0 files
+Downloading state-southasiaregional from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-South%20Asia%20regional.xml
+Parsing state-southasiaregional from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-South%20Asia%20regional.xml
+found 85 activities
 
 Downloading state-southeastasiaregion from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-South%20East%20Asia%20Region.xml
 Parsing state-southeastasiaregion from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-South%20East%20Asia%20Region.xml
@@ -30277,9 +30470,21 @@ Downloading state-srilanka from https://iati-reporting.s3.amazonaws.com/departme
 Parsing state-srilanka from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Sri%20Lanka.xml
 found 328 activities
 
+Downloading state-stkittsandnevis from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-st.%20kitts%20and%20nevis.xml
+curl: download ERROR 403
+Parsing state-stkittsandnevis from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-st.%20kitts%20and%20nevis.xml
+dflat: input XML file does not exist
+restored 0 files
+
 Downloading state-sudan from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Sudan.xml
 Parsing state-sudan from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Sudan.xml
 found 128 activities
+
+Downloading state-suriname from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-suriname.xml
+curl: download ERROR 403
+Parsing state-suriname from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-suriname.xml
+dflat: input XML file does not exist
+restored 0 files
 
 Downloading state-syria from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Syria.xml
 Parsing state-syria from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Syria.xml
@@ -30305,6 +30510,12 @@ Downloading state-togo from https://iati-reporting.s3.amazonaws.com/department_o
 Parsing state-togo from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Togo.xml
 found 176 activities
 
+Downloading state-tonga from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-tonga.xml
+curl: download ERROR 403
+Parsing state-tonga from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-tonga.xml
+dflat: input XML file does not exist
+restored 0 files
+
 Downloading state-trinidadandtobago from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Trinidad%20and%20Tobago.xml
 Parsing state-trinidadandtobago from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Trinidad%20and%20Tobago.xml
 found 350 activities
@@ -30325,6 +30536,18 @@ Downloading state-uganda from https://iati-reporting.s3.amazonaws.com/department
 Parsing state-uganda from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Uganda.xml
 found 1017 activities
 
+Downloading state-ukraine from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-ukraine.xml
+curl: download ERROR 403
+Parsing state-ukraine from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-ukraine.xml
+dflat: input XML file does not exist
+restored 0 files
+
+Downloading state-unitedarabemirates from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-united%20arab%20emirates.xml
+curl: download ERROR 403
+Parsing state-unitedarabemirates from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-united%20arab%20emirates.xml
+dflat: input XML file does not exist
+restored 0 files
+
 Downloading state-uruguay from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Uruguay.xml
 Parsing state-uruguay from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Uruguay.xml
 found 4 activities
@@ -30332,6 +30555,12 @@ found 4 activities
 Downloading state-uzbekistan from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Uzbekistan.xml
 Parsing state-uzbekistan from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Uzbekistan.xml
 found 897 activities
+
+Downloading state-vanuatu from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-vanuatu.xml
+curl: download ERROR 403
+Parsing state-vanuatu from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-vanuatu.xml
+dflat: input XML file does not exist
+restored 0 files
 
 Downloading state-venezuela from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Venezuela.xml
 Parsing state-venezuela from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Venezuela.xml
@@ -30345,15 +30574,19 @@ Downloading state-westbankandgaza from https://iati-reporting.s3.amazonaws.com/d
 Parsing state-westbankandgaza from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-West%20Bank%20and%20Gaza.xml
 found 48 activities
 
+Downloading state-westerneuroperegion from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-western%20europe%20region.xml
+curl: download ERROR 403
+Parsing state-westerneuroperegion from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-western%20europe%20region.xml
+dflat: input XML file does not exist
+restored 0 files
+
 Downloading state-westernhemisphereregion from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Western%20Hemisphere%20Region.xml
 Parsing state-westernhemisphereregion from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Western%20Hemisphere%20Region.xml
 found 299 activities
 
-Downloading state-westindiesregional from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-West%20Indies%20Regional.xml
-curl: download ERROR 403
-Parsing state-westindiesregional from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-West%20Indies%20Regional.xml
-dflat: input XML file does not exist
-restored 0 files
+Downloading state-westindiesregional from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-West%20Indies%20regional.xml
+Parsing state-westindiesregional from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-West%20Indies%20regional.xml
+found 77 activities
 
 Downloading state-worldwide from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Worldwide.xml
 Parsing state-worldwide from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Worldwide.xml
@@ -35592,11 +35825,15 @@ found 1 activities
 
 Downloading universityofbirmingham-gb from https://aidstream.s3.us-west-2.amazonaws.com/xml/universityofbirmingham-gb.xml
 Parsing universityofbirmingham-gb from https://aidstream.s3.us-west-2.amazonaws.com/xml/universityofbirmingham-gb.xml
-found 3 activities
+found 4 activities
 
 Downloading universityofbirmingham-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/universityofbirmingham-org.xml
 Parsing universityofbirmingham-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/universityofbirmingham-org.xml
 found 1 organisations
+
+Downloading universityofbirmingham-rw from https://aidstream.s3.us-west-2.amazonaws.com/xml/universityofbirmingham-rw.xml
+Parsing universityofbirmingham-rw from https://aidstream.s3.us-west-2.amazonaws.com/xml/universityofbirmingham-rw.xml
+found 1 activities
 
 Downloading unocha-afghanistan from https://oct.unocha.org/octws/OCTPublishData.svc/GetIATIContribution?activity=O445
 Parsing unocha-afghanistan from https://oct.unocha.org/octws/OCTPublishData.svc/GetIATIContribution?activity=O445
@@ -35663,8 +35900,10 @@ Parsing unocha-cbpf-afghanistan-allocation-2016 from https://cbpfapi.unocha.org/
 found 67 activities
 
 Downloading unocha-cbpf-afghanistan-allocation-2017 from https://cbpfapi.unocha.org/iati/iati/23/2017/GetAllocation.xml
+curl: download ERROR 500
 Parsing unocha-cbpf-afghanistan-allocation-2017 from https://cbpfapi.unocha.org/iati/iati/23/2017/GetAllocation.xml
-found 51 activities
+dflat: input XML file does not exist
+restored 51 files
 
 Downloading unocha-cbpf-afghanistan-allocation-2018 from https://cbpfapi.unocha.org/iati/iati/23/2018/GetAllocation.xml
 Parsing unocha-cbpf-afghanistan-allocation-2018 from https://cbpfapi.unocha.org/iati/iati/23/2018/GetAllocation.xml
@@ -35675,20 +35914,28 @@ Parsing unocha-cbpf-afghanistan-allocation-2019 from https://cbpfapi.unocha.org/
 found 66 activities
 
 Downloading unocha-cbpf-afghanistan-allocation-2020 from https://cbpfapi.unocha.org/iati/iati/23/2020/GetAllocation.xml
+curl: download ERROR 500
 Parsing unocha-cbpf-afghanistan-allocation-2020 from https://cbpfapi.unocha.org/iati/iati/23/2020/GetAllocation.xml
-found 127 activities
+dflat: input XML file does not exist
+restored 127 files
 
 Downloading unocha-cbpf-afghanistan-allocation-2021 from https://cbpfapi.unocha.org/iati/iati/23/2021/GetAllocation.xml
+curl: download ERROR 500
 Parsing unocha-cbpf-afghanistan-allocation-2021 from https://cbpfapi.unocha.org/iati/iati/23/2021/GetAllocation.xml
-found 238 activities
+dflat: input XML file does not exist
+restored 238 files
 
 Downloading unocha-cbpf-afghanistan-allocation-2022 from https://cbpfapi.unocha.org/iati/iati/23/2022/GetAllocation.xml
+curl: download ERROR 500
 Parsing unocha-cbpf-afghanistan-allocation-2022 from https://cbpfapi.unocha.org/iati/iati/23/2022/GetAllocation.xml
-found 298 activities
+dflat: input XML file does not exist
+restored 298 files
 
 Downloading unocha-cbpf-afghanistan-allocation-2023 from https://cbpfapi.unocha.org/iati/iati/23/2023/GetAllocation.xml
+curl: download ERROR 500
 Parsing unocha-cbpf-afghanistan-allocation-2023 from https://cbpfapi.unocha.org/iati/iati/23/2023/GetAllocation.xml
-found 0 activities
+dflat: input XML file does not exist
+restored 0 files
 
 Downloading unocha-cbpf-afghanistan-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/23/2024/GetAllocation.xml
 Parsing unocha-cbpf-afghanistan-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/23/2024/GetAllocation.xml
@@ -35720,7 +35967,7 @@ found 36 activities
 
 Downloading unocha-cbpf-afghanistan-contribution-2022 from https://cbpfapi.unocha.org/iati/iati/23/2022/GetContribution.xml
 Parsing unocha-cbpf-afghanistan-contribution-2022 from https://cbpfapi.unocha.org/iati/iati/23/2022/GetContribution.xml
-found 31 activities
+found 29 activities
 
 Downloading unocha-cbpf-afghanistan-contribution-2023 from https://cbpfapi.unocha.org/iati/iati/23/2023/GetContribution.xml
 Parsing unocha-cbpf-afghanistan-contribution-2023 from https://cbpfapi.unocha.org/iati/iati/23/2023/GetContribution.xml
@@ -35767,8 +36014,10 @@ Parsing unocha-cbpf-burkinafasorhpf-2024 from https://cbpfapi.unocha.org/iati/ia
 found 1 activities
 
 Downloading unocha-cbpf-burkinafasorhpf-allocation-2016 from https://cbpfapi.unocha.org/iati/iati/85/2016/GetAllocation.xml
+curl: download ERROR 500
 Parsing unocha-cbpf-burkinafasorhpf-allocation-2016 from https://cbpfapi.unocha.org/iati/iati/85/2016/GetAllocation.xml
-found 0 activities
+dflat: input XML file does not exist
+restored 0 files
 
 Downloading unocha-cbpf-burkinafasorhpf-allocation-2017 from https://cbpfapi.unocha.org/iati/iati/85/2017/GetAllocation.xml
 Parsing unocha-cbpf-burkinafasorhpf-allocation-2017 from https://cbpfapi.unocha.org/iati/iati/85/2017/GetAllocation.xml
@@ -35795,8 +36044,10 @@ Parsing unocha-cbpf-burkinafasorhpf-allocation-2022 from https://cbpfapi.unocha.
 found 54 activities
 
 Downloading unocha-cbpf-burkinafasorhpf-allocation-2023 from https://cbpfapi.unocha.org/iati/iati/85/2023/GetAllocation.xml
+curl: download ERROR 500
 Parsing unocha-cbpf-burkinafasorhpf-allocation-2023 from https://cbpfapi.unocha.org/iati/iati/85/2023/GetAllocation.xml
-found 0 activities
+dflat: input XML file does not exist
+restored 0 files
 
 Downloading unocha-cbpf-burkinafasorhpf-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/85/2024/GetAllocation.xml
 Parsing unocha-cbpf-burkinafasorhpf-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/85/2024/GetAllocation.xml
@@ -35875,8 +36126,10 @@ Parsing unocha-cbpf-car-2024 from https://cbpfapi.unocha.org/iati/iati/17/2024/G
 found 1 activities
 
 Downloading unocha-cbpf-car-allocation-2016 from https://cbpfapi.unocha.org/iati/iati/17/2016/GetAllocation.xml
+curl: download ERROR 500
 Parsing unocha-cbpf-car-allocation-2016 from https://cbpfapi.unocha.org/iati/iati/17/2016/GetAllocation.xml
-found 69 activities
+dflat: input XML file does not exist
+restored 69 files
 
 Downloading unocha-cbpf-car-allocation-2017 from https://cbpfapi.unocha.org/iati/iati/17/2017/GetAllocation.xml
 Parsing unocha-cbpf-car-allocation-2017 from https://cbpfapi.unocha.org/iati/iati/17/2017/GetAllocation.xml
@@ -35887,28 +36140,36 @@ Parsing unocha-cbpf-car-allocation-2018 from https://cbpfapi.unocha.org/iati/iat
 found 84 activities
 
 Downloading unocha-cbpf-car-allocation-2019 from https://cbpfapi.unocha.org/iati/iati/17/2019/GetAllocation.xml
+curl: download ERROR 500
 Parsing unocha-cbpf-car-allocation-2019 from https://cbpfapi.unocha.org/iati/iati/17/2019/GetAllocation.xml
-found 117 activities
+dflat: input XML file does not exist
+restored 117 files
 
 Downloading unocha-cbpf-car-allocation-2020 from https://cbpfapi.unocha.org/iati/iati/17/2020/GetAllocation.xml
 Parsing unocha-cbpf-car-allocation-2020 from https://cbpfapi.unocha.org/iati/iati/17/2020/GetAllocation.xml
 found 84 activities
 
 Downloading unocha-cbpf-car-allocation-2021 from https://cbpfapi.unocha.org/iati/iati/17/2021/GetAllocation.xml
+curl: download ERROR 500
 Parsing unocha-cbpf-car-allocation-2021 from https://cbpfapi.unocha.org/iati/iati/17/2021/GetAllocation.xml
-found 54 activities
+dflat: input XML file does not exist
+restored 54 files
 
 Downloading unocha-cbpf-car-allocation-2022 from https://cbpfapi.unocha.org/iati/iati/17/2022/GetAllocation.xml
 Parsing unocha-cbpf-car-allocation-2022 from https://cbpfapi.unocha.org/iati/iati/17/2022/GetAllocation.xml
 found 58 activities
 
 Downloading unocha-cbpf-car-allocation-2023 from https://cbpfapi.unocha.org/iati/iati/17/2023/GetAllocation.xml
+curl: download ERROR 500
 Parsing unocha-cbpf-car-allocation-2023 from https://cbpfapi.unocha.org/iati/iati/17/2023/GetAllocation.xml
-found 0 activities
+dflat: input XML file does not exist
+restored 0 files
 
 Downloading unocha-cbpf-car-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/17/2024/GetAllocation.xml
+curl: download ERROR 500
 Parsing unocha-cbpf-car-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/17/2024/GetAllocation.xml
-found 0 activities
+dflat: input XML file does not exist
+restored 0 files
 
 Downloading unocha-cbpf-car-contribution-2016 from https://cbpfapi.unocha.org/iati/iati/17/2016/GetContribution.xml
 Parsing unocha-cbpf-car-contribution-2016 from https://cbpfapi.unocha.org/iati/iati/17/2016/GetContribution.xml
@@ -35959,12 +36220,16 @@ Parsing unocha-cbpf-colombia-2018 from https://cbpfapi.unocha.org/iati/iati/52/2
 found 1 activities
 
 Downloading unocha-cbpf-colombia-allocation-2016 from https://cbpfapi.unocha.org/iati/iati/52/2016/GetAllocation.xml
+curl: download ERROR 500
 Parsing unocha-cbpf-colombia-allocation-2016 from https://cbpfapi.unocha.org/iati/iati/52/2016/GetAllocation.xml
-found 12 activities
+dflat: input XML file does not exist
+restored 12 files
 
 Downloading unocha-cbpf-colombia-allocation-2017 from https://cbpfapi.unocha.org/iati/iati/52/2017/GetAllocation.xml
+curl: download ERROR 500
 Parsing unocha-cbpf-colombia-allocation-2017 from https://cbpfapi.unocha.org/iati/iati/52/2017/GetAllocation.xml
-found 8 activities
+dflat: input XML file does not exist
+restored 8 files
 
 Downloading unocha-cbpf-colombia-contribution-2016 from https://cbpfapi.unocha.org/iati/iati/52/2016/GetContribution.xml
 Parsing unocha-cbpf-colombia-contribution-2016 from https://cbpfapi.unocha.org/iati/iati/52/2016/GetContribution.xml
@@ -36031,8 +36296,10 @@ Parsing unocha-cbpf-drc-allocation-2020 from https://cbpfapi.unocha.org/iati/iat
 found 111 activities
 
 Downloading unocha-cbpf-drc-allocation-2021 from https://cbpfapi.unocha.org/iati/iati/24/2021/GetAllocation.xml
+curl: download ERROR 500
 Parsing unocha-cbpf-drc-allocation-2021 from https://cbpfapi.unocha.org/iati/iati/24/2021/GetAllocation.xml
-found 80 activities
+dflat: input XML file does not exist
+restored 80 files
 
 Downloading unocha-cbpf-drc-allocation-2022 from https://cbpfapi.unocha.org/iati/iati/24/2022/GetAllocation.xml
 Parsing unocha-cbpf-drc-allocation-2022 from https://cbpfapi.unocha.org/iati/iati/24/2022/GetAllocation.xml
@@ -36131,8 +36398,10 @@ Parsing unocha-cbpf-ethiopia-allocation-2018 from https://cbpfapi.unocha.org/iat
 found 142 activities
 
 Downloading unocha-cbpf-ethiopia-allocation-2019 from https://cbpfapi.unocha.org/iati/iati/53/2019/GetAllocation.xml
+curl: download ERROR 500
 Parsing unocha-cbpf-ethiopia-allocation-2019 from https://cbpfapi.unocha.org/iati/iati/53/2019/GetAllocation.xml
-found 127 activities
+dflat: input XML file does not exist
+restored 127 files
 
 Downloading unocha-cbpf-ethiopia-allocation-2020 from https://cbpfapi.unocha.org/iati/iati/53/2020/GetAllocation.xml
 Parsing unocha-cbpf-ethiopia-allocation-2020 from https://cbpfapi.unocha.org/iati/iati/53/2020/GetAllocation.xml
@@ -36239,20 +36508,26 @@ Parsing unocha-cbpf-iraq-allocation-2016 from https://cbpfapi.unocha.org/iati/ia
 found 135 activities
 
 Downloading unocha-cbpf-iraq-allocation-2017 from https://cbpfapi.unocha.org/iati/iati/72/2017/GetAllocation.xml
+curl: download ERROR 500
 Parsing unocha-cbpf-iraq-allocation-2017 from https://cbpfapi.unocha.org/iati/iati/72/2017/GetAllocation.xml
-found 133 activities
+dflat: input XML file does not exist
+restored 133 files
 
 Downloading unocha-cbpf-iraq-allocation-2018 from https://cbpfapi.unocha.org/iati/iati/72/2018/GetAllocation.xml
 Parsing unocha-cbpf-iraq-allocation-2018 from https://cbpfapi.unocha.org/iati/iati/72/2018/GetAllocation.xml
 found 84 activities
 
 Downloading unocha-cbpf-iraq-allocation-2019 from https://cbpfapi.unocha.org/iati/iati/72/2019/GetAllocation.xml
+curl: download ERROR 500
 Parsing unocha-cbpf-iraq-allocation-2019 from https://cbpfapi.unocha.org/iati/iati/72/2019/GetAllocation.xml
-found 66 activities
+dflat: input XML file does not exist
+restored 66 files
 
 Downloading unocha-cbpf-iraq-allocation-2020 from https://cbpfapi.unocha.org/iati/iati/72/2020/GetAllocation.xml
+curl: download ERROR 500
 Parsing unocha-cbpf-iraq-allocation-2020 from https://cbpfapi.unocha.org/iati/iati/72/2020/GetAllocation.xml
-found 34 activities
+dflat: input XML file does not exist
+restored 34 files
 
 Downloading unocha-cbpf-iraq-allocation-2021 from https://cbpfapi.unocha.org/iati/iati/72/2021/GetAllocation.xml
 Parsing unocha-cbpf-iraq-allocation-2021 from https://cbpfapi.unocha.org/iati/iati/72/2021/GetAllocation.xml
@@ -36343,8 +36618,10 @@ Parsing unocha-cbpf-jordan-2024 from https://cbpfapi.unocha.org/iati/iati/73/202
 found 1 activities
 
 Downloading unocha-cbpf-jordan-allocation-2016 from https://cbpfapi.unocha.org/iati/iati/73/2016/GetAllocation.xml
+curl: download ERROR 500
 Parsing unocha-cbpf-jordan-allocation-2016 from https://cbpfapi.unocha.org/iati/iati/73/2016/GetAllocation.xml
-found 33 activities
+dflat: input XML file does not exist
+restored 33 files
 
 Downloading unocha-cbpf-jordan-allocation-2017 from https://cbpfapi.unocha.org/iati/iati/73/2017/GetAllocation.xml
 Parsing unocha-cbpf-jordan-allocation-2017 from https://cbpfapi.unocha.org/iati/iati/73/2017/GetAllocation.xml
@@ -36359,16 +36636,20 @@ Parsing unocha-cbpf-jordan-allocation-2019 from https://cbpfapi.unocha.org/iati/
 found 31 activities
 
 Downloading unocha-cbpf-jordan-allocation-2020 from https://cbpfapi.unocha.org/iati/iati/73/2020/GetAllocation.xml
+curl: download ERROR 500
 Parsing unocha-cbpf-jordan-allocation-2020 from https://cbpfapi.unocha.org/iati/iati/73/2020/GetAllocation.xml
-found 29 activities
+dflat: input XML file does not exist
+restored 29 files
 
 Downloading unocha-cbpf-jordan-allocation-2021 from https://cbpfapi.unocha.org/iati/iati/73/2021/GetAllocation.xml
 Parsing unocha-cbpf-jordan-allocation-2021 from https://cbpfapi.unocha.org/iati/iati/73/2021/GetAllocation.xml
 found 7 activities
 
 Downloading unocha-cbpf-jordan-allocation-2022 from https://cbpfapi.unocha.org/iati/iati/73/2022/GetAllocation.xml
+curl: download ERROR 500
 Parsing unocha-cbpf-jordan-allocation-2022 from https://cbpfapi.unocha.org/iati/iati/73/2022/GetAllocation.xml
-found 1 activities
+dflat: input XML file does not exist
+restored 1 files
 
 Downloading unocha-cbpf-jordan-allocation-2023 from https://cbpfapi.unocha.org/iati/iati/73/2023/GetAllocation.xml
 Parsing unocha-cbpf-jordan-allocation-2023 from https://cbpfapi.unocha.org/iati/iati/73/2023/GetAllocation.xml
@@ -36451,16 +36732,22 @@ Parsing unocha-cbpf-lebanon-2024 from https://cbpfapi.unocha.org/iati/iati/71/20
 found 1 activities
 
 Downloading unocha-cbpf-lebanon-allocation-2016 from https://cbpfapi.unocha.org/iati/iati/71/2016/GetAllocation.xml
+curl: download ERROR 500
 Parsing unocha-cbpf-lebanon-allocation-2016 from https://cbpfapi.unocha.org/iati/iati/71/2016/GetAllocation.xml
-found 55 activities
+dflat: input XML file does not exist
+restored 55 files
 
 Downloading unocha-cbpf-lebanon-allocation-2017 from https://cbpfapi.unocha.org/iati/iati/71/2017/GetAllocation.xml
+curl: download ERROR 500
 Parsing unocha-cbpf-lebanon-allocation-2017 from https://cbpfapi.unocha.org/iati/iati/71/2017/GetAllocation.xml
-found 26 activities
+dflat: input XML file does not exist
+restored 26 files
 
 Downloading unocha-cbpf-lebanon-allocation-2018 from https://cbpfapi.unocha.org/iati/iati/71/2018/GetAllocation.xml
+curl: download ERROR 500
 Parsing unocha-cbpf-lebanon-allocation-2018 from https://cbpfapi.unocha.org/iati/iati/71/2018/GetAllocation.xml
-found 33 activities
+dflat: input XML file does not exist
+restored 33 files
 
 Downloading unocha-cbpf-lebanon-allocation-2020 from https://cbpfapi.unocha.org/iati/iati/71/2020/GetAllocation.xml
 Parsing unocha-cbpf-lebanon-allocation-2020 from https://cbpfapi.unocha.org/iati/iati/71/2020/GetAllocation.xml
@@ -36471,8 +36758,10 @@ Parsing unocha-cbpf-lebanon-allocation-2021 from https://cbpfapi.unocha.org/iati
 found 37 activities
 
 Downloading unocha-cbpf-lebanon-allocation-2022 from https://cbpfapi.unocha.org/iati/iati/71/2022/GetAllocation.xml
+curl: download ERROR 500
 Parsing unocha-cbpf-lebanon-allocation-2022 from https://cbpfapi.unocha.org/iati/iati/71/2022/GetAllocation.xml
-found 50 activities
+dflat: input XML file does not exist
+restored 50 files
 
 Downloading unocha-cbpf-lebanon-allocation-2023 from https://cbpfapi.unocha.org/iati/iati/71/2023/GetAllocation.xml
 Parsing unocha-cbpf-lebanon-allocation-2023 from https://cbpfapi.unocha.org/iati/iati/71/2023/GetAllocation.xml
@@ -36571,8 +36860,10 @@ Parsing unocha-cbpf-myanmar-allocation-2019 from https://cbpfapi.unocha.org/iati
 found 40 activities
 
 Downloading unocha-cbpf-myanmar-allocation-2020 from https://cbpfapi.unocha.org/iati/iati/59/2020/GetAllocation.xml
+curl: download ERROR 500
 Parsing unocha-cbpf-myanmar-allocation-2020 from https://cbpfapi.unocha.org/iati/iati/59/2020/GetAllocation.xml
-found 41 activities
+dflat: input XML file does not exist
+restored 41 files
 
 Downloading unocha-cbpf-myanmar-allocation-2021 from https://cbpfapi.unocha.org/iati/iati/59/2021/GetAllocation.xml
 Parsing unocha-cbpf-myanmar-allocation-2021 from https://cbpfapi.unocha.org/iati/iati/59/2021/GetAllocation.xml
@@ -36580,11 +36871,13 @@ found 45 activities
 
 Downloading unocha-cbpf-myanmar-allocation-2022 from https://cbpfapi.unocha.org/iati/iati/59/2022/GetAllocation.xml
 Parsing unocha-cbpf-myanmar-allocation-2022 from https://cbpfapi.unocha.org/iati/iati/59/2022/GetAllocation.xml
-found 35 activities
+found 44 activities
 
 Downloading unocha-cbpf-myanmar-allocation-2023 from https://cbpfapi.unocha.org/iati/iati/59/2023/GetAllocation.xml
+curl: download ERROR 500
 Parsing unocha-cbpf-myanmar-allocation-2023 from https://cbpfapi.unocha.org/iati/iati/59/2023/GetAllocation.xml
-found 0 activities
+dflat: input XML file does not exist
+restored 0 files
 
 Downloading unocha-cbpf-myanmar-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/59/2024/GetAllocation.xml
 Parsing unocha-cbpf-myanmar-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/59/2024/GetAllocation.xml
@@ -36683,8 +36976,10 @@ Parsing unocha-cbpf-nigeria-allocation-2022 from https://cbpfapi.unocha.org/iati
 found 91 activities
 
 Downloading unocha-cbpf-nigeria-allocation-2023 from https://cbpfapi.unocha.org/iati/iati/75/2023/GetAllocation.xml
+curl: download ERROR 000
 Parsing unocha-cbpf-nigeria-allocation-2023 from https://cbpfapi.unocha.org/iati/iati/75/2023/GetAllocation.xml
-found 0 activities
+dflat: input XML file does not exist
+restored 0 files
 
 Downloading unocha-cbpf-nigeria-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/75/2024/GetAllocation.xml
 Parsing unocha-cbpf-nigeria-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/75/2024/GetAllocation.xml
@@ -36759,12 +37054,16 @@ Parsing unocha-cbpf-nigerrhpf-2024 from https://cbpfapi.unocha.org/iati/iati/84/
 found 1 activities
 
 Downloading unocha-cbpf-nigerrhpf-allocation-2016 from https://cbpfapi.unocha.org/iati/iati/84/2016/GetAllocation.xml
+curl: download ERROR 500
 Parsing unocha-cbpf-nigerrhpf-allocation-2016 from https://cbpfapi.unocha.org/iati/iati/84/2016/GetAllocation.xml
-found 0 activities
+dflat: input XML file does not exist
+restored 0 files
 
 Downloading unocha-cbpf-nigerrhpf-allocation-2017 from https://cbpfapi.unocha.org/iati/iati/84/2017/GetAllocation.xml
+curl: download ERROR 500
 Parsing unocha-cbpf-nigerrhpf-allocation-2017 from https://cbpfapi.unocha.org/iati/iati/84/2017/GetAllocation.xml
-found 0 activities
+dflat: input XML file does not exist
+restored 0 files
 
 Downloading unocha-cbpf-nigerrhpf-allocation-2018 from https://cbpfapi.unocha.org/iati/iati/84/2018/GetAllocation.xml
 Parsing unocha-cbpf-nigerrhpf-allocation-2018 from https://cbpfapi.unocha.org/iati/iati/84/2018/GetAllocation.xml
@@ -36783,8 +37082,10 @@ Parsing unocha-cbpf-nigerrhpf-allocation-2021 from https://cbpfapi.unocha.org/ia
 found 22 activities
 
 Downloading unocha-cbpf-nigerrhpf-allocation-2022 from https://cbpfapi.unocha.org/iati/iati/84/2022/GetAllocation.xml
+curl: download ERROR 500
 Parsing unocha-cbpf-nigerrhpf-allocation-2022 from https://cbpfapi.unocha.org/iati/iati/84/2022/GetAllocation.xml
-found 20 activities
+dflat: input XML file does not exist
+restored 20 files
 
 Downloading unocha-cbpf-nigerrhpf-allocation-2023 from https://cbpfapi.unocha.org/iati/iati/84/2023/GetAllocation.xml
 Parsing unocha-cbpf-nigerrhpf-allocation-2023 from https://cbpfapi.unocha.org/iati/iati/84/2023/GetAllocation.xml
@@ -36896,7 +37197,7 @@ found 57 activities
 
 Downloading unocha-cbpf-opt-allocation-2023 from https://cbpfapi.unocha.org/iati/iati/67/2023/GetAllocation.xml
 Parsing unocha-cbpf-opt-allocation-2023 from https://cbpfapi.unocha.org/iati/iati/67/2023/GetAllocation.xml
-found 0 activities
+found 35 activities
 
 Downloading unocha-cbpf-opt-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/67/2024/GetAllocation.xml
 Parsing unocha-cbpf-opt-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/67/2024/GetAllocation.xml
@@ -36999,8 +37300,10 @@ Parsing unocha-cbpf-pakistan-allocation-2021 from https://cbpfapi.unocha.org/iat
 found 5 activities
 
 Downloading unocha-cbpf-pakistan-allocation-2022 from https://cbpfapi.unocha.org/iati/iati/60/2022/GetAllocation.xml
+curl: download ERROR 500
 Parsing unocha-cbpf-pakistan-allocation-2022 from https://cbpfapi.unocha.org/iati/iati/60/2022/GetAllocation.xml
-found 0 activities
+dflat: input XML file does not exist
+restored 0 files
 
 Downloading unocha-cbpf-pakistan-allocation-2023 from https://cbpfapi.unocha.org/iati/iati/60/2023/GetAllocation.xml
 Parsing unocha-cbpf-pakistan-allocation-2023 from https://cbpfapi.unocha.org/iati/iati/60/2023/GetAllocation.xml
@@ -37087,12 +37390,16 @@ Parsing unocha-cbpf-somalia-allocation-2016 from https://cbpfapi.unocha.org/iati
 found 109 activities
 
 Downloading unocha-cbpf-somalia-allocation-2017 from https://cbpfapi.unocha.org/iati/iati/21/2017/GetAllocation.xml
+curl: download ERROR 500
 Parsing unocha-cbpf-somalia-allocation-2017 from https://cbpfapi.unocha.org/iati/iati/21/2017/GetAllocation.xml
-found 165 activities
+dflat: input XML file does not exist
+restored 165 files
 
 Downloading unocha-cbpf-somalia-allocation-2018 from https://cbpfapi.unocha.org/iati/iati/21/2018/GetAllocation.xml
+curl: download ERROR 500
 Parsing unocha-cbpf-somalia-allocation-2018 from https://cbpfapi.unocha.org/iati/iati/21/2018/GetAllocation.xml
-found 120 activities
+dflat: input XML file does not exist
+restored 120 files
 
 Downloading unocha-cbpf-somalia-allocation-2019 from https://cbpfapi.unocha.org/iati/iati/21/2019/GetAllocation.xml
 Parsing unocha-cbpf-somalia-allocation-2019 from https://cbpfapi.unocha.org/iati/iati/21/2019/GetAllocation.xml
@@ -37103,16 +37410,22 @@ Parsing unocha-cbpf-somalia-allocation-2020 from https://cbpfapi.unocha.org/iati
 found 73 activities
 
 Downloading unocha-cbpf-somalia-allocation-2021 from https://cbpfapi.unocha.org/iati/iati/21/2021/GetAllocation.xml
+curl: download ERROR 500
 Parsing unocha-cbpf-somalia-allocation-2021 from https://cbpfapi.unocha.org/iati/iati/21/2021/GetAllocation.xml
-found 112 activities
+dflat: input XML file does not exist
+restored 112 files
 
 Downloading unocha-cbpf-somalia-allocation-2022 from https://cbpfapi.unocha.org/iati/iati/21/2022/GetAllocation.xml
+curl: download ERROR 500
 Parsing unocha-cbpf-somalia-allocation-2022 from https://cbpfapi.unocha.org/iati/iati/21/2022/GetAllocation.xml
-found 145 activities
+dflat: input XML file does not exist
+restored 145 files
 
 Downloading unocha-cbpf-somalia-allocation-2023 from https://cbpfapi.unocha.org/iati/iati/21/2023/GetAllocation.xml
+curl: download ERROR 500
 Parsing unocha-cbpf-somalia-allocation-2023 from https://cbpfapi.unocha.org/iati/iati/21/2023/GetAllocation.xml
-found 1 activities
+dflat: input XML file does not exist
+restored 1 files
 
 Downloading unocha-cbpf-somalia-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/21/2024/GetAllocation.xml
 Parsing unocha-cbpf-somalia-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/21/2024/GetAllocation.xml
@@ -37191,8 +37504,10 @@ Parsing unocha-cbpf-southsudan-2024 from https://cbpfapi.unocha.org/iati/iati/19
 found 1 activities
 
 Downloading unocha-cbpf-southsudan-allocation-2016 from https://cbpfapi.unocha.org/iati/iati/19/2016/GetAllocation.xml
+curl: download ERROR 000
 Parsing unocha-cbpf-southsudan-allocation-2016 from https://cbpfapi.unocha.org/iati/iati/19/2016/GetAllocation.xml
-found 212 activities
+dflat: input XML file does not exist
+restored 212 files
 
 Downloading unocha-cbpf-southsudan-allocation-2017 from https://cbpfapi.unocha.org/iati/iati/19/2017/GetAllocation.xml
 Parsing unocha-cbpf-southsudan-allocation-2017 from https://cbpfapi.unocha.org/iati/iati/19/2017/GetAllocation.xml
@@ -37211,16 +37526,20 @@ Parsing unocha-cbpf-southsudan-allocation-2020 from https://cbpfapi.unocha.org/i
 found 106 activities
 
 Downloading unocha-cbpf-southsudan-allocation-2021 from https://cbpfapi.unocha.org/iati/iati/19/2021/GetAllocation.xml
+curl: download ERROR 500
 Parsing unocha-cbpf-southsudan-allocation-2021 from https://cbpfapi.unocha.org/iati/iati/19/2021/GetAllocation.xml
-found 95 activities
+dflat: input XML file does not exist
+restored 95 files
 
 Downloading unocha-cbpf-southsudan-allocation-2022 from https://cbpfapi.unocha.org/iati/iati/19/2022/GetAllocation.xml
+curl: download ERROR 500
 Parsing unocha-cbpf-southsudan-allocation-2022 from https://cbpfapi.unocha.org/iati/iati/19/2022/GetAllocation.xml
-found 57 activities
+dflat: input XML file does not exist
+restored 57 files
 
 Downloading unocha-cbpf-southsudan-allocation-2023 from https://cbpfapi.unocha.org/iati/iati/19/2023/GetAllocation.xml
 Parsing unocha-cbpf-southsudan-allocation-2023 from https://cbpfapi.unocha.org/iati/iati/19/2023/GetAllocation.xml
-found 0 activities
+found 4 activities
 
 Downloading unocha-cbpf-southsudan-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/19/2024/GetAllocation.xml
 Parsing unocha-cbpf-southsudan-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/19/2024/GetAllocation.xml
@@ -37299,24 +37618,30 @@ Parsing unocha-cbpf-sudan-2024 from https://cbpfapi.unocha.org/iati/iati/15/2024
 found 1 activities
 
 Downloading unocha-cbpf-sudan-allocation-2016 from https://cbpfapi.unocha.org/iati/iati/15/2016/GetAllocation.xml
+curl: download ERROR 500
 Parsing unocha-cbpf-sudan-allocation-2016 from https://cbpfapi.unocha.org/iati/iati/15/2016/GetAllocation.xml
-found 113 activities
+dflat: input XML file does not exist
+restored 113 files
 
 Downloading unocha-cbpf-sudan-allocation-2017 from https://cbpfapi.unocha.org/iati/iati/15/2017/GetAllocation.xml
 Parsing unocha-cbpf-sudan-allocation-2017 from https://cbpfapi.unocha.org/iati/iati/15/2017/GetAllocation.xml
 found 90 activities
 
 Downloading unocha-cbpf-sudan-allocation-2018 from https://cbpfapi.unocha.org/iati/iati/15/2018/GetAllocation.xml
+curl: download ERROR 500
 Parsing unocha-cbpf-sudan-allocation-2018 from https://cbpfapi.unocha.org/iati/iati/15/2018/GetAllocation.xml
-found 71 activities
+dflat: input XML file does not exist
+restored 71 files
 
 Downloading unocha-cbpf-sudan-allocation-2019 from https://cbpfapi.unocha.org/iati/iati/15/2019/GetAllocation.xml
 Parsing unocha-cbpf-sudan-allocation-2019 from https://cbpfapi.unocha.org/iati/iati/15/2019/GetAllocation.xml
 found 78 activities
 
 Downloading unocha-cbpf-sudan-allocation-2020 from https://cbpfapi.unocha.org/iati/iati/15/2020/GetAllocation.xml
+curl: download ERROR 500
 Parsing unocha-cbpf-sudan-allocation-2020 from https://cbpfapi.unocha.org/iati/iati/15/2020/GetAllocation.xml
-found 94 activities
+dflat: input XML file does not exist
+restored 94 files
 
 Downloading unocha-cbpf-sudan-allocation-2021 from https://cbpfapi.unocha.org/iati/iati/15/2021/GetAllocation.xml
 Parsing unocha-cbpf-sudan-allocation-2021 from https://cbpfapi.unocha.org/iati/iati/15/2021/GetAllocation.xml
@@ -37328,11 +37653,13 @@ found 78 activities
 
 Downloading unocha-cbpf-sudan-allocation-2023 from https://cbpfapi.unocha.org/iati/iati/15/2023/GetAllocation.xml
 Parsing unocha-cbpf-sudan-allocation-2023 from https://cbpfapi.unocha.org/iati/iati/15/2023/GetAllocation.xml
-found 0 activities
+found 1 activities
 
 Downloading unocha-cbpf-sudan-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/15/2024/GetAllocation.xml
+curl: download ERROR 500
 Parsing unocha-cbpf-sudan-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/15/2024/GetAllocation.xml
-found 0 activities
+dflat: input XML file does not exist
+restored 0 files
 
 Downloading unocha-cbpf-sudan-contribution-2016 from https://cbpfapi.unocha.org/iati/iati/15/2016/GetContribution.xml
 Parsing unocha-cbpf-sudan-contribution-2016 from https://cbpfapi.unocha.org/iati/iati/15/2016/GetContribution.xml
@@ -37411,16 +37738,22 @@ Parsing unocha-cbpf-syria-allocation-2016 from https://cbpfapi.unocha.org/iati/i
 found 67 activities
 
 Downloading unocha-cbpf-syria-allocation-2017 from https://cbpfapi.unocha.org/iati/iati/62/2017/GetAllocation.xml
+curl: download ERROR 500
 Parsing unocha-cbpf-syria-allocation-2017 from https://cbpfapi.unocha.org/iati/iati/62/2017/GetAllocation.xml
-found 44 activities
+dflat: input XML file does not exist
+restored 44 files
 
 Downloading unocha-cbpf-syria-allocation-2018 from https://cbpfapi.unocha.org/iati/iati/62/2018/GetAllocation.xml
+curl: download ERROR 500
 Parsing unocha-cbpf-syria-allocation-2018 from https://cbpfapi.unocha.org/iati/iati/62/2018/GetAllocation.xml
-found 54 activities
+dflat: input XML file does not exist
+restored 54 files
 
 Downloading unocha-cbpf-syria-allocation-2019 from https://cbpfapi.unocha.org/iati/iati/62/2019/GetAllocation.xml
+curl: download ERROR 500
 Parsing unocha-cbpf-syria-allocation-2019 from https://cbpfapi.unocha.org/iati/iati/62/2019/GetAllocation.xml
-found 83 activities
+dflat: input XML file does not exist
+restored 83 files
 
 Downloading unocha-cbpf-syria-allocation-2020 from https://cbpfapi.unocha.org/iati/iati/62/2020/GetAllocation.xml
 Parsing unocha-cbpf-syria-allocation-2020 from https://cbpfapi.unocha.org/iati/iati/62/2020/GetAllocation.xml
@@ -37435,8 +37768,10 @@ Parsing unocha-cbpf-syria-allocation-2022 from https://cbpfapi.unocha.org/iati/i
 found 67 activities
 
 Downloading unocha-cbpf-syria-allocation-2023 from https://cbpfapi.unocha.org/iati/iati/62/2023/GetAllocation.xml
+curl: download ERROR 500
 Parsing unocha-cbpf-syria-allocation-2023 from https://cbpfapi.unocha.org/iati/iati/62/2023/GetAllocation.xml
-found 4 activities
+dflat: input XML file does not exist
+restored 4 files
 
 Downloading unocha-cbpf-syria-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/62/2024/GetAllocation.xml
 Parsing unocha-cbpf-syria-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/62/2024/GetAllocation.xml
@@ -37543,8 +37878,10 @@ Parsing unocha-cbpf-syriacrossborder-allocation-2022 from https://cbpfapi.unocha
 found 113 activities
 
 Downloading unocha-cbpf-syriacrossborder-allocation-2023 from https://cbpfapi.unocha.org/iati/iati/70/2023/GetAllocation.xml
+curl: download ERROR 500
 Parsing unocha-cbpf-syriacrossborder-allocation-2023 from https://cbpfapi.unocha.org/iati/iati/70/2023/GetAllocation.xml
-found 54 activities
+dflat: input XML file does not exist
+restored 54 files
 
 Downloading unocha-cbpf-syriacrossborder-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/70/2024/GetAllocation.xml
 Parsing unocha-cbpf-syriacrossborder-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/70/2024/GetAllocation.xml
@@ -37628,7 +37965,7 @@ found 109 activities
 
 Downloading unocha-cbpf-ukraine-allocation-2023 from https://cbpfapi.unocha.org/iati/iati/81/2023/GetAllocation.xml
 Parsing unocha-cbpf-ukraine-allocation-2023 from https://cbpfapi.unocha.org/iati/iati/81/2023/GetAllocation.xml
-found 16 activities
+found 17 activities
 
 Downloading unocha-cbpf-ukraine-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/81/2024/GetAllocation.xml
 Parsing unocha-cbpf-ukraine-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/81/2024/GetAllocation.xml
@@ -37755,16 +38092,20 @@ Parsing unocha-cbpf-yemen-2024 from https://cbpfapi.unocha.org/iati/iati/64/2024
 found 1 activities
 
 Downloading unocha-cbpf-yemen-allocation-2016 from https://cbpfapi.unocha.org/iati/iati/64/2016/GetAllocation.xml
+curl: download ERROR 500
 Parsing unocha-cbpf-yemen-allocation-2016 from https://cbpfapi.unocha.org/iati/iati/64/2016/GetAllocation.xml
-found 73 activities
+dflat: input XML file does not exist
+restored 73 files
 
 Downloading unocha-cbpf-yemen-allocation-2017 from https://cbpfapi.unocha.org/iati/iati/64/2017/GetAllocation.xml
 Parsing unocha-cbpf-yemen-allocation-2017 from https://cbpfapi.unocha.org/iati/iati/64/2017/GetAllocation.xml
 found 111 activities
 
 Downloading unocha-cbpf-yemen-allocation-2018 from https://cbpfapi.unocha.org/iati/iati/64/2018/GetAllocation.xml
+curl: download ERROR 500
 Parsing unocha-cbpf-yemen-allocation-2018 from https://cbpfapi.unocha.org/iati/iati/64/2018/GetAllocation.xml
-found 112 activities
+dflat: input XML file does not exist
+restored 112 files
 
 Downloading unocha-cbpf-yemen-allocation-2019 from https://cbpfapi.unocha.org/iati/iati/64/2019/GetAllocation.xml
 Parsing unocha-cbpf-yemen-allocation-2019 from https://cbpfapi.unocha.org/iati/iati/64/2019/GetAllocation.xml
@@ -37775,16 +38116,20 @@ Parsing unocha-cbpf-yemen-allocation-2020 from https://cbpfapi.unocha.org/iati/i
 found 62 activities
 
 Downloading unocha-cbpf-yemen-allocation-2021 from https://cbpfapi.unocha.org/iati/iati/64/2021/GetAllocation.xml
+curl: download ERROR 500
 Parsing unocha-cbpf-yemen-allocation-2021 from https://cbpfapi.unocha.org/iati/iati/64/2021/GetAllocation.xml
-found 106 activities
+dflat: input XML file does not exist
+restored 106 files
 
 Downloading unocha-cbpf-yemen-allocation-2022 from https://cbpfapi.unocha.org/iati/iati/64/2022/GetAllocation.xml
 Parsing unocha-cbpf-yemen-allocation-2022 from https://cbpfapi.unocha.org/iati/iati/64/2022/GetAllocation.xml
 found 106 activities
 
 Downloading unocha-cbpf-yemen-allocation-2023 from https://cbpfapi.unocha.org/iati/iati/64/2023/GetAllocation.xml
+curl: download ERROR 500
 Parsing unocha-cbpf-yemen-allocation-2023 from https://cbpfapi.unocha.org/iati/iati/64/2023/GetAllocation.xml
-found 0 activities
+dflat: input XML file does not exist
+restored 0 files
 
 Downloading unocha-cbpf-yemen-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/64/2024/GetAllocation.xml
 Parsing unocha-cbpf-yemen-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/64/2024/GetAllocation.xml
@@ -38871,6 +39216,10 @@ found 51 activities
 Downloading usadf-cotedivoire from https://iati-reporting.s3.amazonaws.com/african_development_foundation/xml/iati-activities-Cote%20dIvoire.xml
 Parsing usadf-cotedivoire from https://iati-reporting.s3.amazonaws.com/african_development_foundation/xml/iati-activities-Cote%20dIvoire.xml
 found 25 activities
+
+Downloading usadf-djibouti from https://iati-reporting.s3.amazonaws.com/african_development_foundation/xml/iati-activities-Djibouti.xml
+Parsing usadf-djibouti from https://iati-reporting.s3.amazonaws.com/african_development_foundation/xml/iati-activities-Djibouti.xml
+found 14 activities
 
 Downloading usadf-eswatini from https://iati-reporting.s3.amazonaws.com/african_development_foundation/xml/iati-activities-eSwatini.xml
 Parsing usadf-eswatini from https://iati-reporting.s3.amazonaws.com/african_development_foundation/xml/iati-activities-eSwatini.xml
@@ -44072,12 +44421,12 @@ Downloading wwf_id-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/wwf
 Parsing wwf_id-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/wwf_id-org.xml
 found 1 organisations
 
-Downloading wwf-kenya-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/wwf-kenya-activities.xml
-Parsing wwf-kenya-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/wwf-kenya-activities.xml
+Downloading wwf-kenya-activities from https://iatipublisher-prod.s3.amazonaws.com/xml/mergedActivityXml/wwf-kenya-activities.xml
+Parsing wwf-kenya-activities from https://iatipublisher-prod.s3.amazonaws.com/xml/mergedActivityXml/wwf-kenya-activities.xml
 found 2 activities
 
-Downloading wwf-kenya-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/wwf-kenya-org.xml
-Parsing wwf-kenya-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/wwf-kenya-org.xml
+Downloading wwf-kenya-organisation from https://iatipublisher-prod.s3.amazonaws.com/organizationXmlFiles/wwf-kenya-organisation.xml
+Parsing wwf-kenya-organisation from https://iatipublisher-prod.s3.amazonaws.com/organizationXmlFiles/wwf-kenya-organisation.xml
 found 1 organisations
 
 Downloading wwfna-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/wwfna-activities.xml
