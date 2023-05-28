@@ -1807,8 +1807,10 @@ Parsing afd-sy from https://static.data.gouv.fr/resources/donnees-de-laide-au-de
 found 0 activities
 
 Downloading afd-td from https://static.data.gouv.fr/resources/donnees-de-laide-au-developpement-de-lafd-1/20230413-161912/fr-afd-td.xml
+curl: download ERROR 000
 Parsing afd-td from https://static.data.gouv.fr/resources/donnees-de-laide-au-developpement-de-lafd-1/20230413-161912/fr-afd-td.xml
-found 103 activities
+dflat: input XML file does not exist
+restored 103 files
 
 Downloading afd-tg from https://static.data.gouv.fr/resources/donnees-de-laide-au-developpement-de-lafd-1/20230413-162018/fr-afd-tg.xml
 Parsing afd-tg from https://static.data.gouv.fr/resources/donnees-de-laide-au-developpement-de-lafd-1/20230413-162018/fr-afd-tg.xml
@@ -6772,20 +6774,19 @@ Parsing cidr-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/ci
 found 1 activities
 
 Downloading cif-389 from http://siteresources.worldbank.org/IATI/CIF/CIF-389.xml
+curl: download ERROR 404
 Parsing cif-389 from http://siteresources.worldbank.org/IATI/CIF/CIF-389.xml
-dflat: invalid XML format
+dflat: input XML file does not exist
 restored 0 files
 
 Downloading cif-889 from http://siteresources.worldbank.org/IATI/CIF/CIF-889.xml
-curl: download ERROR 404
 Parsing cif-889 from http://siteresources.worldbank.org/IATI/CIF/CIF-889.xml
-dflat: input XML file does not exist
+dflat: invalid XML format
 restored 0 files
 
 Downloading cif-998 from http://siteresources.worldbank.org/IATI/CIF/CIF-998.xml
-curl: download ERROR 404
 Parsing cif-998 from http://siteresources.worldbank.org/IATI/CIF/CIF-998.xml
-dflat: input XML file does not exist
+dflat: invalid XML format
 restored 0 files
 
 Downloading c_i_f-activities from https://iatipublisher-prod.s3.amazonaws.com/xml/mergedActivityXml/c_i_f-activities.xml
@@ -6822,8 +6823,9 @@ Parsing cif-br from http://doumodqax2qi2.cloudfront.net/CIF/CIF-05-2020/CIF-BR.x
 found 11 activities
 
 Downloading cif-cd from http://siteresources.worldbank.org/IATI/CIF/CIF-CD.xml
+curl: download ERROR 404
 Parsing cif-cd from http://siteresources.worldbank.org/IATI/CIF/CIF-CD.xml
-dflat: invalid XML format
+dflat: input XML file does not exist
 restored 0 files
 
 Downloading cif-ci from http://doumodqax2qi2.cloudfront.net/CIF/CIF-05-2020/CIF-CI.xml
@@ -7075,7 +7077,7 @@ found 12 activities
 
 Downloading cisu-gaia from https://vores.cisu.dk/activities.xml
 Parsing cisu-gaia from https://vores.cisu.dk/activities.xml
-found 2489 activities
+found 2490 activities
 
 Downloading cisu-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/cisu-org.xml
 Parsing cisu-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/cisu-org.xml
@@ -11547,7 +11549,7 @@ found 424 activities
 
 Downloading ec-echo-2023 from https://webgate.ec.europa.eu/hac/IATI/ec-echo-2023.xml
 Parsing ec-echo-2023 from https://webgate.ec.europa.eu/hac/IATI/ec-echo-2023.xml
-found 272 activities
+found 287 activities
 
 Downloading ec-echo-org from https://webgate.ec.europa.eu/hac/IATI/iati-organisation-file.xml
 Parsing ec-echo-org from https://webgate.ec.europa.eu/hac/IATI/iati-organisation-file.xml
@@ -15601,11 +15603,11 @@ found 1 organisations
 
 Downloading gac-amc-act_2_3 from http://w05.international.gc.ca/projectbrowser-banqueprojets/iita-iati/dfatd-maecd_activit_status_2_3.xml
 Parsing gac-amc-act_2_3 from http://w05.international.gc.ca/projectbrowser-banqueprojets/iita-iati/dfatd-maecd_activit_status_2_3.xml
-found 1801 activities
+found 1798 activities
 
 Downloading gac-amc-act_4 from http://w05.international.gc.ca/projectbrowser-banqueprojets/iita-iati/dfatd-maecd_activit_status_4.xml
 Parsing gac-amc-act_4 from http://w05.international.gc.ca/projectbrowser-banqueprojets/iita-iati/dfatd-maecd_activit_status_4.xml
-found 4240 activities
+found 4247 activities
 
 Downloading gac-amc-org from http://w05.international.gc.ca/projectbrowser-banqueprojets/iita-iati/dfatd-maecd_organisation.xml
 Parsing gac-amc-org from http://w05.international.gc.ca/projectbrowser-banqueprojets/iita-iati/dfatd-maecd_organisation.xml
@@ -16548,11 +16550,11 @@ found 1 organisations
 
 Downloading globalgiving-activity from http://www.globalgiving.org/iati/activities.xml
 Parsing globalgiving-activity from http://www.globalgiving.org/iati/activities.xml
-found 26066 activities
+found 26082 activities
 
 Downloading globalgiving-org from http://www.globalgiving.org/iati/organisations.xml
 Parsing globalgiving-org from http://www.globalgiving.org/iati/organisations.xml
-found 15000 organisations
+found 15001 organisations
 
 Downloading globalshea-activities from https://iatipublisher-prod.s3.amazonaws.com/xml/mergedActivityXml/globalshea-activities.xml
 Parsing globalshea-activities from https://iatipublisher-prod.s3.amazonaws.com/xml/mergedActivityXml/globalshea-activities.xml
@@ -19520,7 +19522,7 @@ found 10 activities
 
 Downloading ifcwbg-eg from https://disclosures.ifc.org/iati/ifc-eg.xml
 Parsing ifcwbg-eg from https://disclosures.ifc.org/iati/ifc-eg.xml
-found 118 activities
+found 119 activities
 
 Downloading ifcwbg-er from https://disclosures.ifc.org/iati/ifc-er.xml
 Parsing ifcwbg-er from https://disclosures.ifc.org/iati/ifc-er.xml
@@ -19776,7 +19778,7 @@ found 82 activities
 
 Downloading ifcwbg-pl from https://disclosures.ifc.org/iati/ifc-pl.xml
 Parsing ifcwbg-pl from https://disclosures.ifc.org/iati/ifc-pl.xml
-found 20 activities
+found 21 activities
 
 Downloading ifcwbg-py from https://disclosures.ifc.org/iati/ifc-py.xml
 Parsing ifcwbg-py from https://disclosures.ifc.org/iati/ifc-py.xml
@@ -19862,7 +19864,7 @@ found 39 activities
 
 Downloading ifcwbg-tj from https://disclosures.ifc.org/iati/ifc-tj.xml
 Parsing ifcwbg-tj from https://disclosures.ifc.org/iati/ifc-tj.xml
-found 30 activities
+found 31 activities
 
 Downloading ifcwbg-tl from https://disclosures.ifc.org/iati/ifc-tl.xml
 Parsing ifcwbg-tl from https://disclosures.ifc.org/iati/ifc-tl.xml
@@ -25531,7 +25533,7 @@ found 2220 activities
 
 Downloading onl-activity from https://www.oxfamnovib.nl/redactie/Downloads/XML/iati.xml
 Parsing onl-activity from https://www.oxfamnovib.nl/redactie/Downloads/XML/iati.xml
-found 1875 activities
+found 1876 activities
 
 Downloading onl-org from https://www.oxfamnovib.nl/redactie/downloads/xml/IATI_NL-KVK-27108436.xml
 Parsing onl-org from https://www.oxfamnovib.nl/redactie/downloads/xml/IATI_NL-KVK-27108436.xml
