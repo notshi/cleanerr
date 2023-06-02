@@ -4331,6 +4331,10 @@ Downloading auxfinbi-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/a
 Parsing auxfinbi-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/auxfinbi-org.xml
 found 1 organisations
 
+Downloading auxfinintl-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/auxfinintl-activities.xml
+Parsing auxfinintl-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/auxfinintl-activities.xml
+found 1 activities
+
 Downloading auxfinintl-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/auxfinintl-org.xml
 Parsing auxfinintl-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/auxfinintl-org.xml
 found 1 organisations
@@ -4673,9 +4677,9 @@ Downloading beis-gb-gov-13-raeng-gcrf from https://science-and-innovation-networ
 Parsing beis-gb-gov-13-raeng-gcrf from https://science-and-innovation-network.s3.eu-west-2.amazonaws.com/RAENG+GCRF+Activity+File.xml
 found 12 activities
 
-Downloading beis-gb-gov-13-rae from https://science-and-innovation-network.s3.eu-west-2.amazonaws.com/RAENG+GCRF+Activity+File.xml
-Parsing beis-gb-gov-13-rae from https://science-and-innovation-network.s3.eu-west-2.amazonaws.com/RAENG+GCRF+Activity+File.xml
-found 12 activities
+Downloading beis-gb-gov-13-rae from https://science-and-innovation-network.s3.eu-west-2.amazonaws.com/Royal+Academy+of+Engineering+R%26I+Activity+File.xml
+Parsing beis-gb-gov-13-rae from https://science-and-innovation-network.s3.eu-west-2.amazonaws.com/Royal+Academy+of+Engineering+R%26I+Activity+File.xml
+found 92 activities
 
 Downloading beis-gb-gov-13-rs-gcrf from https://science-and-innovation-network.s3.eu-west-2.amazonaws.com/Royal+Society+GCRF+Activity+File.xml
 Parsing beis-gb-gov-13-rs-gcrf from https://science-and-innovation-network.s3.eu-west-2.amazonaws.com/Royal+Society+GCRF+Activity+File.xml
@@ -6780,9 +6784,8 @@ Parsing cidr-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/ci
 found 1 activities
 
 Downloading cif-389 from http://siteresources.worldbank.org/IATI/CIF/CIF-389.xml
-curl: download ERROR 404
 Parsing cif-389 from http://siteresources.worldbank.org/IATI/CIF/CIF-389.xml
-dflat: input XML file does not exist
+dflat: invalid XML format
 restored 0 files
 
 Downloading cif-889 from http://siteresources.worldbank.org/IATI/CIF/CIF-889.xml
@@ -11554,7 +11557,7 @@ found 424 activities
 
 Downloading ec-echo-2023 from https://webgate.ec.europa.eu/hac/IATI/ec-echo-2023.xml
 Parsing ec-echo-2023 from https://webgate.ec.europa.eu/hac/IATI/ec-echo-2023.xml
-found 292 activities
+found 293 activities
 
 Downloading ec-echo-org from https://webgate.ec.europa.eu/hac/IATI/iati-organisation-file.xml
 Parsing ec-echo-org from https://webgate.ec.europa.eu/hac/IATI/iati-organisation-file.xml
@@ -13270,7 +13273,7 @@ found 3 organisations
 
 Downloading eib-act from http://www.eib.org/about/partners/cso/iati/activity.xml
 Parsing eib-act from http://www.eib.org/about/partners/cso/iati/activity.xml
-found 64 activities
+found 657 activities
 
 Downloading eib-org from http://www.eib.org/about/partners/cso/iati/organisation.xml
 Parsing eib-org from http://www.eib.org/about/partners/cso/iati/organisation.xml
@@ -15015,7 +15018,7 @@ Parsing foundation_center-macarthur from http://api.foundationcenter.org/iati/fo
 found 1387 activities
 
 Downloading foundation_center-open_ag from http://gis.foundationcenter.org/IATI/xmlresult.xml
-curl: download ERROR 403
+curl: download ERROR 000
 Parsing foundation_center-open_ag from http://gis.foundationcenter.org/IATI/xmlresult.xml
 dflat: input XML file does not exist
 restored 0 files
@@ -15612,11 +15615,11 @@ found 1 organisations
 
 Downloading gac-amc-act_2_3 from http://w05.international.gc.ca/projectbrowser-banqueprojets/iita-iati/dfatd-maecd_activit_status_2_3.xml
 Parsing gac-amc-act_2_3 from http://w05.international.gc.ca/projectbrowser-banqueprojets/iita-iati/dfatd-maecd_activit_status_2_3.xml
-found 1803 activities
+found 1802 activities
 
 Downloading gac-amc-act_4 from http://w05.international.gc.ca/projectbrowser-banqueprojets/iita-iati/dfatd-maecd_activit_status_4.xml
 Parsing gac-amc-act_4 from http://w05.international.gc.ca/projectbrowser-banqueprojets/iita-iati/dfatd-maecd_activit_status_4.xml
-found 4257 activities
+found 4263 activities
 
 Downloading gac-amc-org from http://w05.international.gc.ca/projectbrowser-banqueprojets/iita-iati/dfatd-maecd_organisation.xml
 Parsing gac-amc-org from http://w05.international.gc.ca/projectbrowser-banqueprojets/iita-iati/dfatd-maecd_organisation.xml
@@ -16559,11 +16562,11 @@ found 1 organisations
 
 Downloading globalgiving-activity from http://www.globalgiving.org/iati/activities.xml
 Parsing globalgiving-activity from http://www.globalgiving.org/iati/activities.xml
-found 26095 activities
+found 26103 activities
 
 Downloading globalgiving-org from http://www.globalgiving.org/iati/organisations.xml
 Parsing globalgiving-org from http://www.globalgiving.org/iati/organisations.xml
-found 15007 organisations
+found 15008 organisations
 
 Downloading globalshea-activities from https://iatipublisher-prod.s3.amazonaws.com/xml/mergedActivityXml/globalshea-activities.xml
 Parsing globalshea-activities from https://iatipublisher-prod.s3.amazonaws.com/xml/mergedActivityXml/globalshea-activities.xml
@@ -16849,6 +16852,10 @@ found 1 activities
 Downloading handinhand-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/handinhand-org.xml
 Parsing handinhand-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/handinhand-org.xml
 found 1 organisations
+
+Downloading harvard_global-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/harvard_global-activities.xml
+Parsing harvard_global-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/harvard_global-activities.xml
+found 1 activities
 
 Downloading hauk-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/hauk-activities.xml
 Parsing hauk-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/hauk-activities.xml
@@ -17303,7 +17310,7 @@ found 1 activities
 
 Downloading hi_fed-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/hi_fed-activities.xml
 Parsing hi_fed-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/hi_fed-activities.xml
-found 14 activities
+found 15 activities
 
 Downloading hi_fed-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/hi_fed-org.xml
 Parsing hi_fed-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/hi_fed-org.xml
@@ -17557,19 +17564,19 @@ found 1 organisations
 
 Downloading iadb-ar from https://webimages.iadb.org/iati/iadb-Argentina.xml
 Parsing iadb-ar from https://webimages.iadb.org/iati/iadb-Argentina.xml
-found 126 activities
+found 134 activities
 
 Downloading iadb-bb from https://webimages.iadb.org/iati/iadb-Barbados.xml
 Parsing iadb-bb from https://webimages.iadb.org/iati/iadb-Barbados.xml
-found 26 activities
+found 27 activities
 
 Downloading iadb-bo from https://webimages.iadb.org/iati/iadb-Bolivia.xml
 Parsing iadb-bo from https://webimages.iadb.org/iati/iadb-Bolivia.xml
-found 76 activities
+found 77 activities
 
 Downloading iadb-br from https://webimages.iadb.org/iati/iadb-Brazil.xml
 Parsing iadb-br from https://webimages.iadb.org/iati/iadb-Brazil.xml
-found 194 activities
+found 199 activities
 
 Downloading iadb-bs from https://webimages.iadb.org/iati/iadb-Bahamas.xml
 Parsing iadb-bs from https://webimages.iadb.org/iati/iadb-Bahamas.xml
@@ -17577,15 +17584,15 @@ found 23 activities
 
 Downloading iadb-bz from https://webimages.iadb.org/iati/iadb-Belize.xml
 Parsing iadb-bz from https://webimages.iadb.org/iati/iadb-Belize.xml
-found 22 activities
+found 23 activities
 
 Downloading iadb-cl from https://webimages.iadb.org/iati/iadb-Chile.xml
 Parsing iadb-cl from https://webimages.iadb.org/iati/iadb-Chile.xml
-found 39 activities
+found 42 activities
 
 Downloading iadb-co from https://webimages.iadb.org/iati/iadb-Colombia.xml
 Parsing iadb-co from https://webimages.iadb.org/iati/iadb-Colombia.xml
-found 103 activities
+found 111 activities
 
 Downloading iadb-cr from https://webimages.iadb.org/iati/iadb-Costa-Rica.xml
 Parsing iadb-cr from https://webimages.iadb.org/iati/iadb-Costa-Rica.xml
@@ -17597,7 +17604,7 @@ found 57 activities
 
 Downloading iadb-ec from https://webimages.iadb.org/iati/iadb-Ecuador.xml
 Parsing iadb-ec from https://webimages.iadb.org/iati/iadb-Ecuador.xml
-found 79 activities
+found 81 activities
 
 Downloading iadb-gt from https://webimages.iadb.org/iati/iadb-Guatemala.xml
 Parsing iadb-gt from https://webimages.iadb.org/iati/iadb-Guatemala.xml
@@ -17605,19 +17612,19 @@ found 27 activities
 
 Downloading iadb-gy from https://webimages.iadb.org/iati/iadb-Guyana.xml
 Parsing iadb-gy from https://webimages.iadb.org/iati/iadb-Guyana.xml
-found 42 activities
+found 43 activities
 
 Downloading iadb-ho from https://webimages.iadb.org/iati/iadb-Honduras.xml
 Parsing iadb-ho from https://webimages.iadb.org/iati/iadb-Honduras.xml
-found 74 activities
+found 76 activities
 
 Downloading iadb-ht from https://webimages.iadb.org/iati/iadb-Haiti.xml
 Parsing iadb-ht from https://webimages.iadb.org/iati/iadb-Haiti.xml
-found 83 activities
+found 82 activities
 
 Downloading iadb-jm from https://webimages.iadb.org/iati/iadb-Jamaica.xml
 Parsing iadb-jm from https://webimages.iadb.org/iati/iadb-Jamaica.xml
-found 47 activities
+found 49 activities
 
 Downloading iadb-mx from https://webimages.iadb.org/iati/iadb-Mexico.xml
 Parsing iadb-mx from https://webimages.iadb.org/iati/iadb-Mexico.xml
@@ -17625,7 +17632,7 @@ found 74 activities
 
 Downloading iadb-ni from https://webimages.iadb.org/iati/iadb-Nicaragua.xml
 Parsing iadb-ni from https://webimages.iadb.org/iati/iadb-Nicaragua.xml
-found 68 activities
+found 69 activities
 
 Downloading iadb-org from https://webimages.iadb.org/iati/IATI_Organizations_Standard.xml
 Parsing iadb-org from https://webimages.iadb.org/iati/IATI_Organizations_Standard.xml
@@ -17633,23 +17640,23 @@ found 1 organisations
 
 Downloading iadb-pa from https://webimages.iadb.org/iati/iadb-Panama.xml
 Parsing iadb-pa from https://webimages.iadb.org/iati/iadb-Panama.xml
-found 73 activities
+found 76 activities
 
 Downloading iadb-pe from https://webimages.iadb.org/iati/iadb-Peru.xml
 Parsing iadb-pe from https://webimages.iadb.org/iati/iadb-Peru.xml
-found 96 activities
+found 99 activities
 
 Downloading iadb-py from https://webimages.iadb.org/iati/iadb-Paraguay.xml
 Parsing iadb-py from https://webimages.iadb.org/iati/iadb-Paraguay.xml
-found 58 activities
+found 64 activities
 
 Downloading iadb-rg from https://webimages.iadb.org/iati/iadb-Regional.xml
 Parsing iadb-rg from https://webimages.iadb.org/iati/iadb-Regional.xml
-found 10 activities
+found 12 activities
 
 Downloading iadb-sr from https://webimages.iadb.org/iati/iadb-Suriname.xml
 Parsing iadb-sr from https://webimages.iadb.org/iati/iadb-Suriname.xml
-found 33 activities
+found 38 activities
 
 Downloading iadb-sv from https://webimages.iadb.org/iati/iadb-El-Salvador.xml
 Parsing iadb-sv from https://webimages.iadb.org/iati/iadb-El-Salvador.xml
@@ -17661,11 +17668,11 @@ found 21 activities
 
 Downloading iadb-uy from https://webimages.iadb.org/iati/iadb-Uruguay.xml
 Parsing iadb-uy from https://webimages.iadb.org/iati/iadb-Uruguay.xml
-found 96 activities
+found 97 activities
 
 Downloading iadb-ve from https://webimages.iadb.org/iati/iadb-Venezuela.xml
 Parsing iadb-ve from https://webimages.iadb.org/iati/iadb-Venezuela.xml
-found 16 activities
+found 15 activities
 
 Downloading iaf-americaregional from https://iati-reporting.s3.amazonaws.com/inter-american_foundation/xml/iati-activities-America%20regional.xml
 Parsing iaf-americaregional from https://iati-reporting.s3.amazonaws.com/inter-american_foundation/xml/iati-activities-America%20regional.xml
@@ -18867,7 +18874,7 @@ found 9 activities
 
 Downloading ifad-activitity-ci from https://webapps.ifad.org/iati/ifad_ci_activities.xml
 Parsing ifad-activitity-ci from https://webapps.ifad.org/iati/ifad_ci_activities.xml
-found 12 activities
+found 13 activities
 
 Downloading ifad-activitity-cl from https://webapps.ifad.org/iati/ifad_cl_activities.xml
 Parsing ifad-activitity-cl from https://webapps.ifad.org/iati/ifad_cl_activities.xml
@@ -19451,7 +19458,7 @@ found 20 activities
 
 Downloading ifcwbg-br from https://disclosures.ifc.org/iati/ifc-br.xml
 Parsing ifcwbg-br from https://disclosures.ifc.org/iati/ifc-br.xml
-found 291 activities
+found 292 activities
 
 Downloading ifcwbg-bt from https://disclosures.ifc.org/iati/ifc-bt.xml
 Parsing ifcwbg-bt from https://disclosures.ifc.org/iati/ifc-bt.xml
@@ -19495,7 +19502,7 @@ found 32 activities
 
 Downloading ifcwbg-cn from https://disclosures.ifc.org/iati/ifc-cn.xml
 Parsing ifcwbg-cn from https://disclosures.ifc.org/iati/ifc-cn.xml
-found 293 activities
+found 292 activities
 
 Downloading ifcwbg-co from https://disclosures.ifc.org/iati/ifc-co.xml
 Parsing ifcwbg-co from https://disclosures.ifc.org/iati/ifc-co.xml
@@ -19865,7 +19872,7 @@ found 2 activities
 
 Downloading ifcwbg-tg from https://disclosures.ifc.org/iati/ifc-tg.xml
 Parsing ifcwbg-tg from https://disclosures.ifc.org/iati/ifc-tg.xml
-found 7 activities
+found 8 activities
 
 Downloading ifcwbg-th from https://disclosures.ifc.org/iati/ifc-th.xml
 Parsing ifcwbg-th from https://disclosures.ifc.org/iati/ifc-th.xml
@@ -19893,7 +19900,7 @@ found 12 activities
 
 Downloading ifcwbg-tz from https://disclosures.ifc.org/iati/ifc-tz.xml
 Parsing ifcwbg-tz from https://disclosures.ifc.org/iati/ifc-tz.xml
-found 51 activities
+found 52 activities
 
 Downloading ifcwbg-ua from https://disclosures.ifc.org/iati/ifc-ua.xml
 Parsing ifcwbg-ua from https://disclosures.ifc.org/iati/ifc-ua.xml
@@ -23022,7 +23029,7 @@ restored 0 files
 
 Downloading mag-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/mag-activities.xml
 Parsing mag-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/mag-activities.xml
-found 24 activities
+found 29 activities
 
 Downloading magariro-gec from https://www.vsointernational.org/sites/default/files/magariro_gec.xml
 curl: download ERROR 404
@@ -24774,6 +24781,14 @@ Downloading nl-kvk-54436222-27541-stitch2021 from https://files.aida.tools/activ
 Parsing nl-kvk-54436222-27541-stitch2021 from https://files.aida.tools/activities/NL-KVK-54436222/b483af1b-e7be-4a91-9949-e4208853dc5f/STITCH2021.xml
 found 6 activities
 
+Downloading nl-kvk-54436222-27541-stitch2022 from https://files.aida.tools/activities/NL-KVK-54436222/84b8d71e-5587-4668-bc84-0a608c65fa9c/STITCH2022.xml
+Parsing nl-kvk-54436222-27541-stitch2022 from https://files.aida.tools/activities/NL-KVK-54436222/84b8d71e-5587-4668-bc84-0a608c65fa9c/STITCH2022.xml
+found 6 activities
+
+Downloading nl-kvk-54436222-27541-tucp2022 from https://files.aida.tools/activities/NL-KVK-54436222/d24d66e0-bc76-4856-bee6-b9c61676cac4/TUCP2022.xml
+Parsing nl-kvk-54436222-27541-tucp2022 from https://files.aida.tools/activities/NL-KVK-54436222/d24d66e0-bc76-4856-bee6-b9c61676cac4/TUCP2022.xml
+found 20 activities
+
 Downloading nl-kvk-54436222-27541-tucpactivities from https://files.aida.tools/activities/NL-KVK-54436222/6452b819-9fe7-4a12-bc8e-0bb4d92d9152/TUCPactivities.xml
 Parsing nl-kvk-54436222-27541-tucpactivities from https://files.aida.tools/activities/NL-KVK-54436222/6452b819-9fe7-4a12-bc8e-0bb4d92d9152/TUCPactivities.xml
 found 20 activities
@@ -25510,7 +25525,7 @@ found 2220 activities
 
 Downloading onl-activity from https://www.oxfamnovib.nl/redactie/Downloads/XML/iati.xml
 Parsing onl-activity from https://www.oxfamnovib.nl/redactie/Downloads/XML/iati.xml
-found 1881 activities
+found 1880 activities
 
 Downloading onl-org from https://www.oxfamnovib.nl/redactie/downloads/xml/IATI_NL-KVK-27108436.xml
 Parsing onl-org from https://www.oxfamnovib.nl/redactie/downloads/xml/IATI_NL-KVK-27108436.xml
@@ -35631,11 +35646,11 @@ found 959 activities
 
 Downloading unido-activity-2023 from https://downloads.unido.org/iati/2023-unido-activities.xml
 Parsing unido-activity-2023 from https://downloads.unido.org/iati/2023-unido-activities.xml
-found 827 activities
+found 843 activities
 
 Downloading unido-activity-2024 from https://downloads.unido.org/iati/2024-unido-activities.xml
 Parsing unido-activity-2024 from https://downloads.unido.org/iati/2024-unido-activities.xml
-found 177 activities
+found 187 activities
 
 Downloading unido-activity-2025 from https://downloads.unido.org/iati/2025-unido-activities.xml
 Parsing unido-activity-2025 from https://downloads.unido.org/iati/2025-unido-activities.xml
@@ -36223,7 +36238,7 @@ found 175 activities
 
 Downloading unocha-cbpf-ethiopia-allocation-2022 from https://cbpfapi.unocha.org/iati/iati/53/2022/GetAllocation.xml
 Parsing unocha-cbpf-ethiopia-allocation-2022 from https://cbpfapi.unocha.org/iati/iati/53/2022/GetAllocation.xml
-found 69 activities
+found 70 activities
 
 Downloading unocha-cbpf-ethiopia-allocation-2023 from https://cbpfapi.unocha.org/iati/iati/53/2023/GetAllocation.xml
 Parsing unocha-cbpf-ethiopia-allocation-2023 from https://cbpfapi.unocha.org/iati/iati/53/2023/GetAllocation.xml
@@ -37191,7 +37206,7 @@ found 145 activities
 
 Downloading unocha-cbpf-somalia-allocation-2023 from https://cbpfapi.unocha.org/iati/iati/21/2023/GetAllocation.xml
 Parsing unocha-cbpf-somalia-allocation-2023 from https://cbpfapi.unocha.org/iati/iati/21/2023/GetAllocation.xml
-found 4 activities
+found 7 activities
 
 Downloading unocha-cbpf-somalia-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/21/2024/GetAllocation.xml
 Parsing unocha-cbpf-somalia-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/21/2024/GetAllocation.xml
@@ -37515,7 +37530,7 @@ found 68 activities
 
 Downloading unocha-cbpf-syria-allocation-2023 from https://cbpfapi.unocha.org/iati/iati/62/2023/GetAllocation.xml
 Parsing unocha-cbpf-syria-allocation-2023 from https://cbpfapi.unocha.org/iati/iati/62/2023/GetAllocation.xml
-found 29 activities
+found 32 activities
 
 Downloading unocha-cbpf-syria-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/62/2024/GetAllocation.xml
 Parsing unocha-cbpf-syria-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/62/2024/GetAllocation.xml
@@ -37731,7 +37746,7 @@ found 63 activities
 
 Downloading unocha-cbpf-ukraine-contribution-2023 from https://cbpfapi.unocha.org/iati/iati/81/2023/GetContribution.xml
 Parsing unocha-cbpf-ukraine-contribution-2023 from https://cbpfapi.unocha.org/iati/iati/81/2023/GetContribution.xml
-found 10 activities
+found 11 activities
 
 Downloading unocha-cbpf-ukraine-contribution-2024 from https://cbpfapi.unocha.org/iati/iati/81/2024/GetContribution.xml
 Parsing unocha-cbpf-ukraine-contribution-2024 from https://cbpfapi.unocha.org/iati/iati/81/2024/GetContribution.xml
@@ -42637,7 +42652,7 @@ restored 0 files
 
 Downloading whh-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/whh-activities.xml
 Parsing whh-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/whh-activities.xml
-found 85 activities
+found 86 activities
 
 Downloading whh-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/whh-org.xml
 Parsing whh-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/whh-org.xml
@@ -44420,11 +44435,9 @@ Downloading yffhsd-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/yff
 Parsing yffhsd-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/yffhsd-org.xml
 found 1 organisations
 
-Downloading yipl-activities from https://aidstream-stage.s3.us-west-2.amazonaws.com/xml/yipl-activities.xml
-curl: download ERROR 403
-Parsing yipl-activities from https://aidstream-stage.s3.us-west-2.amazonaws.com/xml/yipl-activities.xml
-dflat: input XML file does not exist
-restored 4 files
+Downloading yipl-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/yipl-activities.xml
+Parsing yipl-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/yipl-activities.xml
+found 4 activities
 
 Downloading yipl-org from https://aidstream-stage.s3.us-west-2.amazonaws.com/xml/yipl-org.xml
 curl: download ERROR 403
