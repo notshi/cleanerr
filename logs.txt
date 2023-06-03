@@ -4679,7 +4679,7 @@ found 12 activities
 
 Downloading beis-gb-gov-13-rae from https://science-and-innovation-network.s3.eu-west-2.amazonaws.com/Royal+Academy+of+Engineering+R%26I+Activity+File.xml
 Parsing beis-gb-gov-13-rae from https://science-and-innovation-network.s3.eu-west-2.amazonaws.com/Royal+Academy+of+Engineering+R%26I+Activity+File.xml
-found 92 activities
+found 77 activities
 
 Downloading beis-gb-gov-13-rs-gcrf from https://science-and-innovation-network.s3.eu-west-2.amazonaws.com/Royal+Society+GCRF+Activity+File.xml
 Parsing beis-gb-gov-13-rs-gcrf from https://science-and-innovation-network.s3.eu-west-2.amazonaws.com/Royal+Society+GCRF+Activity+File.xml
@@ -4706,6 +4706,10 @@ found 64 activities
 Downloading beis-org from https://science-and-innovation-network.s3.eu-west-2.amazonaws.com/BEIS+Organisation+File.xml
 Parsing beis-org from https://science-and-innovation-network.s3.eu-west-2.amazonaws.com/BEIS+Organisation+File.xml
 found 1 organisations
+
+Downloading beis-raeng from https://science-and-innovation-network.s3.eu-west-2.amazonaws.com/Royal+Academy+of+Engineering+R%26I+Level+B+Programme+File.xml
+Parsing beis-raeng from https://science-and-innovation-network.s3.eu-west-2.amazonaws.com/Royal+Academy+of+Engineering+R%26I+Level+B+Programme+File.xml
+found 18 activities
 
 Downloading berytech-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/berytech-activities.xml
 Parsing berytech-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/berytech-activities.xml
@@ -6832,8 +6836,9 @@ Parsing cif-br from http://doumodqax2qi2.cloudfront.net/CIF/CIF-05-2020/CIF-BR.x
 found 11 activities
 
 Downloading cif-cd from http://siteresources.worldbank.org/IATI/CIF/CIF-CD.xml
+curl: download ERROR 404
 Parsing cif-cd from http://siteresources.worldbank.org/IATI/CIF/CIF-CD.xml
-dflat: invalid XML format
+dflat: input XML file does not exist
 restored 0 files
 
 Downloading cif-ci from http://doumodqax2qi2.cloudfront.net/CIF/CIF-05-2020/CIF-CI.xml
@@ -7085,7 +7090,7 @@ found 12 activities
 
 Downloading cisu-gaia from https://vores.cisu.dk/activities.xml
 Parsing cisu-gaia from https://vores.cisu.dk/activities.xml
-found 2490 activities
+found 2491 activities
 
 Downloading cisu-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/cisu-org.xml
 Parsing cisu-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/cisu-org.xml
@@ -7893,31 +7898,31 @@ found 1 organisations
 
 Downloading danida-all_1 from http://iati.um.dk/api/v2/files/iati1.xml
 Parsing danida-all_1 from http://iati.um.dk/api/v2/files/iati1.xml
-found 2572 activities
+found 2576 activities
 
 Downloading danida-all_2 from http://iati.um.dk/api/v2/files/iati2.xml
 Parsing danida-all_2 from http://iati.um.dk/api/v2/files/iati2.xml
-found 2572 activities
+found 2576 activities
 
 Downloading danida-all_3 from http://iati.um.dk/api/v2/files/iati3.xml
 Parsing danida-all_3 from http://iati.um.dk/api/v2/files/iati3.xml
-found 2572 activities
+found 2576 activities
 
 Downloading danida-all_4 from http://iati.um.dk/api/v2/files/iati4.xml
 Parsing danida-all_4 from http://iati.um.dk/api/v2/files/iati4.xml
-found 2572 activities
+found 2576 activities
 
 Downloading danida-all_5 from http://iati.um.dk/api/v2/files/iati5.xml
 Parsing danida-all_5 from http://iati.um.dk/api/v2/files/iati5.xml
-found 2572 activities
+found 2576 activities
 
 Downloading danida-all_6 from http://iati.um.dk/api/v2/files/iati6.xml
 Parsing danida-all_6 from http://iati.um.dk/api/v2/files/iati6.xml
-found 2572 activities
+found 2576 activities
 
 Downloading danida-all_7 from http://iati.um.dk/api/v2/files/iati7.xml
 Parsing danida-all_7 from http://iati.um.dk/api/v2/files/iati7.xml
-found 2567 activities
+found 2575 activities
 
 Downloading danida-org from http://iati.um.dk/api/v2/organisations/files/iati-organisations.xml
 Parsing danida-org from http://iati.um.dk/api/v2/organisations/files/iati-organisations.xml
@@ -11557,7 +11562,7 @@ found 424 activities
 
 Downloading ec-echo-2023 from https://webgate.ec.europa.eu/hac/IATI/ec-echo-2023.xml
 Parsing ec-echo-2023 from https://webgate.ec.europa.eu/hac/IATI/ec-echo-2023.xml
-found 293 activities
+found 296 activities
 
 Downloading ec-echo-org from https://webgate.ec.europa.eu/hac/IATI/iati-organisation-file.xml
 Parsing ec-echo-org from https://webgate.ec.europa.eu/hac/IATI/iati-organisation-file.xml
@@ -15024,8 +15029,10 @@ dflat: input XML file does not exist
 restored 0 files
 
 Downloading fowdk-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/fowdk-activities.xml
+curl: download ERROR 403
 Parsing fowdk-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/fowdk-activities.xml
-found 1 activities
+dflat: input XML file does not exist
+restored 1 files
 
 Downloading fowode-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/fowode-activities.xml
 Parsing fowode-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/fowode-activities.xml
@@ -16562,11 +16569,11 @@ found 1 organisations
 
 Downloading globalgiving-activity from http://www.globalgiving.org/iati/activities.xml
 Parsing globalgiving-activity from http://www.globalgiving.org/iati/activities.xml
-found 26103 activities
+found 26111 activities
 
 Downloading globalgiving-org from http://www.globalgiving.org/iati/organisations.xml
 Parsing globalgiving-org from http://www.globalgiving.org/iati/organisations.xml
-found 15008 organisations
+found 15010 organisations
 
 Downloading globalshea-activities from https://iatipublisher-prod.s3.amazonaws.com/xml/mergedActivityXml/globalshea-activities.xml
 Parsing globalshea-activities from https://iatipublisher-prod.s3.amazonaws.com/xml/mergedActivityXml/globalshea-activities.xml
@@ -21897,6 +21904,12 @@ Downloading larive-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/lar
 Parsing larive-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/larive-org.xml
 found 1 organisations
 
+Downloading laterite_bv-basic from http://laterite.com/basic-spir-followup.xml
+curl: download ERROR 404
+Parsing laterite_bv-basic from http://laterite.com/basic-spir-followup.xml
+dflat: input XML file does not exist
+restored 0 files
+
 Downloading law-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/law-activities.xml
 Parsing law-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/law-activities.xml
 found 1 activities
@@ -25525,7 +25538,7 @@ found 2220 activities
 
 Downloading onl-activity from https://www.oxfamnovib.nl/redactie/Downloads/XML/iati.xml
 Parsing onl-activity from https://www.oxfamnovib.nl/redactie/Downloads/XML/iati.xml
-found 1880 activities
+found 1890 activities
 
 Downloading onl-org from https://www.oxfamnovib.nl/redactie/downloads/xml/IATI_NL-KVK-27108436.xml
 Parsing onl-org from https://www.oxfamnovib.nl/redactie/downloads/xml/IATI_NL-KVK-27108436.xml
@@ -35818,11 +35831,11 @@ found 29 activities
 
 Downloading unocha-cbpf-afghanistan-contribution-2023 from https://cbpfapi.unocha.org/iati/iati/23/2023/GetContribution.xml
 Parsing unocha-cbpf-afghanistan-contribution-2023 from https://cbpfapi.unocha.org/iati/iati/23/2023/GetContribution.xml
-found 10 activities
+found 11 activities
 
 Downloading unocha-cbpf-afghanistan-contribution-2024 from https://cbpfapi.unocha.org/iati/iati/23/2024/GetContribution.xml
 Parsing unocha-cbpf-afghanistan-contribution-2024 from https://cbpfapi.unocha.org/iati/iati/23/2024/GetContribution.xml
-found 1 activities
+found 2 activities
 
 Downloading unocha-cbpf-burkinafasorhpf-2016 from https://cbpfapi.unocha.org/iati/iati/85/2016/GetPooledFund.xml
 Parsing unocha-cbpf-burkinafasorhpf-2016 from https://cbpfapi.unocha.org/iati/iati/85/2016/GetPooledFund.xml
@@ -37206,7 +37219,7 @@ found 145 activities
 
 Downloading unocha-cbpf-somalia-allocation-2023 from https://cbpfapi.unocha.org/iati/iati/21/2023/GetAllocation.xml
 Parsing unocha-cbpf-somalia-allocation-2023 from https://cbpfapi.unocha.org/iati/iati/21/2023/GetAllocation.xml
-found 7 activities
+found 13 activities
 
 Downloading unocha-cbpf-somalia-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/21/2024/GetAllocation.xml
 Parsing unocha-cbpf-somalia-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/21/2024/GetAllocation.xml
@@ -44437,7 +44450,7 @@ found 1 organisations
 
 Downloading yipl-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/yipl-activities.xml
 Parsing yipl-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/yipl-activities.xml
-found 4 activities
+found 5 activities
 
 Downloading yipl-org from https://aidstream-stage.s3.us-west-2.amazonaws.com/xml/yipl-org.xml
 curl: download ERROR 403
