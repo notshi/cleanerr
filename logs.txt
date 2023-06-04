@@ -6836,9 +6836,8 @@ Parsing cif-br from http://doumodqax2qi2.cloudfront.net/CIF/CIF-05-2020/CIF-BR.x
 found 11 activities
 
 Downloading cif-cd from http://siteresources.worldbank.org/IATI/CIF/CIF-CD.xml
-curl: download ERROR 404
 Parsing cif-cd from http://siteresources.worldbank.org/IATI/CIF/CIF-CD.xml
-dflat: input XML file does not exist
+dflat: invalid XML format
 restored 0 files
 
 Downloading cif-ci from http://doumodqax2qi2.cloudfront.net/CIF/CIF-05-2020/CIF-CI.xml
@@ -7158,7 +7157,7 @@ found 1 organisations
 
 Downloading cividep-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/cividep-activities.xml
 Parsing cividep-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/cividep-activities.xml
-found 1 activities
+found 2 activities
 
 Downloading cividep-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/cividep-org.xml
 Parsing cividep-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/cividep-org.xml
@@ -7922,7 +7921,7 @@ found 2576 activities
 
 Downloading danida-all_7 from http://iati.um.dk/api/v2/files/iati7.xml
 Parsing danida-all_7 from http://iati.um.dk/api/v2/files/iati7.xml
-found 2575 activities
+found 2573 activities
 
 Downloading danida-org from http://iati.um.dk/api/v2/organisations/files/iati-organisations.xml
 Parsing danida-org from http://iati.um.dk/api/v2/organisations/files/iati-organisations.xml
@@ -11562,7 +11561,7 @@ found 424 activities
 
 Downloading ec-echo-2023 from https://webgate.ec.europa.eu/hac/IATI/ec-echo-2023.xml
 Parsing ec-echo-2023 from https://webgate.ec.europa.eu/hac/IATI/ec-echo-2023.xml
-found 296 activities
+found 306 activities
 
 Downloading ec-echo-org from https://webgate.ec.europa.eu/hac/IATI/iati-organisation-file.xml
 Parsing ec-echo-org from https://webgate.ec.europa.eu/hac/IATI/iati-organisation-file.xml
@@ -15622,7 +15621,7 @@ found 1 organisations
 
 Downloading gac-amc-act_2_3 from http://w05.international.gc.ca/projectbrowser-banqueprojets/iita-iati/dfatd-maecd_activit_status_2_3.xml
 Parsing gac-amc-act_2_3 from http://w05.international.gc.ca/projectbrowser-banqueprojets/iita-iati/dfatd-maecd_activit_status_2_3.xml
-found 1802 activities
+found 1803 activities
 
 Downloading gac-amc-act_4 from http://w05.international.gc.ca/projectbrowser-banqueprojets/iita-iati/dfatd-maecd_activit_status_4.xml
 Parsing gac-amc-act_4 from http://w05.international.gc.ca/projectbrowser-banqueprojets/iita-iati/dfatd-maecd_activit_status_4.xml
@@ -16569,11 +16568,11 @@ found 1 organisations
 
 Downloading globalgiving-activity from http://www.globalgiving.org/iati/activities.xml
 Parsing globalgiving-activity from http://www.globalgiving.org/iati/activities.xml
-found 26111 activities
+found 26131 activities
 
 Downloading globalgiving-org from http://www.globalgiving.org/iati/organisations.xml
 Parsing globalgiving-org from http://www.globalgiving.org/iati/organisations.xml
-found 15010 organisations
+found 15014 organisations
 
 Downloading globalshea-activities from https://iatipublisher-prod.s3.amazonaws.com/xml/mergedActivityXml/globalshea-activities.xml
 Parsing globalshea-activities from https://iatipublisher-prod.s3.amazonaws.com/xml/mergedActivityXml/globalshea-activities.xml
@@ -19121,7 +19120,7 @@ found 12 activities
 
 Downloading ifad-activitity-mz from https://webapps.ifad.org/iati/ifad_mz_activities.xml
 Parsing ifad-activitity-mz from https://webapps.ifad.org/iati/ifad_mz_activities.xml
-found 15 activities
+found 16 activities
 
 Downloading ifad-activitity-na from https://webapps.ifad.org/iati/ifad_na_activities.xml
 Parsing ifad-activitity-na from https://webapps.ifad.org/iati/ifad_na_activities.xml
@@ -19801,7 +19800,7 @@ found 82 activities
 
 Downloading ifcwbg-pl from https://disclosures.ifc.org/iati/ifc-pl.xml
 Parsing ifcwbg-pl from https://disclosures.ifc.org/iati/ifc-pl.xml
-found 21 activities
+found 22 activities
 
 Downloading ifcwbg-py from https://disclosures.ifc.org/iati/ifc-py.xml
 Parsing ifcwbg-py from https://disclosures.ifc.org/iati/ifc-py.xml
@@ -29148,6 +29147,10 @@ found 1 organisations
 Downloading siharegional-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/siharegional-activities.xml
 Parsing siharegional-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/siharegional-activities.xml
 found 2 activities
+
+Downloading siharegional-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/siharegional-org.xml
+Parsing siharegional-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/siharegional-org.xml
+found 1 organisations
 
 Downloading siha-southsudan-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/siha-southsudan-activities.xml
 Parsing siha-southsudan-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/siha-southsudan-activities.xml
