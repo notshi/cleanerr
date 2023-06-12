@@ -6788,9 +6788,8 @@ Parsing cidr-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/ci
 found 1 activities
 
 Downloading cif-389 from http://siteresources.worldbank.org/IATI/CIF/CIF-389.xml
-curl: download ERROR 404
 Parsing cif-389 from http://siteresources.worldbank.org/IATI/CIF/CIF-389.xml
-dflat: input XML file does not exist
+dflat: invalid XML format
 restored 0 files
 
 Downloading cif-889 from http://siteresources.worldbank.org/IATI/CIF/CIF-889.xml
@@ -6799,9 +6798,8 @@ dflat: invalid XML format
 restored 0 files
 
 Downloading cif-998 from http://siteresources.worldbank.org/IATI/CIF/CIF-998.xml
-curl: download ERROR 404
 Parsing cif-998 from http://siteresources.worldbank.org/IATI/CIF/CIF-998.xml
-dflat: input XML file does not exist
+dflat: invalid XML format
 restored 0 files
 
 Downloading c_i_f-activities from https://iatipublisher-prod.s3.amazonaws.com/xml/mergedActivityXml/c_i_f-activities.xml
@@ -6855,8 +6853,10 @@ Parsing cif-co from http://doumodqax2qi2.cloudfront.net/CIF/CIF-05-2020/CIF-CO.x
 found 10 activities
 
 Downloading cif-dm from http://doumodqax2qi2.cloudfront.net/CIF/CIF-05-2020/CIF-DM.xml
+curl: download ERROR 000
 Parsing cif-dm from http://doumodqax2qi2.cloudfront.net/CIF/CIF-05-2020/CIF-DM.xml
-found 2 activities
+dflat: input XML file does not exist
+restored 2 files
 
 Downloading cif-eg from http://doumodqax2qi2.cloudfront.net/CIF/CIF-05-2020/CIF-EG.xml
 Parsing cif-eg from http://doumodqax2qi2.cloudfront.net/CIF/CIF-05-2020/CIF-EG.xml
@@ -7891,31 +7891,31 @@ found 1 organisations
 
 Downloading danida-all_1 from http://iati.um.dk/api/v2/files/iati1.xml
 Parsing danida-all_1 from http://iati.um.dk/api/v2/files/iati1.xml
-found 2580 activities
+found 2581 activities
 
 Downloading danida-all_2 from http://iati.um.dk/api/v2/files/iati2.xml
 Parsing danida-all_2 from http://iati.um.dk/api/v2/files/iati2.xml
-found 2580 activities
+found 2581 activities
 
 Downloading danida-all_3 from http://iati.um.dk/api/v2/files/iati3.xml
 Parsing danida-all_3 from http://iati.um.dk/api/v2/files/iati3.xml
-found 2580 activities
+found 2581 activities
 
 Downloading danida-all_4 from http://iati.um.dk/api/v2/files/iati4.xml
 Parsing danida-all_4 from http://iati.um.dk/api/v2/files/iati4.xml
-found 2580 activities
+found 2581 activities
 
 Downloading danida-all_5 from http://iati.um.dk/api/v2/files/iati5.xml
 Parsing danida-all_5 from http://iati.um.dk/api/v2/files/iati5.xml
-found 2580 activities
+found 2581 activities
 
 Downloading danida-all_6 from http://iati.um.dk/api/v2/files/iati6.xml
 Parsing danida-all_6 from http://iati.um.dk/api/v2/files/iati6.xml
-found 2580 activities
+found 2581 activities
 
 Downloading danida-all_7 from http://iati.um.dk/api/v2/files/iati7.xml
 Parsing danida-all_7 from http://iati.um.dk/api/v2/files/iati7.xml
-found 2579 activities
+found 2575 activities
 
 Downloading danida-org from http://iati.um.dk/api/v2/organisations/files/iati-organisations.xml
 Parsing danida-org from http://iati.um.dk/api/v2/organisations/files/iati-organisations.xml
@@ -13767,8 +13767,10 @@ Parsing fcdf-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/fcdf-org.
 found 1 organisations
 
 Downloading fcdo-alb from http://iati.fcdo.gov.uk/iati_files/converted_files/arms-length-bodies-oda-data.xml
+curl: download ERROR 000
 Parsing fcdo-alb from http://iati.fcdo.gov.uk/iati_files/converted_files/arms-length-bodies-oda-data.xml
-found 10 activities
+dflat: input XML file does not exist
+restored 10 files
 
 Downloading fcdo-bbcws from http://iati.fcdo.gov.uk/iati_files/converted_files/bbc-world-service-oda-data.xml
 Parsing fcdo-bbcws from http://iati.fcdo.gov.uk/iati_files/converted_files/bbc-world-service-oda-data.xml
@@ -14591,9 +14593,10 @@ Parsing finland_mfa-pa from http://formin.finland.fi/opendata/IATI/Finland_PA.xm
 found 1 activities
 
 Downloading finland_mfa-pe from http://formin.finland.fi/opendata/IATI/Finland_PE.xml
-Converting IATI activities version 1.00 to version 2.03
+curl: download ERROR 522
 Parsing finland_mfa-pe from http://formin.finland.fi/opendata/IATI/Finland_PE.xml
-found 37 activities
+dflat: input XML file does not exist
+restored 37 files
 
 Downloading finland_mfa-pg from http://formin.finland.fi/opendata/IATI/Finland_PG.xml
 Converting IATI activities version 1.00 to version 2.03
@@ -15815,8 +15818,10 @@ Parsing gef-bz from https://d2mxkr7359ifh6.cloudfront.net/GEF/BZ.xml
 found 24 activities
 
 Downloading gef-cd from https://d2mxkr7359ifh6.cloudfront.net/GEF/CD.xml
+curl: download ERROR 000
 Parsing gef-cd from https://d2mxkr7359ifh6.cloudfront.net/GEF/CD.xml
-found 26 activities
+dflat: input XML file does not exist
+restored 26 files
 
 Downloading gef-cf from https://d2mxkr7359ifh6.cloudfront.net/GEF/CF.xml
 Parsing gef-cf from https://d2mxkr7359ifh6.cloudfront.net/GEF/CF.xml
@@ -16556,7 +16561,7 @@ found 1 organisations
 
 Downloading globalgiving-activity from http://www.globalgiving.org/iati/activities.xml
 Parsing globalgiving-activity from http://www.globalgiving.org/iati/activities.xml
-found 26157 activities
+found 26159 activities
 
 Downloading globalgiving-org from http://www.globalgiving.org/iati/organisations.xml
 Parsing globalgiving-org from http://www.globalgiving.org/iati/organisations.xml
@@ -19183,7 +19188,7 @@ found 20 activities
 
 Downloading ifad-activitity-so from https://webapps.ifad.org/iati/ifad_so_activities.xml
 Parsing ifad-activitity-so from https://webapps.ifad.org/iati/ifad_so_activities.xml
-found 5 activities
+found 6 activities
 
 Downloading ifad-activitity-sr from https://webapps.ifad.org/iati/ifad_sr_activities.xml
 Parsing ifad-activitity-sr from https://webapps.ifad.org/iati/ifad_sr_activities.xml
@@ -24182,8 +24187,10 @@ Parsing millenniumchallenge-gt from https://inventory.data.gov/dataset/d4b25051-
 found 45 activities
 
 Downloading millenniumchallenge-gy from https://inventory.data.gov/dataset/d4b25051-0bf8-4dd1-8c06-bbed2e4bb193/resource/0e0959ed-381a-4519-a9bc-5f0f93083b91/download/mcc_gy.xml
+curl: download ERROR 000
 Parsing millenniumchallenge-gy from https://inventory.data.gov/dataset/d4b25051-0bf8-4dd1-8c06-bbed2e4bb193/resource/0e0959ed-381a-4519-a9bc-5f0f93083b91/download/mcc_gy.xml
-found 3 activities
+dflat: input XML file does not exist
+restored 3 files
 
 Downloading millenniumchallenge-hn from https://inventory.data.gov/dataset/d4b25051-0bf8-4dd1-8c06-bbed2e4bb193/resource/02ae2cc2-f935-4dba-acc2-43f2f0993f99/download/mcc_hn.xml
 Parsing millenniumchallenge-hn from https://inventory.data.gov/dataset/d4b25051-0bf8-4dd1-8c06-bbed2e4bb193/resource/02ae2cc2-f935-4dba-acc2-43f2f0993f99/download/mcc_hn.xml
@@ -38835,7 +38842,7 @@ found 10747 activities
 
 Downloading unrwa-all from http://static.iati.unrwa.org.s3-website-eu-west-1.amazonaws.com/xml/unrwa-xml-iati-activities.xml
 Parsing unrwa-all from http://static.iati.unrwa.org.s3-website-eu-west-1.amazonaws.com/xml/unrwa-xml-iati-activities.xml
-found 1553 activities
+found 1753 activities
 
 Downloading unrwa-organisation from http://static.iati.unrwa.org/xml/unrwa-organisation.xml
 Parsing unrwa-organisation from http://static.iati.unrwa.org/xml/unrwa-organisation.xml
@@ -41483,8 +41490,9 @@ dflat: invalid XML format
 restored 2 files
 
 Downloading wbtf-tf071209 from https://d2mxkr7359ifh6.cloudfront.net/TF071209.xml
+curl: download ERROR 000
 Parsing wbtf-tf071209 from https://d2mxkr7359ifh6.cloudfront.net/TF071209.xml
-dflat: invalid XML format
+dflat: input XML file does not exist
 restored 2 files
 
 Downloading wbtf-tf071227 from https://d2mxkr7359ifh6.cloudfront.net/TF071227.xml
@@ -41730,8 +41738,10 @@ dflat: invalid XML format
 restored 2 files
 
 Downloading wbtf-tf071705 from https://d2mxkr7359ifh6.cloudfront.net/TF071705.xml
+curl: download ERROR 000
 Parsing wbtf-tf071705 from https://d2mxkr7359ifh6.cloudfront.net/TF071705.xml
-found 1 activities
+dflat: input XML file does not exist
+restored 1 files
 
 Downloading wbtf-tf071706 from https://d2mxkr7359ifh6.cloudfront.net/TF071706.xml
 Parsing wbtf-tf071706 from https://d2mxkr7359ifh6.cloudfront.net/TF071706.xml
