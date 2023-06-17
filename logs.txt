@@ -4602,7 +4602,7 @@ found 1 activities
 
 Downloading be-dgd-2021_1 from http://diplomatie.be/oda/IATI_2023_1.xml
 Parsing be-dgd-2021_1 from http://diplomatie.be/oda/IATI_2023_1.xml
-found 71 activities
+found 72 activities
 
 Downloading be-dgd-2021_2 from http://diplomatie.be/oda/IATI_2023_2.xml
 Parsing be-dgd-2021_2 from http://diplomatie.be/oda/IATI_2023_2.xml
@@ -4614,7 +4614,7 @@ found 146 activities
 
 Downloading be-dgd-2021_4 from http://diplomatie.be/oda/IATI_2023_4.xml
 Parsing be-dgd-2021_4 from http://diplomatie.be/oda/IATI_2023_4.xml
-found 349 activities
+found 351 activities
 
 Downloading be-dgd-org2020-2024 from http://diplomatie.be/oda/XM-DAC-10-2-orgfileNov2021.xml
 Parsing be-dgd-org2020-2024 from http://diplomatie.be/oda/XM-DAC-10-2-orgfileNov2021.xml
@@ -6793,8 +6793,9 @@ Parsing cidr-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/ci
 found 1 activities
 
 Downloading cif-389 from http://siteresources.worldbank.org/IATI/CIF/CIF-389.xml
+curl: download ERROR 404
 Parsing cif-389 from http://siteresources.worldbank.org/IATI/CIF/CIF-389.xml
-dflat: invalid XML format
+dflat: input XML file does not exist
 restored 0 files
 
 Downloading cif-889 from http://siteresources.worldbank.org/IATI/CIF/CIF-889.xml
@@ -6803,9 +6804,8 @@ dflat: invalid XML format
 restored 0 files
 
 Downloading cif-998 from http://siteresources.worldbank.org/IATI/CIF/CIF-998.xml
-curl: download ERROR 404
 Parsing cif-998 from http://siteresources.worldbank.org/IATI/CIF/CIF-998.xml
-dflat: input XML file does not exist
+dflat: invalid XML format
 restored 0 files
 
 Downloading c_i_f-activities from https://iatipublisher-prod.s3.amazonaws.com/xml/mergedActivityXml/c_i_f-activities.xml
@@ -11562,7 +11562,7 @@ found 424 activities
 
 Downloading ec-echo-2023 from https://webgate.ec.europa.eu/hac/IATI/ec-echo-2023.xml
 Parsing ec-echo-2023 from https://webgate.ec.europa.eu/hac/IATI/ec-echo-2023.xml
-found 345 activities
+found 346 activities
 
 Downloading ec-echo-org from https://webgate.ec.europa.eu/hac/IATI/iati-organisation-file.xml
 Parsing ec-echo-org from https://webgate.ec.europa.eu/hac/IATI/iati-organisation-file.xml
@@ -13374,7 +13374,7 @@ found 1 organisations
 
 Downloading enabel-all-activities from https://open.enabel.be/iati/all-activities.xml
 Parsing enabel-all-activities from https://open.enabel.be/iati/all-activities.xml
-found 1158 activities
+found 1156 activities
 
 Downloading enabel-contractors from https://open.enabel.be/iati/contractors.xml
 Parsing enabel-contractors from https://open.enabel.be/iati/contractors.xml
@@ -14084,6 +14084,16 @@ found 73 activities
 
 Downloading finland_mfa-298 from http://formin.finland.fi/opendata/IATI/Finland_298.xml
 Converting IATI activities version 1.00 to version 2.03
+./iati-activities.xsl:120: parser error : expected '>'
+                                        </narrativ
+                                                  ^
+./iati-activities.xsl:120: parser error : Opening and ending tag mismatch: narrative line 117 and narrativ
+                                        </narrativ
+                                                  ^
+./iati-activities.xsl:120: parser error : Premature end of data in tag for-each line 116
+                                        </narrativ
+                                                  ^
+cannot parse ./iati-activities.xsl
 Parsing finland_mfa-298 from http://formin.finland.fi/opendata/IATI/Finland_298.xml
 found 71 activities
 
@@ -16570,11 +16580,11 @@ found 1 organisations
 
 Downloading globalgiving-activity from http://www.globalgiving.org/iati/activities.xml
 Parsing globalgiving-activity from http://www.globalgiving.org/iati/activities.xml
-found 26169 activities
+found 26171 activities
 
 Downloading globalgiving-org from http://www.globalgiving.org/iati/organisations.xml
 Parsing globalgiving-org from http://www.globalgiving.org/iati/organisations.xml
-found 15029 organisations
+found 15034 organisations
 
 Downloading globalshea-activities from https://iatipublisher-prod.s3.amazonaws.com/xml/mergedActivityXml/globalshea-activities.xml
 Parsing globalshea-activities from https://iatipublisher-prod.s3.amazonaws.com/xml/mergedActivityXml/globalshea-activities.xml
@@ -18619,7 +18629,7 @@ found 1 organisations
 
 Downloading idbinvest-projects from https://idbinvest.org/sites/default/files/iati_publish_projects.xml
 Parsing idbinvest-projects from https://idbinvest.org/sites/default/files/iati_publish_projects.xml
-found 312 activities
+found 313 activities
 
 Downloading idea-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/idea-activities.xml
 Parsing idea-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/idea-activities.xml
@@ -19515,7 +19525,7 @@ found 293 activities
 
 Downloading ifcwbg-co from https://disclosures.ifc.org/iati/ifc-co.xml
 Parsing ifcwbg-co from https://disclosures.ifc.org/iati/ifc-co.xml
-found 122 activities
+found 123 activities
 
 Downloading ifcwbg-cr from https://disclosures.ifc.org/iati/ifc-cr.xml
 Parsing ifcwbg-cr from https://disclosures.ifc.org/iati/ifc-cr.xml
@@ -19631,7 +19641,7 @@ found 2 activities
 
 Downloading ifcwbg-in from https://disclosures.ifc.org/iati/ifc-in.xml
 Parsing ifcwbg-in from https://disclosures.ifc.org/iati/ifc-in.xml
-found 457 activities
+found 458 activities
 
 Downloading ifcwbg-iq from https://disclosures.ifc.org/iati/ifc-iq.xml
 Parsing ifcwbg-iq from https://disclosures.ifc.org/iati/ifc-iq.xml
@@ -19799,7 +19809,7 @@ found 75 activities
 
 Downloading ifcwbg-pk from https://disclosures.ifc.org/iati/ifc-pk.xml
 Parsing ifcwbg-pk from https://disclosures.ifc.org/iati/ifc-pk.xml
-found 82 activities
+found 83 activities
 
 Downloading ifcwbg-pl from https://disclosures.ifc.org/iati/ifc-pl.xml
 Parsing ifcwbg-pl from https://disclosures.ifc.org/iati/ifc-pl.xml
@@ -19885,7 +19895,7 @@ found 8 activities
 
 Downloading ifcwbg-th from https://disclosures.ifc.org/iati/ifc-th.xml
 Parsing ifcwbg-th from https://disclosures.ifc.org/iati/ifc-th.xml
-found 39 activities
+found 40 activities
 
 Downloading ifcwbg-tj from https://disclosures.ifc.org/iati/ifc-tj.xml
 Parsing ifcwbg-tj from https://disclosures.ifc.org/iati/ifc-tj.xml
@@ -22166,7 +22176,7 @@ found 12 activities
 
 Downloading lshtm-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/lshtm-activities.xml
 Parsing lshtm-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/lshtm-activities.xml
-found 6 activities
+found 7 activities
 
 Downloading lstm-998 from https://aidstream.s3.us-west-2.amazonaws.com/xml/lstm-998.xml
 Parsing lstm-998 from https://aidstream.s3.us-west-2.amazonaws.com/xml/lstm-998.xml
@@ -24740,7 +24750,7 @@ found 1 activities
 
 Downloading nef_usa-activities from https://rsr.akvo.org/organisation/3062/iati/
 Parsing nef_usa-activities from https://rsr.akvo.org/organisation/3062/iati/
-found 1 activities
+found 3 activities
 
 Downloading nef_usa-org from https://rsr.akvo.org/organisation/3062/iati-org
 Parsing nef_usa-org from https://rsr.akvo.org/organisation/3062/iati-org
@@ -25574,7 +25584,7 @@ found 2220 activities
 
 Downloading onl-activity from https://www.oxfamnovib.nl/redactie/Downloads/XML/iati.xml
 Parsing onl-activity from https://www.oxfamnovib.nl/redactie/Downloads/XML/iati.xml
-found 1905 activities
+found 1919 activities
 
 Downloading onl-org from https://www.oxfamnovib.nl/redactie/downloads/xml/IATI_NL-KVK-27108436.xml
 Parsing onl-org from https://www.oxfamnovib.nl/redactie/downloads/xml/IATI_NL-KVK-27108436.xml
@@ -27936,7 +27946,7 @@ found 1 organisations
 
 Downloading rvo-01 from https://projects.rvo.nl/opendata/iati.xml
 Parsing rvo-01 from https://projects.rvo.nl/opendata/iati.xml
-found 4204 activities
+found 4209 activities
 
 Downloading rvo-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/rvo-activities.xml
 Parsing rvo-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/rvo-activities.xml
@@ -31810,12 +31820,12 @@ Downloading tlo-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/tlo-or
 Parsing tlo-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/tlo-org.xml
 found 1 organisations
 
-Downloading tma-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/tmea-activities.xml
-Parsing tma-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/tmea-activities.xml
+Downloading tma-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/tma-activities.xml
+Parsing tma-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/tma-activities.xml
 found 118 activities
 
-Downloading tma-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/tmea-org.xml
-Parsing tma-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/tmea-org.xml
+Downloading tma-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/tma-org.xml
+Parsing tma-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/tma-org.xml
 found 1 organisations
 
 Downloading tni-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/tni-activities.xml
@@ -36168,7 +36178,7 @@ found 50 activities
 
 Downloading unocha-cbpf-drc-allocation-2023 from https://cbpfapi.unocha.org/iati/iati/24/2023/GetAllocation.xml
 Parsing unocha-cbpf-drc-allocation-2023 from https://cbpfapi.unocha.org/iati/iati/24/2023/GetAllocation.xml
-found 4 activities
+found 6 activities
 
 Downloading unocha-cbpf-drc-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/24/2024/GetAllocation.xml
 Parsing unocha-cbpf-drc-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/24/2024/GetAllocation.xml
@@ -37276,7 +37286,7 @@ found 18 activities
 
 Downloading unocha-cbpf-somalia-contribution-2023 from https://cbpfapi.unocha.org/iati/iati/21/2023/GetContribution.xml
 Parsing unocha-cbpf-somalia-contribution-2023 from https://cbpfapi.unocha.org/iati/iati/21/2023/GetContribution.xml
-found 14 activities
+found 15 activities
 
 Downloading unocha-cbpf-somalia-contribution-2024 from https://cbpfapi.unocha.org/iati/iati/21/2024/GetContribution.xml
 Parsing unocha-cbpf-somalia-contribution-2024 from https://cbpfapi.unocha.org/iati/iati/21/2024/GetContribution.xml
