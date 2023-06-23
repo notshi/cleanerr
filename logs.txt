@@ -7041,9 +7041,8 @@ Parsing cif-ws from http://doumodqax2qi2.cloudfront.net/CIF/CIF-05-2020/CIF-WS.x
 found 2 activities
 
 Downloading cif-ye from http://siteresources.worldbank.org/IATI/CIF/CIF-YE.xml
-curl: download ERROR 404
 Parsing cif-ye from http://siteresources.worldbank.org/IATI/CIF/CIF-YE.xml
-dflat: input XML file does not exist
+dflat: invalid XML format
 restored 0 files
 
 Downloading cif-za from http://doumodqax2qi2.cloudfront.net/CIF/CIF-05-2020/CIF-ZA.xml
@@ -13395,7 +13394,7 @@ found 1 organisations
 
 Downloading enabel-all-activities from https://open.enabel.be/iati/all-activities.xml
 Parsing enabel-all-activities from https://open.enabel.be/iati/all-activities.xml
-found 1157 activities
+found 1156 activities
 
 Downloading enabel-contractors from https://open.enabel.be/iati/contractors.xml
 Parsing enabel-contractors from https://open.enabel.be/iati/contractors.xml
@@ -14029,12 +14028,16 @@ Parsing fimi_iiwf_2019-pe from https://aidstream.s3.us-west-2.amazonaws.com/xml/
 found 1 activities
 
 Downloading finance_canada-activity from https://www.canada.ca/content/dam/fin/migration/assistance-aide/iati-iita-act.xml
+curl: download ERROR 403
 Parsing finance_canada-activity from https://www.canada.ca/content/dam/fin/migration/assistance-aide/iati-iita-act.xml
-found 70 activities
+dflat: input XML file does not exist
+restored 70 files
 
 Downloading finance_canada-org from https://www.canada.ca/content/dam/fin/migration/assistance-aide/iati-iita-org.xml
+curl: download ERROR 403
 Parsing finance_canada-org from https://www.canada.ca/content/dam/fin/migration/assistance-aide/iati-iita-org.xml
-found 1 organisations
+dflat: input XML file does not exist
+restored 1 files
 
 Downloading finddiagnostics-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/finddiagnostics-activities.xml
 Parsing finddiagnostics-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/finddiagnostics-activities.xml
@@ -15649,7 +15652,7 @@ found 1 organisations
 
 Downloading gac-amc-act_2_3 from http://w05.international.gc.ca/projectbrowser-banqueprojets/iita-iati/dfatd-maecd_activit_status_2_3.xml
 Parsing gac-amc-act_2_3 from http://w05.international.gc.ca/projectbrowser-banqueprojets/iita-iati/dfatd-maecd_activit_status_2_3.xml
-found 1802 activities
+found 1804 activities
 
 Downloading gac-amc-act_4 from http://w05.international.gc.ca/projectbrowser-banqueprojets/iita-iati/dfatd-maecd_activit_status_4.xml
 Parsing gac-amc-act_4 from http://w05.international.gc.ca/projectbrowser-banqueprojets/iita-iati/dfatd-maecd_activit_status_4.xml
@@ -16265,7 +16268,8 @@ found 44 activities
 
 Downloading gef-rw from https://d2mxkr7359ifh6.cloudfront.net/GEF/RW.xml
 Parsing gef-rw from https://d2mxkr7359ifh6.cloudfront.net/GEF/RW.xml
-found 18 activities
+dflat: invalid XML format
+restored 18 files
 
 Downloading gef-sa from https://d2mxkr7359ifh6.cloudfront.net/GEF/SA.xml
 Parsing gef-sa from https://d2mxkr7359ifh6.cloudfront.net/GEF/SA.xml
@@ -16596,11 +16600,11 @@ found 1 organisations
 
 Downloading globalgiving-activity from http://www.globalgiving.org/iati/activities.xml
 Parsing globalgiving-activity from http://www.globalgiving.org/iati/activities.xml
-found 26183 activities
+found 26184 activities
 
 Downloading globalgiving-org from http://www.globalgiving.org/iati/organisations.xml
 Parsing globalgiving-org from http://www.globalgiving.org/iati/organisations.xml
-found 15042 organisations
+found 15047 organisations
 
 Downloading globalshea-activities from https://iatipublisher-prod.s3.amazonaws.com/xml/mergedActivityXml/globalshea-activities.xml
 Parsing globalshea-activities from https://iatipublisher-prod.s3.amazonaws.com/xml/mergedActivityXml/globalshea-activities.xml
@@ -19587,7 +19591,7 @@ found 3 activities
 
 Downloading ifcwbg-ga from https://disclosures.ifc.org/iati/ifc-ga.xml
 Parsing ifcwbg-ga from https://disclosures.ifc.org/iati/ifc-ga.xml
-found 6 activities
+found 7 activities
 
 Downloading ifcwbg-gd from https://disclosures.ifc.org/iati/ifc-gd.xml
 Parsing ifcwbg-gd from https://disclosures.ifc.org/iati/ifc-gd.xml
@@ -24162,19 +24166,6 @@ found 2 activities
 
 Downloading mic-uk-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/mic-uk-org.xml
 Converting IATI organisations version 1.03 to version 2.03
-./iati-organisations.xsl:63: parser error : AttValue: ' expected
-                    <xsl:for-each select="recipient-org-bud
-                                                           ^
-./iati-organisations.xsl:63: parser error : attributes construct error
-                    <xsl:for-each select="recipient-org-bud
-                                                           ^
-./iati-organisations.xsl:63: parser error : Couldn't find end of Start Tag for-each line 63
-                    <xsl:for-each select="recipient-org-bud
-                                                           ^
-./iati-organisations.xsl:63: parser error : Premature end of data in tag iati-organisation line 10
-                    <xsl:for-each select="recipient-org-bud
-                                                           ^
-cannot parse ./iati-organisations.xsl
 Parsing mic-uk-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/mic-uk-org.xml
 found 1 organisations
 
@@ -25288,47 +25279,49 @@ found 1 organisations
 
 Downloading odakorea-act10 from https://www.odakorea.go.kr/opm/iati_act_KR-GOV-070.xml
 Parsing odakorea-act10 from https://www.odakorea.go.kr/opm/iati_act_KR-GOV-070.xml
-found 44 activities
+found 36 activities
 
 Downloading odakorea-act11 from https://www.odakorea.go.kr/opm/iati_act_KR-GOV-080.xml
 Parsing odakorea-act11 from https://www.odakorea.go.kr/opm/iati_act_KR-GOV-080.xml
-found 16 activities
+found 18 activities
 
 Downloading odakorea-act12 from https://www.odakorea.go.kr/opm/iati_act_KR-GOV-090.xml
 Parsing odakorea-act12 from https://www.odakorea.go.kr/opm/iati_act_KR-GOV-090.xml
-found 94 activities
+found 89 activities
 
 Downloading odakorea-act13 from https://www.odakorea.go.kr/opm/iati_act_KR-GOV-100.xml
 Parsing odakorea-act13 from https://www.odakorea.go.kr/opm/iati_act_KR-GOV-100.xml
-found 88 activities
+found 64 activities
 
 Downloading odakorea-act14 from https://www.odakorea.go.kr/opm/iati_act_KR-GOV-120.xml
 Parsing odakorea-act14 from https://www.odakorea.go.kr/opm/iati_act_KR-GOV-120.xml
-found 42 activities
+found 30 activities
 
 Downloading odakorea-act15 from https://www.odakorea.go.kr/opm/iati_act_KR-GOV-130.xml
 Parsing odakorea-act15 from https://www.odakorea.go.kr/opm/iati_act_KR-GOV-130.xml
-found 25 activities
+found 21 activities
 
 Downloading odakorea-act16 from https://www.odakorea.go.kr/opm/iati_act_KR-GOV-140.xml
+curl: download ERROR 404
 Parsing odakorea-act16 from https://www.odakorea.go.kr/opm/iati_act_KR-GOV-140.xml
-found 5 activities
+dflat: input XML file does not exist
+restored 5 files
 
 Downloading odakorea-act170 from https://www.odakorea.go.kr/opm/iati_act_KR-GOV-170.xml
 Parsing odakorea-act170 from https://www.odakorea.go.kr/opm/iati_act_KR-GOV-170.xml
-found 4 activities
+found 6 activities
 
 Downloading odakorea-act17 from https://www.odakorea.go.kr/opm/iati_act_KR-GOV-150.xml
 Parsing odakorea-act17 from https://www.odakorea.go.kr/opm/iati_act_KR-GOV-150.xml
-found 29 activities
+found 26 activities
 
 Downloading odakorea-act18 from https://www.odakorea.go.kr/opm/iati_act_KR-GOV-160.xml
 Parsing odakorea-act18 from https://www.odakorea.go.kr/opm/iati_act_KR-GOV-160.xml
-found 27 activities
+found 33 activities
 
 Downloading odakorea-act1 from https://www.odakorea.go.kr/opm/iati_act_KR-GOV-020.xml
 Parsing odakorea-act1 from https://www.odakorea.go.kr/opm/iati_act_KR-GOV-020.xml
-found 77 activities
+found 58 activities
 
 Downloading odakorea-act20 from https://www.odakorea.go.kr/opm/iati_act_KR-GOV-180.xml
 Parsing odakorea-act20 from https://www.odakorea.go.kr/opm/iati_act_KR-GOV-180.xml
@@ -25336,11 +25329,13 @@ found 1 activities
 
 Downloading odakorea-act22 from https://www.odakorea.go.kr/opm/iati_act_KR-GOV-200.xml
 Parsing odakorea-act22 from https://www.odakorea.go.kr/opm/iati_act_KR-GOV-200.xml
-found 34 activities
+found 33 activities
 
 Downloading odakorea-act23 from https://www.odakorea.go.kr/opm/iati_act_KR-GOV-210.xml
+curl: download ERROR 404
 Parsing odakorea-act23 from https://www.odakorea.go.kr/opm/iati_act_KR-GOV-210.xml
-found 11 activities
+dflat: input XML file does not exist
+restored 11 files
 
 Downloading odakorea-act24 from https://www.odakorea.go.kr/opm/iati_act_KR-GOV-220.xml
 Parsing odakorea-act24 from https://www.odakorea.go.kr/opm/iati_act_KR-GOV-220.xml
@@ -25348,27 +25343,27 @@ found 8 activities
 
 Downloading odakorea-act25 from https://www.odakorea.go.kr/opm/iati_act_KR-GOV-230.xml
 Parsing odakorea-act25 from https://www.odakorea.go.kr/opm/iati_act_KR-GOV-230.xml
-found 8 activities
+found 11 activities
 
 Downloading odakorea-act26 from https://www.odakorea.go.kr/opm/iati_act_KR-GOV-240.xml
 Parsing odakorea-act26 from https://www.odakorea.go.kr/opm/iati_act_KR-GOV-240.xml
-found 67 activities
+found 84 activities
 
 Downloading odakorea-act27 from https://www.odakorea.go.kr/opm/iati_act_KR-GOV-250.xml
 Parsing odakorea-act27 from https://www.odakorea.go.kr/opm/iati_act_KR-GOV-250.xml
-found 22 activities
+found 26 activities
 
 Downloading odakorea-act28 from https://www.odakorea.go.kr/opm/iati_act_KR-GOV-270.xml
 Parsing odakorea-act28 from https://www.odakorea.go.kr/opm/iati_act_KR-GOV-270.xml
-found 12 activities
+found 13 activities
 
 Downloading odakorea-act29 from https://www.odakorea.go.kr/opm/iati_act_KR-GOV-280.xml
 Parsing odakorea-act29 from https://www.odakorea.go.kr/opm/iati_act_KR-GOV-280.xml
-found 14 activities
+found 19 activities
 
 Downloading odakorea-act2 from https://www.odakorea.go.kr/opm/iati_act_KR-GOV-021.xml
 Parsing odakorea-act2 from https://www.odakorea.go.kr/opm/iati_act_KR-GOV-021.xml
-found 463 activities
+found 461 activities
 
 Downloading odakorea-act30 from https://www.odakorea.go.kr/opm/iati_act_KR-GOV-290.xml
 curl: download ERROR 404
@@ -25378,7 +25373,7 @@ restored 0 files
 
 Downloading odakorea-act31 from https://www.odakorea.go.kr/opm/iati_act_KR-GOV-300.xml
 Parsing odakorea-act31 from https://www.odakorea.go.kr/opm/iati_act_KR-GOV-300.xml
-found 5 activities
+found 6 activities
 
 Downloading odakorea-act32 from https://www.odakorea.go.kr/opm/iati_act_KR-GOV-310.xml
 Parsing odakorea-act32 from https://www.odakorea.go.kr/opm/iati_act_KR-GOV-310.xml
@@ -25386,21 +25381,21 @@ found 14 activities
 
 Downloading odakorea-act33 from https://www.odakorea.go.kr/opm/iati_act_KR-GOV-320.xml
 Parsing odakorea-act33 from https://www.odakorea.go.kr/opm/iati_act_KR-GOV-320.xml
-found 5 activities
+found 6 activities
 
 Downloading odakorea-act34 from https://www.odakorea.go.kr/opm/iati_act_KR-GOV-330.xml
 Parsing odakorea-act34 from https://www.odakorea.go.kr/opm/iati_act_KR-GOV-330.xml
 found 11 activities
 
 Downloading odakorea-act35 from https://www.odakorea.go.kr/opm/iati_act_KR-GOV-340.xml
+curl: download ERROR 404
 Parsing odakorea-act35 from https://www.odakorea.go.kr/opm/iati_act_KR-GOV-340.xml
-found 4 activities
+dflat: input XML file does not exist
+restored 4 files
 
 Downloading odakorea-act36 from https://www.odakorea.go.kr/opm/iati_act_KR-GOV-350.xml
-curl: download ERROR 404
 Parsing odakorea-act36 from https://www.odakorea.go.kr/opm/iati_act_KR-GOV-350.xml
-dflat: input XML file does not exist
-restored 1 files
+found 1 activities
 
 Downloading odakorea-act37 from https://www.odakorea.go.kr/opm/iati_act_KR-GOV-360.xml
 Parsing odakorea-act37 from https://www.odakorea.go.kr/opm/iati_act_KR-GOV-360.xml
@@ -25413,8 +25408,10 @@ dflat: input XML file does not exist
 restored 2 files
 
 Downloading odakorea-act39 from https://www.odakorea.go.kr/opm/iati_act_KR-GOV-380.xml
+curl: download ERROR 404
 Parsing odakorea-act39 from https://www.odakorea.go.kr/opm/iati_act_KR-GOV-380.xml
-found 1 activities
+dflat: input XML file does not exist
+restored 1 files
 
 Downloading odakorea-act3 from https://www.odakorea.go.kr/opm/iati_act_KR-GOV-050.xml
 Parsing odakorea-act3 from https://www.odakorea.go.kr/opm/iati_act_KR-GOV-050.xml
@@ -25422,23 +25419,29 @@ found 4 activities
 
 Downloading odakorea-act40 from https://www.odakorea.go.kr/opm/iati_act_KR-GOV-390.xml
 Parsing odakorea-act40 from https://www.odakorea.go.kr/opm/iati_act_KR-GOV-390.xml
-found 13 activities
+found 2 activities
 
 Downloading odakorea-act41 from https://www.odakorea.go.kr/opm/iati_act_KR-GOV-400.xml
+curl: download ERROR 404
 Parsing odakorea-act41 from https://www.odakorea.go.kr/opm/iati_act_KR-GOV-400.xml
-found 4 activities
+dflat: input XML file does not exist
+restored 4 files
 
 Downloading odakorea-act42 from https://www.odakorea.go.kr/opm/iati_act_KR-GOV-410.xml
+curl: download ERROR 404
 Parsing odakorea-act42 from https://www.odakorea.go.kr/opm/iati_act_KR-GOV-410.xml
-found 1 activities
+dflat: input XML file does not exist
+restored 1 files
 
 Downloading odakorea-act43 from https://www.odakorea.go.kr/opm/iati_act_KR-GOV-420.xml
 Parsing odakorea-act43 from https://www.odakorea.go.kr/opm/iati_act_KR-GOV-420.xml
-found 6 activities
+found 2 activities
 
 Downloading odakorea-act44 from https://www.odakorea.go.kr/opm/iati_act_KR-GOV-430.xml
+curl: download ERROR 404
 Parsing odakorea-act44 from https://www.odakorea.go.kr/opm/iati_act_KR-GOV-430.xml
-found 3 activities
+dflat: input XML file does not exist
+restored 3 files
 
 Downloading odakorea-act45 from https://www.odakorea.go.kr/opm/iati_act_KR-GOV-450.xml
 curl: download ERROR 404
@@ -25454,7 +25457,7 @@ restored 0 files
 
 Downloading odakorea-act48 from https://www.odakorea.go.kr/opm/iati_act_KR-GOV-480.xml
 Parsing odakorea-act48 from https://www.odakorea.go.kr/opm/iati_act_KR-GOV-480.xml
-found 14 activities
+found 8 activities
 
 Downloading odakorea-act49 from https://www.odakorea.go.kr/opm/iati_act_KR-GOV-490.xml
 curl: download ERROR 404
@@ -25464,41 +25467,41 @@ restored 0 files
 
 Downloading odakorea-act4 from https://www.odakorea.go.kr/opm/iati_act_KR-GOV-051.xml
 Parsing odakorea-act4 from https://www.odakorea.go.kr/opm/iati_act_KR-GOV-051.xml
-found 2544 activities
+found 1777 activities
 
 Downloading odakorea-act50 from https://www.odakorea.go.kr/opm/iati_act_KR-GOV-500.xml
-curl: download ERROR 404
 Parsing odakorea-act50 from https://www.odakorea.go.kr/opm/iati_act_KR-GOV-500.xml
-dflat: input XML file does not exist
-restored 1 files
+found 1 activities
 
 Downloading odakorea-act520 from http://www.odakorea.go.kr/opm/iati_act_KR-GOV-520.xml
+curl: download ERROR 404
 Parsing odakorea-act520 from http://www.odakorea.go.kr/opm/iati_act_KR-GOV-520.xml
-found 3 activities
+dflat: input XML file does not exist
+restored 3 files
 
 Downloading odakorea-act530 from https://www.odakorea.go.kr/opm/iati_act_KR-GOV-530.xml
 Parsing odakorea-act530 from https://www.odakorea.go.kr/opm/iati_act_KR-GOV-530.xml
-found 2 activities
+found 5 activities
 
 Downloading odakorea-act5 from https://www.odakorea.go.kr/opm/iati_act_KR-GOV-110.xml
 Parsing odakorea-act5 from https://www.odakorea.go.kr/opm/iati_act_KR-GOV-110.xml
-found 29 activities
+found 32 activities
 
 Downloading odakorea-act6 from https://www.odakorea.go.kr/opm/iati_act_KR-GOV-010.xml
 Parsing odakorea-act6 from https://www.odakorea.go.kr/opm/iati_act_KR-GOV-010.xml
-found 37 activities
+found 12 activities
 
 Downloading odakorea-act7 from https://www.odakorea.go.kr/opm/iati_act_KR-GOV-030.xml
 Parsing odakorea-act7 from https://www.odakorea.go.kr/opm/iati_act_KR-GOV-030.xml
-found 140 activities
+found 129 activities
 
 Downloading odakorea-act8 from https://www.odakorea.go.kr/opm/iati_act_KR-GOV-040.xml
 Parsing odakorea-act8 from https://www.odakorea.go.kr/opm/iati_act_KR-GOV-040.xml
-found 41 activities
+found 30 activities
 
 Downloading odakorea-act9 from https://www.odakorea.go.kr/opm/iati_act_KR-GOV-060.xml
 Parsing odakorea-act9 from https://www.odakorea.go.kr/opm/iati_act_KR-GOV-060.xml
-found 6 activities
+found 5 activities
 
 Downloading odakorea-koica-org from https://www.odakorea.go.kr/opm/iati_org_KOICA.xml
 Parsing odakorea-koica-org from https://www.odakorea.go.kr/opm/iati_org_KOICA.xml
@@ -25506,7 +25509,7 @@ found 1 organisations
 
 Downloading odakorea-org from https://www.odakorea.go.kr/opm/iati_org_KOREA.xml
 Parsing odakorea-org from https://www.odakorea.go.kr/opm/iati_org_KOREA.xml
-found 43 organisations
+found 35 organisations
 
 Downloading odi-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/odi-activities.xml
 Parsing odi-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/odi-activities.xml
@@ -25605,7 +25608,7 @@ found 2220 activities
 
 Downloading onl-activity from https://www.oxfamnovib.nl/redactie/Downloads/XML/iati.xml
 Parsing onl-activity from https://www.oxfamnovib.nl/redactie/Downloads/XML/iati.xml
-found 1924 activities
+found 1930 activities
 
 Downloading onl-org from https://www.oxfamnovib.nl/redactie/downloads/xml/IATI_NL-KVK-27108436.xml
 Parsing onl-org from https://www.oxfamnovib.nl/redactie/downloads/xml/IATI_NL-KVK-27108436.xml
@@ -30630,7 +30633,7 @@ found 1 organisations
 
 Downloading st_vluchteling-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/st_vluchteling-activities.xml
 Parsing st_vluchteling-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/st_vluchteling-activities.xml
-found 80 activities
+found 81 activities
 
 Downloading st_vluchteling-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/st_vluchteling-org.xml
 Parsing st_vluchteling-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/st_vluchteling-org.xml
@@ -31518,293 +31521,248 @@ Parsing thp_org-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/thp_or
 found 1 organisations
 
 Downloading tib-bd-nab-1301-cfpi from https://www.ti-bangladesh.org/beta3/images/2020/iati/TIB-CFPI_Project-Updated_as_of_30_September_2020.xml
-curl: download ERROR 404
 Parsing tib-bd-nab-1301-cfpi from https://www.ti-bangladesh.org/beta3/images/2020/iati/TIB-CFPI_Project-Updated_as_of_30_September_2020.xml
-dflat: input XML file does not exist
+dflat: invalid XML format
 restored 1 files
 
 Downloading tib-bibc-dec-2020-iati from https://www.ti-bangladesh.org/beta3/images/2020/iati/TIB-BIBEC-Project-Updated-as-of-31-December-2020.xml
-curl: download ERROR 404
 Parsing tib-bibc-dec-2020-iati from https://www.ti-bangladesh.org/beta3/images/2020/iati/TIB-BIBEC-Project-Updated-as-of-31-December-2020.xml
-dflat: input XML file does not exist
+dflat: invalid XML format
 restored 1 files
 
 Downloading tib-bibc-december-2021-iati from https://www.ti-bangladesh.org/beta3/images/2021/iati/TIB-BIBEC-Project-Updated-as-of-31_December_2021.xml
-curl: download ERROR 404
 Parsing tib-bibc-december-2021-iati from https://www.ti-bangladesh.org/beta3/images/2021/iati/TIB-BIBEC-Project-Updated-as-of-31_December_2021.xml
-dflat: input XML file does not exist
+dflat: invalid XML format
 restored 1 files
 
 Downloading tib-bibc-iati from https://www.ti-bangladesh.org/beta3/images/2020/iati/TIB-BIBEC-Project-Updated-as-of-30_June_2020.xml
-curl: download ERROR 404
 Parsing tib-bibc-iati from https://www.ti-bangladesh.org/beta3/images/2020/iati/TIB-BIBEC-Project-Updated-as-of-30_June_2020.xml
-dflat: input XML file does not exist
+dflat: invalid XML format
 restored 1 files
 
 Downloading tib-bibc-june-2020-iati from https://www.ti-bangladesh.org/beta3/images/2020/iati/TIB-CFPI-Project-Updated-as-of-30-June-2020.xml
-curl: download ERROR 404
 Parsing tib-bibc-june-2020-iati from https://www.ti-bangladesh.org/beta3/images/2020/iati/TIB-CFPI-Project-Updated-as-of-30-June-2020.xml
-dflat: input XML file does not exist
+dflat: invalid XML format
 restored 1 files
 
 Downloading tib-bibc-june-2021-iati from https://www.ti-bangladesh.org/beta3/images/2021/iati/TIB-BIBEC-Project-Updated-as-of-30_June_2021.xml
-curl: download ERROR 404
 Parsing tib-bibc-june-2021-iati from https://www.ti-bangladesh.org/beta3/images/2021/iati/TIB-BIBEC-Project-Updated-as-of-30_June_2021.xml
-dflat: input XML file does not exist
+dflat: invalid XML format
 restored 1 files
 
 Downloading tib-bibc-march-2021-iati from https://www.ti-bangladesh.org/beta3/images/2021/iati/TIB-BIBEC-Project-Updated-as-of-31_March_2021.xml
-curl: download ERROR 404
 Parsing tib-bibc-march-2021-iati from https://www.ti-bangladesh.org/beta3/images/2021/iati/TIB-BIBEC-Project-Updated-as-of-31_March_2021.xml
-dflat: input XML file does not exist
+dflat: invalid XML format
 restored 1 files
 
 Downloading tib-bibc-march-2022-iati from https://www.ti-bangladesh.org/beta3/images/2022/iati/TIB-BIBEC-Project-Updated-as-of-31_March_2022.xml
-curl: download ERROR 404
 Parsing tib-bibc-march-2022-iati from https://www.ti-bangladesh.org/beta3/images/2022/iati/TIB-BIBEC-Project-Updated-as-of-31_March_2022.xml
-dflat: input XML file does not exist
+dflat: invalid XML format
 restored 1 files
 
 Downloading tib-bibc-sep-2020-iati from https://www.ti-bangladesh.org/beta3/images/2020/iati/TIB-BIBEC-Project-Updated-as-of-30_September_2020.xml
-curl: download ERROR 404
 Parsing tib-bibc-sep-2020-iati from https://www.ti-bangladesh.org/beta3/images/2020/iati/TIB-BIBEC-Project-Updated-as-of-30_September_2020.xml
-dflat: input XML file does not exist
+dflat: invalid XML format
 restored 1 files
 
 Downloading tib-bibc-september-2021-iati from https://www.ti-bangladesh.org/beta3/images/2021/iati/TIB-BIBEC-Project-Updated-as-of-30_September_2021.xml
-curl: download ERROR 404
 Parsing tib-bibc-september-2021-iati from https://www.ti-bangladesh.org/beta3/images/2021/iati/TIB-BIBEC-Project-Updated-as-of-30_September_2021.xml
-dflat: input XML file does not exist
+dflat: invalid XML format
 restored 1 files
 
 Downloading tib-bibec_09_2020_ from https://www.ti-bangladesh.org/beta3/images/2020/iati/TIB-BIBEC_Project-Updated_as_of_30_September_2020.xml
-curl: download ERROR 404
 Parsing tib-bibec_09_2020_ from https://www.ti-bangladesh.org/beta3/images/2020/iati/TIB-BIBEC_Project-Updated_as_of_30_September_2020.xml
-dflat: input XML file does not exist
+dflat: invalid XML format
 restored 1 files
 
 Downloading tib-bibec1 from https://www.ti-bangladesh.org/beta3/images/2019/iati/TIB-BIBEC_Project-Updated_as_of_31_December_2019.xml
-curl: download ERROR 404
 Parsing tib-bibec1 from https://www.ti-bangladesh.org/beta3/images/2019/iati/TIB-BIBEC_Project-Updated_as_of_31_December_2019.xml
-dflat: input XML file does not exist
+dflat: invalid XML format
 restored 1 files
 
 Downloading tib-bibec from https://www.ti-bangladesh.org/beta3/images/2019/iati/TIB-BIBEC_Project-Updated_as_of_30_September_2019.xml
-curl: download ERROR 404
 Parsing tib-bibec from https://www.ti-bangladesh.org/beta3/images/2019/iati/TIB-BIBEC_Project-Updated_as_of_30_September_2019.xml
-dflat: input XML file does not exist
+dflat: invalid XML format
 restored 1 files
 
 Downloading tib-cfpi1 from https://www.ti-bangladesh.org/beta3/images/2019/iati/TIB-CFPI_Project-Updated_as_of_31_December_2019.xml
-curl: download ERROR 404
 Parsing tib-cfpi1 from https://www.ti-bangladesh.org/beta3/images/2019/iati/TIB-CFPI_Project-Updated_as_of_31_December_2019.xml
-dflat: input XML file does not exist
+dflat: invalid XML format
 restored 1 files
 
 Downloading tib-cfpi-december-2020-iati from https://www.ti-bangladesh.org/beta3/images/2020/iati/TIB-CFPI-Project-Updated-as-of-31-December-2020.xml
-curl: download ERROR 404
 Parsing tib-cfpi-december-2020-iati from https://www.ti-bangladesh.org/beta3/images/2020/iati/TIB-CFPI-Project-Updated-as-of-31-December-2020.xml
-dflat: input XML file does not exist
+dflat: invalid XML format
 restored 1 files
 
 Downloading tib-cfpi-december-2021-iati from https://www.ti-bangladesh.org/beta3/images/2021/iati/TIB-CFPI-Project-Updated-as-of-31-December-2021.xml
-curl: download ERROR 404
 Parsing tib-cfpi-december-2021-iati from https://www.ti-bangladesh.org/beta3/images/2021/iati/TIB-CFPI-Project-Updated-as-of-31-December-2021.xml
-dflat: input XML file does not exist
+dflat: invalid XML format
 restored 1 files
 
 Downloading tib-cfpi-june-2021-iati from https://www.ti-bangladesh.org/beta3/images/2021/iati/TIB-CFPI-Project-Updated-as-of-30-June-2021.xml
-curl: download ERROR 404
 Parsing tib-cfpi-june-2021-iati from https://www.ti-bangladesh.org/beta3/images/2021/iati/TIB-CFPI-Project-Updated-as-of-30-June-2021.xml
-dflat: input XML file does not exist
+dflat: invalid XML format
 restored 1 files
 
 Downloading tib-cfpi-march-2021-iati from https://www.ti-bangladesh.org/beta3/images/2021/iati/TIB-CFPI-Project-Updated-as-of-31-March-2021.xml
-curl: download ERROR 404
 Parsing tib-cfpi-march-2021-iati from https://www.ti-bangladesh.org/beta3/images/2021/iati/TIB-CFPI-Project-Updated-as-of-31-March-2021.xml
-dflat: input XML file does not exist
+dflat: invalid XML format
 restored 1 files
 
 Downloading tib-cfpi-march-2022-iati from https://www.ti-bangladesh.org/beta3/images/2022/iati/TIB-CFPI-Project-Updated-as-of-31-March-2022.xml
-curl: download ERROR 404
 Parsing tib-cfpi-march-2022-iati from https://www.ti-bangladesh.org/beta3/images/2022/iati/TIB-CFPI-Project-Updated-as-of-31-March-2022.xml
-dflat: input XML file does not exist
+dflat: invalid XML format
 restored 1 files
 
 Downloading tib-cfpi-september-2020-iati from https://www.ti-bangladesh.org/beta3/images/2020/iati/TIB-CFPI_Project-Updated_as_of_30_September_2020.xml
-curl: download ERROR 404
 Parsing tib-cfpi-september-2020-iati from https://www.ti-bangladesh.org/beta3/images/2020/iati/TIB-CFPI_Project-Updated_as_of_30_September_2020.xml
-dflat: input XML file does not exist
+dflat: invalid XML format
 restored 1 files
 
 Downloading tib-cfpi-september-2021-iati from https://www.ti-bangladesh.org/beta3/images/2021/iati/TIB-CFPI-Project-Updated-as-of-30-September-2021.xml
-curl: download ERROR 404
 Parsing tib-cfpi-september-2021-iati from https://www.ti-bangladesh.org/beta3/images/2021/iati/TIB-CFPI-Project-Updated-as-of-30-September-2021.xml
-dflat: input XML file does not exist
+dflat: invalid XML format
 restored 1 files
 
 Downloading tib-cfpi from https://www.ti-bangladesh.org/beta3/images/2019/iati/TIB-CFPI_Project-Updated_as_of_30_September_2019.xml
-curl: download ERROR 404
 Parsing tib-cfpi from https://www.ti-bangladesh.org/beta3/images/2019/iati/TIB-CFPI_Project-Updated_as_of_30_September_2019.xml
-dflat: input XML file does not exist
+dflat: invalid XML format
 restored 1 files
 
 Downloading tib-iati1 from https://www.ti-bangladesh.org/beta3/images/2020/iati/TIB-CFPI-Project-Updated-as-of-31-March-2020.xml
-curl: download ERROR 404
 Parsing tib-iati1 from https://www.ti-bangladesh.org/beta3/images/2020/iati/TIB-CFPI-Project-Updated-as-of-31-March-2020.xml
-dflat: input XML file does not exist
+dflat: invalid XML format
 restored 1 files
 
 Downloading tib-iati from https://www.ti-bangladesh.org/beta3/images/2020/iati/TIB-BIBEC-Project-Updated-as-of-31-March-2020.xml
-curl: download ERROR 404
 Parsing tib-iati from https://www.ti-bangladesh.org/beta3/images/2020/iati/TIB-BIBEC-Project-Updated-as-of-31-March-2020.xml
-dflat: input XML file does not exist
+dflat: invalid XML format
 restored 1 files
 
 Downloading tib-org1 from http://www.ti-bangladesh.org/beta3/images/2017/TIB-BIBEC-Project-Updated-as-of-30-June-2017.xml
-curl: download ERROR 404
 Parsing tib-org1 from http://www.ti-bangladesh.org/beta3/images/2017/TIB-BIBEC-Project-Updated-as-of-30-June-2017.xml
-dflat: input XML file does not exist
+dflat: invalid XML format
 restored 1 files
 
 Downloading tib-org2 from http://www.ti-bangladesh.org/beta3/images/2017/TIB-CFPI-Project-Updated-as-of-30-June-2017.xml
-curl: download ERROR 404
 Parsing tib-org2 from http://www.ti-bangladesh.org/beta3/images/2017/TIB-CFPI-Project-Updated-as-of-30-June-2017.xml
-dflat: input XML file does not exist
+dflat: invalid XML format
 restored 1 files
 
 Downloading tib-organization from https://www.ti-bangladesh.org/beta3/images/2019/iati/IATI_TIB_Organisation-updated-as-of-30-June-2019.xml
-curl: download ERROR 404
 Parsing tib-organization from https://www.ti-bangladesh.org/beta3/images/2019/iati/IATI_TIB_Organisation-updated-as-of-30-June-2019.xml
-dflat: input XML file does not exist
+dflat: invalid XML format
 restored 1 files
 
 Downloading tib-org from http://www.ti-bangladesh.org/beta3/images/2015/doc_iati_tib_organisation_15_en.xml
-curl: download ERROR 404
 Parsing tib-org from http://www.ti-bangladesh.org/beta3/images/2015/doc_iati_tib_organisation_15_en.xml
-dflat: input XML file does not exist
+dflat: invalid XML format
 restored 1 files
 
 Downloading tib-pacta-june-2022-iati from https://www.ti-bangladesh.org/images/2020/iati/TIB-CFPI-Project-Updated-as-of-30-June-2020.xml
 Parsing tib-pacta-june-2022-iati from https://www.ti-bangladesh.org/images/2020/iati/TIB-CFPI-Project-Updated-as-of-30-June-2020.xml
-found 1 activities
+dflat: invalid XML format
+restored 1 files
 
 Downloading tib-project12 from https://www.ti-bangladesh.org/beta3/images/2018/iati/TIB-BIBEC-Project-Updated-as-of-31-December-2017.xml
-curl: download ERROR 404
 Parsing tib-project12 from https://www.ti-bangladesh.org/beta3/images/2018/iati/TIB-BIBEC-Project-Updated-as-of-31-December-2017.xml
-dflat: input XML file does not exist
+dflat: invalid XML format
 restored 1 files
 
 Downloading tib-project13 from https://www.ti-bangladesh.org/beta3/images/2018/iati/TIB-CFPI-Project-Updated-as-of-31-December-2017.xml
-curl: download ERROR 404
 Parsing tib-project13 from https://www.ti-bangladesh.org/beta3/images/2018/iati/TIB-CFPI-Project-Updated-as-of-31-December-2017.xml
-dflat: input XML file does not exist
+dflat: invalid XML format
 restored 1 files
 
 Downloading tib-project14 from https://www.ti-bangladesh.org/beta3/images/2018/iati/TIB-BIBEC-Project-Updated-as-of-31-March-2018.xml
-curl: download ERROR 404
 Parsing tib-project14 from https://www.ti-bangladesh.org/beta3/images/2018/iati/TIB-BIBEC-Project-Updated-as-of-31-March-2018.xml
-dflat: input XML file does not exist
+dflat: invalid XML format
 restored 1 files
 
 Downloading tib-project15 from https://www.ti-bangladesh.org/beta3/images/2018/iati/TIB-CFPI-Project-Updated-as-of-31-March-2018.xml
-curl: download ERROR 404
 Parsing tib-project15 from https://www.ti-bangladesh.org/beta3/images/2018/iati/TIB-CFPI-Project-Updated-as-of-31-March-2018.xml
-dflat: input XML file does not exist
+dflat: invalid XML format
 restored 1 files
 
 Downloading tib-project16 from https://www.ti-bangladesh.org/beta3/images/2018/iati/TIB-BIBEC_Project-Updated_as_of_30_June_2018.xml
-curl: download ERROR 404
 Parsing tib-project16 from https://www.ti-bangladesh.org/beta3/images/2018/iati/TIB-BIBEC_Project-Updated_as_of_30_June_2018.xml
-dflat: input XML file does not exist
+dflat: invalid XML format
 restored 1 files
 
 Downloading tib-project17 from https://www.ti-bangladesh.org/beta3/images/2018/iati/TIB-CFPI_Project-Updated_as_of_30_June_2018.xml
-curl: download ERROR 404
 Parsing tib-project17 from https://www.ti-bangladesh.org/beta3/images/2018/iati/TIB-CFPI_Project-Updated_as_of_30_June_2018.xml
-dflat: input XML file does not exist
+dflat: invalid XML format
 restored 1 files
 
 Downloading tib-project18 from https://www.ti-bangladesh.org/beta3/images/2018/iati/TIB-BIBEC_Project-Updated_as_of_30_September_2018.xml
-curl: download ERROR 404
 Parsing tib-project18 from https://www.ti-bangladesh.org/beta3/images/2018/iati/TIB-BIBEC_Project-Updated_as_of_30_September_2018.xml
-dflat: input XML file does not exist
+dflat: invalid XML format
 restored 1 files
 
 Downloading tib-project19 from https://www.ti-bangladesh.org/beta3/images/2018/iati/TIB-CFPI_Project-Updated_as_of_30_September_2018.xml
-curl: download ERROR 404
 Parsing tib-project19 from https://www.ti-bangladesh.org/beta3/images/2018/iati/TIB-CFPI_Project-Updated_as_of_30_September_2018.xml
-dflat: input XML file does not exist
+dflat: invalid XML format
 restored 1 files
 
 Downloading tib-project1 from https://www.ti-bangladesh.org/beta3/images/2017/TIB-BIBEC-Project-Updated-as-of-30-September-2017.xml
-curl: download ERROR 404
 Parsing tib-project1 from https://www.ti-bangladesh.org/beta3/images/2017/TIB-BIBEC-Project-Updated-as-of-30-September-2017.xml
-dflat: input XML file does not exist
+dflat: invalid XML format
 restored 1 files
 
 Downloading tib-project20 from https://www.ti-bangladesh.org/beta3/images/2018/iati/TIB-BIBEC_Project-Updated_as_of_31_December_2018.xml
-curl: download ERROR 404
 Parsing tib-project20 from https://www.ti-bangladesh.org/beta3/images/2018/iati/TIB-BIBEC_Project-Updated_as_of_31_December_2018.xml
-dflat: input XML file does not exist
+dflat: invalid XML format
 restored 1 files
 
 Downloading tib-project21 from https://www.ti-bangladesh.org/beta3/images/2018/iati/TIB-CFPI_Project-Updated_as_of_31_December_2018.xml
-curl: download ERROR 404
 Parsing tib-project21 from https://www.ti-bangladesh.org/beta3/images/2018/iati/TIB-CFPI_Project-Updated_as_of_31_December_2018.xml
-dflat: input XML file does not exist
+dflat: invalid XML format
 restored 1 files
 
 Downloading tib-project22 from https://www.ti-bangladesh.org/beta3/images/2019/iati/TIB-BIBEC-Project-Updated-as-of-31-March-2019.xml
-curl: download ERROR 404
 Parsing tib-project22 from https://www.ti-bangladesh.org/beta3/images/2019/iati/TIB-BIBEC-Project-Updated-as-of-31-March-2019.xml
-dflat: input XML file does not exist
+dflat: invalid XML format
 restored 1 files
 
 Downloading tib-project23 from https://www.ti-bangladesh.org/beta3/images/2019/iati/TIB-CFPI-Project-Updated-as-of-31-March-2019.xml
-curl: download ERROR 404
 Parsing tib-project23 from https://www.ti-bangladesh.org/beta3/images/2019/iati/TIB-CFPI-Project-Updated-as-of-31-March-2019.xml
-dflat: input XML file does not exist
+dflat: invalid XML format
 restored 1 files
 
 Downloading tib-project24 from https://www.ti-bangladesh.org/beta3/images/2019/iati/TIB-BIBEC-Project-Updated-as-of-30-June-2019.xml
-curl: download ERROR 404
 Parsing tib-project24 from https://www.ti-bangladesh.org/beta3/images/2019/iati/TIB-BIBEC-Project-Updated-as-of-30-June-2019.xml
-dflat: input XML file does not exist
+dflat: invalid XML format
 restored 1 files
 
 Downloading tib-project25 from https://www.ti-bangladesh.org/images/2019/iati/TIB-CFPI-Project-Updated-as-of-30-June-2019.xml
 Parsing tib-project25 from https://www.ti-bangladesh.org/images/2019/iati/TIB-CFPI-Project-Updated-as-of-30-June-2019.xml
-found 1 activities
+dflat: invalid XML format
+restored 1 files
 
 Downloading tib-project2 from https://www.ti-bangladesh.org/beta3/images/2017/TIB-CFPI-Project-Updated-as-of-30-September-2017.xml
-curl: download ERROR 404
 Parsing tib-project2 from https://www.ti-bangladesh.org/beta3/images/2017/TIB-CFPI-Project-Updated-as-of-30-September-2017.xml
-dflat: input XML file does not exist
+dflat: invalid XML format
 restored 1 files
 
 Downloading tib-project-bibec-as-of-30-june-2020 from https://www.ti-bangladesh.org/beta3/images/2020/iati/TIB-CFPI-Project-Updated-as-of-30-June-2020.xml
-curl: download ERROR 404
 Parsing tib-project-bibec-as-of-30-june-2020 from https://www.ti-bangladesh.org/beta3/images/2020/iati/TIB-CFPI-Project-Updated-as-of-30-June-2020.xml
-dflat: input XML file does not exist
+dflat: invalid XML format
 restored 1 files
 
 Downloading tib-project-cfpi-as-of-30-june-2020 from https://www.ti-bangladesh.org/beta3/images/2020/iati/TIB-CFPI-Project-Updated-as-of-30-June-2020.xml
-curl: download ERROR 404
 Parsing tib-project-cfpi-as-of-30-june-2020 from https://www.ti-bangladesh.org/beta3/images/2020/iati/TIB-CFPI-Project-Updated-as-of-30-June-2020.xml
-dflat: input XML file does not exist
+dflat: invalid XML format
 restored 1 files
 
 Downloading tib-projects from http://www.ti-bangladesh.org/beta3/images/2017/TIB-CFPI_Project-Updated_as_of_31_March_2017.xml
-curl: download ERROR 404
 Parsing tib-projects from http://www.ti-bangladesh.org/beta3/images/2017/TIB-CFPI_Project-Updated_as_of_31_March_2017.xml
-dflat: input XML file does not exist
+dflat: invalid XML format
 restored 1 files
 
 Downloading tib-project from https://www.ti-bangladesh.org/beta3/images/2017/TIB-BIBEC_Project-Updated_as_of_31_March_2017.xml
-curl: download ERROR 404
 Parsing tib-project from https://www.ti-bangladesh.org/beta3/images/2017/TIB-BIBEC_Project-Updated_as_of_31_March_2017.xml
-dflat: input XML file does not exist
+dflat: invalid XML format
 restored 1 files
 
 Downloading ticah-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/ticah-activities.xml
@@ -32678,6 +32636,16 @@ found 1 organisations
 Downloading udsm-cbs-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/udsm-cbs-activities.xml
 Parsing udsm-cbs-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/udsm-cbs-activities.xml
 found 1 activities
+
+Downloading ugorid-org-233 from https://figshare.com/articles/dataset/FCDO_GHANA_seroprevance_summarySheet_v2_xml/23546595
+Parsing ugorid-org-233 from https://figshare.com/articles/dataset/FCDO_GHANA_seroprevance_summarySheet_v2_xml/23546595
+dflat: invalid XML format
+restored 0 files
+
+Downloading ugorid-org-233_waccbipseroprev_fcd0 from https://figshare.com/articles/dataset/FCDO_GHANA_seroprevance_summarySheet_v2_xml/23546595
+Parsing ugorid-org-233_waccbipseroprev_fcd0 from https://figshare.com/articles/dataset/FCDO_GHANA_seroprevance_summarySheet_v2_xml/23546595
+dflat: invalid XML format
+restored 0 files
 
 Downloading uhai-eashri-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/uhai-eashri-activities.xml
 Parsing uhai-eashri-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/uhai-eashri-activities.xml
@@ -42180,8 +42148,9 @@ Parsing wbtf-tf072207 from https://d2mxkr7359ifh6.cloudfront.net/TF072207.xml
 found 2 activities
 
 Downloading wbtf-tf072208 from https://d2mxkr7359ifh6.cloudfront.net/TF072208.xml
+curl: download ERROR 000
 Parsing wbtf-tf072208 from https://d2mxkr7359ifh6.cloudfront.net/TF072208.xml
-dflat: invalid XML format
+dflat: input XML file does not exist
 restored 3 files
 
 Downloading wbtf-tf072229 from https://d2mxkr7359ifh6.cloudfront.net/TF072229.xml
@@ -44208,8 +44177,10 @@ Parsing worldbank-mv from http://doumodqax2qi2.cloudfront.net/IATI-05-2023/WB-MV
 found 16 activities
 
 Downloading worldbank-mw from http://doumodqax2qi2.cloudfront.net/IATI-05-2023/WB-MW.xml
+curl: download ERROR 000
 Parsing worldbank-mw from http://doumodqax2qi2.cloudfront.net/IATI-05-2023/WB-MW.xml
-found 36 activities
+dflat: input XML file does not exist
+restored 36 files
 
 Downloading worldbank-mx from http://doumodqax2qi2.cloudfront.net/IATI-05-2023/WB-MX.xml
 Parsing worldbank-mx from http://doumodqax2qi2.cloudfront.net/IATI-05-2023/WB-MX.xml
