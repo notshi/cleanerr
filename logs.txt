@@ -4603,34 +4603,24 @@ Parsing bd-ug from https://aidstream.s3.us-west-2.amazonaws.com/xml/bd-ug.xml
 found 1 activities
 
 Downloading be-dgd-2021_1 from http://diplomatie.be/oda/IATI_2023_1.xml
-curl: download ERROR 000
 Parsing be-dgd-2021_1 from http://diplomatie.be/oda/IATI_2023_1.xml
-dflat: input XML file does not exist
-restored 72 files
+found 72 activities
 
 Downloading be-dgd-2021_2 from http://diplomatie.be/oda/IATI_2023_2.xml
-curl: download ERROR 000
 Parsing be-dgd-2021_2 from http://diplomatie.be/oda/IATI_2023_2.xml
-dflat: input XML file does not exist
-restored 180 files
+found 180 activities
 
 Downloading be-dgd-2021_3 from http://diplomatie.be/oda/IATI_2023_3.xml
-curl: download ERROR 000
 Parsing be-dgd-2021_3 from http://diplomatie.be/oda/IATI_2023_3.xml
-dflat: input XML file does not exist
-restored 146 files
+found 146 activities
 
 Downloading be-dgd-2021_4 from http://diplomatie.be/oda/IATI_2023_4.xml
-curl: download ERROR 000
 Parsing be-dgd-2021_4 from http://diplomatie.be/oda/IATI_2023_4.xml
-dflat: input XML file does not exist
-restored 368 files
+found 368 activities
 
 Downloading be-dgd-org2020-2024 from http://diplomatie.be/oda/XM-DAC-10-2-orgfileNov2021.xml
-curl: download ERROR 000
 Parsing be-dgd-org2020-2024 from http://diplomatie.be/oda/XM-DAC-10-2-orgfileNov2021.xml
-dflat: input XML file does not exist
-restored 1 files
+found 1 organisations
 
 Downloading beesfordevelopment-998 from https://aidstream.s3.us-west-2.amazonaws.com/xml/beesfordevelopment-998.xml
 Parsing beesfordevelopment-998 from https://aidstream.s3.us-west-2.amazonaws.com/xml/beesfordevelopment-998.xml
@@ -6814,8 +6804,9 @@ dflat: invalid XML format
 restored 0 files
 
 Downloading cif-889 from http://siteresources.worldbank.org/IATI/CIF/CIF-889.xml
+curl: download ERROR 404
 Parsing cif-889 from http://siteresources.worldbank.org/IATI/CIF/CIF-889.xml
-dflat: invalid XML format
+dflat: input XML file does not exist
 restored 0 files
 
 Downloading cif-998 from http://siteresources.worldbank.org/IATI/CIF/CIF-998.xml
@@ -6857,9 +6848,8 @@ Parsing cif-br from http://doumodqax2qi2.cloudfront.net/CIF/CIF-05-2020/CIF-BR.x
 found 11 activities
 
 Downloading cif-cd from http://siteresources.worldbank.org/IATI/CIF/CIF-CD.xml
-curl: download ERROR 404
 Parsing cif-cd from http://siteresources.worldbank.org/IATI/CIF/CIF-CD.xml
-dflat: input XML file does not exist
+dflat: invalid XML format
 restored 0 files
 
 Downloading cif-ci from http://doumodqax2qi2.cloudfront.net/CIF/CIF-05-2020/CIF-CI.xml
@@ -7111,7 +7101,7 @@ found 13 activities
 
 Downloading cisu-gaia from https://vores.cisu.dk/activities.xml
 Parsing cisu-gaia from https://vores.cisu.dk/activities.xml
-found 2528 activities
+found 2530 activities
 
 Downloading cisu-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/cisu-org.xml
 Parsing cisu-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/cisu-org.xml
@@ -8227,7 +8217,7 @@ found 1 organisations
 
 Downloading dfpa-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/dfpa-activities.xml
 Parsing dfpa-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/dfpa-activities.xml
-found 25 activities
+found 27 activities
 
 Downloading dfpa-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/dfpa-org.xml
 Parsing dfpa-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/dfpa-org.xml
@@ -8327,7 +8317,7 @@ found 204 activities
 
 Downloading dhsc-activities from https://devflow.northeurope.cloudapp.azure.com/files/xml/dhsc-activities.xml
 Parsing dhsc-activities from https://devflow.northeurope.cloudapp.azure.com/files/xml/dhsc-activities.xml
-found 40 activities
+found 42 activities
 
 Downloading dhs-chile from https://iati-reporting.s3.amazonaws.com/department_of_homeland_security/xml/iati-activities-Chile.xml
 Parsing dhs-chile from https://iati-reporting.s3.amazonaws.com/department_of_homeland_security/xml/iati-activities-Chile.xml
@@ -11517,12 +11507,6 @@ Downloading ecdpm-activities from https://aidstream.s3.us-west-2.amazonaws.com/x
 Parsing ecdpm-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/ecdpm-activities.xml
 found 11 activities
 
-Downloading ecdpm-act from https://storage.googleapis.com/ecdpmimake-iati-exports/iati-export-2022-04-22T08:41:50.960Z.xml
-curl: download ERROR 404
-Parsing ecdpm-act from https://storage.googleapis.com/ecdpmimake-iati-exports/iati-export-2022-04-22T08:41:50.960Z.xml
-dflat: input XML file does not exist
-restored 21 files
-
 Downloading ecdpm-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/ecdpm-org.xml
 Parsing ecdpm-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/ecdpm-org.xml
 found 1 organisations
@@ -13849,49 +13833,85 @@ Downloading fcdo-prosperityfund from http://iati.fcdo.gov.uk/iati_files/converte
 Parsing fcdo-prosperityfund from http://iati.fcdo.gov.uk/iati_files/converted_files/prosperity-fund-oda-data.xml
 found 819 activities
 
-Downloading fcdo-step-0 from http://iati.fcdo.gov.uk/iati_files/solr/FCDO-set-0.xml
-Parsing fcdo-step-0 from http://iati.fcdo.gov.uk/iati_files/solr/FCDO-set-0.xml
-found 1689 activities
+Downloading fcdo-set-10 from http://iati.fcdo.gov.uk/iati_files/solr/FCDO-set-10.xml
+Parsing fcdo-set-10 from http://iati.fcdo.gov.uk/iati_files/solr/FCDO-set-10.xml
+found 849 activities
 
-Downloading fcdo-step-10 from http://iati.fcdo.gov.uk/iati_files/solr/FCDO-set-10.xml
-Parsing fcdo-step-10 from http://iati.fcdo.gov.uk/iati_files/solr/FCDO-set-10.xml
-found 473 activities
+Downloading fcdo-set-11 from http://iati.fcdo.gov.uk/iati_files/solr/FCDO-set-11.xml
+Parsing fcdo-set-11 from http://iati.fcdo.gov.uk/iati_files/solr/FCDO-set-11.xml
+found 975 activities
 
-Downloading fcdo-step-1 from http://iati.fcdo.gov.uk/iati_files/solr/FCDO-set-1.xml
-Parsing fcdo-step-1 from http://iati.fcdo.gov.uk/iati_files/solr/FCDO-set-1.xml
-found 1553 activities
+Downloading fcdo-set-12 from http://iati.fcdo.gov.uk/iati_files/solr/FCDO-set-12.xml
+Parsing fcdo-set-12 from http://iati.fcdo.gov.uk/iati_files/solr/FCDO-set-12.xml
+found 1135 activities
 
-Downloading fcdo-step-2 from http://iati.fcdo.gov.uk/iati_files/solr/FCDO-set-2.xml
-Parsing fcdo-step-2 from http://iati.fcdo.gov.uk/iati_files/solr/FCDO-set-2.xml
-found 1671 activities
+Downloading fcdo-set-13 from http://iati.fcdo.gov.uk/iati_files/solr/FCDO-set-13.xml
+Parsing fcdo-set-13 from http://iati.fcdo.gov.uk/iati_files/solr/FCDO-set-13.xml
+found 1121 activities
 
-Downloading fcdo-step-3 from http://iati.fcdo.gov.uk/iati_files/solr/FCDO-set-3.xml
-Parsing fcdo-step-3 from http://iati.fcdo.gov.uk/iati_files/solr/FCDO-set-3.xml
-found 1508 activities
+Downloading fcdo-set-14 from http://iati.fcdo.gov.uk/iati_files/solr/FCDO-set-14.xml
+Parsing fcdo-set-14 from http://iati.fcdo.gov.uk/iati_files/solr/FCDO-set-14.xml
+found 1273 activities
 
-Downloading fcdo-step-4 from http://iati.fcdo.gov.uk/iati_files/solr/FCDO-set-4.xml
-Parsing fcdo-step-4 from http://iati.fcdo.gov.uk/iati_files/solr/FCDO-set-4.xml
-found 1614 activities
+Downloading fcdo-set-15 from http://iati.fcdo.gov.uk/iati_files/solr/FCDO-set-15.xml
+Parsing fcdo-set-15 from http://iati.fcdo.gov.uk/iati_files/solr/FCDO-set-15.xml
+found 1132 activities
 
-Downloading fcdo-step-5 from http://iati.fcdo.gov.uk/iati_files/solr/FCDO-set-5.xml
-Parsing fcdo-step-5 from http://iati.fcdo.gov.uk/iati_files/solr/FCDO-set-5.xml
-found 1994 activities
+Downloading fcdo-set-16 from http://iati.fcdo.gov.uk/iati_files/solr/FCDO-set-16.xml
+Parsing fcdo-set-16 from http://iati.fcdo.gov.uk/iati_files/solr/FCDO-set-16.xml
+found 1286 activities
 
-Downloading fcdo-step-6 from http://iati.fcdo.gov.uk/iati_files/solr/FCDO-set-6.xml
-Parsing fcdo-step-6 from http://iati.fcdo.gov.uk/iati_files/solr/FCDO-set-6.xml
-found 2303 activities
+Downloading fcdo-set-17 from http://iati.fcdo.gov.uk/iati_files/solr/FCDO-set-17.xml
+Parsing fcdo-set-17 from http://iati.fcdo.gov.uk/iati_files/solr/FCDO-set-17.xml
+found 1292 activities
 
-Downloading fcdo-step-7 from http://iati.fcdo.gov.uk/iati_files/solr/FCDO-set-7.xml
-Parsing fcdo-step-7 from http://iati.fcdo.gov.uk/iati_files/solr/FCDO-set-7.xml
-found 2367 activities
+Downloading fcdo-set-18 from http://iati.fcdo.gov.uk/iati_files/solr/FCDO-set-18.xml
+Parsing fcdo-set-18 from http://iati.fcdo.gov.uk/iati_files/solr/FCDO-set-18.xml
+found 1478 activities
 
-Downloading fcdo-step-8 from http://iati.fcdo.gov.uk/iati_files/solr/FCDO-set-8.xml
-Parsing fcdo-step-8 from http://iati.fcdo.gov.uk/iati_files/solr/FCDO-set-8.xml
-found 2849 activities
+Downloading fcdo-set-19 from http://iati.fcdo.gov.uk/iati_files/solr/FCDO-set-19.xml
+Parsing fcdo-set-19 from http://iati.fcdo.gov.uk/iati_files/solr/FCDO-set-19.xml
+found 1515 activities
 
-Downloading fcdo-step-9 from http://iati.fcdo.gov.uk/iati_files/solr/FCDO-set-9.xml
-Parsing fcdo-step-9 from http://iati.fcdo.gov.uk/iati_files/solr/FCDO-set-9.xml
-found 2632 activities
+Downloading fcdo-set-1 from http://iati.fcdo.gov.uk/iati_files/solr/FCDO-set-1.xml
+Parsing fcdo-set-1 from http://iati.fcdo.gov.uk/iati_files/solr/FCDO-set-1.xml
+found 798 activities
+
+Downloading fcdo-set-20 from http://iati.fcdo.gov.uk/iati_files/solr/FCDO-set-20.xml
+Parsing fcdo-set-20 from http://iati.fcdo.gov.uk/iati_files/solr/FCDO-set-20.xml
+found 1177 activities
+
+Downloading fcdo-set-2 from http://iati.fcdo.gov.uk/iati_files/solr/FCDO-set-2.xml
+Parsing fcdo-set-2 from http://iati.fcdo.gov.uk/iati_files/solr/FCDO-set-2.xml
+found 917 activities
+
+Downloading fcdo-set-3 from http://iati.fcdo.gov.uk/iati_files/solr/FCDO-set-3.xml
+Parsing fcdo-set-3 from http://iati.fcdo.gov.uk/iati_files/solr/FCDO-set-3.xml
+found 763 activities
+
+Downloading fcdo-set-4 from http://iati.fcdo.gov.uk/iati_files/solr/FCDO-set-4.xml
+Parsing fcdo-set-4 from http://iati.fcdo.gov.uk/iati_files/solr/FCDO-set-4.xml
+found 778 activities
+
+Downloading fcdo-set-5 from http://iati.fcdo.gov.uk/iati_files/solr/FCDO-set-5.xml
+Parsing fcdo-set-5 from http://iati.fcdo.gov.uk/iati_files/solr/FCDO-set-5.xml
+found 864 activities
+
+Downloading fcdo-set-6 from http://iati.fcdo.gov.uk/iati_files/solr/FCDO-set-6.xml
+Parsing fcdo-set-6 from http://iati.fcdo.gov.uk/iati_files/solr/FCDO-set-6.xml
+found 847 activities
+
+Downloading fcdo-set-7 from http://iati.fcdo.gov.uk/iati_files/solr/FCDO-set-7.xml
+Parsing fcdo-set-7 from http://iati.fcdo.gov.uk/iati_files/solr/FCDO-set-7.xml
+found 783 activities
+
+Downloading fcdo-set-8 from http://iati.fcdo.gov.uk/iati_files/solr/FCDO-set-8.xml
+Parsing fcdo-set-8 from http://iati.fcdo.gov.uk/iati_files/solr/FCDO-set-8.xml
+found 708 activities
+
+Downloading fcdo-set-9 from http://iati.fcdo.gov.uk/iati_files/solr/FCDO-set-9.xml
+Parsing fcdo-set-9 from http://iati.fcdo.gov.uk/iati_files/solr/FCDO-set-9.xml
+found 799 activities
 
 Downloading fcdo-z_historic-programme from http://iati.fcdo.gov.uk/iati_files/converted_files/fco-programme-oda-data-2016-to-2017.xml
 Parsing fcdo-z_historic-programme from http://iati.fcdo.gov.uk/iati_files/converted_files/fco-programme-oda-data-2016-to-2017.xml
@@ -15660,11 +15680,11 @@ found 1 organisations
 
 Downloading gac-amc-act_2_3 from http://w05.international.gc.ca/projectbrowser-banqueprojets/iita-iati/dfatd-maecd_activit_status_2_3.xml
 Parsing gac-amc-act_2_3 from http://w05.international.gc.ca/projectbrowser-banqueprojets/iita-iati/dfatd-maecd_activit_status_2_3.xml
-found 1800 activities
+found 1799 activities
 
 Downloading gac-amc-act_4 from http://w05.international.gc.ca/projectbrowser-banqueprojets/iita-iati/dfatd-maecd_activit_status_4.xml
 Parsing gac-amc-act_4 from http://w05.international.gc.ca/projectbrowser-banqueprojets/iita-iati/dfatd-maecd_activit_status_4.xml
-found 4279 activities
+found 4282 activities
 
 Downloading gac-amc-org from http://w05.international.gc.ca/projectbrowser-banqueprojets/iita-iati/dfatd-maecd_organisation.xml
 Parsing gac-amc-org from http://w05.international.gc.ca/projectbrowser-banqueprojets/iita-iati/dfatd-maecd_organisation.xml
@@ -16607,11 +16627,11 @@ found 1 organisations
 
 Downloading globalgiving-activity from http://www.globalgiving.org/iati/activities.xml
 Parsing globalgiving-activity from http://www.globalgiving.org/iati/activities.xml
-found 26191 activities
+found 26198 activities
 
 Downloading globalgiving-org from http://www.globalgiving.org/iati/organisations.xml
 Parsing globalgiving-org from http://www.globalgiving.org/iati/organisations.xml
-found 15047 organisations
+found 15059 organisations
 
 Downloading globalshea-activities from https://iatipublisher-prod.s3.amazonaws.com/xml/mergedActivityXml/globalshea-activities.xml
 Parsing globalshea-activities from https://iatipublisher-prod.s3.amazonaws.com/xml/mergedActivityXml/globalshea-activities.xml
@@ -17360,10 +17380,6 @@ found 15 activities
 Downloading hi_fed-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/hi_fed-org.xml
 Parsing hi_fed-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/hi_fed-org.xml
 found 1 organisations
-
-Downloading hif-gh from https://aidstream.s3.us-west-2.amazonaws.com/xml/hif-gh.xml
-Parsing hif-gh from https://aidstream.s3.us-west-2.amazonaws.com/xml/hif-gh.xml
-found 1 activities
 
 Downloading hiil_mfa-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/hiil_mfa-activities.xml
 Parsing hiil_mfa-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/hiil_mfa-activities.xml
@@ -18658,7 +18674,7 @@ found 1 organisations
 
 Downloading idbinvest-projects from https://idbinvest.org/sites/default/files/iati_publish_projects.xml
 Parsing idbinvest-projects from https://idbinvest.org/sites/default/files/iati_publish_projects.xml
-found 314 activities
+found 315 activities
 
 Downloading idea-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/idea-activities.xml
 Parsing idea-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/idea-activities.xml
@@ -19936,7 +19952,7 @@ found 22 activities
 
 Downloading ifcwbg-tr from https://disclosures.ifc.org/iati/ifc-tr.xml
 Parsing ifcwbg-tr from https://disclosures.ifc.org/iati/ifc-tr.xml
-found 236 activities
+found 237 activities
 
 Downloading ifcwbg-tt from https://disclosures.ifc.org/iati/ifc-tt.xml
 Parsing ifcwbg-tt from https://disclosures.ifc.org/iati/ifc-tt.xml
@@ -25611,7 +25627,7 @@ found 2220 activities
 
 Downloading onl-activity from https://www.oxfamnovib.nl/redactie/Downloads/XML/iati.xml
 Parsing onl-activity from https://www.oxfamnovib.nl/redactie/Downloads/XML/iati.xml
-found 1941 activities
+found 1942 activities
 
 Downloading onl-org from https://www.oxfamnovib.nl/redactie/downloads/xml/IATI_NL-KVK-27108436.xml
 Parsing onl-org from https://www.oxfamnovib.nl/redactie/downloads/xml/IATI_NL-KVK-27108436.xml
@@ -26256,7 +26272,7 @@ found 1 activities
 
 Downloading oxford-gb from https://aidstream.s3.us-west-2.amazonaws.com/xml/oxford-gb.xml
 Parsing oxford-gb from https://aidstream.s3.us-west-2.amazonaws.com/xml/oxford-gb.xml
-found 2 activities
+found 3 activities
 
 Downloading oxford-mm from https://aidstream.s3.us-west-2.amazonaws.com/xml/oxford-mm.xml
 Parsing oxford-mm from https://aidstream.s3.us-west-2.amazonaws.com/xml/oxford-mm.xml
@@ -27969,7 +27985,7 @@ found 1 organisations
 
 Downloading rvo-01 from https://projects.rvo.nl/opendata/iati.xml
 Parsing rvo-01 from https://projects.rvo.nl/opendata/iati.xml
-found 4209 activities
+found 4211 activities
 
 Downloading rvo-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/rvo-activities.xml
 Parsing rvo-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/rvo-activities.xml
@@ -35848,24 +35864,30 @@ Parsing unocha-cbpf-afghanistan-allocation-2019 from https://cbpfapi.unocha.org/
 found 66 activities
 
 Downloading unocha-cbpf-afghanistan-allocation-2020 from https://cbpfapi.unocha.org/iati/iati/23/2020/GetAllocation.xml
+curl: download ERROR 500
 Parsing unocha-cbpf-afghanistan-allocation-2020 from https://cbpfapi.unocha.org/iati/iati/23/2020/GetAllocation.xml
-found 127 activities
+dflat: input XML file does not exist
+restored 127 files
 
 Downloading unocha-cbpf-afghanistan-allocation-2021 from https://cbpfapi.unocha.org/iati/iati/23/2021/GetAllocation.xml
 Parsing unocha-cbpf-afghanistan-allocation-2021 from https://cbpfapi.unocha.org/iati/iati/23/2021/GetAllocation.xml
 found 238 activities
 
 Downloading unocha-cbpf-afghanistan-allocation-2022 from https://cbpfapi.unocha.org/iati/iati/23/2022/GetAllocation.xml
+curl: download ERROR 500
 Parsing unocha-cbpf-afghanistan-allocation-2022 from https://cbpfapi.unocha.org/iati/iati/23/2022/GetAllocation.xml
-found 300 activities
+dflat: input XML file does not exist
+restored 300 files
 
 Downloading unocha-cbpf-afghanistan-allocation-2023 from https://cbpfapi.unocha.org/iati/iati/23/2023/GetAllocation.xml
 Parsing unocha-cbpf-afghanistan-allocation-2023 from https://cbpfapi.unocha.org/iati/iati/23/2023/GetAllocation.xml
 found 0 activities
 
 Downloading unocha-cbpf-afghanistan-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/23/2024/GetAllocation.xml
+curl: download ERROR 500
 Parsing unocha-cbpf-afghanistan-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/23/2024/GetAllocation.xml
-found 0 activities
+dflat: input XML file does not exist
+restored 0 files
 
 Downloading unocha-cbpf-afghanistan-contribution-2016 from https://cbpfapi.unocha.org/iati/iati/23/2016/GetContribution.xml
 Parsing unocha-cbpf-afghanistan-contribution-2016 from https://cbpfapi.unocha.org/iati/iati/23/2016/GetContribution.xml
@@ -35952,8 +35974,10 @@ Parsing unocha-cbpf-burkinafasorhpf-allocation-2018 from https://cbpfapi.unocha.
 found 0 activities
 
 Downloading unocha-cbpf-burkinafasorhpf-allocation-2019 from https://cbpfapi.unocha.org/iati/iati/85/2019/GetAllocation.xml
+curl: download ERROR 000
 Parsing unocha-cbpf-burkinafasorhpf-allocation-2019 from https://cbpfapi.unocha.org/iati/iati/85/2019/GetAllocation.xml
-found 0 activities
+dflat: input XML file does not exist
+restored 0 files
 
 Downloading unocha-cbpf-burkinafasorhpf-allocation-2020 from https://cbpfapi.unocha.org/iati/iati/85/2020/GetAllocation.xml
 Parsing unocha-cbpf-burkinafasorhpf-allocation-2020 from https://cbpfapi.unocha.org/iati/iati/85/2020/GetAllocation.xml
@@ -36080,8 +36104,10 @@ Parsing unocha-cbpf-car-allocation-2023 from https://cbpfapi.unocha.org/iati/iat
 found 0 activities
 
 Downloading unocha-cbpf-car-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/17/2024/GetAllocation.xml
+curl: download ERROR 500
 Parsing unocha-cbpf-car-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/17/2024/GetAllocation.xml
-found 0 activities
+dflat: input XML file does not exist
+restored 0 files
 
 Downloading unocha-cbpf-car-contribution-2016 from https://cbpfapi.unocha.org/iati/iati/17/2016/GetContribution.xml
 Parsing unocha-cbpf-car-contribution-2016 from https://cbpfapi.unocha.org/iati/iati/17/2016/GetContribution.xml
@@ -36204,8 +36230,10 @@ Parsing unocha-cbpf-drc-allocation-2020 from https://cbpfapi.unocha.org/iati/iat
 found 111 activities
 
 Downloading unocha-cbpf-drc-allocation-2021 from https://cbpfapi.unocha.org/iati/iati/24/2021/GetAllocation.xml
+curl: download ERROR 000
 Parsing unocha-cbpf-drc-allocation-2021 from https://cbpfapi.unocha.org/iati/iati/24/2021/GetAllocation.xml
-found 80 activities
+dflat: input XML file does not exist
+restored 80 files
 
 Downloading unocha-cbpf-drc-allocation-2022 from https://cbpfapi.unocha.org/iati/iati/24/2022/GetAllocation.xml
 Parsing unocha-cbpf-drc-allocation-2022 from https://cbpfapi.unocha.org/iati/iati/24/2022/GetAllocation.xml
@@ -36216,8 +36244,10 @@ Parsing unocha-cbpf-drc-allocation-2023 from https://cbpfapi.unocha.org/iati/iat
 found 6 activities
 
 Downloading unocha-cbpf-drc-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/24/2024/GetAllocation.xml
+curl: download ERROR 000
 Parsing unocha-cbpf-drc-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/24/2024/GetAllocation.xml
-found 0 activities
+dflat: input XML file does not exist
+restored 0 files
 
 Downloading unocha-cbpf-drc-contribution-2016 from https://cbpfapi.unocha.org/iati/iati/24/2016/GetContribution.xml
 Parsing unocha-cbpf-drc-contribution-2016 from https://cbpfapi.unocha.org/iati/iati/24/2016/GetContribution.xml
@@ -36412,16 +36442,20 @@ Parsing unocha-cbpf-iraq-allocation-2016 from https://cbpfapi.unocha.org/iati/ia
 found 135 activities
 
 Downloading unocha-cbpf-iraq-allocation-2017 from https://cbpfapi.unocha.org/iati/iati/72/2017/GetAllocation.xml
+curl: download ERROR 500
 Parsing unocha-cbpf-iraq-allocation-2017 from https://cbpfapi.unocha.org/iati/iati/72/2017/GetAllocation.xml
-found 133 activities
+dflat: input XML file does not exist
+restored 133 files
 
 Downloading unocha-cbpf-iraq-allocation-2018 from https://cbpfapi.unocha.org/iati/iati/72/2018/GetAllocation.xml
 Parsing unocha-cbpf-iraq-allocation-2018 from https://cbpfapi.unocha.org/iati/iati/72/2018/GetAllocation.xml
 found 84 activities
 
 Downloading unocha-cbpf-iraq-allocation-2019 from https://cbpfapi.unocha.org/iati/iati/72/2019/GetAllocation.xml
+curl: download ERROR 000
 Parsing unocha-cbpf-iraq-allocation-2019 from https://cbpfapi.unocha.org/iati/iati/72/2019/GetAllocation.xml
-found 66 activities
+dflat: input XML file does not exist
+restored 66 files
 
 Downloading unocha-cbpf-iraq-allocation-2020 from https://cbpfapi.unocha.org/iati/iati/72/2020/GetAllocation.xml
 Parsing unocha-cbpf-iraq-allocation-2020 from https://cbpfapi.unocha.org/iati/iati/72/2020/GetAllocation.xml
@@ -36652,8 +36686,10 @@ Parsing unocha-cbpf-lebanon-allocation-2023 from https://cbpfapi.unocha.org/iati
 found 0 activities
 
 Downloading unocha-cbpf-lebanon-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/71/2024/GetAllocation.xml
+curl: download ERROR 500
 Parsing unocha-cbpf-lebanon-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/71/2024/GetAllocation.xml
-found 0 activities
+dflat: input XML file does not exist
+restored 0 files
 
 Downloading unocha-cbpf-lebanon-contribution-2016 from https://cbpfapi.unocha.org/iati/iati/71/2016/GetContribution.xml
 Parsing unocha-cbpf-lebanon-contribution-2016 from https://cbpfapi.unocha.org/iati/iati/71/2016/GetContribution.xml
@@ -36752,8 +36788,10 @@ Parsing unocha-cbpf-myanmar-allocation-2021 from https://cbpfapi.unocha.org/iati
 found 45 activities
 
 Downloading unocha-cbpf-myanmar-allocation-2022 from https://cbpfapi.unocha.org/iati/iati/59/2022/GetAllocation.xml
+curl: download ERROR 500
 Parsing unocha-cbpf-myanmar-allocation-2022 from https://cbpfapi.unocha.org/iati/iati/59/2022/GetAllocation.xml
-found 48 activities
+dflat: input XML file does not exist
+restored 48 files
 
 Downloading unocha-cbpf-myanmar-allocation-2023 from https://cbpfapi.unocha.org/iati/iati/59/2023/GetAllocation.xml
 Parsing unocha-cbpf-myanmar-allocation-2023 from https://cbpfapi.unocha.org/iati/iati/59/2023/GetAllocation.xml
@@ -36840,8 +36878,10 @@ Parsing unocha-cbpf-nigeria-allocation-2018 from https://cbpfapi.unocha.org/iati
 found 71 activities
 
 Downloading unocha-cbpf-nigeria-allocation-2019 from https://cbpfapi.unocha.org/iati/iati/75/2019/GetAllocation.xml
+curl: download ERROR 500
 Parsing unocha-cbpf-nigeria-allocation-2019 from https://cbpfapi.unocha.org/iati/iati/75/2019/GetAllocation.xml
-found 63 activities
+dflat: input XML file does not exist
+restored 63 files
 
 Downloading unocha-cbpf-nigeria-allocation-2020 from https://cbpfapi.unocha.org/iati/iati/75/2020/GetAllocation.xml
 Parsing unocha-cbpf-nigeria-allocation-2020 from https://cbpfapi.unocha.org/iati/iati/75/2020/GetAllocation.xml
@@ -36952,8 +36992,10 @@ Parsing unocha-cbpf-nigerrhpf-allocation-2020 from https://cbpfapi.unocha.org/ia
 found 0 activities
 
 Downloading unocha-cbpf-nigerrhpf-allocation-2021 from https://cbpfapi.unocha.org/iati/iati/84/2021/GetAllocation.xml
+curl: download ERROR 000
 Parsing unocha-cbpf-nigerrhpf-allocation-2021 from https://cbpfapi.unocha.org/iati/iati/84/2021/GetAllocation.xml
-found 22 activities
+dflat: input XML file does not exist
+restored 22 files
 
 Downloading unocha-cbpf-nigerrhpf-allocation-2022 from https://cbpfapi.unocha.org/iati/iati/84/2022/GetAllocation.xml
 Parsing unocha-cbpf-nigerrhpf-allocation-2022 from https://cbpfapi.unocha.org/iati/iati/84/2022/GetAllocation.xml
@@ -37060,8 +37102,10 @@ Parsing unocha-cbpf-opt-allocation-2020 from https://cbpfapi.unocha.org/iati/iat
 found 78 activities
 
 Downloading unocha-cbpf-opt-allocation-2021 from https://cbpfapi.unocha.org/iati/iati/67/2021/GetAllocation.xml
+curl: download ERROR 500
 Parsing unocha-cbpf-opt-allocation-2021 from https://cbpfapi.unocha.org/iati/iati/67/2021/GetAllocation.xml
-found 61 activities
+dflat: input XML file does not exist
+restored 61 files
 
 Downloading unocha-cbpf-opt-allocation-2022 from https://cbpfapi.unocha.org/iati/iati/67/2022/GetAllocation.xml
 Parsing unocha-cbpf-opt-allocation-2022 from https://cbpfapi.unocha.org/iati/iati/67/2022/GetAllocation.xml
@@ -37264,8 +37308,10 @@ Parsing unocha-cbpf-somalia-allocation-2017 from https://cbpfapi.unocha.org/iati
 found 165 activities
 
 Downloading unocha-cbpf-somalia-allocation-2018 from https://cbpfapi.unocha.org/iati/iati/21/2018/GetAllocation.xml
+curl: download ERROR 500
 Parsing unocha-cbpf-somalia-allocation-2018 from https://cbpfapi.unocha.org/iati/iati/21/2018/GetAllocation.xml
-found 120 activities
+dflat: input XML file does not exist
+restored 120 files
 
 Downloading unocha-cbpf-somalia-allocation-2019 from https://cbpfapi.unocha.org/iati/iati/21/2019/GetAllocation.xml
 Parsing unocha-cbpf-somalia-allocation-2019 from https://cbpfapi.unocha.org/iati/iati/21/2019/GetAllocation.xml
@@ -37276,8 +37322,10 @@ Parsing unocha-cbpf-somalia-allocation-2020 from https://cbpfapi.unocha.org/iati
 found 73 activities
 
 Downloading unocha-cbpf-somalia-allocation-2021 from https://cbpfapi.unocha.org/iati/iati/21/2021/GetAllocation.xml
+curl: download ERROR 500
 Parsing unocha-cbpf-somalia-allocation-2021 from https://cbpfapi.unocha.org/iati/iati/21/2021/GetAllocation.xml
-found 112 activities
+dflat: input XML file does not exist
+restored 112 files
 
 Downloading unocha-cbpf-somalia-allocation-2022 from https://cbpfapi.unocha.org/iati/iati/21/2022/GetAllocation.xml
 Parsing unocha-cbpf-somalia-allocation-2022 from https://cbpfapi.unocha.org/iati/iati/21/2022/GetAllocation.xml
@@ -37364,8 +37412,10 @@ Parsing unocha-cbpf-southsudan-2024 from https://cbpfapi.unocha.org/iati/iati/19
 found 1 activities
 
 Downloading unocha-cbpf-southsudan-allocation-2016 from https://cbpfapi.unocha.org/iati/iati/19/2016/GetAllocation.xml
+curl: download ERROR 500
 Parsing unocha-cbpf-southsudan-allocation-2016 from https://cbpfapi.unocha.org/iati/iati/19/2016/GetAllocation.xml
-found 212 activities
+dflat: input XML file does not exist
+restored 212 files
 
 Downloading unocha-cbpf-southsudan-allocation-2017 from https://cbpfapi.unocha.org/iati/iati/19/2017/GetAllocation.xml
 Parsing unocha-cbpf-southsudan-allocation-2017 from https://cbpfapi.unocha.org/iati/iati/19/2017/GetAllocation.xml
@@ -37393,11 +37443,13 @@ found 57 activities
 
 Downloading unocha-cbpf-southsudan-allocation-2023 from https://cbpfapi.unocha.org/iati/iati/19/2023/GetAllocation.xml
 Parsing unocha-cbpf-southsudan-allocation-2023 from https://cbpfapi.unocha.org/iati/iati/19/2023/GetAllocation.xml
-found 14 activities
+found 15 activities
 
 Downloading unocha-cbpf-southsudan-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/19/2024/GetAllocation.xml
+curl: download ERROR 000
 Parsing unocha-cbpf-southsudan-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/19/2024/GetAllocation.xml
-found 0 activities
+dflat: input XML file does not exist
+restored 0 files
 
 Downloading unocha-cbpf-southsudan-contribution-2016 from https://cbpfapi.unocha.org/iati/iati/19/2016/GetContribution.xml
 Parsing unocha-cbpf-southsudan-contribution-2016 from https://cbpfapi.unocha.org/iati/iati/19/2016/GetContribution.xml
@@ -37484,16 +37536,20 @@ Parsing unocha-cbpf-sudan-allocation-2018 from https://cbpfapi.unocha.org/iati/i
 found 71 activities
 
 Downloading unocha-cbpf-sudan-allocation-2019 from https://cbpfapi.unocha.org/iati/iati/15/2019/GetAllocation.xml
+curl: download ERROR 000
 Parsing unocha-cbpf-sudan-allocation-2019 from https://cbpfapi.unocha.org/iati/iati/15/2019/GetAllocation.xml
-found 78 activities
+dflat: input XML file does not exist
+restored 78 files
 
 Downloading unocha-cbpf-sudan-allocation-2020 from https://cbpfapi.unocha.org/iati/iati/15/2020/GetAllocation.xml
 Parsing unocha-cbpf-sudan-allocation-2020 from https://cbpfapi.unocha.org/iati/iati/15/2020/GetAllocation.xml
 found 94 activities
 
 Downloading unocha-cbpf-sudan-allocation-2021 from https://cbpfapi.unocha.org/iati/iati/15/2021/GetAllocation.xml
+curl: download ERROR 500
 Parsing unocha-cbpf-sudan-allocation-2021 from https://cbpfapi.unocha.org/iati/iati/15/2021/GetAllocation.xml
-found 82 activities
+dflat: input XML file does not exist
+restored 82 files
 
 Downloading unocha-cbpf-sudan-allocation-2022 from https://cbpfapi.unocha.org/iati/iati/15/2022/GetAllocation.xml
 Parsing unocha-cbpf-sudan-allocation-2022 from https://cbpfapi.unocha.org/iati/iati/15/2022/GetAllocation.xml
@@ -37501,7 +37557,7 @@ found 78 activities
 
 Downloading unocha-cbpf-sudan-allocation-2023 from https://cbpfapi.unocha.org/iati/iati/15/2023/GetAllocation.xml
 Parsing unocha-cbpf-sudan-allocation-2023 from https://cbpfapi.unocha.org/iati/iati/15/2023/GetAllocation.xml
-found 3 activities
+found 4 activities
 
 Downloading unocha-cbpf-sudan-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/15/2024/GetAllocation.xml
 Parsing unocha-cbpf-sudan-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/15/2024/GetAllocation.xml
@@ -37600,8 +37656,10 @@ Parsing unocha-cbpf-syria-allocation-2020 from https://cbpfapi.unocha.org/iati/i
 found 95 activities
 
 Downloading unocha-cbpf-syria-allocation-2021 from https://cbpfapi.unocha.org/iati/iati/62/2021/GetAllocation.xml
+curl: download ERROR 500
 Parsing unocha-cbpf-syria-allocation-2021 from https://cbpfapi.unocha.org/iati/iati/62/2021/GetAllocation.xml
-found 113 activities
+dflat: input XML file does not exist
+restored 113 files
 
 Downloading unocha-cbpf-syria-allocation-2022 from https://cbpfapi.unocha.org/iati/iati/62/2022/GetAllocation.xml
 Parsing unocha-cbpf-syria-allocation-2022 from https://cbpfapi.unocha.org/iati/iati/62/2022/GetAllocation.xml
@@ -37708,8 +37766,10 @@ Parsing unocha-cbpf-syriacrossborder-allocation-2020 from https://cbpfapi.unocha
 found 204 activities
 
 Downloading unocha-cbpf-syriacrossborder-allocation-2021 from https://cbpfapi.unocha.org/iati/iati/70/2021/GetAllocation.xml
+curl: download ERROR 500
 Parsing unocha-cbpf-syriacrossborder-allocation-2021 from https://cbpfapi.unocha.org/iati/iati/70/2021/GetAllocation.xml
-found 153 activities
+dflat: input XML file does not exist
+restored 153 files
 
 Downloading unocha-cbpf-syriacrossborder-allocation-2022 from https://cbpfapi.unocha.org/iati/iati/70/2022/GetAllocation.xml
 Parsing unocha-cbpf-syriacrossborder-allocation-2022 from https://cbpfapi.unocha.org/iati/iati/70/2022/GetAllocation.xml
@@ -37717,7 +37777,7 @@ found 113 activities
 
 Downloading unocha-cbpf-syriacrossborder-allocation-2023 from https://cbpfapi.unocha.org/iati/iati/70/2023/GetAllocation.xml
 Parsing unocha-cbpf-syriacrossborder-allocation-2023 from https://cbpfapi.unocha.org/iati/iati/70/2023/GetAllocation.xml
-found 64 activities
+found 69 activities
 
 Downloading unocha-cbpf-syriacrossborder-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/70/2024/GetAllocation.xml
 Parsing unocha-cbpf-syriacrossborder-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/70/2024/GetAllocation.xml
@@ -37864,8 +37924,10 @@ Parsing unocha-cbpf-venezuela-allocation-2022 from https://cbpfapi.unocha.org/ia
 found 27 activities
 
 Downloading unocha-cbpf-venezuela-allocation-2023 from https://cbpfapi.unocha.org/iati/iati/83/2023/GetAllocation.xml
+curl: download ERROR 500
 Parsing unocha-cbpf-venezuela-allocation-2023 from https://cbpfapi.unocha.org/iati/iati/83/2023/GetAllocation.xml
-found 0 activities
+dflat: input XML file does not exist
+restored 0 files
 
 Downloading unocha-cbpf-venezuela-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/83/2024/GetAllocation.xml
 Parsing unocha-cbpf-venezuela-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/83/2024/GetAllocation.xml
@@ -37940,8 +38002,10 @@ Parsing unocha-cbpf-yemen-allocation-2018 from https://cbpfapi.unocha.org/iati/i
 found 112 activities
 
 Downloading unocha-cbpf-yemen-allocation-2019 from https://cbpfapi.unocha.org/iati/iati/64/2019/GetAllocation.xml
+curl: download ERROR 500
 Parsing unocha-cbpf-yemen-allocation-2019 from https://cbpfapi.unocha.org/iati/iati/64/2019/GetAllocation.xml
-found 154 activities
+dflat: input XML file does not exist
+restored 154 files
 
 Downloading unocha-cbpf-yemen-allocation-2020 from https://cbpfapi.unocha.org/iati/iati/64/2020/GetAllocation.xml
 Parsing unocha-cbpf-yemen-allocation-2020 from https://cbpfapi.unocha.org/iati/iati/64/2020/GetAllocation.xml
@@ -41383,38 +41447,31 @@ found 1 organisations
 
 Downloading wbtf-tf020053 from https://d2mxkr7359ifh6.cloudfront.net/TF020053.xml
 Parsing wbtf-tf020053 from https://d2mxkr7359ifh6.cloudfront.net/TF020053.xml
-dflat: invalid XML format
-restored 2 files
+found 2 activities
 
 Downloading wbtf-tf027862 from https://d2mxkr7359ifh6.cloudfront.net/TF027862.xml
 Parsing wbtf-tf027862 from https://d2mxkr7359ifh6.cloudfront.net/TF027862.xml
-dflat: invalid XML format
-restored 34 files
+found 34 activities
 
 Downloading wbtf-tf050398 from https://d2mxkr7359ifh6.cloudfront.net/TF050398.xml
 Parsing wbtf-tf050398 from https://d2mxkr7359ifh6.cloudfront.net/TF050398.xml
-dflat: invalid XML format
-restored 18 files
+found 18 activities
 
 Downloading wbtf-tf050990 from https://d2mxkr7359ifh6.cloudfront.net/TF050990.xml
 Parsing wbtf-tf050990 from https://d2mxkr7359ifh6.cloudfront.net/TF050990.xml
-dflat: invalid XML format
-restored 6 files
+found 6 activities
 
 Downloading wbtf-tf054035 from https://d2mxkr7359ifh6.cloudfront.net/TF054035.xml
 Parsing wbtf-tf054035 from https://d2mxkr7359ifh6.cloudfront.net/TF054035.xml
-dflat: invalid XML format
-restored 3 files
+found 3 activities
 
 Downloading wbtf-tf054723 from https://d2mxkr7359ifh6.cloudfront.net/TF054723.xml
 Parsing wbtf-tf054723 from https://d2mxkr7359ifh6.cloudfront.net/TF054723.xml
-dflat: invalid XML format
-restored 21 files
+found 21 activities
 
 Downloading wbtf-tf054724 from https://d2mxkr7359ifh6.cloudfront.net/TF054724.xml
 Parsing wbtf-tf054724 from https://d2mxkr7359ifh6.cloudfront.net/TF054724.xml
-dflat: invalid XML format
-restored 18 files
+found 18 activities
 
 Downloading wbtf-tf055168 from https://d2mxkr7359ifh6.cloudfront.net/TF055168.xml
 Parsing wbtf-tf055168 from https://d2mxkr7359ifh6.cloudfront.net/TF055168.xml
@@ -41423,173 +41480,139 @@ restored 2 files
 
 Downloading wbtf-tf070337 from https://d2mxkr7359ifh6.cloudfront.net/TF070337.xml
 Parsing wbtf-tf070337 from https://d2mxkr7359ifh6.cloudfront.net/TF070337.xml
-dflat: invalid XML format
-restored 2 files
+found 2 activities
 
 Downloading wbtf-tf070380 from https://d2mxkr7359ifh6.cloudfront.net/TF070380.xml
 Parsing wbtf-tf070380 from https://d2mxkr7359ifh6.cloudfront.net/TF070380.xml
-dflat: invalid XML format
-restored 21 files
+found 21 activities
 
 Downloading wbtf-tf070390 from https://d2mxkr7359ifh6.cloudfront.net/TF070390.xml
 Parsing wbtf-tf070390 from https://d2mxkr7359ifh6.cloudfront.net/TF070390.xml
-dflat: invalid XML format
-restored 2 files
+found 2 activities
 
 Downloading wbtf-tf070426 from https://d2mxkr7359ifh6.cloudfront.net/TF070426.xml
 Parsing wbtf-tf070426 from https://d2mxkr7359ifh6.cloudfront.net/TF070426.xml
-dflat: invalid XML format
-restored 2 files
+found 2 activities
 
 Downloading wbtf-tf070444 from https://d2mxkr7359ifh6.cloudfront.net/TF070444.xml
 Parsing wbtf-tf070444 from https://d2mxkr7359ifh6.cloudfront.net/TF070444.xml
-dflat: invalid XML format
-restored 2 files
+found 2 activities
 
 Downloading wbtf-tf070478 from https://d2mxkr7359ifh6.cloudfront.net/TF070478.xml
 Parsing wbtf-tf070478 from https://d2mxkr7359ifh6.cloudfront.net/TF070478.xml
-dflat: invalid XML format
-restored 19 files
+found 19 activities
 
 Downloading wbtf-tf070514 from https://d2mxkr7359ifh6.cloudfront.net/TF070514.xml
 Parsing wbtf-tf070514 from https://d2mxkr7359ifh6.cloudfront.net/TF070514.xml
-dflat: invalid XML format
-restored 2 files
+found 2 activities
 
 Downloading wbtf-tf070518 from https://d2mxkr7359ifh6.cloudfront.net/TF070518.xml
 Parsing wbtf-tf070518 from https://d2mxkr7359ifh6.cloudfront.net/TF070518.xml
-dflat: invalid XML format
-restored 6 files
+found 6 activities
 
 Downloading wbtf-tf070531 from https://d2mxkr7359ifh6.cloudfront.net/TF070531.xml
 Parsing wbtf-tf070531 from https://d2mxkr7359ifh6.cloudfront.net/TF070531.xml
-dflat: invalid XML format
-restored 2 files
+found 2 activities
 
 Downloading wbtf-tf070599 from https://d2mxkr7359ifh6.cloudfront.net/TF070599.xml
 Parsing wbtf-tf070599 from https://d2mxkr7359ifh6.cloudfront.net/TF070599.xml
-dflat: invalid XML format
-restored 1 files
+found 1 activities
 
 Downloading wbtf-tf070637 from https://d2mxkr7359ifh6.cloudfront.net/TF070637.xml
 Parsing wbtf-tf070637 from https://d2mxkr7359ifh6.cloudfront.net/TF070637.xml
-dflat: invalid XML format
-restored 8 files
+found 8 activities
 
 Downloading wbtf-tf070742 from https://d2mxkr7359ifh6.cloudfront.net/TF070742.xml
 Parsing wbtf-tf070742 from https://d2mxkr7359ifh6.cloudfront.net/TF070742.xml
-dflat: invalid XML format
-restored 2 files
+found 2 activities
 
 Downloading wbtf-tf070762 from https://d2mxkr7359ifh6.cloudfront.net/TF070762.xml
 Parsing wbtf-tf070762 from https://d2mxkr7359ifh6.cloudfront.net/TF070762.xml
-dflat: invalid XML format
-restored 2 files
+found 2 activities
 
 Downloading wbtf-tf070803 from https://d2mxkr7359ifh6.cloudfront.net/TF070803.xml
 Parsing wbtf-tf070803 from https://d2mxkr7359ifh6.cloudfront.net/TF070803.xml
-dflat: invalid XML format
-restored 1 files
+found 1 activities
 
 Downloading wbtf-tf070812 from https://d2mxkr7359ifh6.cloudfront.net/TF070812.xml
 Parsing wbtf-tf070812 from https://d2mxkr7359ifh6.cloudfront.net/TF070812.xml
-dflat: invalid XML format
-restored 2 files
+found 2 activities
 
 Downloading wbtf-tf070850 from https://d2mxkr7359ifh6.cloudfront.net/TF070850.xml
 Parsing wbtf-tf070850 from https://d2mxkr7359ifh6.cloudfront.net/TF070850.xml
-dflat: invalid XML format
-restored 3 files
+found 3 activities
 
 Downloading wbtf-tf070891 from https://d2mxkr7359ifh6.cloudfront.net/TF070891.xml
 Parsing wbtf-tf070891 from https://d2mxkr7359ifh6.cloudfront.net/TF070891.xml
-dflat: invalid XML format
-restored 2 files
+found 2 activities
 
 Downloading wbtf-tf070921 from https://d2mxkr7359ifh6.cloudfront.net/TF070921.xml
 Parsing wbtf-tf070921 from https://d2mxkr7359ifh6.cloudfront.net/TF070921.xml
-dflat: invalid XML format
-restored 2 files
+found 2 activities
 
 Downloading wbtf-tf070952 from https://d2mxkr7359ifh6.cloudfront.net/TF070952.xml
 Parsing wbtf-tf070952 from https://d2mxkr7359ifh6.cloudfront.net/TF070952.xml
-dflat: invalid XML format
-restored 4 files
+found 4 activities
 
 Downloading wbtf-tf070954 from https://d2mxkr7359ifh6.cloudfront.net/TF070954.xml
 Parsing wbtf-tf070954 from https://d2mxkr7359ifh6.cloudfront.net/TF070954.xml
-dflat: invalid XML format
-restored 2 files
+found 2 activities
 
 Downloading wbtf-tf070968 from https://d2mxkr7359ifh6.cloudfront.net/TF070968.xml
 Parsing wbtf-tf070968 from https://d2mxkr7359ifh6.cloudfront.net/TF070968.xml
-dflat: invalid XML format
-restored 7 files
+found 7 activities
 
 Downloading wbtf-tf071039 from https://d2mxkr7359ifh6.cloudfront.net/TF071039.xml
 Parsing wbtf-tf071039 from https://d2mxkr7359ifh6.cloudfront.net/TF071039.xml
-dflat: invalid XML format
-restored 6 files
+found 6 activities
 
 Downloading wbtf-tf071070 from https://d2mxkr7359ifh6.cloudfront.net/TF071070.xml
 Parsing wbtf-tf071070 from https://d2mxkr7359ifh6.cloudfront.net/TF071070.xml
-dflat: invalid XML format
-restored 34 files
+found 34 activities
 
 Downloading wbtf-tf071144 from https://d2mxkr7359ifh6.cloudfront.net/TF071144.xml
 Parsing wbtf-tf071144 from https://d2mxkr7359ifh6.cloudfront.net/TF071144.xml
-dflat: invalid XML format
-restored 3 files
+found 3 activities
 
 Downloading wbtf-tf071153 from https://d2mxkr7359ifh6.cloudfront.net/TF071153.xml
 Parsing wbtf-tf071153 from https://d2mxkr7359ifh6.cloudfront.net/TF071153.xml
-dflat: invalid XML format
-restored 5 files
+found 5 activities
 
 Downloading wbtf-tf071192 from https://d2mxkr7359ifh6.cloudfront.net/TF071192.xml
 Parsing wbtf-tf071192 from https://d2mxkr7359ifh6.cloudfront.net/TF071192.xml
-dflat: invalid XML format
-restored 2 files
+found 2 activities
 
 Downloading wbtf-tf071194 from https://d2mxkr7359ifh6.cloudfront.net/TF071194.xml
 Parsing wbtf-tf071194 from https://d2mxkr7359ifh6.cloudfront.net/TF071194.xml
-dflat: invalid XML format
-restored 2 files
+found 2 activities
 
 Downloading wbtf-tf071199 from https://d2mxkr7359ifh6.cloudfront.net/TF071199.xml
 Parsing wbtf-tf071199 from https://d2mxkr7359ifh6.cloudfront.net/TF071199.xml
-dflat: invalid XML format
-restored 2 files
+found 2 activities
 
 Downloading wbtf-tf071202 from https://d2mxkr7359ifh6.cloudfront.net/TF071202.xml
 Parsing wbtf-tf071202 from https://d2mxkr7359ifh6.cloudfront.net/TF071202.xml
-dflat: invalid XML format
-restored 2 files
+found 2 activities
 
 Downloading wbtf-tf071209 from https://d2mxkr7359ifh6.cloudfront.net/TF071209.xml
 Parsing wbtf-tf071209 from https://d2mxkr7359ifh6.cloudfront.net/TF071209.xml
-dflat: invalid XML format
-restored 2 files
+found 2 activities
 
 Downloading wbtf-tf071227 from https://d2mxkr7359ifh6.cloudfront.net/TF071227.xml
 Parsing wbtf-tf071227 from https://d2mxkr7359ifh6.cloudfront.net/TF071227.xml
-dflat: invalid XML format
-restored 2 files
+found 2 activities
 
 Downloading wbtf-tf071228 from https://d2mxkr7359ifh6.cloudfront.net/TF071228.xml
 Parsing wbtf-tf071228 from https://d2mxkr7359ifh6.cloudfront.net/TF071228.xml
-dflat: invalid XML format
-restored 2 files
+found 2 activities
 
 Downloading wbtf-tf071234 from https://d2mxkr7359ifh6.cloudfront.net/TF071234.xml
 Parsing wbtf-tf071234 from https://d2mxkr7359ifh6.cloudfront.net/TF071234.xml
-dflat: invalid XML format
-restored 1 files
+found 1 activities
 
 Downloading wbtf-tf071235 from https://d2mxkr7359ifh6.cloudfront.net/TF071235.xml
 Parsing wbtf-tf071235 from https://d2mxkr7359ifh6.cloudfront.net/TF071235.xml
-dflat: invalid XML format
-restored 2 files
+found 2 activities
 
 Downloading wbtf-tf071241 from https://d2mxkr7359ifh6.cloudfront.net/TF071241.xml
 Parsing wbtf-tf071241 from https://d2mxkr7359ifh6.cloudfront.net/TF071241.xml
@@ -41598,48 +41621,39 @@ restored 7 files
 
 Downloading wbtf-tf071244 from https://d2mxkr7359ifh6.cloudfront.net/TF071244.xml
 Parsing wbtf-tf071244 from https://d2mxkr7359ifh6.cloudfront.net/TF071244.xml
-dflat: invalid XML format
-restored 3 files
+found 3 activities
 
 Downloading wbtf-tf071267 from https://d2mxkr7359ifh6.cloudfront.net/TF071267.xml
 Parsing wbtf-tf071267 from https://d2mxkr7359ifh6.cloudfront.net/TF071267.xml
-dflat: invalid XML format
-restored 2 files
+found 2 activities
 
 Downloading wbtf-tf071293 from https://d2mxkr7359ifh6.cloudfront.net/TF071293.xml
 Parsing wbtf-tf071293 from https://d2mxkr7359ifh6.cloudfront.net/TF071293.xml
-dflat: invalid XML format
-restored 2 files
+found 2 activities
 
 Downloading wbtf-tf071328 from https://d2mxkr7359ifh6.cloudfront.net/TF071328.xml
 Parsing wbtf-tf071328 from https://d2mxkr7359ifh6.cloudfront.net/TF071328.xml
-dflat: invalid XML format
-restored 2 files
+found 2 activities
 
 Downloading wbtf-tf071346 from https://d2mxkr7359ifh6.cloudfront.net/TF071346.xml
 Parsing wbtf-tf071346 from https://d2mxkr7359ifh6.cloudfront.net/TF071346.xml
-dflat: invalid XML format
-restored 2 files
+found 2 activities
 
 Downloading wbtf-tf071348 from https://d2mxkr7359ifh6.cloudfront.net/TF071348.xml
 Parsing wbtf-tf071348 from https://d2mxkr7359ifh6.cloudfront.net/TF071348.xml
-dflat: invalid XML format
-restored 2 files
+found 2 activities
 
 Downloading wbtf-tf071362 from https://d2mxkr7359ifh6.cloudfront.net/TF071362.xml
 Parsing wbtf-tf071362 from https://d2mxkr7359ifh6.cloudfront.net/TF071362.xml
-dflat: invalid XML format
-restored 2 files
+found 2 activities
 
 Downloading wbtf-tf071379 from https://d2mxkr7359ifh6.cloudfront.net/TF071379.xml
 Parsing wbtf-tf071379 from https://d2mxkr7359ifh6.cloudfront.net/TF071379.xml
-dflat: invalid XML format
-restored 3 files
+found 3 activities
 
 Downloading wbtf-tf071380 from https://d2mxkr7359ifh6.cloudfront.net/TF071380.xml
 Parsing wbtf-tf071380 from https://d2mxkr7359ifh6.cloudfront.net/TF071380.xml
-dflat: invalid XML format
-restored 1 files
+found 1 activities
 
 Downloading wbtf-tf071389 from https://d2mxkr7359ifh6.cloudfront.net/TF071389.xml
 Parsing wbtf-tf071389 from https://d2mxkr7359ifh6.cloudfront.net/TF071389.xml
@@ -41648,68 +41662,55 @@ restored 3 files
 
 Downloading wbtf-tf071407 from https://d2mxkr7359ifh6.cloudfront.net/TF071407.xml
 Parsing wbtf-tf071407 from https://d2mxkr7359ifh6.cloudfront.net/TF071407.xml
-dflat: invalid XML format
-restored 10 files
+found 10 activities
 
 Downloading wbtf-tf071417 from https://d2mxkr7359ifh6.cloudfront.net/TF071417.xml
 Parsing wbtf-tf071417 from https://d2mxkr7359ifh6.cloudfront.net/TF071417.xml
-dflat: invalid XML format
-restored 2 files
+found 2 activities
 
 Downloading wbtf-tf071418 from https://d2mxkr7359ifh6.cloudfront.net/TF071418.xml
 Parsing wbtf-tf071418 from https://d2mxkr7359ifh6.cloudfront.net/TF071418.xml
-dflat: invalid XML format
-restored 6 files
+found 6 activities
 
 Downloading wbtf-tf071424 from https://d2mxkr7359ifh6.cloudfront.net/TF071424.xml
 Parsing wbtf-tf071424 from https://d2mxkr7359ifh6.cloudfront.net/TF071424.xml
-dflat: invalid XML format
-restored 17 files
+found 17 activities
 
 Downloading wbtf-tf071441 from https://d2mxkr7359ifh6.cloudfront.net/TF071441.xml
 Parsing wbtf-tf071441 from https://d2mxkr7359ifh6.cloudfront.net/TF071441.xml
-dflat: invalid XML format
-restored 1 files
+found 1 activities
 
 Downloading wbtf-tf071472 from https://d2mxkr7359ifh6.cloudfront.net/TF071472.xml
 Parsing wbtf-tf071472 from https://d2mxkr7359ifh6.cloudfront.net/TF071472.xml
-dflat: invalid XML format
-restored 1 files
+found 1 activities
 
 Downloading wbtf-tf071473 from https://d2mxkr7359ifh6.cloudfront.net/TF071473.xml
 Parsing wbtf-tf071473 from https://d2mxkr7359ifh6.cloudfront.net/TF071473.xml
-dflat: invalid XML format
-restored 1 files
+found 1 activities
 
 Downloading wbtf-tf071492 from https://d2mxkr7359ifh6.cloudfront.net/TF071492.xml
 Parsing wbtf-tf071492 from https://d2mxkr7359ifh6.cloudfront.net/TF071492.xml
-dflat: invalid XML format
-restored 4 files
+found 4 activities
 
 Downloading wbtf-tf071499 from https://d2mxkr7359ifh6.cloudfront.net/TF071499.xml
 Parsing wbtf-tf071499 from https://d2mxkr7359ifh6.cloudfront.net/TF071499.xml
-dflat: invalid XML format
-restored 2 files
+found 2 activities
 
 Downloading wbtf-tf071502 from https://d2mxkr7359ifh6.cloudfront.net/TF071502.xml
 Parsing wbtf-tf071502 from https://d2mxkr7359ifh6.cloudfront.net/TF071502.xml
-dflat: invalid XML format
-restored 3 files
+found 3 activities
 
 Downloading wbtf-tf071508 from https://d2mxkr7359ifh6.cloudfront.net/TF071508.xml
 Parsing wbtf-tf071508 from https://d2mxkr7359ifh6.cloudfront.net/TF071508.xml
-dflat: invalid XML format
-restored 1 files
+found 1 activities
 
 Downloading wbtf-tf071521 from https://d2mxkr7359ifh6.cloudfront.net/TF071521.xml
 Parsing wbtf-tf071521 from https://d2mxkr7359ifh6.cloudfront.net/TF071521.xml
-dflat: invalid XML format
-restored 2 files
+found 2 activities
 
 Downloading wbtf-tf071562 from https://d2mxkr7359ifh6.cloudfront.net/TF071562.xml
 Parsing wbtf-tf071562 from https://d2mxkr7359ifh6.cloudfront.net/TF071562.xml
-dflat: invalid XML format
-restored 1 files
+found 1 activities
 
 Downloading wbtf-tf071579 from https://d2mxkr7359ifh6.cloudfront.net/TF071579.xml
 Parsing wbtf-tf071579 from https://d2mxkr7359ifh6.cloudfront.net/TF071579.xml
@@ -41721,83 +41722,67 @@ found 2 activities
 
 Downloading wbtf-tf071590 from https://d2mxkr7359ifh6.cloudfront.net/TF071590.xml
 Parsing wbtf-tf071590 from https://d2mxkr7359ifh6.cloudfront.net/TF071590.xml
-dflat: invalid XML format
-restored 4 files
+found 4 activities
 
 Downloading wbtf-tf071597 from https://d2mxkr7359ifh6.cloudfront.net/TF071597.xml
 Parsing wbtf-tf071597 from https://d2mxkr7359ifh6.cloudfront.net/TF071597.xml
-dflat: invalid XML format
-restored 1 files
+found 1 activities
 
 Downloading wbtf-tf071611 from https://d2mxkr7359ifh6.cloudfront.net/TF071611.xml
 Parsing wbtf-tf071611 from https://d2mxkr7359ifh6.cloudfront.net/TF071611.xml
-dflat: invalid XML format
-restored 2 files
+found 2 activities
 
 Downloading wbtf-tf071612 from https://d2mxkr7359ifh6.cloudfront.net/TF071612.xml
 Parsing wbtf-tf071612 from https://d2mxkr7359ifh6.cloudfront.net/TF071612.xml
-dflat: invalid XML format
-restored 1 files
+found 1 activities
 
 Downloading wbtf-tf071613 from https://d2mxkr7359ifh6.cloudfront.net/TF071613.xml
 Parsing wbtf-tf071613 from https://d2mxkr7359ifh6.cloudfront.net/TF071613.xml
-dflat: invalid XML format
-restored 2 files
+found 2 activities
 
 Downloading wbtf-tf071617 from https://d2mxkr7359ifh6.cloudfront.net/TF071617.xml
 Parsing wbtf-tf071617 from https://d2mxkr7359ifh6.cloudfront.net/TF071617.xml
-dflat: invalid XML format
-restored 7 files
+found 7 activities
 
 Downloading wbtf-tf071624 from https://d2mxkr7359ifh6.cloudfront.net/TF071624.xml
 Parsing wbtf-tf071624 from https://d2mxkr7359ifh6.cloudfront.net/TF071624.xml
-dflat: invalid XML format
-restored 50 files
+found 50 activities
 
 Downloading wbtf-tf071628 from https://d2mxkr7359ifh6.cloudfront.net/TF071628.xml
 Parsing wbtf-tf071628 from https://d2mxkr7359ifh6.cloudfront.net/TF071628.xml
-dflat: invalid XML format
-restored 2 files
+found 2 activities
 
 Downloading wbtf-tf071654 from https://d2mxkr7359ifh6.cloudfront.net/TF071654.xml
 Parsing wbtf-tf071654 from https://d2mxkr7359ifh6.cloudfront.net/TF071654.xml
-dflat: invalid XML format
-restored 2 files
+found 2 activities
 
 Downloading wbtf-tf071656 from https://d2mxkr7359ifh6.cloudfront.net/TF071656.xml
 Parsing wbtf-tf071656 from https://d2mxkr7359ifh6.cloudfront.net/TF071656.xml
-dflat: invalid XML format
-restored 2 files
+found 2 activities
 
 Downloading wbtf-tf071661 from https://d2mxkr7359ifh6.cloudfront.net/TF071661.xml
 Parsing wbtf-tf071661 from https://d2mxkr7359ifh6.cloudfront.net/TF071661.xml
-dflat: invalid XML format
-restored 2 files
+found 2 activities
 
 Downloading wbtf-tf071662 from https://d2mxkr7359ifh6.cloudfront.net/TF071662.xml
 Parsing wbtf-tf071662 from https://d2mxkr7359ifh6.cloudfront.net/TF071662.xml
-dflat: invalid XML format
-restored 2 files
+found 2 activities
 
 Downloading wbtf-tf071664 from https://d2mxkr7359ifh6.cloudfront.net/TF071664.xml
 Parsing wbtf-tf071664 from https://d2mxkr7359ifh6.cloudfront.net/TF071664.xml
-dflat: invalid XML format
-restored 5 files
+found 5 activities
 
 Downloading wbtf-tf071668 from https://d2mxkr7359ifh6.cloudfront.net/TF071668.xml
 Parsing wbtf-tf071668 from https://d2mxkr7359ifh6.cloudfront.net/TF071668.xml
-dflat: invalid XML format
-restored 1 files
+found 1 activities
 
 Downloading wbtf-tf071682 from https://d2mxkr7359ifh6.cloudfront.net/TF071682.xml
 Parsing wbtf-tf071682 from https://d2mxkr7359ifh6.cloudfront.net/TF071682.xml
-dflat: invalid XML format
-restored 1 files
+found 1 activities
 
 Downloading wbtf-tf071691 from https://d2mxkr7359ifh6.cloudfront.net/TF071691.xml
 Parsing wbtf-tf071691 from https://d2mxkr7359ifh6.cloudfront.net/TF071691.xml
-dflat: invalid XML format
-restored 2 files
+found 2 activities
 
 Downloading wbtf-tf071694 from https://d2mxkr7359ifh6.cloudfront.net/TF071694.xml
 Parsing wbtf-tf071694 from https://d2mxkr7359ifh6.cloudfront.net/TF071694.xml
@@ -41805,13 +41790,11 @@ found 2 activities
 
 Downloading wbtf-tf071698 from https://d2mxkr7359ifh6.cloudfront.net/TF071698.xml
 Parsing wbtf-tf071698 from https://d2mxkr7359ifh6.cloudfront.net/TF071698.xml
-dflat: invalid XML format
-restored 2 files
+found 2 activities
 
 Downloading wbtf-tf071703 from https://d2mxkr7359ifh6.cloudfront.net/TF071703.xml
 Parsing wbtf-tf071703 from https://d2mxkr7359ifh6.cloudfront.net/TF071703.xml
-dflat: invalid XML format
-restored 2 files
+found 2 activities
 
 Downloading wbtf-tf071705 from https://d2mxkr7359ifh6.cloudfront.net/TF071705.xml
 Parsing wbtf-tf071705 from https://d2mxkr7359ifh6.cloudfront.net/TF071705.xml
@@ -41819,8 +41802,7 @@ found 1 activities
 
 Downloading wbtf-tf071706 from https://d2mxkr7359ifh6.cloudfront.net/TF071706.xml
 Parsing wbtf-tf071706 from https://d2mxkr7359ifh6.cloudfront.net/TF071706.xml
-dflat: invalid XML format
-restored 1 files
+found 1 activities
 
 Downloading wbtf-tf071710 from https://d2mxkr7359ifh6.cloudfront.net/TF071710.xml
 Parsing wbtf-tf071710 from https://d2mxkr7359ifh6.cloudfront.net/TF071710.xml
@@ -41829,128 +41811,103 @@ restored 2 files
 
 Downloading wbtf-tf071718 from https://d2mxkr7359ifh6.cloudfront.net/TF071718.xml
 Parsing wbtf-tf071718 from https://d2mxkr7359ifh6.cloudfront.net/TF071718.xml
-dflat: invalid XML format
-restored 1 files
+found 1 activities
 
 Downloading wbtf-tf071730 from https://d2mxkr7359ifh6.cloudfront.net/TF071730.xml
 Parsing wbtf-tf071730 from https://d2mxkr7359ifh6.cloudfront.net/TF071730.xml
-dflat: invalid XML format
-restored 1 files
+found 1 activities
 
 Downloading wbtf-tf071737 from https://d2mxkr7359ifh6.cloudfront.net/TF071737.xml
 Parsing wbtf-tf071737 from https://d2mxkr7359ifh6.cloudfront.net/TF071737.xml
-dflat: invalid XML format
-restored 4 files
+found 4 activities
 
 Downloading wbtf-tf071742 from https://d2mxkr7359ifh6.cloudfront.net/TF071742.xml
 Parsing wbtf-tf071742 from https://d2mxkr7359ifh6.cloudfront.net/TF071742.xml
-dflat: invalid XML format
-restored 2 files
+found 2 activities
 
 Downloading wbtf-tf071759 from https://d2mxkr7359ifh6.cloudfront.net/TF071759.xml
 Parsing wbtf-tf071759 from https://d2mxkr7359ifh6.cloudfront.net/TF071759.xml
-dflat: invalid XML format
-restored 2 files
+found 2 activities
 
 Downloading wbtf-tf071772 from https://d2mxkr7359ifh6.cloudfront.net/TF071772.xml
 Parsing wbtf-tf071772 from https://d2mxkr7359ifh6.cloudfront.net/TF071772.xml
-dflat: invalid XML format
-restored 3 files
+found 3 activities
 
 Downloading wbtf-tf071796 from https://d2mxkr7359ifh6.cloudfront.net/TF071796.xml
 Parsing wbtf-tf071796 from https://d2mxkr7359ifh6.cloudfront.net/TF071796.xml
-dflat: invalid XML format
-restored 2 files
+found 2 activities
 
 Downloading wbtf-tf071811 from https://d2mxkr7359ifh6.cloudfront.net/TF071811.xml
 Parsing wbtf-tf071811 from https://d2mxkr7359ifh6.cloudfront.net/TF071811.xml
-dflat: invalid XML format
-restored 2 files
+found 2 activities
 
 Downloading wbtf-tf071814 from https://d2mxkr7359ifh6.cloudfront.net/TF071814.xml
 Parsing wbtf-tf071814 from https://d2mxkr7359ifh6.cloudfront.net/TF071814.xml
-dflat: invalid XML format
-restored 5 files
+found 5 activities
 
 Downloading wbtf-tf071824 from https://d2mxkr7359ifh6.cloudfront.net/TF071824.xml
 Parsing wbtf-tf071824 from https://d2mxkr7359ifh6.cloudfront.net/TF071824.xml
-dflat: invalid XML format
-restored 2 files
+found 2 activities
 
 Downloading wbtf-tf071843 from https://d2mxkr7359ifh6.cloudfront.net/TF071843.xml
 Parsing wbtf-tf071843 from https://d2mxkr7359ifh6.cloudfront.net/TF071843.xml
-dflat: invalid XML format
-restored 2 files
+found 2 activities
 
 Downloading wbtf-tf071846 from https://d2mxkr7359ifh6.cloudfront.net/TF071846.xml
 Parsing wbtf-tf071846 from https://d2mxkr7359ifh6.cloudfront.net/TF071846.xml
-dflat: invalid XML format
-restored 2 files
+found 2 activities
 
 Downloading wbtf-tf071851 from https://d2mxkr7359ifh6.cloudfront.net/TF071851.xml
 Parsing wbtf-tf071851 from https://d2mxkr7359ifh6.cloudfront.net/TF071851.xml
-dflat: invalid XML format
-restored 3 files
+found 3 activities
 
 Downloading wbtf-tf071859 from https://d2mxkr7359ifh6.cloudfront.net/TF071859.xml
 Parsing wbtf-tf071859 from https://d2mxkr7359ifh6.cloudfront.net/TF071859.xml
-dflat: invalid XML format
-restored 2 files
+found 2 activities
 
 Downloading wbtf-tf071861 from https://d2mxkr7359ifh6.cloudfront.net/TF071861.xml
 Parsing wbtf-tf071861 from https://d2mxkr7359ifh6.cloudfront.net/TF071861.xml
-dflat: invalid XML format
-restored 2 files
+found 2 activities
 
 Downloading wbtf-tf071864 from https://d2mxkr7359ifh6.cloudfront.net/TF071864.xml
 Parsing wbtf-tf071864 from https://d2mxkr7359ifh6.cloudfront.net/TF071864.xml
-dflat: invalid XML format
-restored 10 files
+found 10 activities
 
 Downloading wbtf-tf071866 from https://d2mxkr7359ifh6.cloudfront.net/TF071866.xml
 Parsing wbtf-tf071866 from https://d2mxkr7359ifh6.cloudfront.net/TF071866.xml
-dflat: invalid XML format
-restored 35 files
+found 35 activities
 
 Downloading wbtf-tf071876 from https://d2mxkr7359ifh6.cloudfront.net/TF071876.xml
 Parsing wbtf-tf071876 from https://d2mxkr7359ifh6.cloudfront.net/TF071876.xml
-dflat: invalid XML format
-restored 2 files
+found 2 activities
 
 Downloading wbtf-tf071885 from https://d2mxkr7359ifh6.cloudfront.net/TF071885.xml
 Parsing wbtf-tf071885 from https://d2mxkr7359ifh6.cloudfront.net/TF071885.xml
-dflat: invalid XML format
-restored 2 files
+found 2 activities
 
 Downloading wbtf-tf071898 from https://d2mxkr7359ifh6.cloudfront.net/TF071898.xml
 Parsing wbtf-tf071898 from https://d2mxkr7359ifh6.cloudfront.net/TF071898.xml
-dflat: invalid XML format
-restored 10 files
+found 10 activities
 
 Downloading wbtf-tf071901 from https://d2mxkr7359ifh6.cloudfront.net/TF071901.xml
 Parsing wbtf-tf071901 from https://d2mxkr7359ifh6.cloudfront.net/TF071901.xml
-dflat: invalid XML format
-restored 2 files
+found 2 activities
 
 Downloading wbtf-tf071932 from https://d2mxkr7359ifh6.cloudfront.net/TF071932.xml
 Parsing wbtf-tf071932 from https://d2mxkr7359ifh6.cloudfront.net/TF071932.xml
-dflat: invalid XML format
-restored 2 files
+found 2 activities
 
 Downloading wbtf-tf071935 from https://d2mxkr7359ifh6.cloudfront.net/TF071935.xml
 Parsing wbtf-tf071935 from https://d2mxkr7359ifh6.cloudfront.net/TF071935.xml
-dflat: invalid XML format
-restored 2 files
+found 2 activities
 
 Downloading wbtf-tf071946 from https://d2mxkr7359ifh6.cloudfront.net/TF071946.xml
 Parsing wbtf-tf071946 from https://d2mxkr7359ifh6.cloudfront.net/TF071946.xml
-dflat: invalid XML format
-restored 2 files
+found 2 activities
 
 Downloading wbtf-tf071947 from https://d2mxkr7359ifh6.cloudfront.net/TF071947.xml
 Parsing wbtf-tf071947 from https://d2mxkr7359ifh6.cloudfront.net/TF071947.xml
-dflat: invalid XML format
-restored 2 files
+found 2 activities
 
 Downloading wbtf-tf071950 from https://d2mxkr7359ifh6.cloudfront.net/TF071950.xml
 Parsing wbtf-tf071950 from https://d2mxkr7359ifh6.cloudfront.net/TF071950.xml
@@ -41963,28 +41920,23 @@ found 2 activities
 
 Downloading wbtf-tf071961 from https://d2mxkr7359ifh6.cloudfront.net/TF071961.xml
 Parsing wbtf-tf071961 from https://d2mxkr7359ifh6.cloudfront.net/TF071961.xml
-dflat: invalid XML format
-restored 2 files
+found 2 activities
 
 Downloading wbtf-tf071969 from https://d2mxkr7359ifh6.cloudfront.net/TF071969.xml
 Parsing wbtf-tf071969 from https://d2mxkr7359ifh6.cloudfront.net/TF071969.xml
-dflat: invalid XML format
-restored 1 files
+found 1 activities
 
 Downloading wbtf-tf071986 from https://d2mxkr7359ifh6.cloudfront.net/TF071986.xml
 Parsing wbtf-tf071986 from https://d2mxkr7359ifh6.cloudfront.net/TF071986.xml
-dflat: invalid XML format
-restored 2 files
+found 2 activities
 
 Downloading wbtf-tf071987 from https://d2mxkr7359ifh6.cloudfront.net/TF071987.xml
 Parsing wbtf-tf071987 from https://d2mxkr7359ifh6.cloudfront.net/TF071987.xml
-dflat: invalid XML format
-restored 2 files
+found 2 activities
 
 Downloading wbtf-tf072001 from https://d2mxkr7359ifh6.cloudfront.net/TF072001.xml
 Parsing wbtf-tf072001 from https://d2mxkr7359ifh6.cloudfront.net/TF072001.xml
-dflat: invalid XML format
-restored 2 files
+found 2 activities
 
 Downloading wbtf-tf072006 from https://d2mxkr7359ifh6.cloudfront.net/TF072006.xml
 Parsing wbtf-tf072006 from https://d2mxkr7359ifh6.cloudfront.net/TF072006.xml
@@ -41993,158 +41945,127 @@ restored 2 files
 
 Downloading wbtf-tf072007 from https://d2mxkr7359ifh6.cloudfront.net/TF072007.xml
 Parsing wbtf-tf072007 from https://d2mxkr7359ifh6.cloudfront.net/TF072007.xml
-dflat: invalid XML format
-restored 2 files
+found 2 activities
 
 Downloading wbtf-tf072008 from https://d2mxkr7359ifh6.cloudfront.net/TF072008.xml
 Parsing wbtf-tf072008 from https://d2mxkr7359ifh6.cloudfront.net/TF072008.xml
-dflat: invalid XML format
-restored 2 files
+found 2 activities
 
 Downloading wbtf-tf072023 from https://d2mxkr7359ifh6.cloudfront.net/TF072023.xml
 Parsing wbtf-tf072023 from https://d2mxkr7359ifh6.cloudfront.net/TF072023.xml
-dflat: invalid XML format
-restored 4 files
+found 4 activities
 
 Downloading wbtf-tf072024 from https://d2mxkr7359ifh6.cloudfront.net/TF072024.xml
 Parsing wbtf-tf072024 from https://d2mxkr7359ifh6.cloudfront.net/TF072024.xml
-dflat: invalid XML format
-restored 2 files
+found 2 activities
 
 Downloading wbtf-tf072025 from https://d2mxkr7359ifh6.cloudfront.net/TF072025.xml
 Parsing wbtf-tf072025 from https://d2mxkr7359ifh6.cloudfront.net/TF072025.xml
-dflat: invalid XML format
-restored 2 files
+found 2 activities
 
 Downloading wbtf-tf072031 from https://d2mxkr7359ifh6.cloudfront.net/TF072031.xml
 Parsing wbtf-tf072031 from https://d2mxkr7359ifh6.cloudfront.net/TF072031.xml
-dflat: invalid XML format
-restored 2 files
+found 2 activities
 
 Downloading wbtf-tf072034 from https://d2mxkr7359ifh6.cloudfront.net/TF072034.xml
 Parsing wbtf-tf072034 from https://d2mxkr7359ifh6.cloudfront.net/TF072034.xml
-dflat: invalid XML format
-restored 2 files
+found 2 activities
 
 Downloading wbtf-tf072041 from https://d2mxkr7359ifh6.cloudfront.net/TF072041.xml
 Parsing wbtf-tf072041 from https://d2mxkr7359ifh6.cloudfront.net/TF072041.xml
-dflat: invalid XML format
-restored 5 files
+found 5 activities
 
 Downloading wbtf-tf072050 from https://d2mxkr7359ifh6.cloudfront.net/TF072050.xml
 Parsing wbtf-tf072050 from https://d2mxkr7359ifh6.cloudfront.net/TF072050.xml
-dflat: invalid XML format
-restored 1 files
+found 1 activities
 
 Downloading wbtf-tf072052 from https://d2mxkr7359ifh6.cloudfront.net/TF072052.xml
 Parsing wbtf-tf072052 from https://d2mxkr7359ifh6.cloudfront.net/TF072052.xml
-dflat: invalid XML format
-restored 2 files
+found 2 activities
 
 Downloading wbtf-tf072067 from https://d2mxkr7359ifh6.cloudfront.net/TF072067.xml
 Parsing wbtf-tf072067 from https://d2mxkr7359ifh6.cloudfront.net/TF072067.xml
-dflat: invalid XML format
-restored 2 files
+found 2 activities
 
 Downloading wbtf-tf072070 from https://d2mxkr7359ifh6.cloudfront.net/TF072070.xml
 Parsing wbtf-tf072070 from https://d2mxkr7359ifh6.cloudfront.net/TF072070.xml
-dflat: invalid XML format
-restored 2 files
+found 2 activities
 
 Downloading wbtf-tf072080 from https://d2mxkr7359ifh6.cloudfront.net/TF072080.xml
 Parsing wbtf-tf072080 from https://d2mxkr7359ifh6.cloudfront.net/TF072080.xml
-dflat: invalid XML format
-restored 2 files
+found 2 activities
 
 Downloading wbtf-tf072083 from https://d2mxkr7359ifh6.cloudfront.net/TF072083.xml
 Parsing wbtf-tf072083 from https://d2mxkr7359ifh6.cloudfront.net/TF072083.xml
-dflat: invalid XML format
-restored 3 files
+found 3 activities
 
 Downloading wbtf-tf072089 from https://d2mxkr7359ifh6.cloudfront.net/TF072089.xml
 Parsing wbtf-tf072089 from https://d2mxkr7359ifh6.cloudfront.net/TF072089.xml
-dflat: invalid XML format
-restored 2 files
+found 2 activities
 
 Downloading wbtf-tf072090 from https://d2mxkr7359ifh6.cloudfront.net/TF072090.xml
 Parsing wbtf-tf072090 from https://d2mxkr7359ifh6.cloudfront.net/TF072090.xml
-dflat: invalid XML format
-restored 1 files
+found 1 activities
 
 Downloading wbtf-tf072092 from https://d2mxkr7359ifh6.cloudfront.net/TF072092.xml
 Parsing wbtf-tf072092 from https://d2mxkr7359ifh6.cloudfront.net/TF072092.xml
-dflat: invalid XML format
-restored 2 files
+found 2 activities
 
 Downloading wbtf-tf072097 from https://d2mxkr7359ifh6.cloudfront.net/TF072097.xml
 Parsing wbtf-tf072097 from https://d2mxkr7359ifh6.cloudfront.net/TF072097.xml
-dflat: invalid XML format
-restored 2 files
+found 2 activities
 
 Downloading wbtf-tf072101 from https://d2mxkr7359ifh6.cloudfront.net/TF072101.xml
 Parsing wbtf-tf072101 from https://d2mxkr7359ifh6.cloudfront.net/TF072101.xml
-dflat: invalid XML format
-restored 1 files
+found 1 activities
 
 Downloading wbtf-tf072102 from https://d2mxkr7359ifh6.cloudfront.net/TF072102.xml
 Parsing wbtf-tf072102 from https://d2mxkr7359ifh6.cloudfront.net/TF072102.xml
-dflat: invalid XML format
-restored 3 files
+found 3 activities
 
 Downloading wbtf-tf072109 from https://d2mxkr7359ifh6.cloudfront.net/TF072109.xml
 Parsing wbtf-tf072109 from https://d2mxkr7359ifh6.cloudfront.net/TF072109.xml
-dflat: invalid XML format
-restored 2 files
+found 2 activities
 
 Downloading wbtf-tf072119 from https://d2mxkr7359ifh6.cloudfront.net/TF072119.xml
 Parsing wbtf-tf072119 from https://d2mxkr7359ifh6.cloudfront.net/TF072119.xml
-dflat: invalid XML format
-restored 2 files
+found 2 activities
 
 Downloading wbtf-tf072124 from https://d2mxkr7359ifh6.cloudfront.net/TF072124.xml
 Parsing wbtf-tf072124 from https://d2mxkr7359ifh6.cloudfront.net/TF072124.xml
-dflat: invalid XML format
-restored 2 files
+found 2 activities
 
 Downloading wbtf-tf072127 from https://d2mxkr7359ifh6.cloudfront.net/TF072127.xml
 Parsing wbtf-tf072127 from https://d2mxkr7359ifh6.cloudfront.net/TF072127.xml
-dflat: invalid XML format
-restored 2 files
+found 2 activities
 
 Downloading wbtf-tf072151 from https://d2mxkr7359ifh6.cloudfront.net/TF072151.xml
 Parsing wbtf-tf072151 from https://d2mxkr7359ifh6.cloudfront.net/TF072151.xml
-dflat: invalid XML format
-restored 7 files
+found 7 activities
 
 Downloading wbtf-tf072152 from https://d2mxkr7359ifh6.cloudfront.net/TF072152.xml
 Parsing wbtf-tf072152 from https://d2mxkr7359ifh6.cloudfront.net/TF072152.xml
-dflat: invalid XML format
-restored 2 files
+found 2 activities
 
 Downloading wbtf-tf072155 from https://d2mxkr7359ifh6.cloudfront.net/TF072155.xml
 Parsing wbtf-tf072155 from https://d2mxkr7359ifh6.cloudfront.net/TF072155.xml
-dflat: invalid XML format
-restored 2 files
+found 2 activities
 
 Downloading wbtf-tf072158 from https://d2mxkr7359ifh6.cloudfront.net/TF072158.xml
 Parsing wbtf-tf072158 from https://d2mxkr7359ifh6.cloudfront.net/TF072158.xml
-dflat: invalid XML format
-restored 2 files
+found 2 activities
 
 Downloading wbtf-tf072203 from https://d2mxkr7359ifh6.cloudfront.net/TF072203.xml
 Parsing wbtf-tf072203 from https://d2mxkr7359ifh6.cloudfront.net/TF072203.xml
-dflat: invalid XML format
-restored 2 files
+found 2 activities
 
 Downloading wbtf-tf072204 from https://d2mxkr7359ifh6.cloudfront.net/TF072204.xml
 Parsing wbtf-tf072204 from https://d2mxkr7359ifh6.cloudfront.net/TF072204.xml
-dflat: invalid XML format
-restored 2 files
+found 2 activities
 
 Downloading wbtf-tf072205 from https://d2mxkr7359ifh6.cloudfront.net/TF072205.xml
 Parsing wbtf-tf072205 from https://d2mxkr7359ifh6.cloudfront.net/TF072205.xml
-dflat: invalid XML format
-restored 2 files
+found 2 activities
 
 Downloading wbtf-tf072207 from https://d2mxkr7359ifh6.cloudfront.net/TF072207.xml
 Parsing wbtf-tf072207 from https://d2mxkr7359ifh6.cloudfront.net/TF072207.xml
@@ -42152,33 +42073,27 @@ found 2 activities
 
 Downloading wbtf-tf072208 from https://d2mxkr7359ifh6.cloudfront.net/TF072208.xml
 Parsing wbtf-tf072208 from https://d2mxkr7359ifh6.cloudfront.net/TF072208.xml
-dflat: invalid XML format
-restored 3 files
+found 3 activities
 
 Downloading wbtf-tf072229 from https://d2mxkr7359ifh6.cloudfront.net/TF072229.xml
 Parsing wbtf-tf072229 from https://d2mxkr7359ifh6.cloudfront.net/TF072229.xml
-dflat: invalid XML format
-restored 4 files
+found 5 activities
 
 Downloading wbtf-tf072232 from https://d2mxkr7359ifh6.cloudfront.net/TF072232.xml
 Parsing wbtf-tf072232 from https://d2mxkr7359ifh6.cloudfront.net/TF072232.xml
-dflat: invalid XML format
-restored 2 files
+found 2 activities
 
 Downloading wbtf-tf072239 from https://d2mxkr7359ifh6.cloudfront.net/TF072239.xml
 Parsing wbtf-tf072239 from https://d2mxkr7359ifh6.cloudfront.net/TF072239.xml
-dflat: invalid XML format
-restored 2 files
+found 2 activities
 
 Downloading wbtf-tf072272 from https://d2mxkr7359ifh6.cloudfront.net/TF072272.xml
 Parsing wbtf-tf072272 from https://d2mxkr7359ifh6.cloudfront.net/TF072272.xml
-dflat: invalid XML format
-restored 2 files
+found 2 activities
 
 Downloading wbtf-tf072280 from https://d2mxkr7359ifh6.cloudfront.net/TF072280.xml
 Parsing wbtf-tf072280 from https://d2mxkr7359ifh6.cloudfront.net/TF072280.xml
-dflat: invalid XML format
-restored 2 files
+found 2 activities
 
 Downloading wbtf-tf072284 from https://d2mxkr7359ifh6.cloudfront.net/TF072284.xml
 Parsing wbtf-tf072284 from https://d2mxkr7359ifh6.cloudfront.net/TF072284.xml
@@ -42187,18 +42102,15 @@ restored 3 files
 
 Downloading wbtf-tf072295 from https://d2mxkr7359ifh6.cloudfront.net/TF072295.xml
 Parsing wbtf-tf072295 from https://d2mxkr7359ifh6.cloudfront.net/TF072295.xml
-dflat: invalid XML format
-restored 2 files
+found 2 activities
 
 Downloading wbtf-tf072301 from https://d2mxkr7359ifh6.cloudfront.net/TF072301.xml
 Parsing wbtf-tf072301 from https://d2mxkr7359ifh6.cloudfront.net/TF072301.xml
-dflat: invalid XML format
-restored 4 files
+found 4 activities
 
 Downloading wbtf-tf072305 from https://d2mxkr7359ifh6.cloudfront.net/TF072305.xml
 Parsing wbtf-tf072305 from https://d2mxkr7359ifh6.cloudfront.net/TF072305.xml
-dflat: invalid XML format
-restored 1 files
+found 1 activities
 
 Downloading wbtf-tf072313 from https://d2mxkr7359ifh6.cloudfront.net/TF072313.xml
 Parsing wbtf-tf072313 from https://d2mxkr7359ifh6.cloudfront.net/TF072313.xml
@@ -42212,43 +42124,35 @@ restored 4 files
 
 Downloading wbtf-tf072325 from https://d2mxkr7359ifh6.cloudfront.net/TF072325.xml
 Parsing wbtf-tf072325 from https://d2mxkr7359ifh6.cloudfront.net/TF072325.xml
-dflat: invalid XML format
-restored 2 files
+found 2 activities
 
 Downloading wbtf-tf072337 from https://d2mxkr7359ifh6.cloudfront.net/TF072337.xml
 Parsing wbtf-tf072337 from https://d2mxkr7359ifh6.cloudfront.net/TF072337.xml
-dflat: invalid XML format
-restored 2 files
+found 2 activities
 
 Downloading wbtf-tf072353 from https://d2mxkr7359ifh6.cloudfront.net/TF072353.xml
 Parsing wbtf-tf072353 from https://d2mxkr7359ifh6.cloudfront.net/TF072353.xml
-dflat: invalid XML format
-restored 2 files
+found 2 activities
 
 Downloading wbtf-tf072366 from https://d2mxkr7359ifh6.cloudfront.net/TF072366.xml
 Parsing wbtf-tf072366 from https://d2mxkr7359ifh6.cloudfront.net/TF072366.xml
-dflat: invalid XML format
-restored 2 files
+found 2 activities
 
 Downloading wbtf-tf072397 from https://d2mxkr7359ifh6.cloudfront.net/TF072397.xml
 Parsing wbtf-tf072397 from https://d2mxkr7359ifh6.cloudfront.net/TF072397.xml
-dflat: invalid XML format
-restored 2 files
+found 2 activities
 
 Downloading wbtf-tf072403 from https://d2mxkr7359ifh6.cloudfront.net/TF072403.xml
 Parsing wbtf-tf072403 from https://d2mxkr7359ifh6.cloudfront.net/TF072403.xml
-dflat: invalid XML format
-restored 2 files
+found 2 activities
 
 Downloading wbtf-tf072404 from https://d2mxkr7359ifh6.cloudfront.net/TF072404.xml
 Parsing wbtf-tf072404 from https://d2mxkr7359ifh6.cloudfront.net/TF072404.xml
-dflat: invalid XML format
-restored 2 files
+found 2 activities
 
 Downloading wbtf-tf072443 from https://d2mxkr7359ifh6.cloudfront.net/TF072443.xml
 Parsing wbtf-tf072443 from https://d2mxkr7359ifh6.cloudfront.net/TF072443.xml
-dflat: invalid XML format
-restored 2 files
+found 2 activities
 
 Downloading wbtf-tf072444 from https://d2mxkr7359ifh6.cloudfront.net/TF072444.xml
 Parsing wbtf-tf072444 from https://d2mxkr7359ifh6.cloudfront.net/TF072444.xml
@@ -42256,18 +42160,15 @@ found 2 activities
 
 Downloading wbtf-tf072450 from https://d2mxkr7359ifh6.cloudfront.net/TF072450.xml
 Parsing wbtf-tf072450 from https://d2mxkr7359ifh6.cloudfront.net/TF072450.xml
-dflat: invalid XML format
-restored 2 files
+found 2 activities
 
 Downloading wbtf-tf072452 from https://d2mxkr7359ifh6.cloudfront.net/TF072452.xml
 Parsing wbtf-tf072452 from https://d2mxkr7359ifh6.cloudfront.net/TF072452.xml
-dflat: invalid XML format
-restored 2 files
+found 2 activities
 
 Downloading wbtf-tf072463 from https://d2mxkr7359ifh6.cloudfront.net/TF072463.xml
 Parsing wbtf-tf072463 from https://d2mxkr7359ifh6.cloudfront.net/TF072463.xml
-dflat: invalid XML format
-restored 1 files
+found 1 activities
 
 Downloading wbtf-tf072467 from https://d2mxkr7359ifh6.cloudfront.net/TF072467.xml
 Parsing wbtf-tf072467 from https://d2mxkr7359ifh6.cloudfront.net/TF072467.xml
@@ -42275,23 +42176,19 @@ found 2 activities
 
 Downloading wbtf-tf072484 from https://d2mxkr7359ifh6.cloudfront.net/TF072484.xml
 Parsing wbtf-tf072484 from https://d2mxkr7359ifh6.cloudfront.net/TF072484.xml
-dflat: invalid XML format
-restored 2 files
+found 2 activities
 
 Downloading wbtf-tf072489 from https://d2mxkr7359ifh6.cloudfront.net/TF072489.xml
 Parsing wbtf-tf072489 from https://d2mxkr7359ifh6.cloudfront.net/TF072489.xml
-dflat: invalid XML format
-restored 2 files
+found 2 activities
 
 Downloading wbtf-tf072493 from https://d2mxkr7359ifh6.cloudfront.net/TF072493.xml
 Parsing wbtf-tf072493 from https://d2mxkr7359ifh6.cloudfront.net/TF072493.xml
-dflat: invalid XML format
-restored 1 files
+found 1 activities
 
 Downloading wbtf-tf072498 from https://d2mxkr7359ifh6.cloudfront.net/TF072498.xml
 Parsing wbtf-tf072498 from https://d2mxkr7359ifh6.cloudfront.net/TF072498.xml
-dflat: invalid XML format
-restored 2 files
+found 2 activities
 
 Downloading wbtf-tf072508 from https://d2mxkr7359ifh6.cloudfront.net/TF072508.xml
 Parsing wbtf-tf072508 from https://d2mxkr7359ifh6.cloudfront.net/TF072508.xml
@@ -42299,13 +42196,11 @@ found 2 activities
 
 Downloading wbtf-tf072522 from https://d2mxkr7359ifh6.cloudfront.net/TF072522.xml
 Parsing wbtf-tf072522 from https://d2mxkr7359ifh6.cloudfront.net/TF072522.xml
-dflat: invalid XML format
-restored 2 files
+found 2 activities
 
 Downloading wbtf-tf072531 from https://d2mxkr7359ifh6.cloudfront.net/TF072531.xml
 Parsing wbtf-tf072531 from https://d2mxkr7359ifh6.cloudfront.net/TF072531.xml
-dflat: invalid XML format
-restored 2 files
+found 2 activities
 
 Downloading wbtf-tf072533 from https://d2mxkr7359ifh6.cloudfront.net/TF072533.xml
 Parsing wbtf-tf072533 from https://d2mxkr7359ifh6.cloudfront.net/TF072533.xml
@@ -42313,8 +42208,7 @@ found 2 activities
 
 Downloading wbtf-tf072534 from https://d2mxkr7359ifh6.cloudfront.net/TF072534.xml
 Parsing wbtf-tf072534 from https://d2mxkr7359ifh6.cloudfront.net/TF072534.xml
-dflat: invalid XML format
-restored 2 files
+found 2 activities
 
 Downloading wbtf-tf072541 from https://d2mxkr7359ifh6.cloudfront.net/TF072541.xml
 Parsing wbtf-tf072541 from https://d2mxkr7359ifh6.cloudfront.net/TF072541.xml
@@ -42323,8 +42217,7 @@ restored 1 files
 
 Downloading wbtf-tf072548 from https://d2mxkr7359ifh6.cloudfront.net/TF072548.xml
 Parsing wbtf-tf072548 from https://d2mxkr7359ifh6.cloudfront.net/TF072548.xml
-dflat: invalid XML format
-restored 2 files
+found 2 activities
 
 Downloading wbtf-tf072550 from https://d2mxkr7359ifh6.cloudfront.net/TF072550.xml
 Parsing wbtf-tf072550 from https://d2mxkr7359ifh6.cloudfront.net/TF072550.xml
@@ -42332,8 +42225,7 @@ found 2 activities
 
 Downloading wbtf-tf072553 from https://d2mxkr7359ifh6.cloudfront.net/TF072553.xml
 Parsing wbtf-tf072553 from https://d2mxkr7359ifh6.cloudfront.net/TF072553.xml
-dflat: invalid XML format
-restored 1 files
+found 1 activities
 
 Downloading wbtf-tf072559 from https://d2mxkr7359ifh6.cloudfront.net/TF072559.xml
 Parsing wbtf-tf072559 from https://d2mxkr7359ifh6.cloudfront.net/TF072559.xml
@@ -42342,43 +42234,35 @@ restored 1 files
 
 Downloading wbtf-tf072561 from https://d2mxkr7359ifh6.cloudfront.net/TF072561.xml
 Parsing wbtf-tf072561 from https://d2mxkr7359ifh6.cloudfront.net/TF072561.xml
-dflat: invalid XML format
-restored 1 files
+found 3 activities
 
 Downloading wbtf-tf072562 from https://d2mxkr7359ifh6.cloudfront.net/TF072562.xml
 Parsing wbtf-tf072562 from https://d2mxkr7359ifh6.cloudfront.net/TF072562.xml
-dflat: invalid XML format
-restored 2 files
+found 2 activities
 
 Downloading wbtf-tf072567 from https://d2mxkr7359ifh6.cloudfront.net/TF072567.xml
 Parsing wbtf-tf072567 from https://d2mxkr7359ifh6.cloudfront.net/TF072567.xml
-dflat: invalid XML format
-restored 4 files
+found 4 activities
 
 Downloading wbtf-tf072570 from https://d2mxkr7359ifh6.cloudfront.net/TF072570.xml
 Parsing wbtf-tf072570 from https://d2mxkr7359ifh6.cloudfront.net/TF072570.xml
-dflat: invalid XML format
-restored 2 files
+found 2 activities
 
 Downloading wbtf-tf072571 from https://d2mxkr7359ifh6.cloudfront.net/TF072571.xml
 Parsing wbtf-tf072571 from https://d2mxkr7359ifh6.cloudfront.net/TF072571.xml
-dflat: invalid XML format
-restored 2 files
+found 2 activities
 
 Downloading wbtf-tf072575 from https://d2mxkr7359ifh6.cloudfront.net/TF072575.xml
 Parsing wbtf-tf072575 from https://d2mxkr7359ifh6.cloudfront.net/TF072575.xml
-dflat: invalid XML format
-restored 2 files
+found 2 activities
 
 Downloading wbtf-tf072577 from https://d2mxkr7359ifh6.cloudfront.net/TF072577.xml
 Parsing wbtf-tf072577 from https://d2mxkr7359ifh6.cloudfront.net/TF072577.xml
-dflat: invalid XML format
-restored 1 files
+found 1 activities
 
 Downloading wbtf-tf072581 from https://d2mxkr7359ifh6.cloudfront.net/TF072581.xml
 Parsing wbtf-tf072581 from https://d2mxkr7359ifh6.cloudfront.net/TF072581.xml
-dflat: invalid XML format
-restored 3 files
+found 3 activities
 
 Downloading wbtf-tf072582 from https://d2mxkr7359ifh6.cloudfront.net/TF072582.xml
 Parsing wbtf-tf072582 from https://d2mxkr7359ifh6.cloudfront.net/TF072582.xml
@@ -42386,23 +42270,19 @@ found 2 activities
 
 Downloading wbtf-tf072583 from https://d2mxkr7359ifh6.cloudfront.net/TF072583.xml
 Parsing wbtf-tf072583 from https://d2mxkr7359ifh6.cloudfront.net/TF072583.xml
-dflat: invalid XML format
-restored 2 files
+found 2 activities
 
 Downloading wbtf-tf072589 from https://d2mxkr7359ifh6.cloudfront.net/TF072589.xml
 Parsing wbtf-tf072589 from https://d2mxkr7359ifh6.cloudfront.net/TF072589.xml
-dflat: invalid XML format
-restored 2 files
+found 2 activities
 
 Downloading wbtf-tf072593 from https://d2mxkr7359ifh6.cloudfront.net/TF072593.xml
 Parsing wbtf-tf072593 from https://d2mxkr7359ifh6.cloudfront.net/TF072593.xml
-dflat: invalid XML format
-restored 5 files
+found 5 activities
 
 Downloading wbtf-tf072600 from https://d2mxkr7359ifh6.cloudfront.net/TF072600.xml
 Parsing wbtf-tf072600 from https://d2mxkr7359ifh6.cloudfront.net/TF072600.xml
-dflat: invalid XML format
-restored 15 files
+found 16 activities
 
 Downloading wbtf-tf072601 from https://d2mxkr7359ifh6.cloudfront.net/TF072601.xml
 Parsing wbtf-tf072601 from https://d2mxkr7359ifh6.cloudfront.net/TF072601.xml
@@ -42411,43 +42291,35 @@ restored 2 files
 
 Downloading wbtf-tf072607 from https://d2mxkr7359ifh6.cloudfront.net/TF072607.xml
 Parsing wbtf-tf072607 from https://d2mxkr7359ifh6.cloudfront.net/TF072607.xml
-dflat: invalid XML format
-restored 2 files
+found 2 activities
 
 Downloading wbtf-tf072608 from https://d2mxkr7359ifh6.cloudfront.net/TF072608.xml
 Parsing wbtf-tf072608 from https://d2mxkr7359ifh6.cloudfront.net/TF072608.xml
-dflat: invalid XML format
-restored 26 files
+found 26 activities
 
 Downloading wbtf-tf072613 from https://d2mxkr7359ifh6.cloudfront.net/TF072613.xml
 Parsing wbtf-tf072613 from https://d2mxkr7359ifh6.cloudfront.net/TF072613.xml
-dflat: invalid XML format
-restored 1 files
+found 1 activities
 
 Downloading wbtf-tf072614 from https://d2mxkr7359ifh6.cloudfront.net/TF072614.xml
 Parsing wbtf-tf072614 from https://d2mxkr7359ifh6.cloudfront.net/TF072614.xml
-dflat: invalid XML format
-restored 4 files
+found 4 activities
 
 Downloading wbtf-tf072619 from https://d2mxkr7359ifh6.cloudfront.net/TF072619.xml
 Parsing wbtf-tf072619 from https://d2mxkr7359ifh6.cloudfront.net/TF072619.xml
-dflat: invalid XML format
-restored 2 files
+found 2 activities
 
 Downloading wbtf-tf072627 from https://d2mxkr7359ifh6.cloudfront.net/TF072627.xml
 Parsing wbtf-tf072627 from https://d2mxkr7359ifh6.cloudfront.net/TF072627.xml
-dflat: invalid XML format
-restored 2 files
+found 2 activities
 
 Downloading wbtf-tf072636 from https://d2mxkr7359ifh6.cloudfront.net/TF072636.xml
 Parsing wbtf-tf072636 from https://d2mxkr7359ifh6.cloudfront.net/TF072636.xml
-dflat: invalid XML format
-restored 2 files
+found 2 activities
 
 Downloading wbtf-tf072646 from https://d2mxkr7359ifh6.cloudfront.net/TF072646.xml
 Parsing wbtf-tf072646 from https://d2mxkr7359ifh6.cloudfront.net/TF072646.xml
-dflat: invalid XML format
-restored 2 files
+found 2 activities
 
 Downloading wbtf-tf072663 from https://d2mxkr7359ifh6.cloudfront.net/TF072663.xml
 Parsing wbtf-tf072663 from https://d2mxkr7359ifh6.cloudfront.net/TF072663.xml
@@ -42456,28 +42328,23 @@ restored 2 files
 
 Downloading wbtf-tf072664 from https://d2mxkr7359ifh6.cloudfront.net/TF072664.xml
 Parsing wbtf-tf072664 from https://d2mxkr7359ifh6.cloudfront.net/TF072664.xml
-dflat: invalid XML format
-restored 2 files
+found 2 activities
 
 Downloading wbtf-tf072675 from https://d2mxkr7359ifh6.cloudfront.net/TF072675.xml
 Parsing wbtf-tf072675 from https://d2mxkr7359ifh6.cloudfront.net/TF072675.xml
-dflat: invalid XML format
-restored 1 files
+found 1 activities
 
 Downloading wbtf-tf072678 from https://d2mxkr7359ifh6.cloudfront.net/TF072678.xml
 Parsing wbtf-tf072678 from https://d2mxkr7359ifh6.cloudfront.net/TF072678.xml
-dflat: invalid XML format
-restored 2 files
+found 2 activities
 
 Downloading wbtf-tf072692 from https://d2mxkr7359ifh6.cloudfront.net/TF072692.xml
 Parsing wbtf-tf072692 from https://d2mxkr7359ifh6.cloudfront.net/TF072692.xml
-dflat: invalid XML format
-restored 2 files
+found 2 activities
 
 Downloading wbtf-tf072706 from https://d2mxkr7359ifh6.cloudfront.net/TF072706.xml
 Parsing wbtf-tf072706 from https://d2mxkr7359ifh6.cloudfront.net/TF072706.xml
-dflat: invalid XML format
-restored 1 files
+found 1 activities
 
 Downloading wbtf-tf072707 from https://d2mxkr7359ifh6.cloudfront.net/TF072707.xml
 Parsing wbtf-tf072707 from https://d2mxkr7359ifh6.cloudfront.net/TF072707.xml
@@ -42486,48 +42353,39 @@ restored 1 files
 
 Downloading wbtf-tf072721 from https://d2mxkr7359ifh6.cloudfront.net/TF072721.xml
 Parsing wbtf-tf072721 from https://d2mxkr7359ifh6.cloudfront.net/TF072721.xml
-dflat: invalid XML format
-restored 2 files
+found 2 activities
 
 Downloading wbtf-tf072723 from https://d2mxkr7359ifh6.cloudfront.net/TF072723.xml
 Parsing wbtf-tf072723 from https://d2mxkr7359ifh6.cloudfront.net/TF072723.xml
-dflat: invalid XML format
-restored 2 files
+found 2 activities
 
 Downloading wbtf-tf072726 from https://d2mxkr7359ifh6.cloudfront.net/TF072726.xml
 Parsing wbtf-tf072726 from https://d2mxkr7359ifh6.cloudfront.net/TF072726.xml
-dflat: invalid XML format
-restored 1 files
+found 1 activities
 
 Downloading wbtf-tf072727 from https://d2mxkr7359ifh6.cloudfront.net/TF072727.xml
 Parsing wbtf-tf072727 from https://d2mxkr7359ifh6.cloudfront.net/TF072727.xml
-dflat: invalid XML format
-restored 2 files
+found 2 activities
 
 Downloading wbtf-tf072737 from https://d2mxkr7359ifh6.cloudfront.net/TF072737.xml
 Parsing wbtf-tf072737 from https://d2mxkr7359ifh6.cloudfront.net/TF072737.xml
-dflat: invalid XML format
-restored 1 files
+found 1 activities
 
 Downloading wbtf-tf072741 from https://d2mxkr7359ifh6.cloudfront.net/TF072741.xml
 Parsing wbtf-tf072741 from https://d2mxkr7359ifh6.cloudfront.net/TF072741.xml
-dflat: invalid XML format
-restored 1 files
+found 1 activities
 
 Downloading wbtf-tf072742 from https://d2mxkr7359ifh6.cloudfront.net/TF072742.xml
 Parsing wbtf-tf072742 from https://d2mxkr7359ifh6.cloudfront.net/TF072742.xml
-dflat: invalid XML format
-restored 1 files
+found 1 activities
 
 Downloading wbtf-tf072750 from https://d2mxkr7359ifh6.cloudfront.net/TF072750.xml
 Parsing wbtf-tf072750 from https://d2mxkr7359ifh6.cloudfront.net/TF072750.xml
-dflat: invalid XML format
-restored 2 files
+found 2 activities
 
 Downloading wbtf-tf072754 from https://d2mxkr7359ifh6.cloudfront.net/TF072754.xml
 Parsing wbtf-tf072754 from https://d2mxkr7359ifh6.cloudfront.net/TF072754.xml
-dflat: invalid XML format
-restored 2 files
+found 2 activities
 
 Downloading wbtf-tf072765 from https://d2mxkr7359ifh6.cloudfront.net/TF072765.xml
 Parsing wbtf-tf072765 from https://d2mxkr7359ifh6.cloudfront.net/TF072765.xml
@@ -42536,63 +42394,51 @@ restored 1 files
 
 Downloading wbtf-tf072766 from https://d2mxkr7359ifh6.cloudfront.net/TF072766.xml
 Parsing wbtf-tf072766 from https://d2mxkr7359ifh6.cloudfront.net/TF072766.xml
-dflat: invalid XML format
-restored 2 files
+found 2 activities
 
 Downloading wbtf-tf072776 from https://d2mxkr7359ifh6.cloudfront.net/TF072776.xml
 Parsing wbtf-tf072776 from https://d2mxkr7359ifh6.cloudfront.net/TF072776.xml
-dflat: invalid XML format
-restored 4 files
+found 4 activities
 
 Downloading wbtf-tf072778 from https://d2mxkr7359ifh6.cloudfront.net/TF072778.xml
 Parsing wbtf-tf072778 from https://d2mxkr7359ifh6.cloudfront.net/TF072778.xml
-dflat: invalid XML format
-restored 6 files
+found 6 activities
 
 Downloading wbtf-tf072784 from https://d2mxkr7359ifh6.cloudfront.net/TF072784.xml
 Parsing wbtf-tf072784 from https://d2mxkr7359ifh6.cloudfront.net/TF072784.xml
-dflat: invalid XML format
-restored 1 files
+found 1 activities
 
 Downloading wbtf-tf072791 from https://d2mxkr7359ifh6.cloudfront.net/TF072791.xml
 Parsing wbtf-tf072791 from https://d2mxkr7359ifh6.cloudfront.net/TF072791.xml
-dflat: invalid XML format
-restored 1 files
+found 1 activities
 
 Downloading wbtf-tf072798 from https://d2mxkr7359ifh6.cloudfront.net/TF072798.xml
 Parsing wbtf-tf072798 from https://d2mxkr7359ifh6.cloudfront.net/TF072798.xml
-dflat: invalid XML format
-restored 1 files
+found 1 activities
 
 Downloading wbtf-tf072819 from https://d2mxkr7359ifh6.cloudfront.net/TF072819.xml
 Parsing wbtf-tf072819 from https://d2mxkr7359ifh6.cloudfront.net/TF072819.xml
-dflat: invalid XML format
-restored 2 files
+found 2 activities
 
 Downloading wbtf-tf072820 from https://d2mxkr7359ifh6.cloudfront.net/TF072820.xml
 Parsing wbtf-tf072820 from https://d2mxkr7359ifh6.cloudfront.net/TF072820.xml
-dflat: invalid XML format
-restored 4 files
+found 4 activities
 
 Downloading wbtf-tf072823 from https://d2mxkr7359ifh6.cloudfront.net/TF072823.xml
 Parsing wbtf-tf072823 from https://d2mxkr7359ifh6.cloudfront.net/TF072823.xml
-dflat: invalid XML format
-restored 2 files
+found 2 activities
 
 Downloading wbtf-tf072826 from https://d2mxkr7359ifh6.cloudfront.net/TF072826.xml
 Parsing wbtf-tf072826 from https://d2mxkr7359ifh6.cloudfront.net/TF072826.xml
-dflat: invalid XML format
-restored 1 files
+found 1 activities
 
 Downloading wbtf-tf072828 from https://d2mxkr7359ifh6.cloudfront.net/TF072828.xml
 Parsing wbtf-tf072828 from https://d2mxkr7359ifh6.cloudfront.net/TF072828.xml
-dflat: invalid XML format
-restored 13 files
+found 14 activities
 
 Downloading wbtf-tf072837 from https://d2mxkr7359ifh6.cloudfront.net/TF072837.xml
 Parsing wbtf-tf072837 from https://d2mxkr7359ifh6.cloudfront.net/TF072837.xml
-dflat: invalid XML format
-restored 1 files
+found 1 activities
 
 Downloading wbtf-tf072847 from https://d2mxkr7359ifh6.cloudfront.net/TF072847.xml
 Parsing wbtf-tf072847 from https://d2mxkr7359ifh6.cloudfront.net/TF072847.xml
@@ -42601,38 +42447,31 @@ restored 2 files
 
 Downloading wbtf-tf072854 from https://d2mxkr7359ifh6.cloudfront.net/TF072854.xml
 Parsing wbtf-tf072854 from https://d2mxkr7359ifh6.cloudfront.net/TF072854.xml
-dflat: invalid XML format
-restored 4 files
+found 4 activities
 
 Downloading wbtf-tf072887 from https://d2mxkr7359ifh6.cloudfront.net/TF072887.xml
 Parsing wbtf-tf072887 from https://d2mxkr7359ifh6.cloudfront.net/TF072887.xml
-dflat: invalid XML format
-restored 2 files
+found 2 activities
 
 Downloading wbtf-tf072900 from https://d2mxkr7359ifh6.cloudfront.net/TF072900.xml
 Parsing wbtf-tf072900 from https://d2mxkr7359ifh6.cloudfront.net/TF072900.xml
-dflat: invalid XML format
-restored 2 files
+found 2 activities
 
 Downloading wbtf-tf072904 from https://d2mxkr7359ifh6.cloudfront.net/TF072904.xml
 Parsing wbtf-tf072904 from https://d2mxkr7359ifh6.cloudfront.net/TF072904.xml
-dflat: invalid XML format
-restored 3 files
+found 3 activities
 
 Downloading wbtf-tf072911 from https://d2mxkr7359ifh6.cloudfront.net/TF072911.xml
 Parsing wbtf-tf072911 from https://d2mxkr7359ifh6.cloudfront.net/TF072911.xml
-dflat: invalid XML format
-restored 2 files
+found 2 activities
 
 Downloading wbtf-tf072927 from https://d2mxkr7359ifh6.cloudfront.net/TF072927.xml
 Parsing wbtf-tf072927 from https://d2mxkr7359ifh6.cloudfront.net/TF072927.xml
-dflat: invalid XML format
-restored 1 files
+found 1 activities
 
 Downloading wbtf-tf072953 from https://d2mxkr7359ifh6.cloudfront.net/TF072953.xml
 Parsing wbtf-tf072953 from https://d2mxkr7359ifh6.cloudfront.net/TF072953.xml
-dflat: invalid XML format
-restored 2 files
+found 2 activities
 
 Downloading wbtf-tf072966 from https://d2mxkr7359ifh6.cloudfront.net/TF072966.xml
 Parsing wbtf-tf072966 from https://d2mxkr7359ifh6.cloudfront.net/TF072966.xml
@@ -42640,163 +42479,131 @@ found 2 activities
 
 Downloading wbtf-tf072991 from https://d2mxkr7359ifh6.cloudfront.net/TF072991.xml
 Parsing wbtf-tf072991 from https://d2mxkr7359ifh6.cloudfront.net/TF072991.xml
-dflat: invalid XML format
-restored 2 files
+found 2 activities
 
 Downloading wbtf-tf072998 from https://d2mxkr7359ifh6.cloudfront.net/TF072998.xml
 Parsing wbtf-tf072998 from https://d2mxkr7359ifh6.cloudfront.net/TF072998.xml
-dflat: invalid XML format
-restored 2 files
+found 2 activities
 
 Downloading wbtf-tf073002 from https://d2mxkr7359ifh6.cloudfront.net/TF073002.xml
 Parsing wbtf-tf073002 from https://d2mxkr7359ifh6.cloudfront.net/TF073002.xml
-dflat: invalid XML format
-restored 1 files
+found 1 activities
 
 Downloading wbtf-tf073011 from https://d2mxkr7359ifh6.cloudfront.net/TF073011.xml
 Parsing wbtf-tf073011 from https://d2mxkr7359ifh6.cloudfront.net/TF073011.xml
-dflat: invalid XML format
-restored 2 files
+found 2 activities
 
 Downloading wbtf-tf073012 from https://d2mxkr7359ifh6.cloudfront.net/TF073012.xml
 Parsing wbtf-tf073012 from https://d2mxkr7359ifh6.cloudfront.net/TF073012.xml
-dflat: invalid XML format
-restored 2 files
+found 2 activities
 
 Downloading wbtf-tf073022 from https://d2mxkr7359ifh6.cloudfront.net/TF073022.xml
 Parsing wbtf-tf073022 from https://d2mxkr7359ifh6.cloudfront.net/TF073022.xml
-dflat: invalid XML format
-restored 1 files
+found 1 activities
 
 Downloading wbtf-tf073035 from https://d2mxkr7359ifh6.cloudfront.net/TF073035.xml
 Parsing wbtf-tf073035 from https://d2mxkr7359ifh6.cloudfront.net/TF073035.xml
-dflat: invalid XML format
-restored 2 files
+found 2 activities
 
 Downloading wbtf-tf073042 from https://d2mxkr7359ifh6.cloudfront.net/TF073042.xml
 Parsing wbtf-tf073042 from https://d2mxkr7359ifh6.cloudfront.net/TF073042.xml
-dflat: invalid XML format
-restored 2 files
+found 2 activities
 
 Downloading wbtf-tf073053 from https://d2mxkr7359ifh6.cloudfront.net/TF073053.xml
 Parsing wbtf-tf073053 from https://d2mxkr7359ifh6.cloudfront.net/TF073053.xml
-dflat: invalid XML format
-restored 2 files
+found 2 activities
 
 Downloading wbtf-tf073062 from https://d2mxkr7359ifh6.cloudfront.net/TF073062.xml
 Parsing wbtf-tf073062 from https://d2mxkr7359ifh6.cloudfront.net/TF073062.xml
-dflat: invalid XML format
-restored 2 files
+found 2 activities
 
 Downloading wbtf-tf073069 from https://d2mxkr7359ifh6.cloudfront.net/TF073069.xml
 Parsing wbtf-tf073069 from https://d2mxkr7359ifh6.cloudfront.net/TF073069.xml
-dflat: invalid XML format
-restored 1 files
+found 1 activities
 
 Downloading wbtf-tf073081 from https://d2mxkr7359ifh6.cloudfront.net/TF073081.xml
 Parsing wbtf-tf073081 from https://d2mxkr7359ifh6.cloudfront.net/TF073081.xml
-dflat: invalid XML format
-restored 1 files
+found 1 activities
 
 Downloading wbtf-tf073096 from https://d2mxkr7359ifh6.cloudfront.net/TF073096.xml
 Parsing wbtf-tf073096 from https://d2mxkr7359ifh6.cloudfront.net/TF073096.xml
-dflat: invalid XML format
-restored 2 files
+found 2 activities
 
 Downloading wbtf-tf073101 from https://d2mxkr7359ifh6.cloudfront.net/TF073101.xml
 Parsing wbtf-tf073101 from https://d2mxkr7359ifh6.cloudfront.net/TF073101.xml
-dflat: invalid XML format
-restored 2 files
+found 2 activities
 
 Downloading wbtf-tf073102 from https://d2mxkr7359ifh6.cloudfront.net/TF073102.xml
 Parsing wbtf-tf073102 from https://d2mxkr7359ifh6.cloudfront.net/TF073102.xml
-dflat: invalid XML format
-restored 2 files
+found 2 activities
 
 Downloading wbtf-tf073106 from https://d2mxkr7359ifh6.cloudfront.net/TF073106.xml
 Parsing wbtf-tf073106 from https://d2mxkr7359ifh6.cloudfront.net/TF073106.xml
-dflat: invalid XML format
-restored 2 files
+found 2 activities
 
 Downloading wbtf-tf073170 from https://d2mxkr7359ifh6.cloudfront.net/TF073170.xml
 Parsing wbtf-tf073170 from https://d2mxkr7359ifh6.cloudfront.net/TF073170.xml
-dflat: invalid XML format
-restored 2 files
+found 2 activities
 
 Downloading wbtf-tf073201 from https://d2mxkr7359ifh6.cloudfront.net/TF073201.xml
 Parsing wbtf-tf073201 from https://d2mxkr7359ifh6.cloudfront.net/TF073201.xml
-dflat: invalid XML format
-restored 2 files
+found 2 activities
 
 Downloading wbtf-tf073217 from https://d2mxkr7359ifh6.cloudfront.net/TF073217.xml
 Parsing wbtf-tf073217 from https://d2mxkr7359ifh6.cloudfront.net/TF073217.xml
-dflat: invalid XML format
-restored 1 files
+found 1 activities
 
 Downloading wbtf-tf073222 from https://d2mxkr7359ifh6.cloudfront.net/TF073222.xml
 Parsing wbtf-tf073222 from https://d2mxkr7359ifh6.cloudfront.net/TF073222.xml
-dflat: invalid XML format
-restored 2 files
+found 2 activities
 
 Downloading wbtf-tf073223 from https://d2mxkr7359ifh6.cloudfront.net/TF073223.xml
 Parsing wbtf-tf073223 from https://d2mxkr7359ifh6.cloudfront.net/TF073223.xml
-dflat: invalid XML format
-restored 2 files
+found 2 activities
 
 Downloading wbtf-tf073225 from https://d2mxkr7359ifh6.cloudfront.net/TF073225.xml
 Parsing wbtf-tf073225 from https://d2mxkr7359ifh6.cloudfront.net/TF073225.xml
-dflat: invalid XML format
-restored 2 files
+found 2 activities
 
 Downloading wbtf-tf073236 from https://d2mxkr7359ifh6.cloudfront.net/TF073236.xml
 Parsing wbtf-tf073236 from https://d2mxkr7359ifh6.cloudfront.net/TF073236.xml
-dflat: invalid XML format
-restored 17 files
+found 17 activities
 
 Downloading wbtf-tf073238 from https://d2mxkr7359ifh6.cloudfront.net/TF073238.xml
 Parsing wbtf-tf073238 from https://d2mxkr7359ifh6.cloudfront.net/TF073238.xml
-dflat: invalid XML format
-restored 1 files
+found 1 activities
 
 Downloading wbtf-tf073240 from https://d2mxkr7359ifh6.cloudfront.net/TF073240.xml
 Parsing wbtf-tf073240 from https://d2mxkr7359ifh6.cloudfront.net/TF073240.xml
-dflat: invalid XML format
-restored 2 files
+found 2 activities
 
 Downloading wbtf-tf073249 from https://d2mxkr7359ifh6.cloudfront.net/TF073249.xml
 Parsing wbtf-tf073249 from https://d2mxkr7359ifh6.cloudfront.net/TF073249.xml
-dflat: invalid XML format
-restored 2 files
+found 2 activities
 
 Downloading wbtf-tf073250 from https://d2mxkr7359ifh6.cloudfront.net/TF073250.xml
 Parsing wbtf-tf073250 from https://d2mxkr7359ifh6.cloudfront.net/TF073250.xml
-dflat: invalid XML format
-restored 4 files
+found 4 activities
 
 Downloading wbtf-tf073270 from https://d2mxkr7359ifh6.cloudfront.net/TF073270.xml
 Parsing wbtf-tf073270 from https://d2mxkr7359ifh6.cloudfront.net/TF073270.xml
-dflat: invalid XML format
-restored 4 files
+found 4 activities
 
 Downloading wbtf-tf073292 from https://d2mxkr7359ifh6.cloudfront.net/TF073292.xml
 Parsing wbtf-tf073292 from https://d2mxkr7359ifh6.cloudfront.net/TF073292.xml
-dflat: invalid XML format
-restored 3 files
+found 3 activities
 
 Downloading wbtf-tf073326 from https://d2mxkr7359ifh6.cloudfront.net/TF073326.xml
 Parsing wbtf-tf073326 from https://d2mxkr7359ifh6.cloudfront.net/TF073326.xml
-dflat: invalid XML format
-restored 3 files
+found 3 activities
 
 Downloading wbtf-tfm50500 from https://d2mxkr7359ifh6.cloudfront.net/TFM50500.xml
 Parsing wbtf-tfm50500 from https://d2mxkr7359ifh6.cloudfront.net/TFM50500.xml
-dflat: invalid XML format
-restored 4 files
+found 4 activities
 
 Downloading wbtf-tfm53529 from https://d2mxkr7359ifh6.cloudfront.net/TFM53529.xml
 Parsing wbtf-tfm53529 from https://d2mxkr7359ifh6.cloudfront.net/TFM53529.xml
-dflat: invalid XML format
-restored 2 files
+found 2 activities
 
 Downloading wcc-ss from https://aidstream.s3.us-west-2.amazonaws.com/xml/wcc-ss.xml
 Parsing wcc-ss from https://aidstream.s3.us-west-2.amazonaws.com/xml/wcc-ss.xml
@@ -44783,9 +44590,9 @@ Downloading yffhsd-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/yff
 Parsing yffhsd-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/yffhsd-org.xml
 found 1 organisations
 
-Downloading yipl-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/yipl-activities.xml
-Parsing yipl-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/yipl-activities.xml
-found 0 activities
+Downloading yipl-activities from https://aidstream-stage.s3.us-west-2.amazonaws.com/xml/yipl-activities.xml
+Parsing yipl-activities from https://aidstream-stage.s3.us-west-2.amazonaws.com/xml/yipl-activities.xml
+found 2 activities
 
 Downloading yipl-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/yipl-org.xml
 Parsing yipl-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/yipl-org.xml
