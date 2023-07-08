@@ -1320,7 +1320,8 @@ found 92 activities
 
 Downloading afdb-capeverde from https://www.afdb.org/sites/default/files/iati/iaticapeverdedata.xml
 Parsing afdb-capeverde from https://www.afdb.org/sites/default/files/iati/iaticapeverdedata.xml
-found 70 activities
+dflat: invalid XML format
+restored 70 files
 
 Downloading afdb-centralafricanrepublic from https://www.afdb.org/sites/default/files/iati/iaticardata.xml
 Parsing afdb-centralafricanrepublic from https://www.afdb.org/sites/default/files/iati/iaticardata.xml
@@ -2015,7 +2016,7 @@ found 1 organisations
 
 Downloading agriterra-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/agriterra-activities.xml
 Parsing agriterra-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/agriterra-activities.xml
-found 970 activities
+found 960 activities
 
 Downloading agriterra-nl-kvk-41048542-201802-activities from https://www.agriterra.org/upload_directory/files/IATI_output_20180817_122959.xml
 Parsing agriterra-nl-kvk-41048542-201802-activities from https://www.agriterra.org/upload_directory/files/IATI_output_20180817_122959.xml
@@ -2658,6 +2659,13 @@ found 1 organisations
 
 Downloading alfalit-gec from https://www.vsointernational.org/sites/default/files/alfalit_gec.xml
 Converting IATI activities version 1.03 to version 2.03
+./iati-activities.xsl:367: parser error : Couldn't find end of Start Tag default-fi line 367
+                        <default-fi
+                                   ^
+./iati-activities.xsl:367: parser error : Premature end of data in tag if line 366
+                        <default-fi
+                                   ^
+cannot parse ./iati-activities.xsl
 Parsing alfalit-gec from https://www.vsointernational.org/sites/default/files/alfalit_gec.xml
 found 2 activities
 
@@ -4827,11 +4835,9 @@ Downloading bmgf-org from https://docs.gatesfoundation.org/Documents/bmgf-org.xm
 Parsing bmgf-org from https://docs.gatesfoundation.org/Documents/bmgf-org.xml
 found 1 organisations
 
-Downloading bmu_iki-999 from https://www.international-climate-initiative.com/fileadmin/iki/Dokumente/IATI/IKI_IATI_202304.xml
-curl: download ERROR 404
-Parsing bmu_iki-999 from https://www.international-climate-initiative.com/fileadmin/iki/Dokumente/IATI/IKI_IATI_202304.xml
-dflat: input XML file does not exist
-restored 779 files
+Downloading bmu_iki-999 from https://www.international-climate-initiative.com/fileadmin/iki/Dokumente/IATI/IKI_IATI_202307.xml
+Parsing bmu_iki-999 from https://www.international-climate-initiative.com/fileadmin/iki/Dokumente/IATI/IKI_IATI_202307.xml
+found 777 activities
 
 Downloading bmz-189 from https://teamwork.bmz.de/pub/bscw.cgi/2018133/DE-1-BMZ-189.xml
 Parsing bmz-189 from https://teamwork.bmz.de/pub/bscw.cgi/2018133/DE-1-BMZ-189.xml
@@ -6596,7 +6602,7 @@ found 1 organisations
 
 Downloading cerf-contributionstodate from https://cerfgms-webapi.unocha.org/v1/iati/donorcontribution.xml
 Parsing cerf-contributionstodate from https://cerfgms-webapi.unocha.org/v1/iati/donorcontribution.xml
-found 1523 activities
+found 1524 activities
 
 Downloading cerf-organization from https://cerfgms-webapi.unocha.org/v1/iati/organizations.xml
 Parsing cerf-organization from https://cerfgms-webapi.unocha.org/v1/iati/organizations.xml
@@ -6848,14 +6854,14 @@ dflat: invalid XML format
 restored 0 files
 
 Downloading cif-889 from http://siteresources.worldbank.org/IATI/CIF/CIF-889.xml
+curl: download ERROR 404
 Parsing cif-889 from http://siteresources.worldbank.org/IATI/CIF/CIF-889.xml
-dflat: invalid XML format
+dflat: input XML file does not exist
 restored 0 files
 
 Downloading cif-998 from http://siteresources.worldbank.org/IATI/CIF/CIF-998.xml
-curl: download ERROR 404
 Parsing cif-998 from http://siteresources.worldbank.org/IATI/CIF/CIF-998.xml
-dflat: input XML file does not exist
+dflat: invalid XML format
 restored 0 files
 
 Downloading c_i_f-activities from https://iatipublisher-prod.s3.amazonaws.com/xml/mergedActivityXml/c_i_f-activities.xml
@@ -6892,9 +6898,8 @@ Parsing cif-br from http://doumodqax2qi2.cloudfront.net/CIF/CIF-05-2020/CIF-BR.x
 found 11 activities
 
 Downloading cif-cd from http://siteresources.worldbank.org/IATI/CIF/CIF-CD.xml
-curl: download ERROR 404
 Parsing cif-cd from http://siteresources.worldbank.org/IATI/CIF/CIF-CD.xml
-dflat: input XML file does not exist
+dflat: invalid XML format
 restored 0 files
 
 Downloading cif-ci from http://doumodqax2qi2.cloudfront.net/CIF/CIF-05-2020/CIF-CI.xml
@@ -7142,7 +7147,7 @@ found 1 organisations
 
 Downloading cisu-dk from https://aidstream.s3.us-west-2.amazonaws.com/xml/cisu-dk.xml
 Parsing cisu-dk from https://aidstream.s3.us-west-2.amazonaws.com/xml/cisu-dk.xml
-found 13 activities
+found 14 activities
 
 Downloading cisu-gaia from https://vores.cisu.dk/activities.xml
 Parsing cisu-gaia from https://vores.cisu.dk/activities.xml
@@ -8021,7 +8026,7 @@ found 1 organisations
 
 Downloading dca-activities from https://iatipublisher-prod.s3.amazonaws.com/xml/mergedActivityXml/dca-activities.xml
 Parsing dca-activities from https://iatipublisher-prod.s3.amazonaws.com/xml/mergedActivityXml/dca-activities.xml
-found 568 activities
+found 652 activities
 
 Downloading dc-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/dc-activities.xml
 Parsing dc-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/dc-activities.xml
@@ -11606,7 +11611,7 @@ found 425 activities
 
 Downloading ec-echo-2023 from https://webgate.ec.europa.eu/edris/api/iatiFiles/ec-echo-2023.xml
 Parsing ec-echo-2023 from https://webgate.ec.europa.eu/edris/api/iatiFiles/ec-echo-2023.xml
-found 381 activities
+found 382 activities
 
 Downloading ec-echo-org from https://webgate.ec.europa.eu/edris/api/iatiFiles/iati-organisation-file.xml
 Parsing ec-echo-org from https://webgate.ec.europa.eu/edris/api/iatiFiles/iati-organisation-file.xml
@@ -13899,7 +13904,8 @@ found 1285 activities
 
 Downloading fcdo-set-17 from http://iati.fcdo.gov.uk/iati_files/solr/FCDO-set-17.xml
 Parsing fcdo-set-17 from http://iati.fcdo.gov.uk/iati_files/solr/FCDO-set-17.xml
-found 1291 activities
+dflat: input XML file does not exist
+restored 1291 files
 
 Downloading fcdo-set-18 from http://iati.fcdo.gov.uk/iati_files/solr/FCDO-set-18.xml
 Parsing fcdo-set-18 from http://iati.fcdo.gov.uk/iati_files/solr/FCDO-set-18.xml
@@ -15724,7 +15730,7 @@ found 1 organisations
 
 Downloading gac-amc-act_2_3 from http://w05.international.gc.ca/projectbrowser-banqueprojets/iita-iati/dfatd-maecd_activit_status_2_3.xml
 Parsing gac-amc-act_2_3 from http://w05.international.gc.ca/projectbrowser-banqueprojets/iita-iati/dfatd-maecd_activit_status_2_3.xml
-found 1792 activities
+found 1794 activities
 
 Downloading gac-amc-act_4 from http://w05.international.gc.ca/projectbrowser-banqueprojets/iita-iati/dfatd-maecd_activit_status_4.xml
 Parsing gac-amc-act_4 from http://w05.international.gc.ca/projectbrowser-banqueprojets/iita-iati/dfatd-maecd_activit_status_4.xml
@@ -16002,8 +16008,10 @@ Parsing gef-ec from https://d2mxkr7359ifh6.cloudfront.net/GEF/EC.xml
 found 54 activities
 
 Downloading gef-ee from https://d2mxkr7359ifh6.cloudfront.net/GEF/EE.xml
+curl: download ERROR 000
 Parsing gef-ee from https://d2mxkr7359ifh6.cloudfront.net/GEF/EE.xml
-found 5 activities
+dflat: input XML file does not exist
+restored 5 files
 
 Downloading gef-eg from https://d2mxkr7359ifh6.cloudfront.net/GEF/EG.xml
 Parsing gef-eg from https://d2mxkr7359ifh6.cloudfront.net/GEF/EG.xml
@@ -16106,8 +16114,10 @@ Parsing gef-jo from https://d2mxkr7359ifh6.cloudfront.net/GEF/JO.xml
 found 35 activities
 
 Downloading gef-ke from https://d2mxkr7359ifh6.cloudfront.net/GEF/KE.xml
+curl: download ERROR 000
 Parsing gef-ke from https://d2mxkr7359ifh6.cloudfront.net/GEF/KE.xml
-found 45 activities
+dflat: input XML file does not exist
+restored 45 files
 
 Downloading gef-kg from https://d2mxkr7359ifh6.cloudfront.net/GEF/KG.xml
 Parsing gef-kg from https://d2mxkr7359ifh6.cloudfront.net/GEF/KG.xml
@@ -16671,11 +16681,11 @@ found 1 organisations
 
 Downloading globalgiving-activity from http://www.globalgiving.org/iati/activities.xml
 Parsing globalgiving-activity from http://www.globalgiving.org/iati/activities.xml
-found 26254 activities
+found 26258 activities
 
 Downloading globalgiving-org from http://www.globalgiving.org/iati/organisations.xml
 Parsing globalgiving-org from http://www.globalgiving.org/iati/organisations.xml
-found 15074 organisations
+found 15088 organisations
 
 Downloading globalshea-activities from https://iatipublisher-prod.s3.amazonaws.com/xml/mergedActivityXml/globalshea-activities.xml
 Parsing globalshea-activities from https://iatipublisher-prod.s3.amazonaws.com/xml/mergedActivityXml/globalshea-activities.xml
@@ -19654,7 +19664,7 @@ found 10 activities
 
 Downloading ifcwbg-eg from https://disclosures.ifc.org/iati/ifc-eg.xml
 Parsing ifcwbg-eg from https://disclosures.ifc.org/iati/ifc-eg.xml
-found 119 activities
+found 120 activities
 
 Downloading ifcwbg-er from https://disclosures.ifc.org/iati/ifc-er.xml
 Parsing ifcwbg-er from https://disclosures.ifc.org/iati/ifc-er.xml
@@ -22056,10 +22066,6 @@ found 1 activities
 Downloading law-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/law-org.xml
 Parsing law-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/law-org.xml
 found 1 organisations
-
-Downloading lbg-679 from https://aidstream.s3.us-west-2.amazonaws.com/xml/lbg-679.xml
-Parsing lbg-679 from https://aidstream.s3.us-west-2.amazonaws.com/xml/lbg-679.xml
-found 1 activities
 
 Downloading lbg-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/lbg-org.xml
 Parsing lbg-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/lbg-org.xml
@@ -25683,7 +25689,7 @@ found 2220 activities
 
 Downloading onl-activity from https://www.oxfamnovib.nl/redactie/Downloads/XML/iati.xml
 Parsing onl-activity from https://www.oxfamnovib.nl/redactie/Downloads/XML/iati.xml
-found 1961 activities
+found 1969 activities
 
 Downloading onl-org from https://www.oxfamnovib.nl/redactie/downloads/xml/IATI_NL-KVK-27108436.xml
 Parsing onl-org from https://www.oxfamnovib.nl/redactie/downloads/xml/IATI_NL-KVK-27108436.xml
@@ -28061,7 +28067,7 @@ found 1 organisations
 
 Downloading rvo-01 from https://projects.rvo.nl/opendata/iati.xml
 Parsing rvo-01 from https://projects.rvo.nl/opendata/iati.xml
-found 4221 activities
+found 4222 activities
 
 Downloading rvo-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/rvo-activities.xml
 Parsing rvo-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/rvo-activities.xml
@@ -28606,1090 +28612,728 @@ Parsing si-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/si-a
 found 1 activities
 
 Downloading sida-1027 from https://iati.openaid.se/xml/1027.xml
-curl: download ERROR 403
 Parsing sida-1027 from https://iati.openaid.se/xml/1027.xml
-dflat: input XML file does not exist
-restored 1044 files
+found 1045 activities
 
 Downloading sida-1028 from https://iati.openaid.se/xml/1028.xml
-curl: download ERROR 403
 Parsing sida-1028 from https://iati.openaid.se/xml/1028.xml
-dflat: input XML file does not exist
-restored 150 files
+found 150 activities
 
 Downloading sida-1029 from https://iati.openaid.se/xml/1029.xml
-curl: download ERROR 403
 Parsing sida-1029 from https://iati.openaid.se/xml/1029.xml
-dflat: input XML file does not exist
-restored 762 files
+found 763 activities
 
 Downloading sida-1030 from https://iati.openaid.se/xml/1030.xml
-curl: download ERROR 403
 Parsing sida-1030 from https://iati.openaid.se/xml/1030.xml
-dflat: input XML file does not exist
-restored 433 files
+found 433 activities
 
 Downloading sida-1031 from http://iati.openaid.se/xml/1031.xml
-curl: download ERROR 403
 Parsing sida-1031 from http://iati.openaid.se/xml/1031.xml
-dflat: input XML file does not exist
-restored 59 files
+found 59 activities
 
 Downloading sida-1032 from http://iati.openaid.se/xml/1032.xml
-curl: download ERROR 403
 Parsing sida-1032 from http://iati.openaid.se/xml/1032.xml
-dflat: input XML file does not exist
-restored 705 files
+found 705 activities
 
 Downloading sida-1033 from https://iati.openaid.se/xml/1033.xml
-curl: download ERROR 403
 Parsing sida-1033 from https://iati.openaid.se/xml/1033.xml
-dflat: input XML file does not exist
-restored 4 files
+found 4 activities
 
 Downloading sida-1034 from https://iati.openaid.se/xml/1034.xml
-curl: download ERROR 403
 Parsing sida-1034 from https://iati.openaid.se/xml/1034.xml
-dflat: input XML file does not exist
-restored 1 files
+found 1 activities
 
 Downloading sida-1035 from https://iati.openaid.se/xml/1035.xml
-curl: download ERROR 403
 Parsing sida-1035 from https://iati.openaid.se/xml/1035.xml
-dflat: input XML file does not exist
-restored 1 files
+found 1 activities
 
 Downloading sida-189 from http://iati.openaid.se/xml/189.xml
-curl: download ERROR 403
 Parsing sida-189 from http://iati.openaid.se/xml/189.xml
-dflat: input XML file does not exist
-restored 132 files
+found 132 activities
 
 Downloading sida-289 from http://iati.openaid.se/xml/289.xml
-curl: download ERROR 403
 Parsing sida-289 from http://iati.openaid.se/xml/289.xml
-dflat: input XML file does not exist
-restored 912 files
+found 916 activities
 
 Downloading sida-298 from http://iati.openaid.se/xml/298.xml
-curl: download ERROR 403
 Parsing sida-298 from http://iati.openaid.se/xml/298.xml
-dflat: input XML file does not exist
-restored 1975 files
+found 2042 activities
 
 Downloading sida-389 from http://iati.openaid.se/xml/389.xml
-curl: download ERROR 403
 Parsing sida-389 from http://iati.openaid.se/xml/389.xml
-dflat: input XML file does not exist
-restored 11 files
+found 11 activities
 
 Downloading sida-489 from http://iati.openaid.se/xml/489.xml
-curl: download ERROR 403
 Parsing sida-489 from http://iati.openaid.se/xml/489.xml
-dflat: input XML file does not exist
-restored 306 files
+found 307 activities
 
 Downloading sida-498 from http://iati.openaid.se/xml/498.xml
-curl: download ERROR 403
 Parsing sida-498 from http://iati.openaid.se/xml/498.xml
-dflat: input XML file does not exist
-restored 505 files
+found 506 activities
 
 Downloading sida-589 from http://iati.openaid.se/xml/589.xml
-curl: download ERROR 403
 Parsing sida-589 from http://iati.openaid.se/xml/589.xml
-dflat: input XML file does not exist
-restored 772 files
+found 773 activities
 
 Downloading sida-619 from http://iati.openaid.se/xml/619.xml
-curl: download ERROR 403
 Parsing sida-619 from http://iati.openaid.se/xml/619.xml
-dflat: input XML file does not exist
-restored 358 files
+found 358 activities
 
 Downloading sida-679 from http://iati.openaid.se/xml/679.xml
-curl: download ERROR 403
 Parsing sida-679 from http://iati.openaid.se/xml/679.xml
-dflat: input XML file does not exist
-restored 262 files
+found 262 activities
 
 Downloading sida-689 from http://iati.openaid.se/xml/689.xml
-curl: download ERROR 403
 Parsing sida-689 from http://iati.openaid.se/xml/689.xml
-dflat: input XML file does not exist
-restored 10 files
+found 10 activities
 
 Downloading sida-789 from http://iati.openaid.se/xml/789.xml
-curl: download ERROR 403
 Parsing sida-789 from http://iati.openaid.se/xml/789.xml
-dflat: input XML file does not exist
-restored 38 files
+found 38 activities
 
 Downloading sida-798 from http://iati.openaid.se/xml/798.xml
-curl: download ERROR 403
 Parsing sida-798 from http://iati.openaid.se/xml/798.xml
-dflat: input XML file does not exist
-restored 1422 files
+found 1434 activities
 
 Downloading sida-889 from http://iati.openaid.se/xml/889.xml
-curl: download ERROR 403
 Parsing sida-889 from http://iati.openaid.se/xml/889.xml
-dflat: input XML file does not exist
-restored 51 files
+found 70 activities
 
 Downloading sida-88 from http://iati.openaid.se/xml/88.xml
-curl: download ERROR 403
 Parsing sida-88 from http://iati.openaid.se/xml/88.xml
-dflat: input XML file does not exist
-restored 6 files
+found 6 activities
 
 Downloading sida-89 from http://iati.openaid.se/xml/89.xml
-curl: download ERROR 403
 Parsing sida-89 from http://iati.openaid.se/xml/89.xml
-dflat: input XML file does not exist
-restored 1351 files
+found 1352 activities
 
 Downloading sida-998a from http://iati.openaid.se/xml/998a.xml
-curl: download ERROR 403
 Parsing sida-998a from http://iati.openaid.se/xml/998a.xml
-dflat: input XML file does not exist
-restored 5005 files
+found 5048 activities
 
 Downloading sida-998b from http://iati.openaid.se/xml/998b.xml
-curl: download ERROR 403
 Parsing sida-998b from http://iati.openaid.se/xml/998b.xml
-dflat: input XML file does not exist
-restored 4426 files
+found 4455 activities
 
 Downloading sida-998c from http://iati.openaid.se/xml/998c.xml
-curl: download ERROR 403
 Parsing sida-998c from http://iati.openaid.se/xml/998c.xml
-dflat: input XML file does not exist
-restored 4292 files
+found 4312 activities
 
 Downloading sida-998d from https://iati.openaid.se/xml/998d.xml
-curl: download ERROR 403
 Parsing sida-998d from https://iati.openaid.se/xml/998d.xml
-dflat: input XML file does not exist
-restored 3019 files
+found 3056 activities
 
 Downloading sida-998e from http://iati.openaid.se/xml/998e.xml
-curl: download ERROR 403
 Parsing sida-998e from http://iati.openaid.se/xml/998e.xml
-dflat: input XML file does not exist
-restored 3247 files
+found 3282 activities
 
 Downloading sida-af from http://iati.openaid.se/xml/AF.xml
-curl: download ERROR 403
 Parsing sida-af from http://iati.openaid.se/xml/AF.xml
-dflat: input XML file does not exist
-restored 885 files
+found 890 activities
 
 Downloading sida-al from http://iati.openaid.se/xml/AL.xml
-curl: download ERROR 403
 Parsing sida-al from http://iati.openaid.se/xml/AL.xml
-dflat: input XML file does not exist
-restored 673 files
+found 675 activities
 
 Downloading sida-am from http://iati.openaid.se/xml/AM.xml
-curl: download ERROR 403
 Parsing sida-am from http://iati.openaid.se/xml/AM.xml
-dflat: input XML file does not exist
-restored 345 files
+found 346 activities
 
 Downloading sida-ao from http://iati.openaid.se/xml/AO.xml
-curl: download ERROR 403
 Parsing sida-ao from http://iati.openaid.se/xml/AO.xml
-dflat: input XML file does not exist
-restored 607 files
+found 607 activities
 
 Downloading sida-ar from http://iati.openaid.se/xml/AR.xml
-curl: download ERROR 403
 Parsing sida-ar from http://iati.openaid.se/xml/AR.xml
-dflat: input XML file does not exist
-restored 159 files
+found 160 activities
 
 Downloading sida-az from http://iati.openaid.se/xml/AZ.xml
-curl: download ERROR 403
 Parsing sida-az from http://iati.openaid.se/xml/AZ.xml
-dflat: input XML file does not exist
-restored 134 files
+found 134 activities
 
 Downloading sida-ba from http://iati.openaid.se/xml/BA.xml
-curl: download ERROR 403
 Parsing sida-ba from http://iati.openaid.se/xml/BA.xml
-dflat: input XML file does not exist
-restored 1293 files
+found 1293 activities
 
 Downloading sida-bd from http://iati.openaid.se/xml/BD.xml
-curl: download ERROR 403
 Parsing sida-bd from http://iati.openaid.se/xml/BD.xml
-dflat: input XML file does not exist
-restored 1499 files
+found 1502 activities
 
 Downloading sida-bf from http://iati.openaid.se/xml/BF.xml
-curl: download ERROR 403
 Parsing sida-bf from http://iati.openaid.se/xml/BF.xml
-dflat: input XML file does not exist
-restored 771 files
+found 771 activities
 
 Downloading sida-bg from http://iati.openaid.se/xml/BG.xml
-curl: download ERROR 403
 Parsing sida-bg from http://iati.openaid.se/xml/BG.xml
-dflat: input XML file does not exist
-restored 8 files
+found 8 activities
 
 Downloading sida-bi from http://iati.openaid.se/xml/BI.xml
-curl: download ERROR 403
 Parsing sida-bi from http://iati.openaid.se/xml/BI.xml
-dflat: input XML file does not exist
-restored 349 files
+found 349 activities
 
 Downloading sida-bj from http://iati.openaid.se/xml/BJ.xml
-curl: download ERROR 403
 Parsing sida-bj from http://iati.openaid.se/xml/BJ.xml
-dflat: input XML file does not exist
-restored 155 files
+found 155 activities
 
 Downloading sida-bo from http://iati.openaid.se/xml/BO.xml
-curl: download ERROR 403
 Parsing sida-bo from http://iati.openaid.se/xml/BO.xml
-dflat: input XML file does not exist
-restored 1429 files
+found 1433 activities
 
 Downloading sida-br from http://iati.openaid.se/xml/BR.xml
-curl: download ERROR 403
 Parsing sida-br from http://iati.openaid.se/xml/BR.xml
-dflat: input XML file does not exist
-restored 555 files
+found 557 activities
 
 Downloading sida-bt from http://iati.openaid.se/xml/BT.xml
-curl: download ERROR 403
 Parsing sida-bt from http://iati.openaid.se/xml/BT.xml
-dflat: input XML file does not exist
-restored 49 files
+found 49 activities
 
 Downloading sida-bw from http://iati.openaid.se/xml/BW.xml
-curl: download ERROR 403
 Parsing sida-bw from http://iati.openaid.se/xml/BW.xml
-dflat: input XML file does not exist
-restored 270 files
+found 270 activities
 
 Downloading sida-by from http://iati.openaid.se/xml/BY.xml
-curl: download ERROR 403
 Parsing sida-by from http://iati.openaid.se/xml/BY.xml
-dflat: input XML file does not exist
-restored 196 files
+found 196 activities
 
 Downloading sida-bz from https://iati.openaid.se/xml/BZ.xml
-curl: download ERROR 403
 Parsing sida-bz from https://iati.openaid.se/xml/BZ.xml
-dflat: input XML file does not exist
-restored 5 files
+found 5 activities
 
 Downloading sida-cd from http://iati.openaid.se/xml/CD.xml
-curl: download ERROR 403
 Parsing sida-cd from http://iati.openaid.se/xml/CD.xml
-dflat: input XML file does not exist
-restored 1121 files
+found 1125 activities
 
 Downloading sida-cf from http://iati.openaid.se/xml/CF.xml
-curl: download ERROR 403
 Parsing sida-cf from http://iati.openaid.se/xml/CF.xml
-dflat: input XML file does not exist
-restored 291 files
+found 291 activities
 
 Downloading sida-cg from http://iati.openaid.se/xml/CG.xml
-curl: download ERROR 403
 Parsing sida-cg from http://iati.openaid.se/xml/CG.xml
-dflat: input XML file does not exist
-restored 195 files
+found 195 activities
 
 Downloading sida-ci from http://iati.openaid.se/xml/CI.xml
-curl: download ERROR 403
 Parsing sida-ci from http://iati.openaid.se/xml/CI.xml
-dflat: input XML file does not exist
-restored 193 files
+found 195 activities
 
 Downloading sida-cl from http://iati.openaid.se/xml/CL.xml
-curl: download ERROR 403
 Parsing sida-cl from http://iati.openaid.se/xml/CL.xml
-dflat: input XML file does not exist
-restored 228 files
+found 228 activities
 
 Downloading sida-cm from http://iati.openaid.se/xml/CM.xml
-curl: download ERROR 403
 Parsing sida-cm from http://iati.openaid.se/xml/CM.xml
-dflat: input XML file does not exist
-restored 248 files
+found 249 activities
 
 Downloading sida-cn from http://iati.openaid.se/xml/CN.xml
-curl: download ERROR 403
 Parsing sida-cn from http://iati.openaid.se/xml/CN.xml
-dflat: input XML file does not exist
-restored 744 files
+found 747 activities
 
 Downloading sida-co from http://iati.openaid.se/xml/CO.xml
-curl: download ERROR 403
 Parsing sida-co from http://iati.openaid.se/xml/CO.xml
-dflat: input XML file does not exist
-restored 1188 files
+found 1190 activities
 
 Downloading sida-cr from http://iati.openaid.se/xml/CR.xml
-curl: download ERROR 403
 Parsing sida-cr from http://iati.openaid.se/xml/CR.xml
-dflat: input XML file does not exist
-restored 304 files
+found 304 activities
 
 Downloading sida-cu from http://iati.openaid.se/xml/CU.xml
-curl: download ERROR 403
 Parsing sida-cu from http://iati.openaid.se/xml/CU.xml
-dflat: input XML file does not exist
-restored 100 files
+found 100 activities
 
 Downloading sida-cv from http://iati.openaid.se/xml/CV.xml
-curl: download ERROR 403
 Parsing sida-cv from http://iati.openaid.se/xml/CV.xml
-dflat: input XML file does not exist
-restored 30 files
+found 30 activities
 
 Downloading sida-cz from http://iati.openaid.se/xml/CZ.xml
-curl: download ERROR 403
 Parsing sida-cz from http://iati.openaid.se/xml/CZ.xml
-dflat: input XML file does not exist
-restored 10 files
+found 10 activities
 
 Downloading sida-dj from http://iati.openaid.se/xml/DJ.xml
-curl: download ERROR 403
 Parsing sida-dj from http://iati.openaid.se/xml/DJ.xml
-dflat: input XML file does not exist
-restored 60 files
+found 60 activities
 
 Downloading sida-dm from http://iati.openaid.se/xml/DM.xml
-curl: download ERROR 403
 Parsing sida-dm from http://iati.openaid.se/xml/DM.xml
-dflat: input XML file does not exist
-restored 2 files
+found 2 activities
 
 Downloading sida-do from http://iati.openaid.se/xml/DO.xml
-curl: download ERROR 403
 Parsing sida-do from http://iati.openaid.se/xml/DO.xml
-dflat: input XML file does not exist
-restored 96 files
+found 96 activities
 
 Downloading sida-dz from http://iati.openaid.se/xml/DZ.xml
-curl: download ERROR 403
 Parsing sida-dz from http://iati.openaid.se/xml/DZ.xml
-dflat: input XML file does not exist
-restored 106 files
+found 106 activities
 
 Downloading sida-ec from http://iati.openaid.se/xml/EC.xml
-curl: download ERROR 403
 Parsing sida-ec from http://iati.openaid.se/xml/EC.xml
-dflat: input XML file does not exist
-restored 277 files
+found 277 activities
 
 Downloading sida-ee from http://iati.openaid.se/xml/EE.xml
-curl: download ERROR 403
 Parsing sida-ee from http://iati.openaid.se/xml/EE.xml
-dflat: input XML file does not exist
-restored 202 files
+found 202 activities
 
 Downloading sida-eg from http://iati.openaid.se/xml/EG.xml
-curl: download ERROR 403
 Parsing sida-eg from http://iati.openaid.se/xml/EG.xml
-dflat: input XML file does not exist
-restored 565 files
+found 568 activities
 
 Downloading sida-er from http://iati.openaid.se/xml/ER.xml
-curl: download ERROR 403
 Parsing sida-er from http://iati.openaid.se/xml/ER.xml
-dflat: input XML file does not exist
-restored 318 files
+found 318 activities
 
 Downloading sida-et from http://iati.openaid.se/xml/ET.xml
-curl: download ERROR 403
 Parsing sida-et from http://iati.openaid.se/xml/ET.xml
-dflat: input XML file does not exist
-restored 1956 files
+found 1968 activities
 
 Downloading sida-fj from http://iati.openaid.se/xml/FJ.xml
-curl: download ERROR 403
 Parsing sida-fj from http://iati.openaid.se/xml/FJ.xml
-dflat: input XML file does not exist
-restored 12 files
+found 12 activities
 
 Downloading sida-ga from http://iati.openaid.se/xml/GA.xml
-curl: download ERROR 403
 Parsing sida-ga from http://iati.openaid.se/xml/GA.xml
-dflat: input XML file does not exist
-restored 13 files
+found 14 activities
 
 Downloading sida-gd from http://iati.openaid.se/xml/GD.xml
-curl: download ERROR 403
 Parsing sida-gd from http://iati.openaid.se/xml/GD.xml
-dflat: input XML file does not exist
-restored 3 files
+found 3 activities
 
 Downloading sida-ge from http://iati.openaid.se/xml/GE.xml
-curl: download ERROR 403
 Parsing sida-ge from http://iati.openaid.se/xml/GE.xml
-dflat: input XML file does not exist
-restored 582 files
+found 586 activities
 
 Downloading sida-gh from http://iati.openaid.se/xml/GH.xml
-curl: download ERROR 403
 Parsing sida-gh from http://iati.openaid.se/xml/GH.xml
-dflat: input XML file does not exist
-restored 334 files
+found 337 activities
 
 Downloading sida-gm from http://iati.openaid.se/xml/GM.xml
-curl: download ERROR 403
 Parsing sida-gm from http://iati.openaid.se/xml/GM.xml
-dflat: input XML file does not exist
-restored 238 files
+found 238 activities
 
 Downloading sida-gn from http://iati.openaid.se/xml/GN.xml
-curl: download ERROR 403
 Parsing sida-gn from http://iati.openaid.se/xml/GN.xml
-dflat: input XML file does not exist
-restored 121 files
+found 122 activities
 
 Downloading sida-gq from http://iati.openaid.se/xml/GQ.xml
-curl: download ERROR 403
 Parsing sida-gq from http://iati.openaid.se/xml/GQ.xml
-dflat: input XML file does not exist
-restored 3 files
+found 3 activities
 
 Downloading sida-gt from http://iati.openaid.se/xml/GT.xml
-curl: download ERROR 403
 Parsing sida-gt from http://iati.openaid.se/xml/GT.xml
-dflat: input XML file does not exist
-restored 1204 files
+found 1205 activities
 
 Downloading sida-gw from http://iati.openaid.se/xml/GW.xml
-curl: download ERROR 403
 Parsing sida-gw from http://iati.openaid.se/xml/GW.xml
-dflat: input XML file does not exist
-restored 234 files
+found 234 activities
 
 Downloading sida-gy from http://iati.openaid.se/xml/GY.xml
-curl: download ERROR 403
 Parsing sida-gy from http://iati.openaid.se/xml/GY.xml
-dflat: input XML file does not exist
-restored 19 files
+found 19 activities
 
 Downloading sida-hk from http://iati.openaid.se/xml/HK.xml
-curl: download ERROR 403
 Parsing sida-hk from http://iati.openaid.se/xml/HK.xml
-dflat: input XML file does not exist
-restored 3 files
+found 3 activities
 
 Downloading sida-hn from http://iati.openaid.se/xml/HN.xml
-curl: download ERROR 403
 Parsing sida-hn from http://iati.openaid.se/xml/HN.xml
-dflat: input XML file does not exist
-restored 789 files
+found 790 activities
 
 Downloading sida-hr from http://iati.openaid.se/xml/HR.xml
-curl: download ERROR 403
 Parsing sida-hr from http://iati.openaid.se/xml/HR.xml
-dflat: input XML file does not exist
-restored 175 files
+found 175 activities
 
 Downloading sida-ht from http://iati.openaid.se/xml/HT.xml
-curl: download ERROR 403
 Parsing sida-ht from http://iati.openaid.se/xml/HT.xml
-dflat: input XML file does not exist
-restored 239 files
+found 239 activities
 
 Downloading sida-hu from http://iati.openaid.se/xml/HU.xml
-curl: download ERROR 403
 Parsing sida-hu from http://iati.openaid.se/xml/HU.xml
-dflat: input XML file does not exist
-restored 16 files
+found 16 activities
 
 Downloading sida-id from http://iati.openaid.se/xml/ID.xml
-curl: download ERROR 403
 Parsing sida-id from http://iati.openaid.se/xml/ID.xml
-dflat: input XML file does not exist
-restored 472 files
+found 476 activities
 
 Downloading sida-il from http://iati.openaid.se/xml/IL.xml
-curl: download ERROR 403
 Parsing sida-il from http://iati.openaid.se/xml/IL.xml
-dflat: input XML file does not exist
-restored 2 files
+found 2 activities
 
 Downloading sida-in from http://iati.openaid.se/xml/IN.xml
-curl: download ERROR 403
 Parsing sida-in from http://iati.openaid.se/xml/IN.xml
-dflat: input XML file does not exist
-restored 1402 files
+found 1433 activities
 
 Downloading sida-iq from http://iati.openaid.se/xml/IQ.xml
-curl: download ERROR 403
 Parsing sida-iq from http://iati.openaid.se/xml/IQ.xml
-dflat: input XML file does not exist
-restored 554 files
+found 561 activities
 
 Downloading sida-ir from http://iati.openaid.se/xml/IR.xml
-curl: download ERROR 403
 Parsing sida-ir from http://iati.openaid.se/xml/IR.xml
-dflat: input XML file does not exist
-restored 116 files
+found 116 activities
 
 Downloading sida-jm from http://iati.openaid.se/xml/JM.xml
-curl: download ERROR 403
 Parsing sida-jm from http://iati.openaid.se/xml/JM.xml
-dflat: input XML file does not exist
-restored 30 files
+found 30 activities
 
 Downloading sida-jo from http://iati.openaid.se/xml/JO.xml
-curl: download ERROR 403
 Parsing sida-jo from http://iati.openaid.se/xml/JO.xml
-dflat: input XML file does not exist
-restored 317 files
+found 317 activities
 
 Downloading sida-ke from http://iati.openaid.se/xml/KE.xml
-curl: download ERROR 403
 Parsing sida-ke from http://iati.openaid.se/xml/KE.xml
-dflat: input XML file does not exist
-restored 2063 files
+found 2083 activities
 
 Downloading sida-kg from http://iati.openaid.se/xml/KG.xml
-curl: download ERROR 403
 Parsing sida-kg from http://iati.openaid.se/xml/KG.xml
-dflat: input XML file does not exist
-restored 161 files
+found 161 activities
 
 Downloading sida-kh from http://iati.openaid.se/xml/KH.xml
-curl: download ERROR 403
 Parsing sida-kh from http://iati.openaid.se/xml/KH.xml
-dflat: input XML file does not exist
-restored 1110 files
+found 1116 activities
 
 Downloading sida-kiribati from http://iati.openaid.se/xml/KI.xml
-curl: download ERROR 403
 Parsing sida-kiribati from http://iati.openaid.se/xml/KI.xml
-dflat: input XML file does not exist
-restored 3 files
+found 3 activities
 
 Downloading sida-km from http://iati.openaid.se/xml/KM.xml
-curl: download ERROR 403
 Parsing sida-km from http://iati.openaid.se/xml/KM.xml
-dflat: input XML file does not exist
-restored 7 files
+found 7 activities
 
 Downloading sida-kp from http://iati.openaid.se/xml/KP.xml
-curl: download ERROR 403
 Parsing sida-kp from http://iati.openaid.se/xml/KP.xml
-dflat: input XML file does not exist
-restored 43 files
+found 43 activities
 
 Downloading sida-kr from http://iati.openaid.se/xml/KR.xml
-curl: download ERROR 403
 Parsing sida-kr from http://iati.openaid.se/xml/KR.xml
-dflat: input XML file does not exist
-restored 4 files
+found 4 activities
 
 Downloading sida-kw from http://iati.openaid.se/xml/KW.xml
-curl: download ERROR 403
 Parsing sida-kw from http://iati.openaid.se/xml/KW.xml
-dflat: input XML file does not exist
-restored 1 files
+found 1 activities
 
 Downloading sida-kz from http://iati.openaid.se/xml/KZ.xml
-curl: download ERROR 403
 Parsing sida-kz from http://iati.openaid.se/xml/KZ.xml
-dflat: input XML file does not exist
-restored 112 files
+found 112 activities
 
 Downloading sida-la from http://iati.openaid.se/xml/LA.xml
-curl: download ERROR 403
 Parsing sida-la from http://iati.openaid.se/xml/LA.xml
-dflat: input XML file does not exist
-restored 584 files
+found 586 activities
 
 Downloading sida-lb from http://iati.openaid.se/xml/LB.xml
-curl: download ERROR 403
 Parsing sida-lb from http://iati.openaid.se/xml/LB.xml
-dflat: input XML file does not exist
-restored 504 files
+found 505 activities
 
 Downloading sida-lk from http://iati.openaid.se/xml/LK.xml
-curl: download ERROR 403
 Parsing sida-lk from http://iati.openaid.se/xml/LK.xml
-dflat: input XML file does not exist
-restored 1078 files
+found 1078 activities
 
 Downloading sida-lr from http://iati.openaid.se/xml/LR.xml
-curl: download ERROR 403
 Parsing sida-lr from http://iati.openaid.se/xml/LR.xml
-dflat: input XML file does not exist
-restored 757 files
+found 760 activities
 
 Downloading sida-ls from http://iati.openaid.se/xml/LS.xml
-curl: download ERROR 403
 Parsing sida-ls from http://iati.openaid.se/xml/LS.xml
-dflat: input XML file does not exist
-restored 61 files
+found 61 activities
 
 Downloading sida-lt from http://iati.openaid.se/xml/LT.xml
-curl: download ERROR 403
 Parsing sida-lt from http://iati.openaid.se/xml/LT.xml
-dflat: input XML file does not exist
-restored 234 files
+found 234 activities
 
 Downloading sida-lv from http://iati.openaid.se/xml/LV.xml
-curl: download ERROR 403
 Parsing sida-lv from http://iati.openaid.se/xml/LV.xml
-dflat: input XML file does not exist
-restored 242 files
+found 242 activities
 
 Downloading sida-ly from http://iati.openaid.se/xml/LY.xml
-curl: download ERROR 403
 Parsing sida-ly from http://iati.openaid.se/xml/LY.xml
-dflat: input XML file does not exist
-restored 103 files
+found 103 activities
 
 Downloading sida-ma from http://iati.openaid.se/xml/MA.xml
-curl: download ERROR 403
 Parsing sida-ma from http://iati.openaid.se/xml/MA.xml
-dflat: input XML file does not exist
-restored 146 files
+found 146 activities
 
 Downloading sida-md from http://iati.openaid.se/xml/MD.xml
-curl: download ERROR 403
 Parsing sida-md from http://iati.openaid.se/xml/MD.xml
-dflat: input XML file does not exist
-restored 813 files
+found 814 activities
 
 Downloading sida-me from http://iati.openaid.se/xml/ME.xml
-curl: download ERROR 403
 Parsing sida-me from http://iati.openaid.se/xml/ME.xml
-dflat: input XML file does not exist
-restored 198 files
+found 198 activities
 
 Downloading sida-mg from http://iati.openaid.se/xml/MG.xml
-curl: download ERROR 403
 Parsing sida-mg from http://iati.openaid.se/xml/MG.xml
-dflat: input XML file does not exist
-restored 95 files
+found 95 activities
 
 Downloading sida-mh from http://iati.openaid.se/xml/MH.xml
-curl: download ERROR 403
 Parsing sida-mh from http://iati.openaid.se/xml/MH.xml
-dflat: input XML file does not exist
-restored 1 files
+found 1 activities
 
 Downloading sida-mk from http://iati.openaid.se/xml/MK.xml
-curl: download ERROR 403
 Parsing sida-mk from http://iati.openaid.se/xml/MK.xml
-dflat: input XML file does not exist
-restored 563 files
+found 563 activities
 
 Downloading sida-ml from http://iati.openaid.se/xml/ML.xml
-curl: download ERROR 403
 Parsing sida-ml from http://iati.openaid.se/xml/ML.xml
-dflat: input XML file does not exist
-restored 878 files
+found 881 activities
 
 Downloading sida-mm from http://iati.openaid.se/xml/MM.xml
-curl: download ERROR 403
 Parsing sida-mm from http://iati.openaid.se/xml/MM.xml
-dflat: input XML file does not exist
-restored 604 files
+found 609 activities
 
 Downloading sida-mn from http://iati.openaid.se/xml/MN.xml
-curl: download ERROR 403
 Parsing sida-mn from http://iati.openaid.se/xml/MN.xml
-dflat: input XML file does not exist
-restored 168 files
+found 168 activities
 
 Downloading sida-mr from http://iati.openaid.se/xml/MR.xml
-curl: download ERROR 403
 Parsing sida-mr from http://iati.openaid.se/xml/MR.xml
-dflat: input XML file does not exist
-restored 218 files
+found 218 activities
 
 Downloading sida-mu from http://iati.openaid.se/xml/MU.xml
-curl: download ERROR 403
 Parsing sida-mu from http://iati.openaid.se/xml/MU.xml
-dflat: input XML file does not exist
-restored 25 files
+found 25 activities
 
 Downloading sida-mv from http://iati.openaid.se/xml/MV.xml
-curl: download ERROR 403
 Parsing sida-mv from http://iati.openaid.se/xml/MV.xml
-dflat: input XML file does not exist
-restored 15 files
+found 15 activities
 
 Downloading sida-mw from http://iati.openaid.se/xml/MW.xml
-curl: download ERROR 403
 Parsing sida-mw from http://iati.openaid.se/xml/MW.xml
-dflat: input XML file does not exist
-restored 388 files
+found 390 activities
 
 Downloading sida-mx from http://iati.openaid.se/xml/MX.xml
-curl: download ERROR 403
 Parsing sida-mx from http://iati.openaid.se/xml/MX.xml
-dflat: input XML file does not exist
-restored 150 files
+found 152 activities
 
 Downloading sida-my from http://iati.openaid.se/xml/MY.xml
-curl: download ERROR 403
 Parsing sida-my from http://iati.openaid.se/xml/MY.xml
-dflat: input XML file does not exist
-restored 110 files
+found 111 activities
 
 Downloading sida-mz from http://iati.openaid.se/xml/MZ.xml
-curl: download ERROR 403
 Parsing sida-mz from http://iati.openaid.se/xml/MZ.xml
-dflat: input XML file does not exist
-restored 2095 files
+found 2100 activities
 
 Downloading sida-na from http://iati.openaid.se/xml/NA.xml
-curl: download ERROR 403
 Parsing sida-na from http://iati.openaid.se/xml/NA.xml
-dflat: input XML file does not exist
-restored 757 files
+found 757 activities
 
 Downloading sida-ne from http://iati.openaid.se/xml/NE.xml
-curl: download ERROR 403
 Parsing sida-ne from http://iati.openaid.se/xml/NE.xml
-dflat: input XML file does not exist
-restored 224 files
+found 224 activities
 
 Downloading sida-ng from http://iati.openaid.se/xml/NG.xml
-curl: download ERROR 403
 Parsing sida-ng from http://iati.openaid.se/xml/NG.xml
-dflat: input XML file does not exist
-restored 405 files
+found 411 activities
 
 Downloading sida-ni from http://iati.openaid.se/xml/NI.xml
-curl: download ERROR 403
 Parsing sida-ni from http://iati.openaid.se/xml/NI.xml
-dflat: input XML file does not exist
-restored 1358 files
+found 1358 activities
 
 Downloading sida-np from http://iati.openaid.se/xml/NP.xml
-curl: download ERROR 403
 Parsing sida-np from http://iati.openaid.se/xml/NP.xml
-dflat: input XML file does not exist
-restored 526 files
+found 528 activities
 
 Downloading sida-org from https://iati.openaid.se/other/sweden-organisation.xml
-curl: download ERROR 403
 Parsing sida-org from https://iati.openaid.se/other/sweden-organisation.xml
-dflat: input XML file does not exist
-restored 1 files
+found 1 organisations
 
 Downloading sida-palau from http://iati.openaid.se/xml/PW.xml
-curl: download ERROR 403
 Parsing sida-palau from http://iati.openaid.se/xml/PW.xml
-dflat: input XML file does not exist
-restored 2 files
+found 2 activities
 
 Downloading sida-pa from http://iati.openaid.se/xml/PA.xml
-curl: download ERROR 403
 Parsing sida-pa from http://iati.openaid.se/xml/PA.xml
-dflat: input XML file does not exist
-restored 35 files
+found 35 activities
 
 Downloading sida-pe from http://iati.openaid.se/xml/PE.xml
-curl: download ERROR 403
 Parsing sida-pe from http://iati.openaid.se/xml/PE.xml
-dflat: input XML file does not exist
-restored 629 files
+found 629 activities
 
 Downloading sida-pg from http://iati.openaid.se/xml/PG.xml
-curl: download ERROR 403
 Parsing sida-pg from http://iati.openaid.se/xml/PG.xml
-dflat: input XML file does not exist
-restored 65 files
+found 65 activities
 
 Downloading sida-ph from http://iati.openaid.se/xml/PH.xml
-curl: download ERROR 403
 Parsing sida-ph from http://iati.openaid.se/xml/PH.xml
-dflat: input XML file does not exist
-restored 662 files
+found 664 activities
 
 Downloading sida-pk from http://iati.openaid.se/xml/PK.xml
-curl: download ERROR 403
 Parsing sida-pk from http://iati.openaid.se/xml/PK.xml
-dflat: input XML file does not exist
-restored 606 files
+found 607 activities
 
 Downloading sida-pl from http://iati.openaid.se/xml/PL.xml
-curl: download ERROR 403
 Parsing sida-pl from http://iati.openaid.se/xml/PL.xml
-dflat: input XML file does not exist
-restored 119 files
+found 119 activities
 
 Downloading sida-ps from http://iati.openaid.se/xml/PS.xml
-curl: download ERROR 403
 Parsing sida-ps from http://iati.openaid.se/xml/PS.xml
-dflat: input XML file does not exist
-restored 1596 files
+found 1597 activities
 
 Downloading sida-py from http://iati.openaid.se/xml/PY.xml
-curl: download ERROR 403
 Parsing sida-py from http://iati.openaid.se/xml/PY.xml
-dflat: input XML file does not exist
-restored 259 files
+found 259 activities
 
 Downloading sida-ro from http://iati.openaid.se/xml/RO.xml
-curl: download ERROR 403
 Parsing sida-ro from http://iati.openaid.se/xml/RO.xml
-dflat: input XML file does not exist
-restored 22 files
+found 22 activities
 
 Downloading sida-rs from http://iati.openaid.se/xml/RS.xml
-curl: download ERROR 403
 Parsing sida-rs from http://iati.openaid.se/xml/RS.xml
-dflat: input XML file does not exist
-restored 1022 files
+found 1025 activities
 
 Downloading sida-ru from http://iati.openaid.se/xml/RU.xml
-curl: download ERROR 403
 Parsing sida-ru from http://iati.openaid.se/xml/RU.xml
-dflat: input XML file does not exist
-restored 683 files
+found 749 activities
 
 Downloading sida-rw from http://iati.openaid.se/xml/RW.xml
-curl: download ERROR 403
 Parsing sida-rw from http://iati.openaid.se/xml/RW.xml
-dflat: input XML file does not exist
-restored 861 files
+found 862 activities
 
 Downloading sida-saintlucia from http://iati.openaid.se/xml/LC.xml
-curl: download ERROR 403
 Parsing sida-saintlucia from http://iati.openaid.se/xml/LC.xml
-dflat: input XML file does not exist
-restored 4 files
+found 4 activities
 
 Downloading sida-sb from http://iati.openaid.se/xml/SB.xml
-curl: download ERROR 403
 Parsing sida-sb from http://iati.openaid.se/xml/SB.xml
-dflat: input XML file does not exist
-restored 8 files
+found 8 activities
 
 Downloading sida-sc from http://iati.openaid.se/xml/SC.xml
-curl: download ERROR 403
 Parsing sida-sc from http://iati.openaid.se/xml/SC.xml
-dflat: input XML file does not exist
-restored 2 files
+found 3 activities
 
 Downloading sida-sd from http://iati.openaid.se/xml/SD.xml
-curl: download ERROR 403
 Parsing sida-sd from http://iati.openaid.se/xml/SD.xml
-dflat: input XML file does not exist
-restored 890 files
+found 893 activities
 
 Downloading sida-si from http://iati.openaid.se/xml/SI.xml
-curl: download ERROR 403
 Parsing sida-si from http://iati.openaid.se/xml/SI.xml
-dflat: input XML file does not exist
-restored 6 files
+found 6 activities
 
 Downloading sida-sk from http://iati.openaid.se/xml/SK.xml
-curl: download ERROR 403
 Parsing sida-sk from http://iati.openaid.se/xml/SK.xml
-dflat: input XML file does not exist
-restored 12 files
+found 12 activities
 
 Downloading sida-sl from http://iati.openaid.se/xml/SL.xml
-curl: download ERROR 403
 Parsing sida-sl from http://iati.openaid.se/xml/SL.xml
-dflat: input XML file does not exist
-restored 280 files
+found 280 activities
 
 Downloading sida-sn from http://iati.openaid.se/xml/SN.xml
-curl: download ERROR 403
 Parsing sida-sn from http://iati.openaid.se/xml/SN.xml
-dflat: input XML file does not exist
-restored 242 files
+found 245 activities
 
 Downloading sida-so from http://iati.openaid.se/xml/SO.xml
-curl: download ERROR 403
 Parsing sida-so from http://iati.openaid.se/xml/SO.xml
-dflat: input XML file does not exist
-restored 869 files
+found 874 activities
 
 Downloading sida-ss from http://iati.openaid.se/xml/SS.xml
-curl: download ERROR 403
 Parsing sida-ss from http://iati.openaid.se/xml/SS.xml
-dflat: input XML file does not exist
-restored 344 files
+found 352 activities
 
 Downloading sida-st from http://iati.openaid.se/xml/ST.xml
-curl: download ERROR 403
 Parsing sida-st from http://iati.openaid.se/xml/ST.xml
-dflat: input XML file does not exist
-restored 22 files
+found 22 activities
 
 Downloading sida-sv from http://iati.openaid.se/xml/SV.xml
-curl: download ERROR 403
 Parsing sida-sv from http://iati.openaid.se/xml/SV.xml
-dflat: input XML file does not exist
-restored 536 files
+found 536 activities
 
 Downloading sida-sy from http://iati.openaid.se/xml/SY.xml
-curl: download ERROR 403
 Parsing sida-sy from http://iati.openaid.se/xml/SY.xml
-dflat: input XML file does not exist
-restored 382 files
+found 382 activities
 
 Downloading sida-sz from http://iati.openaid.se/xml/SZ.xml
-curl: download ERROR 403
 Parsing sida-sz from http://iati.openaid.se/xml/SZ.xml
-dflat: input XML file does not exist
-restored 78 files
+found 78 activities
 
 Downloading sida-td from http://iati.openaid.se/xml/TD.xml
-curl: download ERROR 403
 Parsing sida-td from http://iati.openaid.se/xml/TD.xml
-dflat: input XML file does not exist
-restored 306 files
+found 308 activities
 
 Downloading sida-tg from http://iati.openaid.se/xml/TG.xml
-curl: download ERROR 403
 Parsing sida-tg from http://iati.openaid.se/xml/TG.xml
-dflat: input XML file does not exist
-restored 311 files
+found 311 activities
 
 Downloading sida-th from http://iati.openaid.se/xml/TH.xml
-curl: download ERROR 403
 Parsing sida-th from http://iati.openaid.se/xml/TH.xml
-dflat: input XML file does not exist
-restored 576 files
+found 576 activities
 
 Downloading sida-tj from http://iati.openaid.se/xml/TJ.xml
-curl: download ERROR 403
 Parsing sida-tj from http://iati.openaid.se/xml/TJ.xml
-dflat: input XML file does not exist
-restored 169 files
+found 169 activities
 
 Downloading sida-tl from http://iati.openaid.se/xml/TL.xml
-curl: download ERROR 403
 Parsing sida-tl from http://iati.openaid.se/xml/TL.xml
-dflat: input XML file does not exist
-restored 158 files
+found 158 activities
 
 Downloading sida-tm from http://iati.openaid.se/xml/TM.xml
-curl: download ERROR 403
 Parsing sida-tm from http://iati.openaid.se/xml/TM.xml
-dflat: input XML file does not exist
-restored 4 files
+found 4 activities
 
 Downloading sida-tn from http://iati.openaid.se/xml/TN.xml
-curl: download ERROR 403
 Parsing sida-tn from http://iati.openaid.se/xml/TN.xml
-dflat: input XML file does not exist
-restored 233 files
+found 233 activities
 
 Downloading sida-to from http://iati.openaid.se/xml/TO.xml
-curl: download ERROR 403
 Parsing sida-to from http://iati.openaid.se/xml/TO.xml
-dflat: input XML file does not exist
-restored 3 files
+found 3 activities
 
 Downloading sida-tr from http://iati.openaid.se/xml/TR.xml
-curl: download ERROR 403
 Parsing sida-tr from http://iati.openaid.se/xml/TR.xml
-dflat: input XML file does not exist
-restored 631 files
+found 659 activities
 
 Downloading sida-tw from http://iati.openaid.se/xml/TW.xml
-curl: download ERROR 403
 Parsing sida-tw from http://iati.openaid.se/xml/TW.xml
-dflat: input XML file does not exist
-restored 1 files
+found 1 activities
 
 Downloading sida-tz from http://iati.openaid.se/xml/TZ.xml
-curl: download ERROR 403
 Parsing sida-tz from http://iati.openaid.se/xml/TZ.xml
-dflat: input XML file does not exist
-restored 2790 files
+found 2796 activities
 
 Downloading sida-ua from http://iati.openaid.se/xml/UA.xml
-curl: download ERROR 403
 Parsing sida-ua from http://iati.openaid.se/xml/UA.xml
-dflat: input XML file does not exist
-restored 1062 files
+found 1066 activities
 
 Downloading sida-ug from http://iati.openaid.se/xml/UG.xml
-curl: download ERROR 403
 Parsing sida-ug from http://iati.openaid.se/xml/UG.xml
-dflat: input XML file does not exist
-restored 1834 files
+found 1838 activities
 
 Downloading sida-uy from http://iati.openaid.se/xml/UY.xml
-curl: download ERROR 403
 Parsing sida-uy from http://iati.openaid.se/xml/UY.xml
-dflat: input XML file does not exist
-restored 66 files
+found 66 activities
 
 Downloading sida-uz from http://iati.openaid.se/xml/UZ.xml
-curl: download ERROR 403
 Parsing sida-uz from http://iati.openaid.se/xml/UZ.xml
-dflat: input XML file does not exist
-restored 96 files
+found 96 activities
 
 Downloading sida-ve from http://iati.openaid.se/xml/VE.xml
-curl: download ERROR 403
 Parsing sida-ve from http://iati.openaid.se/xml/VE.xml
-dflat: input XML file does not exist
-restored 115 files
+found 115 activities
 
 Downloading sida-vn from http://iati.openaid.se/xml/VN.xml
-curl: download ERROR 403
 Parsing sida-vn from http://iati.openaid.se/xml/VN.xml
-dflat: input XML file does not exist
-restored 1575 files
+found 1577 activities
 
 Downloading sida-vu from http://iati.openaid.se/xml/VU.xml
-curl: download ERROR 403
 Parsing sida-vu from http://iati.openaid.se/xml/VU.xml
-dflat: input XML file does not exist
-restored 9 files
+found 9 activities
 
 Downloading sida-ws from http://iati.openaid.se/xml/WS.xml
-curl: download ERROR 403
 Parsing sida-ws from http://iati.openaid.se/xml/WS.xml
-dflat: input XML file does not exist
-restored 15 files
+found 15 activities
 
 Downloading sida-xk from http://iati.openaid.se/xml/XK.xml
-curl: download ERROR 403
 Parsing sida-xk from http://iati.openaid.se/xml/XK.xml
-dflat: input XML file does not exist
-restored 843 files
+found 844 activities
 
 Downloading sida-ye from http://iati.openaid.se/xml/YE.xml
-curl: download ERROR 403
 Parsing sida-ye from http://iati.openaid.se/xml/YE.xml
-dflat: input XML file does not exist
-restored 358 files
+found 359 activities
 
 Downloading sida-za from http://iati.openaid.se/xml/ZA.xml
-curl: download ERROR 403
 Parsing sida-za from http://iati.openaid.se/xml/ZA.xml
-dflat: input XML file does not exist
-restored 2003 files
+found 2003 activities
 
 Downloading sida-zm from http://iati.openaid.se/xml/ZM.xml
-curl: download ERROR 403
 Parsing sida-zm from http://iati.openaid.se/xml/ZM.xml
-dflat: input XML file does not exist
-restored 1602 files
+found 1604 activities
 
 Downloading sida-zw from http://iati.openaid.se/xml/ZW.xml
-curl: download ERROR 403
 Parsing sida-zw from http://iati.openaid.se/xml/ZW.xml
-dflat: input XML file does not exist
-restored 1803 files
+found 1807 activities
 
 Downloading signal-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/signal-activities.xml
 Parsing signal-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/signal-activities.xml
@@ -29952,13 +29596,11 @@ found 45 activities
 
 Downloading solidaridad-europe-org from https://sites.google.com/a/solidaridadnetwork.org/iati-publications/iati-datasets/europe/Solidaridad-Europe-org.xml
 Parsing solidaridad-europe-org from https://sites.google.com/a/solidaridadnetwork.org/iati-publications/iati-datasets/europe/Solidaridad-Europe-org.xml
-dflat: input XML file does not exist
-restored 1 files
+found 1 organisations
 
 Downloading solidaridad-org from http://iati-publications.solidaridadnetwork.org/home/solidaridad-datasets/Solidaridad-org.xml
 Parsing solidaridad-org from http://iati-publications.solidaridadnetwork.org/home/solidaridad-datasets/Solidaridad-org.xml
-dflat: input XML file does not exist
-restored 1 files
+found 1 organisations
 
 Downloading solidaridad-solidaridadhistoricalactivities from https://files.aida.tools/activities/NL-KVK-51756811/c94a5cf8-439e-49d9-a471-8cb1988e1a2f/solidaridadhistoricalactivities.xml
 Parsing solidaridad-solidaridadhistoricalactivities from https://files.aida.tools/activities/NL-KVK-51756811/c94a5cf8-439e-49d9-a471-8cb1988e1a2f/solidaridadhistoricalactivities.xml
@@ -29974,8 +29616,7 @@ found 29 activities
 
 Downloading solidaridad-ssea-org from https://sites.google.com/a/solidaridadnetwork.org/iati-publications/iati-datasets/south-south-east-asia/Solidaridad-South-and-South-East-Asia.xml
 Parsing solidaridad-ssea-org from https://sites.google.com/a/solidaridadnetwork.org/iati-publications/iati-datasets/south-south-east-asia/Solidaridad-South-and-South-East-Asia.xml
-dflat: invalid XML format
-restored 1 files
+found 1 organisations
 
 Downloading solidaridad-waf-activity from https://files.aida.tools/activities/NL-KVK-51756811/direct-upload/gh-dsw-5574.xml
 Parsing solidaridad-waf-activity from https://files.aida.tools/activities/NL-KVK-51756811/direct-upload/gh-dsw-5574.xml
@@ -29983,8 +29624,7 @@ found 17 activities
 
 Downloading solidaridad-waf-org from https://sites.google.com/a/solidaridadnetwork.org/iati-publications/iati-datasets/west-africa/Solidaridad-West-Africa.xml
 Parsing solidaridad-waf-org from https://sites.google.com/a/solidaridadnetwork.org/iati-publications/iati-datasets/west-africa/Solidaridad-West-Africa.xml
-dflat: input XML file does not exist
-restored 1 files
+found 1 organisations
 
 Downloading solidarites-international-1028 from https://aidstream.s3.us-west-2.amazonaws.com/xml/solidarites-international-1028.xml
 Parsing solidarites-international-1028 from https://aidstream.s3.us-west-2.amazonaws.com/xml/solidarites-international-1028.xml
@@ -38138,7 +37778,7 @@ found 113 activities
 
 Downloading unocha-cbpf-syriacrossborder-allocation-2023 from https://cbpfapi.unocha.org/iati/iati/70/2023/GetAllocation.xml
 Parsing unocha-cbpf-syriacrossborder-allocation-2023 from https://cbpfapi.unocha.org/iati/iati/70/2023/GetAllocation.xml
-found 104 activities
+found 107 activities
 
 Downloading unocha-cbpf-syriacrossborder-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/70/2024/GetAllocation.xml
 Parsing unocha-cbpf-syriacrossborder-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/70/2024/GetAllocation.xml
@@ -38246,7 +37886,7 @@ found 63 activities
 
 Downloading unocha-cbpf-ukraine-contribution-2023 from https://cbpfapi.unocha.org/iati/iati/81/2023/GetContribution.xml
 Parsing unocha-cbpf-ukraine-contribution-2023 from https://cbpfapi.unocha.org/iati/iati/81/2023/GetContribution.xml
-found 17 activities
+found 18 activities
 
 Downloading unocha-cbpf-ukraine-contribution-2024 from https://cbpfapi.unocha.org/iati/iati/81/2024/GetContribution.xml
 Parsing unocha-cbpf-ukraine-contribution-2024 from https://cbpfapi.unocha.org/iati/iati/81/2024/GetContribution.xml
@@ -42083,8 +41723,10 @@ Parsing wbtf-tf071597 from https://d2mxkr7359ifh6.cloudfront.net/TF071597.xml
 found 1 activities
 
 Downloading wbtf-tf071611 from https://d2mxkr7359ifh6.cloudfront.net/TF071611.xml
+curl: download ERROR 000
 Parsing wbtf-tf071611 from https://d2mxkr7359ifh6.cloudfront.net/TF071611.xml
-found 2 activities
+dflat: input XML file does not exist
+restored 2 files
 
 Downloading wbtf-tf071612 from https://d2mxkr7359ifh6.cloudfront.net/TF071612.xml
 Parsing wbtf-tf071612 from https://d2mxkr7359ifh6.cloudfront.net/TF071612.xml
@@ -42255,8 +41897,10 @@ Parsing wbtf-tf071935 from https://d2mxkr7359ifh6.cloudfront.net/TF071935.xml
 found 2 activities
 
 Downloading wbtf-tf071946 from https://d2mxkr7359ifh6.cloudfront.net/TF071946.xml
+curl: download ERROR 000
 Parsing wbtf-tf071946 from https://d2mxkr7359ifh6.cloudfront.net/TF071946.xml
-found 2 activities
+dflat: input XML file does not exist
+restored 2 files
 
 Downloading wbtf-tf071947 from https://d2mxkr7359ifh6.cloudfront.net/TF071947.xml
 Parsing wbtf-tf071947 from https://d2mxkr7359ifh6.cloudfront.net/TF071947.xml
@@ -44207,8 +43851,10 @@ Parsing worldbank-ht from http://doumodqax2qi2.cloudfront.net/IATI-05-2023/WB-HT
 found 38 activities
 
 Downloading worldbank-id from http://doumodqax2qi2.cloudfront.net/IATI-05-2023/WB-ID.xml
+curl: download ERROR 000
 Parsing worldbank-id from http://doumodqax2qi2.cloudfront.net/IATI-05-2023/WB-ID.xml
-found 71 activities
+dflat: input XML file does not exist
+restored 71 files
 
 Downloading worldbank-in from http://doumodqax2qi2.cloudfront.net/IATI-05-2023/WB-IN.xml
 Parsing worldbank-in from http://doumodqax2qi2.cloudfront.net/IATI-05-2023/WB-IN.xml
@@ -44536,7 +44182,8 @@ found 18 activities
 
 Downloading worldbank-ye from http://doumodqax2qi2.cloudfront.net/IATI-05-2023/WB-YE.xml
 Parsing worldbank-ye from http://doumodqax2qi2.cloudfront.net/IATI-05-2023/WB-YE.xml
-found 41 activities
+dflat: invalid XML format
+restored 41 files
 
 Downloading worldbank-za from http://doumodqax2qi2.cloudfront.net/IATI-05-2023/WB-ZA.xml
 Parsing worldbank-za from http://doumodqax2qi2.cloudfront.net/IATI-05-2023/WB-ZA.xml
