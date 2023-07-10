@@ -212,9 +212,9 @@ Parsing aas-300781-105 from https://aidstream.s3.amazonaws.com/xml/aas-activitie
 found 1 activities
 
 Downloading aasaman-gec from https://www.vsointernational.org/sites/default/files/aasaman_gec.xml
-Converting IATI activities version 1.03 to version 2.03
 Parsing aasaman-gec from https://www.vsointernational.org/sites/default/files/aasaman_gec.xml
-found 1 activities
+dflat: input XML file does not exist
+restored 1 files
 
 Downloading aas-org from https://aidstream.s3.amazonaws.com/xml/aas-org.xml
 Parsing aas-org from https://aidstream.s3.amazonaws.com/xml/aas-org.xml
@@ -7082,8 +7082,9 @@ Parsing cif-ws from http://doumodqax2qi2.cloudfront.net/CIF/CIF-05-2020/CIF-WS.x
 found 2 activities
 
 Downloading cif-ye from http://siteresources.worldbank.org/IATI/CIF/CIF-YE.xml
+curl: download ERROR 404
 Parsing cif-ye from http://siteresources.worldbank.org/IATI/CIF/CIF-YE.xml
-dflat: invalid XML format
+dflat: input XML file does not exist
 restored 0 files
 
 Downloading cif-za from http://doumodqax2qi2.cloudfront.net/CIF/CIF-05-2020/CIF-ZA.xml
@@ -16667,7 +16668,7 @@ found 1 organisations
 
 Downloading globalgiving-activity from http://www.globalgiving.org/iati/activities.xml
 Parsing globalgiving-activity from http://www.globalgiving.org/iati/activities.xml
-found 26260 activities
+found 26261 activities
 
 Downloading globalgiving-org from http://www.globalgiving.org/iati/organisations.xml
 Parsing globalgiving-org from http://www.globalgiving.org/iati/organisations.xml
@@ -18958,7 +18959,7 @@ found 15 activities
 
 Downloading ifad-activitity-br from https://webapps.ifad.org/iati/ifad_br_activities.xml
 Parsing ifad-activitity-br from https://webapps.ifad.org/iati/ifad_br_activities.xml
-found 14 activities
+found 15 activities
 
 Downloading ifad-activitity-bt from https://webapps.ifad.org/iati/ifad_bt_activities.xml
 Parsing ifad-activitity-bt from https://webapps.ifad.org/iati/ifad_bt_activities.xml
@@ -25717,19 +25718,6 @@ found 79 activities
 
 Downloading openmindedly-gg12 from http://iati.openmindedly.com/GG-OAC-2012.xml
 Converting IATI activities version 1.03 to version 2.03
-./iati-activities.xsl:62: parser error : AttValue: ' expected
-                    <xsl:for-each select="participatin
-                                                      ^
-./iati-activities.xsl:62: parser error : attributes construct error
-                    <xsl:for-each select="participatin
-                                                      ^
-./iati-activities.xsl:62: parser error : Couldn't find end of Start Tag for-each line 62
-                    <xsl:for-each select="participatin
-                                                      ^
-./iati-activities.xsl:62: parser error : Premature end of data in tag iati-activity line 11
-                    <xsl:for-each select="participatin
-                                                      ^
-cannot parse ./iati-activities.xsl
 Parsing openmindedly-gg12 from http://iati.openmindedly.com/GG-OAC-2012.xml
 found 86 activities
 
