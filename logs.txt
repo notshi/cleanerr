@@ -212,9 +212,9 @@ Parsing aas-300781-105 from https://aidstream.s3.amazonaws.com/xml/aas-activitie
 found 1 activities
 
 Downloading aasaman-gec from https://www.vsointernational.org/sites/default/files/aasaman_gec.xml
+Converting IATI activities version 1.03 to version 2.03
 Parsing aasaman-gec from https://www.vsointernational.org/sites/default/files/aasaman_gec.xml
-dflat: input XML file does not exist
-restored 1 files
+found 1 activities
 
 Downloading aas-org from https://aidstream.s3.amazonaws.com/xml/aas-org.xml
 Parsing aas-org from https://aidstream.s3.amazonaws.com/xml/aas-org.xml
@@ -4618,7 +4618,7 @@ found 146 activities
 
 Downloading be-dgd-2021_4 from http://diplomatie.be/oda/IATI_2023_4.xml
 Parsing be-dgd-2021_4 from http://diplomatie.be/oda/IATI_2023_4.xml
-found 371 activities
+found 374 activities
 
 Downloading be-dgd-org2020-2024 from http://diplomatie.be/oda/XM-DAC-10-2-orgfileNov2021.xml
 Parsing be-dgd-org2020-2024 from http://diplomatie.be/oda/XM-DAC-10-2-orgfileNov2021.xml
@@ -6841,8 +6841,9 @@ Parsing cidr-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/ci
 found 1 activities
 
 Downloading cif-389 from http://siteresources.worldbank.org/IATI/CIF/CIF-389.xml
+curl: download ERROR 404
 Parsing cif-389 from http://siteresources.worldbank.org/IATI/CIF/CIF-389.xml
-dflat: invalid XML format
+dflat: input XML file does not exist
 restored 0 files
 
 Downloading cif-889 from http://siteresources.worldbank.org/IATI/CIF/CIF-889.xml
@@ -7082,9 +7083,8 @@ Parsing cif-ws from http://doumodqax2qi2.cloudfront.net/CIF/CIF-05-2020/CIF-WS.x
 found 2 activities
 
 Downloading cif-ye from http://siteresources.worldbank.org/IATI/CIF/CIF-YE.xml
-curl: download ERROR 404
 Parsing cif-ye from http://siteresources.worldbank.org/IATI/CIF/CIF-YE.xml
-dflat: input XML file does not exist
+dflat: invalid XML format
 restored 0 files
 
 Downloading cif-za from http://doumodqax2qi2.cloudfront.net/CIF/CIF-05-2020/CIF-ZA.xml
@@ -8018,7 +8018,7 @@ found 1 organisations
 
 Downloading dca-activities from https://iatipublisher-prod.s3.amazonaws.com/xml/mergedActivityXml/dca-activities.xml
 Parsing dca-activities from https://iatipublisher-prod.s3.amazonaws.com/xml/mergedActivityXml/dca-activities.xml
-found 652 activities
+found 658 activities
 
 Downloading dc-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/dc-activities.xml
 Parsing dc-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/dc-activities.xml
@@ -15547,8 +15547,10 @@ Parsing ftc-kenya from https://iati-reporting.s3.amazonaws.com/federal_trade_com
 found 2 activities
 
 Downloading ftc-latinamericaregion from https://iati-reporting.s3.amazonaws.com/federal_trade_commission/xml/iati-activities-Latin%20America%20Region.xml
+curl: download ERROR 000
 Parsing ftc-latinamericaregion from https://iati-reporting.s3.amazonaws.com/federal_trade_commission/xml/iati-activities-Latin%20America%20Region.xml
-found 1 activities
+dflat: input XML file does not exist
+restored 1 files
 
 Downloading ftc-lithuania from https://iati-reporting.s3.amazonaws.com/federal_trade_commission/xml/iati-activities-Lithuania.xml
 Parsing ftc-lithuania from https://iati-reporting.s3.amazonaws.com/federal_trade_commission/xml/iati-activities-Lithuania.xml
@@ -16668,7 +16670,7 @@ found 1 organisations
 
 Downloading globalgiving-activity from http://www.globalgiving.org/iati/activities.xml
 Parsing globalgiving-activity from http://www.globalgiving.org/iati/activities.xml
-found 26261 activities
+found 26265 activities
 
 Downloading globalgiving-org from http://www.globalgiving.org/iati/organisations.xml
 Parsing globalgiving-org from http://www.globalgiving.org/iati/organisations.xml
@@ -20735,7 +20737,7 @@ found 272 activities
 
 Downloading interpeace-activity from https://www.interpeace.org/wp-content/uploads/iati/IATI-activities.xml
 Parsing interpeace-activity from https://www.interpeace.org/wp-content/uploads/iati/IATI-activities.xml
-found 104 activities
+found 109 activities
 
 Downloading interpeace-org from https://www.interpeace.org/wp-content/uploads/iati/Interpeace-Org.xml
 Parsing interpeace-org from https://www.interpeace.org/wp-content/uploads/iati/Interpeace-Org.xml
@@ -24406,8 +24408,10 @@ Parsing millenniumchallenge-org from https://inventory.data.gov/dataset/d4b25051
 found 1 organisations
 
 Downloading millenniumchallenge-ph from https://inventory.data.gov/dataset/d4b25051-0bf8-4dd1-8c06-bbed2e4bb193/resource/c99e490c-db3f-4356-947f-149161ce0e97/download/mcc_ph.xml
+curl: download ERROR 000
 Parsing millenniumchallenge-ph from https://inventory.data.gov/dataset/d4b25051-0bf8-4dd1-8c06-bbed2e4bb193/resource/c99e490c-db3f-4356-947f-149161ce0e97/download/mcc_ph.xml
-found 123 activities
+dflat: input XML file does not exist
+restored 123 files
 
 Downloading millenniumchallenge-rw from https://inventory.data.gov/dataset/d4b25051-0bf8-4dd1-8c06-bbed2e4bb193/resource/c1a9e856-8072-49f6-a3d6-ef14bb088ac3/download/mcc_rw.xml
 Parsing millenniumchallenge-rw from https://inventory.data.gov/dataset/d4b25051-0bf8-4dd1-8c06-bbed2e4bb193/resource/c1a9e856-8072-49f6-a3d6-ef14bb088ac3/download/mcc_rw.xml
@@ -28054,7 +28058,7 @@ found 1 organisations
 
 Downloading rvo-01 from https://projects.rvo.nl/opendata/iati.xml
 Parsing rvo-01 from https://projects.rvo.nl/opendata/iati.xml
-found 4222 activities
+found 4226 activities
 
 Downloading rvo-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/rvo-activities.xml
 Parsing rvo-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/rvo-activities.xml
@@ -31610,211 +31614,263 @@ found 1 organisations
 
 Downloading tib-bd-nab-1301-cfpi from https://www.ti-bangladesh.org/images/2020/iati/TIB-CFPI_Project-Updated_as_of_30_September_2020.xml
 Parsing tib-bd-nab-1301-cfpi from https://www.ti-bangladesh.org/images/2020/iati/TIB-CFPI_Project-Updated_as_of_30_September_2020.xml
-found 1 activities
+dflat: invalid XML format
+restored 1 files
 
 Downloading tib-bibc-dec-2020-iati from https://www.ti-bangladesh.org/images/2020/iati/TIB-BIBEC-Project-Updated-as-of-31-December-2020.xml
 Parsing tib-bibc-dec-2020-iati from https://www.ti-bangladesh.org/images/2020/iati/TIB-BIBEC-Project-Updated-as-of-31-December-2020.xml
-found 1 activities
+dflat: invalid XML format
+restored 1 files
 
 Downloading tib-bibc-december-2021-iati from https://www.ti-bangladesh.org/images/2021/iati/TIB-BIBEC-Project-Updated-as-of-31_December_2021.xml
 Parsing tib-bibc-december-2021-iati from https://www.ti-bangladesh.org/images/2021/iati/TIB-BIBEC-Project-Updated-as-of-31_December_2021.xml
-found 1 activities
+dflat: invalid XML format
+restored 1 files
 
 Downloading tib-bibc-iati from https://www.ti-bangladesh.org/images/2020/iati/TIB-BIBEC-Project-Updated-as-of-30_June_2020.xml
 Parsing tib-bibc-iati from https://www.ti-bangladesh.org/images/2020/iati/TIB-BIBEC-Project-Updated-as-of-30_June_2020.xml
-found 1 activities
+dflat: invalid XML format
+restored 1 files
 
 Downloading tib-bibc-june-2020-iati from https://www.ti-bangladesh.org/images/2020/iati/TIB-CFPI-Project-Updated-as-of-30-June-2020.xml
 Parsing tib-bibc-june-2020-iati from https://www.ti-bangladesh.org/images/2020/iati/TIB-CFPI-Project-Updated-as-of-30-June-2020.xml
-found 1 activities
+dflat: invalid XML format
+restored 1 files
 
 Downloading tib-bibc-june-2021-iati from https://www.ti-bangladesh.org/images/2021/iati/TIB-BIBEC-Project-Updated-as-of-30_June_2021.xml
 Parsing tib-bibc-june-2021-iati from https://www.ti-bangladesh.org/images/2021/iati/TIB-BIBEC-Project-Updated-as-of-30_June_2021.xml
-found 1 activities
+dflat: invalid XML format
+restored 1 files
 
 Downloading tib-bibc-march-2021-iati from https://www.ti-bangladesh.org/images/2021/iati/TIB-BIBEC-Project-Updated-as-of-31_March_2021.xml
 Parsing tib-bibc-march-2021-iati from https://www.ti-bangladesh.org/images/2021/iati/TIB-BIBEC-Project-Updated-as-of-31_March_2021.xml
-found 1 activities
+dflat: invalid XML format
+restored 1 files
 
 Downloading tib-bibc-march-2022-iati from https://www.ti-bangladesh.org/images/2022/iati/TIB-BIBEC-Project-Updated-as-of-31_March_2022.xml
 Parsing tib-bibc-march-2022-iati from https://www.ti-bangladesh.org/images/2022/iati/TIB-BIBEC-Project-Updated-as-of-31_March_2022.xml
-found 1 activities
+dflat: invalid XML format
+restored 1 files
 
 Downloading tib-bibc-sep-2020-iati from https://www.ti-bangladesh.org/images/2020/iati/TIB-BIBEC-Project-Updated-as-of-30_September_2020.xml
 Parsing tib-bibc-sep-2020-iati from https://www.ti-bangladesh.org/images/2020/iati/TIB-BIBEC-Project-Updated-as-of-30_September_2020.xml
-found 1 activities
+dflat: invalid XML format
+restored 1 files
 
 Downloading tib-bibc-september-2021-iati from https://www.ti-bangladesh.org/images/2021/iati/TIB-BIBEC-Project-Updated-as-of-30_September_2021.xml
 Parsing tib-bibc-september-2021-iati from https://www.ti-bangladesh.org/images/2021/iati/TIB-BIBEC-Project-Updated-as-of-30_September_2021.xml
-found 1 activities
+dflat: invalid XML format
+restored 1 files
 
 Downloading tib-bibec_09_2020_ from https://www.ti-bangladesh.org/images/2020/iati/TIB-BIBEC_Project-Updated_as_of_30_September_2020.xml
 Parsing tib-bibec_09_2020_ from https://www.ti-bangladesh.org/images/2020/iati/TIB-BIBEC_Project-Updated_as_of_30_September_2020.xml
-found 1 activities
+dflat: invalid XML format
+restored 1 files
 
 Downloading tib-bibec1 from https://www.ti-bangladesh.org/images/2019/iati/TIB-BIBEC_Project-Updated_as_of_31_December_2019.xml
 Parsing tib-bibec1 from https://www.ti-bangladesh.org/images/2019/iati/TIB-BIBEC_Project-Updated_as_of_31_December_2019.xml
-found 1 activities
+dflat: invalid XML format
+restored 1 files
 
 Downloading tib-bibec from https://www.ti-bangladesh.org/images/2019/iati/TIB-BIBEC_Project-Updated_as_of_30_September_2019.xml
 Parsing tib-bibec from https://www.ti-bangladesh.org/images/2019/iati/TIB-BIBEC_Project-Updated_as_of_30_September_2019.xml
-found 1 activities
+dflat: invalid XML format
+restored 1 files
 
 Downloading tib-cfpi1 from https://www.ti-bangladesh.org/images/2019/iati/TIB-CFPI_Project-Updated_as_of_31_December_2019.xml
 Parsing tib-cfpi1 from https://www.ti-bangladesh.org/images/2019/iati/TIB-CFPI_Project-Updated_as_of_31_December_2019.xml
-found 1 activities
+dflat: invalid XML format
+restored 1 files
 
 Downloading tib-cfpi-december-2020-iati from https://www.ti-bangladesh.org/images/2020/iati/TIB-CFPI-Project-Updated-as-of-31-December-2020.xml
 Parsing tib-cfpi-december-2020-iati from https://www.ti-bangladesh.org/images/2020/iati/TIB-CFPI-Project-Updated-as-of-31-December-2020.xml
-found 1 activities
+dflat: invalid XML format
+restored 1 files
 
 Downloading tib-cfpi-december-2021-iati from https://www.ti-bangladesh.org/images/2021/iati/TIB-CFPI-Project-Updated-as-of-31-December-2021.xml
 Parsing tib-cfpi-december-2021-iati from https://www.ti-bangladesh.org/images/2021/iati/TIB-CFPI-Project-Updated-as-of-31-December-2021.xml
-found 1 activities
+dflat: invalid XML format
+restored 1 files
 
 Downloading tib-cfpi-june-2021-iati from https://www.ti-bangladesh.org/images/2021/iati/TIB-CFPI-Project-Updated-as-of-30-June-2021.xml
 Parsing tib-cfpi-june-2021-iati from https://www.ti-bangladesh.org/images/2021/iati/TIB-CFPI-Project-Updated-as-of-30-June-2021.xml
-found 1 activities
+dflat: invalid XML format
+restored 1 files
 
 Downloading tib-cfpi-march-2021-iati from https://www.ti-bangladesh.org/images/2021/iati/TIB-CFPI-Project-Updated-as-of-31-March-2021.xml
 Parsing tib-cfpi-march-2021-iati from https://www.ti-bangladesh.org/images/2021/iati/TIB-CFPI-Project-Updated-as-of-31-March-2021.xml
-found 1 activities
+dflat: invalid XML format
+restored 1 files
 
 Downloading tib-cfpi-march-2022-iati from https://www.ti-bangladesh.org/images/2022/iati/TIB-CFPI-Project-Updated-as-of-31-March-2022.xml
 Parsing tib-cfpi-march-2022-iati from https://www.ti-bangladesh.org/images/2022/iati/TIB-CFPI-Project-Updated-as-of-31-March-2022.xml
-found 1 activities
+dflat: invalid XML format
+restored 1 files
 
 Downloading tib-cfpi-september-2020-iati from https://www.ti-bangladesh.org/images/2020/iati/TIB-CFPI_Project-Updated_as_of_30_September_2020.xml
 Parsing tib-cfpi-september-2020-iati from https://www.ti-bangladesh.org/images/2020/iati/TIB-CFPI_Project-Updated_as_of_30_September_2020.xml
-found 1 activities
+dflat: invalid XML format
+restored 1 files
 
 Downloading tib-cfpi-september-2021-iati from https://www.ti-bangladesh.org/images/2021/iati/TIB-CFPI-Project-Updated-as-of-30-September-2021.xml
 Parsing tib-cfpi-september-2021-iati from https://www.ti-bangladesh.org/images/2021/iati/TIB-CFPI-Project-Updated-as-of-30-September-2021.xml
-found 1 activities
+dflat: invalid XML format
+restored 1 files
 
 Downloading tib-cfpi from https://www.ti-bangladesh.org/images/2019/iati/TIB-CFPI_Project-Updated_as_of_30_September_2019.xml
 Parsing tib-cfpi from https://www.ti-bangladesh.org/images/2019/iati/TIB-CFPI_Project-Updated_as_of_30_September_2019.xml
-found 1 activities
+dflat: invalid XML format
+restored 1 files
 
 Downloading tib-iati1 from https://www.ti-bangladesh.org/images/2020/iati/TIB-CFPI-Project-Updated-as-of-31-March-2020.xml
 Parsing tib-iati1 from https://www.ti-bangladesh.org/images/2020/iati/TIB-CFPI-Project-Updated-as-of-31-March-2020.xml
-found 1 activities
+dflat: invalid XML format
+restored 1 files
 
 Downloading tib-iati from https://www.ti-bangladesh.org/images/2020/iati/TIB-BIBEC-Project-Updated-as-of-31-March-2020.xml
 Parsing tib-iati from https://www.ti-bangladesh.org/images/2020/iati/TIB-BIBEC-Project-Updated-as-of-31-March-2020.xml
-found 1 activities
+dflat: invalid XML format
+restored 1 files
 
 Downloading tib-org1 from http://www.ti-bangladesh.org/images/2017/TIB-BIBEC-Project-Updated-as-of-30-June-2017.xml
 Parsing tib-org1 from http://www.ti-bangladesh.org/images/2017/TIB-BIBEC-Project-Updated-as-of-30-June-2017.xml
-found 1 activities
+dflat: invalid XML format
+restored 1 files
 
 Downloading tib-org2 from http://www.ti-bangladesh.org/images/2017/TIB-CFPI-Project-Updated-as-of-30-June-2017.xml
 Parsing tib-org2 from http://www.ti-bangladesh.org/images/2017/TIB-CFPI-Project-Updated-as-of-30-June-2017.xml
-found 1 activities
+dflat: invalid XML format
+restored 1 files
 
 Downloading tib-organization from https://www.ti-bangladesh.org/images/2019/iati/IATI_TIB_Organisation-updated-as-of-30-June-2019.xml
 Parsing tib-organization from https://www.ti-bangladesh.org/images/2019/iati/IATI_TIB_Organisation-updated-as-of-30-June-2019.xml
-found 1 organisations
+dflat: invalid XML format
+restored 1 files
 
 Downloading tib-org from http://www.ti-bangladesh.org/images/2015/doc_iati_tib_organisation_15_en.xml
 Parsing tib-org from http://www.ti-bangladesh.org/images/2015/doc_iati_tib_organisation_15_en.xml
-found 1 organisations
+dflat: invalid XML format
+restored 1 files
 
 Downloading tib-pacta-december-2022-iati from https://www.ti-bangladesh.org/images/2022/iati/TIB-PACTA-Project-Updated-as-of-31_December_2022.xml
 Parsing tib-pacta-december-2022-iati from https://www.ti-bangladesh.org/images/2022/iati/TIB-PACTA-Project-Updated-as-of-31_December_2022.xml
-found 1 activities
+dflat: invalid XML format
+restored 1 files
 
 Downloading tib-pacta-june-2022-iati from https://www.ti-bangladesh.org/images/2022/iati/TIB-PACTA-Project-Updated-as-of-30_June_2022.xml
 Parsing tib-pacta-june-2022-iati from https://www.ti-bangladesh.org/images/2022/iati/TIB-PACTA-Project-Updated-as-of-30_June_2022.xml
-found 1 activities
+dflat: invalid XML format
+restored 1 files
 
 Downloading tib-pacta-march-2023-iati from https://www.ti-bangladesh.org/images/2023/iati/TIB-PACTA-Project-Updated-as-of-31_March_2023.xml
 Parsing tib-pacta-march-2023-iati from https://www.ti-bangladesh.org/images/2023/iati/TIB-PACTA-Project-Updated-as-of-31_March_2023.xml
-found 1 activities
+dflat: invalid XML format
+restored 1 files
 
 Downloading tib-pacta-september-2022-iati from https://www.ti-bangladesh.org/images/2022/iati/TIB-PACTA-Project-Updated-as-of-30_September_2022.xml
 Parsing tib-pacta-september-2022-iati from https://www.ti-bangladesh.org/images/2022/iati/TIB-PACTA-Project-Updated-as-of-30_September_2022.xml
-found 1 activities
+dflat: invalid XML format
+restored 1 files
 
 Downloading tib-project12 from https://www.ti-bangladesh.org/images/2018/iati/TIB-BIBEC-Project-Updated-as-of-31-December-2017.xml
 Parsing tib-project12 from https://www.ti-bangladesh.org/images/2018/iati/TIB-BIBEC-Project-Updated-as-of-31-December-2017.xml
-found 1 activities
+dflat: invalid XML format
+restored 1 files
 
 Downloading tib-project13 from https://www.ti-bangladesh.org/images/2018/iati/TIB-CFPI-Project-Updated-as-of-31-December-2017.xml
 Parsing tib-project13 from https://www.ti-bangladesh.org/images/2018/iati/TIB-CFPI-Project-Updated-as-of-31-December-2017.xml
-found 1 activities
+dflat: invalid XML format
+restored 1 files
 
 Downloading tib-project14 from https://www.ti-bangladesh.org/images/2018/iati/TIB-BIBEC-Project-Updated-as-of-31-March-2018.xml
 Parsing tib-project14 from https://www.ti-bangladesh.org/images/2018/iati/TIB-BIBEC-Project-Updated-as-of-31-March-2018.xml
-found 1 activities
+dflat: invalid XML format
+restored 1 files
 
 Downloading tib-project15 from https://www.ti-bangladesh.org/images/2018/iati/TIB-CFPI-Project-Updated-as-of-31-March-2018.xml
 Parsing tib-project15 from https://www.ti-bangladesh.org/images/2018/iati/TIB-CFPI-Project-Updated-as-of-31-March-2018.xml
-found 1 activities
+dflat: invalid XML format
+restored 1 files
 
 Downloading tib-project16 from https://www.ti-bangladesh.org/images/2018/iati/TIB-BIBEC_Project-Updated_as_of_30_June_2018.xml
 Parsing tib-project16 from https://www.ti-bangladesh.org/images/2018/iati/TIB-BIBEC_Project-Updated_as_of_30_June_2018.xml
-found 1 activities
+dflat: invalid XML format
+restored 1 files
 
 Downloading tib-project17 from https://www.ti-bangladesh.org/images/2018/iati/TIB-CFPI_Project-Updated_as_of_30_June_2018.xml
 Parsing tib-project17 from https://www.ti-bangladesh.org/images/2018/iati/TIB-CFPI_Project-Updated_as_of_30_June_2018.xml
-found 1 activities
+dflat: invalid XML format
+restored 1 files
 
 Downloading tib-project18 from https://www.ti-bangladesh.org/images/2018/iati/TIB-BIBEC_Project-Updated_as_of_30_September_2018.xml
 Parsing tib-project18 from https://www.ti-bangladesh.org/images/2018/iati/TIB-BIBEC_Project-Updated_as_of_30_September_2018.xml
-found 1 activities
+dflat: invalid XML format
+restored 1 files
 
 Downloading tib-project19 from https://www.ti-bangladesh.org/images/2018/iati/TIB-CFPI_Project-Updated_as_of_30_September_2018.xml
 Parsing tib-project19 from https://www.ti-bangladesh.org/images/2018/iati/TIB-CFPI_Project-Updated_as_of_30_September_2018.xml
-found 1 activities
+dflat: invalid XML format
+restored 1 files
 
 Downloading tib-project1 from https://www.ti-bangladesh.org/images/2017/TIB-BIBEC-Project-Updated-as-of-30-September-2017.xml
 Parsing tib-project1 from https://www.ti-bangladesh.org/images/2017/TIB-BIBEC-Project-Updated-as-of-30-September-2017.xml
-found 1 activities
+dflat: invalid XML format
+restored 1 files
 
 Downloading tib-project20 from https://www.ti-bangladesh.org/images/2018/iati/TIB-BIBEC_Project-Updated_as_of_31_December_2018.xml
 Parsing tib-project20 from https://www.ti-bangladesh.org/images/2018/iati/TIB-BIBEC_Project-Updated_as_of_31_December_2018.xml
-found 1 activities
+dflat: invalid XML format
+restored 1 files
 
 Downloading tib-project21 from https://www.ti-bangladesh.org/images/2018/iati/TIB-CFPI_Project-Updated_as_of_31_December_2018.xml
 Parsing tib-project21 from https://www.ti-bangladesh.org/images/2018/iati/TIB-CFPI_Project-Updated_as_of_31_December_2018.xml
-found 1 activities
+dflat: invalid XML format
+restored 1 files
 
 Downloading tib-project22 from https://www.ti-bangladesh.org/images/2019/iati/TIB-BIBEC-Project-Updated-as-of-31-March-2019.xml
 Parsing tib-project22 from https://www.ti-bangladesh.org/images/2019/iati/TIB-BIBEC-Project-Updated-as-of-31-March-2019.xml
-found 1 activities
+dflat: invalid XML format
+restored 1 files
 
 Downloading tib-project23 from https://www.ti-bangladesh.org/images/2019/iati/TIB-CFPI-Project-Updated-as-of-31-March-2019.xml
 Parsing tib-project23 from https://www.ti-bangladesh.org/images/2019/iati/TIB-CFPI-Project-Updated-as-of-31-March-2019.xml
-found 1 activities
+dflat: invalid XML format
+restored 1 files
 
 Downloading tib-project24 from https://www.ti-bangladesh.org/images/2019/iati/TIB-BIBEC-Project-Updated-as-of-30-June-2019.xml
 Parsing tib-project24 from https://www.ti-bangladesh.org/images/2019/iati/TIB-BIBEC-Project-Updated-as-of-30-June-2019.xml
-found 1 activities
+dflat: invalid XML format
+restored 1 files
 
 Downloading tib-project25 from https://www.ti-bangladesh.org/images/2019/iati/TIB-CFPI-Project-Updated-as-of-30-June-2019.xml
 Parsing tib-project25 from https://www.ti-bangladesh.org/images/2019/iati/TIB-CFPI-Project-Updated-as-of-30-June-2019.xml
-found 1 activities
+dflat: invalid XML format
+restored 1 files
 
 Downloading tib-project2 from https://www.ti-bangladesh.org/images/2017/TIB-CFPI-Project-Updated-as-of-30-September-2017.xml
 Parsing tib-project2 from https://www.ti-bangladesh.org/images/2017/TIB-CFPI-Project-Updated-as-of-30-September-2017.xml
-found 1 activities
+dflat: invalid XML format
+restored 1 files
 
 Downloading tib-project-bibec-as-of-30-june-2020 from https://www.ti-bangladesh.org/images/2020/iati/TIB-CFPI-Project-Updated-as-of-30-June-2020.xml
 Parsing tib-project-bibec-as-of-30-june-2020 from https://www.ti-bangladesh.org/images/2020/iati/TIB-CFPI-Project-Updated-as-of-30-June-2020.xml
-found 1 activities
+dflat: invalid XML format
+restored 1 files
 
 Downloading tib-project-cfpi-as-of-30-june-2020 from https://www.ti-bangladesh.org/images/2020/iati/TIB-CFPI-Project-Updated-as-of-30-June-2020.xml
 Parsing tib-project-cfpi-as-of-30-june-2020 from https://www.ti-bangladesh.org/images/2020/iati/TIB-CFPI-Project-Updated-as-of-30-June-2020.xml
-found 1 activities
+dflat: invalid XML format
+restored 1 files
 
 Downloading tib-projects from http://www.ti-bangladesh.org/images/2017/TIB-CFPI_Project-Updated_as_of_31_March_2017.xml
 Parsing tib-projects from http://www.ti-bangladesh.org/images/2017/TIB-CFPI_Project-Updated_as_of_31_March_2017.xml
-found 1 activities
+dflat: invalid XML format
+restored 1 files
 
 Downloading tib-project from https://www.ti-bangladesh.org/images/2017/TIB-BIBEC_Project-Updated_as_of_31_March_2017.xml
 Parsing tib-project from https://www.ti-bangladesh.org/images/2017/TIB-BIBEC_Project-Updated_as_of_31_March_2017.xml
-found 1 activities
+dflat: invalid XML format
+restored 1 files
 
 Downloading ticah-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/ticah-activities.xml
 Parsing ticah-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/ticah-activities.xml
@@ -32670,7 +32726,7 @@ found 1 organisations
 
 Downloading uct-activities from https://iatipublisher-prod.s3.amazonaws.com/xml/mergedActivityXml/uct-activities.xml
 Parsing uct-activities from https://iatipublisher-prod.s3.amazonaws.com/xml/mergedActivityXml/uct-activities.xml
-found 1 activities
+found 2 activities
 
 Downloading uct-organisation from https://iatipublisher-prod.s3.amazonaws.com/organizationXmlFiles/uct-organisation.xml
 Parsing uct-organisation from https://iatipublisher-prod.s3.amazonaws.com/organizationXmlFiles/uct-organisation.xml
@@ -42530,8 +42586,10 @@ Parsing wbtf-tf073223 from https://d2mxkr7359ifh6.cloudfront.net/TF073223.xml
 found 2 activities
 
 Downloading wbtf-tf073225 from https://d2mxkr7359ifh6.cloudfront.net/TF073225.xml
+curl: download ERROR 000
 Parsing wbtf-tf073225 from https://d2mxkr7359ifh6.cloudfront.net/TF073225.xml
-found 2 activities
+dflat: input XML file does not exist
+restored 2 files
 
 Downloading wbtf-tf073236 from https://d2mxkr7359ifh6.cloudfront.net/TF073236.xml
 Parsing wbtf-tf073236 from https://d2mxkr7359ifh6.cloudfront.net/TF073236.xml
@@ -43585,9 +43643,9 @@ Downloading woda_0486-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/
 Parsing woda_0486-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/woda_0486-org.xml
 found 1 organisations
 
-Downloading womankindworld-activities from https://aidstream-stage.s3.us-west-2.amazonaws.com/xml/womankindworld-activities.xml
-Parsing womankindworld-activities from https://aidstream-stage.s3.us-west-2.amazonaws.com/xml/womankindworld-activities.xml
-found 1 activities
+Downloading womankindworld-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/womankindworld-activities.xml
+Parsing womankindworld-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/womankindworld-activities.xml
+found 30 activities
 
 Downloading womankindworld-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/womankindworld-org.xml
 Parsing womankindworld-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/womankindworld-org.xml
@@ -43966,8 +44024,10 @@ Parsing worldbank-mz from http://doumodqax2qi2.cloudfront.net/IATI-05-2023/WB-MZ
 found 62 activities
 
 Downloading worldbank-ne from http://doumodqax2qi2.cloudfront.net/IATI-05-2023/WB-NE.xml
+curl: download ERROR 000
 Parsing worldbank-ne from http://doumodqax2qi2.cloudfront.net/IATI-05-2023/WB-NE.xml
-found 42 activities
+dflat: input XML file does not exist
+restored 42 files
 
 Downloading worldbank-ng from http://doumodqax2qi2.cloudfront.net/IATI-05-2023/WB-NG.xml
 Parsing worldbank-ng from http://doumodqax2qi2.cloudfront.net/IATI-05-2023/WB-NG.xml
@@ -44122,12 +44182,16 @@ Parsing worldbank-tv from http://doumodqax2qi2.cloudfront.net/IATI-05-2023/WB-TV
 found 11 activities
 
 Downloading worldbank-tz from http://doumodqax2qi2.cloudfront.net/IATI-05-2023/WB-TZ.xml
+curl: download ERROR 000
 Parsing worldbank-tz from http://doumodqax2qi2.cloudfront.net/IATI-05-2023/WB-TZ.xml
-found 51 activities
+dflat: input XML file does not exist
+restored 51 files
 
 Downloading worldbank-ua from http://doumodqax2qi2.cloudfront.net/IATI-05-2023/WB-UA.xml
+curl: download ERROR 000
 Parsing worldbank-ua from http://doumodqax2qi2.cloudfront.net/IATI-05-2023/WB-UA.xml
-found 27 activities
+dflat: input XML file does not exist
+restored 27 files
 
 Downloading worldbank-ug from http://doumodqax2qi2.cloudfront.net/IATI-05-2023/WB-UG.xml
 Parsing worldbank-ug from http://doumodqax2qi2.cloudfront.net/IATI-05-2023/WB-UG.xml
