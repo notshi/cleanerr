@@ -4635,7 +4635,7 @@ found 146 activities
 
 Downloading be-dgd-2021_4 from http://diplomatie.be/oda/IATI_2023_4.xml
 Parsing be-dgd-2021_4 from http://diplomatie.be/oda/IATI_2023_4.xml
-found 368 activities
+found 369 activities
 
 Downloading be-dgd-org2020-2024 from http://diplomatie.be/oda/XM-DAC-10-2-orgfileNov2021.xml
 Parsing be-dgd-org2020-2024 from http://diplomatie.be/oda/XM-DAC-10-2-orgfileNov2021.xml
@@ -6714,14 +6714,14 @@ Parsing cidr-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/ci
 found 1 activities
 
 Downloading cif-389 from http://siteresources.worldbank.org/IATI/CIF/CIF-389.xml
+curl: download ERROR 404
 Parsing cif-389 from http://siteresources.worldbank.org/IATI/CIF/CIF-389.xml
-dflat: invalid XML format
+dflat: input XML file does not exist
 restored 0 files
 
 Downloading cif-889 from http://siteresources.worldbank.org/IATI/CIF/CIF-889.xml
-curl: download ERROR 404
 Parsing cif-889 from http://siteresources.worldbank.org/IATI/CIF/CIF-889.xml
-dflat: input XML file does not exist
+dflat: invalid XML format
 restored 0 files
 
 Downloading cif-998 from http://siteresources.worldbank.org/IATI/CIF/CIF-998.xml
@@ -6956,8 +6956,9 @@ Parsing cif-ws from http://doumodqax2qi2.cloudfront.net/CIF/CIF-05-2020/CIF-WS.x
 found 2 activities
 
 Downloading cif-ye from http://siteresources.worldbank.org/IATI/CIF/CIF-YE.xml
+curl: download ERROR 404
 Parsing cif-ye from http://siteresources.worldbank.org/IATI/CIF/CIF-YE.xml
-dflat: invalid XML format
+dflat: input XML file does not exist
 restored 0 files
 
 Downloading cif-za from http://doumodqax2qi2.cloudfront.net/CIF/CIF-05-2020/CIF-ZA.xml
@@ -7822,31 +7823,31 @@ found 1 organisations
 
 Downloading danida-all_1 from http://iati.um.dk/api/v2/files/iati1.xml
 Parsing danida-all_1 from http://iati.um.dk/api/v2/files/iati1.xml
-found 2600 activities
+found 2607 activities
 
 Downloading danida-all_2 from http://iati.um.dk/api/v2/files/iati2.xml
 Parsing danida-all_2 from http://iati.um.dk/api/v2/files/iati2.xml
-found 2600 activities
+found 2607 activities
 
 Downloading danida-all_3 from http://iati.um.dk/api/v2/files/iati3.xml
 Parsing danida-all_3 from http://iati.um.dk/api/v2/files/iati3.xml
-found 2600 activities
+found 2607 activities
 
 Downloading danida-all_4 from http://iati.um.dk/api/v2/files/iati4.xml
 Parsing danida-all_4 from http://iati.um.dk/api/v2/files/iati4.xml
-found 2600 activities
+found 2607 activities
 
 Downloading danida-all_5 from http://iati.um.dk/api/v2/files/iati5.xml
 Parsing danida-all_5 from http://iati.um.dk/api/v2/files/iati5.xml
-found 2600 activities
+found 2607 activities
 
 Downloading danida-all_6 from http://iati.um.dk/api/v2/files/iati6.xml
 Parsing danida-all_6 from http://iati.um.dk/api/v2/files/iati6.xml
-found 2600 activities
+found 2607 activities
 
 Downloading danida-all_7 from http://iati.um.dk/api/v2/files/iati7.xml
 Parsing danida-all_7 from http://iati.um.dk/api/v2/files/iati7.xml
-found 2595 activities
+found 2605 activities
 
 Downloading danida-org from http://iati.um.dk/api/v2/organisations/files/iati-organisations.xml
 Parsing danida-org from http://iati.um.dk/api/v2/organisations/files/iati-organisations.xml
@@ -18836,7 +18837,7 @@ found 37 activities
 
 Downloading ifad-activitity-bf from https://webapps.ifad.org/iati/ifad_bf_activities.xml
 Parsing ifad-activitity-bf from https://webapps.ifad.org/iati/ifad_bf_activities.xml
-found 17 activities
+found 16 activities
 
 Downloading ifad-activitity-bi from https://webapps.ifad.org/iati/ifad_bi_activities.xml
 Parsing ifad-activitity-bi from https://webapps.ifad.org/iati/ifad_bi_activities.xml
@@ -20380,8 +20381,8 @@ Downloading ilo-ao from http://www.ilo.org/legacy/english/pardev/iati-data/ilo20
 Parsing ilo-ao from http://www.ilo.org/legacy/english/pardev/iati-data/ilo2012-13rbsaxbtc.xml
 found 1902 activities
 
-Downloading ilo-org from https://www.ilo.org/legacy/english/pardev/iati-data/iatixml/iloorganization.xml
-Parsing ilo-org from https://www.ilo.org/legacy/english/pardev/iati-data/iatixml/iloorganization.xml
+Downloading ilo-org from https://www.ilo.org/static/english/pardev/iati-data/iloorganization.xml
+Parsing ilo-org from https://www.ilo.org/static/english/pardev/iati-data/iloorganization.xml
 found 1 organisations
 
 Downloading ilo-xmdac-41302-2020-21_1 from https://www.ilo.org/legacy/english/pardev/iati-data/ilo-xmdac-41302-2020-21_1.xml
@@ -20392,8 +20393,8 @@ Downloading ilo-xmdac-41302-2020-21_2 from https://www.ilo.org/legacy/english/pa
 Parsing ilo-xmdac-41302-2020-21_2 from https://www.ilo.org/legacy/english/pardev/iati-data/ilo-xmdac-41302-2020-21_2.xml
 found 83 activities
 
-Downloading ilo-xmdac-41302-2022-23 from https://www.ilo.org/static/english/pardev/iati-data/ilo-xmdac-41302-2022-23_24JUL23.xml
-Parsing ilo-xmdac-41302-2022-23 from https://www.ilo.org/static/english/pardev/iati-data/ilo-xmdac-41302-2022-23_24JUL23.xml
+Downloading ilo-xmdac-41302-2022-23 from https://www.ilo.org/static/english/pardev/iati-data/ilo-xmdac-41302-2022-23_26JUL23.xml
+Parsing ilo-xmdac-41302-2022-23 from https://www.ilo.org/static/english/pardev/iati-data/ilo-xmdac-41302-2022-23_26JUL23.xml
 found 1077 activities
 
 Downloading imc-2021-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/imc-2021-activities.xml
@@ -20704,7 +20705,7 @@ found 2 activities
 
 Downloading ipa_-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/ipa_-activities.xml
 Parsing ipa_-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/ipa_-activities.xml
-found 3 activities
+found 6 activities
 
 Downloading ipa-lr from https://aidstream.s3.us-west-2.amazonaws.com/xml/ipa-lr.xml
 Parsing ipa-lr from https://aidstream.s3.us-west-2.amazonaws.com/xml/ipa-lr.xml
@@ -25583,7 +25584,7 @@ found 2220 activities
 
 Downloading onl-activity from https://www.oxfamnovib.nl/redactie/Downloads/XML/iati.xml
 Parsing onl-activity from https://www.oxfamnovib.nl/redactie/Downloads/XML/iati.xml
-found 1998 activities
+found 2000 activities
 
 Downloading onl-org from https://www.oxfamnovib.nl/redactie/downloads/xml/IATI_NL-KVK-27108436.xml
 Parsing onl-org from https://www.oxfamnovib.nl/redactie/downloads/xml/IATI_NL-KVK-27108436.xml
@@ -37850,7 +37851,7 @@ found 14 activities
 
 Downloading unocha-cbpf-sudan-contribution-2023 from https://cbpfapi.unocha.org/iati/iati/15/2023/GetContribution.xml
 Parsing unocha-cbpf-sudan-contribution-2023 from https://cbpfapi.unocha.org/iati/iati/15/2023/GetContribution.xml
-found 14 activities
+found 15 activities
 
 Downloading unocha-cbpf-sudan-contribution-2024 from https://cbpfapi.unocha.org/iati/iati/15/2024/GetContribution.xml
 Parsing unocha-cbpf-sudan-contribution-2024 from https://cbpfapi.unocha.org/iati/iati/15/2024/GetContribution.xml
@@ -38270,7 +38271,7 @@ found 106 activities
 
 Downloading unocha-cbpf-yemen-allocation-2023 from https://cbpfapi.unocha.org/iati/iati/64/2023/GetAllocation.xml
 Parsing unocha-cbpf-yemen-allocation-2023 from https://cbpfapi.unocha.org/iati/iati/64/2023/GetAllocation.xml
-found 8 activities
+found 11 activities
 
 Downloading unocha-cbpf-yemen-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/64/2024/GetAllocation.xml
 Parsing unocha-cbpf-yemen-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/64/2024/GetAllocation.xml
@@ -39260,7 +39261,7 @@ found 4 activities
 
 Downloading uoe-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/uoe-activities.xml
 Parsing uoe-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/uoe-activities.xml
-found 3 activities
+found 4 activities
 
 Downloading uoe-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/uoe-org.xml
 Parsing uoe-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/uoe-org.xml
@@ -44833,7 +44834,7 @@ found 2 activities
 
 Downloading yipl-activities from https://aidstream-stage.s3.us-west-2.amazonaws.com/xml/yipl-activities.xml
 Parsing yipl-activities from https://aidstream-stage.s3.us-west-2.amazonaws.com/xml/yipl-activities.xml
-found 0 activities
+found 1 activities
 
 Downloading yipl-in from https://aidstream-stage.s3.us-west-2.amazonaws.com/xml/yipl-in.xml
 Parsing yipl-in from https://aidstream-stage.s3.us-west-2.amazonaws.com/xml/yipl-in.xml
