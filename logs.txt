@@ -6177,8 +6177,8 @@ Downloading capabui-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/ca
 Parsing capabui-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/capabui-org.xml
 found 1 organisations
 
-Downloading carbontrustadvisory-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/carbontrustadvisory-activities.xml
-Parsing carbontrustadvisory-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/carbontrustadvisory-activities.xml
+Downloading carbontrustadvisory-activities from https://iatipublisher-prod.s3.amazonaws.com/xml/mergedActivityXml/carbontrustadvisory-activities.xml
+Parsing carbontrustadvisory-activities from https://iatipublisher-prod.s3.amazonaws.com/xml/mergedActivityXml/carbontrustadvisory-activities.xml
 found 1 activities
 
 Downloading carbontrustadvisory-organisation from https://iatipublisher-prod.s3.amazonaws.com/organizationXmlFiles/carbontrustadvisory-organisation.xml
@@ -6722,13 +6722,15 @@ Parsing cidr-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/ci
 found 1 activities
 
 Downloading cif-389 from http://siteresources.worldbank.org/IATI/CIF/CIF-389.xml
+curl: download ERROR 404
 Parsing cif-389 from http://siteresources.worldbank.org/IATI/CIF/CIF-389.xml
-dflat: invalid XML format
+dflat: input XML file does not exist
 restored 0 files
 
 Downloading cif-889 from http://siteresources.worldbank.org/IATI/CIF/CIF-889.xml
+curl: download ERROR 404
 Parsing cif-889 from http://siteresources.worldbank.org/IATI/CIF/CIF-889.xml
-dflat: invalid XML format
+dflat: input XML file does not exist
 restored 0 files
 
 Downloading cif-998 from http://siteresources.worldbank.org/IATI/CIF/CIF-998.xml
@@ -16581,11 +16583,11 @@ found 1 organisations
 
 Downloading globalgiving-activity from http://www.globalgiving.org/iati/activities.xml
 Parsing globalgiving-activity from http://www.globalgiving.org/iati/activities.xml
-found 26380 activities
+found 26382 activities
 
 Downloading globalgiving-org from http://www.globalgiving.org/iati/organisations.xml
 Parsing globalgiving-org from http://www.globalgiving.org/iati/organisations.xml
-found 15124 organisations
+found 15128 organisations
 
 Downloading globalshea-activities from https://iatipublisher-prod.s3.amazonaws.com/xml/mergedActivityXml/globalshea-activities.xml
 Parsing globalshea-activities from https://iatipublisher-prod.s3.amazonaws.com/xml/mergedActivityXml/globalshea-activities.xml
@@ -19178,7 +19180,7 @@ found 12 activities
 
 Downloading ifcwbg-ph from https://disclosures.ifc.org/iati/ifc-ph.xml
 Parsing ifcwbg-ph from https://disclosures.ifc.org/iati/ifc-ph.xml
-found 75 activities
+found 76 activities
 
 Downloading ifcwbg-pk from https://disclosures.ifc.org/iati/ifc-pk.xml
 Parsing ifcwbg-pk from https://disclosures.ifc.org/iati/ifc-pk.xml
@@ -19841,7 +19843,7 @@ found 42 activities
 
 Downloading impact_initiatives-activities from https://iatipublisher-prod.s3.amazonaws.com/xml/mergedActivityXml/impact_initiatives-activities.xml
 Parsing impact_initiatives-activities from https://iatipublisher-prod.s3.amazonaws.com/xml/mergedActivityXml/impact_initiatives-activities.xml
-found 3 activities
+found 4 activities
 
 Downloading impact_initiatives-organisation from https://iatipublisher-prod.s3.amazonaws.com/organizationXmlFiles/impact_initiatives-organisation.xml
 Parsing impact_initiatives-organisation from https://iatipublisher-prod.s3.amazonaws.com/organizationXmlFiles/impact_initiatives-organisation.xml
@@ -19853,7 +19855,7 @@ found 1 organisations
 
 Downloading imperial-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/imperial-activities.xml
 Parsing imperial-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/imperial-activities.xml
-found 11 activities
+found 12 activities
 
 Downloading imperial-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/imperial-org.xml
 Parsing imperial-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/imperial-org.xml
@@ -20185,7 +20187,7 @@ found 1 organisations
 
 Downloading irc_uk-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/irc_uk-activities.xml
 Parsing irc_uk-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/irc_uk-activities.xml
-found 114 activities
+found 115 activities
 
 Downloading irc_uk-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/irc_uk-org.xml
 Parsing irc_uk-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/irc_uk-org.xml
@@ -21836,6 +21838,7 @@ dflat: input XML file does not exist
 restored 0 files
 
 Downloading maec-cl from http://www.exteriores.gob.es/Portal/es/SalaDePrensa/Multimedia/Publicaciones/Documents/Cooperacion/Seguimiento/IATI/MAEC_IATI_CHILE.xml
+curl: download ERROR 404
 Parsing maec-cl from http://www.exteriores.gob.es/Portal/es/SalaDePrensa/Multimedia/Publicaciones/Documents/Cooperacion/Seguimiento/IATI/MAEC_IATI_CHILE.xml
 dflat: input XML file does not exist
 restored 0 files
@@ -21961,6 +21964,7 @@ dflat: input XML file does not exist
 restored 0 files
 
 Downloading maec-gq from http://www.exteriores.gob.es/Portal/es/SalaDePrensa/Multimedia/Publicaciones/Documents/Cooperacion/Seguimiento/IATI/MAEC_IATI_GUINEA_ECUATORIAL.xml
+curl: download ERROR 404
 Parsing maec-gq from http://www.exteriores.gob.es/Portal/es/SalaDePrensa/Multimedia/Publicaciones/Documents/Cooperacion/Seguimiento/IATI/MAEC_IATI_GUINEA_ECUATORIAL.xml
 dflat: input XML file does not exist
 restored 0 files
@@ -22086,6 +22090,7 @@ dflat: input XML file does not exist
 restored 0 files
 
 Downloading maec-lk from http://www.exteriores.gob.es/Portal/es/SalaDePrensa/Multimedia/Publicaciones/Documents/Cooperacion/Seguimiento/IATI/MAEC_IATI_SRI_LANKA.xml
+curl: download ERROR 404
 Parsing maec-lk from http://www.exteriores.gob.es/Portal/es/SalaDePrensa/Multimedia/Publicaciones/Documents/Cooperacion/Seguimiento/IATI/MAEC_IATI_SRI_LANKA.xml
 dflat: input XML file does not exist
 restored 0 files
@@ -22151,6 +22156,7 @@ dflat: input XML file does not exist
 restored 0 files
 
 Downloading maec-mn from http://www.exteriores.gob.es/Portal/es/SalaDePrensa/Multimedia/Publicaciones/Documents/Cooperacion/Seguimiento/IATI/MAEC_IATI_MONGOLIA.xml
+curl: download ERROR 404
 Parsing maec-mn from http://www.exteriores.gob.es/Portal/es/SalaDePrensa/Multimedia/Publicaciones/Documents/Cooperacion/Seguimiento/IATI/MAEC_IATI_MONGOLIA.xml
 dflat: input XML file does not exist
 restored 0 files
@@ -22264,6 +22270,7 @@ dflat: input XML file does not exist
 restored 0 files
 
 Downloading maec-rs from http://www.exteriores.gob.es/Portal/es/SalaDePrensa/Multimedia/Publicaciones/Documents/Cooperacion/Seguimiento/IATI/MAEC_IATI_SERBIA.xml
+curl: download ERROR 404
 Parsing maec-rs from http://www.exteriores.gob.es/Portal/es/SalaDePrensa/Multimedia/Publicaciones/Documents/Cooperacion/Seguimiento/IATI/MAEC_IATI_SERBIA.xml
 dflat: input XML file does not exist
 restored 0 files
@@ -22413,6 +22420,7 @@ dflat: input XML file does not exist
 restored 0 files
 
 Downloading maec-ve from http://www.exteriores.gob.es/Portal/es/SalaDePrensa/Multimedia/Publicaciones/Documents/Cooperacion/Seguimiento/IATI/MAEC_IATI_VENEZUELA.xml
+curl: download ERROR 404
 Parsing maec-ve from http://www.exteriores.gob.es/Portal/es/SalaDePrensa/Multimedia/Publicaciones/Documents/Cooperacion/Seguimiento/IATI/MAEC_IATI_VENEZUELA.xml
 dflat: input XML file does not exist
 restored 0 files
@@ -22436,6 +22444,7 @@ dflat: input XML file does not exist
 restored 0 files
 
 Downloading maec-ye from http://www.exteriores.gob.es/Portal/es/SalaDePrensa/Multimedia/Publicaciones/Documents/Cooperacion/Seguimiento/IATI/MAEC_IATI_YEMEN.xml
+curl: download ERROR 404
 Parsing maec-ye from http://www.exteriores.gob.es/Portal/es/SalaDePrensa/Multimedia/Publicaciones/Documents/Cooperacion/Seguimiento/IATI/MAEC_IATI_YEMEN.xml
 dflat: input XML file does not exist
 restored 0 files
@@ -24467,10 +24476,6 @@ Downloading nuffic20171017-archive-2022 from https://files.aida.tools/activities
 Parsing nuffic20171017-archive-2022 from https://files.aida.tools/activities/NL-KVK-41150085/1163e1bf-7ebe-4009-9ce6-c91a7d0d1c99/archive-2022.xml
 found 7215 activities
 
-Downloading nuffic20171017-nufficokpactivities from https://files.aida.tools/activities/NL-KVK-41150085/a4d86e49-eb4d-490d-9bb8-f85b8954736f/NufficOKPactivities.xml
-Parsing nuffic20171017-nufficokpactivities from https://files.aida.tools/activities/NL-KVK-41150085/a4d86e49-eb4d-490d-9bb8-f85b8954736f/NufficOKPactivities.xml
-found 6372 activities
-
 Downloading nuffic20171017-nufficokp-ongoing from https://files.aida.tools/activities/NL-KVK-41150085/40ab3437-cbb9-4a7b-89cb-fc6c483ada18/nufficOKP-ongoing.xml
 Parsing nuffic20171017-nufficokp-ongoing from https://files.aida.tools/activities/NL-KVK-41150085/40ab3437-cbb9-4a7b-89cb-fc6c483ada18/nufficOKP-ongoing.xml
 found 6917 activities
@@ -24905,9 +24910,11 @@ Downloading oecd-global_forum from http://www.oecd.org/about/budget/iati/ctp/act
 Parsing oecd-global_forum from http://www.oecd.org/about/budget/iati/ctp/activity-file-global-forum-on-transparency-and-exchange-of-information-for-tax-purposes.xml
 found 1 activities
 
-Downloading oecd-org from http://www.oecd.org/about/budget/iati/Organisation-File-2017-2020.xml
-Parsing oecd-org from http://www.oecd.org/about/budget/iati/Organisation-File-2017-2020.xml
-found 1 organisations
+Downloading oecd-org from https://www.oecd.org/about/budget/iati/ctp/organisation-file.xml
+curl: download ERROR 403
+Parsing oecd-org from https://www.oecd.org/about/budget/iati/ctp/organisation-file.xml
+dflat: input XML file does not exist
+restored 1 files
 
 Downloading ofid-activity1 from https://app1.opecfund.org/IATI/OFID_IATI_XML.xml
 curl: download ERROR 000
@@ -24974,7 +24981,7 @@ found 2220 activities
 
 Downloading onl-activity from https://www.oxfamnovib.nl/redactie/Downloads/XML/iati.xml
 Parsing onl-activity from https://www.oxfamnovib.nl/redactie/Downloads/XML/iati.xml
-found 2014 activities
+found 2018 activities
 
 Downloading onl-org from https://www.oxfamnovib.nl/redactie/downloads/xml/IATI_NL-KVK-27108436.xml
 Parsing onl-org from https://www.oxfamnovib.nl/redactie/downloads/xml/IATI_NL-KVK-27108436.xml
@@ -27352,7 +27359,7 @@ found 1 organisations
 
 Downloading rvo-01 from https://projects.rvo.nl/opendata/iati.xml
 Parsing rvo-01 from https://projects.rvo.nl/opendata/iati.xml
-found 4252 activities
+found 4251 activities
 
 Downloading rvo-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/rvo-activities.xml
 Parsing rvo-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/rvo-activities.xml
@@ -27930,7 +27937,7 @@ found 1 activities
 
 Downloading sida-1027 from https://iati.openaid.se/xml/1027.xml
 Parsing sida-1027 from https://iati.openaid.se/xml/1027.xml
-found 1045 activities
+found 1046 activities
 
 Downloading sida-1028 from https://iati.openaid.se/xml/1028.xml
 Parsing sida-1028 from https://iati.openaid.se/xml/1028.xml
@@ -27942,7 +27949,7 @@ found 767 activities
 
 Downloading sida-1030 from https://iati.openaid.se/xml/1030.xml
 Parsing sida-1030 from https://iati.openaid.se/xml/1030.xml
-found 433 activities
+found 434 activities
 
 Downloading sida-1031 from http://iati.openaid.se/xml/1031.xml
 Parsing sida-1031 from http://iati.openaid.se/xml/1031.xml
@@ -27970,11 +27977,11 @@ found 132 activities
 
 Downloading sida-289 from http://iati.openaid.se/xml/289.xml
 Parsing sida-289 from http://iati.openaid.se/xml/289.xml
-found 917 activities
+found 920 activities
 
 Downloading sida-298 from http://iati.openaid.se/xml/298.xml
 Parsing sida-298 from http://iati.openaid.se/xml/298.xml
-found 1976 activities
+found 1977 activities
 
 Downloading sida-389 from http://iati.openaid.se/xml/389.xml
 Parsing sida-389 from http://iati.openaid.se/xml/389.xml
@@ -27986,7 +27993,7 @@ found 307 activities
 
 Downloading sida-498 from http://iati.openaid.se/xml/498.xml
 Parsing sida-498 from http://iati.openaid.se/xml/498.xml
-found 507 activities
+found 508 activities
 
 Downloading sida-589 from http://iati.openaid.se/xml/589.xml
 Parsing sida-589 from http://iati.openaid.se/xml/589.xml
@@ -28026,11 +28033,11 @@ found 1365 activities
 
 Downloading sida-998a from http://iati.openaid.se/xml/998a.xml
 Parsing sida-998a from http://iati.openaid.se/xml/998a.xml
-found 5101 activities
+found 5102 activities
 
 Downloading sida-998b from http://iati.openaid.se/xml/998b.xml
 Parsing sida-998b from http://iati.openaid.se/xml/998b.xml
-found 4488 activities
+found 4489 activities
 
 Downloading sida-998c from http://iati.openaid.se/xml/998c.xml
 Parsing sida-998c from http://iati.openaid.se/xml/998c.xml
@@ -28038,15 +28045,15 @@ found 4340 activities
 
 Downloading sida-998d from https://iati.openaid.se/xml/998d.xml
 Parsing sida-998d from https://iati.openaid.se/xml/998d.xml
-found 3072 activities
+found 3073 activities
 
 Downloading sida-998e from http://iati.openaid.se/xml/998e.xml
 Parsing sida-998e from http://iati.openaid.se/xml/998e.xml
-found 3303 activities
+found 3304 activities
 
 Downloading sida-af from http://iati.openaid.se/xml/AF.xml
 Parsing sida-af from http://iati.openaid.se/xml/AF.xml
-found 892 activities
+found 889 activities
 
 Downloading sida-al from http://iati.openaid.se/xml/AL.xml
 Parsing sida-al from http://iati.openaid.se/xml/AL.xml
@@ -28074,7 +28081,7 @@ found 1301 activities
 
 Downloading sida-bd from http://iati.openaid.se/xml/BD.xml
 Parsing sida-bd from http://iati.openaid.se/xml/BD.xml
-found 1516 activities
+found 1517 activities
 
 Downloading sida-bf from http://iati.openaid.se/xml/BF.xml
 Parsing sida-bf from http://iati.openaid.se/xml/BF.xml
@@ -28146,7 +28153,7 @@ found 751 activities
 
 Downloading sida-co from http://iati.openaid.se/xml/CO.xml
 Parsing sida-co from http://iati.openaid.se/xml/CO.xml
-found 1194 activities
+found 1195 activities
 
 Downloading sida-cr from http://iati.openaid.se/xml/CR.xml
 Parsing sida-cr from http://iati.openaid.se/xml/CR.xml
@@ -28198,7 +28205,7 @@ found 318 activities
 
 Downloading sida-et from http://iati.openaid.se/xml/ET.xml
 Parsing sida-et from http://iati.openaid.se/xml/ET.xml
-found 1968 activities
+found 1969 activities
 
 Downloading sida-fj from http://iati.openaid.se/xml/FJ.xml
 Parsing sida-fj from http://iati.openaid.se/xml/FJ.xml
@@ -28294,7 +28301,7 @@ found 317 activities
 
 Downloading sida-ke from http://iati.openaid.se/xml/KE.xml
 Parsing sida-ke from http://iati.openaid.se/xml/KE.xml
-found 2072 activities
+found 2071 activities
 
 Downloading sida-kg from http://iati.openaid.se/xml/KG.xml
 Parsing sida-kg from http://iati.openaid.se/xml/KG.xml
@@ -28342,7 +28349,7 @@ found 1086 activities
 
 Downloading sida-lr from http://iati.openaid.se/xml/LR.xml
 Parsing sida-lr from http://iati.openaid.se/xml/LR.xml
-found 761 activities
+found 763 activities
 
 Downloading sida-ls from http://iati.openaid.se/xml/LS.xml
 Parsing sida-ls from http://iati.openaid.se/xml/LS.xml
@@ -28366,7 +28373,7 @@ found 146 activities
 
 Downloading sida-md from http://iati.openaid.se/xml/MD.xml
 Parsing sida-md from http://iati.openaid.se/xml/MD.xml
-found 815 activities
+found 816 activities
 
 Downloading sida-me from http://iati.openaid.se/xml/ME.xml
 Parsing sida-me from http://iati.openaid.se/xml/ME.xml
@@ -28422,7 +28429,7 @@ found 112 activities
 
 Downloading sida-mz from http://iati.openaid.se/xml/MZ.xml
 Parsing sida-mz from http://iati.openaid.se/xml/MZ.xml
-found 2102 activities
+found 2104 activities
 
 Downloading sida-na from http://iati.openaid.se/xml/NA.xml
 Parsing sida-na from http://iati.openaid.se/xml/NA.xml
@@ -28514,7 +28521,7 @@ found 3 activities
 
 Downloading sida-sd from http://iati.openaid.se/xml/SD.xml
 Parsing sida-sd from http://iati.openaid.se/xml/SD.xml
-found 893 activities
+found 894 activities
 
 Downloading sida-si from http://iati.openaid.se/xml/SI.xml
 Parsing sida-si from http://iati.openaid.se/xml/SI.xml
@@ -28606,7 +28613,7 @@ found 1075 activities
 
 Downloading sida-ug from http://iati.openaid.se/xml/UG.xml
 Parsing sida-ug from http://iati.openaid.se/xml/UG.xml
-found 1841 activities
+found 1842 activities
 
 Downloading sida-uy from http://iati.openaid.se/xml/UY.xml
 Parsing sida-uy from http://iati.openaid.se/xml/UY.xml
@@ -35378,8 +35385,10 @@ Parsing unocha-cbpf-burkinafasorhpf-allocation-2022 from https://cbpfapi.unocha.
 found 54 activities
 
 Downloading unocha-cbpf-burkinafasorhpf-allocation-2023 from https://cbpfapi.unocha.org/iati/iati/85/2023/GetAllocation.xml
+curl: download ERROR 000
 Parsing unocha-cbpf-burkinafasorhpf-allocation-2023 from https://cbpfapi.unocha.org/iati/iati/85/2023/GetAllocation.xml
-found 0 activities
+dflat: input XML file does not exist
+restored 0 files
 
 Downloading unocha-cbpf-burkinafasorhpf-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/85/2024/GetAllocation.xml
 Parsing unocha-cbpf-burkinafasorhpf-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/85/2024/GetAllocation.xml
@@ -35458,8 +35467,10 @@ Parsing unocha-cbpf-car-2024 from https://cbpfapi.unocha.org/iati/iati/17/2024/G
 found 1 activities
 
 Downloading unocha-cbpf-car-allocation-2016 from https://cbpfapi.unocha.org/iati/iati/17/2016/GetAllocation.xml
+curl: download ERROR 500
 Parsing unocha-cbpf-car-allocation-2016 from https://cbpfapi.unocha.org/iati/iati/17/2016/GetAllocation.xml
-found 69 activities
+dflat: input XML file does not exist
+restored 69 files
 
 Downloading unocha-cbpf-car-allocation-2017 from https://cbpfapi.unocha.org/iati/iati/17/2017/GetAllocation.xml
 Parsing unocha-cbpf-car-allocation-2017 from https://cbpfapi.unocha.org/iati/iati/17/2017/GetAllocation.xml
@@ -35478,20 +35489,26 @@ Parsing unocha-cbpf-car-allocation-2020 from https://cbpfapi.unocha.org/iati/iat
 found 84 activities
 
 Downloading unocha-cbpf-car-allocation-2021 from https://cbpfapi.unocha.org/iati/iati/17/2021/GetAllocation.xml
+curl: download ERROR 500
 Parsing unocha-cbpf-car-allocation-2021 from https://cbpfapi.unocha.org/iati/iati/17/2021/GetAllocation.xml
-found 54 activities
+dflat: input XML file does not exist
+restored 54 files
 
 Downloading unocha-cbpf-car-allocation-2022 from https://cbpfapi.unocha.org/iati/iati/17/2022/GetAllocation.xml
+curl: download ERROR 500
 Parsing unocha-cbpf-car-allocation-2022 from https://cbpfapi.unocha.org/iati/iati/17/2022/GetAllocation.xml
-found 58 activities
+dflat: input XML file does not exist
+restored 58 files
 
 Downloading unocha-cbpf-car-allocation-2023 from https://cbpfapi.unocha.org/iati/iati/17/2023/GetAllocation.xml
 Parsing unocha-cbpf-car-allocation-2023 from https://cbpfapi.unocha.org/iati/iati/17/2023/GetAllocation.xml
 found 0 activities
 
 Downloading unocha-cbpf-car-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/17/2024/GetAllocation.xml
+curl: download ERROR 500
 Parsing unocha-cbpf-car-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/17/2024/GetAllocation.xml
-found 0 activities
+dflat: input XML file does not exist
+restored 0 files
 
 Downloading unocha-cbpf-car-contribution-2016 from https://cbpfapi.unocha.org/iati/iati/17/2016/GetContribution.xml
 Parsing unocha-cbpf-car-contribution-2016 from https://cbpfapi.unocha.org/iati/iati/17/2016/GetContribution.xml
@@ -35546,8 +35563,10 @@ Parsing unocha-cbpf-colombia-allocation-2016 from https://cbpfapi.unocha.org/iat
 found 12 activities
 
 Downloading unocha-cbpf-colombia-allocation-2017 from https://cbpfapi.unocha.org/iati/iati/52/2017/GetAllocation.xml
+curl: download ERROR 000
 Parsing unocha-cbpf-colombia-allocation-2017 from https://cbpfapi.unocha.org/iati/iati/52/2017/GetAllocation.xml
-found 8 activities
+dflat: input XML file does not exist
+restored 8 files
 
 Downloading unocha-cbpf-colombia-contribution-2016 from https://cbpfapi.unocha.org/iati/iati/52/2016/GetContribution.xml
 Parsing unocha-cbpf-colombia-contribution-2016 from https://cbpfapi.unocha.org/iati/iati/52/2016/GetContribution.xml
@@ -35594,8 +35613,10 @@ Parsing unocha-cbpf-drc-2024 from https://cbpfapi.unocha.org/iati/iati/24/2024/G
 found 1 activities
 
 Downloading unocha-cbpf-drc-allocation-2016 from https://cbpfapi.unocha.org/iati/iati/24/2016/GetAllocation.xml
+curl: download ERROR 500
 Parsing unocha-cbpf-drc-allocation-2016 from https://cbpfapi.unocha.org/iati/iati/24/2016/GetAllocation.xml
-found 68 activities
+dflat: input XML file does not exist
+restored 68 files
 
 Downloading unocha-cbpf-drc-allocation-2017 from https://cbpfapi.unocha.org/iati/iati/24/2017/GetAllocation.xml
 Parsing unocha-cbpf-drc-allocation-2017 from https://cbpfapi.unocha.org/iati/iati/24/2017/GetAllocation.xml
@@ -35610,8 +35631,10 @@ Parsing unocha-cbpf-drc-allocation-2019 from https://cbpfapi.unocha.org/iati/iat
 found 102 activities
 
 Downloading unocha-cbpf-drc-allocation-2020 from https://cbpfapi.unocha.org/iati/iati/24/2020/GetAllocation.xml
+curl: download ERROR 500
 Parsing unocha-cbpf-drc-allocation-2020 from https://cbpfapi.unocha.org/iati/iati/24/2020/GetAllocation.xml
-found 111 activities
+dflat: input XML file does not exist
+restored 111 files
 
 Downloading unocha-cbpf-drc-allocation-2021 from https://cbpfapi.unocha.org/iati/iati/24/2021/GetAllocation.xml
 Parsing unocha-cbpf-drc-allocation-2021 from https://cbpfapi.unocha.org/iati/iati/24/2021/GetAllocation.xml
@@ -35726,16 +35749,20 @@ Parsing unocha-cbpf-ethiopia-allocation-2021 from https://cbpfapi.unocha.org/iat
 found 175 activities
 
 Downloading unocha-cbpf-ethiopia-allocation-2022 from https://cbpfapi.unocha.org/iati/iati/53/2022/GetAllocation.xml
+curl: download ERROR 000
 Parsing unocha-cbpf-ethiopia-allocation-2022 from https://cbpfapi.unocha.org/iati/iati/53/2022/GetAllocation.xml
-found 70 activities
+dflat: input XML file does not exist
+restored 70 files
 
 Downloading unocha-cbpf-ethiopia-allocation-2023 from https://cbpfapi.unocha.org/iati/iati/53/2023/GetAllocation.xml
 Parsing unocha-cbpf-ethiopia-allocation-2023 from https://cbpfapi.unocha.org/iati/iati/53/2023/GetAllocation.xml
 found 13 activities
 
 Downloading unocha-cbpf-ethiopia-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/53/2024/GetAllocation.xml
+curl: download ERROR 500
 Parsing unocha-cbpf-ethiopia-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/53/2024/GetAllocation.xml
-found 0 activities
+dflat: input XML file does not exist
+restored 0 files
 
 Downloading unocha-cbpf-ethiopia-contribution-2016 from https://cbpfapi.unocha.org/iati/iati/53/2016/GetContribution.xml
 Parsing unocha-cbpf-ethiopia-contribution-2016 from https://cbpfapi.unocha.org/iati/iati/53/2016/GetContribution.xml
@@ -35818,8 +35845,10 @@ Parsing unocha-cbpf-iraq-2024 from https://cbpfapi.unocha.org/iati/iati/72/2024/
 found 1 activities
 
 Downloading unocha-cbpf-iraq-allocation-2016 from https://cbpfapi.unocha.org/iati/iati/72/2016/GetAllocation.xml
+curl: download ERROR 500
 Parsing unocha-cbpf-iraq-allocation-2016 from https://cbpfapi.unocha.org/iati/iati/72/2016/GetAllocation.xml
-found 135 activities
+dflat: input XML file does not exist
+restored 135 files
 
 Downloading unocha-cbpf-iraq-allocation-2017 from https://cbpfapi.unocha.org/iati/iati/72/2017/GetAllocation.xml
 Parsing unocha-cbpf-iraq-allocation-2017 from https://cbpfapi.unocha.org/iati/iati/72/2017/GetAllocation.xml
@@ -35846,8 +35875,10 @@ Parsing unocha-cbpf-iraq-allocation-2022 from https://cbpfapi.unocha.org/iati/ia
 found 9 activities
 
 Downloading unocha-cbpf-iraq-allocation-2023 from https://cbpfapi.unocha.org/iati/iati/72/2023/GetAllocation.xml
+curl: download ERROR 000
 Parsing unocha-cbpf-iraq-allocation-2023 from https://cbpfapi.unocha.org/iati/iati/72/2023/GetAllocation.xml
-found 0 activities
+dflat: input XML file does not exist
+restored 0 files
 
 Downloading unocha-cbpf-iraq-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/72/2024/GetAllocation.xml
 Parsing unocha-cbpf-iraq-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/72/2024/GetAllocation.xml
@@ -35926,8 +35957,10 @@ Parsing unocha-cbpf-jordan-2024 from https://cbpfapi.unocha.org/iati/iati/73/202
 found 1 activities
 
 Downloading unocha-cbpf-jordan-allocation-2016 from https://cbpfapi.unocha.org/iati/iati/73/2016/GetAllocation.xml
+curl: download ERROR 500
 Parsing unocha-cbpf-jordan-allocation-2016 from https://cbpfapi.unocha.org/iati/iati/73/2016/GetAllocation.xml
-found 33 activities
+dflat: input XML file does not exist
+restored 33 files
 
 Downloading unocha-cbpf-jordan-allocation-2017 from https://cbpfapi.unocha.org/iati/iati/73/2017/GetAllocation.xml
 Parsing unocha-cbpf-jordan-allocation-2017 from https://cbpfapi.unocha.org/iati/iati/73/2017/GetAllocation.xml
@@ -36050,8 +36083,10 @@ Parsing unocha-cbpf-lebanon-allocation-2020 from https://cbpfapi.unocha.org/iati
 found 23 activities
 
 Downloading unocha-cbpf-lebanon-allocation-2021 from https://cbpfapi.unocha.org/iati/iati/71/2021/GetAllocation.xml
+curl: download ERROR 500
 Parsing unocha-cbpf-lebanon-allocation-2021 from https://cbpfapi.unocha.org/iati/iati/71/2021/GetAllocation.xml
-found 37 activities
+dflat: input XML file does not exist
+restored 37 files
 
 Downloading unocha-cbpf-lebanon-allocation-2022 from https://cbpfapi.unocha.org/iati/iati/71/2022/GetAllocation.xml
 Parsing unocha-cbpf-lebanon-allocation-2022 from https://cbpfapi.unocha.org/iati/iati/71/2022/GetAllocation.xml
@@ -36059,11 +36094,13 @@ found 50 activities
 
 Downloading unocha-cbpf-lebanon-allocation-2023 from https://cbpfapi.unocha.org/iati/iati/71/2023/GetAllocation.xml
 Parsing unocha-cbpf-lebanon-allocation-2023 from https://cbpfapi.unocha.org/iati/iati/71/2023/GetAllocation.xml
-found 0 activities
+found 4 activities
 
 Downloading unocha-cbpf-lebanon-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/71/2024/GetAllocation.xml
+curl: download ERROR 000
 Parsing unocha-cbpf-lebanon-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/71/2024/GetAllocation.xml
-found 0 activities
+dflat: input XML file does not exist
+restored 0 files
 
 Downloading unocha-cbpf-lebanon-contribution-2016 from https://cbpfapi.unocha.org/iati/iati/71/2016/GetContribution.xml
 Parsing unocha-cbpf-lebanon-contribution-2016 from https://cbpfapi.unocha.org/iati/iati/71/2016/GetContribution.xml
@@ -36246,8 +36283,10 @@ Parsing unocha-cbpf-nigeria-allocation-2017 from https://cbpfapi.unocha.org/iati
 found 37 activities
 
 Downloading unocha-cbpf-nigeria-allocation-2018 from https://cbpfapi.unocha.org/iati/iati/75/2018/GetAllocation.xml
+curl: download ERROR 500
 Parsing unocha-cbpf-nigeria-allocation-2018 from https://cbpfapi.unocha.org/iati/iati/75/2018/GetAllocation.xml
-found 71 activities
+dflat: input XML file does not exist
+restored 71 files
 
 Downloading unocha-cbpf-nigeria-allocation-2019 from https://cbpfapi.unocha.org/iati/iati/75/2019/GetAllocation.xml
 Parsing unocha-cbpf-nigeria-allocation-2019 from https://cbpfapi.unocha.org/iati/iati/75/2019/GetAllocation.xml
@@ -36350,8 +36389,10 @@ Parsing unocha-cbpf-nigerrhpf-allocation-2017 from https://cbpfapi.unocha.org/ia
 found 0 activities
 
 Downloading unocha-cbpf-nigerrhpf-allocation-2018 from https://cbpfapi.unocha.org/iati/iati/84/2018/GetAllocation.xml
+curl: download ERROR 000
 Parsing unocha-cbpf-nigerrhpf-allocation-2018 from https://cbpfapi.unocha.org/iati/iati/84/2018/GetAllocation.xml
-found 0 activities
+dflat: input XML file does not exist
+restored 0 files
 
 Downloading unocha-cbpf-nigerrhpf-allocation-2019 from https://cbpfapi.unocha.org/iati/iati/84/2019/GetAllocation.xml
 Parsing unocha-cbpf-nigerrhpf-allocation-2019 from https://cbpfapi.unocha.org/iati/iati/84/2019/GetAllocation.xml
@@ -36466,20 +36507,26 @@ Parsing unocha-cbpf-opt-allocation-2019 from https://cbpfapi.unocha.org/iati/iat
 found 62 activities
 
 Downloading unocha-cbpf-opt-allocation-2020 from https://cbpfapi.unocha.org/iati/iati/67/2020/GetAllocation.xml
+curl: download ERROR 500
 Parsing unocha-cbpf-opt-allocation-2020 from https://cbpfapi.unocha.org/iati/iati/67/2020/GetAllocation.xml
-found 78 activities
+dflat: input XML file does not exist
+restored 78 files
 
 Downloading unocha-cbpf-opt-allocation-2021 from https://cbpfapi.unocha.org/iati/iati/67/2021/GetAllocation.xml
 Parsing unocha-cbpf-opt-allocation-2021 from https://cbpfapi.unocha.org/iati/iati/67/2021/GetAllocation.xml
 found 61 activities
 
 Downloading unocha-cbpf-opt-allocation-2022 from https://cbpfapi.unocha.org/iati/iati/67/2022/GetAllocation.xml
+curl: download ERROR 500
 Parsing unocha-cbpf-opt-allocation-2022 from https://cbpfapi.unocha.org/iati/iati/67/2022/GetAllocation.xml
-found 57 activities
+dflat: input XML file does not exist
+restored 57 files
 
 Downloading unocha-cbpf-opt-allocation-2023 from https://cbpfapi.unocha.org/iati/iati/67/2023/GetAllocation.xml
+curl: download ERROR 000
 Parsing unocha-cbpf-opt-allocation-2023 from https://cbpfapi.unocha.org/iati/iati/67/2023/GetAllocation.xml
-found 37 activities
+dflat: input XML file does not exist
+restored 37 files
 
 Downloading unocha-cbpf-opt-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/67/2024/GetAllocation.xml
 Parsing unocha-cbpf-opt-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/67/2024/GetAllocation.xml
@@ -36590,8 +36637,10 @@ Parsing unocha-cbpf-pakistan-allocation-2023 from https://cbpfapi.unocha.org/iat
 found 0 activities
 
 Downloading unocha-cbpf-pakistan-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/60/2024/GetAllocation.xml
+curl: download ERROR 500
 Parsing unocha-cbpf-pakistan-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/60/2024/GetAllocation.xml
-found 0 activities
+dflat: input XML file does not exist
+restored 0 files
 
 Downloading unocha-cbpf-pakistan-contribution-2016 from https://cbpfapi.unocha.org/iati/iati/60/2016/GetContribution.xml
 Parsing unocha-cbpf-pakistan-contribution-2016 from https://cbpfapi.unocha.org/iati/iati/60/2016/GetContribution.xml
@@ -36690,8 +36739,10 @@ Parsing unocha-cbpf-somalia-allocation-2021 from https://cbpfapi.unocha.org/iati
 found 112 activities
 
 Downloading unocha-cbpf-somalia-allocation-2022 from https://cbpfapi.unocha.org/iati/iati/21/2022/GetAllocation.xml
+curl: download ERROR 000
 Parsing unocha-cbpf-somalia-allocation-2022 from https://cbpfapi.unocha.org/iati/iati/21/2022/GetAllocation.xml
-found 145 activities
+dflat: input XML file does not exist
+restored 145 files
 
 Downloading unocha-cbpf-somalia-allocation-2023 from https://cbpfapi.unocha.org/iati/iati/21/2023/GetAllocation.xml
 Parsing unocha-cbpf-somalia-allocation-2023 from https://cbpfapi.unocha.org/iati/iati/21/2023/GetAllocation.xml
@@ -36890,12 +36941,16 @@ Parsing unocha-cbpf-sudan-allocation-2017 from https://cbpfapi.unocha.org/iati/i
 found 90 activities
 
 Downloading unocha-cbpf-sudan-allocation-2018 from https://cbpfapi.unocha.org/iati/iati/15/2018/GetAllocation.xml
+curl: download ERROR 500
 Parsing unocha-cbpf-sudan-allocation-2018 from https://cbpfapi.unocha.org/iati/iati/15/2018/GetAllocation.xml
-found 71 activities
+dflat: input XML file does not exist
+restored 71 files
 
 Downloading unocha-cbpf-sudan-allocation-2019 from https://cbpfapi.unocha.org/iati/iati/15/2019/GetAllocation.xml
+curl: download ERROR 500
 Parsing unocha-cbpf-sudan-allocation-2019 from https://cbpfapi.unocha.org/iati/iati/15/2019/GetAllocation.xml
-found 78 activities
+dflat: input XML file does not exist
+restored 78 files
 
 Downloading unocha-cbpf-sudan-allocation-2020 from https://cbpfapi.unocha.org/iati/iati/15/2020/GetAllocation.xml
 Parsing unocha-cbpf-sudan-allocation-2020 from https://cbpfapi.unocha.org/iati/iati/15/2020/GetAllocation.xml
@@ -37206,16 +37261,22 @@ Parsing unocha-cbpf-ukraine-allocation-2021 from https://cbpfapi.unocha.org/iati
 found 26 activities
 
 Downloading unocha-cbpf-ukraine-allocation-2022 from https://cbpfapi.unocha.org/iati/iati/81/2022/GetAllocation.xml
+curl: download ERROR 000
 Parsing unocha-cbpf-ukraine-allocation-2022 from https://cbpfapi.unocha.org/iati/iati/81/2022/GetAllocation.xml
-found 109 activities
+dflat: input XML file does not exist
+restored 109 files
 
 Downloading unocha-cbpf-ukraine-allocation-2023 from https://cbpfapi.unocha.org/iati/iati/81/2023/GetAllocation.xml
+curl: download ERROR 000
 Parsing unocha-cbpf-ukraine-allocation-2023 from https://cbpfapi.unocha.org/iati/iati/81/2023/GetAllocation.xml
-found 29 activities
+dflat: input XML file does not exist
+restored 29 files
 
 Downloading unocha-cbpf-ukraine-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/81/2024/GetAllocation.xml
+curl: download ERROR 500
 Parsing unocha-cbpf-ukraine-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/81/2024/GetAllocation.xml
-found 0 activities
+dflat: input XML file does not exist
+restored 0 files
 
 Downloading unocha-cbpf-ukraine-contribution-2019 from https://cbpfapi.unocha.org/iati/iati/81/2019/GetContribution.xml
 Parsing unocha-cbpf-ukraine-contribution-2019 from https://cbpfapi.unocha.org/iati/iati/81/2019/GetContribution.xml
@@ -37270,8 +37331,10 @@ Parsing unocha-cbpf-venezuela-allocation-2021 from https://cbpfapi.unocha.org/ia
 found 31 activities
 
 Downloading unocha-cbpf-venezuela-allocation-2022 from https://cbpfapi.unocha.org/iati/iati/83/2022/GetAllocation.xml
+curl: download ERROR 000
 Parsing unocha-cbpf-venezuela-allocation-2022 from https://cbpfapi.unocha.org/iati/iati/83/2022/GetAllocation.xml
-found 27 activities
+dflat: input XML file does not exist
+restored 27 files
 
 Downloading unocha-cbpf-venezuela-allocation-2023 from https://cbpfapi.unocha.org/iati/iati/83/2023/GetAllocation.xml
 Parsing unocha-cbpf-venezuela-allocation-2023 from https://cbpfapi.unocha.org/iati/iati/83/2023/GetAllocation.xml
@@ -37346,28 +37409,36 @@ Parsing unocha-cbpf-yemen-allocation-2017 from https://cbpfapi.unocha.org/iati/i
 found 111 activities
 
 Downloading unocha-cbpf-yemen-allocation-2018 from https://cbpfapi.unocha.org/iati/iati/64/2018/GetAllocation.xml
+curl: download ERROR 000
 Parsing unocha-cbpf-yemen-allocation-2018 from https://cbpfapi.unocha.org/iati/iati/64/2018/GetAllocation.xml
-found 112 activities
+dflat: input XML file does not exist
+restored 112 files
 
 Downloading unocha-cbpf-yemen-allocation-2019 from https://cbpfapi.unocha.org/iati/iati/64/2019/GetAllocation.xml
 Parsing unocha-cbpf-yemen-allocation-2019 from https://cbpfapi.unocha.org/iati/iati/64/2019/GetAllocation.xml
 found 154 activities
 
 Downloading unocha-cbpf-yemen-allocation-2020 from https://cbpfapi.unocha.org/iati/iati/64/2020/GetAllocation.xml
+curl: download ERROR 500
 Parsing unocha-cbpf-yemen-allocation-2020 from https://cbpfapi.unocha.org/iati/iati/64/2020/GetAllocation.xml
-found 62 activities
+dflat: input XML file does not exist
+restored 62 files
 
 Downloading unocha-cbpf-yemen-allocation-2021 from https://cbpfapi.unocha.org/iati/iati/64/2021/GetAllocation.xml
 Parsing unocha-cbpf-yemen-allocation-2021 from https://cbpfapi.unocha.org/iati/iati/64/2021/GetAllocation.xml
 found 106 activities
 
 Downloading unocha-cbpf-yemen-allocation-2022 from https://cbpfapi.unocha.org/iati/iati/64/2022/GetAllocation.xml
+curl: download ERROR 500
 Parsing unocha-cbpf-yemen-allocation-2022 from https://cbpfapi.unocha.org/iati/iati/64/2022/GetAllocation.xml
-found 106 activities
+dflat: input XML file does not exist
+restored 106 files
 
 Downloading unocha-cbpf-yemen-allocation-2023 from https://cbpfapi.unocha.org/iati/iati/64/2023/GetAllocation.xml
+curl: download ERROR 500
 Parsing unocha-cbpf-yemen-allocation-2023 from https://cbpfapi.unocha.org/iati/iati/64/2023/GetAllocation.xml
-found 11 activities
+dflat: input XML file does not exist
+restored 11 files
 
 Downloading unocha-cbpf-yemen-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/64/2024/GetAllocation.xml
 Parsing unocha-cbpf-yemen-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/64/2024/GetAllocation.xml
@@ -40293,7 +40364,7 @@ found 29 activities
 
 Downloading utd-998 from https://aidstream.s3.us-west-2.amazonaws.com/xml/utd-998.xml
 Parsing utd-998 from https://aidstream.s3.us-west-2.amazonaws.com/xml/utd-998.xml
-found 116 activities
+found 117 activities
 
 Downloading utd-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/utd-org.xml
 Parsing utd-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/utd-org.xml
@@ -40632,7 +40703,7 @@ found 1 organisations
 
 Downloading wateraid-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/wateraid-activities.xml
 Parsing wateraid-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/wateraid-activities.xml
-found 2 activities
+found 3 activities
 
 Downloading wateraid-ao from https://www.wateraid.org/sites/g/files/jkxoof271/files/wa-opendata-ao_6.xml
 Converting IATI activities version 1.04 to version 2.03
@@ -43937,8 +44008,8 @@ Downloading yipl-998 from https://aidstream-stage.s3.us-west-2.amazonaws.com/xml
 Parsing yipl-998 from https://aidstream-stage.s3.us-west-2.amazonaws.com/xml/yipl-998.xml
 found 2 activities
 
-Downloading yipl-activities from https://aidstream-stage.s3.us-west-2.amazonaws.com/xml/yipl-activities.xml
-Parsing yipl-activities from https://aidstream-stage.s3.us-west-2.amazonaws.com/xml/yipl-activities.xml
+Downloading yipl-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/yipl-activities.xml
+Parsing yipl-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/yipl-activities.xml
 found 0 activities
 
 Downloading yipl-in from https://aidstream-stage.s3.us-west-2.amazonaws.com/xml/yipl-in.xml
