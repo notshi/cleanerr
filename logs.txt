@@ -1419,8 +1419,10 @@ Parsing afdb-guinea from https://www.afdb.org/sites/default/files/iati/iatiguine
 found 90 activities
 
 Downloading afd-bi from https://static.data.gouv.fr/resources/donnees-de-laide-au-developpement-de-lafd-1/20230712-150822/fr-afd-bi.xml
+curl: download ERROR 404
 Parsing afd-bi from https://static.data.gouv.fr/resources/donnees-de-laide-au-developpement-de-lafd-1/20230712-150822/fr-afd-bi.xml
-found 9 activities
+dflat: input XML file does not exist
+restored 9 files
 
 Downloading afd-bj from https://static.data.gouv.fr/resources/donnees-de-laide-au-developpement-de-lafd-1/20230712-150924/fr-afd-bj.xml
 Parsing afd-bj from https://static.data.gouv.fr/resources/donnees-de-laide-au-developpement-de-lafd-1/20230712-150924/fr-afd-bj.xml
@@ -4631,7 +4633,7 @@ found 1 activities
 
 Downloading be-dgd-2021_1 from http://diplomatie.be/oda/IATI_2023_1.xml
 Parsing be-dgd-2021_1 from http://diplomatie.be/oda/IATI_2023_1.xml
-found 73 activities
+found 74 activities
 
 Downloading be-dgd-2021_2 from http://diplomatie.be/oda/IATI_2023_2.xml
 Parsing be-dgd-2021_2 from http://diplomatie.be/oda/IATI_2023_2.xml
@@ -4852,9 +4854,9 @@ Downloading bmgf-org from https://docs.gatesfoundation.org/Documents/bmgf-org.xm
 Parsing bmgf-org from https://docs.gatesfoundation.org/Documents/bmgf-org.xml
 found 1 organisations
 
-Downloading bmu_iki-999 from https://www.international-climate-initiative.com/fileadmin/iki/Dokumente/IATI/IKI_IATI_202307.xml
-Parsing bmu_iki-999 from https://www.international-climate-initiative.com/fileadmin/iki/Dokumente/IATI/IKI_IATI_202307.xml
-found 777 activities
+Downloading bmu_iki-999 from https://www.international-climate-initiative.com/fileadmin/iki/Dokumente/IATI/IKI_IATI_202308.xml
+Parsing bmu_iki-999 from https://www.international-climate-initiative.com/fileadmin/iki/Dokumente/IATI/IKI_IATI_202308.xml
+found 957 activities
 
 Downloading bmz-189 from https://teamwork.bmz.de/pub/bscw.cgi/2018133/DE-1-BMZ-189.xml
 Parsing bmz-189 from https://teamwork.bmz.de/pub/bscw.cgi/2018133/DE-1-BMZ-189.xml
@@ -6726,9 +6728,8 @@ Parsing cidr-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/ci
 found 1 activities
 
 Downloading cif-389 from http://siteresources.worldbank.org/IATI/CIF/CIF-389.xml
-curl: download ERROR 404
 Parsing cif-389 from http://siteresources.worldbank.org/IATI/CIF/CIF-389.xml
-dflat: input XML file does not exist
+dflat: invalid XML format
 restored 0 files
 
 Downloading cif-889 from http://siteresources.worldbank.org/IATI/CIF/CIF-889.xml
@@ -7866,7 +7867,7 @@ found 2608 activities
 
 Downloading danida-all_7 from http://iati.um.dk/api/v2/files/iati7.xml
 Parsing danida-all_7 from http://iati.um.dk/api/v2/files/iati7.xml
-found 2604 activities
+found 2605 activities
 
 Downloading danida-org from http://iati.um.dk/api/v2/organisations/files/iati-organisations.xml
 Parsing danida-org from http://iati.um.dk/api/v2/organisations/files/iati-organisations.xml
@@ -13336,7 +13337,7 @@ found 1 organisations
 
 Downloading enabel-all-activities from https://open.enabel.be/iati/all-activities.xml
 Parsing enabel-all-activities from https://open.enabel.be/iati/all-activities.xml
-found 1138 activities
+found 1144 activities
 
 Downloading enabel-contractors from https://open.enabel.be/iati/contractors.xml
 Parsing enabel-contractors from https://open.enabel.be/iati/contractors.xml
@@ -14087,6 +14088,13 @@ found 95 activities
 
 Downloading finland_mfa-189 from http://formin.finland.fi/opendata/IATI/Finland_189.xml
 Converting IATI activities version 1.00 to version 2.03
+./iati-activities.xsl:252: parser error : Char 0x0 out of allowed range
+          
+          ^
+./iati-activities.xsl:252: parser error : Premature end of data in tag administrative line 251
+          
+          ^
+cannot parse ./iati-activities.xsl
 Parsing finland_mfa-189 from http://formin.finland.fi/opendata/IATI/Finland_189.xml
 found 2 activities
 
@@ -14562,19 +14570,6 @@ found 2 activities
 
 Downloading finland_mfa-mw from http://formin.finland.fi/opendata/IATI/Finland_MW.xml
 Converting IATI activities version 1.00 to version 2.03
-./iati-activities.xsl:367: parser error : Char 0x0 out of allowed range
-                        <default-fi
-                                   ^
-./iati-activities.xsl:367: parser error : Char 0x0 out of allowed range
-                        <default-fi
-                                   ^
-./iati-activities.xsl:367: parser error : Couldn't find end of Start Tag default-fi line 367
-                        <default-fi
-                                   ^
-./iati-activities.xsl:367: parser error : Premature end of data in tag if line 366
-                        <default-fi
-                                   ^
-cannot parse ./iati-activities.xsl
 Parsing finland_mfa-mw from http://formin.finland.fi/opendata/IATI/Finland_MW.xml
 found 14 activities
 
@@ -14834,7 +14829,7 @@ found 0 activities
 
 Downloading fmo-7001_disclosure_overview from https://fmo.procurios.cloud/l/en/library/download/urn:uuid:ecd26d91-6909-4fea-8c15-42f229efa204/7001+disclosure+overview.xml
 Parsing fmo-7001_disclosure_overview from https://fmo.procurios.cloud/l/en/library/download/urn:uuid:ecd26d91-6909-4fea-8c15-42f229efa204/7001+disclosure+overview.xml
-found 555 activities
+found 560 activities
 
 Downloading fm-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/fm-org.xml
 Converting IATI organisations version 1.02 to version 2.03
@@ -16058,7 +16053,7 @@ found 17 activities
 
 Downloading gef-kn from https://d2mxkr7359ifh6.cloudfront.net/GEF/KN.xml
 Parsing gef-kn from https://d2mxkr7359ifh6.cloudfront.net/GEF/KN.xml
-found 8 activities
+found 9 activities
 
 Downloading gef-kp from https://d2mxkr7359ifh6.cloudfront.net/GEF/KP.xml
 Parsing gef-kp from https://d2mxkr7359ifh6.cloudfront.net/GEF/KP.xml
@@ -16602,7 +16597,7 @@ found 1 organisations
 
 Downloading globalgiving-activity from http://www.globalgiving.org/iati/activities.xml
 Parsing globalgiving-activity from http://www.globalgiving.org/iati/activities.xml
-found 26400 activities
+found 26402 activities
 
 Downloading globalgiving-org from http://www.globalgiving.org/iati/organisations.xml
 Parsing globalgiving-org from http://www.globalgiving.org/iati/organisations.xml
@@ -19203,7 +19198,7 @@ found 76 activities
 
 Downloading ifcwbg-pk from https://disclosures.ifc.org/iati/ifc-pk.xml
 Parsing ifcwbg-pk from https://disclosures.ifc.org/iati/ifc-pk.xml
-found 83 activities
+found 84 activities
 
 Downloading ifcwbg-pl from https://disclosures.ifc.org/iati/ifc-pl.xml
 Parsing ifcwbg-pl from https://disclosures.ifc.org/iati/ifc-pl.xml
@@ -20265,6 +20260,25 @@ found 145 activities
 
 Downloading irishaid-budgetfile2014 from https://irishaid.ie/media/irishaid/allwebsitemedia/30whatwedo/transparency/budget2014v2.xml
 Converting IATI activities version 1.03 to version 2.03
+./iati-activities.xsl:309: parser error : Char 0x0 out of allowed range
+    <xsl:if test="@vocabulary = 'RO2'"><xsl:attribute name="vocabulary">98</xsl:
+                                                                               ^
+./iati-activities.xsl:309: namespace error : Failed to parse QName 'xsl:'
+    <xsl:if test="@vocabulary = 'RO2'"><xsl:attribute name="vocabulary">98</xsl:
+                                                                               ^
+./iati-activities.xsl:309: parser error : Char 0x0 out of allowed range
+    <xsl:if test="@vocabulary = 'RO2'"><xsl:attribute name="vocabulary">98</xsl:
+                                                                               ^
+./iati-activities.xsl:309: parser error : expected '>'
+    <xsl:if test="@vocabulary = 'RO2'"><xsl:attribute name="vocabulary">98</xsl:
+                                                                               ^
+./iati-activities.xsl:309: parser error : Opening and ending tag mismatch: attribute line 309 and xsl:
+    <xsl:if test="@vocabulary = 'RO2'"><xsl:attribute name="vocabulary">98</xsl:
+                                                                               ^
+./iati-activities.xsl:309: parser error : Premature end of data in tag if line 309
+    <xsl:if test="@vocabulary = 'RO2'"><xsl:attribute name="vocabulary">98</xsl:
+                                                                               ^
+cannot parse ./iati-activities.xsl
 Parsing irishaid-budgetfile2014 from https://irishaid.ie/media/irishaid/allwebsitemedia/30whatwedo/transparency/budget2014v2.xml
 found 172 activities
 
@@ -21179,7 +21193,7 @@ found 10 activities
 
 Downloading ksrelief291-ng from https://aidstream.s3.us-west-2.amazonaws.com/xml/ksrelief291-ng.xml
 Parsing ksrelief291-ng from https://aidstream.s3.us-west-2.amazonaws.com/xml/ksrelief291-ng.xml
-found 22 activities
+found 23 activities
 
 Downloading ksrelief291-ni from https://aidstream.s3.us-west-2.amazonaws.com/xml/ksrelief291-ni.xml
 Parsing ksrelief291-ni from https://aidstream.s3.us-west-2.amazonaws.com/xml/ksrelief291-ni.xml
@@ -21195,7 +21209,7 @@ found 5 activities
 
 Downloading ksrelief291-pk from https://aidstream.s3.us-west-2.amazonaws.com/xml/ksrelief291-pk.xml
 Parsing ksrelief291-pk from https://aidstream.s3.us-west-2.amazonaws.com/xml/ksrelief291-pk.xml
-found 32 activities
+found 33 activities
 
 Downloading ksrelief291-ps from https://aidstream.s3.us-west-2.amazonaws.com/xml/ksrelief291-ps.xml
 Parsing ksrelief291-ps from https://aidstream.s3.us-west-2.amazonaws.com/xml/ksrelief291-ps.xml
@@ -21215,7 +21229,7 @@ found 7 activities
 
 Downloading ksrelief291-so from https://aidstream.s3.us-west-2.amazonaws.com/xml/ksrelief291-so.xml
 Parsing ksrelief291-so from https://aidstream.s3.us-west-2.amazonaws.com/xml/ksrelief291-so.xml
-found 28 activities
+found 29 activities
 
 Downloading ksrelief291-sy from https://aidstream.s3.us-west-2.amazonaws.com/xml/ksrelief291-sy.xml
 Parsing ksrelief291-sy from https://aidstream.s3.us-west-2.amazonaws.com/xml/ksrelief291-sy.xml
@@ -24168,7 +24182,7 @@ found 1 organisations
 
 Downloading neopenda-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/neopenda-activities.xml
 Parsing neopenda-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/neopenda-activities.xml
-found 1 activities
+found 2 activities
 
 Downloading network4africa-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/network4africa-activities.xml
 Parsing network4africa-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/network4africa-activities.xml
@@ -25008,7 +25022,7 @@ found 2220 activities
 
 Downloading onl-activity from https://www.oxfamnovib.nl/redactie/Downloads/XML/iati.xml
 Parsing onl-activity from https://www.oxfamnovib.nl/redactie/Downloads/XML/iati.xml
-found 2019 activities
+found 2022 activities
 
 Downloading onl-org from https://www.oxfamnovib.nl/redactie/downloads/xml/IATI_NL-KVK-27108436.xml
 Parsing onl-org from https://www.oxfamnovib.nl/redactie/downloads/xml/IATI_NL-KVK-27108436.xml
@@ -25745,7 +25759,7 @@ found 1 organisations
 
 Downloading paradigm-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/paradigm-activities.xml
 Parsing paradigm-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/paradigm-activities.xml
-found 0 activities
+found 1 activities
 
 Downloading parakou-act1 from https://rsr.akvo.org/organisation/4146/iati/
 Parsing parakou-act1 from https://rsr.akvo.org/organisation/4146/iati/
@@ -26644,6 +26658,12 @@ Downloading prosperityfund-org from https://assets.publishing.service.gov.uk/gov
 Parsing prosperityfund-org from https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/824225/Cross-government-Prosperity_Fund-organisation-file.xml
 found 1 organisations
 
+Downloading prospero-2023 from https://prosperocozm-my.sharepoint.com/personal/itsupport_prospero_co_zm/Documents/Prospero%20IATI/Prospero%20ME_results%20Procedures%20Manual_.pdf?CT=1692268571324&OR=ItemsView
+curl: download ERROR 403
+Parsing prospero-2023 from https://prosperocozm-my.sharepoint.com/personal/itsupport_prospero_co_zm/Documents/Prospero%20IATI/Prospero%20ME_results%20Procedures%20Manual_.pdf?CT=1692268571324&OR=ItemsView
+dflat: input XML file does not exist
+restored 0 files
+
 Downloading prospero-260 from https://prosperocozm-my.sharepoint.com/:b:/g/personal/administrator_prosperocozm_onmicrosoft_com/EbZtV2ueIWRKr27KRzWntPwB8BgwC3lLEo4pw8GQHF8ctA?e=Uso8yZ
 curl: download ERROR 403
 Parsing prospero-260 from https://prosperocozm-my.sharepoint.com/:b:/g/personal/administrator_prosperocozm_onmicrosoft_com/EbZtV2ueIWRKr27KRzWntPwB8BgwC3lLEo4pw8GQHF8ctA?e=Uso8yZ
@@ -27386,7 +27406,7 @@ found 1 organisations
 
 Downloading rvo-01 from https://projects.rvo.nl/opendata/iati.xml
 Parsing rvo-01 from https://projects.rvo.nl/opendata/iati.xml
-found 4264 activities
+found 4280 activities
 
 Downloading rvo-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/rvo-activities.xml
 Parsing rvo-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/rvo-activities.xml
@@ -27926,6 +27946,10 @@ found 4 activities
 Downloading shc-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/shc-org.xml
 Parsing shc-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/shc-org.xml
 found 1 organisations
+
+Downloading shelterbox-activities from https://iatipublisher-prod.s3.amazonaws.com/xml/mergedActivityXml/shelterbox-activities.xml
+Parsing shelterbox-activities from https://iatipublisher-prod.s3.amazonaws.com/xml/mergedActivityXml/shelterbox-activities.xml
+found 2 activities
 
 Downloading shelterbox-organisation from https://iatipublisher-prod.s3.amazonaws.com/organizationXmlFiles/shelterbox-organisation.xml
 Parsing shelterbox-organisation from https://iatipublisher-prod.s3.amazonaws.com/organizationXmlFiles/shelterbox-organisation.xml
@@ -36175,7 +36199,7 @@ found 49 activities
 
 Downloading unocha-cbpf-myanmar-allocation-2023 from https://cbpfapi.unocha.org/iati/iati/59/2023/GetAllocation.xml
 Parsing unocha-cbpf-myanmar-allocation-2023 from https://cbpfapi.unocha.org/iati/iati/59/2023/GetAllocation.xml
-found 8 activities
+found 10 activities
 
 Downloading unocha-cbpf-myanmar-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/59/2024/GetAllocation.xml
 Parsing unocha-cbpf-myanmar-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/59/2024/GetAllocation.xml
@@ -43653,7 +43677,7 @@ found 1 organisations
 
 Downloading wv_cd-activity from https://www.wvi.org/accountability/DRC-activities.xml
 Parsing wv_cd-activity from https://www.wvi.org/accountability/DRC-activities.xml
-found 15 activities
+found 17 activities
 
 Downloading wv_cd-org from https://www.wvi.org/accountability/DRC-organisation.xml
 Parsing wv_cd-org from https://www.wvi.org/accountability/DRC-organisation.xml
@@ -43677,7 +43701,7 @@ found 1 organisations
 
 Downloading wv_et_activities-activity from https://www.wvi.org/accountability/ETH-activities.xml
 Parsing wv_et_activities-activity from https://www.wvi.org/accountability/ETH-activities.xml
-found 5 activities
+found 6 activities
 
 Downloading wv_et_activities-org from https://www.wvi.org/accountability/ETH-organisation.xml
 Parsing wv_et_activities-org from https://www.wvi.org/accountability/ETH-organisation.xml
