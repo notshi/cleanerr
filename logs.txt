@@ -1462,8 +1462,8 @@ Converting IATI activities version 1.03 to version 2.03
 Parsing af-14 from https://raw.githubusercontent.com/IATI/CSV2IATI-public-backup/master/1397049497.46.xml
 found 30 activities
 
-Downloading afd-am from https://static.data.gouv.fr/resources/donnees-de-laide-au-developpement-de-lafd-1/20230913-183950/fr-afd-am.xml
-Parsing afd-am from https://static.data.gouv.fr/resources/donnees-de-laide-au-developpement-de-lafd-1/20230913-183950/fr-afd-am.xml
+Downloading afd-am from https://static.data.gouv.fr/resources/donnees-de-laide-au-developpement-de-lafd-1/20230914-090139/fr-afd-am.xml
+Parsing afd-am from https://static.data.gouv.fr/resources/donnees-de-laide-au-developpement-de-lafd-1/20230914-090139/fr-afd-am.xml
 found 6 activities
 
 Downloading afd-ao from https://static.data.gouv.fr/resources/donnees-de-laide-au-developpement-de-lafd-1/20230831-083652/fr-afd-ao.xml
@@ -1748,9 +1748,11 @@ Parsing afdb-org from https://www.afdb.org/sites/default/files/iati/iatiorganisa
 dflat: input XML file does not exist
 restored 1 files
 
-Downloading afd-bo from https://static.data.gouv.fr/resources/donnees-de-laide-au-developpement-de-lafd-1/20230830-082939/fr-afd-bo.xml
-Parsing afd-bo from https://static.data.gouv.fr/resources/donnees-de-laide-au-developpement-de-lafd-1/20230830-082939/fr-afd-bo.xml
-found 4 activities
+Downloading afd-bo from https://static.data.gouv.fr/resources/donnees-de-laide-au-developpement-de-lafd-1/20230914-100407/fr-afd-bo.xml
+curl: download ERROR 404
+Parsing afd-bo from https://static.data.gouv.fr/resources/donnees-de-laide-au-developpement-de-lafd-1/20230914-100407/fr-afd-bo.xml
+dflat: input XML file does not exist
+restored 4 files
 
 Downloading afd-br from https://static.data.gouv.fr/resources/donnees-de-laide-au-developpement-de-lafd-1/20230913-151145/fr-afd-br.xml
 Parsing afd-br from https://static.data.gouv.fr/resources/donnees-de-laide-au-developpement-de-lafd-1/20230913-151145/fr-afd-br.xml
@@ -1969,8 +1971,10 @@ Parsing afd-in from https://static.data.gouv.fr/resources/donnees-de-laide-au-de
 found 29 activities
 
 Downloading afd-iq from https://static.data.gouv.fr/resources/donnees-de-laide-au-developpement-de-lafd-1/20230913-153826/fr-afd-iq.xml
+curl: download ERROR 404
 Parsing afd-iq from https://static.data.gouv.fr/resources/donnees-de-laide-au-developpement-de-lafd-1/20230913-153826/fr-afd-iq.xml
-found 17 activities
+dflat: input XML file does not exist
+restored 17 files
 
 Downloading afd-jo from https://static.data.gouv.fr/resources/donnees-de-laide-au-developpement-de-lafd-1/20230913-153930/fr-afd-jo.xml
 Parsing afd-jo from https://static.data.gouv.fr/resources/donnees-de-laide-au-developpement-de-lafd-1/20230913-153930/fr-afd-jo.xml
@@ -4923,7 +4927,7 @@ found 146 activities
 
 Downloading be-dgd-2021_4 from http://diplomatie.be/oda/IATI_2023_4.xml
 Parsing be-dgd-2021_4 from http://diplomatie.be/oda/IATI_2023_4.xml
-found 373 activities
+found 376 activities
 
 Downloading be-dgd-org2020-2024 from http://diplomatie.be/oda/XM-DAC-10-2-orgfileNov2021.xml
 Parsing be-dgd-org2020-2024 from http://diplomatie.be/oda/XM-DAC-10-2-orgfileNov2021.xml
@@ -7093,9 +7097,8 @@ Parsing cidr-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/ci
 found 1 activities
 
 Downloading cif-389 from http://siteresources.worldbank.org/IATI/CIF/CIF-389.xml
-curl: download ERROR 404
 Parsing cif-389 from http://siteresources.worldbank.org/IATI/CIF/CIF-389.xml
-dflat: input XML file does not exist
+dflat: invalid XML format
 restored 0 files
 
 Downloading cif-889 from http://siteresources.worldbank.org/IATI/CIF/CIF-889.xml
@@ -7143,9 +7146,8 @@ Parsing cif-br from http://doumodqax2qi2.cloudfront.net/CIF/CIF-05-2020/CIF-BR.x
 found 11 activities
 
 Downloading cif-cd from http://siteresources.worldbank.org/IATI/CIF/CIF-CD.xml
-curl: download ERROR 404
 Parsing cif-cd from http://siteresources.worldbank.org/IATI/CIF/CIF-CD.xml
-dflat: input XML file does not exist
+dflat: invalid XML format
 restored 0 files
 
 Downloading cif-ci from http://doumodqax2qi2.cloudfront.net/CIF/CIF-05-2020/CIF-CI.xml
@@ -7337,9 +7339,8 @@ Parsing cif-ws from http://doumodqax2qi2.cloudfront.net/CIF/CIF-05-2020/CIF-WS.x
 found 2 activities
 
 Downloading cif-ye from http://siteresources.worldbank.org/IATI/CIF/CIF-YE.xml
-curl: download ERROR 404
 Parsing cif-ye from http://siteresources.worldbank.org/IATI/CIF/CIF-YE.xml
-dflat: input XML file does not exist
+dflat: invalid XML format
 restored 0 files
 
 Downloading cif-za from http://doumodqax2qi2.cloudfront.net/CIF/CIF-05-2020/CIF-ZA.xml
@@ -7398,7 +7399,7 @@ found 14 activities
 
 Downloading cisu-gaia from https://vores.cisu.dk/activities.xml
 Parsing cisu-gaia from https://vores.cisu.dk/activities.xml
-found 2573 activities
+found 2575 activities
 
 Downloading cisu-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/cisu-org.xml
 Parsing cisu-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/cisu-org.xml
@@ -13691,7 +13692,7 @@ found 1 organisations
 
 Downloading enabel-all-activities from https://open.enabel.be/iati/all-activities.xml
 Parsing enabel-all-activities from https://open.enabel.be/iati/all-activities.xml
-found 1142 activities
+found 1143 activities
 
 Downloading enabel-contractors from https://open.enabel.be/iati/contractors.xml
 Parsing enabel-contractors from https://open.enabel.be/iati/contractors.xml
@@ -14172,15 +14173,15 @@ found 1344 activities
 
 Downloading fcdo-set-17 from http://iati.fcdo.gov.uk/iati_files/solr/FCDO-set-17.xml
 Parsing fcdo-set-17 from http://iati.fcdo.gov.uk/iati_files/solr/FCDO-set-17.xml
-found 1371 activities
+found 1373 activities
 
 Downloading fcdo-set-18 from http://iati.fcdo.gov.uk/iati_files/solr/FCDO-set-18.xml
 Parsing fcdo-set-18 from http://iati.fcdo.gov.uk/iati_files/solr/FCDO-set-18.xml
-found 1463 activities
+found 1465 activities
 
 Downloading fcdo-set-19 from http://iati.fcdo.gov.uk/iati_files/solr/FCDO-set-19.xml
 Parsing fcdo-set-19 from http://iati.fcdo.gov.uk/iati_files/solr/FCDO-set-19.xml
-found 1561 activities
+found 1566 activities
 
 Downloading fcdo-set-1 from http://iati.fcdo.gov.uk/iati_files/solr/FCDO-set-1.xml
 Parsing fcdo-set-1 from http://iati.fcdo.gov.uk/iati_files/solr/FCDO-set-1.xml
@@ -14188,7 +14189,7 @@ found 804 activities
 
 Downloading fcdo-set-20 from http://iati.fcdo.gov.uk/iati_files/solr/FCDO-set-20.xml
 Parsing fcdo-set-20 from http://iati.fcdo.gov.uk/iati_files/solr/FCDO-set-20.xml
-found 1296 activities
+found 1313 activities
 
 Downloading fcdo-set-2 from http://iati.fcdo.gov.uk/iati_files/solr/FCDO-set-2.xml
 Parsing fcdo-set-2 from http://iati.fcdo.gov.uk/iati_files/solr/FCDO-set-2.xml
@@ -14208,7 +14209,7 @@ found 828 activities
 
 Downloading fcdo-set-6 from http://iati.fcdo.gov.uk/iati_files/solr/FCDO-set-6.xml
 Parsing fcdo-set-6 from http://iati.fcdo.gov.uk/iati_files/solr/FCDO-set-6.xml
-found 890 activities
+found 891 activities
 
 Downloading fcdo-set-7 from http://iati.fcdo.gov.uk/iati_files/solr/FCDO-set-7.xml
 Parsing fcdo-set-7 from http://iati.fcdo.gov.uk/iati_files/solr/FCDO-set-7.xml
@@ -16009,7 +16010,7 @@ found 1 organisations
 
 Downloading gac-amc-act_2_3 from http://w05.international.gc.ca/projectbrowser-banqueprojets/iita-iati/dfatd-maecd_activit_status_2_3.xml
 Parsing gac-amc-act_2_3 from http://w05.international.gc.ca/projectbrowser-banqueprojets/iita-iati/dfatd-maecd_activit_status_2_3.xml
-found 1919 activities
+found 1920 activities
 
 Downloading gac-amc-act_4 from http://w05.international.gc.ca/projectbrowser-banqueprojets/iita-iati/dfatd-maecd_activit_status_4.xml
 Parsing gac-amc-act_4 from http://w05.international.gc.ca/projectbrowser-banqueprojets/iita-iati/dfatd-maecd_activit_status_4.xml
@@ -20402,6 +20403,10 @@ Downloading international-alert-activities from https://aidstream.s3.us-west-2.a
 Parsing international-alert-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/international-alert-activities.xml
 found 266 activities
 
+Downloading international-alert-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/international-alert-org.xml
+Parsing international-alert-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/international-alert-org.xml
+found 1 organisations
+
 Downloading interpeace-activity from https://www.interpeace.org/wp-content/uploads/iati/IATI-activities.xml
 Parsing interpeace-activity from https://www.interpeace.org/wp-content/uploads/iati/IATI-activities.xml
 found 109 activities
@@ -21474,7 +21479,7 @@ found 5 activities
 
 Downloading ksrelief291-lb from https://aidstream.s3.us-west-2.amazonaws.com/xml/ksrelief291-lb.xml
 Parsing ksrelief291-lb from https://aidstream.s3.us-west-2.amazonaws.com/xml/ksrelief291-lb.xml
-found 51 activities
+found 52 activities
 
 Downloading ksrelief291-lk from https://aidstream.s3.us-west-2.amazonaws.com/xml/ksrelief291-lk.xml
 Parsing ksrelief291-lk from https://aidstream.s3.us-west-2.amazonaws.com/xml/ksrelief291-lk.xml
@@ -25368,7 +25373,7 @@ found 2218 activities
 
 Downloading onl-activity from https://www.oxfamnovib.nl/redactie/Downloads/XML/iati.xml
 Parsing onl-activity from https://www.oxfamnovib.nl/redactie/Downloads/XML/iati.xml
-found 2060 activities
+found 2063 activities
 
 Downloading onl-org from https://www.oxfamnovib.nl/redactie/downloads/xml/IATI_NL-KVK-27108436.xml
 Parsing onl-org from https://www.oxfamnovib.nl/redactie/downloads/xml/IATI_NL-KVK-27108436.xml
@@ -27768,7 +27773,7 @@ found 1 organisations
 
 Downloading rvo-01 from https://projects.rvo.nl/opendata/iati.xml
 Parsing rvo-01 from https://projects.rvo.nl/opendata/iati.xml
-found 4316 activities
+found 4318 activities
 
 Downloading rvo-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/rvo-activities.xml
 Parsing rvo-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/rvo-activities.xml
@@ -35791,7 +35796,7 @@ found 54 activities
 
 Downloading unocha-cbpf-burkinafasorhpf-allocation-2023 from https://cbpfapi.unocha.org/iati/iati/85/2023/GetAllocation.xml
 Parsing unocha-cbpf-burkinafasorhpf-allocation-2023 from https://cbpfapi.unocha.org/iati/iati/85/2023/GetAllocation.xml
-found 17 activities
+found 26 activities
 
 Downloading unocha-cbpf-burkinafasorhpf-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/85/2024/GetAllocation.xml
 Parsing unocha-cbpf-burkinafasorhpf-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/85/2024/GetAllocation.xml
@@ -36471,7 +36476,7 @@ found 50 activities
 
 Downloading unocha-cbpf-lebanon-allocation-2023 from https://cbpfapi.unocha.org/iati/iati/71/2023/GetAllocation.xml
 Parsing unocha-cbpf-lebanon-allocation-2023 from https://cbpfapi.unocha.org/iati/iati/71/2023/GetAllocation.xml
-found 29 activities
+found 32 activities
 
 Downloading unocha-cbpf-lebanon-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/71/2024/GetAllocation.xml
 Parsing unocha-cbpf-lebanon-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/71/2024/GetAllocation.xml
@@ -37215,7 +37220,7 @@ found 57 activities
 
 Downloading unocha-cbpf-southsudan-allocation-2023 from https://cbpfapi.unocha.org/iati/iati/19/2023/GetAllocation.xml
 Parsing unocha-cbpf-southsudan-allocation-2023 from https://cbpfapi.unocha.org/iati/iati/19/2023/GetAllocation.xml
-found 45 activities
+found 46 activities
 
 Downloading unocha-cbpf-southsudan-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/19/2024/GetAllocation.xml
 Parsing unocha-cbpf-southsudan-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/19/2024/GetAllocation.xml
@@ -37431,7 +37436,7 @@ found 68 activities
 
 Downloading unocha-cbpf-syria-allocation-2023 from https://cbpfapi.unocha.org/iati/iati/62/2023/GetAllocation.xml
 Parsing unocha-cbpf-syria-allocation-2023 from https://cbpfapi.unocha.org/iati/iati/62/2023/GetAllocation.xml
-found 50 activities
+found 52 activities
 
 Downloading unocha-cbpf-syria-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/62/2024/GetAllocation.xml
 Parsing unocha-cbpf-syria-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/62/2024/GetAllocation.xml
@@ -37779,7 +37784,7 @@ found 106 activities
 
 Downloading unocha-cbpf-yemen-allocation-2023 from https://cbpfapi.unocha.org/iati/iati/64/2023/GetAllocation.xml
 Parsing unocha-cbpf-yemen-allocation-2023 from https://cbpfapi.unocha.org/iati/iati/64/2023/GetAllocation.xml
-found 11 activities
+found 31 activities
 
 Downloading unocha-cbpf-yemen-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/64/2024/GetAllocation.xml
 Parsing unocha-cbpf-yemen-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/64/2024/GetAllocation.xml
@@ -38805,7 +38810,7 @@ found 1 organisations
 
 Downloading uoy-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/uoy-activities.xml
 Parsing uoy-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/uoy-activities.xml
-found 8 activities
+found 9 activities
 
 Downloading upm-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/upm-activities.xml
 Parsing upm-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/upm-activities.xml
@@ -44354,8 +44359,8 @@ Downloading yipl-998 from https://aidstream-stage.s3.us-west-2.amazonaws.com/xml
 Parsing yipl-998 from https://aidstream-stage.s3.us-west-2.amazonaws.com/xml/yipl-998.xml
 found 2 activities
 
-Downloading yipl-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/yipl-activities.xml
-Parsing yipl-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/yipl-activities.xml
+Downloading yipl-activities from https://aidstream-stage.s3.us-west-2.amazonaws.com/xml/yipl-activities.xml
+Parsing yipl-activities from https://aidstream-stage.s3.us-west-2.amazonaws.com/xml/yipl-activities.xml
 found 0 activities
 
 Downloading yipl-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/yipl-org.xml
