@@ -7103,7 +7103,7 @@ found 1 organisations
 
 Downloading chs_alliance-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/chs_alliance-activities.xml
 Parsing chs_alliance-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/chs_alliance-activities.xml
-found 3 activities
+found 4 activities
 
 Downloading ciafg-af from https://aidstream.s3.us-west-2.amazonaws.com/xml/ciafg-af.xml
 Parsing ciafg-af from https://aidstream.s3.us-west-2.amazonaws.com/xml/ciafg-af.xml
@@ -7183,8 +7183,9 @@ dflat: invalid XML format
 restored 0 files
 
 Downloading cif-998 from http://siteresources.worldbank.org/IATI/CIF/CIF-998.xml
+curl: download ERROR 404
 Parsing cif-998 from http://siteresources.worldbank.org/IATI/CIF/CIF-998.xml
-dflat: invalid XML format
+dflat: input XML file does not exist
 restored 0 files
 
 Downloading c_i_f-activities from https://iatipublisher-prod.s3.amazonaws.com/xml/mergedActivityXml/c_i_f-activities.xml
@@ -7414,8 +7415,9 @@ Parsing cif-ws from http://doumodqax2qi2.cloudfront.net/CIF/CIF-05-2020/CIF-WS.x
 found 2 activities
 
 Downloading cif-ye from http://siteresources.worldbank.org/IATI/CIF/CIF-YE.xml
+curl: download ERROR 404
 Parsing cif-ye from http://siteresources.worldbank.org/IATI/CIF/CIF-YE.xml
-dflat: invalid XML format
+dflat: input XML file does not exist
 restored 0 files
 
 Downloading cif-za from http://doumodqax2qi2.cloudfront.net/CIF/CIF-05-2020/CIF-ZA.xml
@@ -12047,8 +12049,10 @@ Parsing ec-fpi-am from https://ec.europa.eu/international-partnerships/assets/ia
 found 2 activities
 
 Downloading ec-fpi-ao from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_AO.xml
+curl: download ERROR 000
 Parsing ec-fpi-ao from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_AO.xml
-found 2 activities
+dflat: input XML file does not exist
+restored 2 files
 
 Downloading ec-fpi-ar from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_AR.xml
 Parsing ec-fpi-ar from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_AR.xml
@@ -12179,8 +12183,10 @@ Parsing ec-fpi-gb from https://ec.europa.eu/international-partnerships/assets/ia
 found 1 activities
 
 Downloading ec-fpi-ge from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_GE.xml
+curl: download ERROR 000
 Parsing ec-fpi-ge from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_GE.xml
-found 9 activities
+dflat: input XML file does not exist
+restored 9 files
 
 Downloading ec-fpi-gh from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_GH.xml
 Parsing ec-fpi-gh from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_GH.xml
@@ -12415,8 +12421,10 @@ Parsing ec-fpi-sa from https://ec.europa.eu/international-partnerships/assets/ia
 found 2 activities
 
 Downloading ec-fpi-sb from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_SB.xml
+curl: download ERROR 000
 Parsing ec-fpi-sb from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_SB.xml
-found 3 activities
+dflat: input XML file does not exist
+restored 3 files
 
 Downloading ec-fpi-sd from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_SD.xml
 Parsing ec-fpi-sd from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_SD.xml
@@ -12815,8 +12823,10 @@ Parsing ec-intpa-gm from https://ec.europa.eu/international-partnerships/assets/
 found 323 activities
 
 Downloading ec-intpa-gn from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_GN.xml
+curl: download ERROR 000
 Parsing ec-intpa-gn from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_GN.xml
-found 646 activities
+dflat: input XML file does not exist
+restored 646 files
 
 Downloading ec-intpa-gq from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_GQ.xml
 Parsing ec-intpa-gq from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_GQ.xml
@@ -12876,8 +12886,7 @@ found 178 activities
 
 Downloading ec-intpa-ir from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_IR.xml
 Parsing ec-intpa-ir from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_IR.xml
-dflat: invalid XML format
-restored 60 files
+found 60 activities
 
 Downloading ec-intpa-jm from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_JM.xml
 Parsing ec-intpa-jm from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_JM.xml
@@ -13252,8 +13261,10 @@ Parsing ec-intpa-ua from https://ec.europa.eu/international-partnerships/assets/
 found 570 activities
 
 Downloading ec-intpa-ug from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_UG.xml
+curl: download ERROR 000
 Parsing ec-intpa-ug from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_UG.xml
-found 1143 activities
+dflat: input XML file does not exist
+restored 1143 files
 
 Downloading ec-intpa-uy from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_UY.xml
 Parsing ec-intpa-uy from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_UY.xml
@@ -13381,8 +13392,7 @@ found 9 activities
 
 Downloading ec-near-dz from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_NEAR_C_DZ.xml
 Parsing ec-near-dz from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_NEAR_C_DZ.xml
-dflat: invalid XML format
-restored 650 files
+found 650 activities
 
 Downloading ec-near-ee from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_NEAR_C_EE.xml
 Parsing ec-near-ee from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_NEAR_C_EE.xml
@@ -14516,7 +14526,7 @@ found 798 activities
 
 Downloading finland_mfa-012 from https://s3.eu-north-1.amazonaws.com/www.aiddata.eu/xml/stg/Finland_total_2023.xml
 Parsing finland_mfa-012 from https://s3.eu-north-1.amazonaws.com/www.aiddata.eu/xml/stg/Finland_total_2023.xml
-found 95 activities
+found 629 activities
 
 Downloading finland_mfa-189 from http://formin.finland.fi/opendata/IATI/Finland_189.xml
 Converting IATI activities version 1.00 to version 2.03
@@ -16087,11 +16097,11 @@ found 1 organisations
 
 Downloading gac-amc-act_2_3 from http://w05.international.gc.ca/projectbrowser-banqueprojets/iita-iati/dfatd-maecd_activit_status_2_3.xml
 Parsing gac-amc-act_2_3 from http://w05.international.gc.ca/projectbrowser-banqueprojets/iita-iati/dfatd-maecd_activit_status_2_3.xml
-found 1920 activities
+found 1906 activities
 
 Downloading gac-amc-act_4 from http://w05.international.gc.ca/projectbrowser-banqueprojets/iita-iati/dfatd-maecd_activit_status_4.xml
 Parsing gac-amc-act_4 from http://w05.international.gc.ca/projectbrowser-banqueprojets/iita-iati/dfatd-maecd_activit_status_4.xml
-found 4422 activities
+found 4439 activities
 
 Downloading gac-amc-org from http://w05.international.gc.ca/projectbrowser-banqueprojets/iita-iati/dfatd-maecd_organisation.xml
 Parsing gac-amc-org from http://w05.international.gc.ca/projectbrowser-banqueprojets/iita-iati/dfatd-maecd_organisation.xml
@@ -17038,11 +17048,11 @@ found 1 organisations
 
 Downloading globalgiving-activity from http://www.globalgiving.org/iati/activities.xml
 Parsing globalgiving-activity from http://www.globalgiving.org/iati/activities.xml
-found 26686 activities
+found 26756 activities
 
 Downloading globalgiving-org from http://www.globalgiving.org/iati/organisations.xml
 Parsing globalgiving-org from http://www.globalgiving.org/iati/organisations.xml
-found 15198 organisations
+found 15199 organisations
 
 Downloading globalshea-activities from https://iatipublisher-prod.s3.amazonaws.com/xml/mergedActivityXml/globalshea-activities.xml
 Parsing globalshea-activities from https://iatipublisher-prod.s3.amazonaws.com/xml/mergedActivityXml/globalshea-activities.xml
@@ -21520,7 +21530,7 @@ found 1 activities
 
 Downloading ksrelief291-id from https://aidstream.s3.us-west-2.amazonaws.com/xml/ksrelief291-id.xml
 Parsing ksrelief291-id from https://aidstream.s3.us-west-2.amazonaws.com/xml/ksrelief291-id.xml
-found 8 activities
+found 12 activities
 
 Downloading ksrelief291-in from https://aidstream.s3.us-west-2.amazonaws.com/xml/ksrelief291-in.xml
 Parsing ksrelief291-in from https://aidstream.s3.us-west-2.amazonaws.com/xml/ksrelief291-in.xml
@@ -21536,7 +21546,7 @@ found 1 activities
 
 Downloading ksrelief291-jo from https://aidstream.s3.us-west-2.amazonaws.com/xml/ksrelief291-jo.xml
 Parsing ksrelief291-jo from https://aidstream.s3.us-west-2.amazonaws.com/xml/ksrelief291-jo.xml
-found 26 activities
+found 28 activities
 
 Downloading ksrelief291-jp from https://aidstream.s3.us-west-2.amazonaws.com/xml/ksrelief291-jp.xml
 Parsing ksrelief291-jp from https://aidstream.s3.us-west-2.amazonaws.com/xml/ksrelief291-jp.xml
@@ -23067,8 +23077,10 @@ Parsing malariaconsortium-i9 from http://www.malariaconsortium.org/IATI-XML/GB-C
 found 2 activities
 
 Downloading malariaconsortium-j1 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-J1.xml
+curl: download ERROR 522
 Parsing malariaconsortium-j1 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-J1.xml
-found 2 activities
+dflat: input XML file does not exist
+restored 2 files
 
 Downloading malariaconsortium-j4 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-J4.xml
 Parsing malariaconsortium-j4 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-J4.xml
@@ -23495,10 +23507,8 @@ Parsing malariaconsortium-w1 from http://www.malariaconsortium.org/IATI-XML/GB-C
 found 2 activities
 
 Downloading malariaconsortium-w2 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-W2.xml
-curl: download ERROR 522
 Parsing malariaconsortium-w2 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-W2.xml
-dflat: input XML file does not exist
-restored 2 files
+found 2 activities
 
 Downloading malariaconsortium-w3 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-W3.xml
 Parsing malariaconsortium-w3 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-W3.xml
@@ -23597,8 +23607,10 @@ Parsing malariaconsortium-y8 from http://www.malariaconsortium.org/IATI-XML/GB-C
 found 2 activities
 
 Downloading malariaconsortium-y9 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-Y9.xml
+curl: download ERROR 522
 Parsing malariaconsortium-y9 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-Y9.xml
-found 2 activities
+dflat: input XML file does not exist
+restored 2 files
 
 Downloading mamac-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/mamac-activities.xml
 Parsing mamac-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/mamac-activities.xml
@@ -25448,11 +25460,11 @@ found 2535 activities
 
 Downloading onl-activity-old from https://www.oxfamnovib.nl/redactie/Downloads/XML/iati_old.xml
 Parsing onl-activity-old from https://www.oxfamnovib.nl/redactie/Downloads/XML/iati_old.xml
-found 2218 activities
+found 2211 activities
 
 Downloading onl-activity from https://www.oxfamnovib.nl/redactie/Downloads/XML/iati.xml
 Parsing onl-activity from https://www.oxfamnovib.nl/redactie/Downloads/XML/iati.xml
-found 2067 activities
+found 2068 activities
 
 Downloading onl-org from https://www.oxfamnovib.nl/redactie/downloads/xml/IATI_NL-KVK-27108436.xml
 Parsing onl-org from https://www.oxfamnovib.nl/redactie/downloads/xml/IATI_NL-KVK-27108436.xml
@@ -26026,6 +26038,10 @@ found 36 activities
 Downloading oxfamgb-tj from http://iati.oxfam.org.uk/xml/oxfamgb-tj.xml
 Parsing oxfamgb-tj from http://iati.oxfam.org.uk/xml/oxfamgb-tj.xml
 found 40 activities
+
+Downloading oxfamgb-tr from http://iati.oxfam.org.uk/xml/oxfamgb-tr.xml
+Parsing oxfamgb-tr from http://iati.oxfam.org.uk/xml/oxfamgb-tr.xml
+found 1 activities
 
 Downloading oxfamgb-tz from http://iati.oxfam.org.uk/xml/oxfamgb-tz.xml
 Parsing oxfamgb-tz from http://iati.oxfam.org.uk/xml/oxfamgb-tz.xml
@@ -35682,6 +35698,10 @@ Downloading universityofbirmingham-organisation from https://iatipublisher-prod.
 Parsing universityofbirmingham-organisation from https://iatipublisher-prod.s3.amazonaws.com/organizationXmlFiles/universityofbirmingham-organisation.xml
 found 1 organisations
 
+Downloading university_of_essex-organisation from https://iatipublisher-prod.s3.amazonaws.com/organizationXmlFiles/university_of_essex-organisation.xml
+Parsing university_of_essex-organisation from https://iatipublisher-prod.s3.amazonaws.com/organizationXmlFiles/university_of_essex-organisation.xml
+found 1 organisations
+
 Downloading unocha-afghanistan from https://oct.unocha.org/octws/OCTPublishData.svc/GetIATIContribution?activity=O445
 Parsing unocha-afghanistan from https://oct.unocha.org/octws/OCTPublishData.svc/GetIATIContribution?activity=O445
 found 1 activities
@@ -35772,7 +35792,7 @@ found 300 activities
 
 Downloading unocha-cbpf-afghanistan-allocation-2023 from https://cbpfapi.unocha.org/iati/iati/23/2023/GetAllocation.xml
 Parsing unocha-cbpf-afghanistan-allocation-2023 from https://cbpfapi.unocha.org/iati/iati/23/2023/GetAllocation.xml
-found 1 activities
+found 4 activities
 
 Downloading unocha-cbpf-afghanistan-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/23/2024/GetAllocation.xml
 Parsing unocha-cbpf-afghanistan-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/23/2024/GetAllocation.xml
@@ -35880,7 +35900,7 @@ found 54 activities
 
 Downloading unocha-cbpf-burkinafasorhpf-allocation-2023 from https://cbpfapi.unocha.org/iati/iati/85/2023/GetAllocation.xml
 Parsing unocha-cbpf-burkinafasorhpf-allocation-2023 from https://cbpfapi.unocha.org/iati/iati/85/2023/GetAllocation.xml
-found 29 activities
+found 30 activities
 
 Downloading unocha-cbpf-burkinafasorhpf-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/85/2024/GetAllocation.xml
 Parsing unocha-cbpf-burkinafasorhpf-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/85/2024/GetAllocation.xml
@@ -36872,7 +36892,7 @@ found 20 activities
 
 Downloading unocha-cbpf-nigerrhpf-allocation-2023 from https://cbpfapi.unocha.org/iati/iati/84/2023/GetAllocation.xml
 Parsing unocha-cbpf-nigerrhpf-allocation-2023 from https://cbpfapi.unocha.org/iati/iati/84/2023/GetAllocation.xml
-found 0 activities
+found 8 activities
 
 Downloading unocha-cbpf-nigerrhpf-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/84/2024/GetAllocation.xml
 Parsing unocha-cbpf-nigerrhpf-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/84/2024/GetAllocation.xml
@@ -37232,7 +37252,7 @@ found 18 activities
 
 Downloading unocha-cbpf-somalia-contribution-2023 from https://cbpfapi.unocha.org/iati/iati/21/2023/GetContribution.xml
 Parsing unocha-cbpf-somalia-contribution-2023 from https://cbpfapi.unocha.org/iati/iati/21/2023/GetContribution.xml
-found 19 activities
+found 20 activities
 
 Downloading unocha-cbpf-somalia-contribution-2024 from https://cbpfapi.unocha.org/iati/iati/21/2024/GetContribution.xml
 Parsing unocha-cbpf-somalia-contribution-2024 from https://cbpfapi.unocha.org/iati/iati/21/2024/GetContribution.xml
@@ -37520,7 +37540,7 @@ found 68 activities
 
 Downloading unocha-cbpf-syria-allocation-2023 from https://cbpfapi.unocha.org/iati/iati/62/2023/GetAllocation.xml
 Parsing unocha-cbpf-syria-allocation-2023 from https://cbpfapi.unocha.org/iati/iati/62/2023/GetAllocation.xml
-found 52 activities
+found 53 activities
 
 Downloading unocha-cbpf-syria-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/62/2024/GetAllocation.xml
 Parsing unocha-cbpf-syria-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/62/2024/GetAllocation.xml
@@ -37712,7 +37732,7 @@ found 110 activities
 
 Downloading unocha-cbpf-ukraine-allocation-2023 from https://cbpfapi.unocha.org/iati/iati/81/2023/GetAllocation.xml
 Parsing unocha-cbpf-ukraine-allocation-2023 from https://cbpfapi.unocha.org/iati/iati/81/2023/GetAllocation.xml
-found 35 activities
+found 36 activities
 
 Downloading unocha-cbpf-ukraine-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/81/2024/GetAllocation.xml
 Parsing unocha-cbpf-ukraine-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/81/2024/GetAllocation.xml
@@ -37868,7 +37888,7 @@ found 106 activities
 
 Downloading unocha-cbpf-yemen-allocation-2023 from https://cbpfapi.unocha.org/iati/iati/64/2023/GetAllocation.xml
 Parsing unocha-cbpf-yemen-allocation-2023 from https://cbpfapi.unocha.org/iati/iati/64/2023/GetAllocation.xml
-found 50 activities
+found 51 activities
 
 Downloading unocha-cbpf-yemen-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/64/2024/GetAllocation.xml
 Parsing unocha-cbpf-yemen-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/64/2024/GetAllocation.xml
