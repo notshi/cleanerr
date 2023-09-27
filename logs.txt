@@ -1939,15 +1939,17 @@ Parsing afd-na from https://static.data.gouv.fr/resources/donnees-de-laide-au-de
 found 0 activities
 
 Downloading afd-ne from https://static.data.gouv.fr/resources/donnees-de-laide-au-developpement-de-lafd-1/20230913-155638/fr-afd-ne.xml
+curl: download ERROR 404
 Parsing afd-ne from https://static.data.gouv.fr/resources/donnees-de-laide-au-developpement-de-lafd-1/20230913-155638/fr-afd-ne.xml
-found 97 activities
+dflat: input XML file does not exist
+restored 97 files
 
 Downloading afd-ng from https://static.data.gouv.fr/resources/donnees-de-laide-au-developpement-de-lafd-1/20230901-130237/fr-afd-ng.xml
 Parsing afd-ng from https://static.data.gouv.fr/resources/donnees-de-laide-au-developpement-de-lafd-1/20230901-130237/fr-afd-ng.xml
 found 21 activities
 
-Downloading afd-org from https://static.data.gouv.fr/resources/donnees-de-laide-au-developpement-de-lafd-1/20230901-084900/afd-organisation-file-2023-09-01.xml
-Parsing afd-org from https://static.data.gouv.fr/resources/donnees-de-laide-au-developpement-de-lafd-1/20230901-084900/afd-organisation-file-2023-09-01.xml
+Downloading afd-org from https://static.data.gouv.fr/resources/donnees-de-laide-au-developpement-de-lafd-1/20230926-151406/afd-organisation-file-2023-09-26.xml
+Parsing afd-org from https://static.data.gouv.fr/resources/donnees-de-laide-au-developpement-de-lafd-1/20230926-151406/afd-organisation-file-2023-09-26.xml
 dflat: invalid XML format
 restored 1 files
 
@@ -2083,7 +2085,7 @@ found 6 activities
 
 Downloading afghanaid-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/afghanaid-activities.xml
 Parsing afghanaid-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/afghanaid-activities.xml
-found 5 activities
+found 6 activities
 
 Downloading afidep-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/afidep-org.xml
 Parsing afidep-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/afidep-org.xml
@@ -7064,9 +7066,8 @@ dflat: invalid XML format
 restored 0 files
 
 Downloading cif-889 from http://siteresources.worldbank.org/IATI/CIF/CIF-889.xml
-curl: download ERROR 404
 Parsing cif-889 from http://siteresources.worldbank.org/IATI/CIF/CIF-889.xml
-dflat: input XML file does not exist
+dflat: invalid XML format
 restored 0 files
 
 Downloading cif-998 from http://siteresources.worldbank.org/IATI/CIF/CIF-998.xml
@@ -8208,7 +8209,7 @@ found 2617 activities
 
 Downloading danida-all_7 from http://iati.um.dk/api/v2/files/iati7.xml
 Parsing danida-all_7 from http://iati.um.dk/api/v2/files/iati7.xml
-found 2614 activities
+found 2616 activities
 
 Downloading danida-org from http://iati.um.dk/api/v2/organisations/files/iati-organisations.xml
 Parsing danida-org from http://iati.um.dk/api/v2/organisations/files/iati-organisations.xml
@@ -8257,7 +8258,7 @@ found 1 organisations
 
 Downloading dca-activities from https://iatipublisher-prod.s3.amazonaws.com/xml/mergedActivityXml/dca-activities.xml
 Parsing dca-activities from https://iatipublisher-prod.s3.amazonaws.com/xml/mergedActivityXml/dca-activities.xml
-found 657 activities
+found 658 activities
 
 Downloading dc-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/dc-activities.xml
 Parsing dc-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/dc-activities.xml
@@ -12027,10 +12028,8 @@ Parsing ec-fpi-cu from https://ec.europa.eu/international-partnerships/assets/ia
 found 4 activities
 
 Downloading ec-fpi-dj from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_DJ.xml
-curl: download ERROR 000
 Parsing ec-fpi-dj from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_DJ.xml
-dflat: input XML file does not exist
-restored 1 files
+found 1 activities
 
 Downloading ec-fpi-do from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_DO.xml
 Parsing ec-fpi-do from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_DO.xml
@@ -12117,10 +12116,8 @@ Parsing ec-fpi-iati_organisation_fpi from https://ec.europa.eu/international-par
 found 1 organisations
 
 Downloading ec-fpi-id from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_ID.xml
-curl: download ERROR 000
 Parsing ec-fpi-id from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_ID.xml
-dflat: input XML file does not exist
-restored 12 files
+found 12 activities
 
 Downloading ec-fpi-in from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_IN.xml
 Parsing ec-fpi-in from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_IN.xml
@@ -13339,10 +13336,8 @@ Parsing ec-near-md from https://ec.europa.eu/international-partnerships/assets/i
 found 179 activities
 
 Downloading ec-near-me from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_NEAR_C_ME.xml
-curl: download ERROR 000
 Parsing ec-near-me from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_NEAR_C_ME.xml
-dflat: input XML file does not exist
-restored 292 files
+found 292 activities
 
 Downloading ec-near-mk from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_NEAR_C_MK.xml
 Parsing ec-near-mk from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_NEAR_C_MK.xml
@@ -14126,31 +14121,31 @@ found 1120 activities
 
 Downloading fcdo-set-13 from http://iati.fcdo.gov.uk/iati_files/solr/FCDO-set-13.xml
 Parsing fcdo-set-13 from http://iati.fcdo.gov.uk/iati_files/solr/FCDO-set-13.xml
-found 1172 activities
+found 1176 activities
 
 Downloading fcdo-set-14 from http://iati.fcdo.gov.uk/iati_files/solr/FCDO-set-14.xml
 Parsing fcdo-set-14 from http://iati.fcdo.gov.uk/iati_files/solr/FCDO-set-14.xml
-found 1308 activities
+found 1309 activities
 
 Downloading fcdo-set-15 from http://iati.fcdo.gov.uk/iati_files/solr/FCDO-set-15.xml
 Parsing fcdo-set-15 from http://iati.fcdo.gov.uk/iati_files/solr/FCDO-set-15.xml
-found 1154 activities
+found 1156 activities
 
 Downloading fcdo-set-16 from http://iati.fcdo.gov.uk/iati_files/solr/FCDO-set-16.xml
 Parsing fcdo-set-16 from http://iati.fcdo.gov.uk/iati_files/solr/FCDO-set-16.xml
-found 1344 activities
+found 1348 activities
 
 Downloading fcdo-set-17 from http://iati.fcdo.gov.uk/iati_files/solr/FCDO-set-17.xml
 Parsing fcdo-set-17 from http://iati.fcdo.gov.uk/iati_files/solr/FCDO-set-17.xml
-found 1373 activities
+found 1374 activities
 
 Downloading fcdo-set-18 from http://iati.fcdo.gov.uk/iati_files/solr/FCDO-set-18.xml
 Parsing fcdo-set-18 from http://iati.fcdo.gov.uk/iati_files/solr/FCDO-set-18.xml
-found 1465 activities
+found 1466 activities
 
 Downloading fcdo-set-19 from http://iati.fcdo.gov.uk/iati_files/solr/FCDO-set-19.xml
 Parsing fcdo-set-19 from http://iati.fcdo.gov.uk/iati_files/solr/FCDO-set-19.xml
-found 1566 activities
+found 1570 activities
 
 Downloading fcdo-set-1 from http://iati.fcdo.gov.uk/iati_files/solr/FCDO-set-1.xml
 Parsing fcdo-set-1 from http://iati.fcdo.gov.uk/iati_files/solr/FCDO-set-1.xml
@@ -14158,7 +14153,7 @@ found 804 activities
 
 Downloading fcdo-set-20 from http://iati.fcdo.gov.uk/iati_files/solr/FCDO-set-20.xml
 Parsing fcdo-set-20 from http://iati.fcdo.gov.uk/iati_files/solr/FCDO-set-20.xml
-found 1313 activities
+found 1319 activities
 
 Downloading fcdo-set-2 from http://iati.fcdo.gov.uk/iati_files/solr/FCDO-set-2.xml
 Parsing fcdo-set-2 from http://iati.fcdo.gov.uk/iati_files/solr/FCDO-set-2.xml
@@ -16982,11 +16977,11 @@ found 1 organisations
 
 Downloading globalgiving-activity from http://www.globalgiving.org/iati/activities.xml
 Parsing globalgiving-activity from http://www.globalgiving.org/iati/activities.xml
-found 26933 activities
+found 26940 activities
 
 Downloading globalgiving-org from http://www.globalgiving.org/iati/organisations.xml
 Parsing globalgiving-org from http://www.globalgiving.org/iati/organisations.xml
-found 15202 organisations
+found 15204 organisations
 
 Downloading globalshea-activities from https://iatipublisher-prod.s3.amazonaws.com/xml/mergedActivityXml/globalshea-activities.xml
 Parsing globalshea-activities from https://iatipublisher-prod.s3.amazonaws.com/xml/mergedActivityXml/globalshea-activities.xml
@@ -18461,7 +18456,7 @@ found 1 organisations
 
 Downloading idbinvest-projects from https://idbinvest.org/sites/default/files/iati_publish_projects.xml
 Parsing idbinvest-projects from https://idbinvest.org/sites/default/files/iati_publish_projects.xml
-found 317 activities
+found 841 activities
 
 Downloading idea-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/idea-activities.xml
 Parsing idea-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/idea-activities.xml
@@ -27821,6 +27816,10 @@ Downloading rtp-org from https://aidstream.org/files/xml/rtp-org.xml
 Parsing rtp-org from https://aidstream.org/files/xml/rtp-org.xml
 found 1 organisations
 
+Downloading rtp_uk-activities from https://iatipublisher-prod.s3.amazonaws.com/xml/mergedActivityXml/rtp_uk-activities.xml
+Parsing rtp_uk-activities from https://iatipublisher-prod.s3.amazonaws.com/xml/mergedActivityXml/rtp_uk-activities.xml
+found 1 activities
+
 Downloading rtp_uk-organisation from https://iatipublisher-prod.s3.amazonaws.com/organizationXmlFiles/rtp_uk-organisation.xml
 Parsing rtp_uk-organisation from https://iatipublisher-prod.s3.amazonaws.com/organizationXmlFiles/rtp_uk-organisation.xml
 found 1 organisations
@@ -27859,7 +27858,7 @@ found 1 organisations
 
 Downloading rvo-01 from https://projects.rvo.nl/opendata/iati.xml
 Parsing rvo-01 from https://projects.rvo.nl/opendata/iati.xml
-found 4338 activities
+found 4342 activities
 
 Downloading rvo-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/rvo-activities.xml
 Parsing rvo-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/rvo-activities.xml
@@ -29692,9 +29691,9 @@ Downloading ssn-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/ssn-or
 Parsing ssn-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/ssn-org.xml
 found 1 organisations
 
-Downloading ss-org-activities-3 from https://www.sightsavers.org/wp-content/uploads/2023/05/sightsavers_iati_activities_30-5-23.xml
-Parsing ss-org-activities-3 from https://www.sightsavers.org/wp-content/uploads/2023/05/sightsavers_iati_activities_30-5-23.xml
-found 863 activities
+Downloading ss-org-activities-3 from https://www.sightsavers.org/wp-content/uploads/2023/09/sightsavers_iati_activities.xml
+Parsing ss-org-activities-3 from https://www.sightsavers.org/wp-content/uploads/2023/09/sightsavers_iati_activities.xml
+found 862 activities
 
 Downloading ss-org-org from https://www.sightsavers.org/wp-content/uploads/2022/03/iati/sightsavers_iati_organisation.xml
 Parsing ss-org-org from https://www.sightsavers.org/wp-content/uploads/2022/03/iati/sightsavers_iati_organisation.xml
@@ -30866,6 +30865,10 @@ found 1 activities
 Downloading tha-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/tha-activities.xml
 Parsing tha-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/tha-activities.xml
 found 7 activities
+
+Downloading thebritishacademy-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/thebritishacademy-activities.xml
+Parsing thebritishacademy-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/thebritishacademy-activities.xml
+found 4 activities
 
 Downloading thefaradayinstitution-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/thefaradayinstitution-activities.xml
 Parsing thefaradayinstitution-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/thefaradayinstitution-activities.xml
