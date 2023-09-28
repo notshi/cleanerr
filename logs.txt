@@ -1462,6 +1462,10 @@ Converting IATI activities version 1.03 to version 2.03
 Parsing af-14 from https://raw.githubusercontent.com/IATI/CSV2IATI-public-backup/master/1397049497.46.xml
 found 30 activities
 
+Downloading afd-al from https://static.data.gouv.fr/resources/donnees-de-laide-au-developpement-de-lafd-1/20230927-144421/fr-afd-al.xml
+Parsing afd-al from https://static.data.gouv.fr/resources/donnees-de-laide-au-developpement-de-lafd-1/20230927-144421/fr-afd-al.xml
+found 7 activities
+
 Downloading afd-am from https://static.data.gouv.fr/resources/donnees-de-laide-au-developpement-de-lafd-1/20230914-090139/fr-afd-am.xml
 Parsing afd-am from https://static.data.gouv.fr/resources/donnees-de-laide-au-developpement-de-lafd-1/20230914-090139/fr-afd-am.xml
 found 6 activities
@@ -1949,8 +1953,9 @@ Parsing afd-ng from https://static.data.gouv.fr/resources/donnees-de-laide-au-de
 found 21 activities
 
 Downloading afd-org from https://static.data.gouv.fr/resources/donnees-de-laide-au-developpement-de-lafd-1/20230926-151406/afd-organisation-file-2023-09-26.xml
+curl: download ERROR 404
 Parsing afd-org from https://static.data.gouv.fr/resources/donnees-de-laide-au-developpement-de-lafd-1/20230926-151406/afd-organisation-file-2023-09-26.xml
-dflat: invalid XML format
+dflat: input XML file does not exist
 restored 1 files
 
 Downloading afd-pe from https://static.data.gouv.fr/resources/donnees-de-laide-au-developpement-de-lafd-1/20230913-155812/fr-afd-pe.xml
@@ -4801,19 +4806,19 @@ found 1 activities
 
 Downloading be-dgd-2021_1 from http://diplomatie.be/oda/IATI_2023_1.xml
 Parsing be-dgd-2021_1 from http://diplomatie.be/oda/IATI_2023_1.xml
-found 82 activities
+found 65 activities
 
 Downloading be-dgd-2021_2 from http://diplomatie.be/oda/IATI_2023_2.xml
 Parsing be-dgd-2021_2 from http://diplomatie.be/oda/IATI_2023_2.xml
-found 96 activities
+found 95 activities
 
 Downloading be-dgd-2021_3 from http://diplomatie.be/oda/IATI_2023_3.xml
 Parsing be-dgd-2021_3 from http://diplomatie.be/oda/IATI_2023_3.xml
-found 146 activities
+found 144 activities
 
 Downloading be-dgd-2021_4 from http://diplomatie.be/oda/IATI_2023_4.xml
 Parsing be-dgd-2021_4 from http://diplomatie.be/oda/IATI_2023_4.xml
-found 377 activities
+found 320 activities
 
 Downloading be-dgd-org2020-2024 from http://diplomatie.be/oda/XM-DAC-10-2-orgfileNov2021.xml
 Parsing be-dgd-org2020-2024 from http://diplomatie.be/oda/XM-DAC-10-2-orgfileNov2021.xml
@@ -5124,15 +5129,15 @@ found 37 activities
 
 Downloading bmz-289 from https://teamwork.bmz.de/pub/bscw.cgi/2018133/DE-1-BMZ-289.xml
 Parsing bmz-289 from https://teamwork.bmz.de/pub/bscw.cgi/2018133/DE-1-BMZ-289.xml
-found 274 activities
+found 275 activities
 
 Downloading bmz-298 from https://teamwork.bmz.de/pub/bscw.cgi/2018133/DE-1-BMZ-298.xml
 Parsing bmz-298 from https://teamwork.bmz.de/pub/bscw.cgi/2018133/DE-1-BMZ-298.xml
-found 604 activities
+found 606 activities
 
 Downloading bmz-389 from https://teamwork.bmz.de/pub/bscw.cgi/2018133/DE-1-BMZ-389.xml
 Parsing bmz-389 from https://teamwork.bmz.de/pub/bscw.cgi/2018133/DE-1-BMZ-389.xml
-found 103 activities
+found 105 activities
 
 Downloading bmz-489 from https://teamwork.bmz.de/pub/bscw.cgi/2018133/DE-1-BMZ-489.xml
 Parsing bmz-489 from https://teamwork.bmz.de/pub/bscw.cgi/2018133/DE-1-BMZ-489.xml
@@ -5140,11 +5145,11 @@ found 87 activities
 
 Downloading bmz-498 from https://teamwork.bmz.de/pub/bscw.cgi/2018133/DE-1-BMZ-498.xml
 Parsing bmz-498 from https://teamwork.bmz.de/pub/bscw.cgi/2018133/DE-1-BMZ-498.xml
-found 294 activities
+found 296 activities
 
 Downloading bmz-589 from https://teamwork.bmz.de/pub/bscw.cgi/2018133/DE-1-BMZ-589.xml
 Parsing bmz-589 from https://teamwork.bmz.de/pub/bscw.cgi/2018133/DE-1-BMZ-589.xml
-found 182 activities
+found 186 activities
 
 Downloading bmz-689 from https://teamwork.bmz.de/pub/bscw.cgi/2018133/DE-1-BMZ-689.xml
 Parsing bmz-689 from https://teamwork.bmz.de/pub/bscw.cgi/2018133/DE-1-BMZ-689.xml
@@ -5156,7 +5161,7 @@ found 20 activities
 
 Downloading bmz-798 from https://teamwork.bmz.de/pub/bscw.cgi/2018133/DE-1-BMZ-798.xml
 Parsing bmz-798 from https://teamwork.bmz.de/pub/bscw.cgi/2018133/DE-1-BMZ-798.xml
-found 346 activities
+found 348 activities
 
 Downloading bmz-889 from https://teamwork.bmz.de/pub/bscw.cgi/2018133/DE-1-BMZ-889.xml
 Parsing bmz-889 from https://teamwork.bmz.de/pub/bscw.cgi/2018133/DE-1-BMZ-889.xml
@@ -5164,11 +5169,11 @@ found 18 activities
 
 Downloading bmz-89 from https://teamwork.bmz.de/pub/bscw.cgi/2018133/DE-1-BMZ-89.xml
 Parsing bmz-89 from https://teamwork.bmz.de/pub/bscw.cgi/2018133/DE-1-BMZ-89.xml
-found 263 activities
+found 264 activities
 
 Downloading bmz-998 from https://teamwork.bmz.de/pub/bscw.cgi/2018133/DE-1-BMZ-998.xml
 Parsing bmz-998 from https://teamwork.bmz.de/pub/bscw.cgi/2018133/DE-1-BMZ-998.xml
-found 6128 activities
+found 6141 activities
 
 Downloading bmz-al from https://teamwork.bmz.de/pub/bscw.cgi/2018133/DE-1-BMZ-AL.xml
 Parsing bmz-al from https://teamwork.bmz.de/pub/bscw.cgi/2018133/DE-1-BMZ-AL.xml
@@ -5180,7 +5185,7 @@ found 118 activities
 
 Downloading bmz-ao from https://teamwork.bmz.de/pub/bscw.cgi/2018133/DE-1-BMZ-AO.xml
 Parsing bmz-ao from https://teamwork.bmz.de/pub/bscw.cgi/2018133/DE-1-BMZ-AO.xml
-found 98 activities
+found 99 activities
 
 Downloading bmz-ar from https://teamwork.bmz.de/pub/bscw.cgi/2018133/DE-1-BMZ-AR.xml
 Parsing bmz-ar from https://teamwork.bmz.de/pub/bscw.cgi/2018133/DE-1-BMZ-AR.xml
@@ -5196,11 +5201,11 @@ found 96 activities
 
 Downloading bmz-bd from https://teamwork.bmz.de/pub/bscw.cgi/2018133/DE-1-BMZ-BD.xml
 Parsing bmz-bd from https://teamwork.bmz.de/pub/bscw.cgi/2018133/DE-1-BMZ-BD.xml
-found 464 activities
+found 465 activities
 
 Downloading bmz-bf from https://teamwork.bmz.de/pub/bscw.cgi/2018133/DE-1-BMZ-BF.xml
 Parsing bmz-bf from https://teamwork.bmz.de/pub/bscw.cgi/2018133/DE-1-BMZ-BF.xml
-found 336 activities
+found 338 activities
 
 Downloading bmz-bg from https://teamwork.bmz.de/pub/bscw.cgi/2018133/DE-1-BMZ-BG.xml
 Parsing bmz-bg from https://teamwork.bmz.de/pub/bscw.cgi/2018133/DE-1-BMZ-BG.xml
@@ -5208,7 +5213,7 @@ found 10 activities
 
 Downloading bmz-bi from https://teamwork.bmz.de/pub/bscw.cgi/2018133/DE-1-BMZ-BI.xml
 Parsing bmz-bi from https://teamwork.bmz.de/pub/bscw.cgi/2018133/DE-1-BMZ-BI.xml
-found 141 activities
+found 144 activities
 
 Downloading bmz-bj from https://teamwork.bmz.de/pub/bscw.cgi/2018133/DE-1-BMZ-BJ.xml
 Parsing bmz-bj from https://teamwork.bmz.de/pub/bscw.cgi/2018133/DE-1-BMZ-BJ.xml
@@ -5216,11 +5221,11 @@ found 169 activities
 
 Downloading bmz-bo from https://teamwork.bmz.de/pub/bscw.cgi/2018133/DE-1-BMZ-BO.xml
 Parsing bmz-bo from https://teamwork.bmz.de/pub/bscw.cgi/2018133/DE-1-BMZ-BO.xml
-found 488 activities
+found 494 activities
 
 Downloading bmz-br from https://teamwork.bmz.de/pub/bscw.cgi/2018133/DE-1-BMZ-BR.xml
 Parsing bmz-br from https://teamwork.bmz.de/pub/bscw.cgi/2018133/DE-1-BMZ-BR.xml
-found 999 activities
+found 1005 activities
 
 Downloading bmz-bt from https://teamwork.bmz.de/pub/bscw.cgi/2018133/DE-1-BMZ-BT.xml
 Parsing bmz-bt from https://teamwork.bmz.de/pub/bscw.cgi/2018133/DE-1-BMZ-BT.xml
@@ -5236,7 +5241,7 @@ found 26 activities
 
 Downloading bmz-cd from https://teamwork.bmz.de/pub/bscw.cgi/2018133/DE-1-BMZ-CD.xml
 Parsing bmz-cd from https://teamwork.bmz.de/pub/bscw.cgi/2018133/DE-1-BMZ-CD.xml
-found 525 activities
+found 528 activities
 
 Downloading bmz-cf from https://teamwork.bmz.de/pub/bscw.cgi/2018133/DE-1-BMZ-CF.xml
 Parsing bmz-cf from https://teamwork.bmz.de/pub/bscw.cgi/2018133/DE-1-BMZ-CF.xml
@@ -5248,7 +5253,7 @@ found 10 activities
 
 Downloading bmz-ci from https://teamwork.bmz.de/pub/bscw.cgi/2018133/DE-1-BMZ-CI.xml
 Parsing bmz-ci from https://teamwork.bmz.de/pub/bscw.cgi/2018133/DE-1-BMZ-CI.xml
-found 82 activities
+found 81 activities
 
 Downloading bmz-cl from https://teamwork.bmz.de/pub/bscw.cgi/2018133/DE-1-BMZ-CL.xml
 Parsing bmz-cl from https://teamwork.bmz.de/pub/bscw.cgi/2018133/DE-1-BMZ-CL.xml
@@ -5256,15 +5261,15 @@ found 43 activities
 
 Downloading bmz-cm from https://teamwork.bmz.de/pub/bscw.cgi/2018133/DE-1-BMZ-CM.xml
 Parsing bmz-cm from https://teamwork.bmz.de/pub/bscw.cgi/2018133/DE-1-BMZ-CM.xml
-found 364 activities
+found 365 activities
 
 Downloading bmz-cn from https://teamwork.bmz.de/pub/bscw.cgi/2018133/DE-1-BMZ-CN.xml
 Parsing bmz-cn from https://teamwork.bmz.de/pub/bscw.cgi/2018133/DE-1-BMZ-CN.xml
-found 340 activities
+found 341 activities
 
 Downloading bmz-co from https://teamwork.bmz.de/pub/bscw.cgi/2018133/DE-1-BMZ-CO.xml
 Parsing bmz-co from https://teamwork.bmz.de/pub/bscw.cgi/2018133/DE-1-BMZ-CO.xml
-found 584 activities
+found 591 activities
 
 Downloading bmz-cr from https://teamwork.bmz.de/pub/bscw.cgi/2018133/DE-1-BMZ-CR.xml
 Parsing bmz-cr from https://teamwork.bmz.de/pub/bscw.cgi/2018133/DE-1-BMZ-CR.xml
@@ -5272,7 +5277,7 @@ found 49 activities
 
 Downloading bmz-cu from https://teamwork.bmz.de/pub/bscw.cgi/2018133/DE-1-BMZ-CU.xml
 Parsing bmz-cu from https://teamwork.bmz.de/pub/bscw.cgi/2018133/DE-1-BMZ-CU.xml
-found 20 activities
+found 21 activities
 
 Downloading bmz-cv from https://teamwork.bmz.de/pub/bscw.cgi/2018133/DE-1-BMZ-CV.xml
 Parsing bmz-cv from https://teamwork.bmz.de/pub/bscw.cgi/2018133/DE-1-BMZ-CV.xml
@@ -5296,7 +5301,7 @@ found 182 activities
 
 Downloading bmz-eg from https://teamwork.bmz.de/pub/bscw.cgi/2018133/DE-1-BMZ-EG.xml
 Parsing bmz-eg from https://teamwork.bmz.de/pub/bscw.cgi/2018133/DE-1-BMZ-EG.xml
-found 256 activities
+found 257 activities
 
 Downloading bmz-er from https://teamwork.bmz.de/pub/bscw.cgi/2018133/DE-1-BMZ-ER.xml
 Parsing bmz-er from https://teamwork.bmz.de/pub/bscw.cgi/2018133/DE-1-BMZ-ER.xml
@@ -5304,7 +5309,7 @@ found 28 activities
 
 Downloading bmz-et from https://teamwork.bmz.de/pub/bscw.cgi/2018133/DE-1-BMZ-ET.xml
 Parsing bmz-et from https://teamwork.bmz.de/pub/bscw.cgi/2018133/DE-1-BMZ-ET.xml
-found 512 activities
+found 518 activities
 
 Downloading bmz-fj from https://teamwork.bmz.de/pub/bscw.cgi/2018133/DE-1-BMZ-FJ.xml
 Parsing bmz-fj from https://teamwork.bmz.de/pub/bscw.cgi/2018133/DE-1-BMZ-FJ.xml
@@ -5316,11 +5321,11 @@ found 2 activities
 
 Downloading bmz-ge from https://teamwork.bmz.de/pub/bscw.cgi/2018133/DE-1-BMZ-GE.xml
 Parsing bmz-ge from https://teamwork.bmz.de/pub/bscw.cgi/2018133/DE-1-BMZ-GE.xml
-found 165 activities
+found 166 activities
 
 Downloading bmz-gh from https://teamwork.bmz.de/pub/bscw.cgi/2018133/DE-1-BMZ-GH.xml
 Parsing bmz-gh from https://teamwork.bmz.de/pub/bscw.cgi/2018133/DE-1-BMZ-GH.xml
-found 271 activities
+found 272 activities
 
 Downloading bmz-gm from https://teamwork.bmz.de/pub/bscw.cgi/2018133/DE-1-BMZ-GM.xml
 Parsing bmz-gm from https://teamwork.bmz.de/pub/bscw.cgi/2018133/DE-1-BMZ-GM.xml
@@ -5332,7 +5337,7 @@ found 61 activities
 
 Downloading bmz-gt from https://teamwork.bmz.de/pub/bscw.cgi/2018133/DE-1-BMZ-GT.xml
 Parsing bmz-gt from https://teamwork.bmz.de/pub/bscw.cgi/2018133/DE-1-BMZ-GT.xml
-found 310 activities
+found 312 activities
 
 Downloading bmz-gw from https://teamwork.bmz.de/pub/bscw.cgi/2018133/DE-1-BMZ-GW.xml
 Parsing bmz-gw from https://teamwork.bmz.de/pub/bscw.cgi/2018133/DE-1-BMZ-GW.xml
@@ -5344,7 +5349,7 @@ found 5 activities
 
 Downloading bmz-hn from https://teamwork.bmz.de/pub/bscw.cgi/2018133/DE-1-BMZ-HN.xml
 Parsing bmz-hn from https://teamwork.bmz.de/pub/bscw.cgi/2018133/DE-1-BMZ-HN.xml
-found 156 activities
+found 160 activities
 
 Downloading bmz-hr from https://teamwork.bmz.de/pub/bscw.cgi/2018133/DE-1-BMZ-HR.xml
 Parsing bmz-hr from https://teamwork.bmz.de/pub/bscw.cgi/2018133/DE-1-BMZ-HR.xml
@@ -5352,11 +5357,11 @@ found 11 activities
 
 Downloading bmz-ht from https://teamwork.bmz.de/pub/bscw.cgi/2018133/DE-1-BMZ-HT.xml
 Parsing bmz-ht from https://teamwork.bmz.de/pub/bscw.cgi/2018133/DE-1-BMZ-HT.xml
-found 255 activities
+found 257 activities
 
 Downloading bmz-id from https://teamwork.bmz.de/pub/bscw.cgi/2018133/DE-1-BMZ-ID.xml
 Parsing bmz-id from https://teamwork.bmz.de/pub/bscw.cgi/2018133/DE-1-BMZ-ID.xml
-found 473 activities
+found 474 activities
 
 Downloading bmz-il from https://teamwork.bmz.de/pub/bscw.cgi/2018133/DE-1-BMZ-IL.xml
 Parsing bmz-il from https://teamwork.bmz.de/pub/bscw.cgi/2018133/DE-1-BMZ-IL.xml
@@ -5364,7 +5369,7 @@ found 87 activities
 
 Downloading bmz-in from https://teamwork.bmz.de/pub/bscw.cgi/2018133/DE-1-BMZ-IN.xml
 Parsing bmz-in from https://teamwork.bmz.de/pub/bscw.cgi/2018133/DE-1-BMZ-IN.xml
-found 1805 activities
+found 1815 activities
 
 Downloading bmz-iq from https://teamwork.bmz.de/pub/bscw.cgi/2018133/DE-1-BMZ-IQ.xml
 Parsing bmz-iq from https://teamwork.bmz.de/pub/bscw.cgi/2018133/DE-1-BMZ-IQ.xml
@@ -5380,11 +5385,11 @@ found 1 activities
 
 Downloading bmz-jo from https://teamwork.bmz.de/pub/bscw.cgi/2018133/DE-1-BMZ-JO.xml
 Parsing bmz-jo from https://teamwork.bmz.de/pub/bscw.cgi/2018133/DE-1-BMZ-JO.xml
-found 217 activities
+found 218 activities
 
 Downloading bmz-ke from https://teamwork.bmz.de/pub/bscw.cgi/2018133/DE-1-BMZ-KE.xml
 Parsing bmz-ke from https://teamwork.bmz.de/pub/bscw.cgi/2018133/DE-1-BMZ-KE.xml
-found 532 activities
+found 534 activities
 
 Downloading bmz-kg from https://teamwork.bmz.de/pub/bscw.cgi/2018133/DE-1-BMZ-KG.xml
 Parsing bmz-kg from https://teamwork.bmz.de/pub/bscw.cgi/2018133/DE-1-BMZ-KG.xml
@@ -5392,7 +5397,7 @@ found 123 activities
 
 Downloading bmz-kh from https://teamwork.bmz.de/pub/bscw.cgi/2018133/DE-1-BMZ-KH.xml
 Parsing bmz-kh from https://teamwork.bmz.de/pub/bscw.cgi/2018133/DE-1-BMZ-KH.xml
-found 332 activities
+found 333 activities
 
 Downloading bmz-kp from https://teamwork.bmz.de/pub/bscw.cgi/2018133/DE-1-BMZ-KP.xml
 Parsing bmz-kp from https://teamwork.bmz.de/pub/bscw.cgi/2018133/DE-1-BMZ-KP.xml
@@ -5408,19 +5413,19 @@ found 9 activities
 
 Downloading bmz-la from https://teamwork.bmz.de/pub/bscw.cgi/2018133/DE-1-BMZ-LA.xml
 Parsing bmz-la from https://teamwork.bmz.de/pub/bscw.cgi/2018133/DE-1-BMZ-LA.xml
-found 144 activities
+found 145 activities
 
 Downloading bmz-lb from https://teamwork.bmz.de/pub/bscw.cgi/2018133/DE-1-BMZ-LB.xml
 Parsing bmz-lb from https://teamwork.bmz.de/pub/bscw.cgi/2018133/DE-1-BMZ-LB.xml
-found 184 activities
+found 185 activities
 
 Downloading bmz-lk from https://teamwork.bmz.de/pub/bscw.cgi/2018133/DE-1-BMZ-LK.xml
 Parsing bmz-lk from https://teamwork.bmz.de/pub/bscw.cgi/2018133/DE-1-BMZ-LK.xml
-found 138 activities
+found 140 activities
 
 Downloading bmz-lr from https://teamwork.bmz.de/pub/bscw.cgi/2018133/DE-1-BMZ-LR.xml
 Parsing bmz-lr from https://teamwork.bmz.de/pub/bscw.cgi/2018133/DE-1-BMZ-LR.xml
-found 127 activities
+found 128 activities
 
 Downloading bmz-ls from https://teamwork.bmz.de/pub/bscw.cgi/2018133/DE-1-BMZ-LS.xml
 Parsing bmz-ls from https://teamwork.bmz.de/pub/bscw.cgi/2018133/DE-1-BMZ-LS.xml
@@ -5444,7 +5449,7 @@ found 25 activities
 
 Downloading bmz-mg from https://teamwork.bmz.de/pub/bscw.cgi/2018133/DE-1-BMZ-MG.xml
 Parsing bmz-mg from https://teamwork.bmz.de/pub/bscw.cgi/2018133/DE-1-BMZ-MG.xml
-found 151 activities
+found 152 activities
 
 Downloading bmz-mk from https://teamwork.bmz.de/pub/bscw.cgi/2018133/DE-1-BMZ-MK.xml
 Parsing bmz-mk from https://teamwork.bmz.de/pub/bscw.cgi/2018133/DE-1-BMZ-MK.xml
@@ -5456,7 +5461,7 @@ found 290 activities
 
 Downloading bmz-mm from https://teamwork.bmz.de/pub/bscw.cgi/2018133/DE-1-BMZ-MM.xml
 Parsing bmz-mm from https://teamwork.bmz.de/pub/bscw.cgi/2018133/DE-1-BMZ-MM.xml
-found 281 activities
+found 283 activities
 
 Downloading bmz-mn from https://teamwork.bmz.de/pub/bscw.cgi/2018133/DE-1-BMZ-MN.xml
 Parsing bmz-mn from https://teamwork.bmz.de/pub/bscw.cgi/2018133/DE-1-BMZ-MN.xml
@@ -5464,15 +5469,15 @@ found 85 activities
 
 Downloading bmz-mr from https://teamwork.bmz.de/pub/bscw.cgi/2018133/DE-1-BMZ-MR.xml
 Parsing bmz-mr from https://teamwork.bmz.de/pub/bscw.cgi/2018133/DE-1-BMZ-MR.xml
-found 43 activities
+found 44 activities
 
 Downloading bmz-mw from https://teamwork.bmz.de/pub/bscw.cgi/2018133/DE-1-BMZ-MW.xml
 Parsing bmz-mw from https://teamwork.bmz.de/pub/bscw.cgi/2018133/DE-1-BMZ-MW.xml
-found 202 activities
+found 203 activities
 
 Downloading bmz-mx from https://teamwork.bmz.de/pub/bscw.cgi/2018133/DE-1-BMZ-MX.xml
 Parsing bmz-mx from https://teamwork.bmz.de/pub/bscw.cgi/2018133/DE-1-BMZ-MX.xml
-found 296 activities
+found 302 activities
 
 Downloading bmz-my from https://teamwork.bmz.de/pub/bscw.cgi/2018133/DE-1-BMZ-MY.xml
 Parsing bmz-my from https://teamwork.bmz.de/pub/bscw.cgi/2018133/DE-1-BMZ-MY.xml
@@ -5480,23 +5485,23 @@ found 9 activities
 
 Downloading bmz-mz from https://teamwork.bmz.de/pub/bscw.cgi/2018133/DE-1-BMZ-MZ.xml
 Parsing bmz-mz from https://teamwork.bmz.de/pub/bscw.cgi/2018133/DE-1-BMZ-MZ.xml
-found 307 activities
+found 312 activities
 
 Downloading bmz-na from https://teamwork.bmz.de/pub/bscw.cgi/2018133/DE-1-BMZ-NA.xml
 Parsing bmz-na from https://teamwork.bmz.de/pub/bscw.cgi/2018133/DE-1-BMZ-NA.xml
-found 155 activities
+found 159 activities
 
 Downloading bmz-ne from https://teamwork.bmz.de/pub/bscw.cgi/2018133/DE-1-BMZ-NE.xml
 Parsing bmz-ne from https://teamwork.bmz.de/pub/bscw.cgi/2018133/DE-1-BMZ-NE.xml
-found 125 activities
+found 126 activities
 
 Downloading bmz-ng from https://teamwork.bmz.de/pub/bscw.cgi/2018133/DE-1-BMZ-NG.xml
 Parsing bmz-ng from https://teamwork.bmz.de/pub/bscw.cgi/2018133/DE-1-BMZ-NG.xml
-found 319 activities
+found 322 activities
 
 Downloading bmz-ni from https://teamwork.bmz.de/pub/bscw.cgi/2018133/DE-1-BMZ-NI.xml
 Parsing bmz-ni from https://teamwork.bmz.de/pub/bscw.cgi/2018133/DE-1-BMZ-NI.xml
-found 171 activities
+found 170 activities
 
 Downloading bmz-np from https://teamwork.bmz.de/pub/bscw.cgi/2018133/DE-1-BMZ-NP.xml
 Parsing bmz-np from https://teamwork.bmz.de/pub/bscw.cgi/2018133/DE-1-BMZ-NP.xml
@@ -5512,7 +5517,7 @@ found 10 activities
 
 Downloading bmz-pe from https://teamwork.bmz.de/pub/bscw.cgi/2018133/DE-1-BMZ-PE.xml
 Parsing bmz-pe from https://teamwork.bmz.de/pub/bscw.cgi/2018133/DE-1-BMZ-PE.xml
-found 512 activities
+found 517 activities
 
 Downloading bmz-pg from https://teamwork.bmz.de/pub/bscw.cgi/2018133/DE-1-BMZ-PG.xml
 Parsing bmz-pg from https://teamwork.bmz.de/pub/bscw.cgi/2018133/DE-1-BMZ-PG.xml
@@ -5520,7 +5525,7 @@ found 90 activities
 
 Downloading bmz-ph from https://teamwork.bmz.de/pub/bscw.cgi/2018133/DE-1-BMZ-PH.xml
 Parsing bmz-ph from https://teamwork.bmz.de/pub/bscw.cgi/2018133/DE-1-BMZ-PH.xml
-found 630 activities
+found 631 activities
 
 Downloading bmz-pk from https://teamwork.bmz.de/pub/bscw.cgi/2018133/DE-1-BMZ-PK.xml
 Parsing bmz-pk from https://teamwork.bmz.de/pub/bscw.cgi/2018133/DE-1-BMZ-PK.xml
@@ -5528,11 +5533,11 @@ found 288 activities
 
 Downloading bmz-ps from https://teamwork.bmz.de/pub/bscw.cgi/2018133/DE-1-BMZ-PS.xml
 Parsing bmz-ps from https://teamwork.bmz.de/pub/bscw.cgi/2018133/DE-1-BMZ-PS.xml
-found 357 activities
+found 362 activities
 
 Downloading bmz-py from https://teamwork.bmz.de/pub/bscw.cgi/2018133/DE-1-BMZ-PY.xml
 Parsing bmz-py from https://teamwork.bmz.de/pub/bscw.cgi/2018133/DE-1-BMZ-PY.xml
-found 120 activities
+found 122 activities
 
 Downloading bmz-ro from https://teamwork.bmz.de/pub/bscw.cgi/2018133/DE-1-BMZ-RO.xml
 Parsing bmz-ro from https://teamwork.bmz.de/pub/bscw.cgi/2018133/DE-1-BMZ-RO.xml
@@ -5544,11 +5549,11 @@ found 161 activities
 
 Downloading bmz-rw from https://teamwork.bmz.de/pub/bscw.cgi/2018133/DE-1-BMZ-RW.xml
 Parsing bmz-rw from https://teamwork.bmz.de/pub/bscw.cgi/2018133/DE-1-BMZ-RW.xml
-found 221 activities
+found 222 activities
 
 Downloading bmz-sb from https://teamwork.bmz.de/pub/bscw.cgi/2018133/DE-1-BMZ-SB.xml
 Parsing bmz-sb from https://teamwork.bmz.de/pub/bscw.cgi/2018133/DE-1-BMZ-SB.xml
-found 10 activities
+found 11 activities
 
 Downloading bmz-sd from https://teamwork.bmz.de/pub/bscw.cgi/2018133/DE-1-BMZ-SD.xml
 Parsing bmz-sd from https://teamwork.bmz.de/pub/bscw.cgi/2018133/DE-1-BMZ-SD.xml
@@ -5556,7 +5561,7 @@ found 79 activities
 
 Downloading bmz-sl from https://teamwork.bmz.de/pub/bscw.cgi/2018133/DE-1-BMZ-SL.xml
 Parsing bmz-sl from https://teamwork.bmz.de/pub/bscw.cgi/2018133/DE-1-BMZ-SL.xml
-found 144 activities
+found 146 activities
 
 Downloading bmz-sn from https://teamwork.bmz.de/pub/bscw.cgi/2018133/DE-1-BMZ-SN.xml
 Parsing bmz-sn from https://teamwork.bmz.de/pub/bscw.cgi/2018133/DE-1-BMZ-SN.xml
@@ -5564,7 +5569,7 @@ found 170 activities
 
 Downloading bmz-so from https://teamwork.bmz.de/pub/bscw.cgi/2018133/DE-1-BMZ-SO.xml
 Parsing bmz-so from https://teamwork.bmz.de/pub/bscw.cgi/2018133/DE-1-BMZ-SO.xml
-found 116 activities
+found 120 activities
 
 Downloading bmz-sr from https://teamwork.bmz.de/pub/bscw.cgi/2018133/DE-1-BMZ-SR.xml
 Parsing bmz-sr from https://teamwork.bmz.de/pub/bscw.cgi/2018133/DE-1-BMZ-SR.xml
@@ -5572,7 +5577,7 @@ found 1 activities
 
 Downloading bmz-ss from https://teamwork.bmz.de/pub/bscw.cgi/2018133/DE-1-BMZ-SS.xml
 Parsing bmz-ss from https://teamwork.bmz.de/pub/bscw.cgi/2018133/DE-1-BMZ-SS.xml
-found 208 activities
+found 212 activities
 
 Downloading bmz-st from https://teamwork.bmz.de/pub/bscw.cgi/2018133/DE-1-BMZ-ST.xml
 Parsing bmz-st from https://teamwork.bmz.de/pub/bscw.cgi/2018133/DE-1-BMZ-ST.xml
@@ -5592,11 +5597,11 @@ found 17 activities
 
 Downloading bmz-td from https://teamwork.bmz.de/pub/bscw.cgi/2018133/DE-1-BMZ-TD.xml
 Parsing bmz-td from https://teamwork.bmz.de/pub/bscw.cgi/2018133/DE-1-BMZ-TD.xml
-found 162 activities
+found 164 activities
 
 Downloading bmz-tg from https://teamwork.bmz.de/pub/bscw.cgi/2018133/DE-1-BMZ-TG.xml
 Parsing bmz-tg from https://teamwork.bmz.de/pub/bscw.cgi/2018133/DE-1-BMZ-TG.xml
-found 208 activities
+found 209 activities
 
 Downloading bmz-th from https://teamwork.bmz.de/pub/bscw.cgi/2018133/DE-1-BMZ-TH.xml
 Parsing bmz-th from https://teamwork.bmz.de/pub/bscw.cgi/2018133/DE-1-BMZ-TH.xml
@@ -5616,7 +5621,7 @@ found 1 activities
 
 Downloading bmz-tn from https://teamwork.bmz.de/pub/bscw.cgi/2018133/DE-1-BMZ-TN.xml
 Parsing bmz-tn from https://teamwork.bmz.de/pub/bscw.cgi/2018133/DE-1-BMZ-TN.xml
-found 165 activities
+found 167 activities
 
 Downloading bmz-tr from https://teamwork.bmz.de/pub/bscw.cgi/2018133/DE-1-BMZ-TR.xml
 Parsing bmz-tr from https://teamwork.bmz.de/pub/bscw.cgi/2018133/DE-1-BMZ-TR.xml
@@ -5624,15 +5629,15 @@ found 81 activities
 
 Downloading bmz-tz from https://teamwork.bmz.de/pub/bscw.cgi/2018133/DE-1-BMZ-TZ.xml
 Parsing bmz-tz from https://teamwork.bmz.de/pub/bscw.cgi/2018133/DE-1-BMZ-TZ.xml
-found 401 activities
+found 404 activities
 
 Downloading bmz-ua from https://teamwork.bmz.de/pub/bscw.cgi/2018133/DE-1-BMZ-UA.xml
 Parsing bmz-ua from https://teamwork.bmz.de/pub/bscw.cgi/2018133/DE-1-BMZ-UA.xml
-found 188 activities
+found 190 activities
 
 Downloading bmz-ug from https://teamwork.bmz.de/pub/bscw.cgi/2018133/DE-1-BMZ-UG.xml
 Parsing bmz-ug from https://teamwork.bmz.de/pub/bscw.cgi/2018133/DE-1-BMZ-UG.xml
-found 398 activities
+found 400 activities
 
 Downloading bmz-uy from https://teamwork.bmz.de/pub/bscw.cgi/2018133/DE-1-BMZ-UY.xml
 Parsing bmz-uy from https://teamwork.bmz.de/pub/bscw.cgi/2018133/DE-1-BMZ-UY.xml
@@ -5648,7 +5653,7 @@ found 19 activities
 
 Downloading bmz-vn from https://teamwork.bmz.de/pub/bscw.cgi/2018133/DE-1-BMZ-VN.xml
 Parsing bmz-vn from https://teamwork.bmz.de/pub/bscw.cgi/2018133/DE-1-BMZ-VN.xml
-found 282 activities
+found 284 activities
 
 Downloading bmz-vu from https://teamwork.bmz.de/pub/bscw.cgi/2018133/DE-1-BMZ-VU.xml
 Parsing bmz-vu from https://teamwork.bmz.de/pub/bscw.cgi/2018133/DE-1-BMZ-VU.xml
@@ -5664,19 +5669,19 @@ found 117 activities
 
 Downloading bmz-ye from https://teamwork.bmz.de/pub/bscw.cgi/2018133/DE-1-BMZ-YE.xml
 Parsing bmz-ye from https://teamwork.bmz.de/pub/bscw.cgi/2018133/DE-1-BMZ-YE.xml
-found 149 activities
+found 153 activities
 
 Downloading bmz-za from https://teamwork.bmz.de/pub/bscw.cgi/2018133/DE-1-BMZ-ZA.xml
 Parsing bmz-za from https://teamwork.bmz.de/pub/bscw.cgi/2018133/DE-1-BMZ-ZA.xml
-found 533 activities
+found 536 activities
 
 Downloading bmz-zm from https://teamwork.bmz.de/pub/bscw.cgi/2018133/DE-1-BMZ-ZM.xml
 Parsing bmz-zm from https://teamwork.bmz.de/pub/bscw.cgi/2018133/DE-1-BMZ-ZM.xml
-found 189 activities
+found 194 activities
 
 Downloading bmz-zw from https://teamwork.bmz.de/pub/bscw.cgi/2018133/DE-1-BMZ-ZW.xml
 Parsing bmz-zw from https://teamwork.bmz.de/pub/bscw.cgi/2018133/DE-1-BMZ-ZW.xml
-found 310 activities
+found 313 activities
 
 Downloading bnps-bd-1986 from http://iati.simavi.org/BNPS/IATI-activities.xml
 Parsing bnps-bd-1986 from http://iati.simavi.org/BNPS/IATI-activities.xml
@@ -7066,8 +7071,9 @@ dflat: invalid XML format
 restored 0 files
 
 Downloading cif-889 from http://siteresources.worldbank.org/IATI/CIF/CIF-889.xml
+curl: download ERROR 404
 Parsing cif-889 from http://siteresources.worldbank.org/IATI/CIF/CIF-889.xml
-dflat: invalid XML format
+dflat: input XML file does not exist
 restored 0 files
 
 Downloading cif-998 from http://siteresources.worldbank.org/IATI/CIF/CIF-998.xml
@@ -8185,31 +8191,31 @@ found 1 organisations
 
 Downloading danida-all_1 from http://iati.um.dk/api/v2/files/iati1.xml
 Parsing danida-all_1 from http://iati.um.dk/api/v2/files/iati1.xml
-found 2617 activities
+found 2618 activities
 
 Downloading danida-all_2 from http://iati.um.dk/api/v2/files/iati2.xml
 Parsing danida-all_2 from http://iati.um.dk/api/v2/files/iati2.xml
-found 2617 activities
+found 2618 activities
 
 Downloading danida-all_3 from http://iati.um.dk/api/v2/files/iati3.xml
 Parsing danida-all_3 from http://iati.um.dk/api/v2/files/iati3.xml
-found 2617 activities
+found 2618 activities
 
 Downloading danida-all_4 from http://iati.um.dk/api/v2/files/iati4.xml
 Parsing danida-all_4 from http://iati.um.dk/api/v2/files/iati4.xml
-found 2617 activities
+found 2618 activities
 
 Downloading danida-all_5 from http://iati.um.dk/api/v2/files/iati5.xml
 Parsing danida-all_5 from http://iati.um.dk/api/v2/files/iati5.xml
-found 2617 activities
+found 2618 activities
 
 Downloading danida-all_6 from http://iati.um.dk/api/v2/files/iati6.xml
 Parsing danida-all_6 from http://iati.um.dk/api/v2/files/iati6.xml
-found 2617 activities
+found 2618 activities
 
 Downloading danida-all_7 from http://iati.um.dk/api/v2/files/iati7.xml
 Parsing danida-all_7 from http://iati.um.dk/api/v2/files/iati7.xml
-found 2616 activities
+found 2613 activities
 
 Downloading danida-org from http://iati.um.dk/api/v2/organisations/files/iati-organisations.xml
 Parsing danida-org from http://iati.um.dk/api/v2/organisations/files/iati-organisations.xml
@@ -8258,7 +8264,7 @@ found 1 organisations
 
 Downloading dca-activities from https://iatipublisher-prod.s3.amazonaws.com/xml/mergedActivityXml/dca-activities.xml
 Parsing dca-activities from https://iatipublisher-prod.s3.amazonaws.com/xml/mergedActivityXml/dca-activities.xml
-found 658 activities
+found 667 activities
 
 Downloading dc-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/dc-activities.xml
 Parsing dc-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/dc-activities.xml
@@ -13656,7 +13662,7 @@ found 1 organisations
 
 Downloading enabel-all-activities from https://open.enabel.be/iati/all-activities.xml
 Parsing enabel-all-activities from https://open.enabel.be/iati/all-activities.xml
-found 1211 activities
+found 1207 activities
 
 Downloading enabel-contractors from https://open.enabel.be/iati/contractors.xml
 Parsing enabel-contractors from https://open.enabel.be/iati/contractors.xml
@@ -16026,11 +16032,11 @@ found 1 organisations
 
 Downloading gac-amc-act_2_3 from http://w05.international.gc.ca/projectbrowser-banqueprojets/iita-iati/dfatd-maecd_activit_status_2_3.xml
 Parsing gac-amc-act_2_3 from http://w05.international.gc.ca/projectbrowser-banqueprojets/iita-iati/dfatd-maecd_activit_status_2_3.xml
-found 1922 activities
+found 1924 activities
 
 Downloading gac-amc-act_4 from http://w05.international.gc.ca/projectbrowser-banqueprojets/iita-iati/dfatd-maecd_activit_status_4.xml
 Parsing gac-amc-act_4 from http://w05.international.gc.ca/projectbrowser-banqueprojets/iita-iati/dfatd-maecd_activit_status_4.xml
-found 4443 activities
+found 4444 activities
 
 Downloading gac-amc-org from http://w05.international.gc.ca/projectbrowser-banqueprojets/iita-iati/dfatd-maecd_organisation.xml
 Parsing gac-amc-org from http://w05.international.gc.ca/projectbrowser-banqueprojets/iita-iati/dfatd-maecd_organisation.xml
@@ -16977,11 +16983,11 @@ found 1 organisations
 
 Downloading globalgiving-activity from http://www.globalgiving.org/iati/activities.xml
 Parsing globalgiving-activity from http://www.globalgiving.org/iati/activities.xml
-found 26940 activities
+found 26945 activities
 
 Downloading globalgiving-org from http://www.globalgiving.org/iati/organisations.xml
 Parsing globalgiving-org from http://www.globalgiving.org/iati/organisations.xml
-found 15204 organisations
+found 15205 organisations
 
 Downloading globalshea-activities from https://iatipublisher-prod.s3.amazonaws.com/xml/mergedActivityXml/globalshea-activities.xml
 Parsing globalshea-activities from https://iatipublisher-prod.s3.amazonaws.com/xml/mergedActivityXml/globalshea-activities.xml
@@ -19376,7 +19382,7 @@ found 11 activities
 
 Downloading ifcwbg-ec from https://disclosures.ifc.org/iati/ifc-ec.xml
 Parsing ifcwbg-ec from https://disclosures.ifc.org/iati/ifc-ec.xml
-found 38 activities
+found 39 activities
 
 Downloading ifcwbg-ee from https://disclosures.ifc.org/iati/ifc-ee.xml
 Parsing ifcwbg-ee from https://disclosures.ifc.org/iati/ifc-ee.xml
@@ -19552,7 +19558,7 @@ found 1 activities
 
 Downloading ifcwbg-mk from https://disclosures.ifc.org/iati/ifc-mk.xml
 Parsing ifcwbg-mk from https://disclosures.ifc.org/iati/ifc-mk.xml
-found 16 activities
+found 17 activities
 
 Downloading ifcwbg-ml from https://disclosures.ifc.org/iati/ifc-ml.xml
 Parsing ifcwbg-ml from https://disclosures.ifc.org/iati/ifc-ml.xml
@@ -20921,10 +20927,9 @@ Downloading iza-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml
 Parsing iza-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/iza-activities.xml
 found 1 activities
 
-Downloading iza-org from https://iza.org
-Parsing iza-org from https://iza.org
-dflat: invalid XML format
-restored 0 files
+Downloading iza-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/iza-org.xml
+Parsing iza-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/iza-org.xml
+found 1 organisations
 
 Downloading j2022-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/j2022-activities.xml
 Parsing j2022-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/j2022-activities.xml
@@ -35790,7 +35795,7 @@ found 300 activities
 
 Downloading unocha-cbpf-afghanistan-allocation-2023 from https://cbpfapi.unocha.org/iati/iati/23/2023/GetAllocation.xml
 Parsing unocha-cbpf-afghanistan-allocation-2023 from https://cbpfapi.unocha.org/iati/iati/23/2023/GetAllocation.xml
-found 4 activities
+found 5 activities
 
 Downloading unocha-cbpf-afghanistan-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/23/2024/GetAllocation.xml
 Parsing unocha-cbpf-afghanistan-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/23/2024/GetAllocation.xml
@@ -35897,8 +35902,10 @@ Parsing unocha-cbpf-burkinafasorhpf-allocation-2022 from https://cbpfapi.unocha.
 found 54 activities
 
 Downloading unocha-cbpf-burkinafasorhpf-allocation-2023 from https://cbpfapi.unocha.org/iati/iati/85/2023/GetAllocation.xml
+curl: download ERROR 000
 Parsing unocha-cbpf-burkinafasorhpf-allocation-2023 from https://cbpfapi.unocha.org/iati/iati/85/2023/GetAllocation.xml
-found 30 activities
+dflat: input XML file does not exist
+restored 30 files
 
 Downloading unocha-cbpf-burkinafasorhpf-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/85/2024/GetAllocation.xml
 Parsing unocha-cbpf-burkinafasorhpf-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/85/2024/GetAllocation.xml
@@ -36225,8 +36232,10 @@ Parsing unocha-cbpf-ethiopia-allocation-2016 from https://cbpfapi.unocha.org/iat
 found 57 activities
 
 Downloading unocha-cbpf-ethiopia-allocation-2017 from https://cbpfapi.unocha.org/iati/iati/53/2017/GetAllocation.xml
+curl: download ERROR 000
 Parsing unocha-cbpf-ethiopia-allocation-2017 from https://cbpfapi.unocha.org/iati/iati/53/2017/GetAllocation.xml
-found 124 activities
+dflat: input XML file does not exist
+restored 124 files
 
 Downloading unocha-cbpf-ethiopia-allocation-2018 from https://cbpfapi.unocha.org/iati/iati/53/2018/GetAllocation.xml
 Parsing unocha-cbpf-ethiopia-allocation-2018 from https://cbpfapi.unocha.org/iati/iati/53/2018/GetAllocation.xml
@@ -36685,8 +36694,10 @@ Parsing unocha-cbpf-myanmar-allocation-2022 from https://cbpfapi.unocha.org/iati
 found 49 activities
 
 Downloading unocha-cbpf-myanmar-allocation-2023 from https://cbpfapi.unocha.org/iati/iati/59/2023/GetAllocation.xml
+curl: download ERROR 000
 Parsing unocha-cbpf-myanmar-allocation-2023 from https://cbpfapi.unocha.org/iati/iati/59/2023/GetAllocation.xml
-found 26 activities
+dflat: input XML file does not exist
+restored 26 files
 
 Downloading unocha-cbpf-myanmar-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/59/2024/GetAllocation.xml
 Parsing unocha-cbpf-myanmar-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/59/2024/GetAllocation.xml
@@ -37189,8 +37200,10 @@ Parsing unocha-cbpf-somalia-allocation-2016 from https://cbpfapi.unocha.org/iati
 found 109 activities
 
 Downloading unocha-cbpf-somalia-allocation-2017 from https://cbpfapi.unocha.org/iati/iati/21/2017/GetAllocation.xml
+curl: download ERROR 000
 Parsing unocha-cbpf-somalia-allocation-2017 from https://cbpfapi.unocha.org/iati/iati/21/2017/GetAllocation.xml
-found 165 activities
+dflat: input XML file does not exist
+restored 165 files
 
 Downloading unocha-cbpf-somalia-allocation-2018 from https://cbpfapi.unocha.org/iati/iati/21/2018/GetAllocation.xml
 Parsing unocha-cbpf-somalia-allocation-2018 from https://cbpfapi.unocha.org/iati/iati/21/2018/GetAllocation.xml
@@ -37205,8 +37218,10 @@ Parsing unocha-cbpf-somalia-allocation-2020 from https://cbpfapi.unocha.org/iati
 found 73 activities
 
 Downloading unocha-cbpf-somalia-allocation-2021 from https://cbpfapi.unocha.org/iati/iati/21/2021/GetAllocation.xml
+curl: download ERROR 000
 Parsing unocha-cbpf-somalia-allocation-2021 from https://cbpfapi.unocha.org/iati/iati/21/2021/GetAllocation.xml
-found 112 activities
+dflat: input XML file does not exist
+restored 112 files
 
 Downloading unocha-cbpf-somalia-allocation-2022 from https://cbpfapi.unocha.org/iati/iati/21/2022/GetAllocation.xml
 Parsing unocha-cbpf-somalia-allocation-2022 from https://cbpfapi.unocha.org/iati/iati/21/2022/GetAllocation.xml
@@ -37297,12 +37312,16 @@ Parsing unocha-cbpf-southsudan-allocation-2016 from https://cbpfapi.unocha.org/i
 found 212 activities
 
 Downloading unocha-cbpf-southsudan-allocation-2017 from https://cbpfapi.unocha.org/iati/iati/19/2017/GetAllocation.xml
+curl: download ERROR 000
 Parsing unocha-cbpf-southsudan-allocation-2017 from https://cbpfapi.unocha.org/iati/iati/19/2017/GetAllocation.xml
-found 188 activities
+dflat: input XML file does not exist
+restored 188 files
 
 Downloading unocha-cbpf-southsudan-allocation-2018 from https://cbpfapi.unocha.org/iati/iati/19/2018/GetAllocation.xml
+curl: download ERROR 000
 Parsing unocha-cbpf-southsudan-allocation-2018 from https://cbpfapi.unocha.org/iati/iati/19/2018/GetAllocation.xml
-found 225 activities
+dflat: input XML file does not exist
+restored 225 files
 
 Downloading unocha-cbpf-southsudan-allocation-2019 from https://cbpfapi.unocha.org/iati/iati/19/2019/GetAllocation.xml
 Parsing unocha-cbpf-southsudan-allocation-2019 from https://cbpfapi.unocha.org/iati/iati/19/2019/GetAllocation.xml
@@ -37313,16 +37332,20 @@ Parsing unocha-cbpf-southsudan-allocation-2020 from https://cbpfapi.unocha.org/i
 found 106 activities
 
 Downloading unocha-cbpf-southsudan-allocation-2021 from https://cbpfapi.unocha.org/iati/iati/19/2021/GetAllocation.xml
+curl: download ERROR 000
 Parsing unocha-cbpf-southsudan-allocation-2021 from https://cbpfapi.unocha.org/iati/iati/19/2021/GetAllocation.xml
-found 95 activities
+dflat: input XML file does not exist
+restored 95 files
 
 Downloading unocha-cbpf-southsudan-allocation-2022 from https://cbpfapi.unocha.org/iati/iati/19/2022/GetAllocation.xml
 Parsing unocha-cbpf-southsudan-allocation-2022 from https://cbpfapi.unocha.org/iati/iati/19/2022/GetAllocation.xml
 found 57 activities
 
 Downloading unocha-cbpf-southsudan-allocation-2023 from https://cbpfapi.unocha.org/iati/iati/19/2023/GetAllocation.xml
+curl: download ERROR 000
 Parsing unocha-cbpf-southsudan-allocation-2023 from https://cbpfapi.unocha.org/iati/iati/19/2023/GetAllocation.xml
-found 48 activities
+dflat: input XML file does not exist
+restored 48 files
 
 Downloading unocha-cbpf-southsudan-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/19/2024/GetAllocation.xml
 Parsing unocha-cbpf-southsudan-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/19/2024/GetAllocation.xml
@@ -37682,7 +37705,7 @@ found 27 activities
 
 Downloading unocha-cbpf-syriacrossborder-contribution-2023 from https://cbpfapi.unocha.org/iati/iati/70/2023/GetContribution.xml
 Parsing unocha-cbpf-syriacrossborder-contribution-2023 from https://cbpfapi.unocha.org/iati/iati/70/2023/GetContribution.xml
-found 35 activities
+found 36 activities
 
 Downloading unocha-cbpf-syriacrossborder-contribution-2024 from https://cbpfapi.unocha.org/iati/iati/70/2024/GetContribution.xml
 Parsing unocha-cbpf-syriacrossborder-contribution-2024 from https://cbpfapi.unocha.org/iati/iati/70/2024/GetContribution.xml
@@ -37729,8 +37752,10 @@ Parsing unocha-cbpf-ukraine-allocation-2022 from https://cbpfapi.unocha.org/iati
 found 110 activities
 
 Downloading unocha-cbpf-ukraine-allocation-2023 from https://cbpfapi.unocha.org/iati/iati/81/2023/GetAllocation.xml
+curl: download ERROR 000
 Parsing unocha-cbpf-ukraine-allocation-2023 from https://cbpfapi.unocha.org/iati/iati/81/2023/GetAllocation.xml
-found 36 activities
+dflat: input XML file does not exist
+restored 36 files
 
 Downloading unocha-cbpf-ukraine-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/81/2024/GetAllocation.xml
 Parsing unocha-cbpf-ukraine-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/81/2024/GetAllocation.xml
@@ -37886,7 +37911,7 @@ found 106 activities
 
 Downloading unocha-cbpf-yemen-allocation-2023 from https://cbpfapi.unocha.org/iati/iati/64/2023/GetAllocation.xml
 Parsing unocha-cbpf-yemen-allocation-2023 from https://cbpfapi.unocha.org/iati/iati/64/2023/GetAllocation.xml
-found 51 activities
+found 56 activities
 
 Downloading unocha-cbpf-yemen-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/64/2024/GetAllocation.xml
 Parsing unocha-cbpf-yemen-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/64/2024/GetAllocation.xml
@@ -43482,584 +43507,584 @@ Downloading wo-men-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/wo-
 Parsing wo-men-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/wo-men-org.xml
 found 1 organisations
 
-Downloading worldbank-289 from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-289.xml
-Parsing worldbank-289 from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-289.xml
+Downloading worldbank-289 from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-289.xml
+Parsing worldbank-289 from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-289.xml
 found 132 activities
 
-Downloading worldbank-298 from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-298.xml
-Parsing worldbank-298 from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-298.xml
+Downloading worldbank-298 from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-298.xml
+Parsing worldbank-298 from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-298.xml
 found 16 activities
 
-Downloading worldbank-389 from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-389.xml
-Parsing worldbank-389 from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-389.xml
+Downloading worldbank-389 from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-389.xml
+Parsing worldbank-389 from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-389.xml
 found 12 activities
 
-Downloading worldbank-619 from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-619.xml
-Parsing worldbank-619 from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-619.xml
+Downloading worldbank-619 from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-619.xml
+Parsing worldbank-619 from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-619.xml
 found 11 activities
 
-Downloading worldbank-679 from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-679.xml
-Parsing worldbank-679 from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-679.xml
+Downloading worldbank-679 from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-679.xml
+Parsing worldbank-679 from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-679.xml
 found 6 activities
 
-Downloading worldbank-889 from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-889.xml
-Parsing worldbank-889 from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-889.xml
+Downloading worldbank-889 from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-889.xml
+Parsing worldbank-889 from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-889.xml
 found 7 activities
 
-Downloading worldbank-89 from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-89.xml
-Parsing worldbank-89 from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-89.xml
+Downloading worldbank-89 from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-89.xml
+Parsing worldbank-89 from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-89.xml
 found 4 activities
 
-Downloading worldbank-998 from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-998.xml
-Parsing worldbank-998 from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-998.xml
+Downloading worldbank-998 from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-998.xml
+Parsing worldbank-998 from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-998.xml
 found 4 activities
 
-Downloading worldbank-af from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-AF.xml
-Parsing worldbank-af from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-AF.xml
+Downloading worldbank-af from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-AF.xml
+Parsing worldbank-af from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-AF.xml
 found 54 activities
 
-Downloading worldbank-ag from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-AG.xml
-Parsing worldbank-ag from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-AG.xml
+Downloading worldbank-ag from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-AG.xml
+Parsing worldbank-ag from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-AG.xml
 found 1 activities
 
-Downloading worldbank-al from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-AL.xml
-Parsing worldbank-al from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-AL.xml
+Downloading worldbank-al from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-AL.xml
+Parsing worldbank-al from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-AL.xml
 found 29 activities
 
-Downloading worldbank-am from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-AM.xml
-Parsing worldbank-am from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-AM.xml
+Downloading worldbank-am from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-AM.xml
+Parsing worldbank-am from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-AM.xml
 found 28 activities
 
-Downloading worldbank-ao from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-AO.xml
-Parsing worldbank-ao from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-AO.xml
+Downloading worldbank-ao from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-AO.xml
+Parsing worldbank-ao from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-AO.xml
 found 24 activities
 
-Downloading worldbank-ar from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-AR.xml
-Parsing worldbank-ar from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-AR.xml
+Downloading worldbank-ar from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-AR.xml
+Parsing worldbank-ar from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-AR.xml
 found 67 activities
 
-Downloading worldbank-az from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-AZ.xml
-Parsing worldbank-az from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-AZ.xml
+Downloading worldbank-az from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-AZ.xml
+Parsing worldbank-az from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-AZ.xml
 found 21 activities
 
-Downloading worldbank-ba from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-BA.xml
-Parsing worldbank-ba from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-BA.xml
+Downloading worldbank-ba from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-BA.xml
+Parsing worldbank-ba from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-BA.xml
 found 25 activities
 
-Downloading worldbank-bb from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-BB.xml
-Parsing worldbank-bb from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-BB.xml
+Downloading worldbank-bb from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-BB.xml
+Parsing worldbank-bb from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-BB.xml
 found 3 activities
 
-Downloading worldbank-bd from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-BD.xml
-Parsing worldbank-bd from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-BD.xml
-found 95 activities
+Downloading worldbank-bd from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-BD.xml
+Parsing worldbank-bd from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-BD.xml
+found 96 activities
 
-Downloading worldbank-bf from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-BF.xml
-Parsing worldbank-bf from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-BF.xml
+Downloading worldbank-bf from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-BF.xml
+Parsing worldbank-bf from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-BF.xml
 found 46 activities
 
-Downloading worldbank-bg from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-BG.xml
-Parsing worldbank-bg from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-BG.xml
+Downloading worldbank-bg from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-BG.xml
+Parsing worldbank-bg from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-BG.xml
 found 5 activities
 
-Downloading worldbank-bi from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-BI.xml
-Parsing worldbank-bi from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-BI.xml
+Downloading worldbank-bi from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-BI.xml
+Parsing worldbank-bi from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-BI.xml
 found 28 activities
 
-Downloading worldbank-bj from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-BJ.xml
-Parsing worldbank-bj from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-BJ.xml
+Downloading worldbank-bj from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-BJ.xml
+Parsing worldbank-bj from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-BJ.xml
 found 37 activities
 
-Downloading worldbank-bo from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-BO.xml
-Parsing worldbank-bo from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-BO.xml
+Downloading worldbank-bo from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-BO.xml
+Parsing worldbank-bo from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-BO.xml
 found 23 activities
 
-Downloading worldbank-br from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-BR.xml
-Parsing worldbank-br from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-BR.xml
+Downloading worldbank-br from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-BR.xml
+Parsing worldbank-br from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-BR.xml
 found 97 activities
 
-Downloading worldbank-bs from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-BS.xml
-Parsing worldbank-bs from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-BS.xml
+Downloading worldbank-bs from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-BS.xml
+Parsing worldbank-bs from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-BS.xml
 found 1 activities
 
-Downloading worldbank-bt from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-BT.xml
-Parsing worldbank-bt from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-BT.xml
+Downloading worldbank-bt from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-BT.xml
+Parsing worldbank-bt from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-BT.xml
 found 11 activities
 
-Downloading worldbank-bw from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-BW.xml
-Parsing worldbank-bw from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-BW.xml
+Downloading worldbank-bw from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-BW.xml
+Parsing worldbank-bw from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-BW.xml
 found 5 activities
 
-Downloading worldbank-by from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-BY.xml
-Parsing worldbank-by from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-BY.xml
+Downloading worldbank-by from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-BY.xml
+Parsing worldbank-by from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-BY.xml
 found 16 activities
 
-Downloading worldbank-bz from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-BZ.xml
-Parsing worldbank-bz from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-BZ.xml
+Downloading worldbank-bz from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-BZ.xml
+Parsing worldbank-bz from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-BZ.xml
 found 4 activities
 
-Downloading worldbank-cd from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-CD.xml
-Parsing worldbank-cd from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-CD.xml
+Downloading worldbank-cd from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-CD.xml
+Parsing worldbank-cd from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-CD.xml
 found 47 activities
 
-Downloading worldbank-cf from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-CF.xml
-Parsing worldbank-cf from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-CF.xml
+Downloading worldbank-cf from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-CF.xml
+Parsing worldbank-cf from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-CF.xml
 found 29 activities
 
-Downloading worldbank-cg from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-CG.xml
-Parsing worldbank-cg from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-CG.xml
+Downloading worldbank-cg from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-CG.xml
+Parsing worldbank-cg from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-CG.xml
 found 23 activities
 
-Downloading worldbank-ci from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-CI.xml
-Parsing worldbank-ci from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-CI.xml
+Downloading worldbank-ci from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-CI.xml
+Parsing worldbank-ci from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-CI.xml
 found 43 activities
 
-Downloading worldbank-cl from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-CL.xml
-Parsing worldbank-cl from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-CL.xml
+Downloading worldbank-cl from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-CL.xml
+Parsing worldbank-cl from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-CL.xml
 found 9 activities
 
-Downloading worldbank-cm from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-CM.xml
-Parsing worldbank-cm from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-CM.xml
+Downloading worldbank-cm from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-CM.xml
+Parsing worldbank-cm from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-CM.xml
 found 38 activities
 
-Downloading worldbank-cn from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-CN.xml
-Parsing worldbank-cn from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-CN.xml
+Downloading worldbank-cn from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-CN.xml
+Parsing worldbank-cn from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-CN.xml
 found 171 activities
 
-Downloading worldbank-co from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-CO.xml
-Parsing worldbank-co from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-CO.xml
+Downloading worldbank-co from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-CO.xml
+Parsing worldbank-co from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-CO.xml
 found 45 activities
 
-Downloading worldbank-cr from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-CR.xml
-Parsing worldbank-cr from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-CR.xml
+Downloading worldbank-cr from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-CR.xml
+Parsing worldbank-cr from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-CR.xml
 found 10 activities
 
-Downloading worldbank-cv from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-CV.xml
-Parsing worldbank-cv from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-CV.xml
+Downloading worldbank-cv from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-CV.xml
+Parsing worldbank-cv from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-CV.xml
 found 18 activities
 
-Downloading worldbank-dj from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-DJ.xml
-Parsing worldbank-dj from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-DJ.xml
+Downloading worldbank-dj from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-DJ.xml
+Parsing worldbank-dj from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-DJ.xml
 found 25 activities
 
-Downloading worldbank-dm from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-DM.xml
-Parsing worldbank-dm from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-DM.xml
+Downloading worldbank-dm from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-DM.xml
+Parsing worldbank-dm from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-DM.xml
 found 7 activities
 
-Downloading worldbank-do from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-DO.xml
-Parsing worldbank-do from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-DO.xml
+Downloading worldbank-do from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-DO.xml
+Parsing worldbank-do from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-DO.xml
 found 22 activities
 
-Downloading worldbank-ec from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-EC.xml
-Parsing worldbank-ec from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-EC.xml
+Downloading worldbank-ec from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-EC.xml
+Parsing worldbank-ec from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-EC.xml
 found 17 activities
 
-Downloading worldbank-eg from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-EG.xml
-Parsing worldbank-eg from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-EG.xml
+Downloading worldbank-eg from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-EG.xml
+Parsing worldbank-eg from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-EG.xml
 found 38 activities
 
-Downloading worldbank-et from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-ET.xml
-Parsing worldbank-et from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-ET.xml
+Downloading worldbank-et from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-ET.xml
+Parsing worldbank-et from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-ET.xml
 found 65 activities
 
-Downloading worldbank-fj from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-FJ.xml
-Parsing worldbank-fj from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-FJ.xml
+Downloading worldbank-fj from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-FJ.xml
+Parsing worldbank-fj from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-FJ.xml
 found 8 activities
 
-Downloading worldbank-fm from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-FM.xml
-Parsing worldbank-fm from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-FM.xml
+Downloading worldbank-fm from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-FM.xml
+Parsing worldbank-fm from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-FM.xml
 found 10 activities
 
-Downloading worldbank-ga from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-GA.xml
-Parsing worldbank-ga from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-GA.xml
+Downloading worldbank-ga from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-GA.xml
+Parsing worldbank-ga from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-GA.xml
 found 10 activities
 
-Downloading worldbank-gd from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-GD.xml
-Parsing worldbank-gd from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-GD.xml
+Downloading worldbank-gd from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-GD.xml
+Parsing worldbank-gd from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-GD.xml
 found 11 activities
 
-Downloading worldbank-ge from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-GE.xml
-Parsing worldbank-ge from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-GE.xml
+Downloading worldbank-ge from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-GE.xml
+Parsing worldbank-ge from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-GE.xml
 found 29 activities
 
-Downloading worldbank-gh from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-GH.xml
-Parsing worldbank-gh from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-GH.xml
+Downloading worldbank-gh from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-GH.xml
+Parsing worldbank-gh from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-GH.xml
 found 47 activities
 
-Downloading worldbank-gm from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-GM.xml
-Parsing worldbank-gm from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-GM.xml
+Downloading worldbank-gm from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-GM.xml
+Parsing worldbank-gm from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-GM.xml
 found 18 activities
 
-Downloading worldbank-gn from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-GN.xml
-Parsing worldbank-gn from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-GN.xml
+Downloading worldbank-gn from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-GN.xml
+Parsing worldbank-gn from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-GN.xml
 found 33 activities
 
-Downloading worldbank-gt from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-GT.xml
-Parsing worldbank-gt from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-GT.xml
+Downloading worldbank-gt from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-GT.xml
+Parsing worldbank-gt from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-GT.xml
 found 15 activities
 
-Downloading worldbank-gw from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-GW.xml
-Parsing worldbank-gw from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-GW.xml
+Downloading worldbank-gw from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-GW.xml
+Parsing worldbank-gw from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-GW.xml
 found 15 activities
 
-Downloading worldbank-gy from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-GY.xml
-Parsing worldbank-gy from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-GY.xml
+Downloading worldbank-gy from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-GY.xml
+Parsing worldbank-gy from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-GY.xml
 found 10 activities
 
-Downloading worldbank-hn from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-HN.xml
-Parsing worldbank-hn from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-HN.xml
+Downloading worldbank-hn from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-HN.xml
+Parsing worldbank-hn from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-HN.xml
 found 28 activities
 
-Downloading worldbank-hr from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-HR.xml
-Parsing worldbank-hr from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-HR.xml
+Downloading worldbank-hr from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-HR.xml
+Parsing worldbank-hr from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-HR.xml
 found 25 activities
 
-Downloading worldbank-ht from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-HT.xml
-Parsing worldbank-ht from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-HT.xml
+Downloading worldbank-ht from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-HT.xml
+Parsing worldbank-ht from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-HT.xml
 found 39 activities
 
-Downloading worldbank-id from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-ID.xml
-Parsing worldbank-id from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-ID.xml
+Downloading worldbank-id from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-ID.xml
+Parsing worldbank-id from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-ID.xml
 found 77 activities
 
-Downloading worldbank-in from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-IN.xml
-Parsing worldbank-in from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-IN.xml
+Downloading worldbank-in from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-IN.xml
+Parsing worldbank-in from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-IN.xml
 found 221 activities
 
-Downloading worldbank-iq from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-IQ.xml
-Parsing worldbank-iq from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-IQ.xml
+Downloading worldbank-iq from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-IQ.xml
+Parsing worldbank-iq from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-IQ.xml
 found 15 activities
 
-Downloading worldbank-ir from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-IR.xml
-Parsing worldbank-ir from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-IR.xml
+Downloading worldbank-ir from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-IR.xml
+Parsing worldbank-ir from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-IR.xml
 found 2 activities
 
-Downloading worldbank-jm from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-JM.xml
-Parsing worldbank-jm from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-JM.xml
+Downloading worldbank-jm from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-JM.xml
+Parsing worldbank-jm from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-JM.xml
 found 19 activities
 
-Downloading worldbank-jo from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-JO.xml
-Parsing worldbank-jo from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-JO.xml
+Downloading worldbank-jo from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-JO.xml
+Parsing worldbank-jo from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-JO.xml
 found 24 activities
 
-Downloading worldbank-ke from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-KE.xml
-Parsing worldbank-ke from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-KE.xml
+Downloading worldbank-ke from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-KE.xml
+Parsing worldbank-ke from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-KE.xml
 found 55 activities
 
-Downloading worldbank-kg from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-KG.xml
-Parsing worldbank-kg from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-KG.xml
+Downloading worldbank-kg from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-KG.xml
+Parsing worldbank-kg from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-KG.xml
 found 45 activities
 
-Downloading worldbank-kh from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-KH.xml
-Parsing worldbank-kh from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-KH.xml
+Downloading worldbank-kh from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-KH.xml
+Parsing worldbank-kh from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-KH.xml
 found 32 activities
 
-Downloading worldbank-ki from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-KI.xml
-Parsing worldbank-ki from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-KI.xml
+Downloading worldbank-ki from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-KI.xml
+Parsing worldbank-ki from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-KI.xml
 found 16 activities
 
-Downloading worldbank-km from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-KM.xml
-Parsing worldbank-km from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-KM.xml
+Downloading worldbank-km from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-KM.xml
+Parsing worldbank-km from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-KM.xml
 found 17 activities
 
-Downloading worldbank-kz from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-KZ.xml
-Parsing worldbank-kz from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-KZ.xml
+Downloading worldbank-kz from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-KZ.xml
+Parsing worldbank-kz from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-KZ.xml
 found 23 activities
 
-Downloading worldbank-la from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-LA.xml
-Parsing worldbank-la from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-LA.xml
+Downloading worldbank-la from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-LA.xml
+Parsing worldbank-la from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-LA.xml
 found 44 activities
 
-Downloading worldbank-lb from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-LB.xml
-Parsing worldbank-lb from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-LB.xml
+Downloading worldbank-lb from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-LB.xml
+Parsing worldbank-lb from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-LB.xml
 found 21 activities
 
-Downloading worldbank-lc from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-LC.xml
-Parsing worldbank-lc from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-LC.xml
+Downloading worldbank-lc from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-LC.xml
+Parsing worldbank-lc from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-LC.xml
 found 8 activities
 
-Downloading worldbank-lk from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-LK.xml
-Parsing worldbank-lk from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-LK.xml
+Downloading worldbank-lk from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-LK.xml
+Parsing worldbank-lk from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-LK.xml
 found 40 activities
 
-Downloading worldbank-lr from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-LR.xml
-Parsing worldbank-lr from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-LR.xml
+Downloading worldbank-lr from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-LR.xml
+Parsing worldbank-lr from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-LR.xml
 found 34 activities
 
-Downloading worldbank-ls from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-LS.xml
-Parsing worldbank-ls from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-LS.xml
+Downloading worldbank-ls from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-LS.xml
+Parsing worldbank-ls from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-LS.xml
 found 20 activities
 
-Downloading worldbank-ma from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-MA.xml
-Parsing worldbank-ma from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-MA.xml
+Downloading worldbank-ma from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-MA.xml
+Parsing worldbank-ma from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-MA.xml
 found 44 activities
 
-Downloading worldbank-md from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-MD.xml
-Parsing worldbank-md from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-MD.xml
+Downloading worldbank-md from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-MD.xml
+Parsing worldbank-md from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-MD.xml
 found 33 activities
 
-Downloading worldbank-me from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-ME.xml
-Parsing worldbank-me from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-ME.xml
+Downloading worldbank-me from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-ME.xml
+Parsing worldbank-me from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-ME.xml
 found 10 activities
 
-Downloading worldbank-mg from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-MG.xml
-Parsing worldbank-mg from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-MG.xml
-found 46 activities
+Downloading worldbank-mg from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-MG.xml
+Parsing worldbank-mg from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-MG.xml
+found 47 activities
 
-Downloading worldbank-mh from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-MH.xml
-Parsing worldbank-mh from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-MH.xml
+Downloading worldbank-mh from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-MH.xml
+Parsing worldbank-mh from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-MH.xml
 found 14 activities
 
-Downloading worldbank-mk from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-MK.xml
-Parsing worldbank-mk from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-MK.xml
+Downloading worldbank-mk from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-MK.xml
+Parsing worldbank-mk from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-MK.xml
 found 20 activities
 
-Downloading worldbank-ml from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-ML.xml
-Parsing worldbank-ml from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-ML.xml
+Downloading worldbank-ml from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-ML.xml
+Parsing worldbank-ml from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-ML.xml
 found 37 activities
 
-Downloading worldbank-mm from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-MM.xml
-Parsing worldbank-mm from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-MM.xml
+Downloading worldbank-mm from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-MM.xml
+Parsing worldbank-mm from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-MM.xml
 found 19 activities
 
-Downloading worldbank-mn from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-MN.xml
-Parsing worldbank-mn from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-MN.xml
+Downloading worldbank-mn from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-MN.xml
+Parsing worldbank-mn from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-MN.xml
 found 29 activities
 
-Downloading worldbank-mr from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-MR.xml
-Parsing worldbank-mr from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-MR.xml
+Downloading worldbank-mr from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-MR.xml
+Parsing worldbank-mr from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-MR.xml
 found 23 activities
 
-Downloading worldbank-mu from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-MU.xml
-Parsing worldbank-mu from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-MU.xml
+Downloading worldbank-mu from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-MU.xml
+Parsing worldbank-mu from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-MU.xml
 found 3 activities
 
-Downloading worldbank-mv from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-MV.xml
-Parsing worldbank-mv from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-MV.xml
+Downloading worldbank-mv from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-MV.xml
+Parsing worldbank-mv from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-MV.xml
 found 18 activities
 
-Downloading worldbank-mw from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-MW.xml
-Parsing worldbank-mw from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-MW.xml
+Downloading worldbank-mw from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-MW.xml
+Parsing worldbank-mw from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-MW.xml
 found 38 activities
 
-Downloading worldbank-mx from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-MX.xml
-Parsing worldbank-mx from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-MX.xml
+Downloading worldbank-mx from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-MX.xml
+Parsing worldbank-mx from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-MX.xml
 found 37 activities
 
-Downloading worldbank-mz from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-MZ.xml
-Parsing worldbank-mz from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-MZ.xml
+Downloading worldbank-mz from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-MZ.xml
+Parsing worldbank-mz from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-MZ.xml
 found 67 activities
 
-Downloading worldbank-ne from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-NE.xml
-Parsing worldbank-ne from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-NE.xml
+Downloading worldbank-ne from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-NE.xml
+Parsing worldbank-ne from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-NE.xml
 found 42 activities
 
-Downloading worldbank-ng from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-NG.xml
-Parsing worldbank-ng from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-NG.xml
+Downloading worldbank-ng from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-NG.xml
+Parsing worldbank-ng from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-NG.xml
 found 64 activities
 
-Downloading worldbank-ni from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-NI.xml
-Parsing worldbank-ni from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-NI.xml
+Downloading worldbank-ni from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-NI.xml
+Parsing worldbank-ni from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-NI.xml
 found 25 activities
 
-Downloading worldbank-np from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-NP.xml
-Parsing worldbank-np from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-NP.xml
+Downloading worldbank-np from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-NP.xml
+Parsing worldbank-np from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-NP.xml
 found 52 activities
 
 Downloading worldbank-org from http://doumodqax2qi2.cloudfront.net/IATI_ORG_2019/IATI_ORG.xml
 Parsing worldbank-org from http://doumodqax2qi2.cloudfront.net/IATI_ORG_2019/IATI_ORG.xml
 found 1 organisations
 
-Downloading worldbank-pa from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-PA.xml
-Parsing worldbank-pa from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-PA.xml
+Downloading worldbank-pa from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-PA.xml
+Parsing worldbank-pa from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-PA.xml
 found 17 activities
 
-Downloading worldbank-pe from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-PE.xml
-Parsing worldbank-pe from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-PE.xml
+Downloading worldbank-pe from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-PE.xml
+Parsing worldbank-pe from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-PE.xml
 found 38 activities
 
-Downloading worldbank-pg from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-PG.xml
-Parsing worldbank-pg from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-PG.xml
+Downloading worldbank-pg from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-PG.xml
+Parsing worldbank-pg from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-PG.xml
 found 23 activities
 
-Downloading worldbank-ph from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-PH.xml
-Parsing worldbank-ph from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-PH.xml
+Downloading worldbank-ph from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-PH.xml
+Parsing worldbank-ph from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-PH.xml
 found 41 activities
 
-Downloading worldbank-pk from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-PK.xml
-Parsing worldbank-pk from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-PK.xml
+Downloading worldbank-pk from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-PK.xml
+Parsing worldbank-pk from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-PK.xml
 found 98 activities
 
-Downloading worldbank-pl from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-PL.xml
-Parsing worldbank-pl from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-PL.xml
+Downloading worldbank-pl from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-PL.xml
+Parsing worldbank-pl from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-PL.xml
 found 5 activities
 
 Downloading worldbank-ps from http://doumodqax2qi2.cloudfront.net/IATI-06-2020/WB-PS.xml
 Parsing worldbank-ps from http://doumodqax2qi2.cloudfront.net/IATI-06-2020/WB-PS.xml
 found 3 activities
 
-Downloading worldbank-py from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-PY.xml
-Parsing worldbank-py from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-PY.xml
+Downloading worldbank-py from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-PY.xml
+Parsing worldbank-py from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-PY.xml
 found 12 activities
 
-Downloading worldbank-ro from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-RO.xml
-Parsing worldbank-ro from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-RO.xml
+Downloading worldbank-ro from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-RO.xml
+Parsing worldbank-ro from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-RO.xml
 found 23 activities
 
-Downloading worldbank-rs from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-RS.xml
-Parsing worldbank-rs from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-RS.xml
+Downloading worldbank-rs from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-RS.xml
+Parsing worldbank-rs from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-RS.xml
 found 33 activities
 
-Downloading worldbank-ru from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-RU.xml
-Parsing worldbank-ru from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-RU.xml
+Downloading worldbank-ru from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-RU.xml
+Parsing worldbank-ru from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-RU.xml
 found 13 activities
 
-Downloading worldbank-rw from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-RW.xml
-Parsing worldbank-rw from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-RW.xml
+Downloading worldbank-rw from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-RW.xml
+Parsing worldbank-rw from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-RW.xml
 found 35 activities
 
-Downloading worldbank-sb from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-SB.xml
-Parsing worldbank-sb from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-SB.xml
+Downloading worldbank-sb from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-SB.xml
+Parsing worldbank-sb from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-SB.xml
 found 20 activities
 
-Downloading worldbank-sc from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-SC.xml
-Parsing worldbank-sc from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-SC.xml
+Downloading worldbank-sc from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-SC.xml
+Parsing worldbank-sc from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-SC.xml
 found 6 activities
 
-Downloading worldbank-sd from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-SD.xml
-Parsing worldbank-sd from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-SD.xml
+Downloading worldbank-sd from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-SD.xml
+Parsing worldbank-sd from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-SD.xml
 found 3 activities
 
-Downloading worldbank-sl from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-SL.xml
-Parsing worldbank-sl from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-SL.xml
+Downloading worldbank-sl from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-SL.xml
+Parsing worldbank-sl from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-SL.xml
 found 36 activities
 
-Downloading worldbank-sn from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-SN.xml
-Parsing worldbank-sn from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-SN.xml
+Downloading worldbank-sn from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-SN.xml
+Parsing worldbank-sn from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-SN.xml
 found 46 activities
 
-Downloading worldbank-so from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-SO.xml
-Parsing worldbank-so from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-SO.xml
+Downloading worldbank-so from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-SO.xml
+Parsing worldbank-so from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-SO.xml
 found 19 activities
 
-Downloading worldbank-sr from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-SR.xml
-Parsing worldbank-sr from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-SR.xml
+Downloading worldbank-sr from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-SR.xml
+Parsing worldbank-sr from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-SR.xml
 found 2 activities
 
-Downloading worldbank-ss from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-SS.xml
-Parsing worldbank-ss from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-SS.xml
+Downloading worldbank-ss from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-SS.xml
+Parsing worldbank-ss from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-SS.xml
 found 17 activities
 
-Downloading worldbank-st from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-ST.xml
-Parsing worldbank-st from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-ST.xml
+Downloading worldbank-st from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-ST.xml
+Parsing worldbank-st from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-ST.xml
 found 13 activities
 
-Downloading worldbank-sv from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-SV.xml
-Parsing worldbank-sv from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-SV.xml
+Downloading worldbank-sv from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-SV.xml
+Parsing worldbank-sv from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-SV.xml
 found 10 activities
 
-Downloading worldbank-sz from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-SZ.xml
-Parsing worldbank-sz from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-SZ.xml
+Downloading worldbank-sz from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-SZ.xml
+Parsing worldbank-sz from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-SZ.xml
 found 10 activities
 
-Downloading worldbank-td from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-TD.xml
-Parsing worldbank-td from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-TD.xml
+Downloading worldbank-td from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-TD.xml
+Parsing worldbank-td from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-TD.xml
 found 26 activities
 
-Downloading worldbank-tg from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-TG.xml
-Parsing worldbank-tg from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-TG.xml
+Downloading worldbank-tg from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-TG.xml
+Parsing worldbank-tg from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-TG.xml
 found 24 activities
 
-Downloading worldbank-th from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-TH.xml
-Parsing worldbank-th from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-TH.xml
+Downloading worldbank-th from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-TH.xml
+Parsing worldbank-th from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-TH.xml
 found 2 activities
 
-Downloading worldbank-tj from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-TJ.xml
-Parsing worldbank-tj from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-TJ.xml
+Downloading worldbank-tj from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-TJ.xml
+Parsing worldbank-tj from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-TJ.xml
 found 43 activities
 
-Downloading worldbank-tl from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-TL.xml
-Parsing worldbank-tl from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-TL.xml
+Downloading worldbank-tl from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-TL.xml
+Parsing worldbank-tl from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-TL.xml
 found 11 activities
 
-Downloading worldbank-tm from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-TM.xml
-Parsing worldbank-tm from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-TM.xml
+Downloading worldbank-tm from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-TM.xml
+Parsing worldbank-tm from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-TM.xml
 found 1 activities
 
-Downloading worldbank-tn from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-TN.xml
-Parsing worldbank-tn from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-TN.xml
+Downloading worldbank-tn from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-TN.xml
+Parsing worldbank-tn from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-TN.xml
 found 33 activities
 
-Downloading worldbank-to from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-TO.xml
-Parsing worldbank-to from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-TO.xml
+Downloading worldbank-to from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-TO.xml
+Parsing worldbank-to from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-TO.xml
 found 17 activities
 
-Downloading worldbank-tr from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-TR.xml
-Parsing worldbank-tr from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-TR.xml
+Downloading worldbank-tr from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-TR.xml
+Parsing worldbank-tr from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-TR.xml
 found 49 activities
 
-Downloading worldbank-tt from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-TT.xml
-Parsing worldbank-tt from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-TT.xml
+Downloading worldbank-tt from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-TT.xml
+Parsing worldbank-tt from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-TT.xml
 found 1 activities
 
-Downloading worldbank-tv from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-TV.xml
-Parsing worldbank-tv from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-TV.xml
-found 12 activities
+Downloading worldbank-tv from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-TV.xml
+Parsing worldbank-tv from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-TV.xml
+found 13 activities
 
-Downloading worldbank-tz from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-TZ.xml
-Parsing worldbank-tz from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-TZ.xml
+Downloading worldbank-tz from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-TZ.xml
+Parsing worldbank-tz from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-TZ.xml
 found 55 activities
 
-Downloading worldbank-ua from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-UA.xml
-Parsing worldbank-ua from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-UA.xml
+Downloading worldbank-ua from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-UA.xml
+Parsing worldbank-ua from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-UA.xml
 found 29 activities
 
-Downloading worldbank-ug from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-UG.xml
-Parsing worldbank-ug from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-UG.xml
+Downloading worldbank-ug from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-UG.xml
+Parsing worldbank-ug from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-UG.xml
 found 42 activities
 
-Downloading worldbank-uy from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-UY.xml
-Parsing worldbank-uy from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-UY.xml
+Downloading worldbank-uy from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-UY.xml
+Parsing worldbank-uy from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-UY.xml
 found 16 activities
 
-Downloading worldbank-uz from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-UZ.xml
-Parsing worldbank-uz from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-UZ.xml
+Downloading worldbank-uz from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-UZ.xml
+Parsing worldbank-uz from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-UZ.xml
 found 44 activities
 
-Downloading worldbank-vc from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-VC.xml
-Parsing worldbank-vc from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-VC.xml
+Downloading worldbank-vc from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-VC.xml
+Parsing worldbank-vc from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-VC.xml
 found 5 activities
 
-Downloading worldbank-vn from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-VN.xml
-Parsing worldbank-vn from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-VN.xml
+Downloading worldbank-vn from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-VN.xml
+Parsing worldbank-vn from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-VN.xml
 found 93 activities
 
-Downloading worldbank-vu from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-VU.xml
-Parsing worldbank-vu from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-VU.xml
+Downloading worldbank-vu from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-VU.xml
+Parsing worldbank-vu from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-VU.xml
 found 8 activities
 
-Downloading worldbank-ws from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-WS.xml
-Parsing worldbank-ws from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-WS.xml
+Downloading worldbank-ws from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-WS.xml
+Parsing worldbank-ws from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-WS.xml
 found 19 activities
 
-Downloading worldbank-xk from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-XK.xml
-Parsing worldbank-xk from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-XK.xml
+Downloading worldbank-xk from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-XK.xml
+Parsing worldbank-xk from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-XK.xml
 found 19 activities
 
-Downloading worldbank-ye from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-YE.xml
-Parsing worldbank-ye from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-YE.xml
+Downloading worldbank-ye from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-YE.xml
+Parsing worldbank-ye from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-YE.xml
 found 41 activities
 
-Downloading worldbank-za from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-ZA.xml
-Parsing worldbank-za from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-ZA.xml
+Downloading worldbank-za from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-ZA.xml
+Parsing worldbank-za from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-ZA.xml
 found 5 activities
 
-Downloading worldbank-zm from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-ZM.xml
-Parsing worldbank-zm from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-ZM.xml
+Downloading worldbank-zm from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-ZM.xml
+Parsing worldbank-zm from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-ZM.xml
 found 28 activities
 
-Downloading worldbank-zw from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-ZW.xml
-Parsing worldbank-zw from http://doumodqax2qi2.cloudfront.net/IATI-07-2023/WB-ZW.xml
+Downloading worldbank-zw from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-ZW.xml
+Parsing worldbank-zw from http://doumodqax2qi2.cloudfront.net/IATI-08-2023/WB-ZW.xml
 found 1 activities
 
 Downloading worldeconomicforum-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/worldeconomicforum-activities.xml
@@ -44110,6 +44135,10 @@ found 6 activities
 Downloading w_r_c-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/w_r_c-org.xml
 Parsing w_r_c-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/w_r_c-org.xml
 found 1 organisations
+
+Downloading wrgb-activities from https://iatipublisher-prod.s3.amazonaws.com/xml/mergedActivityXml/wrgb-activities.xml
+Parsing wrgb-activities from https://iatipublisher-prod.s3.amazonaws.com/xml/mergedActivityXml/wrgb-activities.xml
+found 0 activities
 
 Downloading wri-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/wri-activities.xml
 Parsing wri-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/wri-activities.xml
