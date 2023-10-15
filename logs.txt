@@ -1603,8 +1603,10 @@ Parsing afd-bi from https://static.data.gouv.fr/resources/donnees-de-laide-au-de
 found 5 activities
 
 Downloading afd-bj from https://static.data.gouv.fr/resources/donnees-de-laide-au-developpement-de-lafd-1/20231012-150033/fr-afd-bj.xml
+curl: download ERROR 404
 Parsing afd-bj from https://static.data.gouv.fr/resources/donnees-de-laide-au-developpement-de-lafd-1/20231012-150033/fr-afd-bj.xml
-found 44 activities
+dflat: input XML file does not exist
+restored 44 files
 
 Downloading afdb-kenya from https://www.afdb.org/sites/default/files/iati/iatikenyadata.xml
 Parsing afdb-kenya from https://www.afdb.org/sites/default/files/iati/iatikenyadata.xml
@@ -1671,12 +1673,16 @@ Parsing afdb-org from https://www.afdb.org/sites/default/files/iati/iatiorganisa
 found 1 organisations
 
 Downloading afd-bo from https://static.data.gouv.fr/resources/donnees-de-laide-au-developpement-de-lafd-1/20231012-150139/fr-afd-bo.xml
+curl: download ERROR 404
 Parsing afd-bo from https://static.data.gouv.fr/resources/donnees-de-laide-au-developpement-de-lafd-1/20231012-150139/fr-afd-bo.xml
-found 4 activities
+dflat: input XML file does not exist
+restored 4 files
 
 Downloading afd-br from https://static.data.gouv.fr/resources/donnees-de-laide-au-developpement-de-lafd-1/20231012-150245/fr-afd-br.xml
+curl: download ERROR 404
 Parsing afd-br from https://static.data.gouv.fr/resources/donnees-de-laide-au-developpement-de-lafd-1/20231012-150245/fr-afd-br.xml
-found 17 activities
+dflat: input XML file does not exist
+restored 17 files
 
 Downloading afdb-rwanda from https://www.afdb.org/sites/default/files/iati/iatirwandadata.xml
 Parsing afdb-rwanda from https://www.afdb.org/sites/default/files/iati/iatirwandadata.xml
@@ -1743,20 +1749,26 @@ Parsing afdb-zimbabwe from https://www.afdb.org/sites/default/files/iati/iatizim
 found 57 activities
 
 Downloading afd-cd from https://static.data.gouv.fr/resources/donnees-de-laide-au-developpement-de-lafd-1/20231012-150351/fr-afd-cd.xml
+curl: download ERROR 404
 Parsing afd-cd from https://static.data.gouv.fr/resources/donnees-de-laide-au-developpement-de-lafd-1/20231012-150351/fr-afd-cd.xml
-found 56 activities
+dflat: input XML file does not exist
+restored 56 files
 
 Downloading afd-cf from https://static.data.gouv.fr/resources/donnees-de-laide-au-developpement-de-lafd-1/20231012-150457/fr-afd-cf.xml
+curl: download ERROR 404
 Parsing afd-cf from https://static.data.gouv.fr/resources/donnees-de-laide-au-developpement-de-lafd-1/20231012-150457/fr-afd-cf.xml
-found 31 activities
+dflat: input XML file does not exist
+restored 31 files
 
 Downloading afd-cg from https://static.data.gouv.fr/resources/donnees-de-laide-au-developpement-de-lafd-1/20231003-083733/fr-afd-cg.xml
 Parsing afd-cg from https://static.data.gouv.fr/resources/donnees-de-laide-au-developpement-de-lafd-1/20231003-083733/fr-afd-cg.xml
 found 21 activities
 
 Downloading afd-ci from https://static.data.gouv.fr/resources/donnees-de-laide-au-developpement-de-lafd-1/20231012-150605/fr-afd-ci.xml
+curl: download ERROR 404
 Parsing afd-ci from https://static.data.gouv.fr/resources/donnees-de-laide-au-developpement-de-lafd-1/20231012-150605/fr-afd-ci.xml
-found 52 activities
+dflat: input XML file does not exist
+restored 52 files
 
 Downloading afd-cm from https://static.data.gouv.fr/resources/donnees-de-laide-au-developpement-de-lafd-1/20231012-150714/fr-afd-cm.xml
 Parsing afd-cm from https://static.data.gouv.fr/resources/donnees-de-laide-au-developpement-de-lafd-1/20231012-150714/fr-afd-cm.xml
@@ -7248,9 +7260,8 @@ dflat: input XML file does not exist
 restored 0 files
 
 Downloading cif-889 from http://siteresources.worldbank.org/IATI/CIF/CIF-889.xml
-curl: download ERROR 404
 Parsing cif-889 from http://siteresources.worldbank.org/IATI/CIF/CIF-889.xml
-dflat: input XML file does not exist
+dflat: invalid XML format
 restored 0 files
 
 Downloading cif-998 from http://siteresources.worldbank.org/IATI/CIF/CIF-998.xml
@@ -17167,11 +17178,11 @@ found 1 organisations
 
 Downloading globalgiving-activity from http://www.globalgiving.org/iati/activities.xml
 Parsing globalgiving-activity from http://www.globalgiving.org/iati/activities.xml
-found 27002 activities
+found 27005 activities
 
 Downloading globalgiving-org from http://www.globalgiving.org/iati/organisations.xml
 Parsing globalgiving-org from http://www.globalgiving.org/iati/organisations.xml
-found 15240 organisations
+found 15241 organisations
 
 Downloading globalshea-activities from https://iatipublisher-prod.s3.amazonaws.com/xml/mergedActivityXml/globalshea-activities.xml
 Parsing globalshea-activities from https://iatipublisher-prod.s3.amazonaws.com/xml/mergedActivityXml/globalshea-activities.xml
@@ -19485,7 +19496,7 @@ found 32 activities
 
 Downloading ifcwbg-cn from https://disclosures.ifc.org/iati/ifc-cn.xml
 Parsing ifcwbg-cn from https://disclosures.ifc.org/iati/ifc-cn.xml
-found 293 activities
+found 294 activities
 
 Downloading ifcwbg-co from https://disclosures.ifc.org/iati/ifc-co.xml
 Parsing ifcwbg-co from https://disclosures.ifc.org/iati/ifc-co.xml
