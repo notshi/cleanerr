@@ -7456,8 +7456,9 @@ Parsing cidr-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/ci
 found 1 activities
 
 Downloading cif-389 from http://siteresources.worldbank.org/IATI/CIF/CIF-389.xml
+curl: download ERROR 404
 Parsing cif-389 from http://siteresources.worldbank.org/IATI/CIF/CIF-389.xml
-dflat: invalid XML format
+dflat: input XML file does not exist
 restored 0 files
 
 Downloading cif-889 from http://siteresources.worldbank.org/IATI/CIF/CIF-889.xml
@@ -7504,8 +7505,9 @@ Parsing cif-br from http://doumodqax2qi2.cloudfront.net/CIF/CIF-05-2020/CIF-BR.x
 found 11 activities
 
 Downloading cif-cd from http://siteresources.worldbank.org/IATI/CIF/CIF-CD.xml
+curl: download ERROR 404
 Parsing cif-cd from http://siteresources.worldbank.org/IATI/CIF/CIF-CD.xml
-dflat: invalid XML format
+dflat: input XML file does not exist
 restored 0 files
 
 Downloading cif-ci from http://doumodqax2qi2.cloudfront.net/CIF/CIF-05-2020/CIF-CI.xml
@@ -8594,8 +8596,10 @@ Parsing dangbo-org from https://rsr.akvo.org/organisation/4646/iati-org/
 found 1 organisations
 
 Downloading danida-all_1 from http://iati.um.dk/api/v2/files/iati1.xml
+curl: download ERROR 404
 Parsing danida-all_1 from http://iati.um.dk/api/v2/files/iati1.xml
-found 2618 activities
+dflat: input XML file does not exist
+restored 2618 files
 
 Downloading danida-all_2 from http://iati.um.dk/api/v2/files/iati2.xml
 Parsing danida-all_2 from http://iati.um.dk/api/v2/files/iati2.xml
@@ -17522,7 +17526,7 @@ found 1 activities
 
 Downloading giz-act from https://www.giz.de/projektdaten/downloadIATIAct
 Parsing giz-act from https://www.giz.de/projektdaten/downloadIATIAct
-found 41 activities
+found 43 activities
 
 Downloading giz-org from https://www.giz.de/projektdaten/downloadIATIOrg
 Parsing giz-org from https://www.giz.de/projektdaten/downloadIATIOrg
@@ -18991,7 +18995,7 @@ found 1 organisations
 
 Downloading idbinvest-projects from https://idbinvest.org/sites/default/files/iati_publish_projects.xml
 Parsing idbinvest-projects from https://idbinvest.org/sites/default/files/iati_publish_projects.xml
-found 614 activities
+found 616 activities
 
 Downloading idea-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/idea-activities.xml
 Parsing idea-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/idea-activities.xml
@@ -19271,7 +19275,7 @@ found 12 activities
 
 Downloading ifad-activitity-cn from https://webapps.ifad.org/iati/ifad_cn_activities.xml
 Parsing ifad-activitity-cn from https://webapps.ifad.org/iati/ifad_cn_activities.xml
-found 34 activities
+found 35 activities
 
 Downloading ifad-activitity-co from https://webapps.ifad.org/iati/ifad_co_activities.xml
 Parsing ifad-activitity-co from https://webapps.ifad.org/iati/ifad_co_activities.xml
@@ -22281,7 +22285,7 @@ found 2 activities
 
 Downloading ksrelief291-ye from https://aidstream.s3.us-west-2.amazonaws.com/xml/ksrelief291-ye.xml
 Parsing ksrelief291-ye from https://aidstream.s3.us-west-2.amazonaws.com/xml/ksrelief291-ye.xml
-found 347 activities
+found 349 activities
 
 Downloading ksrelief291-za from https://aidstream.s3.us-west-2.amazonaws.com/xml/ksrelief291-za.xml
 Parsing ksrelief291-za from https://aidstream.s3.us-west-2.amazonaws.com/xml/ksrelief291-za.xml
