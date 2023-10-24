@@ -3324,8 +3324,10 @@ Parsing art19-sn from https://aidstream.s3.us-west-2.amazonaws.com/xml/art19-sn.
 found 1 activities
 
 Downloading asdap-activity2 from https://rsr.akvo.org/organisation/5844/iati/
+curl: download ERROR 502
 Parsing asdap-activity2 from https://rsr.akvo.org/organisation/5844/iati/
-found 1 activities
+dflat: input XML file does not exist
+restored 1 files
 
 Downloading asdap-activity from https://rsr.akvo.org/organisation/5844/iati/
 Parsing asdap-activity from https://rsr.akvo.org/organisation/5844/iati/
@@ -7155,6 +7157,10 @@ Downloading cec-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/cec-or
 Parsing cec-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/cec-org.xml
 found 1 organisations
 
+Downloading cec-programme-2022 from http://diplomatie.be/oda/IATI_act_pr2022-26_CEC_4074.xml
+Parsing cec-programme-2022 from http://diplomatie.be/oda/IATI_act_pr2022-26_CEC_4074.xml
+found 3 activities
+
 Downloading ced-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/ced-org.xml
 Parsing ced-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/ced-org.xml
 found 1 organisations
@@ -7197,7 +7203,7 @@ found 1 organisations
 
 Downloading cerf-contributionstodate from https://cerfgms-webapi.unocha.org/v1/iati/donorcontribution.xml
 Parsing cerf-contributionstodate from https://cerfgms-webapi.unocha.org/v1/iati/donorcontribution.xml
-found 1538 activities
+found 1539 activities
 
 Downloading cerf-organization from https://cerfgms-webapi.unocha.org/v1/iati/organizations.xml
 Parsing cerf-organization from https://cerfgms-webapi.unocha.org/v1/iati/organizations.xml
@@ -7456,14 +7462,14 @@ Parsing cidr-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/ci
 found 1 activities
 
 Downloading cif-389 from http://siteresources.worldbank.org/IATI/CIF/CIF-389.xml
-curl: download ERROR 404
 Parsing cif-389 from http://siteresources.worldbank.org/IATI/CIF/CIF-389.xml
-dflat: input XML file does not exist
+dflat: invalid XML format
 restored 0 files
 
 Downloading cif-889 from http://siteresources.worldbank.org/IATI/CIF/CIF-889.xml
+curl: download ERROR 404
 Parsing cif-889 from http://siteresources.worldbank.org/IATI/CIF/CIF-889.xml
-dflat: invalid XML format
+dflat: input XML file does not exist
 restored 0 files
 
 Downloading cif-998 from http://siteresources.worldbank.org/IATI/CIF/CIF-998.xml
@@ -7505,9 +7511,8 @@ Parsing cif-br from http://doumodqax2qi2.cloudfront.net/CIF/CIF-05-2020/CIF-BR.x
 found 11 activities
 
 Downloading cif-cd from http://siteresources.worldbank.org/IATI/CIF/CIF-CD.xml
-curl: download ERROR 404
 Parsing cif-cd from http://siteresources.worldbank.org/IATI/CIF/CIF-CD.xml
-dflat: input XML file does not exist
+dflat: invalid XML format
 restored 0 files
 
 Downloading cif-ci from http://doumodqax2qi2.cloudfront.net/CIF/CIF-05-2020/CIF-CI.xml
@@ -8192,6 +8197,10 @@ Downloading concordis-activities from https://aidstream.s3.us-west-2.amazonaws.c
 Parsing concordis-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/concordis-activities.xml
 found 2 activities
 
+Downloading conexionla-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/conexionla-org.xml
+Parsing conexionla-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/conexionla-org.xml
+found 1 organisations
+
 Downloading congodorpen-998 from https://aidstream.s3.us-west-2.amazonaws.com/xml/congodorpen-998.xml
 Parsing congodorpen-998 from https://aidstream.s3.us-west-2.amazonaws.com/xml/congodorpen-998.xml
 found 1 activities
@@ -8596,20 +8605,16 @@ Parsing dangbo-org from https://rsr.akvo.org/organisation/4646/iati-org/
 found 1 organisations
 
 Downloading danida-all_1 from http://iati.um.dk/api/v2/files/iati1.xml
-curl: download ERROR 404
 Parsing danida-all_1 from http://iati.um.dk/api/v2/files/iati1.xml
-dflat: input XML file does not exist
-restored 2618 files
+found 2618 activities
 
 Downloading danida-all_2 from http://iati.um.dk/api/v2/files/iati2.xml
 Parsing danida-all_2 from http://iati.um.dk/api/v2/files/iati2.xml
 found 2618 activities
 
 Downloading danida-all_3 from http://iati.um.dk/api/v2/files/iati3.xml
-curl: download ERROR 404
 Parsing danida-all_3 from http://iati.um.dk/api/v2/files/iati3.xml
-dflat: input XML file does not exist
-restored 2618 files
+found 2618 activities
 
 Downloading danida-all_4 from http://iati.um.dk/api/v2/files/iati4.xml
 Parsing danida-all_4 from http://iati.um.dk/api/v2/files/iati4.xml
@@ -8678,7 +8683,7 @@ found 4 activities
 
 Downloading dca-activities from https://iatipublisher-prod.s3.amazonaws.com/xml/mergedActivityXml/dca-activities.xml
 Parsing dca-activities from https://iatipublisher-prod.s3.amazonaws.com/xml/mergedActivityXml/dca-activities.xml
-found 753 activities
+found 756 activities
 
 Downloading dc-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/dc-activities.xml
 Parsing dc-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/dc-activities.xml
@@ -12187,6 +12192,10 @@ Downloading dwp-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml
 Parsing dwp-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/dwp-activities.xml
 found 3 activities
 
+Downloading dynamo_international-2022-2026-org from http://diplomatie.be/oda/IATI_act_pr2022-26_DYNAMO_4062.xml
+Parsing dynamo_international-2022-2026-org from http://diplomatie.be/oda/IATI_act_pr2022-26_DYNAMO_4062.xml
+found 4 activities
+
 Downloading dynamo_international-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/dynamo_international-activities.xml
 Parsing dynamo_international-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/dynamo_international-activities.xml
 found 3 activities
@@ -13622,6 +13631,10 @@ found 770 activities
 Downloading ec-intpa-zw from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_ZW.xml
 Parsing ec-intpa-zw from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_ZW.xml
 found 692 activities
+
+Downloading eclosio-0432503697 from http://diplomatie.be/oda/IATI_act_pr2022-26_Eclosio_4059.xml
+Parsing eclosio-0432503697 from http://diplomatie.be/oda/IATI_act_pr2022-26_Eclosio_4059.xml
+found 9 activities
 
 Downloading eclosio-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/eclosio-activities.xml
 Parsing eclosio-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/eclosio-activities.xml
@@ -16571,6 +16584,10 @@ Downloading ftm-291333-org from https://aidstream.s3.us-west-2.amazonaws.com/xml
 Parsing ftm-291333-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/ftm-291333-org.xml
 found 1 organisations
 
+Downloading fucid-0416934803 from http://diplomatie.be/oda/IATI_act_pr2022-26_FUCID_4052.xml
+Parsing fucid-0416934803 from http://diplomatie.be/oda/IATI_act_pr2022-26_FUCID_4052.xml
+found 3 activities
+
 Downloading fucid-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/fucid-activities.xml
 Parsing fucid-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/fucid-activities.xml
 found 6 activities
@@ -17417,8 +17434,10 @@ Parsing gen-org from https://iati.nimd.org/Documents%20PoD_L4P/consortium%20part
 found 1 organisations
 
 Downloading geomoun-89 from https://aidstream.s3.us-west-2.amazonaws.com/xml/geomoun-89.xml
+curl: download ERROR 000
 Parsing geomoun-89 from https://aidstream.s3.us-west-2.amazonaws.com/xml/geomoun-89.xml
-found 1 activities
+dflat: input XML file does not exist
+restored 1 files
 
 Downloading geomoun-998 from https://aidstream.s3.us-west-2.amazonaws.com/xml/geomoun-998.xml
 Parsing geomoun-998 from https://aidstream.s3.us-west-2.amazonaws.com/xml/geomoun-998.xml
@@ -21185,6 +21204,10 @@ Converting IATI organisations version 1.03 to version 2.03
 Parsing ip-india-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/ip-india-org.xml
 found 1 organisations
 
+Downloading ipis-programma2022 from http://diplomatie.be/oda/IATI_act_pr2022-26_IPIS_4047.xml
+Parsing ipis-programma2022 from http://diplomatie.be/oda/IATI_act_pr2022-26_IPIS_4047.xml
+found 4 activities
+
 Downloading ippf-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/ippf-activities.xml
 Parsing ippf-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/ippf-activities.xml
 found 40 activities
@@ -21948,8 +21971,10 @@ Parsing kpomasse-act1 from https://rsr.akvo.org/organisation/4651/iati/
 found 4 activities
 
 Downloading kpomasse-org from https://rsr.akvo.org/organisation/4651/iati-org/
+curl: download ERROR 502
 Parsing kpomasse-org from https://rsr.akvo.org/organisation/4651/iati-org/
-found 1 organisations
+dflat: input XML file does not exist
+restored 1 files
 
 Downloading kse-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/kse-activities.xml
 Parsing kse-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/kse-activities.xml
@@ -22025,7 +22050,7 @@ found 7 activities
 
 Downloading ksrelief291-bg from https://aidstream.s3.us-west-2.amazonaws.com/xml/ksrelief291-bg.xml
 Parsing ksrelief291-bg from https://aidstream.s3.us-west-2.amazonaws.com/xml/ksrelief291-bg.xml
-found 1 activities
+found 2 activities
 
 Downloading ksrelief291-bj from https://aidstream.s3.us-west-2.amazonaws.com/xml/ksrelief291-bj.xml
 Parsing ksrelief291-bj from https://aidstream.s3.us-west-2.amazonaws.com/xml/ksrelief291-bj.xml
@@ -22205,7 +22230,7 @@ found 5 activities
 
 Downloading ksrelief291-pk from https://aidstream.s3.us-west-2.amazonaws.com/xml/ksrelief291-pk.xml
 Parsing ksrelief291-pk from https://aidstream.s3.us-west-2.amazonaws.com/xml/ksrelief291-pk.xml
-found 36 activities
+found 37 activities
 
 Downloading ksrelief291-ps from https://aidstream.s3.us-west-2.amazonaws.com/xml/ksrelief291-ps.xml
 Parsing ksrelief291-ps from https://aidstream.s3.us-west-2.amazonaws.com/xml/ksrelief291-ps.xml
@@ -22233,7 +22258,7 @@ found 38 activities
 
 Downloading ksrelief291-sy from https://aidstream.s3.us-west-2.amazonaws.com/xml/ksrelief291-sy.xml
 Parsing ksrelief291-sy from https://aidstream.s3.us-west-2.amazonaws.com/xml/ksrelief291-sy.xml
-found 38 activities
+found 39 activities
 
 Downloading ksrelief291-td from https://aidstream.s3.us-west-2.amazonaws.com/xml/ksrelief291-td.xml
 Parsing ksrelief291-td from https://aidstream.s3.us-west-2.amazonaws.com/xml/ksrelief291-td.xml
@@ -22358,7 +22383,7 @@ found 1 activities
 
 Downloading larive-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/larive-activities.xml
 Parsing larive-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/larive-activities.xml
-found 20 activities
+found 11 activities
 
 Downloading larive-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/larive-org.xml
 Parsing larive-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/larive-org.xml
@@ -24408,6 +24433,10 @@ Downloading medecins-998 from https://aidstream.s3.us-west-2.amazonaws.com/xml/m
 Parsing medecins-998 from https://aidstream.s3.us-west-2.amazonaws.com/xml/medecins-998.xml
 found 1 activities
 
+Downloading medecins-activityreport from http://diplomatie.be/oda/IATI_act_pr2022-26_MdM-DvW_4063.xml
+Parsing medecins-activityreport from http://diplomatie.be/oda/IATI_act_pr2022-26_MdM-DvW_4063.xml
+found 10 activities
+
 Downloading medecins-be from https://aidstream.s3.us-west-2.amazonaws.com/xml/medecins-be.xml
 Parsing medecins-be from https://aidstream.s3.us-west-2.amazonaws.com/xml/medecins-be.xml
 found 1 activities
@@ -24445,8 +24474,10 @@ Parsing mefbenin-act from https://rsr.akvo.org/organisation/4132/iati/
 found 2 activities
 
 Downloading mefbenin-org from https://rsr.akvo.org/organisation/4132/iati-org/
+curl: download ERROR 502
 Parsing mefbenin-org from https://rsr.akvo.org/organisation/4132/iati-org/
-found 1 organisations
+dflat: input XML file does not exist
+restored 1 files
 
 Downloading memisa-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/memisa-activities.xml
 Parsing memisa-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/memisa-activities.xml
@@ -27377,8 +27408,10 @@ Parsing plama-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/plama-or
 found 1 organisations
 
 Downloading planinternationalfinland-301115 from http://rsr.akvo.org/media/db/org/2555/iati/20151130-101449.xml
+curl: download ERROR 502
 Parsing planinternationalfinland-301115 from http://rsr.akvo.org/media/db/org/2555/iati/20151130-101449.xml
-found 25 activities
+dflat: input XML file does not exist
+restored 25 files
 
 Downloading plan_ireland-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/plan_ireland-activities.xml
 Converting IATI activities version 1.03 to version 2.03
@@ -28481,7 +28514,7 @@ found 1 organisations
 
 Downloading rvo-01 from https://projects.rvo.nl/opendata/iati.xml
 Parsing rvo-01 from https://projects.rvo.nl/opendata/iati.xml
-found 4394 activities
+found 4397 activities
 
 Downloading rvo-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/rvo-activities.xml
 Parsing rvo-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/rvo-activities.xml
@@ -29105,7 +29138,7 @@ found 1 activities
 
 Downloading sida-1027 from https://iati.openaid.se/xml/1027.xml
 Parsing sida-1027 from https://iati.openaid.se/xml/1027.xml
-found 1054 activities
+found 1055 activities
 
 Downloading sida-1028 from https://iati.openaid.se/xml/1028.xml
 Parsing sida-1028 from https://iati.openaid.se/xml/1028.xml
@@ -29121,7 +29154,7 @@ found 437 activities
 
 Downloading sida-1031 from http://iati.openaid.se/xml/1031.xml
 Parsing sida-1031 from http://iati.openaid.se/xml/1031.xml
-found 59 activities
+found 60 activities
 
 Downloading sida-1032 from http://iati.openaid.se/xml/1032.xml
 Parsing sida-1032 from http://iati.openaid.se/xml/1032.xml
@@ -29145,15 +29178,15 @@ found 132 activities
 
 Downloading sida-289 from http://iati.openaid.se/xml/289.xml
 Parsing sida-289 from http://iati.openaid.se/xml/289.xml
-found 924 activities
+found 926 activities
 
 Downloading sida-298 from http://iati.openaid.se/xml/298.xml
 Parsing sida-298 from http://iati.openaid.se/xml/298.xml
-found 1981 activities
+found 1982 activities
 
 Downloading sida-389 from http://iati.openaid.se/xml/389.xml
 Parsing sida-389 from http://iati.openaid.se/xml/389.xml
-found 11 activities
+found 12 activities
 
 Downloading sida-489 from http://iati.openaid.se/xml/489.xml
 Parsing sida-489 from http://iati.openaid.se/xml/489.xml
@@ -29161,31 +29194,31 @@ found 307 activities
 
 Downloading sida-498 from http://iati.openaid.se/xml/498.xml
 Parsing sida-498 from http://iati.openaid.se/xml/498.xml
-found 510 activities
+found 511 activities
 
 Downloading sida-589 from http://iati.openaid.se/xml/589.xml
 Parsing sida-589 from http://iati.openaid.se/xml/589.xml
-found 781 activities
+found 786 activities
 
 Downloading sida-619 from http://iati.openaid.se/xml/619.xml
 Parsing sida-619 from http://iati.openaid.se/xml/619.xml
-found 358 activities
+found 359 activities
 
 Downloading sida-679 from http://iati.openaid.se/xml/679.xml
 Parsing sida-679 from http://iati.openaid.se/xml/679.xml
-found 262 activities
+found 266 activities
 
 Downloading sida-689 from http://iati.openaid.se/xml/689.xml
 Parsing sida-689 from http://iati.openaid.se/xml/689.xml
-found 10 activities
+found 11 activities
 
 Downloading sida-789 from http://iati.openaid.se/xml/789.xml
 Parsing sida-789 from http://iati.openaid.se/xml/789.xml
-found 38 activities
+found 40 activities
 
 Downloading sida-798 from http://iati.openaid.se/xml/798.xml
 Parsing sida-798 from http://iati.openaid.se/xml/798.xml
-found 1432 activities
+found 1433 activities
 
 Downloading sida-889 from http://iati.openaid.se/xml/889.xml
 Parsing sida-889 from http://iati.openaid.se/xml/889.xml
@@ -29197,31 +29230,31 @@ found 6 activities
 
 Downloading sida-89 from http://iati.openaid.se/xml/89.xml
 Parsing sida-89 from http://iati.openaid.se/xml/89.xml
-found 1371 activities
+found 1373 activities
 
 Downloading sida-998a from http://iati.openaid.se/xml/998a.xml
 Parsing sida-998a from http://iati.openaid.se/xml/998a.xml
-found 5119 activities
+found 5122 activities
 
 Downloading sida-998b from http://iati.openaid.se/xml/998b.xml
 Parsing sida-998b from http://iati.openaid.se/xml/998b.xml
-found 4504 activities
+found 4506 activities
 
 Downloading sida-998c from http://iati.openaid.se/xml/998c.xml
 Parsing sida-998c from http://iati.openaid.se/xml/998c.xml
-found 4352 activities
+found 4356 activities
 
 Downloading sida-998d from https://iati.openaid.se/xml/998d.xml
 Parsing sida-998d from https://iati.openaid.se/xml/998d.xml
-found 3074 activities
+found 3072 activities
 
 Downloading sida-998e from http://iati.openaid.se/xml/998e.xml
 Parsing sida-998e from http://iati.openaid.se/xml/998e.xml
-found 3318 activities
+found 3321 activities
 
 Downloading sida-af from http://iati.openaid.se/xml/AF.xml
 Parsing sida-af from http://iati.openaid.se/xml/AF.xml
-found 896 activities
+found 898 activities
 
 Downloading sida-ag from https://iati.openaid.se/xml/AG.xml
 Parsing sida-ag from https://iati.openaid.se/xml/AG.xml
@@ -29229,7 +29262,7 @@ found 1 activities
 
 Downloading sida-al from http://iati.openaid.se/xml/AL.xml
 Parsing sida-al from http://iati.openaid.se/xml/AL.xml
-found 681 activities
+found 682 activities
 
 Downloading sida-am from http://iati.openaid.se/xml/AM.xml
 Parsing sida-am from http://iati.openaid.se/xml/AM.xml
@@ -29245,7 +29278,7 @@ found 160 activities
 
 Downloading sida-az from http://iati.openaid.se/xml/AZ.xml
 Parsing sida-az from http://iati.openaid.se/xml/AZ.xml
-found 138 activities
+found 139 activities
 
 Downloading sida-ba from http://iati.openaid.se/xml/BA.xml
 Parsing sida-ba from http://iati.openaid.se/xml/BA.xml
@@ -29253,11 +29286,11 @@ found 1305 activities
 
 Downloading sida-bd from http://iati.openaid.se/xml/BD.xml
 Parsing sida-bd from http://iati.openaid.se/xml/BD.xml
-found 1529 activities
+found 1531 activities
 
 Downloading sida-bf from http://iati.openaid.se/xml/BF.xml
 Parsing sida-bf from http://iati.openaid.se/xml/BF.xml
-found 776 activities
+found 777 activities
 
 Downloading sida-bg from http://iati.openaid.se/xml/BG.xml
 Parsing sida-bg from http://iati.openaid.se/xml/BG.xml
@@ -29273,7 +29306,7 @@ found 156 activities
 
 Downloading sida-bo from http://iati.openaid.se/xml/BO.xml
 Parsing sida-bo from http://iati.openaid.se/xml/BO.xml
-found 1439 activities
+found 1438 activities
 
 Downloading sida-br from http://iati.openaid.se/xml/BR.xml
 Parsing sida-br from http://iati.openaid.se/xml/BR.xml
@@ -29285,7 +29318,7 @@ found 49 activities
 
 Downloading sida-bw from http://iati.openaid.se/xml/BW.xml
 Parsing sida-bw from http://iati.openaid.se/xml/BW.xml
-found 272 activities
+found 273 activities
 
 Downloading sida-by from http://iati.openaid.se/xml/BY.xml
 Parsing sida-by from http://iati.openaid.se/xml/BY.xml
@@ -29317,7 +29350,7 @@ found 228 activities
 
 Downloading sida-cm from http://iati.openaid.se/xml/CM.xml
 Parsing sida-cm from http://iati.openaid.se/xml/CM.xml
-found 255 activities
+found 256 activities
 
 Downloading sida-cn from http://iati.openaid.se/xml/CN.xml
 Parsing sida-cn from http://iati.openaid.se/xml/CN.xml
@@ -29325,11 +29358,11 @@ found 755 activities
 
 Downloading sida-co from http://iati.openaid.se/xml/CO.xml
 Parsing sida-co from http://iati.openaid.se/xml/CO.xml
-found 1200 activities
+found 1201 activities
 
 Downloading sida-cr from http://iati.openaid.se/xml/CR.xml
 Parsing sida-cr from http://iati.openaid.se/xml/CR.xml
-found 304 activities
+found 303 activities
 
 Downloading sida-cu from http://iati.openaid.se/xml/CU.xml
 Parsing sida-cu from http://iati.openaid.se/xml/CU.xml
@@ -29413,7 +29446,7 @@ found 3 activities
 
 Downloading sida-gt from http://iati.openaid.se/xml/GT.xml
 Parsing sida-gt from http://iati.openaid.se/xml/GT.xml
-found 1210 activities
+found 1211 activities
 
 Downloading sida-gw from http://iati.openaid.se/xml/GW.xml
 Parsing sida-gw from http://iati.openaid.se/xml/GW.xml
@@ -29429,7 +29462,7 @@ found 3 activities
 
 Downloading sida-hn from http://iati.openaid.se/xml/HN.xml
 Parsing sida-hn from http://iati.openaid.se/xml/HN.xml
-found 794 activities
+found 796 activities
 
 Downloading sida-hr from http://iati.openaid.se/xml/HR.xml
 Parsing sida-hr from http://iati.openaid.se/xml/HR.xml
@@ -29445,7 +29478,7 @@ found 16 activities
 
 Downloading sida-id from http://iati.openaid.se/xml/ID.xml
 Parsing sida-id from http://iati.openaid.se/xml/ID.xml
-found 488 activities
+found 489 activities
 
 Downloading sida-il from http://iati.openaid.se/xml/IL.xml
 Parsing sida-il from http://iati.openaid.se/xml/IL.xml
@@ -29453,7 +29486,7 @@ found 2 activities
 
 Downloading sida-in from http://iati.openaid.se/xml/IN.xml
 Parsing sida-in from http://iati.openaid.se/xml/IN.xml
-found 1448 activities
+found 1450 activities
 
 Downloading sida-iq from http://iati.openaid.se/xml/IQ.xml
 Parsing sida-iq from http://iati.openaid.se/xml/IQ.xml
@@ -29469,11 +29502,11 @@ found 30 activities
 
 Downloading sida-jo from http://iati.openaid.se/xml/JO.xml
 Parsing sida-jo from http://iati.openaid.se/xml/JO.xml
-found 325 activities
+found 326 activities
 
 Downloading sida-ke from http://iati.openaid.se/xml/KE.xml
 Parsing sida-ke from http://iati.openaid.se/xml/KE.xml
-found 2092 activities
+found 2096 activities
 
 Downloading sida-kg from http://iati.openaid.se/xml/KG.xml
 Parsing sida-kg from http://iati.openaid.se/xml/KG.xml
@@ -29481,7 +29514,7 @@ found 162 activities
 
 Downloading sida-kh from http://iati.openaid.se/xml/KH.xml
 Parsing sida-kh from http://iati.openaid.se/xml/KH.xml
-found 1118 activities
+found 1119 activities
 
 Downloading sida-ki from http://iati.openaid.se/xml/KI.xml
 Parsing sida-ki from http://iati.openaid.se/xml/KI.xml
@@ -29513,7 +29546,7 @@ found 587 activities
 
 Downloading sida-lb from http://iati.openaid.se/xml/LB.xml
 Parsing sida-lb from http://iati.openaid.se/xml/LB.xml
-found 513 activities
+found 515 activities
 
 Downloading sida-lk from http://iati.openaid.se/xml/LK.xml
 Parsing sida-lk from http://iati.openaid.se/xml/LK.xml
@@ -29541,7 +29574,7 @@ found 110 activities
 
 Downloading sida-ma from http://iati.openaid.se/xml/MA.xml
 Parsing sida-ma from http://iati.openaid.se/xml/MA.xml
-found 152 activities
+found 153 activities
 
 Downloading sida-md from http://iati.openaid.se/xml/MD.xml
 Parsing sida-md from http://iati.openaid.se/xml/MD.xml
@@ -29561,15 +29594,15 @@ found 1 activities
 
 Downloading sida-mk from http://iati.openaid.se/xml/MK.xml
 Parsing sida-mk from http://iati.openaid.se/xml/MK.xml
-found 570 activities
+found 571 activities
 
 Downloading sida-ml from http://iati.openaid.se/xml/ML.xml
 Parsing sida-ml from http://iati.openaid.se/xml/ML.xml
-found 884 activities
+found 885 activities
 
 Downloading sida-mm from http://iati.openaid.se/xml/MM.xml
 Parsing sida-mm from http://iati.openaid.se/xml/MM.xml
-found 616 activities
+found 617 activities
 
 Downloading sida-mn from http://iati.openaid.se/xml/MN.xml
 Parsing sida-mn from http://iati.openaid.se/xml/MN.xml
@@ -29589,11 +29622,11 @@ found 15 activities
 
 Downloading sida-mw from http://iati.openaid.se/xml/MW.xml
 Parsing sida-mw from http://iati.openaid.se/xml/MW.xml
-found 401 activities
+found 403 activities
 
 Downloading sida-mx from http://iati.openaid.se/xml/MX.xml
 Parsing sida-mx from http://iati.openaid.se/xml/MX.xml
-found 153 activities
+found 155 activities
 
 Downloading sida-my from http://iati.openaid.se/xml/MY.xml
 Parsing sida-my from http://iati.openaid.se/xml/MY.xml
@@ -29601,11 +29634,11 @@ found 112 activities
 
 Downloading sida-mz from http://iati.openaid.se/xml/MZ.xml
 Parsing sida-mz from http://iati.openaid.se/xml/MZ.xml
-found 2118 activities
+found 2120 activities
 
 Downloading sida-na from http://iati.openaid.se/xml/NA.xml
 Parsing sida-na from http://iati.openaid.se/xml/NA.xml
-found 760 activities
+found 761 activities
 
 Downloading sida-ne from http://iati.openaid.se/xml/NE.xml
 Parsing sida-ne from http://iati.openaid.se/xml/NE.xml
@@ -29621,7 +29654,7 @@ found 1358 activities
 
 Downloading sida-np from http://iati.openaid.se/xml/NP.xml
 Parsing sida-np from http://iati.openaid.se/xml/NP.xml
-found 534 activities
+found 535 activities
 
 Downloading sida-org from https://iati.openaid.se/other/sweden-organisation.xml
 Parsing sida-org from https://iati.openaid.se/other/sweden-organisation.xml
@@ -29633,7 +29666,7 @@ found 2 activities
 
 Downloading sida-pa from http://iati.openaid.se/xml/PA.xml
 Parsing sida-pa from http://iati.openaid.se/xml/PA.xml
-found 36 activities
+found 35 activities
 
 Downloading sida-pe from http://iati.openaid.se/xml/PE.xml
 Parsing sida-pe from http://iati.openaid.se/xml/PE.xml
@@ -29645,11 +29678,11 @@ found 65 activities
 
 Downloading sida-ph from http://iati.openaid.se/xml/PH.xml
 Parsing sida-ph from http://iati.openaid.se/xml/PH.xml
-found 677 activities
+found 678 activities
 
 Downloading sida-pk from http://iati.openaid.se/xml/PK.xml
 Parsing sida-pk from http://iati.openaid.se/xml/PK.xml
-found 616 activities
+found 617 activities
 
 Downloading sida-pl from http://iati.openaid.se/xml/PL.xml
 Parsing sida-pl from http://iati.openaid.se/xml/PL.xml
@@ -29657,7 +29690,7 @@ found 119 activities
 
 Downloading sida-ps from http://iati.openaid.se/xml/PS.xml
 Parsing sida-ps from http://iati.openaid.se/xml/PS.xml
-found 1606 activities
+found 1608 activities
 
 Downloading sida-py from http://iati.openaid.se/xml/PY.xml
 Parsing sida-py from http://iati.openaid.se/xml/PY.xml
@@ -29677,7 +29710,7 @@ found 749 activities
 
 Downloading sida-rw from http://iati.openaid.se/xml/RW.xml
 Parsing sida-rw from http://iati.openaid.se/xml/RW.xml
-found 873 activities
+found 874 activities
 
 Downloading sida-saintlucia from http://iati.openaid.se/xml/LC.xml
 Parsing sida-saintlucia from http://iati.openaid.se/xml/LC.xml
@@ -29693,7 +29726,7 @@ found 3 activities
 
 Downloading sida-sd from http://iati.openaid.se/xml/SD.xml
 Parsing sida-sd from http://iati.openaid.se/xml/SD.xml
-found 900 activities
+found 901 activities
 
 Downloading sida-si from http://iati.openaid.se/xml/SI.xml
 Parsing sida-si from http://iati.openaid.se/xml/SI.xml
@@ -29705,19 +29738,19 @@ found 12 activities
 
 Downloading sida-sl from http://iati.openaid.se/xml/SL.xml
 Parsing sida-sl from http://iati.openaid.se/xml/SL.xml
-found 282 activities
+found 283 activities
 
 Downloading sida-sn from http://iati.openaid.se/xml/SN.xml
 Parsing sida-sn from http://iati.openaid.se/xml/SN.xml
-found 250 activities
+found 251 activities
 
 Downloading sida-so from http://iati.openaid.se/xml/SO.xml
 Parsing sida-so from http://iati.openaid.se/xml/SO.xml
-found 880 activities
+found 881 activities
 
 Downloading sida-ss from http://iati.openaid.se/xml/SS.xml
 Parsing sida-ss from http://iati.openaid.se/xml/SS.xml
-found 358 activities
+found 359 activities
 
 Downloading sida-st from http://iati.openaid.se/xml/ST.xml
 Parsing sida-st from http://iati.openaid.se/xml/ST.xml
@@ -29725,11 +29758,11 @@ found 22 activities
 
 Downloading sida-sv from http://iati.openaid.se/xml/SV.xml
 Parsing sida-sv from http://iati.openaid.se/xml/SV.xml
-found 537 activities
+found 536 activities
 
 Downloading sida-sy from http://iati.openaid.se/xml/SY.xml
 Parsing sida-sy from http://iati.openaid.se/xml/SY.xml
-found 386 activities
+found 385 activities
 
 Downloading sida-sz from http://iati.openaid.se/xml/SZ.xml
 Parsing sida-sz from http://iati.openaid.se/xml/SZ.xml
@@ -29745,7 +29778,7 @@ found 314 activities
 
 Downloading sida-th from http://iati.openaid.se/xml/TH.xml
 Parsing sida-th from http://iati.openaid.se/xml/TH.xml
-found 580 activities
+found 581 activities
 
 Downloading sida-tj from http://iati.openaid.se/xml/TJ.xml
 Parsing sida-tj from http://iati.openaid.se/xml/TJ.xml
@@ -29753,7 +29786,7 @@ found 171 activities
 
 Downloading sida-tl from http://iati.openaid.se/xml/TL.xml
 Parsing sida-tl from http://iati.openaid.se/xml/TL.xml
-found 158 activities
+found 159 activities
 
 Downloading sida-tm from http://iati.openaid.se/xml/TM.xml
 Parsing sida-tm from http://iati.openaid.se/xml/TM.xml
@@ -29769,7 +29802,7 @@ found 3 activities
 
 Downloading sida-tr from http://iati.openaid.se/xml/TR.xml
 Parsing sida-tr from http://iati.openaid.se/xml/TR.xml
-found 726 activities
+found 727 activities
 
 Downloading sida-tw from http://iati.openaid.se/xml/TW.xml
 Parsing sida-tw from http://iati.openaid.se/xml/TW.xml
@@ -29777,15 +29810,15 @@ found 1 activities
 
 Downloading sida-tz from http://iati.openaid.se/xml/TZ.xml
 Parsing sida-tz from http://iati.openaid.se/xml/TZ.xml
-found 2806 activities
+found 2807 activities
 
 Downloading sida-ua from http://iati.openaid.se/xml/UA.xml
 Parsing sida-ua from http://iati.openaid.se/xml/UA.xml
-found 1108 activities
+found 1113 activities
 
 Downloading sida-ug from http://iati.openaid.se/xml/UG.xml
 Parsing sida-ug from http://iati.openaid.se/xml/UG.xml
-found 1864 activities
+found 1867 activities
 
 Downloading sida-uy from http://iati.openaid.se/xml/UY.xml
 Parsing sida-uy from http://iati.openaid.se/xml/UY.xml
@@ -29813,7 +29846,7 @@ found 15 activities
 
 Downloading sida-xk from http://iati.openaid.se/xml/XK.xml
 Parsing sida-xk from http://iati.openaid.se/xml/XK.xml
-found 850 activities
+found 851 activities
 
 Downloading sida-ye from http://iati.openaid.se/xml/YE.xml
 Parsing sida-ye from http://iati.openaid.se/xml/YE.xml
@@ -29821,15 +29854,15 @@ found 367 activities
 
 Downloading sida-za from http://iati.openaid.se/xml/ZA.xml
 Parsing sida-za from http://iati.openaid.se/xml/ZA.xml
-found 2014 activities
+found 2015 activities
 
 Downloading sida-zm from http://iati.openaid.se/xml/ZM.xml
 Parsing sida-zm from http://iati.openaid.se/xml/ZM.xml
-found 1621 activities
+found 1622 activities
 
 Downloading sida-zw from http://iati.openaid.se/xml/ZW.xml
 Parsing sida-zw from http://iati.openaid.se/xml/ZW.xml
-found 1821 activities
+found 1823 activities
 
 Downloading signal-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/signal-activities.xml
 Parsing signal-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/signal-activities.xml
@@ -30221,8 +30254,10 @@ Parsing somo-org from https://iati.online/IATI_NL-KVK-41223308-organisation.xml
 found 1 organisations
 
 Downloading soneb-benin-act from https://rsr.akvo.org/organisation/4133/iati/
+curl: download ERROR 502
 Parsing soneb-benin-act from https://rsr.akvo.org/organisation/4133/iati/
-found 2 activities
+dflat: input XML file does not exist
+restored 2 files
 
 Downloading soneb-benin-org from https://rsr.akvo.org/organisation/4133/iati-org/
 Parsing soneb-benin-org from https://rsr.akvo.org/organisation/4133/iati-org/
@@ -33277,6 +33312,10 @@ found 2 organisations
 Downloading ul-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/ul-activities.xml
 Parsing ul-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/ul-activities.xml
 found 1 activities
+
+Downloading ulbcoop-0415627875 from http://diplomatie.be/oda/IATI_act_pr2022-26_ULB-coop_4073.xml
+Parsing ulbcoop-0415627875 from http://diplomatie.be/oda/IATI_act_pr2022-26_ULB-coop_4073.xml
+found 9 activities
 
 Downloading ulbcoop-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/ulbcoop-activities.xml
 Parsing ulbcoop-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/ulbcoop-activities.xml
@@ -37700,7 +37739,7 @@ found 18 activities
 
 Downloading unocha-cbpf-opt-contribution-2023 from https://cbpfapi.unocha.org/iati/iati/67/2023/GetContribution.xml
 Parsing unocha-cbpf-opt-contribution-2023 from https://cbpfapi.unocha.org/iati/iati/67/2023/GetContribution.xml
-found 11 activities
+found 12 activities
 
 Downloading unocha-cbpf-opt-contribution-2024 from https://cbpfapi.unocha.org/iati/iati/67/2024/GetContribution.xml
 Parsing unocha-cbpf-opt-contribution-2024 from https://cbpfapi.unocha.org/iati/iati/67/2024/GetContribution.xml
@@ -38204,7 +38243,7 @@ found 68 activities
 
 Downloading unocha-cbpf-syria-allocation-2023 from https://cbpfapi.unocha.org/iati/iati/62/2023/GetAllocation.xml
 Parsing unocha-cbpf-syria-allocation-2023 from https://cbpfapi.unocha.org/iati/iati/62/2023/GetAllocation.xml
-found 55 activities
+found 56 activities
 
 Downloading unocha-cbpf-syria-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/62/2024/GetAllocation.xml
 Parsing unocha-cbpf-syria-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/62/2024/GetAllocation.xml
@@ -43214,8 +43253,10 @@ Parsing wemos-makeway from https://rsr.akvo.org/organisation/6002/iati/
 found 8 activities
 
 Downloading wemos-org from https://rsr.akvo.org/organisation/6002/iati-org/
+curl: download ERROR 502
 Parsing wemos-org from https://rsr.akvo.org/organisation/6002/iati-org/
-found 1 organisations
+dflat: input XML file does not exist
+restored 1 files
 
 Downloading wep-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/wep-activities.xml
 Parsing wep-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/wep-activities.xml
