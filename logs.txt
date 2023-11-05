@@ -7151,9 +7151,8 @@ dflat: invalid XML format
 restored 0 files
 
 Downloading cif-998 from http://siteresources.worldbank.org/IATI/CIF/CIF-998.xml
-curl: download ERROR 404
 Parsing cif-998 from http://siteresources.worldbank.org/IATI/CIF/CIF-998.xml
-dflat: input XML file does not exist
+dflat: invalid XML format
 restored 0 files
 
 Downloading c_i_f-activities from https://iatipublisher-prod.s3.amazonaws.com/xml/mergedActivityXml/c_i_f-activities.xml
@@ -7190,8 +7189,9 @@ Parsing cif-br from http://doumodqax2qi2.cloudfront.net/CIF/CIF-05-2020/CIF-BR.x
 found 11 activities
 
 Downloading cif-cd from http://siteresources.worldbank.org/IATI/CIF/CIF-CD.xml
+curl: download ERROR 404
 Parsing cif-cd from http://siteresources.worldbank.org/IATI/CIF/CIF-CD.xml
-dflat: invalid XML format
+dflat: input XML file does not exist
 restored 0 files
 
 Downloading cif-ci from http://doumodqax2qi2.cloudfront.net/CIF/CIF-05-2020/CIF-CI.xml
@@ -7383,9 +7383,8 @@ Parsing cif-ws from http://doumodqax2qi2.cloudfront.net/CIF/CIF-05-2020/CIF-WS.x
 found 2 activities
 
 Downloading cif-ye from http://siteresources.worldbank.org/IATI/CIF/CIF-YE.xml
-curl: download ERROR 404
 Parsing cif-ye from http://siteresources.worldbank.org/IATI/CIF/CIF-YE.xml
-dflat: input XML file does not exist
+dflat: invalid XML format
 restored 0 files
 
 Downloading cif-za from http://doumodqax2qi2.cloudfront.net/CIF/CIF-05-2020/CIF-ZA.xml
@@ -16392,11 +16391,11 @@ found 1 organisations
 
 Downloading gac-amc-act_2_3 from http://w05.international.gc.ca/projectbrowser-banqueprojets/iita-iati/dfatd-maecd_activit_status_2_3.xml
 Parsing gac-amc-act_2_3 from http://w05.international.gc.ca/projectbrowser-banqueprojets/iita-iati/dfatd-maecd_activit_status_2_3.xml
-found 1920 activities
+found 1923 activities
 
 Downloading gac-amc-act_4 from http://w05.international.gc.ca/projectbrowser-banqueprojets/iita-iati/dfatd-maecd_activit_status_4.xml
 Parsing gac-amc-act_4 from http://w05.international.gc.ca/projectbrowser-banqueprojets/iita-iati/dfatd-maecd_activit_status_4.xml
-found 4529 activities
+found 4532 activities
 
 Downloading gac-amc-org from http://w05.international.gc.ca/projectbrowser-banqueprojets/iita-iati/dfatd-maecd_organisation.xml
 Parsing gac-amc-org from http://w05.international.gc.ca/projectbrowser-banqueprojets/iita-iati/dfatd-maecd_organisation.xml
@@ -18984,7 +18983,7 @@ found 14 activities
 
 Downloading ifad-activitity-br from https://webapps.ifad.org/iati/ifad_br_activities.xml
 Parsing ifad-activitity-br from https://webapps.ifad.org/iati/ifad_br_activities.xml
-found 16 activities
+found 17 activities
 
 Downloading ifad-activitity-bt from https://webapps.ifad.org/iati/ifad_bt_activities.xml
 Parsing ifad-activitity-bt from https://webapps.ifad.org/iati/ifad_bt_activities.xml
@@ -35556,7 +35555,7 @@ found 49 activities
 
 Downloading unicef-algeria from https://open.unicef.org/sites/transparency/files/countrydata/iatiActivity_Algeria.xml
 Parsing unicef-algeria from https://open.unicef.org/sites/transparency/files/countrydata/iatiActivity_Algeria.xml
-found 55 activities
+found 54 activities
 
 Downloading unicef-angola from https://open.unicef.org/sites/transparency/files/countrydata/iatiActivity_Angola.xml
 Parsing unicef-angola from https://open.unicef.org/sites/transparency/files/countrydata/iatiActivity_Angola.xml
@@ -35620,7 +35619,7 @@ found 75 activities
 
 Downloading unicef-burkinafaso from https://open.unicef.org/sites/transparency/files/countrydata/iatiActivity_Burkina%20Faso.xml
 Parsing unicef-burkinafaso from https://open.unicef.org/sites/transparency/files/countrydata/iatiActivity_Burkina%20Faso.xml
-found 76 activities
+found 77 activities
 
 Downloading unicef-burundi from https://open.unicef.org/sites/transparency/files/countrydata/iatiActivity_Burundi.xml
 Parsing unicef-burundi from https://open.unicef.org/sites/transparency/files/countrydata/iatiActivity_Burundi.xml
@@ -35628,7 +35627,7 @@ found 94 activities
 
 Downloading unicef-caboverde from https://open.unicef.org/sites/transparency/files/countrydata/iatiActivity_Cabo%20Verde.xml
 Parsing unicef-caboverde from https://open.unicef.org/sites/transparency/files/countrydata/iatiActivity_Cabo%20Verde.xml
-found 37 activities
+found 39 activities
 
 Downloading unicef-cambodia from https://open.unicef.org/sites/transparency/files/countrydata/iatiActivity_Cambodia.xml
 Parsing unicef-cambodia from https://open.unicef.org/sites/transparency/files/countrydata/iatiActivity_Cambodia.xml
@@ -35728,7 +35727,7 @@ found 135 activities
 
 Downloading unicef-esaro from https://open.unicef.org/sites/transparency/files/countrydata/iatiActivity_ESAR.xml
 Parsing unicef-esaro from https://open.unicef.org/sites/transparency/files/countrydata/iatiActivity_ESAR.xml
-found 123 activities
+found 124 activities
 
 Downloading unicef-eswatini from https://open.unicef.org/sites/transparency/files/countrydata/iatiActivity_Eswatini.xml
 Parsing unicef-eswatini from https://open.unicef.org/sites/transparency/files/countrydata/iatiActivity_Eswatini.xml
@@ -35797,7 +35796,7 @@ found 154 activities
 
 Downloading unicef-iran from https://open.unicef.org/sites/transparency/files/countrydata/iatiActivity_Iran.xml
 Parsing unicef-iran from https://open.unicef.org/sites/transparency/files/countrydata/iatiActivity_Iran.xml
-found 71 activities
+found 70 activities
 
 Downloading unicef-iraq from https://open.unicef.org/sites/transparency/files/countrydata/iatiActivity_Iraq.xml
 Parsing unicef-iraq from https://open.unicef.org/sites/transparency/files/countrydata/iatiActivity_Iraq.xml
@@ -35869,7 +35868,7 @@ found 69 activities
 
 Downloading unicef-maldives from https://open.unicef.org/sites/transparency/files/countrydata/iatiActivity_Maldives.xml
 Parsing unicef-maldives from https://open.unicef.org/sites/transparency/files/countrydata/iatiActivity_Maldives.xml
-found 57 activities
+found 58 activities
 
 Downloading unicef-mali from https://open.unicef.org/sites/transparency/files/countrydata/iatiActivity_Mali.xml
 Parsing unicef-mali from https://open.unicef.org/sites/transparency/files/countrydata/iatiActivity_Mali.xml
@@ -35881,7 +35880,7 @@ found 135 activities
 
 Downloading unicef-mena from https://open.unicef.org/sites/transparency/files/countrydata/iatiActivity_MENAR.xml
 Parsing unicef-mena from https://open.unicef.org/sites/transparency/files/countrydata/iatiActivity_MENAR.xml
-found 145 activities
+found 146 activities
 
 Downloading unicef-mexico from https://open.unicef.org/sites/transparency/files/countrydata/iatiActivity_Mexico.xml
 Parsing unicef-mexico from https://open.unicef.org/sites/transparency/files/countrydata/iatiActivity_Mexico.xml
@@ -35977,7 +35976,7 @@ found 165 activities
 
 Downloading unicef-palestine from https://open.unicef.org/sites/transparency/files/countrydata/iatiActivity_Palestine,%20State%20of.xml
 Parsing unicef-palestine from https://open.unicef.org/sites/transparency/files/countrydata/iatiActivity_Palestine,%20State%20of.xml
-found 98 activities
+found 99 activities
 
 Downloading unicef-panama from https://open.unicef.org/sites/transparency/files/countrydata/iatiActivity_Panama.xml
 Parsing unicef-panama from https://open.unicef.org/sites/transparency/files/countrydata/iatiActivity_Panama.xml
@@ -36009,7 +36008,7 @@ found 53 activities
 
 Downloading unicef-rosa1 from https://open.unicef.org/sites/transparency/files/countrydata/iatiActivity_SAR.xml
 Parsing unicef-rosa1 from https://open.unicef.org/sites/transparency/files/countrydata/iatiActivity_SAR.xml
-found 88 activities
+found 89 activities
 
 Downloading unicef-rwanda from https://open.unicef.org/sites/transparency/files/countrydata/iatiActivity_Rwanda.xml
 Parsing unicef-rwanda from https://open.unicef.org/sites/transparency/files/countrydata/iatiActivity_Rwanda.xml
@@ -36093,7 +36092,7 @@ found 41 activities
 
 Downloading unicef-uganda from https://open.unicef.org/sites/transparency/files/countrydata/iatiActivity_Uganda.xml
 Parsing unicef-uganda from https://open.unicef.org/sites/transparency/files/countrydata/iatiActivity_Uganda.xml
-found 83 activities
+found 85 activities
 
 Downloading unicef-ukraine from https://open.unicef.org/sites/transparency/files/countrydata/iatiActivity_Ukraine.xml
 Parsing unicef-ukraine from https://open.unicef.org/sites/transparency/files/countrydata/iatiActivity_Ukraine.xml
