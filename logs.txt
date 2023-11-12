@@ -4070,10 +4070,8 @@ Parsing ausgov-ls from https://www.dfat.gov.au/sites/default/files/Australian_Ai
 found 48 activities
 
 Downloading ausgov-ly from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Libya.xml
-curl: download ERROR 000
 Parsing ausgov-ly from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Libya.xml
-dflat: input XML file does not exist
-restored 12 files
+found 12 activities
 
 Downloading ausgov-ma from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Morocco.xml
 Parsing ausgov-ma from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Morocco.xml
@@ -4710,7 +4708,7 @@ found 1 activities
 
 Downloading be-dgd-2021_1 from http://diplomatie.be/oda/IATI_2023_1.xml
 Parsing be-dgd-2021_1 from http://diplomatie.be/oda/IATI_2023_1.xml
-found 103 activities
+found 104 activities
 
 Downloading be-dgd-2021_2 from http://diplomatie.be/oda/IATI_2023_2.xml
 Parsing be-dgd-2021_2 from http://diplomatie.be/oda/IATI_2023_2.xml
@@ -7155,8 +7153,9 @@ dflat: invalid XML format
 restored 0 files
 
 Downloading cif-998 from http://siteresources.worldbank.org/IATI/CIF/CIF-998.xml
+curl: download ERROR 404
 Parsing cif-998 from http://siteresources.worldbank.org/IATI/CIF/CIF-998.xml
-dflat: invalid XML format
+dflat: input XML file does not exist
 restored 0 files
 
 Downloading c_i_f-activities from https://iatipublisher-prod.s3.amazonaws.com/xml/mergedActivityXml/c_i_f-activities.xml
@@ -7386,9 +7385,8 @@ Parsing cif-ws from http://doumodqax2qi2.cloudfront.net/CIF/CIF-05-2020/CIF-WS.x
 found 2 activities
 
 Downloading cif-ye from http://siteresources.worldbank.org/IATI/CIF/CIF-YE.xml
-curl: download ERROR 404
 Parsing cif-ye from http://siteresources.worldbank.org/IATI/CIF/CIF-YE.xml
-dflat: input XML file does not exist
+dflat: invalid XML format
 restored 0 files
 
 Downloading cif-za from http://doumodqax2qi2.cloudfront.net/CIF/CIF-05-2020/CIF-ZA.xml
@@ -12024,8 +12022,10 @@ dflat: input XML file does not exist
 restored 1 files
 
 Downloading ec-fpi-189 from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_189.xml
+curl: download ERROR 403
 Parsing ec-fpi-189 from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_189.xml
-found 3 activities
+dflat: input XML file does not exist
+restored 3 files
 
 Downloading ec-fpi-289 from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_289.xml
 Parsing ec-fpi-289 from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_289.xml
@@ -12036,20 +12036,16 @@ Parsing ec-fpi-298 from https://ec.europa.eu/international-partnerships/assets/i
 found 18 activities
 
 Downloading ec-fpi-380 from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_380.xml
-curl: download ERROR 403
 Parsing ec-fpi-380 from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_380.xml
-dflat: input XML file does not exist
-restored 1 files
+found 1 activities
 
 Downloading ec-fpi-389 from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_389.xml
 Parsing ec-fpi-389 from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_389.xml
 found 9 activities
 
 Downloading ec-fpi-489 from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_489.xml
-curl: download ERROR 403
 Parsing ec-fpi-489 from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_489.xml
-dflat: input XML file does not exist
-restored 24 files
+found 24 activities
 
 Downloading ec-fpi-498 from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_498.xml
 Parsing ec-fpi-498 from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_498.xml
@@ -12068,10 +12064,8 @@ Parsing ec-fpi-679 from https://ec.europa.eu/international-partnerships/assets/i
 found 11 activities
 
 Downloading ec-fpi-689 from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_689.xml
-curl: download ERROR 403
 Parsing ec-fpi-689 from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_689.xml
-dflat: input XML file does not exist
-restored 3 files
+found 3 activities
 
 Downloading ec-fpi-789 from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_789.xml
 curl: download ERROR 403
@@ -12098,18 +12092,20 @@ Parsing ec-fpi-ae from https://ec.europa.eu/international-partnerships/assets/ia
 found 2 activities
 
 Downloading ec-fpi-am from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_AM.xml
+curl: download ERROR 403
 Parsing ec-fpi-am from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_AM.xml
-found 2 activities
+dflat: input XML file does not exist
+restored 2 files
 
 Downloading ec-fpi-ao from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_AO.xml
+curl: download ERROR 403
 Parsing ec-fpi-ao from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_AO.xml
-found 2 activities
+dflat: input XML file does not exist
+restored 2 files
 
 Downloading ec-fpi-ar from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_AR.xml
-curl: download ERROR 403
 Parsing ec-fpi-ar from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_AR.xml
-dflat: input XML file does not exist
-restored 5 files
+found 5 activities
 
 Downloading ec-fpi-au from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_AU.xml
 curl: download ERROR 403
@@ -12122,10 +12118,8 @@ Parsing ec-fpi-az from https://ec.europa.eu/international-partnerships/assets/ia
 found 2 activities
 
 Downloading ec-fpi-ba from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_BA.xml
-curl: download ERROR 403
 Parsing ec-fpi-ba from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_BA.xml
-dflat: input XML file does not exist
-restored 10 files
+found 10 activities
 
 Downloading ec-fpi-bd from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_BD.xml
 Parsing ec-fpi-bd from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_BD.xml
@@ -12136,26 +12130,24 @@ Parsing ec-fpi-bf from https://ec.europa.eu/international-partnerships/assets/ia
 found 24 activities
 
 Downloading ec-fpi-bi from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_BI.xml
-curl: download ERROR 403
 Parsing ec-fpi-bi from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_BI.xml
-dflat: input XML file does not exist
-restored 7 files
+found 7 activities
 
 Downloading ec-fpi-bj from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_BJ.xml
-curl: download ERROR 403
+curl: download ERROR 000
 Parsing ec-fpi-bj from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_BJ.xml
 dflat: input XML file does not exist
 restored 1 files
 
 Downloading ec-fpi-bo from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_BO.xml
+curl: download ERROR 000
 Parsing ec-fpi-bo from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_BO.xml
-found 7 activities
+dflat: input XML file does not exist
+restored 7 files
 
 Downloading ec-fpi-br from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_BR.xml
-curl: download ERROR 403
 Parsing ec-fpi-br from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_BR.xml
-dflat: input XML file does not exist
-restored 19 files
+found 19 activities
 
 Downloading ec-fpi-bt from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_BT.xml
 Parsing ec-fpi-bt from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_BT.xml
@@ -12178,10 +12170,8 @@ Parsing ec-fpi-cf from https://ec.europa.eu/international-partnerships/assets/ia
 found 45 activities
 
 Downloading ec-fpi-ci from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_CI.xml
-curl: download ERROR 403
 Parsing ec-fpi-ci from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_CI.xml
-dflat: input XML file does not exist
-restored 19 files
+found 19 activities
 
 Downloading ec-fpi-cl from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_CL.xml
 Parsing ec-fpi-cl from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_CL.xml
@@ -12194,8 +12184,10 @@ dflat: input XML file does not exist
 restored 7 files
 
 Downloading ec-fpi-cn from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_CN.xml
+curl: download ERROR 000
 Parsing ec-fpi-cn from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_CN.xml
-found 50 activities
+dflat: input XML file does not exist
+restored 50 files
 
 Downloading ec-fpi-co from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_CO.xml
 Parsing ec-fpi-co from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_CO.xml
@@ -12214,8 +12206,10 @@ Parsing ec-fpi-dj from https://ec.europa.eu/international-partnerships/assets/ia
 found 1 activities
 
 Downloading ec-fpi-do from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_DO.xml
+curl: download ERROR 403
 Parsing ec-fpi-do from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_DO.xml
-found 3 activities
+dflat: input XML file does not exist
+restored 3 files
 
 Downloading ec-fpi-dz from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_DZ.xml
 curl: download ERROR 403
@@ -12232,10 +12226,8 @@ Parsing ec-fpi-eg from https://ec.europa.eu/international-partnerships/assets/ia
 found 1 activities
 
 Downloading ec-fpi-er from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_ER.xml
-curl: download ERROR 403
 Parsing ec-fpi-er from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_ER.xml
-dflat: input XML file does not exist
-restored 2 files
+found 2 activities
 
 Downloading ec-fpi-et from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_ET.xml
 Parsing ec-fpi-et from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_ET.xml
@@ -12272,8 +12264,10 @@ Parsing ec-fpi-gn from https://ec.europa.eu/international-partnerships/assets/ia
 found 8 activities
 
 Downloading ec-fpi-gt from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_GT.xml
+curl: download ERROR 403
 Parsing ec-fpi-gt from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_GT.xml
-found 4 activities
+dflat: input XML file does not exist
+restored 4 files
 
 Downloading ec-fpi-gw from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_GW.xml
 Parsing ec-fpi-gw from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_GW.xml
@@ -12292,18 +12286,20 @@ Parsing ec-fpi-hn from https://ec.europa.eu/international-partnerships/assets/ia
 found 4 activities
 
 Downloading ec-fpi-hr from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_HR.xml
-curl: download ERROR 403
 Parsing ec-fpi-hr from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_HR.xml
-dflat: input XML file does not exist
-restored 1 files
+found 1 activities
 
 Downloading ec-fpi-ht from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_HT.xml
+curl: download ERROR 403
 Parsing ec-fpi-ht from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_HT.xml
-found 13 activities
+dflat: input XML file does not exist
+restored 13 files
 
 Downloading ec-fpi-iati_organisation_fpi from https://ec.europa.eu/international-partnerships/assets/iati/iati_organisation_fpi.xml
+curl: download ERROR 000
 Parsing ec-fpi-iati_organisation_fpi from https://ec.europa.eu/international-partnerships/assets/iati/iati_organisation_fpi.xml
-found 1 organisations
+dflat: input XML file does not exist
+restored 1 files
 
 Downloading ec-fpi-id from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_ID.xml
 Parsing ec-fpi-id from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_ID.xml
@@ -12318,10 +12314,8 @@ Parsing ec-fpi-iq from https://ec.europa.eu/international-partnerships/assets/ia
 found 36 activities
 
 Downloading ec-fpi-ir from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_IR.xml
-curl: download ERROR 403
 Parsing ec-fpi-ir from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_IR.xml
-dflat: input XML file does not exist
-restored 3 files
+found 3 activities
 
 Downloading ec-fpi-jo from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_JO.xml
 Parsing ec-fpi-jo from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_JO.xml
@@ -12336,58 +12330,52 @@ Parsing ec-fpi-ke from https://ec.europa.eu/international-partnerships/assets/ia
 found 24 activities
 
 Downloading ec-fpi-kg from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_KG.xml
-curl: download ERROR 403
 Parsing ec-fpi-kg from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_KG.xml
-dflat: input XML file does not exist
-restored 15 files
+found 15 activities
 
 Downloading ec-fpi-kh from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_KH.xml
 Parsing ec-fpi-kh from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_KH.xml
 found 2 activities
 
 Downloading ec-fpi-km from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_KM.xml
-curl: download ERROR 403
 Parsing ec-fpi-km from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_KM.xml
-dflat: input XML file does not exist
-restored 2 files
+found 2 activities
 
 Downloading ec-fpi-kr from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_KR.xml
 Parsing ec-fpi-kr from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_KR.xml
 found 15 activities
 
 Downloading ec-fpi-kz from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_KZ.xml
-curl: download ERROR 403
 Parsing ec-fpi-kz from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_KZ.xml
-dflat: input XML file does not exist
-restored 1 files
+found 1 activities
 
 Downloading ec-fpi-lb from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_LB.xml
-curl: download ERROR 403
 Parsing ec-fpi-lb from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_LB.xml
-dflat: input XML file does not exist
-restored 28 files
+found 28 activities
 
 Downloading ec-fpi-lk from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_LK.xml
 Parsing ec-fpi-lk from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_LK.xml
 found 10 activities
 
 Downloading ec-fpi-lr from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_LR.xml
+curl: download ERROR 403
 Parsing ec-fpi-lr from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_LR.xml
-found 2 activities
+dflat: input XML file does not exist
+restored 2 files
 
 Downloading ec-fpi-ls from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_LS.xml
 Parsing ec-fpi-ls from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_LS.xml
 found 5 activities
 
 Downloading ec-fpi-ly from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_LY.xml
-curl: download ERROR 403
 Parsing ec-fpi-ly from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_LY.xml
-dflat: input XML file does not exist
-restored 54 files
+found 54 activities
 
 Downloading ec-fpi-ma from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_MA.xml
+curl: download ERROR 403
 Parsing ec-fpi-ma from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_MA.xml
-found 4 activities
+dflat: input XML file does not exist
+restored 4 files
 
 Downloading ec-fpi-md from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_MD.xml
 Parsing ec-fpi-md from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_MD.xml
@@ -12412,8 +12400,10 @@ dflat: input XML file does not exist
 restored 26 files
 
 Downloading ec-fpi-mn from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_MN.xml
+curl: download ERROR 403
 Parsing ec-fpi-mn from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_MN.xml
-found 2 activities
+dflat: input XML file does not exist
+restored 2 files
 
 Downloading ec-fpi-mr from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_MR.xml
 Parsing ec-fpi-mr from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_MR.xml
@@ -12428,32 +12418,34 @@ Parsing ec-fpi-mv from https://ec.europa.eu/international-partnerships/assets/ia
 found 6 activities
 
 Downloading ec-fpi-mw from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_MW.xml
-curl: download ERROR 403
 Parsing ec-fpi-mw from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_MW.xml
-dflat: input XML file does not exist
-restored 2 files
+found 2 activities
 
 Downloading ec-fpi-mx from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_MX.xml
+curl: download ERROR 403
 Parsing ec-fpi-mx from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_MX.xml
-found 14 activities
+dflat: input XML file does not exist
+restored 14 files
 
 Downloading ec-fpi-my from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_MY.xml
+curl: download ERROR 403
 Parsing ec-fpi-my from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_MY.xml
-found 1 activities
+dflat: input XML file does not exist
+restored 1 files
 
 Downloading ec-fpi-mz from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_MZ.xml
 Parsing ec-fpi-mz from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_MZ.xml
 found 22 activities
 
 Downloading ec-fpi-na from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_NA.xml
-curl: download ERROR 403
 Parsing ec-fpi-na from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_NA.xml
-dflat: input XML file does not exist
-restored 1 files
+found 1 activities
 
 Downloading ec-fpi-ne from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_NE.xml
+curl: download ERROR 403
 Parsing ec-fpi-ne from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_NE.xml
-found 54 activities
+dflat: input XML file does not exist
+restored 54 files
 
 Downloading ec-fpi-ng from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_NG.xml
 Parsing ec-fpi-ng from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_NG.xml
@@ -12464,26 +12456,20 @@ Parsing ec-fpi-ni from https://ec.europa.eu/international-partnerships/assets/ia
 found 9 activities
 
 Downloading ec-fpi-np from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_NP.xml
-curl: download ERROR 403
 Parsing ec-fpi-np from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_NP.xml
-dflat: input XML file does not exist
-restored 7 files
+found 7 activities
 
 Downloading ec-fpi-nz from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_NZ.xml
-curl: download ERROR 403
 Parsing ec-fpi-nz from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_NZ.xml
-dflat: input XML file does not exist
-restored 1 files
+found 1 activities
 
 Downloading ec-fpi-pe from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_PE.xml
 Parsing ec-fpi-pe from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_PE.xml
 found 9 activities
 
 Downloading ec-fpi-pg from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_PG.xml
-curl: download ERROR 403
 Parsing ec-fpi-pg from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_PG.xml
-dflat: input XML file does not exist
-restored 1 files
+found 1 activities
 
 Downloading ec-fpi-ph from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_PH.xml
 Parsing ec-fpi-ph from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_PH.xml
@@ -12498,24 +12484,22 @@ Parsing ec-fpi-ps from https://ec.europa.eu/international-partnerships/assets/ia
 found 26 activities
 
 Downloading ec-fpi-py from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_PY.xml
-curl: download ERROR 403
 Parsing ec-fpi-py from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_PY.xml
-dflat: input XML file does not exist
-restored 4 files
+found 4 activities
 
 Downloading ec-fpi-rs from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_RS.xml
 Parsing ec-fpi-rs from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_RS.xml
 found 2 activities
 
 Downloading ec-fpi-ru from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_RU.xml
-curl: download ERROR 403
 Parsing ec-fpi-ru from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_RU.xml
-dflat: input XML file does not exist
-restored 12 files
+found 12 activities
 
 Downloading ec-fpi-rw from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_RW.xml
+curl: download ERROR 403
 Parsing ec-fpi-rw from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_RW.xml
-found 4 activities
+dflat: input XML file does not exist
+restored 4 files
 
 Downloading ec-fpi-sa from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_SA.xml
 Parsing ec-fpi-sa from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_SA.xml
@@ -12526,10 +12510,8 @@ Parsing ec-fpi-sb from https://ec.europa.eu/international-partnerships/assets/ia
 found 3 activities
 
 Downloading ec-fpi-sd from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_SD.xml
-curl: download ERROR 403
 Parsing ec-fpi-sd from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_SD.xml
-dflat: input XML file does not exist
-restored 36 files
+found 36 activities
 
 Downloading ec-fpi-sg from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_SG.xml
 Parsing ec-fpi-sg from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_SG.xml
@@ -12552,24 +12534,22 @@ Parsing ec-fpi-ss from https://ec.europa.eu/international-partnerships/assets/ia
 found 14 activities
 
 Downloading ec-fpi-st from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_ST.xml
+curl: download ERROR 403
 Parsing ec-fpi-st from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_ST.xml
-found 1 activities
+dflat: input XML file does not exist
+restored 1 files
 
 Downloading ec-fpi-sv from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_SV.xml
-curl: download ERROR 403
 Parsing ec-fpi-sv from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_SV.xml
-dflat: input XML file does not exist
-restored 14 files
+found 14 activities
 
 Downloading ec-fpi-sy from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_SY.xml
 Parsing ec-fpi-sy from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_SY.xml
 found 57 activities
 
 Downloading ec-fpi-td from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_TD.xml
-curl: download ERROR 403
 Parsing ec-fpi-td from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_TD.xml
-dflat: input XML file does not exist
-restored 20 files
+found 20 activities
 
 Downloading ec-fpi-tg from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_TG.xml
 Parsing ec-fpi-tg from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_TG.xml
@@ -12596,46 +12576,56 @@ Parsing ec-fpi-tr from https://ec.europa.eu/international-partnerships/assets/ia
 found 20 activities
 
 Downloading ec-fpi-tw from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_TW.xml
+curl: download ERROR 403
 Parsing ec-fpi-tw from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_TW.xml
-found 1 activities
+dflat: input XML file does not exist
+restored 1 files
 
 Downloading ec-fpi-tz from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_TZ.xml
 Parsing ec-fpi-tz from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_TZ.xml
 found 7 activities
 
 Downloading ec-fpi-ua from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_UA.xml
+curl: download ERROR 403
 Parsing ec-fpi-ua from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_UA.xml
-found 72 activities
+dflat: input XML file does not exist
+restored 72 files
 
 Downloading ec-fpi-ug from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_UG.xml
 Parsing ec-fpi-ug from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_UG.xml
 found 7 activities
 
 Downloading ec-fpi-us from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_US.xml
-curl: download ERROR 403
 Parsing ec-fpi-us from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_US.xml
-dflat: input XML file does not exist
-restored 58 files
+found 58 activities
 
 Downloading ec-fpi-uy from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_UY.xml
+curl: download ERROR 403
 Parsing ec-fpi-uy from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_UY.xml
-found 1 activities
+dflat: input XML file does not exist
+restored 1 files
 
 Downloading ec-fpi-uz from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_UZ.xml
+curl: download ERROR 403
 Parsing ec-fpi-uz from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_UZ.xml
-found 2 activities
+dflat: input XML file does not exist
+restored 2 files
 
 Downloading ec-fpi-ve from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_VE.xml
 Parsing ec-fpi-ve from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_VE.xml
 found 11 activities
 
 Downloading ec-fpi-vn from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_VN.xml
+curl: download ERROR 403
 Parsing ec-fpi-vn from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_VN.xml
-found 2 activities
+dflat: input XML file does not exist
+restored 2 files
 
 Downloading ec-fpi-xk from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_XK.xml
+curl: download ERROR 000
 Parsing ec-fpi-xk from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_XK.xml
-found 13 activities
+dflat: input XML file does not exist
+restored 13 files
 
 Downloading ec-fpi-ye from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_YE.xml
 curl: download ERROR 403
@@ -12648,10 +12638,8 @@ Parsing ec-fpi-za from https://ec.europa.eu/international-partnerships/assets/ia
 found 3 activities
 
 Downloading ec-fpi-zm from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_ZM.xml
-curl: download ERROR 403
 Parsing ec-fpi-zm from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_ZM.xml
-dflat: input XML file does not exist
-restored 4 files
+found 4 activities
 
 Downloading ec-fpi-zw from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_ZW.xml
 curl: download ERROR 403
@@ -12664,16 +12652,12 @@ Parsing ec-intpa-189 from https://ec.europa.eu/international-partnerships/assets
 found 164 activities
 
 Downloading ec-intpa-289 from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_289.xml
-curl: download ERROR 403
 Parsing ec-intpa-289 from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_289.xml
-dflat: input XML file does not exist
-restored 3198 files
+found 3198 activities
 
 Downloading ec-intpa-298 from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_298.xml
-curl: download ERROR 403
 Parsing ec-intpa-298 from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_298.xml
-dflat: input XML file does not exist
-restored 1122 files
+found 1122 activities
 
 Downloading ec-intpa-380 from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_380.xml
 Parsing ec-intpa-380 from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_380.xml
@@ -12692,8 +12676,10 @@ Parsing ec-intpa-498 from https://ec.europa.eu/international-partnerships/assets
 found 533 activities
 
 Downloading ec-intpa-589 from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_589.xml
+curl: download ERROR 000
 Parsing ec-intpa-589 from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_589.xml
-found 168 activities
+dflat: input XML file does not exist
+restored 168 files
 
 Downloading ec-intpa-619 from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_619.xml
 Parsing ec-intpa-619 from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_619.xml
@@ -12710,18 +12696,18 @@ dflat: input XML file does not exist
 restored 64 files
 
 Downloading ec-intpa-789 from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_789.xml
-curl: download ERROR 403
 Parsing ec-intpa-789 from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_789.xml
-dflat: input XML file does not exist
-restored 146 files
+found 146 activities
 
 Downloading ec-intpa-798 from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_798.xml
 Parsing ec-intpa-798 from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_798.xml
 found 948 activities
 
 Downloading ec-intpa-889 from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_889.xml
+curl: download ERROR 403
 Parsing ec-intpa-889 from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_889.xml
-found 213 activities
+dflat: input XML file does not exist
+restored 213 files
 
 Downloading ec-intpa-89 from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_89.xml
 Parsing ec-intpa-89 from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_89.xml
@@ -12732,10 +12718,8 @@ Parsing ec-intpa-998 from https://ec.europa.eu/international-partnerships/assets
 found 5338 activities
 
 Downloading ec-intpa-ag from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_AG.xml
-curl: download ERROR 403
 Parsing ec-intpa-ag from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_AG.xml
-dflat: input XML file does not exist
-restored 59 files
+found 59 activities
 
 Downloading ec-intpa-ai from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_AI.xml
 Parsing ec-intpa-ai from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_AI.xml
@@ -12764,22 +12748,26 @@ Parsing ec-intpa-aw from https://ec.europa.eu/international-partnerships/assets/
 found 25 activities
 
 Downloading ec-intpa-az from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_AZ.xml
-curl: download ERROR 403
 Parsing ec-intpa-az from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_AZ.xml
-dflat: input XML file does not exist
-restored 65 files
+found 65 activities
 
 Downloading ec-intpa-ba from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_BA.xml
+curl: download ERROR 403
 Parsing ec-intpa-ba from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_BA.xml
-found 108 activities
+dflat: input XML file does not exist
+restored 108 files
 
 Downloading ec-intpa-bb from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_BB.xml
+curl: download ERROR 403
 Parsing ec-intpa-bb from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_BB.xml
-found 112 activities
+dflat: input XML file does not exist
+restored 112 files
 
 Downloading ec-intpa-bd from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_BD.xml
+curl: download ERROR 403
 Parsing ec-intpa-bd from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_BD.xml
-found 782 activities
+dflat: input XML file does not exist
+restored 782 files
 
 Downloading ec-intpa-bf from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_BF.xml
 Parsing ec-intpa-bf from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_BF.xml
@@ -12794,20 +12782,26 @@ Parsing ec-intpa-bi from https://ec.europa.eu/international-partnerships/assets/
 found 856 activities
 
 Downloading ec-intpa-bj from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_BJ.xml
+curl: download ERROR 000
 Parsing ec-intpa-bj from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_BJ.xml
-found 702 activities
+dflat: input XML file does not exist
+restored 702 files
 
 Downloading ec-intpa-bo from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_BO.xml
 Parsing ec-intpa-bo from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_BO.xml
 found 460 activities
 
 Downloading ec-intpa-br from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_BR.xml
+curl: download ERROR 403
 Parsing ec-intpa-br from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_BR.xml
-found 407 activities
+dflat: input XML file does not exist
+restored 407 files
 
 Downloading ec-intpa-bs from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_BS.xml
+curl: download ERROR 403
 Parsing ec-intpa-bs from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_BS.xml
-found 13 activities
+dflat: input XML file does not exist
+restored 13 files
 
 Downloading ec-intpa-bt from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_BT.xml
 curl: download ERROR 403
@@ -12844,44 +12838,40 @@ dflat: input XML file does not exist
 restored 611 files
 
 Downloading ec-intpa-ci from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_CI.xml
-curl: download ERROR 403
 Parsing ec-intpa-ci from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_CI.xml
-dflat: input XML file does not exist
-restored 1186 files
+found 1186 activities
 
 Downloading ec-intpa-ck from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_CK.xml
 Parsing ec-intpa-ck from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_CK.xml
 found 27 activities
 
 Downloading ec-intpa-cl from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_CL.xml
-curl: download ERROR 403
 Parsing ec-intpa-cl from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_CL.xml
-dflat: input XML file does not exist
-restored 208 files
+found 208 activities
 
 Downloading ec-intpa-cm from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_CM.xml
-curl: download ERROR 403
 Parsing ec-intpa-cm from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_CM.xml
-dflat: input XML file does not exist
-restored 984 files
+found 984 activities
 
 Downloading ec-intpa-cn from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_CN.xml
+curl: download ERROR 403
 Parsing ec-intpa-cn from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_CN.xml
-found 380 activities
+dflat: input XML file does not exist
+restored 380 files
 
 Downloading ec-intpa-co from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_CO.xml
 Parsing ec-intpa-co from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_CO.xml
 found 655 activities
 
 Downloading ec-intpa-cr from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_CR.xml
+curl: download ERROR 403
 Parsing ec-intpa-cr from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_CR.xml
-found 99 activities
+dflat: input XML file does not exist
+restored 99 files
 
 Downloading ec-intpa-cu from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_CU.xml
-curl: download ERROR 403
 Parsing ec-intpa-cu from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_CU.xml
-dflat: input XML file does not exist
-restored 168 files
+found 168 activities
 
 Downloading ec-intpa-cv from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_CV.xml
 curl: download ERROR 403
@@ -12896,38 +12886,48 @@ dflat: input XML file does not exist
 restored 4 files
 
 Downloading ec-intpa-cz from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_CZ.xml
+curl: download ERROR 000
 Parsing ec-intpa-cz from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_CZ.xml
-found 1 activities
+dflat: input XML file does not exist
+restored 1 files
 
 Downloading ec-intpa-dj from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_DJ.xml
 Parsing ec-intpa-dj from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_DJ.xml
 found 292 activities
 
 Downloading ec-intpa-dm from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_DM.xml
+curl: download ERROR 403
 Parsing ec-intpa-dm from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_DM.xml
-found 158 activities
+dflat: input XML file does not exist
+restored 158 files
 
 Downloading ec-intpa-do from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_DO.xml
+curl: download ERROR 000
 Parsing ec-intpa-do from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_DO.xml
-found 627 activities
+dflat: input XML file does not exist
+restored 627 files
 
 Downloading ec-intpa-dz from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_DZ.xml
-curl: download ERROR 403
+curl: download ERROR 000
 Parsing ec-intpa-dz from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_DZ.xml
 dflat: input XML file does not exist
 restored 135 files
 
 Downloading ec-intpa-ec from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_EC.xml
+curl: download ERROR 403
 Parsing ec-intpa-ec from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_EC.xml
-found 282 activities
+dflat: input XML file does not exist
+restored 282 files
 
 Downloading ec-intpa-eg from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_EG.xml
 Parsing ec-intpa-eg from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_EG.xml
 found 157 activities
 
 Downloading ec-intpa-er from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_ER.xml
+curl: download ERROR 000
 Parsing ec-intpa-er from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_ER.xml
-found 316 activities
+dflat: input XML file does not exist
+restored 316 files
 
 Downloading ec-intpa-et from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_ET.xml
 Parsing ec-intpa-et from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_ET.xml
@@ -12946,28 +12946,30 @@ Parsing ec-intpa-fm from https://ec.europa.eu/international-partnerships/assets/
 found 34 activities
 
 Downloading ec-intpa-ga from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_GA.xml
-curl: download ERROR 403
 Parsing ec-intpa-ga from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_GA.xml
-dflat: input XML file does not exist
-restored 314 files
+found 314 activities
 
 Downloading ec-intpa-gd from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_GD.xml
-curl: download ERROR 403
 Parsing ec-intpa-gd from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_GD.xml
-dflat: input XML file does not exist
-restored 78 files
+found 78 activities
 
 Downloading ec-intpa-ge from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_GE.xml
+curl: download ERROR 403
 Parsing ec-intpa-ge from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_GE.xml
-found 327 activities
+dflat: input XML file does not exist
+restored 327 files
 
 Downloading ec-intpa-gh from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_GH.xml
+curl: download ERROR 403
 Parsing ec-intpa-gh from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_GH.xml
-found 762 activities
+dflat: input XML file does not exist
+restored 762 files
 
 Downloading ec-intpa-gl from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_GL.xml
+curl: download ERROR 403
 Parsing ec-intpa-gl from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_GL.xml
-found 24 activities
+dflat: input XML file does not exist
+restored 24 files
 
 Downloading ec-intpa-gm from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_GM.xml
 Parsing ec-intpa-gm from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_GM.xml
@@ -12984,10 +12986,8 @@ Parsing ec-intpa-gq from https://ec.europa.eu/international-partnerships/assets/
 found 64 activities
 
 Downloading ec-intpa-gt from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_GT.xml
-curl: download ERROR 403
 Parsing ec-intpa-gt from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_GT.xml
-dflat: input XML file does not exist
-restored 561 files
+found 561 activities
 
 Downloading ec-intpa-gw from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_GW.xml
 Parsing ec-intpa-gw from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_GW.xml
@@ -12998,14 +12998,14 @@ Parsing ec-intpa-gy from https://ec.europa.eu/international-partnerships/assets/
 found 290 activities
 
 Downloading ec-intpa-hk from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_HK.xml
+curl: download ERROR 403
 Parsing ec-intpa-hk from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_HK.xml
-found 1 activities
+dflat: input XML file does not exist
+restored 1 files
 
 Downloading ec-intpa-hn from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_HN.xml
-curl: download ERROR 403
 Parsing ec-intpa-hn from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_HN.xml
-dflat: input XML file does not exist
-restored 442 files
+found 442 activities
 
 Downloading ec-intpa-hr from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_HR.xml
 Parsing ec-intpa-hr from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_HR.xml
@@ -13024,20 +13024,18 @@ Parsing ec-intpa-iati_organisation_intpa from https://ec.europa.eu/international
 found 1 organisations
 
 Downloading ec-intpa-id from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_ID.xml
-curl: download ERROR 403
 Parsing ec-intpa-id from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_ID.xml
-dflat: input XML file does not exist
-restored 548 files
+found 548 activities
 
 Downloading ec-intpa-il from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_IL.xml
-curl: download ERROR 403
 Parsing ec-intpa-il from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_IL.xml
-dflat: input XML file does not exist
-restored 46 files
+found 46 activities
 
 Downloading ec-intpa-in from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_IN.xml
+curl: download ERROR 403
 Parsing ec-intpa-in from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_IN.xml
-found 489 activities
+dflat: input XML file does not exist
+restored 489 files
 
 Downloading ec-intpa-iq from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_IQ.xml
 curl: download ERROR 403
@@ -13070,7 +13068,7 @@ Parsing ec-intpa-kh from https://ec.europa.eu/international-partnerships/assets/
 found 573 activities
 
 Downloading ec-intpa-ki from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_KI.xml
-curl: download ERROR 403
+curl: download ERROR 000
 Parsing ec-intpa-ki from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_KI.xml
 dflat: input XML file does not exist
 restored 67 files
@@ -13092,24 +13090,22 @@ Parsing ec-intpa-kr from https://ec.europa.eu/international-partnerships/assets/
 found 1 activities
 
 Downloading ec-intpa-ky from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_KY.xml
-curl: download ERROR 403
 Parsing ec-intpa-ky from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_KY.xml
-dflat: input XML file does not exist
-restored 4 files
+found 4 activities
 
 Downloading ec-intpa-kz from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_KZ.xml
+curl: download ERROR 403
 Parsing ec-intpa-kz from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_KZ.xml
-found 317 activities
+dflat: input XML file does not exist
+restored 317 files
 
 Downloading ec-intpa-la from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_LA.xml
 Parsing ec-intpa-la from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_LA.xml
 found 363 activities
 
 Downloading ec-intpa-lb from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_LB.xml
-curl: download ERROR 403
 Parsing ec-intpa-lb from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_LB.xml
-dflat: input XML file does not exist
-restored 180 files
+found 180 activities
 
 Downloading ec-intpa-lc from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_LC.xml
 curl: download ERROR 403
@@ -13164,10 +13160,8 @@ Parsing ec-intpa-mg from https://ec.europa.eu/international-partnerships/assets/
 found 1216 activities
 
 Downloading ec-intpa-mh from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_MH.xml
-curl: download ERROR 403
 Parsing ec-intpa-mh from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_MH.xml
-dflat: input XML file does not exist
-restored 30 files
+found 30 activities
 
 Downloading ec-intpa-mk from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_MK.xml
 Parsing ec-intpa-mk from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_MK.xml
@@ -13184,13 +13178,11 @@ dflat: input XML file does not exist
 restored 334 files
 
 Downloading ec-intpa-mn from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_MN.xml
-curl: download ERROR 403
 Parsing ec-intpa-mn from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_MN.xml
-dflat: input XML file does not exist
-restored 141 files
+found 141 activities
 
 Downloading ec-intpa-mo from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_MO.xml
-curl: download ERROR 403
+curl: download ERROR 000
 Parsing ec-intpa-mo from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_MO.xml
 dflat: input XML file does not exist
 restored 1 files
@@ -13204,26 +13196,32 @@ Parsing ec-intpa-ms from https://ec.europa.eu/international-partnerships/assets/
 found 19 activities
 
 Downloading ec-intpa-mu from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_MU.xml
+curl: download ERROR 403
 Parsing ec-intpa-mu from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_MU.xml
-found 263 activities
+dflat: input XML file does not exist
+restored 263 files
 
 Downloading ec-intpa-mv from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_MV.xml
+curl: download ERROR 403
 Parsing ec-intpa-mv from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_MV.xml
-found 32 activities
+dflat: input XML file does not exist
+restored 32 files
 
 Downloading ec-intpa-mw from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_MW.xml
-curl: download ERROR 403
 Parsing ec-intpa-mw from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_MW.xml
-dflat: input XML file does not exist
-restored 1060 files
+found 1060 activities
 
 Downloading ec-intpa-mx from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_MX.xml
+curl: download ERROR 403
 Parsing ec-intpa-mx from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_MX.xml
-found 277 activities
+dflat: input XML file does not exist
+restored 277 files
 
 Downloading ec-intpa-my from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_MY.xml
+curl: download ERROR 403
 Parsing ec-intpa-my from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_MY.xml
-found 60 activities
+dflat: input XML file does not exist
+restored 60 files
 
 Downloading ec-intpa-mz from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_MZ.xml
 curl: download ERROR 403
@@ -13240,8 +13238,10 @@ Parsing ec-intpa-nc from https://ec.europa.eu/international-partnerships/assets/
 found 38 activities
 
 Downloading ec-intpa-ne from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_NE.xml
+curl: download ERROR 403
 Parsing ec-intpa-ne from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_NE.xml
-found 1125 activities
+dflat: input XML file does not exist
+restored 1125 files
 
 Downloading ec-intpa-ng from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_NG.xml
 curl: download ERROR 403
@@ -13258,34 +13258,40 @@ Parsing ec-intpa-np from https://ec.europa.eu/international-partnerships/assets/
 found 492 activities
 
 Downloading ec-intpa-nr from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_NR.xml
+curl: download ERROR 403
 Parsing ec-intpa-nr from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_NR.xml
-found 27 activities
+dflat: input XML file does not exist
+restored 27 files
 
 Downloading ec-intpa-nu from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_NU.xml
+curl: download ERROR 403
 Parsing ec-intpa-nu from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_NU.xml
-found 39 activities
+dflat: input XML file does not exist
+restored 39 files
 
 Downloading ec-intpa-pa from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_PA.xml
+curl: download ERROR 403
 Parsing ec-intpa-pa from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_PA.xml
-found 55 activities
+dflat: input XML file does not exist
+restored 55 files
 
 Downloading ec-intpa-pe from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_PE.xml
 Parsing ec-intpa-pe from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_PE.xml
 found 442 activities
 
 Downloading ec-intpa-pf from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_PF.xml
+curl: download ERROR 403
 Parsing ec-intpa-pf from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_PF.xml
-found 46 activities
+dflat: input XML file does not exist
+restored 46 files
 
 Downloading ec-intpa-pg from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_PG.xml
 Parsing ec-intpa-pg from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_PG.xml
 found 499 activities
 
 Downloading ec-intpa-ph from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_PH.xml
-curl: download ERROR 403
 Parsing ec-intpa-ph from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_PH.xml
-dflat: input XML file does not exist
-restored 523 files
+found 523 activities
 
 Downloading ec-intpa-pk from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_PK.xml
 Parsing ec-intpa-pk from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_PK.xml
@@ -13300,20 +13306,18 @@ Parsing ec-intpa-pm from https://ec.europa.eu/international-partnerships/assets/
 found 28 activities
 
 Downloading ec-intpa-pn from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_PN.xml
-curl: download ERROR 403
 Parsing ec-intpa-pn from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_PN.xml
-dflat: input XML file does not exist
-restored 9 files
+found 9 activities
 
 Downloading ec-intpa-ps from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_PS.xml
-curl: download ERROR 403
 Parsing ec-intpa-ps from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_PS.xml
-dflat: input XML file does not exist
-restored 318 files
+found 318 activities
 
 Downloading ec-intpa-pw from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_PW.xml
+curl: download ERROR 403
 Parsing ec-intpa-pw from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_PW.xml
-found 24 activities
+dflat: input XML file does not exist
+restored 24 files
 
 Downloading ec-intpa-py from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_PY.xml
 Parsing ec-intpa-py from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_PY.xml
@@ -13350,7 +13354,7 @@ Parsing ec-intpa-sd from https://ec.europa.eu/international-partnerships/assets/
 found 814 activities
 
 Downloading ec-intpa-sh from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_SH.xml
-curl: download ERROR 403
+curl: download ERROR 000
 Parsing ec-intpa-sh from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_SH.xml
 dflat: input XML file does not exist
 restored 13 files
@@ -13360,16 +13364,20 @@ Parsing ec-intpa-sl from https://ec.europa.eu/international-partnerships/assets/
 found 783 activities
 
 Downloading ec-intpa-sn from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_SN.xml
+curl: download ERROR 403
 Parsing ec-intpa-sn from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_SN.xml
-found 1006 activities
+dflat: input XML file does not exist
+restored 1006 files
 
 Downloading ec-intpa-so from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_SO.xml
 Parsing ec-intpa-so from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_SO.xml
 found 820 activities
 
 Downloading ec-intpa-sr from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_SR.xml
+curl: download ERROR 403
 Parsing ec-intpa-sr from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_SR.xml
-found 183 activities
+dflat: input XML file does not exist
+restored 183 files
 
 Downloading ec-intpa-ss from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_SS.xml
 curl: download ERROR 403
@@ -13378,14 +13386,14 @@ dflat: input XML file does not exist
 restored 238 files
 
 Downloading ec-intpa-st from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_ST.xml
+curl: download ERROR 000
 Parsing ec-intpa-st from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_ST.xml
-found 227 activities
+dflat: input XML file does not exist
+restored 227 files
 
 Downloading ec-intpa-sv from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_SV.xml
-curl: download ERROR 403
 Parsing ec-intpa-sv from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_SV.xml
-dflat: input XML file does not exist
-restored 249 files
+found 249 activities
 
 Downloading ec-intpa-sx from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_SX.xml
 curl: download ERROR 403
@@ -13398,12 +13406,16 @@ Parsing ec-intpa-sy from https://ec.europa.eu/international-partnerships/assets/
 found 145 activities
 
 Downloading ec-intpa-sz from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_SZ.xml
+curl: download ERROR 000
 Parsing ec-intpa-sz from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_SZ.xml
-found 402 activities
+dflat: input XML file does not exist
+restored 402 files
 
 Downloading ec-intpa-tc from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_TC.xml
+curl: download ERROR 403
 Parsing ec-intpa-tc from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_TC.xml
-found 27 activities
+dflat: input XML file does not exist
+restored 27 files
 
 Downloading ec-intpa-td from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_TD.xml
 Parsing ec-intpa-td from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_TD.xml
@@ -13414,56 +13426,68 @@ Parsing ec-intpa-tg from https://ec.europa.eu/international-partnerships/assets/
 found 616 activities
 
 Downloading ec-intpa-th from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_TH.xml
-curl: download ERROR 403
 Parsing ec-intpa-th from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_TH.xml
-dflat: input XML file does not exist
-restored 292 files
+found 292 activities
 
 Downloading ec-intpa-tj from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_TJ.xml
+curl: download ERROR 000
 Parsing ec-intpa-tj from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_TJ.xml
-found 510 activities
+dflat: input XML file does not exist
+restored 510 files
 
 Downloading ec-intpa-tl from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_TL.xml
 Parsing ec-intpa-tl from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_TL.xml
 found 226 activities
 
 Downloading ec-intpa-tm from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_TM.xml
+curl: download ERROR 403
 Parsing ec-intpa-tm from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_TM.xml
-found 93 activities
+dflat: input XML file does not exist
+restored 93 files
 
 Downloading ec-intpa-tn from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_TN.xml
+curl: download ERROR 403
 Parsing ec-intpa-tn from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_TN.xml
-found 242 activities
+dflat: input XML file does not exist
+restored 242 files
 
 Downloading ec-intpa-to from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_TO.xml
+curl: download ERROR 403
 Parsing ec-intpa-to from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_TO.xml
-found 73 activities
+dflat: input XML file does not exist
+restored 73 files
 
 Downloading ec-intpa-tr from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_TR.xml
+curl: download ERROR 403
 Parsing ec-intpa-tr from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_TR.xml
-found 106 activities
+dflat: input XML file does not exist
+restored 106 files
 
 Downloading ec-intpa-tt from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_TT.xml
 Parsing ec-intpa-tt from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_TT.xml
 found 146 activities
 
 Downloading ec-intpa-tv from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_TV.xml
+curl: download ERROR 403
 Parsing ec-intpa-tv from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_TV.xml
-found 48 activities
+dflat: input XML file does not exist
+restored 48 files
 
 Downloading ec-intpa-tw from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_TW.xml
+curl: download ERROR 000
 Parsing ec-intpa-tw from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_TW.xml
-found 1 activities
+dflat: input XML file does not exist
+restored 1 files
 
 Downloading ec-intpa-tz from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_TZ.xml
+curl: download ERROR 403
 Parsing ec-intpa-tz from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_TZ.xml
-found 794 activities
+dflat: input XML file does not exist
+restored 794 files
 
 Downloading ec-intpa-ua from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_UA.xml
-curl: download ERROR 403
 Parsing ec-intpa-ua from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_UA.xml
-dflat: input XML file does not exist
-restored 570 files
+found 570 activities
 
 Downloading ec-intpa-ug from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_UG.xml
 Parsing ec-intpa-ug from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_UG.xml
@@ -13474,26 +13498,20 @@ Parsing ec-intpa-uy from https://ec.europa.eu/international-partnerships/assets/
 found 138 activities
 
 Downloading ec-intpa-uz from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_UZ.xml
-curl: download ERROR 403
 Parsing ec-intpa-uz from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_UZ.xml
-dflat: input XML file does not exist
-restored 213 files
+found 213 activities
 
 Downloading ec-intpa-vc from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_VC.xml
-curl: download ERROR 403
 Parsing ec-intpa-vc from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_VC.xml
-dflat: input XML file does not exist
-restored 181 files
+found 181 activities
 
 Downloading ec-intpa-ve from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_VE.xml
 Parsing ec-intpa-ve from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_VE.xml
 found 247 activities
 
 Downloading ec-intpa-vg from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_VG.xml
-curl: download ERROR 403
 Parsing ec-intpa-vg from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_VG.xml
-dflat: input XML file does not exist
-restored 6 files
+found 6 activities
 
 Downloading ec-intpa-vi from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_VI.xml
 Parsing ec-intpa-vi from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_VI.xml
@@ -13510,14 +13528,14 @@ Parsing ec-intpa-vu from https://ec.europa.eu/international-partnerships/assets/
 found 194 activities
 
 Downloading ec-intpa-wf from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_WF.xml
-curl: download ERROR 403
 Parsing ec-intpa-wf from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_WF.xml
-dflat: input XML file does not exist
-restored 46 files
+found 46 activities
 
 Downloading ec-intpa-ws from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_WS.xml
+curl: download ERROR 000
 Parsing ec-intpa-ws from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_WS.xml
-found 109 activities
+dflat: input XML file does not exist
+restored 109 files
 
 Downloading ec-intpa-xk from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_XK.xml
 Parsing ec-intpa-xk from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_XK.xml
@@ -13532,14 +13550,14 @@ Parsing ec-intpa-yt from https://ec.europa.eu/international-partnerships/assets/
 found 33 activities
 
 Downloading ec-intpa-za from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_ZA.xml
-curl: download ERROR 403
 Parsing ec-intpa-za from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_ZA.xml
-dflat: input XML file does not exist
-restored 846 files
+found 846 activities
 
 Downloading ec-intpa-zm from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_ZM.xml
+curl: download ERROR 000
 Parsing ec-intpa-zm from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_ZM.xml
-found 770 activities
+dflat: input XML file does not exist
+restored 770 files
 
 Downloading ec-intpa-zw from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_ZW.xml
 Parsing ec-intpa-zw from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_ZW.xml
@@ -13558,16 +13576,20 @@ Parsing eclosio-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/eclosi
 found 1 organisations
 
 Downloading ec-near-189 from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_NEAR_C_189.xml
+curl: download ERROR 000
 Parsing ec-near-189 from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_NEAR_C_189.xml
-found 429 activities
+dflat: input XML file does not exist
+restored 429 files
 
 Downloading ec-near-589 from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_NEAR_C_589.xml
 Parsing ec-near-589 from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_NEAR_C_589.xml
 found 281 activities
 
 Downloading ec-near-619 from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_NEAR_C_619.xml
+curl: download ERROR 403
 Parsing ec-near-619 from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_NEAR_C_619.xml
-found 6 activities
+dflat: input XML file does not exist
+restored 6 files
 
 Downloading ec-near-89 from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_NEAR_C_89.xml
 Parsing ec-near-89 from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_NEAR_C_89.xml
@@ -13586,24 +13608,30 @@ Parsing ec-near-am from https://ec.europa.eu/international-partnerships/assets/i
 found 155 activities
 
 Downloading ec-near-az from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_NEAR_C_AZ.xml
+curl: download ERROR 403
 Parsing ec-near-az from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_NEAR_C_AZ.xml
-found 71 activities
+dflat: input XML file does not exist
+restored 71 files
 
 Downloading ec-near-ba from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_NEAR_C_BA.xml
 Parsing ec-near-ba from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_NEAR_C_BA.xml
 found 460 activities
 
 Downloading ec-near-bg from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_NEAR_C_BG.xml
+curl: download ERROR 403
 Parsing ec-near-bg from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_NEAR_C_BG.xml
-found 36 activities
+dflat: input XML file does not exist
+restored 36 files
 
 Downloading ec-near-by from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_NEAR_C_BY.xml
 Parsing ec-near-by from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_NEAR_C_BY.xml
 found 124 activities
 
 Downloading ec-near-cy from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_NEAR_C_CY.xml
+curl: download ERROR 403
 Parsing ec-near-cy from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_NEAR_C_CY.xml
-found 8 activities
+dflat: input XML file does not exist
+restored 8 files
 
 Downloading ec-near-cz from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_NEAR_C_CZ.xml
 Parsing ec-near-cz from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_NEAR_C_CZ.xml
@@ -13626,32 +13654,32 @@ Parsing ec-near-ge from https://ec.europa.eu/international-partnerships/assets/i
 found 241 activities
 
 Downloading ec-near-hr from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_NEAR_C_HR.xml
+curl: download ERROR 403
 Parsing ec-near-hr from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_NEAR_C_HR.xml
-found 189 activities
+dflat: input XML file does not exist
+restored 189 files
 
 Downloading ec-near-hu from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_NEAR_C_HU.xml
+curl: download ERROR 403
 Parsing ec-near-hu from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_NEAR_C_HU.xml
-found 11 activities
+dflat: input XML file does not exist
+restored 11 files
 
 Downloading ec-near-iati_organisation_near from https://ec.europa.eu/international-partnerships/assets/iati/iati_organisation_near.xml
 Parsing ec-near-iati_organisation_near from https://ec.europa.eu/international-partnerships/assets/iati/iati_organisation_near.xml
 found 1 organisations
 
 Downloading ec-near-il from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_NEAR_C_IL.xml
-curl: download ERROR 403
 Parsing ec-near-il from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_NEAR_C_IL.xml
-dflat: input XML file does not exist
-restored 359 files
+found 359 activities
 
 Downloading ec-near-iq from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_NEAR_C_IQ.xml
 Parsing ec-near-iq from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_NEAR_C_IQ.xml
 found 16 activities
 
 Downloading ec-near-is from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_NEAR_C_IS.xml
-curl: download ERROR 403
 Parsing ec-near-is from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_NEAR_C_IS.xml
-dflat: input XML file does not exist
-restored 4 files
+found 4 activities
 
 Downloading ec-near-jo from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_NEAR_C_JO.xml
 Parsing ec-near-jo from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_NEAR_C_JO.xml
@@ -13672,8 +13700,10 @@ Parsing ec-near-lv from https://ec.europa.eu/international-partnerships/assets/i
 found 6 activities
 
 Downloading ec-near-ly from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_NEAR_C_LY.xml
+curl: download ERROR 403
 Parsing ec-near-ly from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_NEAR_C_LY.xml
-found 123 activities
+dflat: input XML file does not exist
+restored 123 files
 
 Downloading ec-near-ma from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_NEAR_C_MA.xml
 Parsing ec-near-ma from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_NEAR_C_MA.xml
@@ -13698,18 +13728,18 @@ Parsing ec-near-mt from https://ec.europa.eu/international-partnerships/assets/i
 found 3 activities
 
 Downloading ec-near-pl from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_NEAR_C_PL.xml
+curl: download ERROR 403
 Parsing ec-near-pl from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_NEAR_C_PL.xml
-found 13 activities
+dflat: input XML file does not exist
+restored 13 files
 
 Downloading ec-near-ps from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_NEAR_C_PS.xml
 Parsing ec-near-ps from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_NEAR_C_PS.xml
 found 1021 activities
 
 Downloading ec-near-ro from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_NEAR_C_RO.xml
-curl: download ERROR 403
 Parsing ec-near-ro from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_NEAR_C_RO.xml
-dflat: input XML file does not exist
-restored 28 files
+found 28 activities
 
 Downloading ec-near-rs from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_NEAR_C_RS.xml
 Parsing ec-near-rs from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_NEAR_C_RS.xml
@@ -13724,20 +13754,26 @@ Parsing ec-near-si from https://ec.europa.eu/international-partnerships/assets/i
 found 11 activities
 
 Downloading ec-near-sk from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_NEAR_C_SK.xml
+curl: download ERROR 403
 Parsing ec-near-sk from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_NEAR_C_SK.xml
-found 13 activities
+dflat: input XML file does not exist
+restored 13 files
 
 Downloading ec-near-sy from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_NEAR_C_SY.xml
+curl: download ERROR 403
 Parsing ec-near-sy from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_NEAR_C_SY.xml
-found 237 activities
+dflat: input XML file does not exist
+restored 237 files
 
 Downloading ec-near-tn from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_NEAR_C_TN.xml
 Parsing ec-near-tn from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_NEAR_C_TN.xml
 found 788 activities
 
 Downloading ec-near-tr from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_NEAR_C_TR.xml
+curl: download ERROR 403
 Parsing ec-near-tr from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_NEAR_C_TR.xml
-found 452 activities
+dflat: input XML file does not exist
+restored 452 files
 
 Downloading ec-near-ua from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_NEAR_C_UA.xml
 Parsing ec-near-ua from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_NEAR_C_UA.xml
@@ -16599,11 +16635,11 @@ found 1 organisations
 
 Downloading gac-amc-act_2_3 from http://w05.international.gc.ca/projectbrowser-banqueprojets/iita-iati/dfatd-maecd_activit_status_2_3.xml
 Parsing gac-amc-act_2_3 from http://w05.international.gc.ca/projectbrowser-banqueprojets/iita-iati/dfatd-maecd_activit_status_2_3.xml
-found 1940 activities
+found 1933 activities
 
 Downloading gac-amc-act_4 from http://w05.international.gc.ca/projectbrowser-banqueprojets/iita-iati/dfatd-maecd_activit_status_4.xml
 Parsing gac-amc-act_4 from http://w05.international.gc.ca/projectbrowser-banqueprojets/iita-iati/dfatd-maecd_activit_status_4.xml
-found 4534 activities
+found 4543 activities
 
 Downloading gac-amc-org from http://w05.international.gc.ca/projectbrowser-banqueprojets/iita-iati/dfatd-maecd_organisation.xml
 Parsing gac-amc-org from http://w05.international.gc.ca/projectbrowser-banqueprojets/iita-iati/dfatd-maecd_organisation.xml
@@ -19957,7 +19993,7 @@ found 20 activities
 
 Downloading ifcwbg-br from https://disclosures.ifc.org/iati/ifc-br.xml
 Parsing ifcwbg-br from https://disclosures.ifc.org/iati/ifc-br.xml
-found 295 activities
+found 296 activities
 
 Downloading ifcwbg-bt from https://disclosures.ifc.org/iati/ifc-bt.xml
 Parsing ifcwbg-bt from https://disclosures.ifc.org/iati/ifc-bt.xml
@@ -20029,7 +20065,7 @@ found 11 activities
 
 Downloading ifcwbg-ec from https://disclosures.ifc.org/iati/ifc-ec.xml
 Parsing ifcwbg-ec from https://disclosures.ifc.org/iati/ifc-ec.xml
-found 39 activities
+found 40 activities
 
 Downloading ifcwbg-ee from https://disclosures.ifc.org/iati/ifc-ee.xml
 Parsing ifcwbg-ee from https://disclosures.ifc.org/iati/ifc-ee.xml
@@ -20073,7 +20109,7 @@ found 2 activities
 
 Downloading ifcwbg-gn from https://disclosures.ifc.org/iati/ifc-gn.xml
 Parsing ifcwbg-gn from https://disclosures.ifc.org/iati/ifc-gn.xml
-found 15 activities
+found 16 activities
 
 Downloading ifcwbg-gr from https://disclosures.ifc.org/iati/ifc-gr.xml
 Parsing ifcwbg-gr from https://disclosures.ifc.org/iati/ifc-gr.xml
@@ -28656,7 +28692,7 @@ found 1 organisations
 
 Downloading rvo-01 from https://projects.rvo.nl/opendata/iati.xml
 Parsing rvo-01 from https://projects.rvo.nl/opendata/iati.xml
-found 4408 activities
+found 4410 activities
 
 Downloading rvo-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/rvo-activities.xml
 Parsing rvo-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/rvo-activities.xml
@@ -35932,7 +35968,7 @@ found 48 activities
 
 Downloading unicef-azerbaijan from https://open.unicef.org/sites/transparency/files/countrydata/iatiActivity_Azerbaijan.xml
 Parsing unicef-azerbaijan from https://open.unicef.org/sites/transparency/files/countrydata/iatiActivity_Azerbaijan.xml
-found 59 activities
+found 60 activities
 
 Downloading unicef-bangladesh from https://open.unicef.org/sites/transparency/files/countrydata/iatiActivity_Bangladesh.xml
 Parsing unicef-bangladesh from https://open.unicef.org/sites/transparency/files/countrydata/iatiActivity_Bangladesh.xml
@@ -35960,7 +35996,7 @@ found 69 activities
 
 Downloading unicef-bolivia from https://open.unicef.org/sites/transparency/files/countrydata/iatiActivity_Bolivia.xml
 Parsing unicef-bolivia from https://open.unicef.org/sites/transparency/files/countrydata/iatiActivity_Bolivia.xml
-found 128 activities
+found 127 activities
 
 Downloading unicef-bosniaherzegovina from https://open.unicef.org/sites/transparency/files/countrydata/iatiActivity_Bosnia%20and%20Herzegovina.xml
 Parsing unicef-bosniaherzegovina from https://open.unicef.org/sites/transparency/files/countrydata/iatiActivity_Bosnia%20and%20Herzegovina.xml
@@ -35980,7 +36016,7 @@ found 75 activities
 
 Downloading unicef-burkinafaso from https://open.unicef.org/sites/transparency/files/countrydata/iatiActivity_Burkina%20Faso.xml
 Parsing unicef-burkinafaso from https://open.unicef.org/sites/transparency/files/countrydata/iatiActivity_Burkina%20Faso.xml
-found 77 activities
+found 76 activities
 
 Downloading unicef-burundi from https://open.unicef.org/sites/transparency/files/countrydata/iatiActivity_Burundi.xml
 Parsing unicef-burundi from https://open.unicef.org/sites/transparency/files/countrydata/iatiActivity_Burundi.xml
@@ -36088,7 +36124,7 @@ found 135 activities
 
 Downloading unicef-esaro from https://open.unicef.org/sites/transparency/files/countrydata/iatiActivity_ESAR.xml
 Parsing unicef-esaro from https://open.unicef.org/sites/transparency/files/countrydata/iatiActivity_ESAR.xml
-found 124 activities
+found 123 activities
 
 Downloading unicef-eswatini from https://open.unicef.org/sites/transparency/files/countrydata/iatiActivity_Eswatini.xml
 Parsing unicef-eswatini from https://open.unicef.org/sites/transparency/files/countrydata/iatiActivity_Eswatini.xml
@@ -36096,8 +36132,7 @@ found 78 activities
 
 Downloading unicef-ethiopia from https://open.unicef.org/sites/transparency/files/countrydata/iatiActivity_Ethiopia.xml
 Parsing unicef-ethiopia from https://open.unicef.org/sites/transparency/files/countrydata/iatiActivity_Ethiopia.xml
-dflat: invalid XML format
-restored 261 files
+found 261 activities
 
 Downloading unicef-gabon from https://open.unicef.org/sites/transparency/files/countrydata/iatiActivity_Gabon.xml
 Parsing unicef-gabon from https://open.unicef.org/sites/transparency/files/countrydata/iatiActivity_Gabon.xml
@@ -36229,7 +36264,7 @@ found 69 activities
 
 Downloading unicef-maldives from https://open.unicef.org/sites/transparency/files/countrydata/iatiActivity_Maldives.xml
 Parsing unicef-maldives from https://open.unicef.org/sites/transparency/files/countrydata/iatiActivity_Maldives.xml
-found 58 activities
+found 59 activities
 
 Downloading unicef-mali from https://open.unicef.org/sites/transparency/files/countrydata/iatiActivity_Mali.xml
 Parsing unicef-mali from https://open.unicef.org/sites/transparency/files/countrydata/iatiActivity_Mali.xml
@@ -36245,7 +36280,7 @@ found 146 activities
 
 Downloading unicef-mexico from https://open.unicef.org/sites/transparency/files/countrydata/iatiActivity_Mexico.xml
 Parsing unicef-mexico from https://open.unicef.org/sites/transparency/files/countrydata/iatiActivity_Mexico.xml
-found 67 activities
+found 68 activities
 
 Downloading unicef-moldova from https://open.unicef.org/sites/transparency/files/countrydata/iatiActivity_Moldova.xml
 Parsing unicef-moldova from https://open.unicef.org/sites/transparency/files/countrydata/iatiActivity_Moldova.xml
@@ -36357,7 +36392,7 @@ found 91 activities
 
 Downloading unicef-philippines from https://open.unicef.org/sites/transparency/files/countrydata/iatiActivity_Philippines.xml
 Parsing unicef-philippines from https://open.unicef.org/sites/transparency/files/countrydata/iatiActivity_Philippines.xml
-found 72 activities
+found 73 activities
 
 Downloading unicef-poland from https://open.unicef.org/sites/transparency/files/countrydata/iatiActivity_Poland.xml
 Parsing unicef-poland from https://open.unicef.org/sites/transparency/files/countrydata/iatiActivity_Poland.xml
@@ -36397,7 +36432,7 @@ found 188 activities
 
 Downloading unicef-somalia from https://open.unicef.org/sites/transparency/files/countrydata/iatiActivity_Somalia.xml
 Parsing unicef-somalia from https://open.unicef.org/sites/transparency/files/countrydata/iatiActivity_Somalia.xml
-found 282 activities
+found 283 activities
 
 Downloading unicef-southafrica from https://open.unicef.org/sites/transparency/files/countrydata/iatiActivity_South%20Africa.xml
 Parsing unicef-southafrica from https://open.unicef.org/sites/transparency/files/countrydata/iatiActivity_South%20Africa.xml
@@ -36457,7 +36492,7 @@ found 85 activities
 
 Downloading unicef-ukraine from https://open.unicef.org/sites/transparency/files/countrydata/iatiActivity_Ukraine.xml
 Parsing unicef-ukraine from https://open.unicef.org/sites/transparency/files/countrydata/iatiActivity_Ukraine.xml
-found 79 activities
+found 80 activities
 
 Downloading unicef-uruguay from https://open.unicef.org/sites/transparency/files/countrydata/iatiActivity_Uruguay.xml
 Parsing unicef-uruguay from https://open.unicef.org/sites/transparency/files/countrydata/iatiActivity_Uruguay.xml
@@ -36481,7 +36516,7 @@ found 115 activities
 
 Downloading unicef-yemen from https://open.unicef.org/sites/transparency/files/countrydata/iatiActivity_Yemen.xml
 Parsing unicef-yemen from https://open.unicef.org/sites/transparency/files/countrydata/iatiActivity_Yemen.xml
-found 170 activities
+found 171 activities
 
 Downloading unicef-zambia from https://open.unicef.org/sites/transparency/files/countrydata/iatiActivity_Zambia.xml
 Parsing unicef-zambia from https://open.unicef.org/sites/transparency/files/countrydata/iatiActivity_Zambia.xml
@@ -38617,7 +38652,7 @@ found 110 activities
 
 Downloading unocha-cbpf-ukraine-allocation-2023 from https://cbpfapi.unocha.org/iati/iati/81/2023/GetAllocation.xml
 Parsing unocha-cbpf-ukraine-allocation-2023 from https://cbpfapi.unocha.org/iati/iati/81/2023/GetAllocation.xml
-found 59 activities
+found 61 activities
 
 Downloading unocha-cbpf-ukraine-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/81/2024/GetAllocation.xml
 Parsing unocha-cbpf-ukraine-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/81/2024/GetAllocation.xml
