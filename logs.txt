@@ -3960,8 +3960,10 @@ Parsing ausgov-gd from https://www.dfat.gov.au/sites/default/files/Australian_Ai
 found 24 activities
 
 Downloading ausgov-ge from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Georgia.xml
+curl: download ERROR 000
 Parsing ausgov-ge from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Georgia.xml
-found 5 activities
+dflat: input XML file does not exist
+restored 5 files
 
 Downloading ausgov-gh from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Ghana.xml
 Parsing ausgov-gh from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Ghana.xml
@@ -4218,8 +4220,10 @@ Parsing ausgov-py from https://www.dfat.gov.au/sites/default/files/Australian_Ai
 found 30 activities
 
 Downloading ausgov-rs from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Serbia.xml
+curl: download ERROR 000
 Parsing ausgov-rs from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Serbia.xml
-found 22 activities
+dflat: input XML file does not exist
+restored 22 files
 
 Downloading ausgov-rw from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Rwanda.xml
 Parsing ausgov-rw from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Rwanda.xml
@@ -7157,19 +7161,20 @@ Parsing cidr-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/ci
 found 1 activities
 
 Downloading cif-389 from http://siteresources.worldbank.org/IATI/CIF/CIF-389.xml
-curl: download ERROR 404
 Parsing cif-389 from http://siteresources.worldbank.org/IATI/CIF/CIF-389.xml
-dflat: input XML file does not exist
+dflat: invalid XML format
 restored 0 files
 
 Downloading cif-889 from http://siteresources.worldbank.org/IATI/CIF/CIF-889.xml
+curl: download ERROR 404
 Parsing cif-889 from http://siteresources.worldbank.org/IATI/CIF/CIF-889.xml
-dflat: invalid XML format
+dflat: input XML file does not exist
 restored 0 files
 
 Downloading cif-998 from http://siteresources.worldbank.org/IATI/CIF/CIF-998.xml
+curl: download ERROR 404
 Parsing cif-998 from http://siteresources.worldbank.org/IATI/CIF/CIF-998.xml
-dflat: invalid XML format
+dflat: input XML file does not exist
 restored 0 files
 
 Downloading c_i_f-activities from https://iatipublisher-prod.s3.amazonaws.com/xml/mergedActivityXml/c_i_f-activities.xml
@@ -23896,11 +23901,11 @@ found 2 activities
 
 Downloading mfat-iati-africa from https://www.mfat.govt.nz/assets/Aid/IATI/IATI-Africa.xml
 Parsing mfat-iati-africa from https://www.mfat.govt.nz/assets/Aid/IATI/IATI-Africa.xml
-found 131 activities
+found 132 activities
 
 Downloading mfat-iati-asean from https://www.mfat.govt.nz/assets/Aid/IATI/IATI-ASEAN.xml
 Parsing mfat-iati-asean from https://www.mfat.govt.nz/assets/Aid/IATI/IATI-ASEAN.xml
-found 249 activities
+found 251 activities
 
 Downloading mfat-iati-cook-islands from https://www.mfat.govt.nz/assets/Aid/IATI/IATI-Cook-Islands.xml
 Parsing mfat-iati-cook-islands from https://www.mfat.govt.nz/assets/Aid/IATI/IATI-Cook-Islands.xml
@@ -23908,11 +23913,11 @@ found 50 activities
 
 Downloading mfat-iati-fiji from https://www.mfat.govt.nz/assets/Aid/IATI/IATI-Fiji.xml
 Parsing mfat-iati-fiji from https://www.mfat.govt.nz/assets/Aid/IATI/IATI-Fiji.xml
-found 137 activities
+found 138 activities
 
 Downloading mfat-iati-kiribati from https://www.mfat.govt.nz/assets/Aid/IATI/IATI-Kiribati.xml
 Parsing mfat-iati-kiribati from https://www.mfat.govt.nz/assets/Aid/IATI/IATI-Kiribati.xml
-found 86 activities
+found 85 activities
 
 Downloading mfat-iati-latin-america-and-caribbean from https://www.mfat.govt.nz/assets/Aid/IATI/IATI-Latin-America-Caribbean.xml
 Parsing mfat-iati-latin-america-and-caribbean from https://www.mfat.govt.nz/assets/Aid/IATI/IATI-Latin-America-Caribbean.xml
@@ -23920,7 +23925,7 @@ found 74 activities
 
 Downloading mfat-iati-multi-country from https://www.mfat.govt.nz/assets/Aid/IATI/IATI-Multi-Country.xml
 Parsing mfat-iati-multi-country from https://www.mfat.govt.nz/assets/Aid/IATI/IATI-Multi-Country.xml
-found 296 activities
+found 304 activities
 
 Downloading mfat-iati-multilateral-agencies from https://www.mfat.govt.nz/assets/Aid/IATI/IATI-Multilateral-Agencies.xml
 Parsing mfat-iati-multilateral-agencies from https://www.mfat.govt.nz/assets/Aid/IATI/IATI-Multilateral-Agencies.xml
@@ -23928,7 +23933,7 @@ found 135 activities
 
 Downloading mfat-iati-nauru from https://www.mfat.govt.nz/assets/Aid/IATI/IATI-Nauru.xml
 Parsing mfat-iati-nauru from https://www.mfat.govt.nz/assets/Aid/IATI/IATI-Nauru.xml
-found 21 activities
+found 22 activities
 
 Downloading mfat-iati-niue from https://www.mfat.govt.nz/assets/Aid/IATI/IATI-Niue.xml
 Parsing mfat-iati-niue from https://www.mfat.govt.nz/assets/Aid/IATI/IATI-Niue.xml
@@ -23936,19 +23941,19 @@ found 61 activities
 
 Downloading mfat-iati-north-pacific from https://www.mfat.govt.nz/assets/Aid/IATI/IATI-North-Pacific.xml
 Parsing mfat-iati-north-pacific from https://www.mfat.govt.nz/assets/Aid/IATI/IATI-North-Pacific.xml
-found 19 activities
+found 20 activities
 
 Downloading mfat-iati-other-asia from https://www.mfat.govt.nz/assets/Aid/IATI/IATI-Other-Asia.xml
 Parsing mfat-iati-other-asia from https://www.mfat.govt.nz/assets/Aid/IATI/IATI-Other-Asia.xml
-found 152 activities
+found 153 activities
 
 Downloading mfat-iati-pacific-regional from https://www.mfat.govt.nz/assets/Aid/IATI/IATI-Pacific-Regional.xml
 Parsing mfat-iati-pacific-regional from https://www.mfat.govt.nz/assets/Aid/IATI/IATI-Pacific-Regional.xml
-found 341 activities
+found 342 activities
 
 Downloading mfat-iati-papua-new-guinea from https://www.mfat.govt.nz/assets/Aid/IATI/IATI-Papua-New-Guinea.xml
 Parsing mfat-iati-papua-new-guinea from https://www.mfat.govt.nz/assets/Aid/IATI/IATI-Papua-New-Guinea.xml
-found 114 activities
+found 113 activities
 
 Downloading mfat-iati-samoa from https://www.mfat.govt.nz/assets/Aid/IATI/IATI-Samoa.xml
 Parsing mfat-iati-samoa from https://www.mfat.govt.nz/assets/Aid/IATI/IATI-Samoa.xml
@@ -23956,7 +23961,7 @@ found 81 activities
 
 Downloading mfat-iati-solomon-islands from https://www.mfat.govt.nz/assets/Aid/IATI/IATI-Solomon-Islands.xml
 Parsing mfat-iati-solomon-islands from https://www.mfat.govt.nz/assets/Aid/IATI/IATI-Solomon-Islands.xml
-found 102 activities
+found 107 activities
 
 Downloading mfat-iati-timor-leste from https://www.mfat.govt.nz/assets/Aid/IATI/IATI-Timor-Leste.xml
 Parsing mfat-iati-timor-leste from https://www.mfat.govt.nz/assets/Aid/IATI/IATI-Timor-Leste.xml
@@ -23968,7 +23973,7 @@ found 50 activities
 
 Downloading mfat-iati-tonga from https://www.mfat.govt.nz/assets/Aid/IATI/IATI-Tonga.xml
 Parsing mfat-iati-tonga from https://www.mfat.govt.nz/assets/Aid/IATI/IATI-Tonga.xml
-found 108 activities
+found 109 activities
 
 Downloading mfat-iati-tuvalu from https://www.mfat.govt.nz/assets/Aid/IATI/IATI-Tuvalu.xml
 Parsing mfat-iati-tuvalu from https://www.mfat.govt.nz/assets/Aid/IATI/IATI-Tuvalu.xml
@@ -23976,7 +23981,7 @@ found 43 activities
 
 Downloading mfat-iati-vanuatu from https://www.mfat.govt.nz/assets/Aid/IATI/IATI-Vanuatu.xml
 Parsing mfat-iati-vanuatu from https://www.mfat.govt.nz/assets/Aid/IATI/IATI-Vanuatu.xml
-found 111 activities
+found 108 activities
 
 Downloading mfat-org-file from https://www.mfat.govt.nz/assets/Aid/IATI/NZ-MFAT-IATI-ORG.xml
 Parsing mfat-org-file from https://www.mfat.govt.nz/assets/Aid/IATI/NZ-MFAT-IATI-ORG.xml
@@ -36534,7 +36539,7 @@ found 70 activities
 
 Downloading unocha-cbpf-ethiopia-allocation-2023 from https://cbpfapi.unocha.org/iati/iati/53/2023/GetAllocation.xml
 Parsing unocha-cbpf-ethiopia-allocation-2023 from https://cbpfapi.unocha.org/iati/iati/53/2023/GetAllocation.xml
-found 26 activities
+found 32 activities
 
 Downloading unocha-cbpf-ethiopia-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/53/2024/GetAllocation.xml
 Parsing unocha-cbpf-ethiopia-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/53/2024/GetAllocation.xml
@@ -44440,6 +44445,10 @@ found 1 organisations
 Downloading wsm-prog from http://diplomatie.be/oda/IATI_act_pr2022-26_WSM_4007.xml
 Parsing wsm-prog from http://diplomatie.be/oda/IATI_act_pr2022-26_WSM_4007.xml
 found 6 activities
+
+Downloading wsrc1-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/wsrc1-activities.xml
+Parsing wsrc1-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/wsrc1-activities.xml
+found 1 activities
 
 Downloading wsup-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/wsup-activities.xml
 Parsing wsup-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/wsup-activities.xml
