@@ -6992,13 +6992,15 @@ dflat: invalid XML format
 restored 0 files
 
 Downloading cif-889 from http://siteresources.worldbank.org/IATI/CIF/CIF-889.xml
+curl: download ERROR 404
 Parsing cif-889 from http://siteresources.worldbank.org/IATI/CIF/CIF-889.xml
-dflat: invalid XML format
+dflat: input XML file does not exist
 restored 0 files
 
 Downloading cif-998 from http://siteresources.worldbank.org/IATI/CIF/CIF-998.xml
+curl: download ERROR 404
 Parsing cif-998 from http://siteresources.worldbank.org/IATI/CIF/CIF-998.xml
-dflat: invalid XML format
+dflat: input XML file does not exist
 restored 0 files
 
 Downloading c_i_f-activities from https://iatipublisher-prod.s3.amazonaws.com/xml/mergedActivityXml/c_i_f-activities.xml
@@ -18886,7 +18888,7 @@ found 15 activities
 
 Downloading ifad-activitity-ng from https://webapps.ifad.org/iati/ifad_ng_activities.xml
 Parsing ifad-activitity-ng from https://webapps.ifad.org/iati/ifad_ng_activities.xml
-found 12 activities
+found 13 activities
 
 Downloading ifad-activitity-ni from https://webapps.ifad.org/iati/ifad_ni_activities.xml
 Parsing ifad-activitity-ni from https://webapps.ifad.org/iati/ifad_ni_activities.xml
@@ -22821,8 +22823,10 @@ Parsing malariaconsortium-1c from http://www.malariaconsortium.org/IATI-XML/GB-C
 found 2 activities
 
 Downloading malariaconsortium-b8 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-B8.xml
+curl: download ERROR 522
 Parsing malariaconsortium-b8 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-B8.xml
-found 2 activities
+dflat: input XML file does not exist
+restored 2 files
 
 Downloading malariaconsortium-c8 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-C8.xml
 Parsing malariaconsortium-c8 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-C8.xml
@@ -24824,8 +24828,10 @@ Parsing ntfp-ep-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/ntfp-e
 found 1 organisations
 
 Downloading nuffic20171017-nuffic-activities-batch-1 from https://files.aida.tools/activities/NL-KVK-41150085/95a29074-9038-453e-814d-0c7d70de7ba1/Nuffic-Activities-Batch-1.xml
+curl: download ERROR 404
 Parsing nuffic20171017-nuffic-activities-batch-1 from https://files.aida.tools/activities/NL-KVK-41150085/95a29074-9038-453e-814d-0c7d70de7ba1/Nuffic-Activities-Batch-1.xml
-found 6917 activities
+dflat: input XML file does not exist
+restored 6917 files
 
 Downloading nuffic20171017-nuffic-activities-batch-2 from https://files.aida.tools/activities/NL-KVK-41150085/b20fc9c4-3289-4ac1-985e-831e66a9b7d8/Nuffic-Activities-Batch-2.xml
 Parsing nuffic20171017-nuffic-activities-batch-2 from https://files.aida.tools/activities/NL-KVK-41150085/b20fc9c4-3289-4ac1-985e-831e66a9b7d8/Nuffic-Activities-Batch-2.xml
@@ -35821,7 +35827,7 @@ found 300 activities
 
 Downloading unocha-cbpf-afghanistan-allocation-2023 from https://cbpfapi.unocha.org/iati/iati/23/2023/GetAllocation.xml
 Parsing unocha-cbpf-afghanistan-allocation-2023 from https://cbpfapi.unocha.org/iati/iati/23/2023/GetAllocation.xml
-found 96 activities
+found 101 activities
 
 Downloading unocha-cbpf-afghanistan-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/23/2024/GetAllocation.xml
 Parsing unocha-cbpf-afghanistan-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/23/2024/GetAllocation.xml
@@ -36281,7 +36287,7 @@ found 70 activities
 
 Downloading unocha-cbpf-ethiopia-allocation-2023 from https://cbpfapi.unocha.org/iati/iati/53/2023/GetAllocation.xml
 Parsing unocha-cbpf-ethiopia-allocation-2023 from https://cbpfapi.unocha.org/iati/iati/53/2023/GetAllocation.xml
-found 36 activities
+found 40 activities
 
 Downloading unocha-cbpf-ethiopia-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/53/2024/GetAllocation.xml
 Parsing unocha-cbpf-ethiopia-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/53/2024/GetAllocation.xml
@@ -36717,7 +36723,7 @@ found 49 activities
 
 Downloading unocha-cbpf-myanmar-allocation-2023 from https://cbpfapi.unocha.org/iati/iati/59/2023/GetAllocation.xml
 Parsing unocha-cbpf-myanmar-allocation-2023 from https://cbpfapi.unocha.org/iati/iati/59/2023/GetAllocation.xml
-found 37 activities
+found 38 activities
 
 Downloading unocha-cbpf-myanmar-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/59/2024/GetAllocation.xml
 Parsing unocha-cbpf-myanmar-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/59/2024/GetAllocation.xml
