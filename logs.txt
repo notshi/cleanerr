@@ -4020,8 +4020,10 @@ Parsing ausgov-jm from https://www.dfat.gov.au/sites/default/files/Australian_Ai
 found 26 activities
 
 Downloading ausgov-jo from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Jordan.xml
+curl: download ERROR 000
 Parsing ausgov-jo from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Jordan.xml
-found 48 activities
+dflat: input XML file does not exist
+restored 48 files
 
 Downloading ausgov-ke from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Kenya.xml
 Parsing ausgov-ke from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Kenya.xml
@@ -6992,9 +6994,8 @@ dflat: invalid XML format
 restored 0 files
 
 Downloading cif-889 from http://siteresources.worldbank.org/IATI/CIF/CIF-889.xml
-curl: download ERROR 404
 Parsing cif-889 from http://siteresources.worldbank.org/IATI/CIF/CIF-889.xml
-dflat: input XML file does not exist
+dflat: invalid XML format
 restored 0 files
 
 Downloading cif-998 from http://siteresources.worldbank.org/IATI/CIF/CIF-998.xml
@@ -12019,8 +12020,10 @@ Parsing ec-fpi-do from https://ec.europa.eu/international-partnerships/assets/ia
 found 3 activities
 
 Downloading ec-fpi-dz from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_DZ.xml
+curl: download ERROR 000
 Parsing ec-fpi-dz from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_DZ.xml
-found 1 activities
+dflat: input XML file does not exist
+restored 1 files
 
 Downloading ec-fpi-ec from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_EC.xml
 Parsing ec-fpi-ec from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_EC.xml
@@ -18776,7 +18779,7 @@ found 9 activities
 
 Downloading ifad-activitity-ke from https://webapps.ifad.org/iati/ifad_ke_activities.xml
 Parsing ifad-activitity-ke from https://webapps.ifad.org/iati/ifad_ke_activities.xml
-found 20 activities
+found 19 activities
 
 Downloading ifad-activitity-kg from https://webapps.ifad.org/iati/ifad_kg_activities.xml
 Parsing ifad-activitity-kg from https://webapps.ifad.org/iati/ifad_kg_activities.xml
@@ -21282,6 +21285,10 @@ Downloading ksrelief291-dj from https://aidstream.s3.us-west-2.amazonaws.com/xml
 Parsing ksrelief291-dj from https://aidstream.s3.us-west-2.amazonaws.com/xml/ksrelief291-dj.xml
 found 20 activities
 
+Downloading ksrelief291-do from https://aidstream.s3.us-west-2.amazonaws.com/xml/ksrelief291-do.xml
+Parsing ksrelief291-do from https://aidstream.s3.us-west-2.amazonaws.com/xml/ksrelief291-do.xml
+found 1 activities
+
 Downloading ksrelief291-dz from https://aidstream.s3.us-west-2.amazonaws.com/xml/ksrelief291-dz.xml
 Parsing ksrelief291-dz from https://aidstream.s3.us-west-2.amazonaws.com/xml/ksrelief291-dz.xml
 found 2 activities
@@ -22823,10 +22830,8 @@ Parsing malariaconsortium-1c from http://www.malariaconsortium.org/IATI-XML/GB-C
 found 2 activities
 
 Downloading malariaconsortium-b8 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-B8.xml
-curl: download ERROR 522
 Parsing malariaconsortium-b8 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-B8.xml
-dflat: input XML file does not exist
-restored 2 files
+found 2 activities
 
 Downloading malariaconsortium-c8 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-C8.xml
 Parsing malariaconsortium-c8 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-C8.xml
@@ -24828,10 +24833,8 @@ Parsing ntfp-ep-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/ntfp-e
 found 1 organisations
 
 Downloading nuffic20171017-nuffic-activities-batch-1 from https://files.aida.tools/activities/NL-KVK-41150085/95a29074-9038-453e-814d-0c7d70de7ba1/Nuffic-Activities-Batch-1.xml
-curl: download ERROR 404
 Parsing nuffic20171017-nuffic-activities-batch-1 from https://files.aida.tools/activities/NL-KVK-41150085/95a29074-9038-453e-814d-0c7d70de7ba1/Nuffic-Activities-Batch-1.xml
-dflat: input XML file does not exist
-restored 6917 files
+found 6917 activities
 
 Downloading nuffic20171017-nuffic-activities-batch-2 from https://files.aida.tools/activities/NL-KVK-41150085/b20fc9c4-3289-4ac1-985e-831e66a9b7d8/Nuffic-Activities-Batch-2.xml
 Parsing nuffic20171017-nuffic-activities-batch-2 from https://files.aida.tools/activities/NL-KVK-41150085/b20fc9c4-3289-4ac1-985e-831e66a9b7d8/Nuffic-Activities-Batch-2.xml
@@ -28339,9 +28342,8 @@ Parsing sfcg-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/sf
 found 24 activities
 
 Downloading sfcg-be-bce_kbo-0453475391-abc123 from https://docs.google.com/document/d/1nIWoE9SK_rnxRrzFY613ZK-HsAlJ2xmc/edit
-curl: download ERROR 401
 Parsing sfcg-be-bce_kbo-0453475391-abc123 from https://docs.google.com/document/d/1nIWoE9SK_rnxRrzFY613ZK-HsAlJ2xmc/edit
-dflat: input XML file does not exist
+dflat: invalid XML format
 restored 0 files
 
 Downloading sfcg-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/sfcg-org.xml
@@ -32614,8 +32616,9 @@ Parsing uhai-eashri-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/uh
 found 1 organisations
 
 Downloading ukgcc-2023 from https://ukgcc.com.gh/wp-content/uploads/2023_reports/Project_Income_Statement_1.xml
+curl: download ERROR 000
 Parsing ukgcc-2023 from https://ukgcc.com.gh/wp-content/uploads/2023_reports/Project_Income_Statement_1.xml
-dflat: no activities or organisations found in XML file
+dflat: input XML file does not exist
 restored 0 files
 
 Downloading uk-med-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/uk-med-activities.xml
@@ -42239,7 +42242,7 @@ found 2 activities
 
 Downloading wbtf-tf072608 from https://d2mxkr7359ifh6.cloudfront.net/TF072608.xml
 Parsing wbtf-tf072608 from https://d2mxkr7359ifh6.cloudfront.net/TF072608.xml
-found 26 activities
+found 27 activities
 
 Downloading wbtf-tf072613 from https://d2mxkr7359ifh6.cloudfront.net/TF072613.xml
 Parsing wbtf-tf072613 from https://d2mxkr7359ifh6.cloudfront.net/TF072613.xml
