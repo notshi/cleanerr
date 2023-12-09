@@ -824,10 +824,8 @@ Parsing adra_nepal-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/adr
 found 1 organisations
 
 Downloading adra_nepal-scopingstudy from https://aidstream.org/files/xml/adra_nepal-activities.xml
-curl: download ERROR 000
 Parsing adra_nepal-scopingstudy from https://aidstream.org/files/xml/adra_nepal-activities.xml
-dflat: input XML file does not exist
-restored 1 files
+found 1 activities
 
 Downloading adrasom-egep from https://raw.githubusercontent.com/IATI/CSV2IATI-public-backup/master/1461924277.35.xml
 Converting IATI activities version 1.03 to version 2.03
@@ -4344,10 +4342,8 @@ Parsing ausgov-ve from https://www.dfat.gov.au/sites/default/files/Australian_Ai
 found 12 activities
 
 Downloading ausgov-vn from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Viet_Nam.xml
-curl: download ERROR 000
 Parsing ausgov-vn from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Viet_Nam.xml
-dflat: input XML file does not exist
-restored 401 files
+found 401 activities
 
 Downloading ausgov-vu from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Vanuatu.xml
 Parsing ausgov-vu from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Vanuatu.xml
@@ -6742,7 +6738,7 @@ found 1 organisations
 
 Downloading cerf-contributionstodate from https://cerfgms-webapi.unocha.org/v1/iati/donorcontribution.xml
 Parsing cerf-contributionstodate from https://cerfgms-webapi.unocha.org/v1/iati/donorcontribution.xml
-found 1553 activities
+found 1554 activities
 
 Downloading cerf-organization from https://cerfgms-webapi.unocha.org/v1/iati/organizations.xml
 Parsing cerf-organization from https://cerfgms-webapi.unocha.org/v1/iati/organizations.xml
@@ -6972,7 +6968,7 @@ Parsing cibe-prg2022_2026 from http://diplomatie.be/oda/IATI_act_pr2022-26_CARIT
 found 8 activities
 
 Downloading cibe-rw from https://aidstream.org/files/xml/cibe-rw.xml
-curl: download ERROR 000
+curl: download ERROR 404
 Parsing cibe-rw from https://aidstream.org/files/xml/cibe-rw.xml
 dflat: input XML file does not exist
 restored 1 files
@@ -7005,9 +7001,8 @@ Parsing cidr-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/ci
 found 1 activities
 
 Downloading cif-389 from http://siteresources.worldbank.org/IATI/CIF/CIF-389.xml
-curl: download ERROR 404
 Parsing cif-389 from http://siteresources.worldbank.org/IATI/CIF/CIF-389.xml
-dflat: input XML file does not exist
+dflat: invalid XML format
 restored 0 files
 
 Downloading cif-889 from http://siteresources.worldbank.org/IATI/CIF/CIF-889.xml
@@ -7247,8 +7242,9 @@ Parsing cif-ws from http://doumodqax2qi2.cloudfront.net/CIF/CIF-05-2020/CIF-WS.x
 found 2 activities
 
 Downloading cif-ye from http://siteresources.worldbank.org/IATI/CIF/CIF-YE.xml
+curl: download ERROR 404
 Parsing cif-ye from http://siteresources.worldbank.org/IATI/CIF/CIF-YE.xml
-dflat: invalid XML format
+dflat: input XML file does not exist
 restored 0 files
 
 Downloading cif-za from http://doumodqax2qi2.cloudfront.net/CIF/CIF-05-2020/CIF-ZA.xml
@@ -7466,7 +7462,7 @@ Parsing climate-group-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/
 found 1 organisations
 
 Downloading clingendael-998 from https://aidstream.org/files/xml/clingendael-998.xml
-curl: download ERROR 000
+curl: download ERROR 404
 Parsing clingendael-998 from https://aidstream.org/files/xml/clingendael-998.xml
 dflat: input XML file does not exist
 restored 19 files
@@ -8392,10 +8388,8 @@ Parsing ddp-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/ddp
 found 3 activities
 
 Downloading ddp-activityfile1 from https://aidstream.org/files/xml/ddp-activities.xml
-curl: download ERROR 000
 Parsing ddp-activityfile1 from https://aidstream.org/files/xml/ddp-activities.xml
-dflat: input XML file does not exist
-restored 3 files
+found 3 activities
 
 Downloading dec_ethiopia-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/dec_ethiopia-activities.xml
 Parsing dec_ethiopia-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/dec_ethiopia-activities.xml
@@ -9013,9 +9007,8 @@ Parsing dki1151219-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/dki
 found 1 organisations
 
 Downloading dkt-001 from https://aidstream.org/lite/activity/21990
-curl: download ERROR 000
 Parsing dkt-001 from https://aidstream.org/lite/activity/21990
-dflat: input XML file does not exist
+dflat: invalid XML format
 restored 0 files
 
 Downloading dkt-2018 from https://aidstream.s3.amazonaws.com/xml/dkt-us.xml
@@ -13449,7 +13442,7 @@ found 1 activities
 
 Downloading enabel-all-activities from https://open.enabel.be/iati/all-activities.xml
 Parsing enabel-all-activities from https://open.enabel.be/iati/all-activities.xml
-found 1208 activities
+found 1207 activities
 
 Downloading enabel-contractors from https://open.enabel.be/iati/contractors.xml
 Parsing enabel-contractors from https://open.enabel.be/iati/contractors.xml
@@ -14041,10 +14034,9 @@ Parsing femnet-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/femnet-
 found 1 organisations
 
 Downloading ff-activities from http://aidstream.org/files/xml/ff-activities.xml
-curl: download ERROR 308
+Converting IATI activities version 1.02 to version 2.03
 Parsing ff-activities from http://aidstream.org/files/xml/ff-activities.xml
-dflat: input XML file does not exist
-restored 2 files
+found 2 activities
 
 Downloading ffi_publisher-ec from https://aidstream.s3.us-west-2.amazonaws.com/xml/ffi_publisher-ec.xml
 Converting IATI activities version 1.03 to version 2.03
@@ -15126,10 +15118,9 @@ Parsing fm-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/fm-a
 found 0 activities
 
 Downloading fm-cg from http://aidstream.org/public/files/xml/fm-activities.xml
-curl: download ERROR 308
+Converting IATI activities version 1.02 to version 2.03
 Parsing fm-cg from http://aidstream.org/public/files/xml/fm-activities.xml
-dflat: input XML file does not exist
-restored 0 files
+found 0 activities
 
 Downloading fmdqgroupplc_2013-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/fmdqgroupplc_2013-activities.xml
 Parsing fmdqgroupplc_2013-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/fmdqgroupplc_2013-activities.xml
@@ -16030,11 +16021,11 @@ found 1 organisations
 
 Downloading gac-amc-act_2_3 from http://w05.international.gc.ca/projectbrowser-banqueprojets/iita-iati/dfatd-maecd_activit_status_2_3.xml
 Parsing gac-amc-act_2_3 from http://w05.international.gc.ca/projectbrowser-banqueprojets/iita-iati/dfatd-maecd_activit_status_2_3.xml
-found 1935 activities
+found 1922 activities
 
 Downloading gac-amc-act_4 from http://w05.international.gc.ca/projectbrowser-banqueprojets/iita-iati/dfatd-maecd_activit_status_4.xml
 Parsing gac-amc-act_4 from http://w05.international.gc.ca/projectbrowser-banqueprojets/iita-iati/dfatd-maecd_activit_status_4.xml
-found 4555 activities
+found 4568 activities
 
 Downloading gac-amc-org from http://w05.international.gc.ca/projectbrowser-banqueprojets/iita-iati/dfatd-maecd_organisation.xml
 Parsing gac-amc-org from http://w05.international.gc.ca/projectbrowser-banqueprojets/iita-iati/dfatd-maecd_organisation.xml
@@ -16143,9 +16134,8 @@ Parsing gecfundmanagerpwc-org from https://aidstream.s3.us-west-2.amazonaws.com/
 found 1 organisations
 
 Downloading gecfundmanagerpwc-spheir from https://aidstream.org/activity/28425
-curl: download ERROR 000
 Parsing gecfundmanagerpwc-spheir from https://aidstream.org/activity/28425
-dflat: input XML file does not exist
+dflat: invalid XML format
 restored 0 files
 
 Downloading gef-af from https://d2mxkr7359ifh6.cloudfront.net/GEF/AF.xml
@@ -17574,10 +17564,8 @@ Parsing hhs-oceaniaregional from https://iati-reporting.s3.amazonaws.com/departm
 found 2 activities
 
 Downloading hhs-org from https://iati-reporting.s3.amazonaws.com/department_of_health_and_human_services/xml/U.S.+Department+of+Health+and+Human+Services.xml
-curl: download ERROR 403
 Parsing hhs-org from https://iati-reporting.s3.amazonaws.com/department_of_health_and_human_services/xml/U.S.+Department+of+Health+and+Human+Services.xml
-dflat: input XML file does not exist
-restored 1 files
+found 1 organisations
 
 Downloading hhs-pakistan from https://iati-reporting.s3.amazonaws.com/department_of_health_and_human_services/xml/iati-activities-Pakistan.xml
 Parsing hhs-pakistan from https://iati-reporting.s3.amazonaws.com/department_of_health_and_human_services/xml/iati-activities-Pakistan.xml
@@ -18207,10 +18195,8 @@ Parsing iaf-uruguay from https://iati-reporting.s3.amazonaws.com/inter-american_
 found 35 activities
 
 Downloading iavi-dfid2 from https://aidstream.org/files/xml/iavi-org.xml
-curl: download ERROR 000
 Parsing iavi-dfid2 from https://aidstream.org/files/xml/iavi-org.xml
-dflat: input XML file does not exist
-restored 1 files
+found 1 organisations
 
 Downloading iavi-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/iavi-org.xml
 Parsing iavi-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/iavi-org.xml
@@ -18400,10 +18386,8 @@ Parsing idea-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/id
 found 1358 activities
 
 Downloading ide-activities_nep from https://aidstream.org/files/xml/ide-activities.xml
-curl: download ERROR 000
 Parsing ide-activities_nep from https://aidstream.org/files/xml/ide-activities.xml
-dflat: input XML file does not exist
-restored 3 files
+found 3 activities
 
 Downloading ide-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/ide-activities.xml
 Parsing ide-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/ide-activities.xml
@@ -18542,10 +18526,8 @@ Parsing ieu-298 from https://aidstream.s3.us-west-2.amazonaws.com/xml/ieu-298.xm
 found 1 activities
 
 Downloading ieu-4105 from https://aidstream.org/files/xml/ieu-998.xml
-curl: download ERROR 000
 Parsing ieu-4105 from https://aidstream.org/files/xml/ieu-998.xml
-dflat: input XML file does not exist
-restored 1 files
+found 1 activities
 
 Downloading ieu-589 from https://aidstream.s3.us-west-2.amazonaws.com/xml/ieu-589.xml
 Parsing ieu-589 from https://aidstream.s3.us-west-2.amazonaws.com/xml/ieu-589.xml
@@ -19221,7 +19203,7 @@ found 1 activities
 
 Downloading ifcwbg-bd from https://disclosures.ifc.org/iati/ifc-bd.xml
 Parsing ifcwbg-bd from https://disclosures.ifc.org/iati/ifc-bd.xml
-found 85 activities
+found 86 activities
 
 Downloading ifcwbg-bf from https://disclosures.ifc.org/iati/ifc-bf.xml
 Parsing ifcwbg-bf from https://disclosures.ifc.org/iati/ifc-bf.xml
@@ -19389,7 +19371,7 @@ found 2 activities
 
 Downloading ifcwbg-hn from https://disclosures.ifc.org/iati/ifc-hn.xml
 Parsing ifcwbg-hn from https://disclosures.ifc.org/iati/ifc-hn.xml
-found 18 activities
+found 19 activities
 
 Downloading ifcwbg-hr from https://disclosures.ifc.org/iati/ifc-hr.xml
 Parsing ifcwbg-hr from https://disclosures.ifc.org/iati/ifc-hr.xml
@@ -20016,6 +19998,10 @@ found 730 activities
 Downloading ifrcrcs-act202309 from http://www.ifrc.org/Docs/IATI%20Publications/IATI_activity_202309.xml
 Parsing ifrcrcs-act202309 from http://www.ifrc.org/Docs/IATI%20Publications/IATI_activity_202309.xml
 found 741 activities
+
+Downloading ifrcrcs-act202310 from http://www.ifrc.org/Docs/IATI%20Publications/IATI_activity_202310.xml
+Parsing ifrcrcs-act202310 from http://www.ifrc.org/Docs/IATI%20Publications/IATI_activity_202310.xml
+found 757 activities
 
 Downloading ifrcrcs-org2018 from http://www.ifrc.org/Docs/IATI%20Publications/IATI_org_2018.xml
 Parsing ifrcrcs-org2018 from http://www.ifrc.org/Docs/IATI%20Publications/IATI_org_2018.xml
@@ -20841,7 +20827,7 @@ Parsing iucn_nl-activities from https://greenlivelihoodsalliance.org/images/glad
 found 48 activities
 
 Downloading iucn_nl-org from https://aidstream.org/files/xml/iucn_admin-org.xml
-curl: download ERROR 000
+curl: download ERROR 404
 Parsing iucn_nl-org from https://aidstream.org/files/xml/iucn_admin-org.xml
 dflat: input XML file does not exist
 restored 1 files
@@ -21016,10 +21002,8 @@ Parsing kad-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/kad
 found 5 activities
 
 Downloading karuna-in from http://aidstream.org/public/files/xml/karuna-activities.xml
-curl: download ERROR 308
 Parsing karuna-in from http://aidstream.org/public/files/xml/karuna-activities.xml
-dflat: input XML file does not exist
-restored 2 files
+found 2 activities
 
 Downloading kcdf-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/kcdf-activities.xml
 Parsing kcdf-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/kcdf-activities.xml
@@ -23553,7 +23537,7 @@ Parsing marysmeals-activities from https://aidstream.s3.us-west-2.amazonaws.com/
 found 3 activities
 
 Downloading marysmeals-mw from https://aidstream.org/files/xml/marysmeals-mw.xml
-curl: download ERROR 000
+curl: download ERROR 404
 Parsing marysmeals-mw from https://aidstream.org/files/xml/marysmeals-mw.xml
 dflat: input XML file does not exist
 restored 1 files
@@ -23583,10 +23567,8 @@ Parsing maydayrescue-lb from https://aidstream.s3.us-west-2.amazonaws.com/xml/ma
 found 1 activities
 
 Downloading maydayrescue-org from https://aidstream.org/files/xml/perthiessen-org.xml
-curl: download ERROR 000
 Parsing maydayrescue-org from https://aidstream.org/files/xml/perthiessen-org.xml
-dflat: input XML file does not exist
-restored 1 files
+found 1 organisations
 
 Downloading maydayrescue-sy from https://aidstream.s3.us-west-2.amazonaws.com/xml/maydayrescue-sy.xml
 Parsing maydayrescue-sy from https://aidstream.s3.us-west-2.amazonaws.com/xml/maydayrescue-sy.xml
@@ -24187,10 +24169,8 @@ Parsing mm1-dataset_240522 from http://ftp.mensenmeteenmissie.nl/IATI/MM/IATI-ac
 found 13 activities
 
 Downloading mm1-drc from https://aidstream.org/files/xml/mm1-org.xml
-curl: download ERROR 000
 Parsing mm1-drc from https://aidstream.org/files/xml/mm1-org.xml
-dflat: input XML file does not exist
-restored 1 files
+found 1 organisations
 
 Downloading mm1-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/mm1-org.xml
 Parsing mm1-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/mm1-org.xml
@@ -24542,10 +24522,8 @@ Parsing network4africa-org from https://aidstream.s3.us-west-2.amazonaws.com/xml
 found 1 organisations
 
 Downloading nfn-np from http://aidstream.org/files/xml/nfn-np.xml
-curl: download ERROR 308
 Parsing nfn-np from http://aidstream.org/files/xml/nfn-np.xml
-dflat: input XML file does not exist
-restored 1 files
+found 1 activities
 
 Downloading nfp-nfp-iati from https://files.aida.tools/activities/NL-KVK-30204842/5106336c-d1fe-4bdf-98fd-0036184cbcac/NFP-IATI.xml
 Parsing nfp-nfp-iati from https://files.aida.tools/activities/NL-KVK-30204842/5106336c-d1fe-4bdf-98fd-0036184cbcac/NFP-IATI.xml
@@ -24614,10 +24592,8 @@ Parsing nl-kvk-41207989-org from https://aidstream.s3.us-west-2.amazonaws.com/xm
 found 1 organisations
 
 Downloading nl-kvk-54436222-27541-org from https://aidstream.org/files/xml/NL-KvK-54436222-27541-org.xml
-curl: download ERROR 000
 Parsing nl-kvk-54436222-27541-org from https://aidstream.org/files/xml/NL-KvK-54436222-27541-org.xml
-dflat: input XML file does not exist
-restored 1 files
+found 1 organisations
 
 Downloading nl-kvk-54436222-27541-stitch2021 from https://files.aida.tools/activities/NL-KVK-54436222/b483af1b-e7be-4a91-9949-e4208853dc5f/STITCH2021.xml
 Parsing nl-kvk-54436222-27541-stitch2021 from https://files.aida.tools/activities/NL-KVK-54436222/b483af1b-e7be-4a91-9949-e4208853dc5f/STITCH2021.xml
@@ -24841,16 +24817,12 @@ Parsing nrt-kenya-activities from https://aidstream.s3.us-west-2.amazonaws.com/x
 found 2 activities
 
 Downloading nrt-kenya-soc_2016 from https://aidstream.org/files/xml/nrt-kenya-activities.xml
-curl: download ERROR 000
 Parsing nrt-kenya-soc_2016 from https://aidstream.org/files/xml/nrt-kenya-activities.xml
-dflat: input XML file does not exist
-restored 2 files
+found 2 activities
 
 Downloading nrt-kenya-soc_2017 from https://aidstream.org/files/xml/nrt-kenya-activities.xml
-curl: download ERROR 000
 Parsing nrt-kenya-soc_2017 from https://aidstream.org/files/xml/nrt-kenya-activities.xml
-dflat: input XML file does not exist
-restored 2 files
+found 2 activities
 
 Downloading nso-activity-v1 from https://g4aw.spaceoffice.nl/files/files/G4AW/IATI/iati_g4aw_20230720.xml
 Parsing nso-activity-v1 from https://g4aw.spaceoffice.nl/files/files/G4AW/IATI/iati_g4aw_20230720.xml
@@ -25375,7 +25347,7 @@ found 2210 activities
 
 Downloading onl-activity from https://www.oxfamnovib.nl/redactie/Downloads/XML/iati.xml
 Parsing onl-activity from https://www.oxfamnovib.nl/redactie/Downloads/XML/iati.xml
-found 2182 activities
+found 2183 activities
 
 Downloading onl-org from https://www.oxfamnovib.nl/redactie/downloads/xml/IATI_NL-KVK-27108436.xml
 Parsing onl-org from https://www.oxfamnovib.nl/redactie/downloads/xml/IATI_NL-KVK-27108436.xml
@@ -26201,6 +26173,10 @@ Downloading pax-pax-c34-r11p013-activitiesfile from https://files.aida.tools/act
 Parsing pax-pax-c34-r11p013-activitiesfile from https://files.aida.tools/activities/NL-KVK-30214009/007c098e-bdcd-44df-87f5-e25e0b3b2304/PAX-C34-R11P013-Activitiesfile.xml
 found 2 activities
 
+Downloading pax-pax_c386_activityfile_231116 from https://files.aida.tools/activities/NL-KVK-30214009/248b4397-7d1a-4762-bf08-36aae6271595/PAX_C386_activityfile_231116.xml
+Parsing pax-pax_c386_activityfile_231116 from https://files.aida.tools/activities/NL-KVK-30214009/248b4397-7d1a-4762-bf08-36aae6271595/PAX_C386_activityfile_231116.xml
+found 4 activities
+
 Downloading pax-pax-iati-organisationfile from https://files.aida.tools/organisation/NL-KVK-30214009/bbb5edce-5e15-4b6f-9ea5-fbeca29e4e28/PAX-IATI-organisationfile.xml
 Parsing pax-pax-iati-organisationfile from https://files.aida.tools/organisation/NL-KVK-30214009/bbb5edce-5e15-4b6f-9ea5-fbeca29e4e28/PAX-IATI-organisationfile.xml
 found 1 organisations
@@ -26219,6 +26195,10 @@ found 10 activities
 
 Downloading pax-pax-ss6p0165-activitiesfile from https://files.aida.tools/activities/NL-KVK-30214009/b31d6a7f-20ba-436e-817e-795e3c3b308f/PAX-SS6P0165-Activitiesfile.xml
 Parsing pax-pax-ss6p0165-activitiesfile from https://files.aida.tools/activities/NL-KVK-30214009/b31d6a7f-20ba-436e-817e-795e3c3b308f/PAX-SS6P0165-Activitiesfile.xml
+found 1 activities
+
+Downloading pax-pax_ss6p0206_activityfile_231208 from https://files.aida.tools/activities/NL-KVK-30214009/b43bdcbb-b3b5-46c3-850b-fc4e36b11b6c/PAX_SS6P0206_Activityfile_231208.xml
+Parsing pax-pax_ss6p0206_activityfile_231208 from https://files.aida.tools/activities/NL-KVK-30214009/b43bdcbb-b3b5-46c3-850b-fc4e36b11b6c/PAX_SS6P0206_Activityfile_231208.xml
 found 1 activities
 
 Downloading pax-pax-ua6p0199 from https://files.aida.tools/activities/NL-KVK-30214009/9027c3f6-1b5f-400d-971d-ab70b785e54f/PAX-UA6P0199.xml
@@ -26282,9 +26262,8 @@ Parsing pcf-org2020 from https://aidstream.s3.us-west-2.amazonaws.com/xml/pcf-99
 found 9 activities
 
 Downloading pcf-org2021 from https://aidstream.org/activity/44026/xml/view
-curl: download ERROR 000
 Parsing pcf-org2021 from https://aidstream.org/activity/44026/xml/view
-dflat: input XML file does not exist
+dflat: invalid XML format
 restored 0 files
 
 Downloading pcf-pe from https://aidstream.s3.us-west-2.amazonaws.com/xml/pcf-pe.xml
@@ -27113,6 +27092,10 @@ Downloading psi-1027 from https://aidstream.s3.us-west-2.amazonaws.com/xml/psi-1
 Parsing psi-1027 from https://aidstream.s3.us-west-2.amazonaws.com/xml/psi-1027.xml
 found 3 activities
 
+Downloading psi-289 from https://aidstream.s3.us-west-2.amazonaws.com/xml/psi-289.xml
+Parsing psi-289 from https://aidstream.s3.us-west-2.amazonaws.com/xml/psi-289.xml
+found 1 activities
+
 Downloading psi-298 from https://aidstream.s3.us-west-2.amazonaws.com/xml/psi-298.xml
 Parsing psi-298 from https://aidstream.s3.us-west-2.amazonaws.com/xml/psi-298.xml
 found 5 activities
@@ -27279,10 +27262,8 @@ Parsing qrfed-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/q
 found 45 activities
 
 Downloading qrfed-fy17-18 from https://aidstream.org/files/xml/qrfed-activities.xml
-curl: download ERROR 000
 Parsing qrfed-fy17-18 from https://aidstream.org/files/xml/qrfed-activities.xml
-dflat: input XML file does not exist
-restored 45 files
+found 45 activities
 
 Downloading qrfed-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/qrfed-org.xml
 Parsing qrfed-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/qrfed-org.xml
@@ -27564,10 +27545,9 @@ Parsing rem-cd from https://aidstream.s3.us-west-2.amazonaws.com/xml/rem-cd.xml
 found 1 activities
 
 Downloading rem-congo from http://aidstream.org/files/xml/rem-congo.xml
-curl: download ERROR 308
+Converting IATI activities version 1.02 to version 2.03
 Parsing rem-congo from http://aidstream.org/files/xml/rem-congo.xml
-dflat: input XML file does not exist
-restored 1 files
+found 1 activities
 
 Downloading rem-lk from https://aidstream.s3.us-west-2.amazonaws.com/xml/rem-lk.xml
 Converting IATI activities version 1.02 to version 2.03
@@ -27791,16 +27771,12 @@ Parsing rstmh-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/rstmh-or
 found 1 organisations
 
 Downloading rtp-activities from https://aidstream.org/files/xml/rtp-activities.xml
-curl: download ERROR 000
 Parsing rtp-activities from https://aidstream.org/files/xml/rtp-activities.xml
-dflat: input XML file does not exist
-restored 1 files
+found 1 activities
 
 Downloading rtp-org from https://aidstream.org/files/xml/rtp-org.xml
-curl: download ERROR 000
 Parsing rtp-org from https://aidstream.org/files/xml/rtp-org.xml
-dflat: input XML file does not exist
-restored 1 files
+found 1 organisations
 
 Downloading rtp_uk-activities from https://iatipublisher-prod.s3.amazonaws.com/xml/mergedActivityXml/rtp_uk-activities.xml
 Parsing rtp_uk-activities from https://iatipublisher-prod.s3.amazonaws.com/xml/mergedActivityXml/rtp_uk-activities.xml
@@ -27844,7 +27820,7 @@ found 1 organisations
 
 Downloading rvo-01 from https://projects.rvo.nl/opendata/iati.xml
 Parsing rvo-01 from https://projects.rvo.nl/opendata/iati.xml
-found 4533 activities
+found 4534 activities
 
 Downloading rvo-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/rvo-activities.xml
 Parsing rvo-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/rvo-activities.xml
@@ -28316,10 +28292,8 @@ Parsing seefar-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/seefar-
 found 1 organisations
 
 Downloading sehatkahanicih-sec-pk01 from https://aidstream.org/files/xml/PK-SEC-0105957-activities.xml
-curl: download ERROR 000
 Parsing sehatkahanicih-sec-pk01 from https://aidstream.org/files/xml/PK-SEC-0105957-activities.xml
-dflat: input XML file does not exist
-restored 1 files
+found 1 activities
 
 Downloading self-help-africa-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/self-help-africa-activities.xml
 Parsing self-help-africa-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/self-help-africa-activities.xml
@@ -30618,7 +30592,7 @@ found 1 organisations
 
 Downloading st_vluchteling-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/st_vluchteling-activities.xml
 Parsing st_vluchteling-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/st_vluchteling-activities.xml
-found 89 activities
+found 91 activities
 
 Downloading st_vluchteling-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/st_vluchteling-org.xml
 Parsing st_vluchteling-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/st_vluchteling-org.xml
@@ -36336,7 +36310,7 @@ found 70 activities
 
 Downloading unocha-cbpf-ethiopia-allocation-2023 from https://cbpfapi.unocha.org/iati/iati/53/2023/GetAllocation.xml
 Parsing unocha-cbpf-ethiopia-allocation-2023 from https://cbpfapi.unocha.org/iati/iati/53/2023/GetAllocation.xml
-found 43 activities
+found 44 activities
 
 Downloading unocha-cbpf-ethiopia-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/53/2024/GetAllocation.xml
 Parsing unocha-cbpf-ethiopia-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/53/2024/GetAllocation.xml
@@ -37120,7 +37094,7 @@ found 18 activities
 
 Downloading unocha-cbpf-opt-contribution-2023 from https://cbpfapi.unocha.org/iati/iati/67/2023/GetContribution.xml
 Parsing unocha-cbpf-opt-contribution-2023 from https://cbpfapi.unocha.org/iati/iati/67/2023/GetContribution.xml
-found 23 activities
+found 24 activities
 
 Downloading unocha-cbpf-opt-contribution-2024 from https://cbpfapi.unocha.org/iati/iati/67/2024/GetContribution.xml
 Parsing unocha-cbpf-opt-contribution-2024 from https://cbpfapi.unocha.org/iati/iati/67/2024/GetContribution.xml
@@ -37300,7 +37274,7 @@ found 145 activities
 
 Downloading unocha-cbpf-somalia-allocation-2023 from https://cbpfapi.unocha.org/iati/iati/21/2023/GetAllocation.xml
 Parsing unocha-cbpf-somalia-allocation-2023 from https://cbpfapi.unocha.org/iati/iati/21/2023/GetAllocation.xml
-found 109 activities
+found 113 activities
 
 Downloading unocha-cbpf-somalia-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/21/2024/GetAllocation.xml
 Parsing unocha-cbpf-somalia-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/21/2024/GetAllocation.xml
@@ -37732,7 +37706,7 @@ found 113 activities
 
 Downloading unocha-cbpf-syriacrossborder-allocation-2023 from https://cbpfapi.unocha.org/iati/iati/70/2023/GetAllocation.xml
 Parsing unocha-cbpf-syriacrossborder-allocation-2023 from https://cbpfapi.unocha.org/iati/iati/70/2023/GetAllocation.xml
-found 147 activities
+found 150 activities
 
 Downloading unocha-cbpf-syriacrossborder-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/70/2024/GetAllocation.xml
 Parsing unocha-cbpf-syriacrossborder-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/70/2024/GetAllocation.xml
@@ -37768,7 +37742,7 @@ found 27 activities
 
 Downloading unocha-cbpf-syriacrossborder-contribution-2023 from https://cbpfapi.unocha.org/iati/iati/70/2023/GetContribution.xml
 Parsing unocha-cbpf-syriacrossborder-contribution-2023 from https://cbpfapi.unocha.org/iati/iati/70/2023/GetContribution.xml
-found 40 activities
+found 41 activities
 
 Downloading unocha-cbpf-syriacrossborder-contribution-2024 from https://cbpfapi.unocha.org/iati/iati/70/2024/GetContribution.xml
 Parsing unocha-cbpf-syriacrossborder-contribution-2024 from https://cbpfapi.unocha.org/iati/iati/70/2024/GetContribution.xml
@@ -42759,7 +42733,7 @@ found 243 activities
 
 Downloading wfp-eca from http://cdn.wfp.org/iati/rb-nairobi.xml
 Parsing wfp-eca from http://cdn.wfp.org/iati/rb-nairobi.xml
-found 155 activities
+found 165 activities
 
 Downloading wfp-lac from http://cdn.wfp.org/iati/rb-panama.xml
 Parsing wfp-lac from http://cdn.wfp.org/iati/rb-panama.xml
@@ -42775,7 +42749,7 @@ found 1 organisations
 
 Downloading wfp-southafrica from http://cdn.wfp.org/iati/rb-johannesburg.xml
 Parsing wfp-southafrica from http://cdn.wfp.org/iati/rb-johannesburg.xml
-found 209 activities
+found 219 activities
 
 Downloading wfp-wa from http://cdn.wfp.org/iati/rb-dakar.xml
 Parsing wfp-wa from http://cdn.wfp.org/iati/rb-dakar.xml
@@ -44607,7 +44581,7 @@ found 2 activities
 
 Downloading yipl-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/yipl-activities.xml
 Parsing yipl-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/yipl-activities.xml
-found 2 activities
+found 1 activities
 
 Downloading yipl-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/yipl-org.xml
 Parsing yipl-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/yipl-org.xml
