@@ -7006,8 +7006,9 @@ dflat: invalid XML format
 restored 0 files
 
 Downloading cif-889 from http://siteresources.worldbank.org/IATI/CIF/CIF-889.xml
+curl: download ERROR 404
 Parsing cif-889 from http://siteresources.worldbank.org/IATI/CIF/CIF-889.xml
-dflat: invalid XML format
+dflat: input XML file does not exist
 restored 0 files
 
 Downloading cif-998 from http://siteresources.worldbank.org/IATI/CIF/CIF-998.xml
@@ -7242,9 +7243,8 @@ Parsing cif-ws from http://doumodqax2qi2.cloudfront.net/CIF/CIF-05-2020/CIF-WS.x
 found 2 activities
 
 Downloading cif-ye from http://siteresources.worldbank.org/IATI/CIF/CIF-YE.xml
-curl: download ERROR 404
 Parsing cif-ye from http://siteresources.worldbank.org/IATI/CIF/CIF-YE.xml
-dflat: input XML file does not exist
+dflat: invalid XML format
 restored 0 files
 
 Downloading cif-za from http://doumodqax2qi2.cloudfront.net/CIF/CIF-05-2020/CIF-ZA.xml
@@ -8187,7 +8187,7 @@ found 2606 activities
 
 Downloading danida-all_7 from http://iati.um.dk/api/v2/files/iati7.xml
 Parsing danida-all_7 from http://iati.um.dk/api/v2/files/iati7.xml
-found 2603 activities
+found 2606 activities
 
 Downloading danida-org from http://iati.um.dk/api/v2/organisations/files/iati-organisations.xml
 Parsing danida-org from http://iati.um.dk/api/v2/organisations/files/iati-organisations.xml
@@ -11789,7 +11789,7 @@ found 1 organisations
 
 Downloading ebrd-activity from http://www.ebrd.com/ebrd-activity.xml
 Parsing ebrd-activity from http://www.ebrd.com/ebrd-activity.xml
-found 1735 activities
+found 1757 activities
 
 Downloading ebrd-org from http://www.ebrd.com/ebrd-organisation.xml
 Parsing ebrd-org from http://www.ebrd.com/ebrd-organisation.xml
@@ -19395,7 +19395,7 @@ found 2 activities
 
 Downloading ifcwbg-in from https://disclosures.ifc.org/iati/ifc-in.xml
 Parsing ifcwbg-in from https://disclosures.ifc.org/iati/ifc-in.xml
-found 472 activities
+found 473 activities
 
 Downloading ifcwbg-iq from https://disclosures.ifc.org/iati/ifc-iq.xml
 Parsing ifcwbg-iq from https://disclosures.ifc.org/iati/ifc-iq.xml
@@ -19511,7 +19511,7 @@ found 11 activities
 
 Downloading ifcwbg-mx from https://disclosures.ifc.org/iati/ifc-mx.xml
 Parsing ifcwbg-mx from https://disclosures.ifc.org/iati/ifc-mx.xml
-found 174 activities
+found 175 activities
 
 Downloading ifcwbg-mz from https://disclosures.ifc.org/iati/ifc-mz.xml
 Parsing ifcwbg-mz from https://disclosures.ifc.org/iati/ifc-mz.xml
@@ -19673,7 +19673,7 @@ found 12 activities
 
 Downloading ifcwbg-tz from https://disclosures.ifc.org/iati/ifc-tz.xml
 Parsing ifcwbg-tz from https://disclosures.ifc.org/iati/ifc-tz.xml
-found 55 activities
+found 56 activities
 
 Downloading ifcwbg-ua from https://disclosures.ifc.org/iati/ifc-ua.xml
 Parsing ifcwbg-ua from https://disclosures.ifc.org/iati/ifc-ua.xml
@@ -25347,7 +25347,7 @@ found 2210 activities
 
 Downloading onl-activity from https://www.oxfamnovib.nl/redactie/Downloads/XML/iati.xml
 Parsing onl-activity from https://www.oxfamnovib.nl/redactie/Downloads/XML/iati.xml
-found 2183 activities
+found 2184 activities
 
 Downloading onl-org from https://www.oxfamnovib.nl/redactie/downloads/xml/IATI_NL-KVK-27108436.xml
 Parsing onl-org from https://www.oxfamnovib.nl/redactie/downloads/xml/IATI_NL-KVK-27108436.xml
@@ -27820,7 +27820,7 @@ found 1 organisations
 
 Downloading rvo-01 from https://projects.rvo.nl/opendata/iati.xml
 Parsing rvo-01 from https://projects.rvo.nl/opendata/iati.xml
-found 4534 activities
+found 4536 activities
 
 Downloading rvo-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/rvo-activities.xml
 Parsing rvo-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/rvo-activities.xml
@@ -37058,7 +37058,7 @@ found 57 activities
 
 Downloading unocha-cbpf-opt-allocation-2023 from https://cbpfapi.unocha.org/iati/iati/67/2023/GetAllocation.xml
 Parsing unocha-cbpf-opt-allocation-2023 from https://cbpfapi.unocha.org/iati/iati/67/2023/GetAllocation.xml
-found 63 activities
+found 64 activities
 
 Downloading unocha-cbpf-opt-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/67/2024/GetAllocation.xml
 Parsing unocha-cbpf-opt-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/67/2024/GetAllocation.xml
@@ -37706,7 +37706,7 @@ found 113 activities
 
 Downloading unocha-cbpf-syriacrossborder-allocation-2023 from https://cbpfapi.unocha.org/iati/iati/70/2023/GetAllocation.xml
 Parsing unocha-cbpf-syriacrossborder-allocation-2023 from https://cbpfapi.unocha.org/iati/iati/70/2023/GetAllocation.xml
-found 150 activities
+found 153 activities
 
 Downloading unocha-cbpf-syriacrossborder-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/70/2024/GetAllocation.xml
 Parsing unocha-cbpf-syriacrossborder-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/70/2024/GetAllocation.xml
@@ -42753,7 +42753,7 @@ found 219 activities
 
 Downloading wfp-wa from http://cdn.wfp.org/iati/rb-dakar.xml
 Parsing wfp-wa from http://cdn.wfp.org/iati/rb-dakar.xml
-found 299 activities
+found 314 activities
 
 Downloading wfwiuk-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/wfwiuk-activities.xml
 Parsing wfwiuk-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/wfwiuk-activities.xml
