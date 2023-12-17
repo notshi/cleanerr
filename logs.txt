@@ -3855,8 +3855,10 @@ Parsing ausgov-la from https://www.dfat.gov.au/sites/default/files/Australian_Ai
 found 295 activities
 
 Downloading ausgov-lb from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Lebanon.xml
+curl: download ERROR 000
 Parsing ausgov-lb from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Lebanon.xml
-found 59 activities
+dflat: input XML file does not exist
+restored 59 files
 
 Downloading ausgov-lc from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_St-Lucia.xml
 Parsing ausgov-lc from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_St-Lucia.xml
@@ -4525,7 +4527,7 @@ found 134 activities
 
 Downloading be-dgd-2021_4 from http://diplomatie.be/oda/IATI_2023_4.xml
 Parsing be-dgd-2021_4 from http://diplomatie.be/oda/IATI_2023_4.xml
-found 325 activities
+found 329 activities
 
 Downloading be-dgd-orgfile2023 from http://diplomatie.be/oda/iati-organisations.xml
 Parsing be-dgd-orgfile2023 from http://diplomatie.be/oda/iati-organisations.xml
@@ -6824,9 +6826,8 @@ Parsing cif-br from http://doumodqax2qi2.cloudfront.net/CIF/CIF-05-2020/CIF-BR.x
 found 11 activities
 
 Downloading cif-cd from http://siteresources.worldbank.org/IATI/CIF/CIF-CD.xml
-curl: download ERROR 404
 Parsing cif-cd from http://siteresources.worldbank.org/IATI/CIF/CIF-CD.xml
-dflat: input XML file does not exist
+dflat: invalid XML format
 restored 0 files
 
 Downloading cif-ci from http://doumodqax2qi2.cloudfront.net/CIF/CIF-05-2020/CIF-CI.xml
@@ -15803,11 +15804,11 @@ found 1 activities
 
 Downloading gac-amc-act_2_3 from http://w05.international.gc.ca/projectbrowser-banqueprojets/iita-iati/dfatd-maecd_activit_status_2_3.xml
 Parsing gac-amc-act_2_3 from http://w05.international.gc.ca/projectbrowser-banqueprojets/iita-iati/dfatd-maecd_activit_status_2_3.xml
-found 1921 activities
+found 1923 activities
 
 Downloading gac-amc-act_4 from http://w05.international.gc.ca/projectbrowser-banqueprojets/iita-iati/dfatd-maecd_activit_status_4.xml
 Parsing gac-amc-act_4 from http://w05.international.gc.ca/projectbrowser-banqueprojets/iita-iati/dfatd-maecd_activit_status_4.xml
-found 4575 activities
+found 4576 activities
 
 Downloading gac-amc-org from http://w05.international.gc.ca/projectbrowser-banqueprojets/iita-iati/dfatd-maecd_organisation.xml
 Parsing gac-amc-org from http://w05.international.gc.ca/projectbrowser-banqueprojets/iita-iati/dfatd-maecd_organisation.xml
@@ -18425,7 +18426,7 @@ found 10 activities
 
 Downloading ifad-activitity-cf from https://webapps.ifad.org/iati/ifad_cf_activities.xml
 Parsing ifad-activitity-cf from https://webapps.ifad.org/iati/ifad_cf_activities.xml
-found 9 activities
+found 10 activities
 
 Downloading ifad-activitity-cg from https://webapps.ifad.org/iati/ifad_cg_activities.xml
 Parsing ifad-activitity-cg from https://webapps.ifad.org/iati/ifad_cg_activities.xml
@@ -18665,7 +18666,7 @@ found 7 activities
 
 Downloading ifad-activitity-mw from https://webapps.ifad.org/iati/ifad_mw_activities.xml
 Parsing ifad-activitity-mw from https://webapps.ifad.org/iati/ifad_mw_activities.xml
-found 14 activities
+found 15 activities
 
 Downloading ifad-activitity-mx from https://webapps.ifad.org/iati/ifad_mx_activities.xml
 Parsing ifad-activitity-mx from https://webapps.ifad.org/iati/ifad_mx_activities.xml
@@ -18673,7 +18674,7 @@ found 12 activities
 
 Downloading ifad-activitity-mz from https://webapps.ifad.org/iati/ifad_mz_activities.xml
 Parsing ifad-activitity-mz from https://webapps.ifad.org/iati/ifad_mz_activities.xml
-found 15 activities
+found 16 activities
 
 Downloading ifad-activitity-na from https://webapps.ifad.org/iati/ifad_na_activities.xml
 Parsing ifad-activitity-na from https://webapps.ifad.org/iati/ifad_na_activities.xml
@@ -27607,7 +27608,7 @@ found 1 organisations
 
 Downloading rvo-01 from https://projects.rvo.nl/opendata/iati.xml
 Parsing rvo-01 from https://projects.rvo.nl/opendata/iati.xml
-found 4557 activities
+found 4568 activities
 
 Downloading rvo-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/rvo-activities.xml
 Parsing rvo-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/rvo-activities.xml
@@ -29605,8 +29606,10 @@ Parsing state-saintlucia from https://iati-reporting.s3.amazonaws.com/department
 found 1 activities
 
 Downloading state-samoa from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Samoa.xml
+curl: download ERROR 000
 Parsing state-samoa from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Samoa.xml
-found 5 activities
+dflat: input XML file does not exist
+restored 5 files
 
 Downloading state-saotomeandprincipe from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Sao%20Tome%20and%20Principe.xml
 Parsing state-saotomeandprincipe from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Sao%20Tome%20and%20Principe.xml
@@ -35589,7 +35592,7 @@ found 70 activities
 
 Downloading unocha-cbpf-ethiopia-allocation-2023 from https://cbpfapi.unocha.org/iati/iati/53/2023/GetAllocation.xml
 Parsing unocha-cbpf-ethiopia-allocation-2023 from https://cbpfapi.unocha.org/iati/iati/53/2023/GetAllocation.xml
-found 53 activities
+found 58 activities
 
 Downloading unocha-cbpf-ethiopia-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/53/2024/GetAllocation.xml
 Parsing unocha-cbpf-ethiopia-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/53/2024/GetAllocation.xml
@@ -36877,7 +36880,7 @@ found 68 activities
 
 Downloading unocha-cbpf-syria-allocation-2023 from https://cbpfapi.unocha.org/iati/iati/62/2023/GetAllocation.xml
 Parsing unocha-cbpf-syria-allocation-2023 from https://cbpfapi.unocha.org/iati/iati/62/2023/GetAllocation.xml
-found 71 activities
+found 72 activities
 
 Downloading unocha-cbpf-syria-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/62/2024/GetAllocation.xml
 Parsing unocha-cbpf-syria-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/62/2024/GetAllocation.xml
@@ -37069,7 +37072,7 @@ found 110 activities
 
 Downloading unocha-cbpf-ukraine-allocation-2023 from https://cbpfapi.unocha.org/iati/iati/81/2023/GetAllocation.xml
 Parsing unocha-cbpf-ukraine-allocation-2023 from https://cbpfapi.unocha.org/iati/iati/81/2023/GetAllocation.xml
-found 73 activities
+found 74 activities
 
 Downloading unocha-cbpf-ukraine-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/81/2024/GetAllocation.xml
 Parsing unocha-cbpf-ukraine-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/81/2024/GetAllocation.xml
@@ -37133,7 +37136,7 @@ found 27 activities
 
 Downloading unocha-cbpf-venezuela-allocation-2023 from https://cbpfapi.unocha.org/iati/iati/83/2023/GetAllocation.xml
 Parsing unocha-cbpf-venezuela-allocation-2023 from https://cbpfapi.unocha.org/iati/iati/83/2023/GetAllocation.xml
-found 10 activities
+found 18 activities
 
 Downloading unocha-cbpf-venezuela-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/83/2024/GetAllocation.xml
 Parsing unocha-cbpf-venezuela-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/83/2024/GetAllocation.xml
