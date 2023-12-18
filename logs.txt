@@ -3855,10 +3855,8 @@ Parsing ausgov-la from https://www.dfat.gov.au/sites/default/files/Australian_Ai
 found 295 activities
 
 Downloading ausgov-lb from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Lebanon.xml
-curl: download ERROR 000
 Parsing ausgov-lb from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Lebanon.xml
-dflat: input XML file does not exist
-restored 59 files
+found 59 activities
 
 Downloading ausgov-lc from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_St-Lucia.xml
 Parsing ausgov-lc from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_St-Lucia.xml
@@ -3905,8 +3903,10 @@ Parsing ausgov-mk from https://www.dfat.gov.au/sites/default/files/Australian_Ai
 found 10 activities
 
 Downloading ausgov-ml from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Mali.xml
+curl: download ERROR 000
 Parsing ausgov-ml from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Mali.xml
-found 33 activities
+dflat: input XML file does not exist
+restored 33 files
 
 Downloading ausgov-mm from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Myanmar_Burma.xml
 Parsing ausgov-mm from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Myanmar_Burma.xml
@@ -7019,9 +7019,8 @@ Parsing cif-ws from http://doumodqax2qi2.cloudfront.net/CIF/CIF-05-2020/CIF-WS.x
 found 2 activities
 
 Downloading cif-ye from http://siteresources.worldbank.org/IATI/CIF/CIF-YE.xml
-curl: download ERROR 404
 Parsing cif-ye from http://siteresources.worldbank.org/IATI/CIF/CIF-YE.xml
-dflat: input XML file does not exist
+dflat: invalid XML format
 restored 0 files
 
 Downloading cif-za from http://doumodqax2qi2.cloudfront.net/CIF/CIF-05-2020/CIF-ZA.xml
@@ -8838,7 +8837,7 @@ found 1 activities
 
 Downloading dndi_transparency-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/dndi_transparency-activities.xml
 Parsing dndi_transparency-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/dndi_transparency-activities.xml
-found 15 activities
+found 16 activities
 
 Downloading dndi_transparency-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/dndi_transparency-org.xml
 Parsing dndi_transparency-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/dndi_transparency-org.xml
@@ -20547,7 +20546,7 @@ found 1 activities
 
 Downloading itc-2018 from https://iatidata.intracen.org/IatiActivities.xml
 Parsing itc-2018 from https://iatidata.intracen.org/IatiActivities.xml
-found 164 activities
+found 176 activities
 
 Downloading itc-org from https://iatidata.intracen.org/IatIOrganization.xml
 Parsing itc-org from https://iatidata.intracen.org/IatIOrganization.xml
@@ -21050,7 +21049,7 @@ found 1 activities
 
 Downloading ksrelief291-bd from https://aidstream.s3.us-west-2.amazonaws.com/xml/ksrelief291-bd.xml
 Parsing ksrelief291-bd from https://aidstream.s3.us-west-2.amazonaws.com/xml/ksrelief291-bd.xml
-found 39 activities
+found 42 activities
 
 Downloading ksrelief291-bf from https://aidstream.s3.us-west-2.amazonaws.com/xml/ksrelief291-bf.xml
 Parsing ksrelief291-bf from https://aidstream.s3.us-west-2.amazonaws.com/xml/ksrelief291-bf.xml
@@ -21206,7 +21205,7 @@ found 5 activities
 
 Downloading ksrelief291-mr from https://aidstream.s3.us-west-2.amazonaws.com/xml/ksrelief291-mr.xml
 Parsing ksrelief291-mr from https://aidstream.s3.us-west-2.amazonaws.com/xml/ksrelief291-mr.xml
-found 16 activities
+found 17 activities
 
 Downloading ksrelief291-mu from https://aidstream.s3.us-west-2.amazonaws.com/xml/ksrelief291-mu.xml
 Parsing ksrelief291-mu from https://aidstream.s3.us-west-2.amazonaws.com/xml/ksrelief291-mu.xml
@@ -21294,7 +21293,7 @@ found 14 activities
 
 Downloading ksrelief291-tg from https://aidstream.s3.us-west-2.amazonaws.com/xml/ksrelief291-tg.xml
 Parsing ksrelief291-tg from https://aidstream.s3.us-west-2.amazonaws.com/xml/ksrelief291-tg.xml
-found 2 activities
+found 4 activities
 
 Downloading ksrelief291-tj from https://aidstream.s3.us-west-2.amazonaws.com/xml/ksrelief291-tj.xml
 Parsing ksrelief291-tj from https://aidstream.s3.us-west-2.amazonaws.com/xml/ksrelief291-tj.xml
@@ -21338,7 +21337,7 @@ found 2 activities
 
 Downloading ksrelief291-ye from https://aidstream.s3.us-west-2.amazonaws.com/xml/ksrelief291-ye.xml
 Parsing ksrelief291-ye from https://aidstream.s3.us-west-2.amazonaws.com/xml/ksrelief291-ye.xml
-found 374 activities
+found 378 activities
 
 Downloading ksrelief291-za from https://aidstream.s3.us-west-2.amazonaws.com/xml/ksrelief291-za.xml
 Parsing ksrelief291-za from https://aidstream.s3.us-west-2.amazonaws.com/xml/ksrelief291-za.xml
@@ -29606,10 +29605,8 @@ Parsing state-saintlucia from https://iati-reporting.s3.amazonaws.com/department
 found 1 activities
 
 Downloading state-samoa from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Samoa.xml
-curl: download ERROR 000
 Parsing state-samoa from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Samoa.xml
-dflat: input XML file does not exist
-restored 5 files
+found 5 activities
 
 Downloading state-saotomeandprincipe from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Sao%20Tome%20and%20Principe.xml
 Parsing state-saotomeandprincipe from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Sao%20Tome%20and%20Principe.xml
@@ -43547,9 +43544,13 @@ Downloading wsm-prog from http://diplomatie.be/oda/IATI_act_pr2022-26_WSM_4007.x
 Parsing wsm-prog from http://diplomatie.be/oda/IATI_act_pr2022-26_WSM_4007.xml
 found 6 activities
 
-Downloading wsrc1-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/wsrc1-activities.xml
-Parsing wsrc1-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/wsrc1-activities.xml
+Downloading wsrc1-activities from https://iatipublisher-prod.s3.amazonaws.com/xml/mergedActivityXml/wsrc1-activities.xml
+Parsing wsrc1-activities from https://iatipublisher-prod.s3.amazonaws.com/xml/mergedActivityXml/wsrc1-activities.xml
 found 5 activities
+
+Downloading wsrc1-organisation from https://iatipublisher-prod.s3.amazonaws.com/organizationXmlFiles/wsrc1-organisation.xml
+Parsing wsrc1-organisation from https://iatipublisher-prod.s3.amazonaws.com/organizationXmlFiles/wsrc1-organisation.xml
+found 1 organisations
 
 Downloading wsrc1-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/wsrc1-org.xml
 Parsing wsrc1-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/wsrc1-org.xml
