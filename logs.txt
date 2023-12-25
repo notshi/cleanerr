@@ -6694,20 +6694,19 @@ Parsing cidr-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/ci
 found 1 activities
 
 Downloading cif-389 from http://siteresources.worldbank.org/IATI/CIF/CIF-389.xml
-curl: download ERROR 404
 Parsing cif-389 from http://siteresources.worldbank.org/IATI/CIF/CIF-389.xml
-dflat: input XML file does not exist
-restored 0 files
-
-Downloading cif-889 from http://siteresources.worldbank.org/IATI/CIF/CIF-889.xml
-Parsing cif-889 from http://siteresources.worldbank.org/IATI/CIF/CIF-889.xml
 dflat: invalid XML format
 restored 0 files
 
-Downloading cif-998 from http://siteresources.worldbank.org/IATI/CIF/CIF-998.xml
+Downloading cif-889 from http://siteresources.worldbank.org/IATI/CIF/CIF-889.xml
 curl: download ERROR 404
-Parsing cif-998 from http://siteresources.worldbank.org/IATI/CIF/CIF-998.xml
+Parsing cif-889 from http://siteresources.worldbank.org/IATI/CIF/CIF-889.xml
 dflat: input XML file does not exist
+restored 0 files
+
+Downloading cif-998 from http://siteresources.worldbank.org/IATI/CIF/CIF-998.xml
+Parsing cif-998 from http://siteresources.worldbank.org/IATI/CIF/CIF-998.xml
+dflat: invalid XML format
 restored 0 files
 
 Downloading c_i_f-activities from https://iatipublisher-prod.s3.amazonaws.com/xml/mergedActivityXml/c_i_f-activities.xml
@@ -6937,8 +6936,9 @@ Parsing cif-ws from http://doumodqax2qi2.cloudfront.net/CIF/CIF-05-2020/CIF-WS.x
 found 2 activities
 
 Downloading cif-ye from http://siteresources.worldbank.org/IATI/CIF/CIF-YE.xml
+curl: download ERROR 404
 Parsing cif-ye from http://siteresources.worldbank.org/IATI/CIF/CIF-YE.xml
-dflat: invalid XML format
+dflat: input XML file does not exist
 restored 0 files
 
 Downloading cif-za from http://doumodqax2qi2.cloudfront.net/CIF/CIF-05-2020/CIF-ZA.xml
@@ -12748,8 +12748,10 @@ Parsing ec-near-88 from https://ec.europa.eu/international-partnerships/assets/i
 found 18 activities
 
 Downloading ec-near-89 from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_NEAR_C_89.xml
+curl: download ERROR 000
 Parsing ec-near-89 from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_NEAR_C_89.xml
-found 790 activities
+dflat: input XML file does not exist
+restored 790 files
 
 Downloading ec-near-998 from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_NEAR_C_998.xml
 Parsing ec-near-998 from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_NEAR_C_998.xml
@@ -19344,7 +19346,7 @@ found 1 activities
 
 Downloading ifcwbg-sv from https://disclosures.ifc.org/iati/ifc-sv.xml
 Parsing ifcwbg-sv from https://disclosures.ifc.org/iati/ifc-sv.xml
-found 26 activities
+found 27 activities
 
 Downloading ifcwbg-sy from https://disclosures.ifc.org/iati/ifc-sy.xml
 Parsing ifcwbg-sy from https://disclosures.ifc.org/iati/ifc-sy.xml
@@ -32387,7 +32389,7 @@ found 86 activities
 
 Downloading undp-bra from http://open.undp.org/download/iati_xml/Brazil_projects.xml
 Parsing undp-bra from http://open.undp.org/download/iati_xml/Brazil_projects.xml
-found 336 activities
+found 334 activities
 
 Downloading undp-brb from http://open.undp.org/download/iati_xml/Barbados_projects.xml
 Parsing undp-brb from http://open.undp.org/download/iati_xml/Barbados_projects.xml
@@ -32407,7 +32409,7 @@ found 241 activities
 
 Downloading undp-chl from http://open.undp.org/download/iati_xml/Chile_projects.xml
 Parsing undp-chl from http://open.undp.org/download/iati_xml/Chile_projects.xml
-found 140 activities
+found 138 activities
 
 Downloading undp-chn from http://open.undp.org/download/iati_xml/China_projects.xml
 Parsing undp-chn from http://open.undp.org/download/iati_xml/China_projects.xml
@@ -32415,7 +32417,7 @@ found 187 activities
 
 Downloading undp-civ from http://open.undp.org/download/iati_xml/Cote_d_Ivoire_projects.xml
 Parsing undp-civ from http://open.undp.org/download/iati_xml/Cote_d_Ivoire_projects.xml
-found 81 activities
+found 85 activities
 
 Downloading undp-cmr from http://open.undp.org/download/iati_xml/Cameroon_Republic_of_projects.xml
 Parsing undp-cmr from http://open.undp.org/download/iati_xml/Cameroon_Republic_of_projects.xml
@@ -32451,7 +32453,7 @@ found 60 activities
 
 Downloading undp-cub from http://open.undp.org/download/iati_xml/Cuba_projects.xml
 Parsing undp-cub from http://open.undp.org/download/iati_xml/Cuba_projects.xml
-found 152 activities
+found 154 activities
 
 Downloading undp-cuv from http://open.undp.org/download/iati_xml/Curacao_projects.xml
 Parsing undp-cuv from http://open.undp.org/download/iati_xml/Curacao_projects.xml
@@ -32491,7 +32493,7 @@ found 47 activities
 
 Downloading undp-eth from http://open.undp.org/download/iati_xml/Ethiopia_projects.xml
 Parsing undp-eth from http://open.undp.org/download/iati_xml/Ethiopia_projects.xml
-found 147 activities
+found 151 activities
 
 Downloading undp-fji from http://open.undp.org/download/iati_xml/Fiji_projects.xml
 Parsing undp-fji from http://open.undp.org/download/iati_xml/Fiji_projects.xml
@@ -32515,19 +32517,19 @@ found 97 activities
 
 Downloading undp-gin from http://open.undp.org/download/iati_xml/Guinea_projects.xml
 Parsing undp-gin from http://open.undp.org/download/iati_xml/Guinea_projects.xml
-found 80 activities
+found 79 activities
 
 Downloading undp-global from http://open.undp.org/download/iati_xml/global_projects.xml
 Parsing undp-global from http://open.undp.org/download/iati_xml/global_projects.xml
-found 1330 activities
+found 1323 activities
 
 Downloading undp-gmb from http://open.undp.org/download/iati_xml/Gambia_projects.xml
 Parsing undp-gmb from http://open.undp.org/download/iati_xml/Gambia_projects.xml
-found 55 activities
+found 57 activities
 
 Downloading undp-gnb from http://open.undp.org/download/iati_xml/Guinea-Bissau_projects.xml
 Parsing undp-gnb from http://open.undp.org/download/iati_xml/Guinea-Bissau_projects.xml
-found 96 activities
+found 98 activities
 
 Downloading undp-gnq from http://open.undp.org/download/iati_xml/Equatorial_Guinea_projects.xml
 Parsing undp-gnq from http://open.undp.org/download/iati_xml/Equatorial_Guinea_projects.xml
@@ -32555,11 +32557,11 @@ found 131 activities
 
 Downloading undp-idn from http://open.undp.org/download/iati_xml/Indonesia_projects.xml
 Parsing undp-idn from http://open.undp.org/download/iati_xml/Indonesia_projects.xml
-found 140 activities
+found 144 activities
 
 Downloading undp-ind from http://open.undp.org/download/iati_xml/India_projects.xml
 Parsing undp-ind from http://open.undp.org/download/iati_xml/India_projects.xml
-found 146 activities
+found 152 activities
 
 Downloading undp-irn from http://open.undp.org/download/iati_xml/Iran_Islamic_Republic_of_projects.xml
 Parsing undp-irn from http://open.undp.org/download/iati_xml/Iran_Islamic_Republic_of_projects.xml
@@ -32567,7 +32569,7 @@ found 78 activities
 
 Downloading undp-irq from http://open.undp.org/download/iati_xml/Iraq_projects.xml
 Parsing undp-irq from http://open.undp.org/download/iati_xml/Iraq_projects.xml
-found 89 activities
+found 87 activities
 
 Downloading undp-jam from http://open.undp.org/download/iati_xml/Jamaica_projects.xml
 Parsing undp-jam from http://open.undp.org/download/iati_xml/Jamaica_projects.xml
@@ -32587,7 +32589,7 @@ found 93 activities
 
 Downloading undp-kgz from http://open.undp.org/download/iati_xml/Kyrgyzstan_projects.xml
 Parsing undp-kgz from http://open.undp.org/download/iati_xml/Kyrgyzstan_projects.xml
-found 81 activities
+found 83 activities
 
 Downloading undp-khm from http://open.undp.org/download/iati_xml/Cambodia_projects.xml
 Parsing undp-khm from http://open.undp.org/download/iati_xml/Cambodia_projects.xml
@@ -32635,7 +32637,7 @@ found 51 activities
 
 Downloading undp-mar from http://open.undp.org/download/iati_xml/Morocco_projects.xml
 Parsing undp-mar from http://open.undp.org/download/iati_xml/Morocco_projects.xml
-found 95 activities
+found 97 activities
 
 Downloading undp-mda from http://open.undp.org/download/iati_xml/Moldova_Republic_of_projects.xml
 Parsing undp-mda from http://open.undp.org/download/iati_xml/Moldova_Republic_of_projects.xml
@@ -32663,7 +32665,7 @@ found 85 activities
 
 Downloading undp-mli from http://open.undp.org/download/iati_xml/Mali_projects.xml
 Parsing undp-mli from http://open.undp.org/download/iati_xml/Mali_projects.xml
-found 107 activities
+found 109 activities
 
 Downloading undp-mmr from http://open.undp.org/download/iati_xml/Myanmar_projects.xml
 Parsing undp-mmr from http://open.undp.org/download/iati_xml/Myanmar_projects.xml
@@ -32703,7 +32705,7 @@ found 46 activities
 
 Downloading undp-ner from http://open.undp.org/download/iati_xml/Niger_projects.xml
 Parsing undp-ner from http://open.undp.org/download/iati_xml/Niger_projects.xml
-found 92 activities
+found 93 activities
 
 Downloading undp-nga from http://open.undp.org/download/iati_xml/Nigeria_projects.xml
 Parsing undp-nga from http://open.undp.org/download/iati_xml/Nigeria_projects.xml
@@ -32727,7 +32729,7 @@ found 1 organisations
 
 Downloading undp-pak from http://open.undp.org/download/iati_xml/Pakistan_projects.xml
 Parsing undp-pak from http://open.undp.org/download/iati_xml/Pakistan_projects.xml
-found 116 activities
+found 115 activities
 
 Downloading undp-pal from http://open.undp.org/download/iati_xml/Prog_for_Palestinian_People_projects.xml
 Parsing undp-pal from http://open.undp.org/download/iati_xml/Prog_for_Palestinian_People_projects.xml
@@ -32735,11 +32737,11 @@ found 145 activities
 
 Downloading undp-pan from http://open.undp.org/download/iati_xml/Panama_projects.xml
 Parsing undp-pan from http://open.undp.org/download/iati_xml/Panama_projects.xml
-found 140 activities
+found 136 activities
 
 Downloading undp-per from http://open.undp.org/download/iati_xml/Peru_projects.xml
 Parsing undp-per from http://open.undp.org/download/iati_xml/Peru_projects.xml
-found 138 activities
+found 142 activities
 
 Downloading undp-phl from http://open.undp.org/download/iati_xml/Philippines_projects.xml
 Parsing undp-phl from http://open.undp.org/download/iati_xml/Philippines_projects.xml
@@ -32819,11 +32821,11 @@ found 288 activities
 
 Downloading undp-tcd from http://open.undp.org/download/iati_xml/Chad_projects.xml
 Parsing undp-tcd from http://open.undp.org/download/iati_xml/Chad_projects.xml
-found 87 activities
+found 88 activities
 
 Downloading undp-tgo from http://open.undp.org/download/iati_xml/Togo_projects.xml
 Parsing undp-tgo from http://open.undp.org/download/iati_xml/Togo_projects.xml
-found 67 activities
+found 69 activities
 
 Downloading undp-tha from http://open.undp.org/download/iati_xml/Thailand_projects.xml
 Parsing undp-tha from http://open.undp.org/download/iati_xml/Thailand_projects.xml
@@ -32843,7 +32845,7 @@ found 64 activities
 
 Downloading undp-tls from http://open.undp.org/download/iati_xml/Timor-Leste_projects.xml
 Parsing undp-tls from http://open.undp.org/download/iati_xml/Timor-Leste_projects.xml
-found 92 activities
+found 90 activities
 
 Downloading undp-ton from http://open.undp.org/download/iati_xml/Tonga_projects.xml
 Parsing undp-ton from http://open.undp.org/download/iati_xml/Tonga_projects.xml
@@ -32875,7 +32877,7 @@ found 79 activities
 
 Downloading undp-ukr from http://open.undp.org/download/iati_xml/Ukraine_projects.xml
 Parsing undp-ukr from http://open.undp.org/download/iati_xml/Ukraine_projects.xml
-found 178 activities
+found 179 activities
 
 Downloading undp-ury from http://open.undp.org/download/iati_xml/Uruguay_projects.xml
 Parsing undp-ury from http://open.undp.org/download/iati_xml/Uruguay_projects.xml
