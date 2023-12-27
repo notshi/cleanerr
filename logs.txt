@@ -6431,7 +6431,7 @@ found 1 organisations
 
 Downloading cerf-contributionstodate from https://cerfgms-webapi.unocha.org/v1/iati/donorcontribution.xml
 Parsing cerf-contributionstodate from https://cerfgms-webapi.unocha.org/v1/iati/donorcontribution.xml
-found 1592 activities
+found 1594 activities
 
 Downloading cerf-organization from https://cerfgms-webapi.unocha.org/v1/iati/organizations.xml
 Parsing cerf-organization from https://cerfgms-webapi.unocha.org/v1/iati/organizations.xml
@@ -6694,9 +6694,8 @@ Parsing cidr-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/ci
 found 1 activities
 
 Downloading cif-389 from http://siteresources.worldbank.org/IATI/CIF/CIF-389.xml
-curl: download ERROR 404
 Parsing cif-389 from http://siteresources.worldbank.org/IATI/CIF/CIF-389.xml
-dflat: input XML file does not exist
+dflat: invalid XML format
 restored 0 files
 
 Downloading cif-889 from http://siteresources.worldbank.org/IATI/CIF/CIF-889.xml
@@ -6744,8 +6743,9 @@ Parsing cif-br from http://doumodqax2qi2.cloudfront.net/CIF/CIF-05-2020/CIF-BR.x
 found 11 activities
 
 Downloading cif-cd from http://siteresources.worldbank.org/IATI/CIF/CIF-CD.xml
+curl: download ERROR 404
 Parsing cif-cd from http://siteresources.worldbank.org/IATI/CIF/CIF-CD.xml
-dflat: invalid XML format
+dflat: input XML file does not exist
 restored 0 files
 
 Downloading cif-ci from http://doumodqax2qi2.cloudfront.net/CIF/CIF-05-2020/CIF-CI.xml
@@ -6937,9 +6937,8 @@ Parsing cif-ws from http://doumodqax2qi2.cloudfront.net/CIF/CIF-05-2020/CIF-WS.x
 found 2 activities
 
 Downloading cif-ye from http://siteresources.worldbank.org/IATI/CIF/CIF-YE.xml
-curl: download ERROR 404
 Parsing cif-ye from http://siteresources.worldbank.org/IATI/CIF/CIF-YE.xml
-dflat: input XML file does not exist
+dflat: invalid XML format
 restored 0 files
 
 Downloading cif-za from http://doumodqax2qi2.cloudfront.net/CIF/CIF-05-2020/CIF-ZA.xml
@@ -34530,7 +34529,7 @@ found 79 activities
 
 Downloading unicef-hqs from https://open.unicef.org/sites/transparency/files/countrydata/iatiActivity_HQ.xml
 Parsing unicef-hqs from https://open.unicef.org/sites/transparency/files/countrydata/iatiActivity_HQ.xml
-found 1120 activities
+found 1122 activities
 
 Downloading unicef-india from https://open.unicef.org/sites/transparency/files/countrydata/iatiActivity_India.xml
 Parsing unicef-india from https://open.unicef.org/sites/transparency/files/countrydata/iatiActivity_India.xml
@@ -34790,7 +34789,7 @@ found 100 activities
 
 Downloading unicef-southsudan from https://open.unicef.org/sites/transparency/files/countrydata/iatiActivity_South%20Sudan.xml
 Parsing unicef-southsudan from https://open.unicef.org/sites/transparency/files/countrydata/iatiActivity_South%20Sudan.xml
-found 210 activities
+found 209 activities
 
 Downloading unicef-srilanka from https://open.unicef.org/sites/transparency/files/countrydata/iatiActivity_Sri%20Lanka.xml
 Parsing unicef-srilanka from https://open.unicef.org/sites/transparency/files/countrydata/iatiActivity_Sri%20Lanka.xml
@@ -36306,7 +36305,7 @@ found 18 activities
 
 Downloading unocha-cbpf-opt-contribution-2023 from https://cbpfapi.unocha.org/iati/iati/67/2023/GetContribution.xml
 Parsing unocha-cbpf-opt-contribution-2023 from https://cbpfapi.unocha.org/iati/iati/67/2023/GetContribution.xml
-found 29 activities
+found 30 activities
 
 Downloading unocha-cbpf-opt-contribution-2024 from https://cbpfapi.unocha.org/iati/iati/67/2024/GetContribution.xml
 Parsing unocha-cbpf-opt-contribution-2024 from https://cbpfapi.unocha.org/iati/iati/67/2024/GetContribution.xml
