@@ -4101,8 +4101,10 @@ Parsing ausgov-xl from https://www.dfat.gov.au/sites/default/files/Australian_Ai
 found 46 activities
 
 Downloading ausgov-xm from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Regional_File_Middle_East_Unspecified.xml
+curl: download ERROR 000
 Parsing ausgov-xm from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Regional_File_Middle_East_Unspecified.xml
-found 24 activities
+dflat: input XML file does not exist
+restored 24 files
 
 Downloading ausgov-xn from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Regional_File_North_and_Central_America_Unspecified.xml
 curl: download ERROR 404
@@ -6699,8 +6701,9 @@ dflat: invalid XML format
 restored 0 files
 
 Downloading cif-889 from http://siteresources.worldbank.org/IATI/CIF/CIF-889.xml
+curl: download ERROR 404
 Parsing cif-889 from http://siteresources.worldbank.org/IATI/CIF/CIF-889.xml
-dflat: invalid XML format
+dflat: input XML file does not exist
 restored 0 files
 
 Downloading cif-998 from http://siteresources.worldbank.org/IATI/CIF/CIF-998.xml
@@ -6935,9 +6938,8 @@ Parsing cif-ws from http://doumodqax2qi2.cloudfront.net/CIF/CIF-05-2020/CIF-WS.x
 found 2 activities
 
 Downloading cif-ye from http://siteresources.worldbank.org/IATI/CIF/CIF-YE.xml
-curl: download ERROR 404
 Parsing cif-ye from http://siteresources.worldbank.org/IATI/CIF/CIF-YE.xml
-dflat: input XML file does not exist
+dflat: invalid XML format
 restored 0 files
 
 Downloading cif-za from http://doumodqax2qi2.cloudfront.net/CIF/CIF-05-2020/CIF-ZA.xml
@@ -17918,7 +17920,7 @@ found 69 activities
 
 Downloading ibis_denmark-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/ibis_denmark-activities.xml
 Parsing ibis_denmark-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/ibis_denmark-activities.xml
-found 58 activities
+found 59 activities
 
 Downloading ibis_denmark-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/ibis_denmark-org.xml
 Parsing ibis_denmark-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/ibis_denmark-org.xml
@@ -36484,7 +36486,7 @@ found 145 activities
 
 Downloading unocha-cbpf-somalia-allocation-2023 from https://cbpfapi.unocha.org/iati/iati/21/2023/GetAllocation.xml
 Parsing unocha-cbpf-somalia-allocation-2023 from https://cbpfapi.unocha.org/iati/iati/21/2023/GetAllocation.xml
-found 120 activities
+found 123 activities
 
 Downloading unocha-cbpf-somalia-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/21/2024/GetAllocation.xml
 Parsing unocha-cbpf-somalia-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/21/2024/GetAllocation.xml
@@ -36808,7 +36810,7 @@ found 68 activities
 
 Downloading unocha-cbpf-syria-allocation-2023 from https://cbpfapi.unocha.org/iati/iati/62/2023/GetAllocation.xml
 Parsing unocha-cbpf-syria-allocation-2023 from https://cbpfapi.unocha.org/iati/iati/62/2023/GetAllocation.xml
-found 79 activities
+found 80 activities
 
 Downloading unocha-cbpf-syria-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/62/2024/GetAllocation.xml
 Parsing unocha-cbpf-syria-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/62/2024/GetAllocation.xml
@@ -37064,7 +37066,7 @@ found 27 activities
 
 Downloading unocha-cbpf-venezuela-allocation-2023 from https://cbpfapi.unocha.org/iati/iati/83/2023/GetAllocation.xml
 Parsing unocha-cbpf-venezuela-allocation-2023 from https://cbpfapi.unocha.org/iati/iati/83/2023/GetAllocation.xml
-found 19 activities
+found 22 activities
 
 Downloading unocha-cbpf-venezuela-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/83/2024/GetAllocation.xml
 Parsing unocha-cbpf-venezuela-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/83/2024/GetAllocation.xml
@@ -43799,7 +43801,7 @@ found 2 activities
 
 Downloading yipl-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/yipl-activities.xml
 Parsing yipl-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/yipl-activities.xml
-found 2 activities
+found 1 activities
 
 Downloading yipl-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/yipl-org.xml
 Parsing yipl-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/yipl-org.xml
