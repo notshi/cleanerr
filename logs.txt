@@ -3597,8 +3597,10 @@ Parsing ausgov-ck from https://www.dfat.gov.au/sites/default/files/Australian_Ai
 found 88 activities
 
 Downloading ausgov-cl from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Chile.xml
+curl: download ERROR 000
 Parsing ausgov-cl from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Chile.xml
-found 41 activities
+dflat: input XML file does not exist
+restored 41 files
 
 Downloading ausgov-cm from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Cambodia.xml
 Parsing ausgov-cm from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Cambodia.xml
@@ -4101,10 +4103,8 @@ Parsing ausgov-xl from https://www.dfat.gov.au/sites/default/files/Australian_Ai
 found 46 activities
 
 Downloading ausgov-xm from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Regional_File_Middle_East_Unspecified.xml
-curl: download ERROR 000
 Parsing ausgov-xm from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Regional_File_Middle_East_Unspecified.xml
-dflat: input XML file does not exist
-restored 24 files
+found 24 activities
 
 Downloading ausgov-xn from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Regional_File_North_and_Central_America_Unspecified.xml
 curl: download ERROR 404
@@ -6696,14 +6696,14 @@ Parsing cidr-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/ci
 found 1 activities
 
 Downloading cif-389 from http://siteresources.worldbank.org/IATI/CIF/CIF-389.xml
+curl: download ERROR 404
 Parsing cif-389 from http://siteresources.worldbank.org/IATI/CIF/CIF-389.xml
-dflat: invalid XML format
+dflat: input XML file does not exist
 restored 0 files
 
 Downloading cif-889 from http://siteresources.worldbank.org/IATI/CIF/CIF-889.xml
-curl: download ERROR 404
 Parsing cif-889 from http://siteresources.worldbank.org/IATI/CIF/CIF-889.xml
-dflat: input XML file does not exist
+dflat: invalid XML format
 restored 0 files
 
 Downloading cif-998 from http://siteresources.worldbank.org/IATI/CIF/CIF-998.xml
@@ -7939,7 +7939,7 @@ found 4 activities
 
 Downloading dca-activities from https://iatipublisher-prod.s3.amazonaws.com/xml/mergedActivityXml/dca-activities.xml
 Parsing dca-activities from https://iatipublisher-prod.s3.amazonaws.com/xml/mergedActivityXml/dca-activities.xml
-found 851 activities
+found 853 activities
 
 Downloading dc-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/dc-activities.xml
 Parsing dc-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/dc-activities.xml
@@ -13934,7 +13934,7 @@ found 798 activities
 
 Downloading finland_mfa-012 from https://s3.eu-north-1.amazonaws.com/www.aiddata.eu/xml/stg/Finland_total_2023.xml
 Parsing finland_mfa-012 from https://s3.eu-north-1.amazonaws.com/www.aiddata.eu/xml/stg/Finland_total_2023.xml
-found 699 activities
+found 770 activities
 
 Downloading finland_mfa-189 from http://formin.finland.fi/opendata/IATI/Finland_189.xml
 curl: download ERROR 403
@@ -25059,7 +25059,7 @@ found 2210 activities
 
 Downloading onl-activity from https://www.oxfamnovib.nl/redactie/Downloads/XML/iati.xml
 Parsing onl-activity from https://www.oxfamnovib.nl/redactie/Downloads/XML/iati.xml
-found 2196 activities
+found 2198 activities
 
 Downloading onl-org from https://www.oxfamnovib.nl/redactie/downloads/xml/IATI_NL-KVK-27108436.xml
 Parsing onl-org from https://www.oxfamnovib.nl/redactie/downloads/xml/IATI_NL-KVK-27108436.xml
@@ -28854,6 +28854,10 @@ Downloading sowt-activities from https://aidstream.s3.us-west-2.amazonaws.com/xm
 Parsing sowt-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/sowt-activities.xml
 found 1 activities
 
+Downloading sp-activities from https://iatipublisher-prod.s3.amazonaws.com/xml/mergedActivityXml/sp-activities.xml
+Parsing sp-activities from https://iatipublisher-prod.s3.amazonaws.com/xml/mergedActivityXml/sp-activities.xml
+found 1 activities
+
 Downloading spark-20170501 from https://downloads.spark.ngo/spark-20170523.xml
 Converting IATI activities version 1.05 to version 2.03
 Parsing spark-20170501 from https://downloads.spark.ngo/spark-20170523.xml
@@ -28873,6 +28877,10 @@ found 2 activities
 
 Downloading spong-burkina-org from https://www.woordendaad.nl/wp-content/uploads/2022/04/org-Spong.xml
 Parsing spong-burkina-org from https://www.woordendaad.nl/wp-content/uploads/2022/04/org-Spong.xml
+found 1 organisations
+
+Downloading sp-organisation from https://iatipublisher-prod.s3.amazonaws.com/organizationXmlFiles/sp-organisation.xml
+Parsing sp-organisation from https://iatipublisher-prod.s3.amazonaws.com/organizationXmlFiles/sp-organisation.xml
 found 1 organisations
 
 Downloading spr-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/spr-activities.xml
@@ -34346,7 +34354,7 @@ found 69 activities
 
 Downloading unicef-bolivia from https://open.unicef.org/sites/transparency/files/countrydata/iatiActivity_Bolivia.xml
 Parsing unicef-bolivia from https://open.unicef.org/sites/transparency/files/countrydata/iatiActivity_Bolivia.xml
-found 127 activities
+found 128 activities
 
 Downloading unicef-bosniaherzegovina from https://open.unicef.org/sites/transparency/files/countrydata/iatiActivity_Bosnia%20and%20Herzegovina.xml
 Parsing unicef-bosniaherzegovina from https://open.unicef.org/sites/transparency/files/countrydata/iatiActivity_Bosnia%20and%20Herzegovina.xml
@@ -34430,7 +34438,7 @@ found 57 activities
 
 Downloading unicef-djibouti from https://open.unicef.org/sites/transparency/files/countrydata/iatiActivity_Djibouti.xml
 Parsing unicef-djibouti from https://open.unicef.org/sites/transparency/files/countrydata/iatiActivity_Djibouti.xml
-found 80 activities
+found 79 activities
 
 Downloading unicef-dominicanrepublic from https://open.unicef.org/sites/transparency/files/countrydata/iatiActivity_Dominican%20Republic.xml
 Parsing unicef-dominicanrepublic from https://open.unicef.org/sites/transparency/files/countrydata/iatiActivity_Dominican%20Republic.xml
@@ -34582,7 +34590,7 @@ found 94 activities
 
 Downloading unicef-lebanon from https://open.unicef.org/sites/transparency/files/countrydata/iatiActivity_Lebanon.xml
 Parsing unicef-lebanon from https://open.unicef.org/sites/transparency/files/countrydata/iatiActivity_Lebanon.xml
-found 171 activities
+found 170 activities
 
 Downloading unicef-lesotho from https://open.unicef.org/sites/transparency/files/countrydata/iatiActivity_Lesotho.xml
 Parsing unicef-lesotho from https://open.unicef.org/sites/transparency/files/countrydata/iatiActivity_Lesotho.xml
@@ -34602,7 +34610,7 @@ found 58 activities
 
 Downloading unicef-madagascar from https://open.unicef.org/sites/transparency/files/countrydata/iatiActivity_Madagascar.xml
 Parsing unicef-madagascar from https://open.unicef.org/sites/transparency/files/countrydata/iatiActivity_Madagascar.xml
-found 144 activities
+found 143 activities
 
 Downloading unicef-malawi from https://open.unicef.org/sites/transparency/files/countrydata/iatiActivity_Malawi.xml
 Parsing unicef-malawi from https://open.unicef.org/sites/transparency/files/countrydata/iatiActivity_Malawi.xml
@@ -34638,7 +34646,7 @@ found 57 activities
 
 Downloading unicef-mongolia from https://open.unicef.org/sites/transparency/files/countrydata/iatiActivity_Mongolia.xml
 Parsing unicef-mongolia from https://open.unicef.org/sites/transparency/files/countrydata/iatiActivity_Mongolia.xml
-found 66 activities
+found 67 activities
 
 Downloading unicef-montenegro from https://open.unicef.org/sites/transparency/files/countrydata/iatiActivity_Republic%20of%20Montenegro.xml
 Parsing unicef-montenegro from https://open.unicef.org/sites/transparency/files/countrydata/iatiActivity_Republic%20of%20Montenegro.xml
@@ -34662,7 +34670,7 @@ found 144 activities
 
 Downloading unicef-nepal from https://open.unicef.org/sites/transparency/files/countrydata/iatiActivity_Nepal.xml
 Parsing unicef-nepal from https://open.unicef.org/sites/transparency/files/countrydata/iatiActivity_Nepal.xml
-found 144 activities
+found 143 activities
 
 Downloading unicef-nicaragua from https://open.unicef.org/sites/transparency/files/countrydata/iatiActivity_Nicaragua.xml
 Parsing unicef-nicaragua from https://open.unicef.org/sites/transparency/files/countrydata/iatiActivity_Nicaragua.xml
@@ -34866,7 +34874,7 @@ found 116 activities
 
 Downloading unicef-yemen from https://open.unicef.org/sites/transparency/files/countrydata/iatiActivity_Yemen.xml
 Parsing unicef-yemen from https://open.unicef.org/sites/transparency/files/countrydata/iatiActivity_Yemen.xml
-found 172 activities
+found 171 activities
 
 Downloading unicef-zambia from https://open.unicef.org/sites/transparency/files/countrydata/iatiActivity_Zambia.xml
 Parsing unicef-zambia from https://open.unicef.org/sites/transparency/files/countrydata/iatiActivity_Zambia.xml
@@ -37026,7 +37034,7 @@ found 63 activities
 
 Downloading unocha-cbpf-ukraine-contribution-2023 from https://cbpfapi.unocha.org/iati/iati/81/2023/GetContribution.xml
 Parsing unocha-cbpf-ukraine-contribution-2023 from https://cbpfapi.unocha.org/iati/iati/81/2023/GetContribution.xml
-found 30 activities
+found 31 activities
 
 Downloading unocha-cbpf-ukraine-contribution-2024 from https://cbpfapi.unocha.org/iati/iati/81/2024/GetContribution.xml
 Parsing unocha-cbpf-ukraine-contribution-2024 from https://cbpfapi.unocha.org/iati/iati/81/2024/GetContribution.xml
@@ -37158,7 +37166,7 @@ found 106 activities
 
 Downloading unocha-cbpf-yemen-allocation-2023 from https://cbpfapi.unocha.org/iati/iati/64/2023/GetAllocation.xml
 Parsing unocha-cbpf-yemen-allocation-2023 from https://cbpfapi.unocha.org/iati/iati/64/2023/GetAllocation.xml
-found 71 activities
+found 85 activities
 
 Downloading unocha-cbpf-yemen-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/64/2024/GetAllocation.xml
 Parsing unocha-cbpf-yemen-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/64/2024/GetAllocation.xml
@@ -43799,9 +43807,9 @@ Downloading yipl-998 from https://aidstream-stage.s3.us-west-2.amazonaws.com/xml
 Parsing yipl-998 from https://aidstream-stage.s3.us-west-2.amazonaws.com/xml/yipl-998.xml
 found 2 activities
 
-Downloading yipl-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/yipl-activities.xml
-Parsing yipl-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/yipl-activities.xml
-found 1 activities
+Downloading yipl-activities from https://aidstream-stage.s3.us-west-2.amazonaws.com/xml/yipl-activities.xml
+Parsing yipl-activities from https://aidstream-stage.s3.us-west-2.amazonaws.com/xml/yipl-activities.xml
+found 0 activities
 
 Downloading yipl-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/yipl-org.xml
 Parsing yipl-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/yipl-org.xml
