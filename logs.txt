@@ -2129,12 +2129,16 @@ Parsing agriterra-activities from https://aidstream.s3.us-west-2.amazonaws.com/x
 found 967 activities
 
 Downloading agriterra-nl-kvk-41048542-201802-activities from https://www.agriterra.org/upload_directory/files/IATI_output_20180817_122959.xml
+curl: download ERROR 000
 Parsing agriterra-nl-kvk-41048542-201802-activities from https://www.agriterra.org/upload_directory/files/IATI_output_20180817_122959.xml
-found 938 activities
+dflat: input XML file does not exist
+restored 938 files
 
 Downloading agriterra-org from https://www.agriterra.org/upload_directory/files/organisation_agriterra_20180820.xml
+curl: download ERROR 000
 Parsing agriterra-org from https://www.agriterra.org/upload_directory/files/organisation_agriterra_20180820.xml
-found 1 organisations
+dflat: input XML file does not exist
+restored 1 files
 
 Downloading agroicone-br from https://drive.google.com/file/d/1JB7Lr4vAk3CjHZz4GdBpsQTdxf4Wq4cj/view?usp=sharing
 Parsing agroicone-br from https://drive.google.com/file/d/1JB7Lr4vAk3CjHZz4GdBpsQTdxf4Wq4cj/view?usp=sharing
@@ -2655,6 +2659,10 @@ found 3 activities
 
 Downloading aidenvironment-2020-02-activities from https://data.rainfoundation.org/iati203/NL-KVK-41208024-2020-02-activities.xml
 Parsing aidenvironment-2020-02-activities from https://data.rainfoundation.org/iati203/NL-KVK-41208024-2020-02-activities.xml
+found 3 activities
+
+Downloading aidenvironment-202312 from https://data.rainfoundation.org/iati203/NL-KVK-41208024-2023-12-activities.xml
+Parsing aidenvironment-202312 from https://data.rainfoundation.org/iati203/NL-KVK-41208024-2023-12-activities.xml
 found 3 activities
 
 Downloading aidenvironment-eet from https://data.rainfoundation.org/iati203/NL-KVK-41208024-2022-03-activities.xml
@@ -3597,10 +3605,8 @@ Parsing ausgov-ck from https://www.dfat.gov.au/sites/default/files/Australian_Ai
 found 88 activities
 
 Downloading ausgov-cl from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Chile.xml
-curl: download ERROR 000
 Parsing ausgov-cl from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Chile.xml
-dflat: input XML file does not exist
-restored 41 files
+found 41 activities
 
 Downloading ausgov-cm from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Cambodia.xml
 Parsing ausgov-cm from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Cambodia.xml
@@ -6696,9 +6702,8 @@ Parsing cidr-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/ci
 found 1 activities
 
 Downloading cif-389 from http://siteresources.worldbank.org/IATI/CIF/CIF-389.xml
-curl: download ERROR 404
 Parsing cif-389 from http://siteresources.worldbank.org/IATI/CIF/CIF-389.xml
-dflat: input XML file does not exist
+dflat: invalid XML format
 restored 0 files
 
 Downloading cif-889 from http://siteresources.worldbank.org/IATI/CIF/CIF-889.xml
@@ -6745,8 +6750,9 @@ Parsing cif-br from http://doumodqax2qi2.cloudfront.net/CIF/CIF-05-2020/CIF-BR.x
 found 11 activities
 
 Downloading cif-cd from http://siteresources.worldbank.org/IATI/CIF/CIF-CD.xml
+curl: download ERROR 404
 Parsing cif-cd from http://siteresources.worldbank.org/IATI/CIF/CIF-CD.xml
-dflat: invalid XML format
+dflat: input XML file does not exist
 restored 0 files
 
 Downloading cif-ci from http://doumodqax2qi2.cloudfront.net/CIF/CIF-05-2020/CIF-CI.xml
@@ -6938,8 +6944,9 @@ Parsing cif-ws from http://doumodqax2qi2.cloudfront.net/CIF/CIF-05-2020/CIF-WS.x
 found 2 activities
 
 Downloading cif-ye from http://siteresources.worldbank.org/IATI/CIF/CIF-YE.xml
+curl: download ERROR 404
 Parsing cif-ye from http://siteresources.worldbank.org/IATI/CIF/CIF-YE.xml
-dflat: invalid XML format
+dflat: input XML file does not exist
 restored 0 files
 
 Downloading cif-za from http://doumodqax2qi2.cloudfront.net/CIF/CIF-05-2020/CIF-ZA.xml
@@ -35858,7 +35865,7 @@ found 50 activities
 
 Downloading unocha-cbpf-lebanon-allocation-2023 from https://cbpfapi.unocha.org/iati/iati/71/2023/GetAllocation.xml
 Parsing unocha-cbpf-lebanon-allocation-2023 from https://cbpfapi.unocha.org/iati/iati/71/2023/GetAllocation.xml
-found 46 activities
+found 47 activities
 
 Downloading unocha-cbpf-lebanon-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/71/2024/GetAllocation.xml
 Parsing unocha-cbpf-lebanon-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/71/2024/GetAllocation.xml
@@ -36818,7 +36825,7 @@ found 68 activities
 
 Downloading unocha-cbpf-syria-allocation-2023 from https://cbpfapi.unocha.org/iati/iati/62/2023/GetAllocation.xml
 Parsing unocha-cbpf-syria-allocation-2023 from https://cbpfapi.unocha.org/iati/iati/62/2023/GetAllocation.xml
-found 80 activities
+found 83 activities
 
 Downloading unocha-cbpf-syria-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/62/2024/GetAllocation.xml
 Parsing unocha-cbpf-syria-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/62/2024/GetAllocation.xml
@@ -37166,7 +37173,7 @@ found 106 activities
 
 Downloading unocha-cbpf-yemen-allocation-2023 from https://cbpfapi.unocha.org/iati/iati/64/2023/GetAllocation.xml
 Parsing unocha-cbpf-yemen-allocation-2023 from https://cbpfapi.unocha.org/iati/iati/64/2023/GetAllocation.xml
-found 85 activities
+found 86 activities
 
 Downloading unocha-cbpf-yemen-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/64/2024/GetAllocation.xml
 Parsing unocha-cbpf-yemen-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/64/2024/GetAllocation.xml
