@@ -2129,10 +2129,8 @@ Parsing agriterra-activities from https://aidstream.s3.us-west-2.amazonaws.com/x
 found 967 activities
 
 Downloading agriterra-nl-kvk-41048542-201802-activities from https://www.agriterra.org/upload_directory/files/IATI_output_20180817_122959.xml
-curl: download ERROR 000
 Parsing agriterra-nl-kvk-41048542-201802-activities from https://www.agriterra.org/upload_directory/files/IATI_output_20180817_122959.xml
-dflat: input XML file does not exist
-restored 938 files
+found 938 activities
 
 Downloading agriterra-org from https://www.agriterra.org/upload_directory/files/organisation_agriterra_20180820.xml
 curl: download ERROR 000
@@ -6702,8 +6700,9 @@ Parsing cidr-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/ci
 found 1 activities
 
 Downloading cif-389 from http://siteresources.worldbank.org/IATI/CIF/CIF-389.xml
+curl: download ERROR 404
 Parsing cif-389 from http://siteresources.worldbank.org/IATI/CIF/CIF-389.xml
-dflat: invalid XML format
+dflat: input XML file does not exist
 restored 0 files
 
 Downloading cif-889 from http://siteresources.worldbank.org/IATI/CIF/CIF-889.xml
@@ -6750,9 +6749,8 @@ Parsing cif-br from http://doumodqax2qi2.cloudfront.net/CIF/CIF-05-2020/CIF-BR.x
 found 11 activities
 
 Downloading cif-cd from http://siteresources.worldbank.org/IATI/CIF/CIF-CD.xml
-curl: download ERROR 404
 Parsing cif-cd from http://siteresources.worldbank.org/IATI/CIF/CIF-CD.xml
-dflat: input XML file does not exist
+dflat: invalid XML format
 restored 0 files
 
 Downloading cif-ci from http://doumodqax2qi2.cloudfront.net/CIF/CIF-05-2020/CIF-CI.xml
@@ -36645,7 +36643,7 @@ found 18 activities
 
 Downloading unocha-cbpf-southsudan-contribution-2023 from https://cbpfapi.unocha.org/iati/iati/19/2023/GetContribution.xml
 Parsing unocha-cbpf-southsudan-contribution-2023 from https://cbpfapi.unocha.org/iati/iati/19/2023/GetContribution.xml
-found 19 activities
+found 20 activities
 
 Downloading unocha-cbpf-southsudan-contribution-2024 from https://cbpfapi.unocha.org/iati/iati/19/2024/GetContribution.xml
 Parsing unocha-cbpf-southsudan-contribution-2024 from https://cbpfapi.unocha.org/iati/iati/19/2024/GetContribution.xml
