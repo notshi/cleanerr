@@ -2133,10 +2133,8 @@ Parsing agriterra-nl-kvk-41048542-201802-activities from https://www.agriterra.o
 found 938 activities
 
 Downloading agriterra-org from https://www.agriterra.org/upload_directory/files/organisation_agriterra_20180820.xml
-curl: download ERROR 000
 Parsing agriterra-org from https://www.agriterra.org/upload_directory/files/organisation_agriterra_20180820.xml
-dflat: input XML file does not exist
-restored 1 files
+found 1 organisations
 
 Downloading agroicone-br from https://drive.google.com/file/d/1JB7Lr4vAk3CjHZz4GdBpsQTdxf4Wq4cj/view?usp=sharing
 Parsing agroicone-br from https://drive.google.com/file/d/1JB7Lr4vAk3CjHZz4GdBpsQTdxf4Wq4cj/view?usp=sharing
@@ -5605,7 +5603,7 @@ found 2 activities
 
 Downloading bylc-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/bylc-activities.xml
 Parsing bylc-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/bylc-activities.xml
-found 5 activities
+found 6 activities
 
 Downloading bylc-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/bylc-org.xml
 Parsing bylc-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/bylc-org.xml
@@ -6700,14 +6698,14 @@ Parsing cidr-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/ci
 found 1 activities
 
 Downloading cif-389 from http://siteresources.worldbank.org/IATI/CIF/CIF-389.xml
-curl: download ERROR 404
 Parsing cif-389 from http://siteresources.worldbank.org/IATI/CIF/CIF-389.xml
-dflat: input XML file does not exist
+dflat: invalid XML format
 restored 0 files
 
 Downloading cif-889 from http://siteresources.worldbank.org/IATI/CIF/CIF-889.xml
+curl: download ERROR 404
 Parsing cif-889 from http://siteresources.worldbank.org/IATI/CIF/CIF-889.xml
-dflat: invalid XML format
+dflat: input XML file does not exist
 restored 0 files
 
 Downloading cif-998 from http://siteresources.worldbank.org/IATI/CIF/CIF-998.xml
@@ -6942,9 +6940,8 @@ Parsing cif-ws from http://doumodqax2qi2.cloudfront.net/CIF/CIF-05-2020/CIF-WS.x
 found 2 activities
 
 Downloading cif-ye from http://siteresources.worldbank.org/IATI/CIF/CIF-YE.xml
-curl: download ERROR 404
 Parsing cif-ye from http://siteresources.worldbank.org/IATI/CIF/CIF-YE.xml
-dflat: input XML file does not exist
+dflat: invalid XML format
 restored 0 files
 
 Downloading cif-za from http://doumodqax2qi2.cloudfront.net/CIF/CIF-05-2020/CIF-ZA.xml
@@ -18504,7 +18501,7 @@ found 9 activities
 
 Downloading ifad-activitity-ke from https://webapps.ifad.org/iati/ifad_ke_activities.xml
 Parsing ifad-activitity-ke from https://webapps.ifad.org/iati/ifad_ke_activities.xml
-found 20 activities
+found 21 activities
 
 Downloading ifad-activitity-kg from https://webapps.ifad.org/iati/ifad_kg_activities.xml
 Parsing ifad-activitity-kg from https://webapps.ifad.org/iati/ifad_kg_activities.xml
@@ -18664,7 +18661,7 @@ found 21 activities
 
 Downloading ifad-activitity-sb from https://webapps.ifad.org/iati/ifad_sb_activities.xml
 Parsing ifad-activitity-sb from https://webapps.ifad.org/iati/ifad_sb_activities.xml
-found 4 activities
+found 5 activities
 
 Downloading ifad-activitity-sc from https://webapps.ifad.org/iati/ifad_sc_activities.xml
 Parsing ifad-activitity-sc from https://webapps.ifad.org/iati/ifad_sc_activities.xml
@@ -18744,7 +18741,7 @@ found 11 activities
 
 Downloading ifad-activitity-tz from https://webapps.ifad.org/iati/ifad_tz_activities.xml
 Parsing ifad-activitity-tz from https://webapps.ifad.org/iati/ifad_tz_activities.xml
-found 16 activities
+found 17 activities
 
 Downloading ifad-activitity-ug from https://webapps.ifad.org/iati/ifad_ug_activities.xml
 Parsing ifad-activitity-ug from https://webapps.ifad.org/iati/ifad_ug_activities.xml
@@ -20481,7 +20478,8 @@ found 176 activities
 
 Downloading itc-org from https://iatidata.intracen.org/IatIOrganization.xml
 Parsing itc-org from https://iatidata.intracen.org/IatIOrganization.xml
-found 1 organisations
+dflat: invalid XML format
+restored 1 files
 
 Downloading iteco-89 from https://aidstream.s3.us-west-2.amazonaws.com/xml/iteco-89.xml
 Parsing iteco-89 from https://aidstream.s3.us-west-2.amazonaws.com/xml/iteco-89.xml
@@ -34935,7 +34933,7 @@ found 937 activities
 
 Downloading unido-activity-2024 from https://downloads.unido.org/iati/2024-unido-activities.xml
 Parsing unido-activity-2024 from https://downloads.unido.org/iati/2024-unido-activities.xml
-found 358 activities
+found 422 activities
 
 Downloading unido-activity-2025 from https://downloads.unido.org/iati/2025-unido-activities.xml
 Parsing unido-activity-2025 from https://downloads.unido.org/iati/2025-unido-activities.xml
