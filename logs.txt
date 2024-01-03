@@ -3541,8 +3541,10 @@ Parsing ausgov-ba from https://www.dfat.gov.au/sites/default/files/Australian_Ai
 found 15 activities
 
 Downloading ausgov-bb from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Barbados.xml
+curl: download ERROR 000
 Parsing ausgov-bb from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Barbados.xml
-found 3 activities
+dflat: input XML file does not exist
+restored 3 files
 
 Downloading ausgov-bd from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Bangladesh.xml
 Parsing ausgov-bd from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Bangladesh.xml
@@ -6703,14 +6705,14 @@ dflat: invalid XML format
 restored 0 files
 
 Downloading cif-889 from http://siteresources.worldbank.org/IATI/CIF/CIF-889.xml
-curl: download ERROR 404
 Parsing cif-889 from http://siteresources.worldbank.org/IATI/CIF/CIF-889.xml
-dflat: input XML file does not exist
+dflat: invalid XML format
 restored 0 files
 
 Downloading cif-998 from http://siteresources.worldbank.org/IATI/CIF/CIF-998.xml
+curl: download ERROR 404
 Parsing cif-998 from http://siteresources.worldbank.org/IATI/CIF/CIF-998.xml
-dflat: invalid XML format
+dflat: input XML file does not exist
 restored 0 files
 
 Downloading c_i_f-activities from https://iatipublisher-prod.s3.amazonaws.com/xml/mergedActivityXml/c_i_f-activities.xml
@@ -7941,7 +7943,7 @@ found 4 activities
 
 Downloading dca-activities from https://iatipublisher-prod.s3.amazonaws.com/xml/mergedActivityXml/dca-activities.xml
 Parsing dca-activities from https://iatipublisher-prod.s3.amazonaws.com/xml/mergedActivityXml/dca-activities.xml
-found 853 activities
+found 856 activities
 
 Downloading dc-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/dc-activities.xml
 Parsing dc-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/dc-activities.xml
@@ -17686,7 +17688,7 @@ found 148 activities
 
 Downloading iadb-bb from https://webimages.iadb.org/iati/iadb-Barbados.xml
 Parsing iadb-bb from https://webimages.iadb.org/iati/iadb-Barbados.xml
-found 28 activities
+found 29 activities
 
 Downloading iadb-bo from https://webimages.iadb.org/iati/iadb-Bolivia.xml
 Parsing iadb-bo from https://webimages.iadb.org/iati/iadb-Bolivia.xml
@@ -20478,8 +20480,7 @@ found 176 activities
 
 Downloading itc-org from https://iatidata.intracen.org/IatIOrganization.xml
 Parsing itc-org from https://iatidata.intracen.org/IatIOrganization.xml
-dflat: invalid XML format
-restored 1 files
+found 1 organisations
 
 Downloading iteco-89 from https://aidstream.s3.us-west-2.amazonaws.com/xml/iteco-89.xml
 Parsing iteco-89 from https://aidstream.s3.us-west-2.amazonaws.com/xml/iteco-89.xml
@@ -23856,7 +23857,7 @@ found 956 activities
 
 Downloading minbuza_nl-activities20222023 from https://static.rijksoverheid.nl/bz/IATIACTIVITIES20222023.xml
 Parsing minbuza_nl-activities20222023 from https://static.rijksoverheid.nl/bz/IATIACTIVITIES20222023.xml
-found 626 activities
+found 886 activities
 
 Downloading minbuza_nl-organisation from https://static.rijksoverheid.nl/bz/IATI_ORGANISATION.xml
 Parsing minbuza_nl-organisation from https://static.rijksoverheid.nl/bz/IATI_ORGANISATION.xml
@@ -34929,7 +34930,7 @@ found 959 activities
 
 Downloading unido-activity-2023 from https://downloads.unido.org/iati/2023-unido-activities.xml
 Parsing unido-activity-2023 from https://downloads.unido.org/iati/2023-unido-activities.xml
-found 937 activities
+found 946 activities
 
 Downloading unido-activity-2024 from https://downloads.unido.org/iati/2024-unido-activities.xml
 Parsing unido-activity-2024 from https://downloads.unido.org/iati/2024-unido-activities.xml
@@ -43812,10 +43813,10 @@ found 2 activities
 
 Downloading yipl-activities from https://aidstream-stage.s3.us-west-2.amazonaws.com/xml/yipl-activities.xml
 Parsing yipl-activities from https://aidstream-stage.s3.us-west-2.amazonaws.com/xml/yipl-activities.xml
-found 0 activities
+found 1 activities
 
-Downloading yipl-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/yipl-org.xml
-Parsing yipl-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/yipl-org.xml
+Downloading yipl-org from https://aidstream-stage.s3.us-west-2.amazonaws.com/xml/yipl-org.xml
+Parsing yipl-org from https://aidstream-stage.s3.us-west-2.amazonaws.com/xml/yipl-org.xml
 found 2 organisations
 
 Downloading ylabs-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/ylabs-activities.xml
