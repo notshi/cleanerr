@@ -3541,10 +3541,8 @@ Parsing ausgov-ba from https://www.dfat.gov.au/sites/default/files/Australian_Ai
 found 15 activities
 
 Downloading ausgov-bb from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Barbados.xml
-curl: download ERROR 000
 Parsing ausgov-bb from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Barbados.xml
-dflat: input XML file does not exist
-restored 3 files
+found 3 activities
 
 Downloading ausgov-bd from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Bangladesh.xml
 Parsing ausgov-bd from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Bangladesh.xml
@@ -6705,8 +6703,9 @@ dflat: invalid XML format
 restored 0 files
 
 Downloading cif-889 from http://siteresources.worldbank.org/IATI/CIF/CIF-889.xml
+curl: download ERROR 404
 Parsing cif-889 from http://siteresources.worldbank.org/IATI/CIF/CIF-889.xml
-dflat: invalid XML format
+dflat: input XML file does not exist
 restored 0 files
 
 Downloading cif-998 from http://siteresources.worldbank.org/IATI/CIF/CIF-998.xml
@@ -6749,8 +6748,9 @@ Parsing cif-br from http://doumodqax2qi2.cloudfront.net/CIF/CIF-05-2020/CIF-BR.x
 found 11 activities
 
 Downloading cif-cd from http://siteresources.worldbank.org/IATI/CIF/CIF-CD.xml
+curl: download ERROR 404
 Parsing cif-cd from http://siteresources.worldbank.org/IATI/CIF/CIF-CD.xml
-dflat: invalid XML format
+dflat: input XML file does not exist
 restored 0 files
 
 Downloading cif-ci from http://doumodqax2qi2.cloudfront.net/CIF/CIF-05-2020/CIF-CI.xml
@@ -6942,8 +6942,9 @@ Parsing cif-ws from http://doumodqax2qi2.cloudfront.net/CIF/CIF-05-2020/CIF-WS.x
 found 2 activities
 
 Downloading cif-ye from http://siteresources.worldbank.org/IATI/CIF/CIF-YE.xml
+curl: download ERROR 404
 Parsing cif-ye from http://siteresources.worldbank.org/IATI/CIF/CIF-YE.xml
-dflat: invalid XML format
+dflat: input XML file does not exist
 restored 0 files
 
 Downloading cif-za from http://doumodqax2qi2.cloudfront.net/CIF/CIF-05-2020/CIF-ZA.xml
@@ -7943,7 +7944,7 @@ found 4 activities
 
 Downloading dca-activities from https://iatipublisher-prod.s3.amazonaws.com/xml/mergedActivityXml/dca-activities.xml
 Parsing dca-activities from https://iatipublisher-prod.s3.amazonaws.com/xml/mergedActivityXml/dca-activities.xml
-found 856 activities
+found 858 activities
 
 Downloading dc-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/dc-activities.xml
 Parsing dc-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/dc-activities.xml
@@ -18095,7 +18096,7 @@ found 1 organisations
 
 Downloading idbinvest-projects from https://idbinvest.org/sites/default/files/iati_publish_projects.xml
 Parsing idbinvest-projects from https://idbinvest.org/sites/default/files/iati_publish_projects.xml
-found 646 activities
+found 649 activities
 
 Downloading idea-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/idea-activities.xml
 Parsing idea-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/idea-activities.xml
@@ -25063,7 +25064,7 @@ found 2210 activities
 
 Downloading onl-activity from https://www.oxfamnovib.nl/redactie/Downloads/XML/iati.xml
 Parsing onl-activity from https://www.oxfamnovib.nl/redactie/Downloads/XML/iati.xml
-found 2198 activities
+found 2203 activities
 
 Downloading onl-org from https://www.oxfamnovib.nl/redactie/downloads/xml/IATI_NL-KVK-27108436.xml
 Parsing onl-org from https://www.oxfamnovib.nl/redactie/downloads/xml/IATI_NL-KVK-27108436.xml
@@ -25747,9 +25748,9 @@ Downloading oyw-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/oyw-or
 Parsing oyw-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/oyw-org.xml
 found 1 organisations
 
-Downloading pa-activity from https://infohub.practicalaction.org/bitstream/handle/11283/622996/pa-activity.xml?sequence=1&isAllowed=y
+Downloading pa-activity from https://infohub.practicalaction.org/bitstream/handle/11283/623010/pa-activity.xml?sequence=1&isAllowed=y
 curl: download ERROR 403
-Parsing pa-activity from https://infohub.practicalaction.org/bitstream/handle/11283/622996/pa-activity.xml?sequence=1&isAllowed=y
+Parsing pa-activity from https://infohub.practicalaction.org/bitstream/handle/11283/623010/pa-activity.xml?sequence=1&isAllowed=y
 dflat: input XML file does not exist
 restored 896 files
 
@@ -36750,7 +36751,7 @@ found 14 activities
 
 Downloading unocha-cbpf-sudan-contribution-2023 from https://cbpfapi.unocha.org/iati/iati/15/2023/GetContribution.xml
 Parsing unocha-cbpf-sudan-contribution-2023 from https://cbpfapi.unocha.org/iati/iati/15/2023/GetContribution.xml
-found 26 activities
+found 27 activities
 
 Downloading unocha-cbpf-sudan-contribution-2024 from https://cbpfapi.unocha.org/iati/iati/15/2024/GetContribution.xml
 Parsing unocha-cbpf-sudan-contribution-2024 from https://cbpfapi.unocha.org/iati/iati/15/2024/GetContribution.xml
@@ -43811,8 +43812,8 @@ Downloading yipl-998 from https://aidstream-stage.s3.us-west-2.amazonaws.com/xml
 Parsing yipl-998 from https://aidstream-stage.s3.us-west-2.amazonaws.com/xml/yipl-998.xml
 found 2 activities
 
-Downloading yipl-activities from https://aidstream-stage.s3.us-west-2.amazonaws.com/xml/yipl-activities.xml
-Parsing yipl-activities from https://aidstream-stage.s3.us-west-2.amazonaws.com/xml/yipl-activities.xml
+Downloading yipl-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/yipl-activities.xml
+Parsing yipl-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/yipl-activities.xml
 found 1 activities
 
 Downloading yipl-org from https://aidstream-stage.s3.us-west-2.amazonaws.com/xml/yipl-org.xml
