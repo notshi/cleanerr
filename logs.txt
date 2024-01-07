@@ -3717,10 +3717,8 @@ Parsing ausgov-la from https://www.dfat.gov.au/sites/default/files/Australian_Ai
 found 295 activities
 
 Downloading ausgov-lb from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Lebanon.xml
-curl: download ERROR 000
 Parsing ausgov-lb from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Lebanon.xml
-dflat: input XML file does not exist
-restored 59 files
+found 59 activities
 
 Downloading ausgov-lc from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_St-Lucia.xml
 Parsing ausgov-lc from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_St-Lucia.xml
@@ -6835,15 +6833,13 @@ dflat: invalid XML format
 restored 0 files
 
 Downloading cif-889 from http://siteresources.worldbank.org/IATI/CIF/CIF-889.xml
-curl: download ERROR 404
 Parsing cif-889 from http://siteresources.worldbank.org/IATI/CIF/CIF-889.xml
-dflat: input XML file does not exist
+dflat: invalid XML format
 restored 0 files
 
 Downloading cif-998 from http://siteresources.worldbank.org/IATI/CIF/CIF-998.xml
-curl: download ERROR 404
 Parsing cif-998 from http://siteresources.worldbank.org/IATI/CIF/CIF-998.xml
-dflat: input XML file does not exist
+dflat: invalid XML format
 restored 0 files
 
 Downloading c_i_f-activities from https://iatipublisher-prod.s3.amazonaws.com/xml/mergedActivityXml/c_i_f-activities.xml
@@ -6880,8 +6876,9 @@ Parsing cif-br from http://doumodqax2qi2.cloudfront.net/CIF/CIF-05-2020/CIF-BR.x
 found 11 activities
 
 Downloading cif-cd from http://siteresources.worldbank.org/IATI/CIF/CIF-CD.xml
+curl: download ERROR 404
 Parsing cif-cd from http://siteresources.worldbank.org/IATI/CIF/CIF-CD.xml
-dflat: invalid XML format
+dflat: input XML file does not exist
 restored 0 files
 
 Downloading cif-ci from http://doumodqax2qi2.cloudfront.net/CIF/CIF-05-2020/CIF-CI.xml
@@ -16770,7 +16767,7 @@ found 1 activities
 
 Downloading giz-act from https://www.giz.de/projektdaten/downloadIATIAct
 Parsing giz-act from https://www.giz.de/projektdaten/downloadIATIAct
-found 45 activities
+found 48 activities
 
 Downloading giz-org from https://www.giz.de/projektdaten/downloadIATIOrg
 Parsing giz-org from https://www.giz.de/projektdaten/downloadIATIOrg
