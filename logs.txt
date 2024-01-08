@@ -6833,8 +6833,9 @@ dflat: invalid XML format
 restored 0 files
 
 Downloading cif-889 from http://siteresources.worldbank.org/IATI/CIF/CIF-889.xml
+curl: download ERROR 404
 Parsing cif-889 from http://siteresources.worldbank.org/IATI/CIF/CIF-889.xml
-dflat: invalid XML format
+dflat: input XML file does not exist
 restored 0 files
 
 Downloading cif-998 from http://siteresources.worldbank.org/IATI/CIF/CIF-998.xml
@@ -6876,9 +6877,8 @@ Parsing cif-br from http://doumodqax2qi2.cloudfront.net/CIF/CIF-05-2020/CIF-BR.x
 found 11 activities
 
 Downloading cif-cd from http://siteresources.worldbank.org/IATI/CIF/CIF-CD.xml
-curl: download ERROR 404
 Parsing cif-cd from http://siteresources.worldbank.org/IATI/CIF/CIF-CD.xml
-dflat: input XML file does not exist
+dflat: invalid XML format
 restored 0 files
 
 Downloading cif-ci from http://doumodqax2qi2.cloudfront.net/CIF/CIF-05-2020/CIF-CI.xml
@@ -21143,7 +21143,7 @@ found 1 activities
 
 Downloading ksrelief291-dj from https://aidstream.s3.us-west-2.amazonaws.com/xml/ksrelief291-dj.xml
 Parsing ksrelief291-dj from https://aidstream.s3.us-west-2.amazonaws.com/xml/ksrelief291-dj.xml
-found 20 activities
+found 21 activities
 
 Downloading ksrelief291-do from https://aidstream.s3.us-west-2.amazonaws.com/xml/ksrelief291-do.xml
 Parsing ksrelief291-do from https://aidstream.s3.us-west-2.amazonaws.com/xml/ksrelief291-do.xml
@@ -21339,7 +21339,7 @@ found 44 activities
 
 Downloading ksrelief291-ss from https://aidstream.s3.us-west-2.amazonaws.com/xml/ksrelief291-ss.xml
 Parsing ksrelief291-ss from https://aidstream.s3.us-west-2.amazonaws.com/xml/ksrelief291-ss.xml
-found 1 activities
+found 2 activities
 
 Downloading ksrelief291-sy from https://aidstream.s3.us-west-2.amazonaws.com/xml/ksrelief291-sy.xml
 Parsing ksrelief291-sy from https://aidstream.s3.us-west-2.amazonaws.com/xml/ksrelief291-sy.xml
@@ -21395,7 +21395,7 @@ found 2 activities
 
 Downloading ksrelief291-ye from https://aidstream.s3.us-west-2.amazonaws.com/xml/ksrelief291-ye.xml
 Parsing ksrelief291-ye from https://aidstream.s3.us-west-2.amazonaws.com/xml/ksrelief291-ye.xml
-found 385 activities
+found 387 activities
 
 Downloading ksrelief291-za from https://aidstream.s3.us-west-2.amazonaws.com/xml/ksrelief291-za.xml
 Parsing ksrelief291-za from https://aidstream.s3.us-west-2.amazonaws.com/xml/ksrelief291-za.xml
@@ -30619,8 +30619,10 @@ Parsing theglobalfund-nic from https://data-service.theglobalfund.org/v2.1/iati/
 found 13 activities
 
 Downloading theglobalfund-npl from https://data-service.theglobalfund.org/v2.1/iati/activities-xml/NPL
+curl: download ERROR 000
 Parsing theglobalfund-npl from https://data-service.theglobalfund.org/v2.1/iati/activities-xml/NPL
-found 19 activities
+dflat: input XML file does not exist
+restored 19 files
 
 Downloading theglobalfund-pak from https://data-service.theglobalfund.org/v2.1/iati/activities-xml/PAK
 Parsing theglobalfund-pak from https://data-service.theglobalfund.org/v2.1/iati/activities-xml/PAK
