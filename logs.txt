@@ -2872,7 +2872,7 @@ found 1 organisations
 
 Downloading amwa-pod-activity from https://iati.nimd.org/Documents%20PoD_L4P/consortium%20partners/AMwA/%5bIATI-activities-PoD-AMwA%5d.xml
 Parsing amwa-pod-activity from https://iati.nimd.org/Documents%20PoD_L4P/consortium%20partners/AMwA/%5bIATI-activities-PoD-AMwA%5d.xml
-found 2 activities
+found 3 activities
 
 Downloading anaepmr_benin-act from https://rsr.akvo.org/organisation/4985/iati/
 Parsing anaepmr_benin-act from https://rsr.akvo.org/organisation/4985/iati/
@@ -3887,8 +3887,10 @@ Parsing ausgov-sb from https://www.dfat.gov.au/sites/default/files/Australian_Ai
 found 373 activities
 
 Downloading ausgov-sc from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Seychelles.xml
+curl: download ERROR 000
 Parsing ausgov-sc from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Seychelles.xml
-found 29 activities
+dflat: input XML file does not exist
+restored 29 files
 
 Downloading ausgov-sd from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Sudan.xml
 Parsing ausgov-sd from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Sudan.xml
@@ -3919,8 +3921,10 @@ Parsing ausgov-sv from https://www.dfat.gov.au/sites/default/files/Australian_Ai
 found 28 activities
 
 Downloading ausgov-sy from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Syria.xml
+curl: download ERROR 000
 Parsing ausgov-sy from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Syria.xml
-found 32 activities
+dflat: input XML file does not exist
+restored 32 files
 
 Downloading ausgov-sz from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Swaziland.xml
 Parsing ausgov-sz from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Swaziland.xml
@@ -4387,7 +4391,7 @@ found 123 activities
 
 Downloading be-dgd-2021_4 from http://diplomatie.be/oda/IATI_2024_4.xml
 Parsing be-dgd-2021_4 from http://diplomatie.be/oda/IATI_2024_4.xml
-found 274 activities
+found 275 activities
 
 Downloading be-dgd-orgfile2023 from http://diplomatie.be/oda/iati-organisations.xml
 Parsing be-dgd-orgfile2023 from http://diplomatie.be/oda/iati-organisations.xml
@@ -4589,7 +4593,7 @@ found 3 activities
 
 Downloading bii-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/bii-activities.xml
 Parsing bii-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/bii-activities.xml
-found 367 activities
+found 374 activities
 
 Downloading bii-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/bii-org.xml
 Parsing bii-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/bii-org.xml
@@ -6839,8 +6843,9 @@ dflat: input XML file does not exist
 restored 0 files
 
 Downloading cif-998 from http://siteresources.worldbank.org/IATI/CIF/CIF-998.xml
+curl: download ERROR 404
 Parsing cif-998 from http://siteresources.worldbank.org/IATI/CIF/CIF-998.xml
-dflat: invalid XML format
+dflat: input XML file does not exist
 restored 0 files
 
 Downloading c_i_f-activities from https://iatipublisher-prod.s3.amazonaws.com/xml/mergedActivityXml/c_i_f-activities.xml
@@ -8221,6 +8226,10 @@ found 3 activities
 Downloading ddp-activityfile1 from https://aidstream.org/files/xml/ddp-activities.xml
 Parsing ddp-activityfile1 from https://aidstream.org/files/xml/ddp-activities.xml
 found 3 activities
+
+Downloading ddsolar-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/ddsolar-activities.xml
+Parsing ddsolar-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/ddsolar-activities.xml
+found 1 activities
 
 Downloading dec_ethiopia-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/dec_ethiopia-activities.xml
 Parsing dec_ethiopia-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/dec_ethiopia-activities.xml
@@ -14062,7 +14071,7 @@ restored 958 files
 
 Downloading finland_mfa-011 from https://s3.eu-north-1.amazonaws.com/www.aiddata.eu/xml/stg/Finland_total_2022.xml
 Parsing finland_mfa-011 from https://s3.eu-north-1.amazonaws.com/www.aiddata.eu/xml/stg/Finland_total_2022.xml
-found 798 activities
+found 1529 activities
 
 Downloading finland_mfa-012 from https://s3.eu-north-1.amazonaws.com/www.aiddata.eu/xml/stg/Finland_total_2023.xml
 Parsing finland_mfa-012 from https://s3.eu-north-1.amazonaws.com/www.aiddata.eu/xml/stg/Finland_total_2023.xml
@@ -17812,11 +17821,11 @@ found 1 activities
 
 Downloading iadb-ar from https://webimages.iadb.org/iati/iadb-Argentina.xml
 Parsing iadb-ar from https://webimages.iadb.org/iati/iadb-Argentina.xml
-found 150 activities
+found 149 activities
 
 Downloading iadb-bb from https://webimages.iadb.org/iati/iadb-Barbados.xml
 Parsing iadb-bb from https://webimages.iadb.org/iati/iadb-Barbados.xml
-found 29 activities
+found 28 activities
 
 Downloading iadb-bo from https://webimages.iadb.org/iati/iadb-Bolivia.xml
 Parsing iadb-bo from https://webimages.iadb.org/iati/iadb-Bolivia.xml
@@ -17824,7 +17833,7 @@ found 82 activities
 
 Downloading iadb-br from https://webimages.iadb.org/iati/iadb-Brazil.xml
 Parsing iadb-br from https://webimages.iadb.org/iati/iadb-Brazil.xml
-found 209 activities
+found 208 activities
 
 Downloading iadb-bs from https://webimages.iadb.org/iati/iadb-Bahamas.xml
 Parsing iadb-bs from https://webimages.iadb.org/iati/iadb-Bahamas.xml
@@ -17840,7 +17849,7 @@ found 43 activities
 
 Downloading iadb-co from https://webimages.iadb.org/iati/iadb-Colombia.xml
 Parsing iadb-co from https://webimages.iadb.org/iati/iadb-Colombia.xml
-found 115 activities
+found 114 activities
 
 Downloading iadb-cr from https://webimages.iadb.org/iati/iadb-Costa-Rica.xml
 Parsing iadb-cr from https://webimages.iadb.org/iati/iadb-Costa-Rica.xml
@@ -17848,11 +17857,11 @@ found 21 activities
 
 Downloading iadb-do from https://webimages.iadb.org/iati/iadb-Dominican-Republic.xml
 Parsing iadb-do from https://webimages.iadb.org/iati/iadb-Dominican-Republic.xml
-found 62 activities
+found 61 activities
 
 Downloading iadb-ec from https://webimages.iadb.org/iati/iadb-Ecuador.xml
 Parsing iadb-ec from https://webimages.iadb.org/iati/iadb-Ecuador.xml
-found 89 activities
+found 86 activities
 
 Downloading iadb-gt from https://webimages.iadb.org/iati/iadb-Guatemala.xml
 Parsing iadb-gt from https://webimages.iadb.org/iati/iadb-Guatemala.xml
@@ -17860,11 +17869,11 @@ found 27 activities
 
 Downloading iadb-gy from https://webimages.iadb.org/iati/iadb-Guyana.xml
 Parsing iadb-gy from https://webimages.iadb.org/iati/iadb-Guyana.xml
-found 47 activities
+found 46 activities
 
 Downloading iadb-ho from https://webimages.iadb.org/iati/iadb-Honduras.xml
 Parsing iadb-ho from https://webimages.iadb.org/iati/iadb-Honduras.xml
-found 79 activities
+found 78 activities
 
 Downloading iadb-ht from https://webimages.iadb.org/iati/iadb-Haiti.xml
 Parsing iadb-ht from https://webimages.iadb.org/iati/iadb-Haiti.xml
@@ -17876,7 +17885,7 @@ found 49 activities
 
 Downloading iadb-mx from https://webimages.iadb.org/iati/iadb-Mexico.xml
 Parsing iadb-mx from https://webimages.iadb.org/iati/iadb-Mexico.xml
-found 76 activities
+found 75 activities
 
 Downloading iadb-ni from https://webimages.iadb.org/iati/iadb-Nicaragua.xml
 Parsing iadb-ni from https://webimages.iadb.org/iati/iadb-Nicaragua.xml
@@ -17896,7 +17905,7 @@ found 105 activities
 
 Downloading iadb-py from https://webimages.iadb.org/iati/iadb-Paraguay.xml
 Parsing iadb-py from https://webimages.iadb.org/iati/iadb-Paraguay.xml
-found 67 activities
+found 65 activities
 
 Downloading iadb-rg from https://webimages.iadb.org/iati/iadb-Regional.xml
 Parsing iadb-rg from https://webimages.iadb.org/iati/iadb-Regional.xml
@@ -17904,7 +17913,7 @@ found 12 activities
 
 Downloading iadb-sr from https://webimages.iadb.org/iati/iadb-Suriname.xml
 Parsing iadb-sr from https://webimages.iadb.org/iati/iadb-Suriname.xml
-found 41 activities
+found 40 activities
 
 Downloading iadb-sv from https://webimages.iadb.org/iati/iadb-El-Salvador.xml
 Parsing iadb-sv from https://webimages.iadb.org/iati/iadb-El-Salvador.xml
@@ -17916,7 +17925,7 @@ found 22 activities
 
 Downloading iadb-uy from https://webimages.iadb.org/iati/iadb-Uruguay.xml
 Parsing iadb-uy from https://webimages.iadb.org/iati/iadb-Uruguay.xml
-found 104 activities
+found 102 activities
 
 Downloading iadb-ve from https://webimages.iadb.org/iati/iadb-Venezuela.xml
 Parsing iadb-ve from https://webimages.iadb.org/iati/iadb-Venezuela.xml
@@ -20746,7 +20755,7 @@ found 1 organisations
 
 Downloading iza-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/iza-activities.xml
 Parsing iza-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/iza-activities.xml
-found 54 activities
+found 81 activities
 
 Downloading iza-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/iza-org.xml
 Parsing iza-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/iza-org.xml
@@ -21107,7 +21116,7 @@ found 1 activities
 
 Downloading ksrelief291-bd from https://aidstream.s3.us-west-2.amazonaws.com/xml/ksrelief291-bd.xml
 Parsing ksrelief291-bd from https://aidstream.s3.us-west-2.amazonaws.com/xml/ksrelief291-bd.xml
-found 63 activities
+found 64 activities
 
 Downloading ksrelief291-bf from https://aidstream.s3.us-west-2.amazonaws.com/xml/ksrelief291-bf.xml
 Parsing ksrelief291-bf from https://aidstream.s3.us-west-2.amazonaws.com/xml/ksrelief291-bf.xml
@@ -21395,7 +21404,7 @@ found 2 activities
 
 Downloading ksrelief291-ye from https://aidstream.s3.us-west-2.amazonaws.com/xml/ksrelief291-ye.xml
 Parsing ksrelief291-ye from https://aidstream.s3.us-west-2.amazonaws.com/xml/ksrelief291-ye.xml
-found 387 activities
+found 389 activities
 
 Downloading ksrelief291-za from https://aidstream.s3.us-west-2.amazonaws.com/xml/ksrelief291-za.xml
 Parsing ksrelief291-za from https://aidstream.s3.us-west-2.amazonaws.com/xml/ksrelief291-za.xml
@@ -27154,6 +27163,10 @@ Downloading rabi3-organisation from https://iatipublisher-prod.s3.amazonaws.com/
 Parsing rabi3-organisation from https://iatipublisher-prod.s3.amazonaws.com/organizationXmlFiles/rabi3-organisation.xml
 found 1 organisations
 
+Downloading rabk-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/rabk-activities.xml
+Parsing rabk-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/rabk-activities.xml
+found 1 activities
+
 Downloading rabofoundation-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/rabofoundation-activities.xml
 Parsing rabofoundation-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/rabofoundation-activities.xml
 found 1 activities
@@ -30619,10 +30632,8 @@ Parsing theglobalfund-nic from https://data-service.theglobalfund.org/v2.1/iati/
 found 13 activities
 
 Downloading theglobalfund-npl from https://data-service.theglobalfund.org/v2.1/iati/activities-xml/NPL
-curl: download ERROR 000
 Parsing theglobalfund-npl from https://data-service.theglobalfund.org/v2.1/iati/activities-xml/NPL
-dflat: input XML file does not exist
-restored 19 files
+found 19 activities
 
 Downloading theglobalfund-pak from https://data-service.theglobalfund.org/v2.1/iati/activities-xml/PAK
 Parsing theglobalfund-pak from https://data-service.theglobalfund.org/v2.1/iati/activities-xml/PAK
@@ -30887,6 +30898,10 @@ restored 0 files
 Downloading the_power_of_nutrition-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/the_power_of_nutrition-activities.xml
 Parsing the_power_of_nutrition-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/the_power_of_nutrition-activities.xml
 found 18 activities
+
+Downloading thp_org-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/thp_org-activities.xml
+Parsing thp_org-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/thp_org-activities.xml
+found 6 activities
 
 Downloading thp_org-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/thp_org-org.xml
 Parsing thp_org-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/thp_org-org.xml
@@ -35436,7 +35451,7 @@ found 58 activities
 
 Downloading unocha-cbpf-car-allocation-2023 from https://cbpfapi.unocha.org/iati/iati/17/2023/GetAllocation.xml
 Parsing unocha-cbpf-car-allocation-2023 from https://cbpfapi.unocha.org/iati/iati/17/2023/GetAllocation.xml
-found 29 activities
+found 30 activities
 
 Downloading unocha-cbpf-car-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/17/2024/GetAllocation.xml
 Parsing unocha-cbpf-car-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/17/2024/GetAllocation.xml
@@ -36428,7 +36443,7 @@ found 57 activities
 
 Downloading unocha-cbpf-opt-allocation-2023 from https://cbpfapi.unocha.org/iati/iati/67/2023/GetAllocation.xml
 Parsing unocha-cbpf-opt-allocation-2023 from https://cbpfapi.unocha.org/iati/iati/67/2023/GetAllocation.xml
-found 68 activities
+found 69 activities
 
 Downloading unocha-cbpf-opt-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/67/2024/GetAllocation.xml
 Parsing unocha-cbpf-opt-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/67/2024/GetAllocation.xml
@@ -36860,7 +36875,7 @@ found 78 activities
 
 Downloading unocha-cbpf-sudan-allocation-2023 from https://cbpfapi.unocha.org/iati/iati/15/2023/GetAllocation.xml
 Parsing unocha-cbpf-sudan-allocation-2023 from https://cbpfapi.unocha.org/iati/iati/15/2023/GetAllocation.xml
-found 40 activities
+found 42 activities
 
 Downloading unocha-cbpf-sudan-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/15/2024/GetAllocation.xml
 Parsing unocha-cbpf-sudan-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/15/2024/GetAllocation.xml
