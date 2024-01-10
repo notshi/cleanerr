@@ -3801,8 +3801,10 @@ Parsing ausgov-my from https://www.dfat.gov.au/sites/default/files/Australian_Ai
 found 108 activities
 
 Downloading ausgov-mz from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Mozambique.xml
+curl: download ERROR 000
 Parsing ausgov-mz from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Mozambique.xml
-found 87 activities
+dflat: input XML file does not exist
+restored 87 files
 
 Downloading ausgov-na from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Namibia.xml
 Parsing ausgov-na from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Namibia.xml
@@ -3887,10 +3889,8 @@ Parsing ausgov-sb from https://www.dfat.gov.au/sites/default/files/Australian_Ai
 found 373 activities
 
 Downloading ausgov-sc from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Seychelles.xml
-curl: download ERROR 000
 Parsing ausgov-sc from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Seychelles.xml
-dflat: input XML file does not exist
-restored 29 files
+found 29 activities
 
 Downloading ausgov-sd from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Sudan.xml
 Parsing ausgov-sd from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Sudan.xml
@@ -3921,10 +3921,8 @@ Parsing ausgov-sv from https://www.dfat.gov.au/sites/default/files/Australian_Ai
 found 28 activities
 
 Downloading ausgov-sy from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Syria.xml
-curl: download ERROR 000
 Parsing ausgov-sy from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Syria.xml
-dflat: input XML file does not exist
-restored 32 files
+found 32 activities
 
 Downloading ausgov-sz from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Swaziland.xml
 Parsing ausgov-sz from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Swaziland.xml
@@ -4593,7 +4591,7 @@ found 3 activities
 
 Downloading bii-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/bii-activities.xml
 Parsing bii-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/bii-activities.xml
-found 374 activities
+found 385 activities
 
 Downloading bii-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/bii-org.xml
 Parsing bii-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/bii-org.xml
@@ -6832,8 +6830,9 @@ Parsing cidr-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/ci
 found 1 activities
 
 Downloading cif-389 from http://siteresources.worldbank.org/IATI/CIF/CIF-389.xml
+curl: download ERROR 404
 Parsing cif-389 from http://siteresources.worldbank.org/IATI/CIF/CIF-389.xml
-dflat: invalid XML format
+dflat: input XML file does not exist
 restored 0 files
 
 Downloading cif-889 from http://siteresources.worldbank.org/IATI/CIF/CIF-889.xml
@@ -6843,9 +6842,8 @@ dflat: input XML file does not exist
 restored 0 files
 
 Downloading cif-998 from http://siteresources.worldbank.org/IATI/CIF/CIF-998.xml
-curl: download ERROR 404
 Parsing cif-998 from http://siteresources.worldbank.org/IATI/CIF/CIF-998.xml
-dflat: input XML file does not exist
+dflat: invalid XML format
 restored 0 files
 
 Downloading c_i_f-activities from https://iatipublisher-prod.s3.amazonaws.com/xml/mergedActivityXml/c_i_f-activities.xml
@@ -6882,8 +6880,9 @@ Parsing cif-br from http://doumodqax2qi2.cloudfront.net/CIF/CIF-05-2020/CIF-BR.x
 found 11 activities
 
 Downloading cif-cd from http://siteresources.worldbank.org/IATI/CIF/CIF-CD.xml
+curl: download ERROR 404
 Parsing cif-cd from http://siteresources.worldbank.org/IATI/CIF/CIF-CD.xml
-dflat: invalid XML format
+dflat: input XML file does not exist
 restored 0 files
 
 Downloading cif-ci from http://doumodqax2qi2.cloudfront.net/CIF/CIF-05-2020/CIF-CI.xml
@@ -7135,7 +7134,7 @@ found 14 activities
 
 Downloading cisu-gaia from https://vores.cisu.dk/activities.xml
 Parsing cisu-gaia from https://vores.cisu.dk/activities.xml
-found 2624 activities
+found 2625 activities
 
 Downloading cisu-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/cisu-org.xml
 Parsing cisu-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/cisu-org.xml
@@ -13780,7 +13779,7 @@ found 1377 activities
 
 Downloading fcdo-set-17 from http://iati.fcdo.gov.uk/iati_files/solr/FCDO-set-17.xml
 Parsing fcdo-set-17 from http://iati.fcdo.gov.uk/iati_files/solr/FCDO-set-17.xml
-found 1497 activities
+found 1498 activities
 
 Downloading fcdo-set-18 from http://iati.fcdo.gov.uk/iati_files/solr/FCDO-set-18.xml
 Parsing fcdo-set-18 from http://iati.fcdo.gov.uk/iati_files/solr/FCDO-set-18.xml
@@ -15898,7 +15897,7 @@ found 1 organisations
 
 Downloading galvmed-activities from https://iatipublisher-prod.s3.amazonaws.com/xml/mergedActivityXml/galvmed-activities.xml
 Parsing galvmed-activities from https://iatipublisher-prod.s3.amazonaws.com/xml/mergedActivityXml/galvmed-activities.xml
-found 1 activities
+found 0 activities
 
 Downloading galvmed-organisation from https://iatipublisher-prod.s3.amazonaws.com/organizationXmlFiles/galvmed-organisation.xml
 Parsing galvmed-organisation from https://iatipublisher-prod.s3.amazonaws.com/organizationXmlFiles/galvmed-organisation.xml
@@ -16796,11 +16795,13 @@ found 1 organisations
 
 Downloading globalgiving-activity from http://www.globalgiving.org/iati/activities.xml
 Parsing globalgiving-activity from http://www.globalgiving.org/iati/activities.xml
-found 27015 activities
+dflat: input XML file does not exist
+restored 27015 files
 
 Downloading globalgiving-org from http://www.globalgiving.org/iati/organisations.xml
 Parsing globalgiving-org from http://www.globalgiving.org/iati/organisations.xml
-found 15247 organisations
+dflat: input XML file does not exist
+restored 15247 files
 
 Downloading globalshea-activities from https://iatipublisher-prod.s3.amazonaws.com/xml/mergedActivityXml/globalshea-activities.xml
 Parsing globalshea-activities from https://iatipublisher-prod.s3.amazonaws.com/xml/mergedActivityXml/globalshea-activities.xml
@@ -19518,7 +19519,7 @@ found 23 activities
 
 Downloading ifcwbg-tr from https://disclosures.ifc.org/iati/ifc-tr.xml
 Parsing ifcwbg-tr from https://disclosures.ifc.org/iati/ifc-tr.xml
-found 244 activities
+found 245 activities
 
 Downloading ifcwbg-tt from https://disclosures.ifc.org/iati/ifc-tt.xml
 Parsing ifcwbg-tt from https://disclosures.ifc.org/iati/ifc-tt.xml
@@ -20464,7 +20465,7 @@ found 1 organisations
 
 Downloading irc_uk-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/irc_uk-activities.xml
 Parsing irc_uk-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/irc_uk-activities.xml
-found 115 activities
+found 116 activities
 
 Downloading irc_uk-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/irc_uk-org.xml
 Parsing irc_uk-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/irc_uk-org.xml
@@ -25506,7 +25507,7 @@ found 1 organisations
 
 Downloading oxfamgb-289 from http://iati.oxfam.org.uk/xml/oxfamgb-289.xml
 Parsing oxfamgb-289 from http://iati.oxfam.org.uk/xml/oxfamgb-289.xml
-found 117 activities
+found 120 activities
 
 Downloading oxfamgb-498 from http://iati.oxfam.org.uk/xml/oxfamgb-498.xml
 Parsing oxfamgb-498 from http://iati.oxfam.org.uk/xml/oxfamgb-498.xml
@@ -25534,7 +25535,7 @@ found 1 activities
 
 Downloading oxfamgb-998 from http://iati.oxfam.org.uk/xml/oxfamgb-998.xml
 Parsing oxfamgb-998 from http://iati.oxfam.org.uk/xml/oxfamgb-998.xml
-found 407 activities
+found 409 activities
 
 Downloading oxfamgb-af from http://iati.oxfam.org.uk/xml/oxfamgb-af.xml
 Parsing oxfamgb-af from http://iati.oxfam.org.uk/xml/oxfamgb-af.xml
@@ -25558,7 +25559,7 @@ found 11 activities
 
 Downloading oxfamgb-bd from http://iati.oxfam.org.uk/xml/oxfamgb-bd.xml
 Parsing oxfamgb-bd from http://iati.oxfam.org.uk/xml/oxfamgb-bd.xml
-found 127 activities
+found 129 activities
 
 Downloading oxfamgb-bf from http://iati.oxfam.org.uk/xml/oxfamgb-bf.xml
 Parsing oxfamgb-bf from http://iati.oxfam.org.uk/xml/oxfamgb-bf.xml
@@ -25578,7 +25579,7 @@ found 18 activities
 
 Downloading oxfamgb-cd from http://iati.oxfam.org.uk/xml/oxfamgb-cd.xml
 Parsing oxfamgb-cd from http://iati.oxfam.org.uk/xml/oxfamgb-cd.xml
-found 98 activities
+found 99 activities
 
 Downloading oxfamgb-cf from http://iati.oxfam.org.uk/xml/oxfamgb-cf.xml
 Parsing oxfamgb-cf from http://iati.oxfam.org.uk/xml/oxfamgb-cf.xml
@@ -25590,7 +25591,7 @@ found 1 activities
 
 Downloading oxfamgb-co from http://iati.oxfam.org.uk/xml/oxfamgb-co.xml
 Parsing oxfamgb-co from http://iati.oxfam.org.uk/xml/oxfamgb-co.xml
-found 49 activities
+found 50 activities
 
 Downloading oxfamgb-do from http://iati.oxfam.org.uk/xml/oxfamgb-do.xml
 Parsing oxfamgb-do from http://iati.oxfam.org.uk/xml/oxfamgb-do.xml
@@ -25610,7 +25611,7 @@ found 7 activities
 
 Downloading oxfamgb-et from http://iati.oxfam.org.uk/xml/oxfamgb-et.xml
 Parsing oxfamgb-et from http://iati.oxfam.org.uk/xml/oxfamgb-et.xml
-found 91 activities
+found 93 activities
 
 Downloading oxfamgb-gb from http://iati.oxfam.org.uk/xml/oxfamgb-gb.xml
 Parsing oxfamgb-gb from http://iati.oxfam.org.uk/xml/oxfamgb-gb.xml
@@ -25638,7 +25639,7 @@ found 96 activities
 
 Downloading oxfamgb-id from http://iati.oxfam.org.uk/xml/oxfamgb-id.xml
 Parsing oxfamgb-id from http://iati.oxfam.org.uk/xml/oxfamgb-id.xml
-found 95 activities
+found 96 activities
 
 Downloading oxfamgb-il from http://iati.oxfam.org.uk/xml/oxfamgb-il.xml
 Parsing oxfamgb-il from http://iati.oxfam.org.uk/xml/oxfamgb-il.xml
@@ -25650,7 +25651,7 @@ found 15 activities
 
 Downloading oxfamgb-iq from http://iati.oxfam.org.uk/xml/oxfamgb-iq.xml
 Parsing oxfamgb-iq from http://iati.oxfam.org.uk/xml/oxfamgb-iq.xml
-found 68 activities
+found 67 activities
 
 Downloading oxfamgb-jo from http://iati.oxfam.org.uk/xml/oxfamgb-jo.xml
 Parsing oxfamgb-jo from http://iati.oxfam.org.uk/xml/oxfamgb-jo.xml
@@ -25658,15 +25659,15 @@ found 23 activities
 
 Downloading oxfamgb-ke from http://iati.oxfam.org.uk/xml/oxfamgb-ke.xml
 Parsing oxfamgb-ke from http://iati.oxfam.org.uk/xml/oxfamgb-ke.xml
-found 159 activities
+found 162 activities
 
 Downloading oxfamgb-kh from http://iati.oxfam.org.uk/xml/oxfamgb-kh.xml
 Parsing oxfamgb-kh from http://iati.oxfam.org.uk/xml/oxfamgb-kh.xml
-found 63 activities
+found 64 activities
 
 Downloading oxfamgb-lb from http://iati.oxfam.org.uk/xml/oxfamgb-lb.xml
 Parsing oxfamgb-lb from http://iati.oxfam.org.uk/xml/oxfamgb-lb.xml
-found 33 activities
+found 34 activities
 
 Downloading oxfamgb-lk from http://iati.oxfam.org.uk/xml/oxfamgb-lk.xml
 Parsing oxfamgb-lk from http://iati.oxfam.org.uk/xml/oxfamgb-lk.xml
@@ -25706,7 +25707,7 @@ found 33 activities
 
 Downloading oxfamgb-ng from http://iati.oxfam.org.uk/xml/oxfamgb-ng.xml
 Parsing oxfamgb-ng from http://iati.oxfam.org.uk/xml/oxfamgb-ng.xml
-found 27 activities
+found 28 activities
 
 Downloading oxfamgb-ni from http://iati.oxfam.org.uk/xml/oxfamgb-ni.xml
 Parsing oxfamgb-ni from http://iati.oxfam.org.uk/xml/oxfamgb-ni.xml
@@ -25714,7 +25715,7 @@ found 48 activities
 
 Downloading oxfamgb-np from http://iati.oxfam.org.uk/xml/oxfamgb-np.xml
 Parsing oxfamgb-np from http://iati.oxfam.org.uk/xml/oxfamgb-np.xml
-found 99 activities
+found 101 activities
 
 Downloading oxfamgb-orgfile from http://iati.oxfam.org.uk/xml/oxfamgb-orgfile.xml
 Parsing oxfamgb-orgfile from http://iati.oxfam.org.uk/xml/oxfamgb-orgfile.xml
@@ -25726,7 +25727,7 @@ found 1 activities
 
 Downloading oxfamgb-ph from http://iati.oxfam.org.uk/xml/oxfamgb-ph.xml
 Parsing oxfamgb-ph from http://iati.oxfam.org.uk/xml/oxfamgb-ph.xml
-found 127 activities
+found 128 activities
 
 Downloading oxfamgb-pk from http://iati.oxfam.org.uk/xml/oxfamgb-pk.xml
 Parsing oxfamgb-pk from http://iati.oxfam.org.uk/xml/oxfamgb-pk.xml
@@ -25762,7 +25763,7 @@ found 33 activities
 
 Downloading oxfamgb-ss from http://iati.oxfam.org.uk/xml/oxfamgb-ss.xml
 Parsing oxfamgb-ss from http://iati.oxfam.org.uk/xml/oxfamgb-ss.xml
-found 71 activities
+found 74 activities
 
 Downloading oxfamgb-sv from http://iati.oxfam.org.uk/xml/oxfamgb-sv.xml
 Parsing oxfamgb-sv from http://iati.oxfam.org.uk/xml/oxfamgb-sv.xml
@@ -25770,7 +25771,7 @@ found 2 activities
 
 Downloading oxfamgb-sy from http://iati.oxfam.org.uk/xml/oxfamgb-sy.xml
 Parsing oxfamgb-sy from http://iati.oxfam.org.uk/xml/oxfamgb-sy.xml
-found 34 activities
+found 38 activities
 
 Downloading oxfamgb-td from http://iati.oxfam.org.uk/xml/oxfamgb-td.xml
 Parsing oxfamgb-td from http://iati.oxfam.org.uk/xml/oxfamgb-td.xml
@@ -25798,7 +25799,7 @@ found 36 activities
 
 Downloading oxfamgb-vn from http://iati.oxfam.org.uk/xml/oxfamgb-vn.xml
 Parsing oxfamgb-vn from http://iati.oxfam.org.uk/xml/oxfamgb-vn.xml
-found 42 activities
+found 43 activities
 
 Downloading oxfamgb-vu from http://iati.oxfam.org.uk/xml/oxfamgb-vu.xml
 Parsing oxfamgb-vu from http://iati.oxfam.org.uk/xml/oxfamgb-vu.xml
@@ -25806,7 +25807,7 @@ found 1 activities
 
 Downloading oxfamgb-ye from http://iati.oxfam.org.uk/xml/oxfamgb-ye.xml
 Parsing oxfamgb-ye from http://iati.oxfam.org.uk/xml/oxfamgb-ye.xml
-found 85 activities
+found 87 activities
 
 Downloading oxfamgb-za from http://iati.oxfam.org.uk/xml/oxfamgb-za.xml
 Parsing oxfamgb-za from http://iati.oxfam.org.uk/xml/oxfamgb-za.xml
@@ -25814,7 +25815,7 @@ found 11 activities
 
 Downloading oxfamgb-zm from http://iati.oxfam.org.uk/xml/oxfamgb-zm.xml
 Parsing oxfamgb-zm from http://iati.oxfam.org.uk/xml/oxfamgb-zm.xml
-found 51 activities
+found 52 activities
 
 Downloading oxfamgb-zw from http://iati.oxfam.org.uk/xml/oxfamgb-zw.xml
 Parsing oxfamgb-zw from http://iati.oxfam.org.uk/xml/oxfamgb-zw.xml
@@ -36983,7 +36984,7 @@ found 68 activities
 
 Downloading unocha-cbpf-syria-allocation-2023 from https://cbpfapi.unocha.org/iati/iati/62/2023/GetAllocation.xml
 Parsing unocha-cbpf-syria-allocation-2023 from https://cbpfapi.unocha.org/iati/iati/62/2023/GetAllocation.xml
-found 83 activities
+found 84 activities
 
 Downloading unocha-cbpf-syria-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/62/2024/GetAllocation.xml
 Parsing unocha-cbpf-syria-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/62/2024/GetAllocation.xml
@@ -37331,7 +37332,7 @@ found 106 activities
 
 Downloading unocha-cbpf-yemen-allocation-2023 from https://cbpfapi.unocha.org/iati/iati/64/2023/GetAllocation.xml
 Parsing unocha-cbpf-yemen-allocation-2023 from https://cbpfapi.unocha.org/iati/iati/64/2023/GetAllocation.xml
-found 86 activities
+found 87 activities
 
 Downloading unocha-cbpf-yemen-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/64/2024/GetAllocation.xml
 Parsing unocha-cbpf-yemen-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/64/2024/GetAllocation.xml
