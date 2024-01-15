@@ -4017,8 +4017,10 @@ Parsing ausgov-ws from https://www.dfat.gov.au/sites/default/files/Australian_Ai
 found 276 activities
 
 Downloading ausgov-xa from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Regional_File_Asia_Unspecified.xml
+curl: download ERROR 000
 Parsing ausgov-xa from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Regional_File_Asia_Unspecified.xml
-found 225 activities
+dflat: input XML file does not exist
+restored 225 files
 
 Downloading ausgov-xc from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Regional_File_South_and_Central_Asia_Unspecified.xml
 Parsing ausgov-xc from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Regional_File_South_and_Central_Asia_Unspecified.xml
@@ -6832,9 +6834,8 @@ Parsing cidr-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/ci
 found 1 activities
 
 Downloading cif-389 from http://siteresources.worldbank.org/IATI/CIF/CIF-389.xml
-curl: download ERROR 404
 Parsing cif-389 from http://siteresources.worldbank.org/IATI/CIF/CIF-389.xml
-dflat: input XML file does not exist
+dflat: invalid XML format
 restored 0 files
 
 Downloading cif-889 from http://siteresources.worldbank.org/IATI/CIF/CIF-889.xml
@@ -6881,9 +6882,8 @@ Parsing cif-br from http://doumodqax2qi2.cloudfront.net/CIF/CIF-05-2020/CIF-BR.x
 found 11 activities
 
 Downloading cif-cd from http://siteresources.worldbank.org/IATI/CIF/CIF-CD.xml
-curl: download ERROR 404
 Parsing cif-cd from http://siteresources.worldbank.org/IATI/CIF/CIF-CD.xml
-dflat: input XML file does not exist
+dflat: invalid XML format
 restored 0 files
 
 Downloading cif-ci from http://doumodqax2qi2.cloudfront.net/CIF/CIF-05-2020/CIF-CI.xml
@@ -11667,15 +11667,15 @@ found 816 activities
 
 Downloading ec-echo-2017 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2017.xml
 Parsing ec-echo-2017 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2017.xml
-found 652 activities
+found 651 activities
 
 Downloading ec-echo-2018 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2018.xml
 Parsing ec-echo-2018 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2018.xml
-found 585 activities
+found 588 activities
 
 Downloading ec-echo-2019 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2019.xml
 Parsing ec-echo-2019 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2019.xml
-found 549 activities
+found 546 activities
 
 Downloading ec-echo-2020 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2020.xml
 Parsing ec-echo-2020 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2020.xml
@@ -11687,11 +11687,11 @@ found 583 activities
 
 Downloading ec-echo-2022 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2022.xml
 Parsing ec-echo-2022 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2022.xml
-found 458 activities
+found 460 activities
 
 Downloading ec-echo-2023 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2023.xml
 Parsing ec-echo-2023 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2023.xml
-found 567 activities
+found 566 activities
 
 Downloading ec-echo-org from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/iati-organisation-file.xml
 Parsing ec-echo-org from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/iati-organisation-file.xml
@@ -27235,11 +27235,11 @@ found 1 organisations
 
 Downloading qrfed-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/qrfed-activities.xml
 Parsing qrfed-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/qrfed-activities.xml
-found 45 activities
+found 48 activities
 
 Downloading qrfed-fy17-18 from https://aidstream.org/files/xml/qrfed-activities.xml
 Parsing qrfed-fy17-18 from https://aidstream.org/files/xml/qrfed-activities.xml
-found 45 activities
+found 48 activities
 
 Downloading qrfed-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/qrfed-org.xml
 Parsing qrfed-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/qrfed-org.xml
