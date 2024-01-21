@@ -6688,8 +6688,9 @@ Parsing cif-br from http://doumodqax2qi2.cloudfront.net/CIF/CIF-05-2020/CIF-BR.x
 found 11 activities
 
 Downloading cif-cd from http://siteresources.worldbank.org/IATI/CIF/CIF-CD.xml
+curl: download ERROR 404
 Parsing cif-cd from http://siteresources.worldbank.org/IATI/CIF/CIF-CD.xml
-dflat: invalid XML format
+dflat: input XML file does not exist
 restored 0 files
 
 Downloading cif-ci from http://doumodqax2qi2.cloudfront.net/CIF/CIF-05-2020/CIF-CI.xml
@@ -7805,31 +7806,31 @@ found 1 organisations
 
 Downloading danida-all_1 from http://iati.um.dk/api/v2/files/iati1.xml
 Parsing danida-all_1 from http://iati.um.dk/api/v2/files/iati1.xml
-found 2623 activities
+found 2624 activities
 
 Downloading danida-all_2 from http://iati.um.dk/api/v2/files/iati2.xml
 Parsing danida-all_2 from http://iati.um.dk/api/v2/files/iati2.xml
-found 2623 activities
+found 2624 activities
 
 Downloading danida-all_3 from http://iati.um.dk/api/v2/files/iati3.xml
 Parsing danida-all_3 from http://iati.um.dk/api/v2/files/iati3.xml
-found 2623 activities
+found 2624 activities
 
 Downloading danida-all_4 from http://iati.um.dk/api/v2/files/iati4.xml
 Parsing danida-all_4 from http://iati.um.dk/api/v2/files/iati4.xml
-found 2623 activities
+found 2624 activities
 
 Downloading danida-all_5 from http://iati.um.dk/api/v2/files/iati5.xml
 Parsing danida-all_5 from http://iati.um.dk/api/v2/files/iati5.xml
-found 2623 activities
+found 2624 activities
 
 Downloading danida-all_6 from http://iati.um.dk/api/v2/files/iati6.xml
 Parsing danida-all_6 from http://iati.um.dk/api/v2/files/iati6.xml
-found 2623 activities
+found 2624 activities
 
 Downloading danida-all_7 from http://iati.um.dk/api/v2/files/iati7.xml
 Parsing danida-all_7 from http://iati.um.dk/api/v2/files/iati7.xml
-found 2621 activities
+found 2622 activities
 
 Downloading danida-org from http://iati.um.dk/api/v2/organisations/files/iati-organisations.xml
 Parsing danida-org from http://iati.um.dk/api/v2/organisations/files/iati-organisations.xml
@@ -11477,31 +11478,31 @@ found 816 activities
 
 Downloading ec-echo-2017 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2017.xml
 Parsing ec-echo-2017 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2017.xml
-found 650 activities
+found 653 activities
 
 Downloading ec-echo-2018 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2018.xml
 Parsing ec-echo-2018 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2018.xml
-found 585 activities
+found 580 activities
 
 Downloading ec-echo-2019 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2019.xml
 Parsing ec-echo-2019 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2019.xml
-found 548 activities
+found 549 activities
 
 Downloading ec-echo-2020 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2020.xml
 Parsing ec-echo-2020 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2020.xml
-found 584 activities
+found 585 activities
 
 Downloading ec-echo-2021 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2021.xml
 Parsing ec-echo-2021 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2021.xml
-found 582 activities
+found 584 activities
 
 Downloading ec-echo-2022 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2022.xml
 Parsing ec-echo-2022 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2022.xml
-found 459 activities
+found 460 activities
 
 Downloading ec-echo-2023 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2023.xml
 Parsing ec-echo-2023 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2023.xml
-found 568 activities
+found 565 activities
 
 Downloading ec-echo-org from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/iati-organisation-file.xml
 Parsing ec-echo-org from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/iati-organisation-file.xml
@@ -11912,8 +11913,10 @@ Parsing ec-fpi-td from https://ec.europa.eu/international-partnerships/assets/ia
 found 4 activities
 
 Downloading ec-fpi-tg from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_TG.xml
+curl: download ERROR 000
 Parsing ec-fpi-tg from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_TG.xml
-found 3 activities
+dflat: input XML file does not exist
+restored 3 files
 
 Downloading ec-fpi-th from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_TH.xml
 Parsing ec-fpi-th from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_TH.xml
@@ -15835,7 +15838,7 @@ found 6 activities
 
 Downloading gef-bo from https://d2mxkr7359ifh6.cloudfront.net/GEF/BO.xml
 Parsing gef-bo from https://d2mxkr7359ifh6.cloudfront.net/GEF/BO.xml
-found 27 activities
+found 6 activities
 
 Downloading gef-br from https://d2mxkr7359ifh6.cloudfront.net/GEF/BR.xml
 Parsing gef-br from https://d2mxkr7359ifh6.cloudfront.net/GEF/BR.xml
@@ -15875,11 +15878,11 @@ found 4 activities
 
 Downloading gef-ci from https://d2mxkr7359ifh6.cloudfront.net/GEF/CI.xml
 Parsing gef-ci from https://d2mxkr7359ifh6.cloudfront.net/GEF/CI.xml
-found 27 activities
+found 5 activities
 
 Downloading gef-ck from https://d2mxkr7359ifh6.cloudfront.net/GEF/CK.xml
 Parsing gef-ck from https://d2mxkr7359ifh6.cloudfront.net/GEF/CK.xml
-found 10 activities
+found 1 activities
 
 Downloading gef-cl from https://d2mxkr7359ifh6.cloudfront.net/GEF/CL.xml
 Parsing gef-cl from https://d2mxkr7359ifh6.cloudfront.net/GEF/CL.xml
@@ -15967,7 +15970,7 @@ found 3 activities
 
 Downloading gef-ge from https://d2mxkr7359ifh6.cloudfront.net/GEF/GE.xml
 Parsing gef-ge from https://d2mxkr7359ifh6.cloudfront.net/GEF/GE.xml
-found 32 activities
+found 7 activities
 
 Downloading gef-gh from https://d2mxkr7359ifh6.cloudfront.net/GEF/GH.xml
 Parsing gef-gh from https://d2mxkr7359ifh6.cloudfront.net/GEF/GH.xml
@@ -16279,7 +16282,7 @@ found 2 activities
 
 Downloading gef-sb from https://d2mxkr7359ifh6.cloudfront.net/GEF/SB.xml
 Parsing gef-sb from https://d2mxkr7359ifh6.cloudfront.net/GEF/SB.xml
-found 11 activities
+found 2 activities
 
 Downloading gef-sc from https://d2mxkr7359ifh6.cloudfront.net/GEF/SC.xml
 Parsing gef-sc from https://d2mxkr7359ifh6.cloudfront.net/GEF/SC.xml
@@ -16299,7 +16302,7 @@ found 4 activities
 
 Downloading gef-sl from https://d2mxkr7359ifh6.cloudfront.net/GEF/SL.xml
 Parsing gef-sl from https://d2mxkr7359ifh6.cloudfront.net/GEF/SL.xml
-found 14 activities
+found 1 activities
 
 Downloading gef-sn from https://d2mxkr7359ifh6.cloudfront.net/GEF/SN.xml
 Parsing gef-sn from https://d2mxkr7359ifh6.cloudfront.net/GEF/SN.xml
@@ -16311,7 +16314,7 @@ found 4 activities
 
 Downloading gef-sr from https://d2mxkr7359ifh6.cloudfront.net/GEF/SR.xml
 Parsing gef-sr from https://d2mxkr7359ifh6.cloudfront.net/GEF/SR.xml
-found 14 activities
+found 3 activities
 
 Downloading gef-ss from https://d2mxkr7359ifh6.cloudfront.net/GEF/SS.xml
 Parsing gef-ss from https://d2mxkr7359ifh6.cloudfront.net/GEF/SS.xml
@@ -36471,7 +36474,7 @@ found 57 activities
 
 Downloading unocha-cbpf-opt-allocation-2023 from https://cbpfapi.unocha.org/iati/iati/67/2023/GetAllocation.xml
 Parsing unocha-cbpf-opt-allocation-2023 from https://cbpfapi.unocha.org/iati/iati/67/2023/GetAllocation.xml
-found 77 activities
+found 84 activities
 
 Downloading unocha-cbpf-opt-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/67/2024/GetAllocation.xml
 Parsing unocha-cbpf-opt-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/67/2024/GetAllocation.xml
@@ -36903,7 +36906,7 @@ found 78 activities
 
 Downloading unocha-cbpf-sudan-allocation-2023 from https://cbpfapi.unocha.org/iati/iati/15/2023/GetAllocation.xml
 Parsing unocha-cbpf-sudan-allocation-2023 from https://cbpfapi.unocha.org/iati/iati/15/2023/GetAllocation.xml
-found 45 activities
+found 47 activities
 
 Downloading unocha-cbpf-sudan-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/15/2024/GetAllocation.xml
 Parsing unocha-cbpf-sudan-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/15/2024/GetAllocation.xml
