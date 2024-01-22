@@ -2565,6 +2565,10 @@ found 1217 activities
 
 Downloading aiddata-tlsamp-v104 from https://github.com/AidData-WM/public_datasets/raw/master/iati/iati_1.04_TimorLesteAIMS_GeocodedResearchRelease.xml
 Converting IATI activities version 1.04 to version 2.03
+./iati-activities.xsl:649: parser error : Premature end of data in tag period-start line 647
+              
+              ^
+cannot parse ./iati-activities.xsl
 Parsing aiddata-tlsamp-v104 from https://github.com/AidData-WM/public_datasets/raw/master/iati/iati_1.04_TimorLesteAIMS_GeocodedResearchRelease.xml
 found 134 activities
 
@@ -6649,9 +6653,8 @@ dflat: invalid XML format
 restored 0 files
 
 Downloading cif-998 from http://siteresources.worldbank.org/IATI/CIF/CIF-998.xml
-curl: download ERROR 404
 Parsing cif-998 from http://siteresources.worldbank.org/IATI/CIF/CIF-998.xml
-dflat: input XML file does not exist
+dflat: invalid XML format
 restored 0 files
 
 Downloading c_i_f-activities from https://iatipublisher-prod.s3.amazonaws.com/xml/mergedActivityXml/c_i_f-activities.xml
@@ -7806,31 +7809,31 @@ found 1 organisations
 
 Downloading danida-all_1 from http://iati.um.dk/api/v2/files/iati1.xml
 Parsing danida-all_1 from http://iati.um.dk/api/v2/files/iati1.xml
-found 2624 activities
+found 2615 activities
 
 Downloading danida-all_2 from http://iati.um.dk/api/v2/files/iati2.xml
 Parsing danida-all_2 from http://iati.um.dk/api/v2/files/iati2.xml
-found 2624 activities
+found 2615 activities
 
 Downloading danida-all_3 from http://iati.um.dk/api/v2/files/iati3.xml
 Parsing danida-all_3 from http://iati.um.dk/api/v2/files/iati3.xml
-found 2624 activities
+found 2615 activities
 
 Downloading danida-all_4 from http://iati.um.dk/api/v2/files/iati4.xml
 Parsing danida-all_4 from http://iati.um.dk/api/v2/files/iati4.xml
-found 2624 activities
+found 2615 activities
 
 Downloading danida-all_5 from http://iati.um.dk/api/v2/files/iati5.xml
 Parsing danida-all_5 from http://iati.um.dk/api/v2/files/iati5.xml
-found 2624 activities
+found 2615 activities
 
 Downloading danida-all_6 from http://iati.um.dk/api/v2/files/iati6.xml
 Parsing danida-all_6 from http://iati.um.dk/api/v2/files/iati6.xml
-found 2624 activities
+found 2615 activities
 
 Downloading danida-all_7 from http://iati.um.dk/api/v2/files/iati7.xml
 Parsing danida-all_7 from http://iati.um.dk/api/v2/files/iati7.xml
-found 2622 activities
+found 2611 activities
 
 Downloading danida-org from http://iati.um.dk/api/v2/organisations/files/iati-organisations.xml
 Parsing danida-org from http://iati.um.dk/api/v2/organisations/files/iati-organisations.xml
@@ -11478,31 +11481,31 @@ found 816 activities
 
 Downloading ec-echo-2017 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2017.xml
 Parsing ec-echo-2017 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2017.xml
-found 653 activities
+found 652 activities
 
 Downloading ec-echo-2018 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2018.xml
 Parsing ec-echo-2018 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2018.xml
-found 580 activities
+found 586 activities
 
 Downloading ec-echo-2019 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2019.xml
 Parsing ec-echo-2019 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2019.xml
-found 549 activities
+found 545 activities
 
 Downloading ec-echo-2020 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2020.xml
 Parsing ec-echo-2020 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2020.xml
-found 585 activities
+found 586 activities
 
 Downloading ec-echo-2021 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2021.xml
 Parsing ec-echo-2021 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2021.xml
-found 584 activities
+found 586 activities
 
 Downloading ec-echo-2022 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2022.xml
 Parsing ec-echo-2022 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2022.xml
-found 460 activities
+found 454 activities
 
 Downloading ec-echo-2023 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2023.xml
 Parsing ec-echo-2023 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2023.xml
-found 565 activities
+found 567 activities
 
 Downloading ec-echo-org from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/iati-organisation-file.xml
 Parsing ec-echo-org from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/iati-organisation-file.xml
@@ -11913,10 +11916,8 @@ Parsing ec-fpi-td from https://ec.europa.eu/international-partnerships/assets/ia
 found 4 activities
 
 Downloading ec-fpi-tg from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_TG.xml
-curl: download ERROR 000
 Parsing ec-fpi-tg from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_TG.xml
-dflat: input XML file does not exist
-restored 3 files
+found 3 activities
 
 Downloading ec-fpi-th from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_TH.xml
 Parsing ec-fpi-th from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_TH.xml
@@ -12263,8 +12264,10 @@ Parsing ec-intpa-gy from https://ec.europa.eu/international-partnerships/assets/
 found 25 activities
 
 Downloading ec-intpa-hn from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_HN.xml
+curl: download ERROR 000
 Parsing ec-intpa-hn from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_HN.xml
-found 66 activities
+dflat: input XML file does not exist
+restored 66 files
 
 Downloading ec-intpa-ht from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_HT.xml
 Parsing ec-intpa-ht from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_HT.xml
@@ -24817,8 +24820,10 @@ Parsing odakorea-act11 from https://www.odakorea.go.kr/opm/iati_act_KR-GOV-080.x
 found 19 activities
 
 Downloading odakorea-act12 from https://www.odakorea.go.kr/opm/iati_act_KR-GOV-090.xml
+curl: download ERROR 000
 Parsing odakorea-act12 from https://www.odakorea.go.kr/opm/iati_act_KR-GOV-090.xml
-found 89 activities
+dflat: input XML file does not exist
+restored 89 files
 
 Downloading odakorea-act13 from https://www.odakorea.go.kr/opm/iati_act_KR-GOV-100.xml
 Parsing odakorea-act13 from https://www.odakorea.go.kr/opm/iati_act_KR-GOV-100.xml
@@ -24869,8 +24874,10 @@ Parsing odakorea-act24 from https://www.odakorea.go.kr/opm/iati_act_KR-GOV-220.x
 found 8 activities
 
 Downloading odakorea-act25 from https://www.odakorea.go.kr/opm/iati_act_KR-GOV-230.xml
+curl: download ERROR 000
 Parsing odakorea-act25 from https://www.odakorea.go.kr/opm/iati_act_KR-GOV-230.xml
-found 9 activities
+dflat: input XML file does not exist
+restored 9 files
 
 Downloading odakorea-act26 from https://www.odakorea.go.kr/opm/iati_act_KR-GOV-240.xml
 Parsing odakorea-act26 from https://www.odakorea.go.kr/opm/iati_act_KR-GOV-240.xml
@@ -24951,8 +24958,10 @@ Parsing odakorea-act42 from https://www.odakorea.go.kr/opm/iati_act_KR-GOV-410.x
 found 1 activities
 
 Downloading odakorea-act43 from https://www.odakorea.go.kr/opm/iati_act_KR-GOV-420.xml
+curl: download ERROR 000
 Parsing odakorea-act43 from https://www.odakorea.go.kr/opm/iati_act_KR-GOV-420.xml
-found 2 activities
+dflat: input XML file does not exist
+restored 2 files
 
 Downloading odakorea-act44 from https://www.odakorea.go.kr/opm/iati_act_KR-GOV-430.xml
 Parsing odakorea-act44 from https://www.odakorea.go.kr/opm/iati_act_KR-GOV-430.xml
@@ -27615,7 +27624,7 @@ found 1 organisations
 
 Downloading rvo-01 from https://projects.rvo.nl/opendata/iati.xml
 Parsing rvo-01 from https://projects.rvo.nl/opendata/iati.xml
-found 4605 activities
+found 4610 activities
 
 Downloading rvo-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/rvo-activities.xml
 Parsing rvo-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/rvo-activities.xml
