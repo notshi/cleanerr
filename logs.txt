@@ -3832,8 +3832,10 @@ Parsing ausgov-nu from https://www.dfat.gov.au/sites/default/files/Australian_Ai
 found 65 activities
 
 Downloading ausgov-orgfile from https://www.dfat.gov.au/sites/default/files/ausgov-organisation-file.xml
+curl: download ERROR 000
 Parsing ausgov-orgfile from https://www.dfat.gov.au/sites/default/files/ausgov-organisation-file.xml
-found 1 organisations
+dflat: input XML file does not exist
+restored 1 files
 
 Downloading ausgov-org from http://www.dfat.gov.au/data/downloads/ausgov-organisation-file.xml
 curl: download ERROR 404
@@ -5488,7 +5490,7 @@ found 9 activities
 
 Downloading bu-carbx-admin-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/bu-carbx-admin-activities.xml
 Parsing bu-carbx-admin-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/bu-carbx-admin-activities.xml
-found 20 activities
+found 23 activities
 
 Downloading bu-carbx-admin-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/bu-carbx-admin-org.xml
 Parsing bu-carbx-admin-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/bu-carbx-admin-org.xml
@@ -6645,15 +6647,13 @@ dflat: invalid XML format
 restored 0 files
 
 Downloading cif-889 from http://siteresources.worldbank.org/IATI/CIF/CIF-889.xml
-curl: download ERROR 404
 Parsing cif-889 from http://siteresources.worldbank.org/IATI/CIF/CIF-889.xml
-dflat: input XML file does not exist
+dflat: invalid XML format
 restored 0 files
 
 Downloading cif-998 from http://siteresources.worldbank.org/IATI/CIF/CIF-998.xml
-curl: download ERROR 404
 Parsing cif-998 from http://siteresources.worldbank.org/IATI/CIF/CIF-998.xml
-dflat: input XML file does not exist
+dflat: invalid XML format
 restored 0 files
 
 Downloading c_i_f-activities from https://iatipublisher-prod.s3.amazonaws.com/xml/mergedActivityXml/c_i_f-activities.xml
@@ -6690,9 +6690,8 @@ Parsing cif-br from http://doumodqax2qi2.cloudfront.net/CIF/CIF-05-2020/CIF-BR.x
 found 11 activities
 
 Downloading cif-cd from http://siteresources.worldbank.org/IATI/CIF/CIF-CD.xml
-curl: download ERROR 404
 Parsing cif-cd from http://siteresources.worldbank.org/IATI/CIF/CIF-CD.xml
-dflat: input XML file does not exist
+dflat: invalid XML format
 restored 0 files
 
 Downloading cif-ci from http://doumodqax2qi2.cloudfront.net/CIF/CIF-05-2020/CIF-CI.xml
@@ -11610,31 +11609,31 @@ found 816 activities
 
 Downloading ec-echo-2017 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2017.xml
 Parsing ec-echo-2017 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2017.xml
-found 653 activities
+found 652 activities
 
 Downloading ec-echo-2018 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2018.xml
 Parsing ec-echo-2018 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2018.xml
-found 585 activities
+found 583 activities
 
 Downloading ec-echo-2019 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2019.xml
 Parsing ec-echo-2019 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2019.xml
-found 547 activities
+found 551 activities
 
 Downloading ec-echo-2020 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2020.xml
 Parsing ec-echo-2020 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2020.xml
-found 584 activities
+found 583 activities
 
 Downloading ec-echo-2021 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2021.xml
 Parsing ec-echo-2021 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2021.xml
-found 585 activities
+found 590 activities
 
 Downloading ec-echo-2022 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2022.xml
 Parsing ec-echo-2022 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2022.xml
-found 452 activities
+found 450 activities
 
 Downloading ec-echo-2023 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2023.xml
 Parsing ec-echo-2023 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2023.xml
-found 571 activities
+found 568 activities
 
 Downloading ec-echo-2024 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2024.xml
 Parsing ec-echo-2024 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2024.xml
@@ -12289,10 +12288,8 @@ Parsing ec-intpa-ci from https://ec.europa.eu/international-partnerships/assets/
 found 189 activities
 
 Downloading ec-intpa-cl from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_CL.xml
-curl: download ERROR 000
 Parsing ec-intpa-cl from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_CL.xml
-dflat: input XML file does not exist
-restored 15 files
+found 15 activities
 
 Downloading ec-intpa-cm from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_CM.xml
 Parsing ec-intpa-cm from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_CM.xml
@@ -19232,7 +19229,7 @@ found 19 activities
 
 Downloading ifcwbg-hr from https://disclosures.ifc.org/iati/ifc-hr.xml
 Parsing ifcwbg-hr from https://disclosures.ifc.org/iati/ifc-hr.xml
-found 25 activities
+found 26 activities
 
 Downloading ifcwbg-ht from https://disclosures.ifc.org/iati/ifc-ht.xml
 Parsing ifcwbg-ht from https://disclosures.ifc.org/iati/ifc-ht.xml
@@ -19465,7 +19462,7 @@ restored 1 files
 
 Downloading ifcwbg-sg from https://disclosures.ifc.org/iati/ifc-sg.xml
 Parsing ifcwbg-sg from https://disclosures.ifc.org/iati/ifc-sg.xml
-found 8 activities
+found 9 activities
 
 Downloading ifcwbg-si from https://disclosures.ifc.org/iati/ifc-si.xml
 Parsing ifcwbg-si from https://disclosures.ifc.org/iati/ifc-si.xml
@@ -25338,7 +25335,7 @@ found 2210 activities
 
 Downloading onl-activity from https://www.oxfamnovib.nl/redactie/Downloads/XML/iati.xml
 Parsing onl-activity from https://www.oxfamnovib.nl/redactie/Downloads/XML/iati.xml
-found 2236 activities
+found 2240 activities
 
 Downloading onl-org from https://www.oxfamnovib.nl/redactie/downloads/xml/IATI_NL-KVK-27108436.xml
 Parsing onl-org from https://www.oxfamnovib.nl/redactie/downloads/xml/IATI_NL-KVK-27108436.xml
@@ -28260,7 +28257,7 @@ restored 0 files
 
 Downloading sddirect-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/sddirect-activities.xml
 Parsing sddirect-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/sddirect-activities.xml
-found 32 activities
+found 33 activities
 
 Downloading sddirect-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/sddirect-org.xml
 Parsing sddirect-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/sddirect-org.xml
