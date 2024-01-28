@@ -3832,10 +3832,8 @@ Parsing ausgov-nu from https://www.dfat.gov.au/sites/default/files/Australian_Ai
 found 65 activities
 
 Downloading ausgov-orgfile from https://www.dfat.gov.au/sites/default/files/ausgov-organisation-file.xml
-curl: download ERROR 000
 Parsing ausgov-orgfile from https://www.dfat.gov.au/sites/default/files/ausgov-organisation-file.xml
-dflat: input XML file does not exist
-restored 1 files
+found 1 organisations
 
 Downloading ausgov-org from http://www.dfat.gov.au/data/downloads/ausgov-organisation-file.xml
 curl: download ERROR 404
@@ -6883,8 +6881,9 @@ Parsing cif-ws from http://doumodqax2qi2.cloudfront.net/CIF/CIF-05-2020/CIF-WS.x
 found 2 activities
 
 Downloading cif-ye from http://siteresources.worldbank.org/IATI/CIF/CIF-YE.xml
+curl: download ERROR 404
 Parsing cif-ye from http://siteresources.worldbank.org/IATI/CIF/CIF-YE.xml
-dflat: invalid XML format
+dflat: input XML file does not exist
 restored 0 files
 
 Downloading cif-za from http://doumodqax2qi2.cloudfront.net/CIF/CIF-05-2020/CIF-ZA.xml
@@ -7281,8 +7280,10 @@ Parsing coffey-np from https://aidstream.s3.us-west-2.amazonaws.com/xml/coffey-n
 found 1 activities
 
 Downloading coffey-om from https://aidstream.s3.us-west-2.amazonaws.com/xml/coffey-om.xml
+curl: download ERROR 000
 Parsing coffey-om from https://aidstream.s3.us-west-2.amazonaws.com/xml/coffey-om.xml
-found 1 activities
+dflat: input XML file does not exist
+restored 1 files
 
 Downloading coffey-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/coffey-org.xml
 Parsing coffey-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/coffey-org.xml
@@ -11609,31 +11610,31 @@ found 816 activities
 
 Downloading ec-echo-2017 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2017.xml
 Parsing ec-echo-2017 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2017.xml
-found 652 activities
+found 653 activities
 
 Downloading ec-echo-2018 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2018.xml
 Parsing ec-echo-2018 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2018.xml
-found 583 activities
+found 578 activities
 
 Downloading ec-echo-2019 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2019.xml
 Parsing ec-echo-2019 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2019.xml
-found 551 activities
+found 549 activities
 
 Downloading ec-echo-2020 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2020.xml
 Parsing ec-echo-2020 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2020.xml
-found 583 activities
+found 587 activities
 
 Downloading ec-echo-2021 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2021.xml
 Parsing ec-echo-2021 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2021.xml
-found 590 activities
+found 585 activities
 
 Downloading ec-echo-2022 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2022.xml
 Parsing ec-echo-2022 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2022.xml
-found 450 activities
+found 460 activities
 
 Downloading ec-echo-2023 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2023.xml
 Parsing ec-echo-2023 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2023.xml
-found 568 activities
+found 565 activities
 
 Downloading ec-echo-2024 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2024.xml
 Parsing ec-echo-2024 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2024.xml
@@ -23992,8 +23993,10 @@ Parsing millenniumchallenge-md from https://inventory.data.gov/dataset/d4b25051-
 found 76 activities
 
 Downloading millenniumchallenge-mg from https://inventory.data.gov/dataset/d4b25051-0bf8-4dd1-8c06-bbed2e4bb193/resource/5b10348f-4814-46d9-bf59-38a9dd2d4309/download/mcc_mg.xml
+curl: download ERROR 000
 Parsing millenniumchallenge-mg from https://inventory.data.gov/dataset/d4b25051-0bf8-4dd1-8c06-bbed2e4bb193/resource/5b10348f-4814-46d9-bf59-38a9dd2d4309/download/mcc_mg.xml
-found 82 activities
+dflat: input XML file does not exist
+restored 82 files
 
 Downloading millenniumchallenge-ml from https://inventory.data.gov/dataset/d4b25051-0bf8-4dd1-8c06-bbed2e4bb193/resource/80a0f4fd-5501-4dde-8caf-312502ece3be/download/mcc_ml.xml
 Parsing millenniumchallenge-ml from https://inventory.data.gov/dataset/d4b25051-0bf8-4dd1-8c06-bbed2e4bb193/resource/80a0f4fd-5501-4dde-8caf-312502ece3be/download/mcc_ml.xml
@@ -25335,7 +25338,7 @@ found 2210 activities
 
 Downloading onl-activity from https://www.oxfamnovib.nl/redactie/Downloads/XML/iati.xml
 Parsing onl-activity from https://www.oxfamnovib.nl/redactie/Downloads/XML/iati.xml
-found 2240 activities
+found 2241 activities
 
 Downloading onl-org from https://www.oxfamnovib.nl/redactie/downloads/xml/IATI_NL-KVK-27108436.xml
 Parsing onl-org from https://www.oxfamnovib.nl/redactie/downloads/xml/IATI_NL-KVK-27108436.xml
@@ -27834,7 +27837,7 @@ found 1 organisations
 
 Downloading rvo-01 from https://projects.rvo.nl/opendata/iati.xml
 Parsing rvo-01 from https://projects.rvo.nl/opendata/iati.xml
-found 4614 activities
+found 4617 activities
 
 Downloading rvo-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/rvo-activities.xml
 Parsing rvo-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/rvo-activities.xml
@@ -35865,7 +35868,7 @@ found 50 activities
 
 Downloading unocha-cbpf-drc-allocation-2023 from https://cbpfapi.unocha.org/iati/iati/24/2023/GetAllocation.xml
 Parsing unocha-cbpf-drc-allocation-2023 from https://cbpfapi.unocha.org/iati/iati/24/2023/GetAllocation.xml
-found 41 activities
+found 46 activities
 
 Downloading unocha-cbpf-drc-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/24/2024/GetAllocation.xml
 Parsing unocha-cbpf-drc-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/24/2024/GetAllocation.xml
@@ -36409,7 +36412,7 @@ found 49 activities
 
 Downloading unocha-cbpf-myanmar-allocation-2023 from https://cbpfapi.unocha.org/iati/iati/59/2023/GetAllocation.xml
 Parsing unocha-cbpf-myanmar-allocation-2023 from https://cbpfapi.unocha.org/iati/iati/59/2023/GetAllocation.xml
-found 41 activities
+found 45 activities
 
 Downloading unocha-cbpf-myanmar-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/59/2024/GetAllocation.xml
 Parsing unocha-cbpf-myanmar-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/59/2024/GetAllocation.xml
