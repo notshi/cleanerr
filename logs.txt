@@ -6640,8 +6640,9 @@ Parsing cidr-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/ci
 found 1 activities
 
 Downloading cif-389 from http://siteresources.worldbank.org/IATI/CIF/CIF-389.xml
+curl: download ERROR 404
 Parsing cif-389 from http://siteresources.worldbank.org/IATI/CIF/CIF-389.xml
-dflat: invalid XML format
+dflat: input XML file does not exist
 restored 0 files
 
 Downloading cif-889 from http://siteresources.worldbank.org/IATI/CIF/CIF-889.xml
@@ -6650,8 +6651,9 @@ dflat: invalid XML format
 restored 0 files
 
 Downloading cif-998 from http://siteresources.worldbank.org/IATI/CIF/CIF-998.xml
+curl: download ERROR 404
 Parsing cif-998 from http://siteresources.worldbank.org/IATI/CIF/CIF-998.xml
-dflat: invalid XML format
+dflat: input XML file does not exist
 restored 0 files
 
 Downloading c_i_f-activities from https://iatipublisher-prod.s3.amazonaws.com/xml/mergedActivityXml/c_i_f-activities.xml
@@ -6688,8 +6690,9 @@ Parsing cif-br from http://doumodqax2qi2.cloudfront.net/CIF/CIF-05-2020/CIF-BR.x
 found 11 activities
 
 Downloading cif-cd from http://siteresources.worldbank.org/IATI/CIF/CIF-CD.xml
+curl: download ERROR 404
 Parsing cif-cd from http://siteresources.worldbank.org/IATI/CIF/CIF-CD.xml
-dflat: invalid XML format
+dflat: input XML file does not exist
 restored 0 files
 
 Downloading cif-ci from http://doumodqax2qi2.cloudfront.net/CIF/CIF-05-2020/CIF-CI.xml
@@ -6881,9 +6884,8 @@ Parsing cif-ws from http://doumodqax2qi2.cloudfront.net/CIF/CIF-05-2020/CIF-WS.x
 found 2 activities
 
 Downloading cif-ye from http://siteresources.worldbank.org/IATI/CIF/CIF-YE.xml
-curl: download ERROR 404
 Parsing cif-ye from http://siteresources.worldbank.org/IATI/CIF/CIF-YE.xml
-dflat: input XML file does not exist
+dflat: invalid XML format
 restored 0 files
 
 Downloading cif-za from http://doumodqax2qi2.cloudfront.net/CIF/CIF-05-2020/CIF-ZA.xml
@@ -7280,10 +7282,8 @@ Parsing coffey-np from https://aidstream.s3.us-west-2.amazonaws.com/xml/coffey-n
 found 1 activities
 
 Downloading coffey-om from https://aidstream.s3.us-west-2.amazonaws.com/xml/coffey-om.xml
-curl: download ERROR 000
 Parsing coffey-om from https://aidstream.s3.us-west-2.amazonaws.com/xml/coffey-om.xml
-dflat: input XML file does not exist
-restored 1 files
+found 1 activities
 
 Downloading coffey-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/coffey-org.xml
 Parsing coffey-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/coffey-org.xml
@@ -11614,27 +11614,27 @@ found 653 activities
 
 Downloading ec-echo-2018 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2018.xml
 Parsing ec-echo-2018 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2018.xml
-found 578 activities
+found 583 activities
 
 Downloading ec-echo-2019 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2019.xml
 Parsing ec-echo-2019 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2019.xml
-found 549 activities
+found 547 activities
 
 Downloading ec-echo-2020 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2020.xml
 Parsing ec-echo-2020 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2020.xml
-found 587 activities
+found 584 activities
 
 Downloading ec-echo-2021 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2021.xml
 Parsing ec-echo-2021 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2021.xml
-found 585 activities
+found 591 activities
 
 Downloading ec-echo-2022 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2022.xml
 Parsing ec-echo-2022 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2022.xml
-found 460 activities
+found 452 activities
 
 Downloading ec-echo-2023 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2023.xml
 Parsing ec-echo-2023 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2023.xml
-found 565 activities
+found 567 activities
 
 Downloading ec-echo-2024 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2024.xml
 Parsing ec-echo-2024 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2024.xml
@@ -23993,10 +23993,8 @@ Parsing millenniumchallenge-md from https://inventory.data.gov/dataset/d4b25051-
 found 76 activities
 
 Downloading millenniumchallenge-mg from https://inventory.data.gov/dataset/d4b25051-0bf8-4dd1-8c06-bbed2e4bb193/resource/5b10348f-4814-46d9-bf59-38a9dd2d4309/download/mcc_mg.xml
-curl: download ERROR 000
 Parsing millenniumchallenge-mg from https://inventory.data.gov/dataset/d4b25051-0bf8-4dd1-8c06-bbed2e4bb193/resource/5b10348f-4814-46d9-bf59-38a9dd2d4309/download/mcc_mg.xml
-dflat: input XML file does not exist
-restored 82 files
+found 82 activities
 
 Downloading millenniumchallenge-ml from https://inventory.data.gov/dataset/d4b25051-0bf8-4dd1-8c06-bbed2e4bb193/resource/80a0f4fd-5501-4dde-8caf-312502ece3be/download/mcc_ml.xml
 Parsing millenniumchallenge-ml from https://inventory.data.gov/dataset/d4b25051-0bf8-4dd1-8c06-bbed2e4bb193/resource/80a0f4fd-5501-4dde-8caf-312502ece3be/download/mcc_ml.xml
@@ -25068,8 +25066,10 @@ Parsing odakorea-act1 from https://www.odakorea.go.kr/opm/iati_act_KR-GOV-020.xm
 found 69 activities
 
 Downloading odakorea-act20 from https://www.odakorea.go.kr/opm/iati_act_KR-GOV-180.xml
+curl: download ERROR 000
 Parsing odakorea-act20 from https://www.odakorea.go.kr/opm/iati_act_KR-GOV-180.xml
-found 1 activities
+dflat: input XML file does not exist
+restored 1 files
 
 Downloading odakorea-act22 from https://www.odakorea.go.kr/opm/iati_act_KR-GOV-200.xml
 Parsing odakorea-act22 from https://www.odakorea.go.kr/opm/iati_act_KR-GOV-200.xml
