@@ -3954,8 +3954,10 @@ Parsing ausgov-xw from https://www.dfat.gov.au/sites/default/files/Australian_Ai
 found 20 activities
 
 Downloading ausgov-xy from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Regional_File_States_of_Ex-Yugoslavia.xml
+curl: download ERROR 000
 Parsing ausgov-xy from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Regional_File_States_of_Ex-Yugoslavia.xml
-found 1 activities
+dflat: input XML file does not exist
+restored 1 files
 
 Downloading ausgov-xz from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Regional_File_Africa_Unspecified.xml
 Parsing ausgov-xz from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Regional_File_Africa_Unspecified.xml
@@ -4261,7 +4263,7 @@ found 1 activities
 
 Downloading be-dgd-2021_1 from http://diplomatie.be/oda/IATI_2024_1.xml
 Parsing be-dgd-2021_1 from http://diplomatie.be/oda/IATI_2024_1.xml
-found 84 activities
+found 85 activities
 
 Downloading be-dgd-2021_2 from http://diplomatie.be/oda/IATI_2024_2.xml
 Parsing be-dgd-2021_2 from http://diplomatie.be/oda/IATI_2024_2.xml
@@ -6265,7 +6267,7 @@ found 1 organisations
 
 Downloading cerf-contributionstodate from https://cerfgms-webapi.unocha.org/v1/iati/donorcontribution.xml
 Parsing cerf-contributionstodate from https://cerfgms-webapi.unocha.org/v1/iati/donorcontribution.xml
-found 1597 activities
+found 1599 activities
 
 Downloading cerf-organization from https://cerfgms-webapi.unocha.org/v1/iati/organizations.xml
 Parsing cerf-organization from https://cerfgms-webapi.unocha.org/v1/iati/organizations.xml
@@ -6373,7 +6375,7 @@ found 1 organisations
 
 Downloading cgiar-activities-grants from https://www.cgiar.org/wp/wp-content/uploads/xml/iati/grants.xml
 Parsing cgiar-activities-grants from https://www.cgiar.org/wp/wp-content/uploads/xml/iati/grants.xml
-found 5265 activities
+found 5233 activities
 
 Downloading cgiar-activities-initiatives from https://www.cgiar.org/wp/wp-content/uploads/xml/iati/initiatives.xml
 Parsing cgiar-activities-initiatives from https://www.cgiar.org/wp/wp-content/uploads/xml/iati/initiatives.xml
@@ -6533,9 +6535,8 @@ dflat: invalid XML format
 restored 0 files
 
 Downloading cif-889 from http://siteresources.worldbank.org/IATI/CIF/CIF-889.xml
-curl: download ERROR 404
 Parsing cif-889 from http://siteresources.worldbank.org/IATI/CIF/CIF-889.xml
-dflat: input XML file does not exist
+dflat: invalid XML format
 restored 0 files
 
 Downloading cif-998 from http://siteresources.worldbank.org/IATI/CIF/CIF-998.xml
@@ -6577,9 +6578,8 @@ Parsing cif-br from http://doumodqax2qi2.cloudfront.net/CIF/CIF-05-2020/CIF-BR.x
 found 11 activities
 
 Downloading cif-cd from http://siteresources.worldbank.org/IATI/CIF/CIF-CD.xml
-curl: download ERROR 404
 Parsing cif-cd from http://siteresources.worldbank.org/IATI/CIF/CIF-CD.xml
-dflat: input XML file does not exist
+dflat: invalid XML format
 restored 0 files
 
 Downloading cif-ci from http://doumodqax2qi2.cloudfront.net/CIF/CIF-05-2020/CIF-CI.xml
@@ -11493,11 +11493,11 @@ found 892 activities
 
 Downloading ec-echo-2016 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2016.xml
 Parsing ec-echo-2016 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2016.xml
-found 839 activities
+found 841 activities
 
 Downloading ec-echo-2017 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2017.xml
 Parsing ec-echo-2017 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2017.xml
-found 717 activities
+found 715 activities
 
 Downloading ec-echo-2018 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2018.xml
 Parsing ec-echo-2018 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2018.xml
@@ -11505,23 +11505,23 @@ found 637 activities
 
 Downloading ec-echo-2019 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2019.xml
 Parsing ec-echo-2019 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2019.xml
-found 509 activities
+found 506 activities
 
 Downloading ec-echo-2020 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2020.xml
 Parsing ec-echo-2020 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2020.xml
-found 601 activities
+found 602 activities
 
 Downloading ec-echo-2021 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2021.xml
 Parsing ec-echo-2021 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2021.xml
-found 577 activities
+found 578 activities
 
 Downloading ec-echo-2022 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2022.xml
 Parsing ec-echo-2022 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2022.xml
-found 452 activities
+found 454 activities
 
 Downloading ec-echo-2023 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2023.xml
 Parsing ec-echo-2023 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2023.xml
-found 613 activities
+found 612 activities
 
 Downloading ec-echo-2024 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2024.xml
 Parsing ec-echo-2024 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2024.xml
@@ -12785,7 +12785,7 @@ found 396 activities
 
 Downloading ec-near-ps from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_NEAR_C_PS.xml
 Parsing ec-near-ps from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_NEAR_C_PS.xml
-found 303 activities
+found 301 activities
 
 Downloading ec-near-rs from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_NEAR_C_RS.xml
 Parsing ec-near-rs from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_NEAR_C_RS.xml
@@ -14203,6 +14203,19 @@ found 1 activities
 
 Downloading finland_mfa-gy from http://formin.finland.fi/opendata/IATI/Finland_GY.xml
 Converting IATI activities version 1.00 to version 2.03
+./iati-activities.xsl:189: parser error : AttValue: ' expected
+                    <xsl:for-each select="recipient-regio
+                                                         ^
+./iati-activities.xsl:189: parser error : attributes construct error
+                    <xsl:for-each select="recipient-regio
+                                                         ^
+./iati-activities.xsl:189: parser error : Couldn't find end of Start Tag for-each line 189
+                    <xsl:for-each select="recipient-regio
+                                                         ^
+./iati-activities.xsl:189: parser error : Premature end of data in tag iati-activity line 11
+                    <xsl:for-each select="recipient-regio
+                                                         ^
+cannot parse ./iati-activities.xsl
 Parsing finland_mfa-gy from http://formin.finland.fi/opendata/IATI/Finland_GY.xml
 found 1 activities
 
@@ -17601,10 +17614,8 @@ Parsing iadb-jm from https://webimages.iadb.org/iati/iadb-Jamaica.xml
 found 49 activities
 
 Downloading iadb-mx from https://webimages.iadb.org/iati/iadb-Mexico.xml
-curl: download ERROR 404
 Parsing iadb-mx from https://webimages.iadb.org/iati/iadb-Mexico.xml
-dflat: input XML file does not exist
-restored 75 files
+found 76 activities
 
 Downloading iadb-ni from https://webimages.iadb.org/iati/iadb-Nicaragua.xml
 Parsing iadb-ni from https://webimages.iadb.org/iati/iadb-Nicaragua.xml
@@ -17627,10 +17638,8 @@ Parsing iadb-py from https://webimages.iadb.org/iati/iadb-Paraguay.xml
 found 67 activities
 
 Downloading iadb-rg from https://webimages.iadb.org/iati/iadb-Regional.xml
-curl: download ERROR 404
 Parsing iadb-rg from https://webimages.iadb.org/iati/iadb-Regional.xml
-dflat: input XML file does not exist
-restored 12 files
+found 12 activities
 
 Downloading iadb-sr from https://webimages.iadb.org/iati/iadb-Suriname.xml
 Parsing iadb-sr from https://webimages.iadb.org/iati/iadb-Suriname.xml
@@ -17649,10 +17658,8 @@ Parsing iadb-uy from https://webimages.iadb.org/iati/iadb-Uruguay.xml
 found 104 activities
 
 Downloading iadb-ve from https://webimages.iadb.org/iati/iadb-Venezuela.xml
-curl: download ERROR 404
 Parsing iadb-ve from https://webimages.iadb.org/iati/iadb-Venezuela.xml
-dflat: input XML file does not exist
-restored 15 files
+found 15 activities
 
 Downloading iaf-americaregional from https://iati-reporting.s3.amazonaws.com/inter-american_foundation/xml/iati-activities-America%20regional.xml
 Parsing iaf-americaregional from https://iati-reporting.s3.amazonaws.com/inter-american_foundation/xml/iati-activities-America%20regional.xml
@@ -20333,7 +20340,7 @@ found 7 activities
 
 Downloading irc_inc-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/irc_inc-activities.xml
 Parsing irc_inc-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/irc_inc-activities.xml
-found 133 activities
+found 134 activities
 
 Downloading irc_inc-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/irc_inc-org.xml
 Parsing irc_inc-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/irc_inc-org.xml
@@ -23306,7 +23313,7 @@ found 1 activities
 
 Downloading mce-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/mce-activities.xml
 Parsing mce-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/mce-activities.xml
-found 61 activities
+found 65 activities
 
 Downloading mce-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/mce-org.xml
 Parsing mce-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/mce-org.xml
@@ -23871,7 +23878,7 @@ found 956 activities
 
 Downloading minbuza_nl-activities20222023 from https://static.rijksoverheid.nl/bz/IATIACTIVITIES20222023.xml
 Parsing minbuza_nl-activities20222023 from https://static.rijksoverheid.nl/bz/IATIACTIVITIES20222023.xml
-found 886 activities
+found 891 activities
 
 Downloading minbuza_nl-organisation from https://static.rijksoverheid.nl/bz/IATI_ORGANISATION.xml
 Parsing minbuza_nl-organisation from https://static.rijksoverheid.nl/bz/IATI_ORGANISATION.xml
@@ -25077,7 +25084,7 @@ found 2210 activities
 
 Downloading onl-activity from https://www.oxfamnovib.nl/redactie/Downloads/XML/iati.xml
 Parsing onl-activity from https://www.oxfamnovib.nl/redactie/Downloads/XML/iati.xml
-found 2253 activities
+found 2255 activities
 
 Downloading onl-org from https://www.oxfamnovib.nl/redactie/downloads/xml/IATI_NL-KVK-27108436.xml
 Parsing onl-org from https://www.oxfamnovib.nl/redactie/downloads/xml/IATI_NL-KVK-27108436.xml
@@ -27581,7 +27588,7 @@ found 1 organisations
 
 Downloading rvo-01 from https://projects.rvo.nl/opendata/iati.xml
 Parsing rvo-01 from https://projects.rvo.nl/opendata/iati.xml
-found 4654 activities
+found 4655 activities
 
 Downloading rvo-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/rvo-activities.xml
 Parsing rvo-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/rvo-activities.xml
@@ -36024,7 +36031,7 @@ found 49 activities
 
 Downloading unocha-cbpf-myanmar-allocation-2023 from https://cbpfapi.unocha.org/iati/iati/59/2023/GetAllocation.xml
 Parsing unocha-cbpf-myanmar-allocation-2023 from https://cbpfapi.unocha.org/iati/iati/59/2023/GetAllocation.xml
-found 49 activities
+found 50 activities
 
 Downloading unocha-cbpf-myanmar-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/59/2024/GetAllocation.xml
 Parsing unocha-cbpf-myanmar-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/59/2024/GetAllocation.xml
@@ -36336,7 +36343,7 @@ found 57 activities
 
 Downloading unocha-cbpf-opt-allocation-2023 from https://cbpfapi.unocha.org/iati/iati/67/2023/GetAllocation.xml
 Parsing unocha-cbpf-opt-allocation-2023 from https://cbpfapi.unocha.org/iati/iati/67/2023/GetAllocation.xml
-found 103 activities
+found 106 activities
 
 Downloading unocha-cbpf-opt-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/67/2024/GetAllocation.xml
 Parsing unocha-cbpf-opt-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/67/2024/GetAllocation.xml
@@ -36376,7 +36383,7 @@ found 31 activities
 
 Downloading unocha-cbpf-opt-contribution-2024 from https://cbpfapi.unocha.org/iati/iati/67/2024/GetContribution.xml
 Parsing unocha-cbpf-opt-contribution-2024 from https://cbpfapi.unocha.org/iati/iati/67/2024/GetContribution.xml
-found 3 activities
+found 4 activities
 
 Downloading unocha-cbpf-pakistan-2016 from https://cbpfapi.unocha.org/iati/iati/60/2016/GetPooledFund.xml
 Parsing unocha-cbpf-pakistan-2016 from https://cbpfapi.unocha.org/iati/iati/60/2016/GetPooledFund.xml
@@ -37096,7 +37103,7 @@ found 33 activities
 
 Downloading unocha-cbpf-ukraine-contribution-2024 from https://cbpfapi.unocha.org/iati/iati/81/2024/GetContribution.xml
 Parsing unocha-cbpf-ukraine-contribution-2024 from https://cbpfapi.unocha.org/iati/iati/81/2024/GetContribution.xml
-found 0 activities
+found 1 activities
 
 Downloading unocha-cbpf-venezuela-2020 from https://cbpfapi.unocha.org/iati/iati/83/2020/GetPooledFund.xml
 Parsing unocha-cbpf-venezuela-2020 from https://cbpfapi.unocha.org/iati/iati/83/2020/GetPooledFund.xml
@@ -40282,7 +40289,7 @@ found 31 activities
 
 Downloading utd-998 from https://aidstream.s3.us-west-2.amazonaws.com/xml/utd-998.xml
 Parsing utd-998 from https://aidstream.s3.us-west-2.amazonaws.com/xml/utd-998.xml
-found 119 activities
+found 120 activities
 
 Downloading utd-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/utd-org.xml
 Parsing utd-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/utd-org.xml
