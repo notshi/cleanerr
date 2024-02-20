@@ -6367,7 +6367,7 @@ found 1 organisations
 
 Downloading cgiar-activities-grants from https://www.cgiar.org/wp/wp-content/uploads/xml/iati/grants.xml
 Parsing cgiar-activities-grants from https://www.cgiar.org/wp/wp-content/uploads/xml/iati/grants.xml
-found 5233 activities
+found 5265 activities
 
 Downloading cgiar-activities-initiatives from https://www.cgiar.org/wp/wp-content/uploads/xml/iati/initiatives.xml
 Parsing cgiar-activities-initiatives from https://www.cgiar.org/wp/wp-content/uploads/xml/iati/initiatives.xml
@@ -6570,8 +6570,9 @@ Parsing cif-br from http://doumodqax2qi2.cloudfront.net/CIF/CIF-05-2020/CIF-BR.x
 found 11 activities
 
 Downloading cif-cd from http://siteresources.worldbank.org/IATI/CIF/CIF-CD.xml
+curl: download ERROR 404
 Parsing cif-cd from http://siteresources.worldbank.org/IATI/CIF/CIF-CD.xml
-dflat: invalid XML format
+dflat: input XML file does not exist
 restored 0 files
 
 Downloading cif-ci from http://doumodqax2qi2.cloudfront.net/CIF/CIF-05-2020/CIF-CI.xml
@@ -6763,9 +6764,8 @@ Parsing cif-ws from http://doumodqax2qi2.cloudfront.net/CIF/CIF-05-2020/CIF-WS.x
 found 2 activities
 
 Downloading cif-ye from http://siteresources.worldbank.org/IATI/CIF/CIF-YE.xml
-curl: download ERROR 404
 Parsing cif-ye from http://siteresources.worldbank.org/IATI/CIF/CIF-YE.xml
-dflat: input XML file does not exist
+dflat: invalid XML format
 restored 0 files
 
 Downloading cif-za from http://doumodqax2qi2.cloudfront.net/CIF/CIF-05-2020/CIF-ZA.xml
@@ -11486,11 +11486,11 @@ found 892 activities
 
 Downloading ec-echo-2016 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2016.xml
 Parsing ec-echo-2016 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2016.xml
-found 840 activities
+found 839 activities
 
 Downloading ec-echo-2017 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2017.xml
 Parsing ec-echo-2017 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2017.xml
-found 714 activities
+found 715 activities
 
 Downloading ec-echo-2018 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2018.xml
 Parsing ec-echo-2018 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2018.xml
@@ -11502,15 +11502,15 @@ found 507 activities
 
 Downloading ec-echo-2020 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2020.xml
 Parsing ec-echo-2020 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2020.xml
-found 602 activities
+found 601 activities
 
 Downloading ec-echo-2021 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2021.xml
 Parsing ec-echo-2021 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2021.xml
-found 582 activities
+found 580 activities
 
 Downloading ec-echo-2022 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2022.xml
 Parsing ec-echo-2022 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2022.xml
-found 451 activities
+found 454 activities
 
 Downloading ec-echo-2023 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2023.xml
 Parsing ec-echo-2023 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2023.xml
@@ -11789,10 +11789,8 @@ Parsing ec-fpi-la from https://ec.europa.eu/international-partnerships/assets/ia
 found 1 activities
 
 Downloading ec-fpi-lb from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_LB.xml
-curl: download ERROR 000
 Parsing ec-fpi-lb from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_LB.xml
-dflat: input XML file does not exist
-restored 4 files
+found 4 activities
 
 Downloading ec-fpi-lk from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_LK.xml
 Parsing ec-fpi-lk from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_LK.xml
@@ -12187,10 +12185,8 @@ Parsing ec-intpa-co from https://ec.europa.eu/international-partnerships/assets/
 found 63 activities
 
 Downloading ec-intpa-cr from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_CR.xml
-curl: download ERROR 000
 Parsing ec-intpa-cr from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_CR.xml
-dflat: input XML file does not exist
-restored 21 files
+found 21 activities
 
 Downloading ec-intpa-cu from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_CU.xml
 Parsing ec-intpa-cu from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_CU.xml
@@ -12649,10 +12645,8 @@ Parsing ec-intpa-ws from https://ec.europa.eu/international-partnerships/assets/
 found 11 activities
 
 Downloading ec-intpa-xk from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_XK.xml
-curl: download ERROR 000
 Parsing ec-intpa-xk from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_XK.xml
-dflat: input XML file does not exist
-restored 1 files
+found 1 activities
 
 Downloading ec-intpa-ye from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_YE.xml
 Parsing ec-intpa-ye from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_YE.xml
@@ -12711,10 +12705,8 @@ Parsing ec-near-al from https://ec.europa.eu/international-partnerships/assets/i
 found 324 activities
 
 Downloading ec-near-am from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_NEAR_C_AM.xml
-curl: download ERROR 000
 Parsing ec-near-am from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_NEAR_C_AM.xml
-dflat: input XML file does not exist
-restored 139 files
+found 139 activities
 
 Downloading ec-near-az from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_NEAR_C_AZ.xml
 Parsing ec-near-az from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_NEAR_C_AZ.xml
@@ -12786,7 +12778,7 @@ found 396 activities
 
 Downloading ec-near-ps from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_NEAR_C_PS.xml
 Parsing ec-near-ps from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_NEAR_C_PS.xml
-found 301 activities
+found 300 activities
 
 Downloading ec-near-rs from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_NEAR_C_RS.xml
 Parsing ec-near-rs from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_NEAR_C_RS.xml
@@ -12813,10 +12805,8 @@ Parsing ec-near-ua from https://ec.europa.eu/international-partnerships/assets/i
 found 353 activities
 
 Downloading ec-near-xk from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_NEAR_C_XK.xml
-curl: download ERROR 000
 Parsing ec-near-xk from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_NEAR_C_XK.xml
-dflat: input XML file does not exist
-restored 413 files
+found 413 activities
 
 Downloading ec-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/ec-org.xml
 Parsing ec-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/ec-org.xml
@@ -13096,7 +13086,7 @@ found 1 activities
 
 Downloading enabel-all-activities from https://open.enabel.be/iati/all-activities.xml
 Parsing enabel-all-activities from https://open.enabel.be/iati/all-activities.xml
-found 1231 activities
+found 1235 activities
 
 Downloading enabel-contractors from https://open.enabel.be/iati/contractors.xml
 Parsing enabel-contractors from https://open.enabel.be/iati/contractors.xml
@@ -24812,10 +24802,8 @@ Parsing odakorea-act22 from https://www.odakorea.go.kr/opm/iati_act_KR-GOV-200.x
 found 41 activities
 
 Downloading odakorea-act23 from https://www.odakorea.go.kr/opm/iati_act_KR-GOV-210.xml
-curl: download ERROR 000
 Parsing odakorea-act23 from https://www.odakorea.go.kr/opm/iati_act_KR-GOV-210.xml
-dflat: input XML file does not exist
-restored 3 files
+found 3 activities
 
 Downloading odakorea-act24 from https://www.odakorea.go.kr/opm/iati_act_KR-GOV-220.xml
 Parsing odakorea-act24 from https://www.odakorea.go.kr/opm/iati_act_KR-GOV-220.xml
@@ -30668,8 +30656,10 @@ Parsing theglobalfund-stp from https://data-service.theglobalfund.org/v2.1/iati/
 found 10 activities
 
 Downloading theglobalfund-sur from https://data-service.theglobalfund.org/v2.1/iati/activities-xml/SUR
+curl: download ERROR 000
 Parsing theglobalfund-sur from https://data-service.theglobalfund.org/v2.1/iati/activities-xml/SUR
-found 8 activities
+dflat: input XML file does not exist
+restored 8 files
 
 Downloading theglobalfund-swz from https://data-service.theglobalfund.org/v2.1/iati/activities-xml/SWZ
 Parsing theglobalfund-swz from https://data-service.theglobalfund.org/v2.1/iati/activities-xml/SWZ
@@ -43962,7 +43952,7 @@ found 2 activities
 
 Downloading yipl-activities from https://aidstream-stage.s3.us-west-2.amazonaws.com/xml/yipl-activities.xml
 Parsing yipl-activities from https://aidstream-stage.s3.us-west-2.amazonaws.com/xml/yipl-activities.xml
-found 1 activities
+found 4 activities
 
 Downloading yipl-af from https://aidstream-stage.s3.us-west-2.amazonaws.com/xml/yipl-af.xml
 curl: download ERROR 403
@@ -43977,20 +43967,16 @@ dflat: input XML file does not exist
 restored 2 files
 
 Downloading yipl-gg from https://aidstream-stage.s3.us-west-2.amazonaws.com/xml/yipl-gg.xml
-curl: download ERROR 403
 Parsing yipl-gg from https://aidstream-stage.s3.us-west-2.amazonaws.com/xml/yipl-gg.xml
-dflat: input XML file does not exist
-restored 0 files
+found 1 activities
 
 Downloading yipl-mo from https://aidstream-stage.s3.us-west-2.amazonaws.com/xml/yipl-mo.xml
 Parsing yipl-mo from https://aidstream-stage.s3.us-west-2.amazonaws.com/xml/yipl-mo.xml
-found 1 activities
+found 17 activities
 
 Downloading yipl-np from https://aidstream-stage.s3.us-west-2.amazonaws.com/xml/yipl-np.xml
-curl: download ERROR 403
 Parsing yipl-np from https://aidstream-stage.s3.us-west-2.amazonaws.com/xml/yipl-np.xml
-dflat: input XML file does not exist
-restored 0 files
+found 22 activities
 
 Downloading yipl-org from https://aidstream-stage.s3.us-west-2.amazonaws.com/xml/yipl-org.xml
 Parsing yipl-org from https://aidstream-stage.s3.us-west-2.amazonaws.com/xml/yipl-org.xml
@@ -43998,7 +43984,7 @@ found 1 organisations
 
 Downloading yipl-ss from https://aidstream-stage.s3.us-west-2.amazonaws.com/xml/yipl-ss.xml
 Parsing yipl-ss from https://aidstream-stage.s3.us-west-2.amazonaws.com/xml/yipl-ss.xml
-found 6 activities
+found 14 activities
 
 Downloading ylabs-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/ylabs-activities.xml
 Parsing ylabs-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/ylabs-activities.xml
