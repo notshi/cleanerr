@@ -166,7 +166,7 @@ found 1 organisations
 
 Downloading aauk-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/aauk-activities.xml
 Parsing aauk-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/aauk-activities.xml
-found 119 activities
+found 123 activities
 
 Downloading aauk-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/aauk-org.xml
 Parsing aauk-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/aauk-org.xml
@@ -1983,6 +1983,10 @@ Downloading agsollimited-activities from https://aidstream.s3.us-west-2.amazonaw
 Parsing agsollimited-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/agsollimited-activities.xml
 found 2 activities
 
+Downloading agsollimited-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/agsollimited-org.xml
+Parsing agsollimited-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/agsollimited-org.xml
+found 1 organisations
+
 Downloading agwa-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/agwa-activities.xml
 Parsing agwa-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/agwa-activities.xml
 found 1 activities
@@ -2316,7 +2320,7 @@ Parsing aics-rw from http://openaid.aics.gov.it/iati/aics-rw.xml
 found 3 activities
 
 Downloading aics-sc from http://openaid.aics.gov.it/iati/aics-sc.xml
-curl: download ERROR 000
+curl: download ERROR 404
 Parsing aics-sc from http://openaid.aics.gov.it/iati/aics-sc.xml
 dflat: input XML file does not exist
 restored 1 files
@@ -6539,15 +6543,13 @@ dflat: invalid XML format
 restored 0 files
 
 Downloading cif-889 from http://siteresources.worldbank.org/IATI/CIF/CIF-889.xml
-curl: download ERROR 404
 Parsing cif-889 from http://siteresources.worldbank.org/IATI/CIF/CIF-889.xml
-dflat: input XML file does not exist
+dflat: invalid XML format
 restored 0 files
 
 Downloading cif-998 from http://siteresources.worldbank.org/IATI/CIF/CIF-998.xml
-curl: download ERROR 404
 Parsing cif-998 from http://siteresources.worldbank.org/IATI/CIF/CIF-998.xml
-dflat: input XML file does not exist
+dflat: invalid XML format
 restored 0 files
 
 Downloading c_i_f-activities from https://iatipublisher-prod.s3.amazonaws.com/xml/mergedActivityXml/c_i_f-activities.xml
@@ -6584,8 +6586,9 @@ Parsing cif-br from http://doumodqax2qi2.cloudfront.net/CIF/CIF-05-2020/CIF-BR.x
 found 11 activities
 
 Downloading cif-cd from http://siteresources.worldbank.org/IATI/CIF/CIF-CD.xml
+curl: download ERROR 404
 Parsing cif-cd from http://siteresources.worldbank.org/IATI/CIF/CIF-CD.xml
-dflat: invalid XML format
+dflat: input XML file does not exist
 restored 0 files
 
 Downloading cif-ci from http://doumodqax2qi2.cloudfront.net/CIF/CIF-05-2020/CIF-CI.xml
@@ -6841,7 +6844,7 @@ found 14 activities
 
 Downloading cisu-gaia from https://vores.cisu.dk/activities.xml
 Parsing cisu-gaia from https://vores.cisu.dk/activities.xml
-found 2675 activities
+found 2676 activities
 
 Downloading cisu-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/cisu-org.xml
 Parsing cisu-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/cisu-org.xml
@@ -7186,10 +7189,6 @@ Downloading coffey-pk from https://aidstream.s3.us-west-2.amazonaws.com/xml/coff
 Parsing coffey-pk from https://aidstream.s3.us-west-2.amazonaws.com/xml/coffey-pk.xml
 found 6 activities
 
-Downloading coffey-ps from https://aidstream.s3.us-west-2.amazonaws.com/xml/coffey-ps.xml
-Parsing coffey-ps from https://aidstream.s3.us-west-2.amazonaws.com/xml/coffey-ps.xml
-found 1 activities
-
 Downloading coffey-rw from https://aidstream.s3.us-west-2.amazonaws.com/xml/coffey-rw.xml
 Parsing coffey-rw from https://aidstream.s3.us-west-2.amazonaws.com/xml/coffey-rw.xml
 found 1 activities
@@ -7197,10 +7196,6 @@ found 1 activities
 Downloading coffey-sl from https://aidstream.s3.us-west-2.amazonaws.com/xml/coffey-sl.xml
 Parsing coffey-sl from https://aidstream.s3.us-west-2.amazonaws.com/xml/coffey-sl.xml
 found 2 activities
-
-Downloading coffey-so from https://aidstream.s3.us-west-2.amazonaws.com/xml/coffey-so.xml
-Parsing coffey-so from https://aidstream.s3.us-west-2.amazonaws.com/xml/coffey-so.xml
-found 1 activities
 
 Downloading coffey-ug from https://aidstream.s3.us-west-2.amazonaws.com/xml/coffey-ug.xml
 Parsing coffey-ug from https://aidstream.s3.us-west-2.amazonaws.com/xml/coffey-ug.xml
@@ -11499,39 +11494,39 @@ found 892 activities
 
 Downloading ec-echo-2016 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2016.xml
 Parsing ec-echo-2016 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2016.xml
-found 842 activities
+found 838 activities
 
 Downloading ec-echo-2017 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2017.xml
 Parsing ec-echo-2017 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2017.xml
-found 714 activities
+found 719 activities
 
 Downloading ec-echo-2018 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2018.xml
 Parsing ec-echo-2018 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2018.xml
-found 640 activities
+found 639 activities
 
 Downloading ec-echo-2019 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2019.xml
 Parsing ec-echo-2019 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2019.xml
-found 500 activities
+found 501 activities
 
 Downloading ec-echo-2020 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2020.xml
 Parsing ec-echo-2020 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2020.xml
-found 606 activities
+found 603 activities
 
 Downloading ec-echo-2021 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2021.xml
 Parsing ec-echo-2021 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2021.xml
-found 581 activities
+found 574 activities
 
 Downloading ec-echo-2022 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2022.xml
 Parsing ec-echo-2022 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2022.xml
-found 453 activities
+found 457 activities
 
 Downloading ec-echo-2023 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2023.xml
 Parsing ec-echo-2023 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2023.xml
-found 608 activities
+found 611 activities
 
 Downloading ec-echo-2024 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2024.xml
 Parsing ec-echo-2024 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2024.xml
-found 22 activities
+found 23 activities
 
 Downloading ec-echo-org from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/iati-organisation-file.xml
 Parsing ec-echo-org from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/iati-organisation-file.xml
@@ -13099,7 +13094,7 @@ found 1 activities
 
 Downloading enabel-all-activities from https://open.enabel.be/iati/all-activities.xml
 Parsing enabel-all-activities from https://open.enabel.be/iati/all-activities.xml
-found 1235 activities
+found 1234 activities
 
 Downloading enabel-contractors from https://open.enabel.be/iati/contractors.xml
 Parsing enabel-contractors from https://open.enabel.be/iati/contractors.xml
@@ -15602,7 +15597,7 @@ found 1 organisations
 
 Downloading gain-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/gain-activities.xml
 Parsing gain-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/gain-activities.xml
-found 709 activities
+found 712 activities
 
 Downloading gain-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/gain-org.xml
 Parsing gain-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/gain-org.xml
@@ -16605,7 +16600,7 @@ found 1 organisations
 
 Downloading grc2018-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/grc2018-activities.xml
 Parsing grc2018-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/grc2018-activities.xml
-found 31 activities
+found 37 activities
 
 Downloading grc2018-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/grc2018-org.xml
 Parsing grc2018-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/grc2018-org.xml
@@ -18351,7 +18346,7 @@ found 21 activities
 
 Downloading ifad-activitity-in from https://webapps.ifad.org/iati/ifad_in_activities.xml
 Parsing ifad-activitity-in from https://webapps.ifad.org/iati/ifad_in_activities.xml
-found 33 activities
+found 32 activities
 
 Downloading ifad-activitity-iq from https://webapps.ifad.org/iati/ifad_iq_activities.xml
 Parsing ifad-activitity-iq from https://webapps.ifad.org/iati/ifad_iq_activities.xml
@@ -18607,7 +18602,7 @@ found 12 activities
 
 Downloading ifad-activitity-tz from https://webapps.ifad.org/iati/ifad_tz_activities.xml
 Parsing ifad-activitity-tz from https://webapps.ifad.org/iati/ifad_tz_activities.xml
-found 17 activities
+found 18 activities
 
 Downloading ifad-activitity-ug from https://webapps.ifad.org/iati/ifad_ug_activities.xml
 Parsing ifad-activitity-ug from https://webapps.ifad.org/iati/ifad_ug_activities.xml
@@ -18855,7 +18850,7 @@ found 32 activities
 
 Downloading ifcwbg-cn from https://disclosures.ifc.org/iati/ifc-cn.xml
 Parsing ifcwbg-cn from https://disclosures.ifc.org/iati/ifc-cn.xml
-found 296 activities
+found 297 activities
 
 Downloading ifcwbg-co from https://disclosures.ifc.org/iati/ifc-co.xml
 Parsing ifcwbg-co from https://disclosures.ifc.org/iati/ifc-co.xml
@@ -19188,7 +19183,7 @@ restored 1 files
 
 Downloading ifcwbg-sg from https://disclosures.ifc.org/iati/ifc-sg.xml
 Parsing ifcwbg-sg from https://disclosures.ifc.org/iati/ifc-sg.xml
-found 8 activities
+found 7 activities
 
 Downloading ifcwbg-si from https://disclosures.ifc.org/iati/ifc-si.xml
 Parsing ifcwbg-si from https://disclosures.ifc.org/iati/ifc-si.xml
@@ -19201,7 +19196,7 @@ found 4 activities
 
 Downloading ifcwbg-sn from https://disclosures.ifc.org/iati/ifc-sn.xml
 Parsing ifcwbg-sn from https://disclosures.ifc.org/iati/ifc-sn.xml
-found 38 activities
+found 39 activities
 
 Downloading ifcwbg-ss from https://disclosures.ifc.org/iati/ifc-ss.xml
 Parsing ifcwbg-ss from https://disclosures.ifc.org/iati/ifc-ss.xml
@@ -20240,7 +20235,7 @@ found 2 activities
 
 Downloading ipa_-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/ipa_-activities.xml
 Parsing ipa_-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/ipa_-activities.xml
-found 15 activities
+found 17 activities
 
 Downloading ipa-lr from https://aidstream.s3.us-west-2.amazonaws.com/xml/ipa-lr.xml
 Parsing ipa-lr from https://aidstream.s3.us-west-2.amazonaws.com/xml/ipa-lr.xml
@@ -25077,7 +25072,7 @@ found 2210 activities
 
 Downloading onl-activity from https://www.oxfamnovib.nl/redactie/Downloads/XML/iati.xml
 Parsing onl-activity from https://www.oxfamnovib.nl/redactie/Downloads/XML/iati.xml
-found 2270 activities
+found 2274 activities
 
 Downloading onl-org from https://www.oxfamnovib.nl/redactie/downloads/xml/IATI_NL-KVK-27108436.xml
 Parsing onl-org from https://www.oxfamnovib.nl/redactie/downloads/xml/IATI_NL-KVK-27108436.xml
@@ -25779,7 +25774,7 @@ found 1 organisations
 
 Downloading pact-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/pact-activities.xml
 Parsing pact-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/pact-activities.xml
-found 153 activities
+found 162 activities
 
 Downloading pact-activity0518 from http://www.pactworld.org/sites/default/files/IATIActivity.xml
 curl: download ERROR 404
@@ -26324,6 +26319,13 @@ found 1 activities
 
 Downloading peopleinaid-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/peopleinaid-activities.xml
 Converting IATI activities version 1.03 to version 2.03
+./iati-activities.xsl:473: parser error : Couldn't find end of Start Tag receiver-org line 473
+                                <receiver-org
+                                             ^
+./iati-activities.xsl:473: parser error : Premature end of data in tag if line 472
+                                <receiver-org
+                                             ^
+cannot parse ./iati-activities.xsl
 Parsing peopleinaid-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/peopleinaid-activities.xml
 found 1 activities
 
@@ -35952,7 +35954,7 @@ found 13 activities
 
 Downloading unocha-cbpf-lebanon-contribution-2024 from https://cbpfapi.unocha.org/iati/iati/71/2024/GetContribution.xml
 Parsing unocha-cbpf-lebanon-contribution-2024 from https://cbpfapi.unocha.org/iati/iati/71/2024/GetContribution.xml
-found 5 activities
+found 6 activities
 
 Downloading unocha-cbpf-myanmar-2016 from https://cbpfapi.unocha.org/iati/iati/59/2016/GetPooledFund.xml
 Parsing unocha-cbpf-myanmar-2016 from https://cbpfapi.unocha.org/iati/iati/59/2016/GetPooledFund.xml
@@ -43971,6 +43973,19 @@ Parsing yipl-af from https://aidstream-stage.s3.us-west-2.amazonaws.com/xml/yipl
 dflat: input XML file does not exist
 restored 3 files
 
+Downloading yipl-as from https://aidstream-stage.s3.us-west-2.amazonaws.com/xml/yipl-as.xml
+Parsing yipl-as from https://aidstream-stage.s3.us-west-2.amazonaws.com/xml/yipl-as.xml
+dflat: invalid XML format
+restored 0 files
+
+Downloading yipl-bj from https://aidstream-stage.s3.us-west-2.amazonaws.com/xml/yipl-bj.xml
+Parsing yipl-bj from https://aidstream-stage.s3.us-west-2.amazonaws.com/xml/yipl-bj.xml
+found 1 activities
+
+Downloading yipl-dz from https://aidstream-stage.s3.us-west-2.amazonaws.com/xml/yipl-dz.xml
+Parsing yipl-dz from https://aidstream-stage.s3.us-west-2.amazonaws.com/xml/yipl-dz.xml
+found 1 activities
+
 Downloading yipl-gb from https://aidstream-stage.s3.us-west-2.amazonaws.com/xml/yipl-gb.xml
 curl: download ERROR 403
 Parsing yipl-gb from https://aidstream-stage.s3.us-west-2.amazonaws.com/xml/yipl-gb.xml
@@ -43979,15 +43994,20 @@ restored 2 files
 
 Downloading yipl-gg from https://aidstream-stage.s3.us-west-2.amazonaws.com/xml/yipl-gg.xml
 Parsing yipl-gg from https://aidstream-stage.s3.us-west-2.amazonaws.com/xml/yipl-gg.xml
-found 2 activities
+found 15 activities
+
+Downloading yipl-ky from https://aidstream-stage.s3.us-west-2.amazonaws.com/xml/yipl-ky.xml
+Parsing yipl-ky from https://aidstream-stage.s3.us-west-2.amazonaws.com/xml/yipl-ky.xml
+found 1 activities
 
 Downloading yipl-mo from https://aidstream-stage.s3.us-west-2.amazonaws.com/xml/yipl-mo.xml
 Parsing yipl-mo from https://aidstream-stage.s3.us-west-2.amazonaws.com/xml/yipl-mo.xml
-found 17 activities
+found 30 activities
 
 Downloading yipl-np from https://aidstream-stage.s3.us-west-2.amazonaws.com/xml/yipl-np.xml
 Parsing yipl-np from https://aidstream-stage.s3.us-west-2.amazonaws.com/xml/yipl-np.xml
-found 25 activities
+dflat: invalid XML format
+restored 25 files
 
 Downloading yipl-org from https://aidstream-stage.s3.us-west-2.amazonaws.com/xml/yipl-org.xml
 Parsing yipl-org from https://aidstream-stage.s3.us-west-2.amazonaws.com/xml/yipl-org.xml
@@ -43995,7 +44015,7 @@ found 1 organisations
 
 Downloading yipl-ss from https://aidstream-stage.s3.us-west-2.amazonaws.com/xml/yipl-ss.xml
 Parsing yipl-ss from https://aidstream-stage.s3.us-west-2.amazonaws.com/xml/yipl-ss.xml
-found 16 activities
+found 24 activities
 
 Downloading ylabs-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/ylabs-activities.xml
 Parsing ylabs-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/ylabs-activities.xml
