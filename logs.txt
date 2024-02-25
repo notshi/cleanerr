@@ -3656,8 +3656,10 @@ Parsing ausgov-me from https://www.dfat.gov.au/sites/default/files/Australian_Ai
 found 11 activities
 
 Downloading ausgov-mg from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Madagascar.xml
+curl: download ERROR 000
 Parsing ausgov-mg from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Madagascar.xml
-found 44 activities
+dflat: input XML file does not exist
+restored 44 files
 
 Downloading ausgov-mh from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Marshall_Islands.xml
 Parsing ausgov-mh from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Marshall_Islands.xml
@@ -6538,8 +6540,9 @@ Parsing cidr-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/ci
 found 1 activities
 
 Downloading cif-389 from http://siteresources.worldbank.org/IATI/CIF/CIF-389.xml
+curl: download ERROR 404
 Parsing cif-389 from http://siteresources.worldbank.org/IATI/CIF/CIF-389.xml
-dflat: invalid XML format
+dflat: input XML file does not exist
 restored 0 files
 
 Downloading cif-889 from http://siteresources.worldbank.org/IATI/CIF/CIF-889.xml
@@ -11493,35 +11496,35 @@ found 892 activities
 
 Downloading ec-echo-2016 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2016.xml
 Parsing ec-echo-2016 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2016.xml
-found 839 activities
+found 840 activities
 
 Downloading ec-echo-2017 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2017.xml
 Parsing ec-echo-2017 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2017.xml
-found 716 activities
+found 713 activities
 
 Downloading ec-echo-2018 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2018.xml
 Parsing ec-echo-2018 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2018.xml
-found 636 activities
+found 640 activities
 
 Downloading ec-echo-2019 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2019.xml
 Parsing ec-echo-2019 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2019.xml
-found 504 activities
+found 506 activities
 
 Downloading ec-echo-2020 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2020.xml
 Parsing ec-echo-2020 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2020.xml
-found 603 activities
+found 602 activities
 
 Downloading ec-echo-2021 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2021.xml
 Parsing ec-echo-2021 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2021.xml
-found 580 activities
+found 573 activities
 
 Downloading ec-echo-2022 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2022.xml
 Parsing ec-echo-2022 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2022.xml
-found 455 activities
+found 457 activities
 
 Downloading ec-echo-2023 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2023.xml
 Parsing ec-echo-2023 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2023.xml
-found 609 activities
+found 611 activities
 
 Downloading ec-echo-2024 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2024.xml
 Parsing ec-echo-2024 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2024.xml
@@ -19199,7 +19202,8 @@ found 39 activities
 
 Downloading ifcwbg-ss from https://disclosures.ifc.org/iati/ifc-ss.xml
 Parsing ifcwbg-ss from https://disclosures.ifc.org/iati/ifc-ss.xml
-found 2 activities
+dflat: invalid XML format
+restored 2 files
 
 Downloading ifcwbg-st from https://disclosures.ifc.org/iati/ifc-st.xml
 Parsing ifcwbg-st from https://disclosures.ifc.org/iati/ifc-st.xml
@@ -27571,7 +27575,7 @@ found 1 organisations
 
 Downloading rvo-01 from https://projects.rvo.nl/opendata/iati.xml
 Parsing rvo-01 from https://projects.rvo.nl/opendata/iati.xml
-found 4674 activities
+found 4677 activities
 
 Downloading rvo-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/rvo-activities.xml
 Parsing rvo-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/rvo-activities.xml
@@ -42451,7 +42455,7 @@ found 2 activities
 
 Downloading who-kaz from http://open.who.int/api/iatiFiles/iati-file-content/KAZ#.xml
 Parsing who-kaz from http://open.who.int/api/iatiFiles/iati-file-content/KAZ#.xml
-found 126 activities
+found 127 activities
 
 Downloading who-ken from http://open.who.int/api/iatiFiles/iati-file-content/KEN#.xml
 Parsing who-ken from http://open.who.int/api/iatiFiles/iati-file-content/KEN#.xml
@@ -42491,7 +42495,7 @@ found 175 activities
 
 Downloading who-lby from http://open.who.int/api/iatiFiles/iati-file-content/LBY#.xml
 Parsing who-lby from http://open.who.int/api/iatiFiles/iati-file-content/LBY#.xml
-found 154 activities
+found 155 activities
 
 Downloading who-lca from http://open.who.int/api/iatiFiles/iati-file-content/LCA#.xml
 Parsing who-lca from http://open.who.int/api/iatiFiles/iati-file-content/LCA#.xml
