@@ -3524,8 +3524,10 @@ Parsing ausgov-ge from https://www.dfat.gov.au/sites/default/files/Australian_Ai
 found 5 activities
 
 Downloading ausgov-gh from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Ghana.xml
+curl: download ERROR 000
 Parsing ausgov-gh from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Ghana.xml
-found 84 activities
+dflat: input XML file does not exist
+restored 84 files
 
 Downloading ausgov-gm from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Gambia.xml
 Parsing ausgov-gm from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Gambia.xml
@@ -3768,10 +3770,8 @@ Parsing ausgov-pw from https://www.dfat.gov.au/sites/default/files/Australian_Ai
 found 118 activities
 
 Downloading ausgov-py from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Paraguay.xml
-curl: download ERROR 000
 Parsing ausgov-py from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Paraguay.xml
-dflat: input XML file does not exist
-restored 30 files
+found 30 activities
 
 Downloading ausgov-rs from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Serbia.xml
 Parsing ausgov-rs from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Serbia.xml
@@ -6550,9 +6550,8 @@ dflat: invalid XML format
 restored 0 files
 
 Downloading cif-998 from http://siteresources.worldbank.org/IATI/CIF/CIF-998.xml
-curl: download ERROR 404
 Parsing cif-998 from http://siteresources.worldbank.org/IATI/CIF/CIF-998.xml
-dflat: input XML file does not exist
+dflat: invalid XML format
 restored 0 files
 
 Downloading c_i_f-activities from https://iatipublisher-prod.s3.amazonaws.com/xml/mergedActivityXml/c_i_f-activities.xml
@@ -7706,31 +7705,31 @@ found 1 organisations
 
 Downloading danida-all_1 from http://iati.um.dk/api/v2/files/iati1.xml
 Parsing danida-all_1 from http://iati.um.dk/api/v2/files/iati1.xml
-found 2673 activities
+found 2674 activities
 
 Downloading danida-all_2 from http://iati.um.dk/api/v2/files/iati2.xml
 Parsing danida-all_2 from http://iati.um.dk/api/v2/files/iati2.xml
-found 2673 activities
+found 2674 activities
 
 Downloading danida-all_3 from http://iati.um.dk/api/v2/files/iati3.xml
 Parsing danida-all_3 from http://iati.um.dk/api/v2/files/iati3.xml
-found 2673 activities
+found 2674 activities
 
 Downloading danida-all_4 from http://iati.um.dk/api/v2/files/iati4.xml
 Parsing danida-all_4 from http://iati.um.dk/api/v2/files/iati4.xml
-found 2673 activities
+found 2674 activities
 
 Downloading danida-all_5 from http://iati.um.dk/api/v2/files/iati5.xml
 Parsing danida-all_5 from http://iati.um.dk/api/v2/files/iati5.xml
-found 2673 activities
+found 2674 activities
 
 Downloading danida-all_6 from http://iati.um.dk/api/v2/files/iati6.xml
 Parsing danida-all_6 from http://iati.um.dk/api/v2/files/iati6.xml
-found 2673 activities
+found 2674 activities
 
 Downloading danida-all_7 from http://iati.um.dk/api/v2/files/iati7.xml
 Parsing danida-all_7 from http://iati.um.dk/api/v2/files/iati7.xml
-found 2667 activities
+found 2671 activities
 
 Downloading danida-org from http://iati.um.dk/api/v2/organisations/files/iati-organisations.xml
 Parsing danida-org from http://iati.um.dk/api/v2/organisations/files/iati-organisations.xml
@@ -11504,7 +11503,7 @@ found 892 activities
 
 Downloading ec-echo-2016 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2016.xml
 Parsing ec-echo-2016 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2016.xml
-found 840 activities
+found 842 activities
 
 Downloading ec-echo-2017 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2017.xml
 Parsing ec-echo-2017 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2017.xml
@@ -11512,27 +11511,27 @@ found 714 activities
 
 Downloading ec-echo-2018 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2018.xml
 Parsing ec-echo-2018 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2018.xml
-found 640 activities
+found 637 activities
 
 Downloading ec-echo-2019 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2019.xml
 Parsing ec-echo-2019 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2019.xml
-found 498 activities
+found 505 activities
 
 Downloading ec-echo-2020 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2020.xml
 Parsing ec-echo-2020 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2020.xml
-found 609 activities
+found 604 activities
 
 Downloading ec-echo-2021 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2021.xml
 Parsing ec-echo-2021 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2021.xml
-found 579 activities
+found 578 activities
 
 Downloading ec-echo-2022 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2022.xml
 Parsing ec-echo-2022 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2022.xml
-found 451 activities
+found 453 activities
 
 Downloading ec-echo-2023 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2023.xml
 Parsing ec-echo-2023 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2023.xml
-found 612 activities
+found 610 activities
 
 Downloading ec-echo-2024 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2024.xml
 Parsing ec-echo-2024 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2024.xml
@@ -16673,6 +16672,12 @@ Downloading gsg-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/gsg-or
 Parsing gsg-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/gsg-org.xml
 found 1 organisations
 
+Downloading gsma_foundation-010324 from https://dl.dropboxusercontent.com/scl/fi/hseuiczgcobodazl30zy3/01032024.xml
+curl: download ERROR 403
+Parsing gsma_foundation-010324 from https://dl.dropboxusercontent.com/scl/fi/hseuiczgcobodazl30zy3/01032024.xml
+dflat: input XML file does not exist
+restored 0 files
+
 Downloading gsma_foundation-datasetdec22 from https://dl.dropboxusercontent.com/s/01mk2yni5kfdlmg/231222.xml
 Parsing gsma_foundation-datasetdec22 from https://dl.dropboxusercontent.com/s/01mk2yni5kfdlmg/231222.xml
 found 138 activities
@@ -19148,11 +19153,11 @@ found 78 activities
 
 Downloading ifcwbg-pk from https://disclosures.ifc.org/iati/ifc-pk.xml
 Parsing ifcwbg-pk from https://disclosures.ifc.org/iati/ifc-pk.xml
-found 87 activities
+found 88 activities
 
 Downloading ifcwbg-pl from https://disclosures.ifc.org/iati/ifc-pl.xml
 Parsing ifcwbg-pl from https://disclosures.ifc.org/iati/ifc-pl.xml
-found 23 activities
+found 24 activities
 
 Downloading ifcwbg-py from https://disclosures.ifc.org/iati/ifc-py.xml
 Parsing ifcwbg-py from https://disclosures.ifc.org/iati/ifc-py.xml
@@ -20169,7 +20174,7 @@ found 1 organisations
 
 Downloading interpeace-activity from https://www.interpeace.org/wp-content/uploads/iati/IATI-activities.xml
 Parsing interpeace-activity from https://www.interpeace.org/wp-content/uploads/iati/IATI-activities.xml
-found 120 activities
+found 97 activities
 
 Downloading interpeace-org from https://www.interpeace.org/wp-content/uploads/iati/Interpeace-Org.xml
 Parsing interpeace-org from https://www.interpeace.org/wp-content/uploads/iati/Interpeace-Org.xml
@@ -23407,7 +23412,7 @@ found 1 organisations
 
 Downloading medaccess-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/medaccess-activities.xml
 Parsing medaccess-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/medaccess-activities.xml
-found 1 activities
+found 2 activities
 
 Downloading medafrica-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/medafrica-activities.xml
 Parsing medafrica-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/medafrica-activities.xml
@@ -23684,7 +23689,7 @@ found 187 activities
 
 Downloading millenniumchallenge-gm from https://inventory.data.gov/dataset/d4b25051-0bf8-4dd1-8c06-bbed2e4bb193/resource/8d39e86f-5f9f-4fda-afd1-6bd2a57d7aa0/download/mcc_gm.xml
 Parsing millenniumchallenge-gm from https://inventory.data.gov/dataset/d4b25051-0bf8-4dd1-8c06-bbed2e4bb193/resource/8d39e86f-5f9f-4fda-afd1-6bd2a57d7aa0/download/mcc_gm.xml
-found 51 activities
+found 53 activities
 
 Downloading millenniumchallenge-gt from https://inventory.data.gov/dataset/d4b25051-0bf8-4dd1-8c06-bbed2e4bb193/resource/50f99854-8ee8-4f22-bdc6-a5e2bc17da9e/download/mcc_gt.xml
 Parsing millenniumchallenge-gt from https://inventory.data.gov/dataset/d4b25051-0bf8-4dd1-8c06-bbed2e4bb193/resource/50f99854-8ee8-4f22-bdc6-a5e2bc17da9e/download/mcc_gt.xml
@@ -23708,7 +23713,7 @@ found 85 activities
 
 Downloading millenniumchallenge-ke from https://inventory.data.gov/dataset/d4b25051-0bf8-4dd1-8c06-bbed2e4bb193/resource/04090c54-0aff-47ef-bfa6-2ee8dcbbe396/download/mcc_ke.xml
 Parsing millenniumchallenge-ke from https://inventory.data.gov/dataset/d4b25051-0bf8-4dd1-8c06-bbed2e4bb193/resource/04090c54-0aff-47ef-bfa6-2ee8dcbbe396/download/mcc_ke.xml
-found 15 activities
+found 17 activities
 
 Downloading millenniumchallenge-kg from https://inventory.data.gov/dataset/d4b25051-0bf8-4dd1-8c06-bbed2e4bb193/resource/4a6d8842-3273-49f3-b081-972e7dfa65ae/download/mcc_kg.xml
 Parsing millenniumchallenge-kg from https://inventory.data.gov/dataset/d4b25051-0bf8-4dd1-8c06-bbed2e4bb193/resource/4a6d8842-3273-49f3-b081-972e7dfa65ae/download/mcc_kg.xml
@@ -23728,7 +23733,7 @@ found 65 activities
 
 Downloading millenniumchallenge-ls from https://inventory.data.gov/dataset/d4b25051-0bf8-4dd1-8c06-bbed2e4bb193/resource/5aa8e5e2-9142-4ce8-8cf2-be95cffa4a40/download/mcc_ls.xml
 Parsing millenniumchallenge-ls from https://inventory.data.gov/dataset/d4b25051-0bf8-4dd1-8c06-bbed2e4bb193/resource/5aa8e5e2-9142-4ce8-8cf2-be95cffa4a40/download/mcc_ls.xml
-found 174 activities
+found 175 activities
 
 Downloading millenniumchallenge-ma from https://inventory.data.gov/dataset/d4b25051-0bf8-4dd1-8c06-bbed2e4bb193/resource/b68de60e-196d-429f-bf79-c11f5b645646/download/mcc_ma.xml
 Parsing millenniumchallenge-ma from https://inventory.data.gov/dataset/d4b25051-0bf8-4dd1-8c06-bbed2e4bb193/resource/b68de60e-196d-429f-bf79-c11f5b645646/download/mcc_ma.xml
@@ -23756,7 +23761,7 @@ found 5 activities
 
 Downloading millenniumchallenge-mw from https://inventory.data.gov/dataset/d4b25051-0bf8-4dd1-8c06-bbed2e4bb193/resource/dc166e3c-6225-4e38-b006-746a7ff3ead4/download/mcc_mw.xml
 Parsing millenniumchallenge-mw from https://inventory.data.gov/dataset/d4b25051-0bf8-4dd1-8c06-bbed2e4bb193/resource/dc166e3c-6225-4e38-b006-746a7ff3ead4/download/mcc_mw.xml
-found 139 activities
+found 141 activities
 
 Downloading millenniumchallenge-mz from https://inventory.data.gov/dataset/d4b25051-0bf8-4dd1-8c06-bbed2e4bb193/resource/31d51a70-9922-4887-b9e1-5bc0242fec3e/download/mcc_mz.xml
 Parsing millenniumchallenge-mz from https://inventory.data.gov/dataset/d4b25051-0bf8-4dd1-8c06-bbed2e4bb193/resource/31d51a70-9922-4887-b9e1-5bc0242fec3e/download/mcc_mz.xml
@@ -23784,7 +23789,7 @@ found 1 organisations
 
 Downloading millenniumchallenge-ph from https://inventory.data.gov/dataset/d4b25051-0bf8-4dd1-8c06-bbed2e4bb193/resource/c99e490c-db3f-4356-947f-149161ce0e97/download/mcc_ph.xml
 Parsing millenniumchallenge-ph from https://inventory.data.gov/dataset/d4b25051-0bf8-4dd1-8c06-bbed2e4bb193/resource/c99e490c-db3f-4356-947f-149161ce0e97/download/mcc_ph.xml
-found 123 activities
+found 125 activities
 
 Downloading millenniumchallenge-rw from https://inventory.data.gov/dataset/d4b25051-0bf8-4dd1-8c06-bbed2e4bb193/resource/c1a9e856-8072-49f6-a3d6-ef14bb088ac3/download/mcc_rw.xml
 Parsing millenniumchallenge-rw from https://inventory.data.gov/dataset/d4b25051-0bf8-4dd1-8c06-bbed2e4bb193/resource/c1a9e856-8072-49f6-a3d6-ef14bb088ac3/download/mcc_rw.xml
@@ -23812,7 +23817,7 @@ found 148 activities
 
 Downloading millenniumchallenge-tg from https://inventory.data.gov/dataset/d4b25051-0bf8-4dd1-8c06-bbed2e4bb193/resource/58c0a2a5-c195-4a5e-864a-6c35b050c019/download/mcc_tg.xml
 Parsing millenniumchallenge-tg from https://inventory.data.gov/dataset/d4b25051-0bf8-4dd1-8c06-bbed2e4bb193/resource/58c0a2a5-c195-4a5e-864a-6c35b050c019/download/mcc_tg.xml
-found 50 activities
+found 52 activities
 
 Downloading millenniumchallenge-tl from https://inventory.data.gov/dataset/d4b25051-0bf8-4dd1-8c06-bbed2e4bb193/resource/3d887246-3395-45d6-a54c-2f52b85528b2/download/mcc_tl.xml
 Parsing millenniumchallenge-tl from https://inventory.data.gov/dataset/d4b25051-0bf8-4dd1-8c06-bbed2e4bb193/resource/3d887246-3395-45d6-a54c-2f52b85528b2/download/mcc_tl.xml
@@ -23840,7 +23845,7 @@ found 92 activities
 
 Downloading millenniumchallenge-zm from https://inventory.data.gov/dataset/d4b25051-0bf8-4dd1-8c06-bbed2e4bb193/resource/ceb1021f-df21-413b-a877-68ce78eff6ee/download/mcc_zm.xml
 Parsing millenniumchallenge-zm from https://inventory.data.gov/dataset/d4b25051-0bf8-4dd1-8c06-bbed2e4bb193/resource/ceb1021f-df21-413b-a877-68ce78eff6ee/download/mcc_zm.xml
-found 101 activities
+found 103 activities
 
 Downloading minbuza_nl-activities19972007 from https://static.rijksoverheid.nl/bz/IATIACTIVITIES19972007.xml
 Parsing minbuza_nl-activities19972007 from https://static.rijksoverheid.nl/bz/IATIACTIVITIES19972007.xml
@@ -28637,7 +28642,7 @@ found 1 organisations
 
 Downloading snv-world from https://rsr.akvo.org/organisation/3210/iati/
 Parsing snv-world from https://rsr.akvo.org/organisation/3210/iati/
-found 45 activities
+found 46 activities
 
 Downloading soas-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/soas-activities.xml
 Parsing soas-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/soas-activities.xml
@@ -28871,10 +28876,9 @@ Parsing sp-activities from https://iatipublisher-prod.s3.amazonaws.com/xml/merge
 found 1 activities
 
 Downloading spark-20170501 from https://downloads.spark.ngo/spark-20170523.xml
-curl: download ERROR 000
+Converting IATI activities version 1.05 to version 2.03
 Parsing spark-20170501 from https://downloads.spark.ngo/spark-20170523.xml
-dflat: input XML file does not exist
-restored 115 files
+found 115 activities
 
 Downloading spark-activities from https://iatipublisher-prod.s3.amazonaws.com/xml/mergedActivityXml/spark-activities.xml
 Parsing spark-activities from https://iatipublisher-prod.s3.amazonaws.com/xml/mergedActivityXml/spark-activities.xml
@@ -33771,7 +33775,7 @@ restored 0 files
 
 Downloading unfpa-my_rt from https://open.unfpa.org/IATI/release/UNFPA_RT_MY.xml
 Parsing unfpa-my_rt from https://open.unfpa.org/IATI/release/UNFPA_RT_MY.xml
-found 4 activities
+found 5 activities
 
 Downloading unfpa-my from http://open.unfpa.org/IATI/release/UNFPA_MY.xml
 curl: download ERROR 404
@@ -36659,7 +36663,7 @@ found 56 activities
 
 Downloading unocha-cbpf-southsudan-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/19/2024/GetAllocation.xml
 Parsing unocha-cbpf-southsudan-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/19/2024/GetAllocation.xml
-found 8 activities
+found 10 activities
 
 Downloading unocha-cbpf-southsudan-contribution-2016 from https://cbpfapi.unocha.org/iati/iati/19/2016/GetContribution.xml
 Parsing unocha-cbpf-southsudan-contribution-2016 from https://cbpfapi.unocha.org/iati/iati/19/2016/GetContribution.xml
@@ -37067,7 +37071,7 @@ found 74 activities
 
 Downloading unocha-cbpf-ukraine-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/81/2024/GetAllocation.xml
 Parsing unocha-cbpf-ukraine-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/81/2024/GetAllocation.xml
-found 0 activities
+found 1 activities
 
 Downloading unocha-cbpf-ukraine-contribution-2019 from https://cbpfapi.unocha.org/iati/iati/81/2019/GetContribution.xml
 Parsing unocha-cbpf-ukraine-contribution-2019 from https://cbpfapi.unocha.org/iati/iati/81/2019/GetContribution.xml
@@ -43700,10 +43704,8 @@ Parsing wv_et_activities-org from https://www.wvi.org/accountability/ETH-organis
 found 1 organisations
 
 Downloading wvi-activities from https://wvi.org/accountability/IATI-activities.xml
-curl: download ERROR 404
 Parsing wvi-activities from https://wvi.org/accountability/IATI-activities.xml
-dflat: input XML file does not exist
-restored 69 files
+found 69 activities
 
 Downloading wvi-org from https://www.wvi.org/accountability/IATI-organisation.xml
 Parsing wvi-org from https://www.wvi.org/accountability/IATI-organisation.xml
@@ -43966,23 +43968,23 @@ found 1 organisations
 
 Downloading yipl-189 from https://aidstream-stage.s3.us-west-2.amazonaws.com/xml/yipl-189.xml
 Parsing yipl-189 from https://aidstream-stage.s3.us-west-2.amazonaws.com/xml/yipl-189.xml
-found 1 activities
-
-Downloading yipl-activities from https://aidstream-stage.s3.us-west-2.amazonaws.com/xml/yipl-activities.xml
-Parsing yipl-activities from https://aidstream-stage.s3.us-west-2.amazonaws.com/xml/yipl-activities.xml
 found 0 activities
+
+Downloading yipl-activities from https://aidstream-sandbox.s3.us-west-2.amazonaws.com/xml/yipl-activities.xml
+Parsing yipl-activities from https://aidstream-sandbox.s3.us-west-2.amazonaws.com/xml/yipl-activities.xml
+found 1 activities
 
 Downloading yipl-as from https://aidstream-stage.s3.us-west-2.amazonaws.com/xml/yipl-as.xml
 Parsing yipl-as from https://aidstream-stage.s3.us-west-2.amazonaws.com/xml/yipl-as.xml
-found 0 activities
-
-Downloading yipl-bf from https://aidstream-stage.s3.us-west-2.amazonaws.com/xml/yipl-bf.xml
-Parsing yipl-bf from https://aidstream-stage.s3.us-west-2.amazonaws.com/xml/yipl-bf.xml
 found 1 activities
 
-Downloading yipl-bo from https://aidstream-stage.s3.us-west-2.amazonaws.com/xml/yipl-bo.xml
-Parsing yipl-bo from https://aidstream-stage.s3.us-west-2.amazonaws.com/xml/yipl-bo.xml
+Downloading yipl-dm from https://aidstream-stage.s3.us-west-2.amazonaws.com/xml/yipl-dm.xml
+Parsing yipl-dm from https://aidstream-stage.s3.us-west-2.amazonaws.com/xml/yipl-dm.xml
 found 1 activities
+
+Downloading yipl-ec from https://aidstream-stage.s3.us-west-2.amazonaws.com/xml/yipl-ec.xml
+Parsing yipl-ec from https://aidstream-stage.s3.us-west-2.amazonaws.com/xml/yipl-ec.xml
+found 6 activities
 
 Downloading yipl-org from https://aidstream-stage.s3.us-west-2.amazonaws.com/xml/yipl-org.xml
 Parsing yipl-org from https://aidstream-stage.s3.us-west-2.amazonaws.com/xml/yipl-org.xml
