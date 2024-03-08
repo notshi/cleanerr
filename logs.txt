@@ -218,7 +218,7 @@ found 1 organisations
 
 Downloading ac1999-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/ac1999-activities.xml
 Parsing ac1999-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/ac1999-activities.xml
-found 1 activities
+found 2 activities
 
 Downloading ac1999-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/ac1999-org.xml
 Parsing ac1999-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/ac1999-org.xml
@@ -3334,6 +3334,7 @@ dflat: input XML file does not exist
 restored 0 files
 
 Downloading ausgov-88 from http://dfat.gov.au/data/downloads/Australian_Aid_Regional_File_States_of_Ex-Yugoslavia.xml
+curl: download ERROR 404
 Parsing ausgov-88 from http://dfat.gov.au/data/downloads/Australian_Aid_Regional_File_States_of_Ex-Yugoslavia.xml
 dflat: input XML file does not exist
 restored 0 files
@@ -6550,8 +6551,9 @@ dflat: invalid XML format
 restored 0 files
 
 Downloading cif-889 from http://siteresources.worldbank.org/IATI/CIF/CIF-889.xml
+curl: download ERROR 404
 Parsing cif-889 from http://siteresources.worldbank.org/IATI/CIF/CIF-889.xml
-dflat: invalid XML format
+dflat: input XML file does not exist
 restored 0 files
 
 Downloading cif-998 from http://siteresources.worldbank.org/IATI/CIF/CIF-998.xml
@@ -6854,7 +6856,7 @@ found 14 activities
 
 Downloading cisu-gaia from https://vores.cisu.dk/activities.xml
 Parsing cisu-gaia from https://vores.cisu.dk/activities.xml
-found 2679 activities
+found 2680 activities
 
 Downloading cisu-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/cisu-org.xml
 Parsing cisu-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/cisu-org.xml
@@ -7734,7 +7736,7 @@ found 2678 activities
 
 Downloading danida-all_7 from http://iati.um.dk/api/v2/files/iati7.xml
 Parsing danida-all_7 from http://iati.um.dk/api/v2/files/iati7.xml
-found 2675 activities
+found 2673 activities
 
 Downloading danida-org from http://iati.um.dk/api/v2/organisations/files/iati-organisations.xml
 Parsing danida-org from http://iati.um.dk/api/v2/organisations/files/iati-organisations.xml
@@ -11508,7 +11510,7 @@ found 892 activities
 
 Downloading ec-echo-2016 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2016.xml
 Parsing ec-echo-2016 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2016.xml
-found 841 activities
+found 840 activities
 
 Downloading ec-echo-2017 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2017.xml
 Parsing ec-echo-2017 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2017.xml
@@ -11516,27 +11518,27 @@ found 714 activities
 
 Downloading ec-echo-2018 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2018.xml
 Parsing ec-echo-2018 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2018.xml
-found 641 activities
+found 639 activities
 
 Downloading ec-echo-2019 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2019.xml
 Parsing ec-echo-2019 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2019.xml
-found 498 activities
+found 499 activities
 
 Downloading ec-echo-2020 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2020.xml
 Parsing ec-echo-2020 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2020.xml
-found 607 activities
+found 609 activities
 
 Downloading ec-echo-2021 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2021.xml
 Parsing ec-echo-2021 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2021.xml
-found 578 activities
+found 581 activities
 
 Downloading ec-echo-2022 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2022.xml
 Parsing ec-echo-2022 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2022.xml
-found 451 activities
+found 450 activities
 
 Downloading ec-echo-2023 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2023.xml
 Parsing ec-echo-2023 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2023.xml
-found 608 activities
+found 607 activities
 
 Downloading ec-echo-2024 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2024.xml
 Parsing ec-echo-2024 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2024.xml
@@ -12303,10 +12305,8 @@ Parsing ec-intpa-hn from https://ec.europa.eu/international-partnerships/assets/
 found 63 activities
 
 Downloading ec-intpa-ht from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_HT.xml
-curl: download ERROR 000
 Parsing ec-intpa-ht from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_HT.xml
-dflat: input XML file does not exist
-restored 163 files
+found 163 activities
 
 Downloading ec-intpa-iati_organisation_intpa from https://ec.europa.eu/international-partnerships/assets/iati/iati_organisation_intpa.xml
 Parsing ec-intpa-iati_organisation_intpa from https://ec.europa.eu/international-partnerships/assets/iati/iati_organisation_intpa.xml
@@ -17350,7 +17350,7 @@ found 3 activities
 
 Downloading hiuk-bd from https://aidstream.s3.us-west-2.amazonaws.com/xml/hiuk-bd.xml
 Parsing hiuk-bd from https://aidstream.s3.us-west-2.amazonaws.com/xml/hiuk-bd.xml
-found 2 activities
+found 3 activities
 
 Downloading hiuk-bi from https://aidstream.s3.us-west-2.amazonaws.com/xml/hiuk-bi.xml
 Parsing hiuk-bi from https://aidstream.s3.us-west-2.amazonaws.com/xml/hiuk-bi.xml
@@ -17982,7 +17982,7 @@ found 1 organisations
 
 Downloading idbinvest-projects from https://idbinvest.org/sites/default/files/iati_publish_projects.xml
 Parsing idbinvest-projects from https://idbinvest.org/sites/default/files/iati_publish_projects.xml
-found 652 activities
+found 653 activities
 
 Downloading idea-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/idea-activities.xml
 Parsing idea-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/idea-activities.xml
@@ -25096,7 +25096,7 @@ found 2211 activities
 
 Downloading onl-activity from https://www.oxfamnovib.nl/redactie/Downloads/XML/iati.xml
 Parsing onl-activity from https://www.oxfamnovib.nl/redactie/Downloads/XML/iati.xml
-found 2282 activities
+found 2283 activities
 
 Downloading onl-org from https://www.oxfamnovib.nl/redactie/downloads/xml/IATI_NL-KVK-27108436.xml
 Parsing onl-org from https://www.oxfamnovib.nl/redactie/downloads/xml/IATI_NL-KVK-27108436.xml
@@ -36896,7 +36896,7 @@ found 68 activities
 
 Downloading unocha-cbpf-syria-allocation-2023 from https://cbpfapi.unocha.org/iati/iati/62/2023/GetAllocation.xml
 Parsing unocha-cbpf-syria-allocation-2023 from https://cbpfapi.unocha.org/iati/iati/62/2023/GetAllocation.xml
-found 94 activities
+found 93 activities
 
 Downloading unocha-cbpf-syria-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/62/2024/GetAllocation.xml
 Parsing unocha-cbpf-syria-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/62/2024/GetAllocation.xml
@@ -43987,15 +43987,45 @@ Downloading yffhsd-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/yff
 Parsing yffhsd-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/yffhsd-org.xml
 found 1 organisations
 
+Downloading yipl-1035 from https://aidstream-stage.s3.us-west-2.amazonaws.com/xml/yipl-1035.xml
+Parsing yipl-1035 from https://aidstream-stage.s3.us-west-2.amazonaws.com/xml/yipl-1035.xml
+found 0 activities
+
+Downloading yipl-998 from https://aidstream-stage.s3.us-west-2.amazonaws.com/xml/yipl-998.xml
+Parsing yipl-998 from https://aidstream-stage.s3.us-west-2.amazonaws.com/xml/yipl-998.xml
+found 0 activities
+
 Downloading yipl-activities from https://aidstream-stage.s3.us-west-2.amazonaws.com/xml/yipl-activities.xml
 Parsing yipl-activities from https://aidstream-stage.s3.us-west-2.amazonaws.com/xml/yipl-activities.xml
+found 0 activities
+
+Downloading yipl-af from https://aidstream-stage.s3.us-west-2.amazonaws.com/xml/yipl-af.xml
+Parsing yipl-af from https://aidstream-stage.s3.us-west-2.amazonaws.com/xml/yipl-af.xml
+found 0 activities
+
+Downloading yipl-as from https://aidstream-stage.s3.us-west-2.amazonaws.com/xml/yipl-as.xml
+Parsing yipl-as from https://aidstream-stage.s3.us-west-2.amazonaws.com/xml/yipl-as.xml
+found 0 activities
+
+Downloading yipl-ax from https://aidstream-stage.s3.us-west-2.amazonaws.com/xml/yipl-ax.xml
+Parsing yipl-ax from https://aidstream-stage.s3.us-west-2.amazonaws.com/xml/yipl-ax.xml
 found 1 activities
 
+Downloading yipl-bf from https://aidstream-stage.s3.us-west-2.amazonaws.com/xml/yipl-bf.xml
+Parsing yipl-bf from https://aidstream-stage.s3.us-west-2.amazonaws.com/xml/yipl-bf.xml
+found 0 activities
+
+Downloading yipl-dk from https://aidstream-stage.s3.us-west-2.amazonaws.com/xml/yipl-dk.xml
+Parsing yipl-dk from https://aidstream-stage.s3.us-west-2.amazonaws.com/xml/yipl-dk.xml
+found 0 activities
+
+Downloading yipl-ec from https://aidstream-stage.s3.us-west-2.amazonaws.com/xml/yipl-ec.xml
+Parsing yipl-ec from https://aidstream-stage.s3.us-west-2.amazonaws.com/xml/yipl-ec.xml
+found 0 activities
+
 Downloading yipl-org from https://aidstream-stage.s3.us-west-2.amazonaws.com/xml/yipl-org.xml
-curl: download ERROR 403
 Parsing yipl-org from https://aidstream-stage.s3.us-west-2.amazonaws.com/xml/yipl-org.xml
-dflat: input XML file does not exist
-restored 1 files
+found 2 organisations
 
 Downloading ylabs-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/ylabs-activities.xml
 Parsing ylabs-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/ylabs-activities.xml
