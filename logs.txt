@@ -6592,9 +6592,8 @@ Parsing cif-br from http://doumodqax2qi2.cloudfront.net/CIF/CIF-05-2020/CIF-BR.x
 found 11 activities
 
 Downloading cif-cd from http://siteresources.worldbank.org/IATI/CIF/CIF-CD.xml
-curl: download ERROR 404
 Parsing cif-cd from http://siteresources.worldbank.org/IATI/CIF/CIF-CD.xml
-dflat: input XML file does not exist
+dflat: invalid XML format
 restored 0 files
 
 Downloading cif-ci from http://doumodqax2qi2.cloudfront.net/CIF/CIF-05-2020/CIF-CI.xml
@@ -6786,8 +6785,9 @@ Parsing cif-ws from http://doumodqax2qi2.cloudfront.net/CIF/CIF-05-2020/CIF-WS.x
 found 2 activities
 
 Downloading cif-ye from http://siteresources.worldbank.org/IATI/CIF/CIF-YE.xml
+curl: download ERROR 404
 Parsing cif-ye from http://siteresources.worldbank.org/IATI/CIF/CIF-YE.xml
-dflat: invalid XML format
+dflat: input XML file does not exist
 restored 0 files
 
 Downloading cif-za from http://doumodqax2qi2.cloudfront.net/CIF/CIF-05-2020/CIF-ZA.xml
@@ -11509,39 +11509,39 @@ restored 892 files
 
 Downloading ec-echo-2016 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2016.xml
 Parsing ec-echo-2016 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2016.xml
-found 841 activities
+found 839 activities
 
 Downloading ec-echo-2017 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2017.xml
 Parsing ec-echo-2017 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2017.xml
-found 740 activities
+found 742 activities
 
 Downloading ec-echo-2018 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2018.xml
 Parsing ec-echo-2018 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2018.xml
-found 613 activities
+found 614 activities
 
 Downloading ec-echo-2019 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2019.xml
 Parsing ec-echo-2019 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2019.xml
-found 502 activities
+found 499 activities
 
 Downloading ec-echo-2020 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2020.xml
 Parsing ec-echo-2020 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2020.xml
-found 605 activities
+found 608 activities
 
 Downloading ec-echo-2021 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2021.xml
 Parsing ec-echo-2021 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2021.xml
-found 579 activities
+found 574 activities
 
 Downloading ec-echo-2022 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2022.xml
 Parsing ec-echo-2022 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2022.xml
-found 453 activities
+found 460 activities
 
 Downloading ec-echo-2023 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2023.xml
 Parsing ec-echo-2023 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2023.xml
-found 604 activities
+found 602 activities
 
 Downloading ec-echo-2024 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2024.xml
 Parsing ec-echo-2024 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2024.xml
-found 31 activities
+found 30 activities
 
 Downloading ec-echo-org from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/iati-organisation-file.xml
 Parsing ec-echo-org from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/iati-organisation-file.xml
@@ -20825,6 +20825,10 @@ Downloading khf-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml
 Parsing khf-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/khf-activities.xml
 found 1 activities
 
+Downloading khf_ifh-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/khf_ifh-org.xml
+Parsing khf_ifh-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/khf_ifh-org.xml
+found 1 organisations
+
 Downloading khf-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/khf-org.xml
 Parsing khf-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/khf-org.xml
 found 1 organisations
@@ -21299,7 +21303,7 @@ found 2 activities
 
 Downloading ksrelief291-ye from https://aidstream.s3.us-west-2.amazonaws.com/xml/ksrelief291-ye.xml
 Parsing ksrelief291-ye from https://aidstream.s3.us-west-2.amazonaws.com/xml/ksrelief291-ye.xml
-found 402 activities
+found 403 activities
 
 Downloading ksrelief291-za from https://aidstream.s3.us-west-2.amazonaws.com/xml/ksrelief291-za.xml
 Parsing ksrelief291-za from https://aidstream.s3.us-west-2.amazonaws.com/xml/ksrelief291-za.xml
@@ -29136,10 +29140,8 @@ Parsing solsoc-sn from https://aidstream.s3.us-west-2.amazonaws.com/xml/solsoc-s
 found 1 activities
 
 Downloading somo-29042016 from https://iati.online/IATI-activities.xml
-curl: download ERROR 000
 Parsing somo-29042016 from https://iati.online/IATI-activities.xml
-dflat: input XML file does not exist
-restored 10 files
+found 10 activities
 
 Downloading somo-org from https://iati.online/IATI_NL-KVK-41223308-organisation.xml
 Parsing somo-org from https://iati.online/IATI_NL-KVK-41223308-organisation.xml
@@ -32258,9 +32260,8 @@ Parsing uhai-eashri-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/uh
 found 1 organisations
 
 Downloading ukgcc-2023 from https://ukgcc.com.gh/wp-content/uploads/2023_reports/Project_Income_Statement_1.xml
-curl: download ERROR 000
 Parsing ukgcc-2023 from https://ukgcc.com.gh/wp-content/uploads/2023_reports/Project_Income_Statement_1.xml
-dflat: input XML file does not exist
+dflat: no activities or organisations found in XML file
 restored 0 files
 
 Downloading uk-med-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/uk-med-activities.xml
