@@ -6549,8 +6549,9 @@ dflat: invalid XML format
 restored 0 files
 
 Downloading cif-889 from http://siteresources.worldbank.org/IATI/CIF/CIF-889.xml
+curl: download ERROR 404
 Parsing cif-889 from http://siteresources.worldbank.org/IATI/CIF/CIF-889.xml
-dflat: invalid XML format
+dflat: input XML file does not exist
 restored 0 files
 
 Downloading cif-998 from http://siteresources.worldbank.org/IATI/CIF/CIF-998.xml
@@ -6785,8 +6786,9 @@ Parsing cif-ws from http://doumodqax2qi2.cloudfront.net/CIF/CIF-05-2020/CIF-WS.x
 found 2 activities
 
 Downloading cif-ye from http://siteresources.worldbank.org/IATI/CIF/CIF-YE.xml
+curl: download ERROR 404
 Parsing cif-ye from http://siteresources.worldbank.org/IATI/CIF/CIF-YE.xml
-dflat: invalid XML format
+dflat: input XML file does not exist
 restored 0 files
 
 Downloading cif-za from http://doumodqax2qi2.cloudfront.net/CIF/CIF-05-2020/CIF-ZA.xml
@@ -7975,7 +7977,7 @@ found 1 organisations
 
 Downloading defra_transparency-activities from https://devflow.northeurope.cloudapp.azure.com/files/xml/defra_transparency-activities.xml
 Parsing defra_transparency-activities from https://devflow.northeurope.cloudapp.azure.com/files/xml/defra_transparency-activities.xml
-found 106 activities
+found 107 activities
 
 Downloading defra_transparency-org from https://devflow.northeurope.cloudapp.azure.com/files/xml/defra_transparency-org.xml
 Parsing defra_transparency-org from https://devflow.northeurope.cloudapp.azure.com/files/xml/defra_transparency-org.xml
@@ -11508,7 +11510,7 @@ restored 892 files
 
 Downloading ec-echo-2016 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2016.xml
 Parsing ec-echo-2016 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2016.xml
-found 839 activities
+found 842 activities
 
 Downloading ec-echo-2017 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2017.xml
 Parsing ec-echo-2017 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2017.xml
@@ -11516,23 +11518,23 @@ found 741 activities
 
 Downloading ec-echo-2018 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2018.xml
 Parsing ec-echo-2018 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2018.xml
-found 615 activities
+found 616 activities
 
 Downloading ec-echo-2019 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2019.xml
 Parsing ec-echo-2019 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2019.xml
-found 499 activities
+found 497 activities
 
 Downloading ec-echo-2020 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2020.xml
 Parsing ec-echo-2020 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2020.xml
-found 606 activities
+found 607 activities
 
 Downloading ec-echo-2021 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2021.xml
 Parsing ec-echo-2021 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2021.xml
-found 575 activities
+found 580 activities
 
 Downloading ec-echo-2022 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2022.xml
 Parsing ec-echo-2022 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2022.xml
-found 461 activities
+found 455 activities
 
 Downloading ec-echo-2023 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2023.xml
 Parsing ec-echo-2023 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2023.xml
@@ -11540,7 +11542,7 @@ found 601 activities
 
 Downloading ec-echo-2024 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2024.xml
 Parsing ec-echo-2024 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2024.xml
-found 30 activities
+found 31 activities
 
 Downloading ec-echo-org from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/iati-organisation-file.xml
 Parsing ec-echo-org from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/iati-organisation-file.xml
@@ -14723,13 +14725,13 @@ Parsing fo_germany-unspecified-998 from https://www.auswaertiges-amt.de/blob/210
 found 1062 activities
 
 Downloading fomin-ar from https://webimages.iadb.org/iati/fomin-Argentina.xml
-curl: download ERROR 403
+curl: download ERROR 404
 Parsing fomin-ar from https://webimages.iadb.org/iati/fomin-Argentina.xml
 dflat: input XML file does not exist
 restored 10 files
 
 Downloading fomin-bb from https://webimages.iadb.org/iati/fomin-Barbados.xml
-curl: download ERROR 403
+curl: download ERROR 404
 Parsing fomin-bb from https://webimages.iadb.org/iati/fomin-Barbados.xml
 dflat: input XML file does not exist
 restored 1 files
@@ -14741,13 +14743,13 @@ dflat: input XML file does not exist
 restored 20 files
 
 Downloading fomin-br from https://webimages.iadb.org/iati/fomin-Brazil.xml
-curl: download ERROR 403
+curl: download ERROR 404
 Parsing fomin-br from https://webimages.iadb.org/iati/fomin-Brazil.xml
 dflat: input XML file does not exist
 restored 5 files
 
 Downloading fomin-bs from https://webimages.iadb.org/iati/fomin-Bahamas.xml
-curl: download ERROR 403
+curl: download ERROR 404
 Parsing fomin-bs from https://webimages.iadb.org/iati/fomin-Bahamas.xml
 dflat: input XML file does not exist
 restored 1 files
@@ -14759,7 +14761,7 @@ dflat: input XML file does not exist
 restored 2 files
 
 Downloading fomin-cl from https://webimages.iadb.org/iati/fomin-Chile.xml
-curl: download ERROR 403
+curl: download ERROR 404
 Parsing fomin-cl from https://webimages.iadb.org/iati/fomin-Chile.xml
 dflat: input XML file does not exist
 restored 4 files
@@ -14771,7 +14773,7 @@ dflat: input XML file does not exist
 restored 15 files
 
 Downloading fomin-cr from https://webimages.iadb.org/iati/fomin-Costa-Rica.xml
-curl: download ERROR 403
+curl: download ERROR 404
 Parsing fomin-cr from https://webimages.iadb.org/iati/fomin-Costa-Rica.xml
 dflat: input XML file does not exist
 restored 11 files
@@ -14783,37 +14785,37 @@ dflat: input XML file does not exist
 restored 6 files
 
 Downloading fomin-ec from https://webimages.iadb.org/iati/fomin-Ecuador.xml
-curl: download ERROR 403
+curl: download ERROR 404
 Parsing fomin-ec from https://webimages.iadb.org/iati/fomin-Ecuador.xml
 dflat: input XML file does not exist
 restored 24 files
 
 Downloading fomin-gt from https://webimages.iadb.org/iati/fomin-Guatemala.xml
-curl: download ERROR 403
+curl: download ERROR 404
 Parsing fomin-gt from https://webimages.iadb.org/iati/fomin-Guatemala.xml
 dflat: input XML file does not exist
 restored 20 files
 
 Downloading fomin-gy from https://webimages.iadb.org/iati/fomin-Guyana.xml
-curl: download ERROR 403
+curl: download ERROR 404
 Parsing fomin-gy from https://webimages.iadb.org/iati/fomin-Guyana.xml
 dflat: input XML file does not exist
 restored 3 files
 
 Downloading fomin-ho from https://webimages.iadb.org/iati/fomin-Honduras.xml
-curl: download ERROR 403
+curl: download ERROR 404
 Parsing fomin-ho from https://webimages.iadb.org/iati/fomin-Honduras.xml
 dflat: input XML file does not exist
 restored 19 files
 
 Downloading fomin-ht from https://webimages.iadb.org/iati/fomin-Haiti.xml
-curl: download ERROR 403
+curl: download ERROR 404
 Parsing fomin-ht from https://webimages.iadb.org/iati/fomin-Haiti.xml
 dflat: input XML file does not exist
 restored 7 files
 
 Downloading fomin-jm from https://webimages.iadb.org/iati/fomin-Jamaica.xml
-curl: download ERROR 403
+curl: download ERROR 404
 Parsing fomin-jm from https://webimages.iadb.org/iati/fomin-Jamaica.xml
 dflat: input XML file does not exist
 restored 3 files
@@ -14831,7 +14833,7 @@ dflat: input XML file does not exist
 restored 17 files
 
 Downloading fomin-pa from https://webimages.iadb.org/iati/fomin-Panama.xml
-curl: download ERROR 403
+curl: download ERROR 404
 Parsing fomin-pa from https://webimages.iadb.org/iati/fomin-Panama.xml
 dflat: input XML file does not exist
 restored 4 files
@@ -14879,7 +14881,7 @@ dflat: input XML file does not exist
 restored 2 files
 
 Downloading fomin-ve from https://webimages.iadb.org/iati/fomin-Venezuela.xml
-curl: download ERROR 403
+curl: download ERROR 404
 Parsing fomin-ve from https://webimages.iadb.org/iati/fomin-Venezuela.xml
 dflat: input XML file does not exist
 restored 0 files
@@ -15660,7 +15662,7 @@ found 909 activities
 
 Downloading gb-chc-220949-activities from https://www.iati.redcross.org.uk/wp-content/uploads/IATI/activityfile.xml
 Parsing gb-chc-220949-activities from https://www.iati.redcross.org.uk/wp-content/uploads/IATI/activityfile.xml
-found 181 activities
+found 191 activities
 
 Downloading gb-chc-220949-org-file from https://www.iati.redcross.org.uk/wp-content/uploads/IATI/Organisational/organisational-file.xml
 Parsing gb-chc-220949-org-file from https://www.iati.redcross.org.uk/wp-content/uploads/IATI/Organisational/organisational-file.xml
@@ -15726,7 +15728,7 @@ found 13 activities
 
 Downloading gef-ar from https://d2mxkr7359ifh6.cloudfront.net/GEF/AR.xml
 Parsing gef-ar from https://d2mxkr7359ifh6.cloudfront.net/GEF/AR.xml
-found 8 activities
+found 42 activities
 
 Downloading gef-az from https://d2mxkr7359ifh6.cloudfront.net/GEF/AZ.xml
 Parsing gef-az from https://d2mxkr7359ifh6.cloudfront.net/GEF/AZ.xml
@@ -15738,11 +15740,11 @@ found 20 activities
 
 Downloading gef-bb from https://d2mxkr7359ifh6.cloudfront.net/GEF/BB.xml
 Parsing gef-bb from https://d2mxkr7359ifh6.cloudfront.net/GEF/BB.xml
-found 2 activities
+found 12 activities
 
 Downloading gef-bd from https://d2mxkr7359ifh6.cloudfront.net/GEF/BD.xml
 Parsing gef-bd from https://d2mxkr7359ifh6.cloudfront.net/GEF/BD.xml
-found 5 activities
+found 26 activities
 
 Downloading gef-bf from https://d2mxkr7359ifh6.cloudfront.net/GEF/BF.xml
 Parsing gef-bf from https://d2mxkr7359ifh6.cloudfront.net/GEF/BF.xml
@@ -15766,27 +15768,27 @@ found 24 activities
 
 Downloading gef-bo from https://d2mxkr7359ifh6.cloudfront.net/GEF/BO.xml
 Parsing gef-bo from https://d2mxkr7359ifh6.cloudfront.net/GEF/BO.xml
-found 6 activities
+found 28 activities
 
 Downloading gef-br from https://d2mxkr7359ifh6.cloudfront.net/GEF/BR.xml
 Parsing gef-br from https://d2mxkr7359ifh6.cloudfront.net/GEF/BR.xml
-found 14 activities
+found 74 activities
 
 Downloading gef-bs from https://d2mxkr7359ifh6.cloudfront.net/GEF/BS.xml
 Parsing gef-bs from https://d2mxkr7359ifh6.cloudfront.net/GEF/BS.xml
-found 3 activities
+found 17 activities
 
 Downloading gef-bt from https://d2mxkr7359ifh6.cloudfront.net/GEF/BT.xml
 Parsing gef-bt from https://d2mxkr7359ifh6.cloudfront.net/GEF/BT.xml
-found 4 activities
+found 21 activities
 
 Downloading gef-bw from https://d2mxkr7359ifh6.cloudfront.net/GEF/BW.xml
 Parsing gef-bw from https://d2mxkr7359ifh6.cloudfront.net/GEF/BW.xml
-found 1 activities
+found 26 activities
 
 Downloading gef-by from https://d2mxkr7359ifh6.cloudfront.net/GEF/BY.xml
 Parsing gef-by from https://d2mxkr7359ifh6.cloudfront.net/GEF/BY.xml
-found 3 activities
+found 27 activities
 
 Downloading gef-bz from https://d2mxkr7359ifh6.cloudfront.net/GEF/BZ.xml
 Parsing gef-bz from https://d2mxkr7359ifh6.cloudfront.net/GEF/BZ.xml
@@ -15806,11 +15808,11 @@ found 20 activities
 
 Downloading gef-ci from https://d2mxkr7359ifh6.cloudfront.net/GEF/CI.xml
 Parsing gef-ci from https://d2mxkr7359ifh6.cloudfront.net/GEF/CI.xml
-found 5 activities
+found 29 activities
 
 Downloading gef-ck from https://d2mxkr7359ifh6.cloudfront.net/GEF/CK.xml
 Parsing gef-ck from https://d2mxkr7359ifh6.cloudfront.net/GEF/CK.xml
-found 1 activities
+found 10 activities
 
 Downloading gef-cl from https://d2mxkr7359ifh6.cloudfront.net/GEF/CL.xml
 Parsing gef-cl from https://d2mxkr7359ifh6.cloudfront.net/GEF/CL.xml
@@ -15818,7 +15820,7 @@ found 43 activities
 
 Downloading gef-cm from https://d2mxkr7359ifh6.cloudfront.net/GEF/CM.xml
 Parsing gef-cm from https://d2mxkr7359ifh6.cloudfront.net/GEF/CM.xml
-found 5 activities
+found 36 activities
 
 Downloading gef-cn from https://d2mxkr7359ifh6.cloudfront.net/GEF/CN.xml
 Parsing gef-cn from https://d2mxkr7359ifh6.cloudfront.net/GEF/CN.xml
@@ -15838,7 +15840,7 @@ found 38 activities
 
 Downloading gef-cv from https://d2mxkr7359ifh6.cloudfront.net/GEF/CV.xml
 Parsing gef-cv from https://d2mxkr7359ifh6.cloudfront.net/GEF/CV.xml
-found 5 activities
+found 21 activities
 
 Downloading gef-cz from https://d2mxkr7359ifh6.cloudfront.net/GEF/CZ.xml
 Parsing gef-cz from https://d2mxkr7359ifh6.cloudfront.net/GEF/CZ.xml
@@ -15846,7 +15848,7 @@ found 11 activities
 
 Downloading gef-dj from https://d2mxkr7359ifh6.cloudfront.net/GEF/DJ.xml
 Parsing gef-dj from https://d2mxkr7359ifh6.cloudfront.net/GEF/DJ.xml
-found 2 activities
+found 14 activities
 
 Downloading gef-dm from https://d2mxkr7359ifh6.cloudfront.net/GEF/DM.xml
 Parsing gef-dm from https://d2mxkr7359ifh6.cloudfront.net/GEF/DM.xml
@@ -15902,7 +15904,7 @@ found 32 activities
 
 Downloading gef-gh from https://d2mxkr7359ifh6.cloudfront.net/GEF/GH.xml
 Parsing gef-gh from https://d2mxkr7359ifh6.cloudfront.net/GEF/GH.xml
-found 6 activities
+found 34 activities
 
 Downloading gef-gm from https://d2mxkr7359ifh6.cloudfront.net/GEF/GM.xml
 Parsing gef-gm from https://d2mxkr7359ifh6.cloudfront.net/GEF/GM.xml
@@ -15922,7 +15924,7 @@ found 29 activities
 
 Downloading gef-gw from https://d2mxkr7359ifh6.cloudfront.net/GEF/GW.xml
 Parsing gef-gw from https://d2mxkr7359ifh6.cloudfront.net/GEF/GW.xml
-found 2 activities
+found 19 activities
 
 Downloading gef-gy from https://d2mxkr7359ifh6.cloudfront.net/GEF/GY.xml
 Parsing gef-gy from https://d2mxkr7359ifh6.cloudfront.net/GEF/GY.xml
@@ -15930,19 +15932,19 @@ found 19 activities
 
 Downloading gef-hn from https://d2mxkr7359ifh6.cloudfront.net/GEF/HN.xml
 Parsing gef-hn from https://d2mxkr7359ifh6.cloudfront.net/GEF/HN.xml
-found 3 activities
+found 28 activities
 
 Downloading gef-hr from https://d2mxkr7359ifh6.cloudfront.net/GEF/HR.xml
 Parsing gef-hr from https://d2mxkr7359ifh6.cloudfront.net/GEF/HR.xml
-found 5 activities
+found 16 activities
 
 Downloading gef-ht from https://d2mxkr7359ifh6.cloudfront.net/GEF/HT.xml
 Parsing gef-ht from https://d2mxkr7359ifh6.cloudfront.net/GEF/HT.xml
-found 2 activities
+found 15 activities
 
 Downloading gef-hu from https://d2mxkr7359ifh6.cloudfront.net/GEF/HU.xml
 Parsing gef-hu from https://d2mxkr7359ifh6.cloudfront.net/GEF/HU.xml
-found 5 activities
+found 12 activities
 
 Downloading gef-id from https://d2mxkr7359ifh6.cloudfront.net/GEF/ID.xml
 Parsing gef-id from https://d2mxkr7359ifh6.cloudfront.net/GEF/ID.xml
@@ -15950,11 +15952,11 @@ found 68 activities
 
 Downloading gef-in from https://d2mxkr7359ifh6.cloudfront.net/GEF/IN.xml
 Parsing gef-in from https://d2mxkr7359ifh6.cloudfront.net/GEF/IN.xml
-found 13 activities
+found 92 activities
 
 Downloading gef-iq from https://d2mxkr7359ifh6.cloudfront.net/GEF/IQ.xml
 Parsing gef-iq from https://d2mxkr7359ifh6.cloudfront.net/GEF/IQ.xml
-found 9 activities
+found 10 activities
 
 Downloading gef-ir from https://d2mxkr7359ifh6.cloudfront.net/GEF/IR.xml
 Parsing gef-ir from https://d2mxkr7359ifh6.cloudfront.net/GEF/IR.xml
@@ -15966,11 +15968,11 @@ found 22 activities
 
 Downloading gef-jo from https://d2mxkr7359ifh6.cloudfront.net/GEF/JO.xml
 Parsing gef-jo from https://d2mxkr7359ifh6.cloudfront.net/GEF/JO.xml
-found 6 activities
+found 36 activities
 
 Downloading gef-ke from https://d2mxkr7359ifh6.cloudfront.net/GEF/KE.xml
 Parsing gef-ke from https://d2mxkr7359ifh6.cloudfront.net/GEF/KE.xml
-found 6 activities
+found 45 activities
 
 Downloading gef-kg from https://d2mxkr7359ifh6.cloudfront.net/GEF/KG.xml
 Parsing gef-kg from https://d2mxkr7359ifh6.cloudfront.net/GEF/KG.xml
@@ -15978,7 +15980,7 @@ found 25 activities
 
 Downloading gef-kh from https://d2mxkr7359ifh6.cloudfront.net/GEF/KH.xml
 Parsing gef-kh from https://d2mxkr7359ifh6.cloudfront.net/GEF/KH.xml
-found 4 activities
+found 29 activities
 
 Downloading gef-ki from https://d2mxkr7359ifh6.cloudfront.net/GEF/KI.xml
 Parsing gef-ki from https://d2mxkr7359ifh6.cloudfront.net/GEF/KI.xml
@@ -15986,11 +15988,11 @@ found 13 activities
 
 Downloading gef-km from https://d2mxkr7359ifh6.cloudfront.net/GEF/KM.xml
 Parsing gef-km from https://d2mxkr7359ifh6.cloudfront.net/GEF/KM.xml
-found 3 activities
+found 17 activities
 
 Downloading gef-kn from https://d2mxkr7359ifh6.cloudfront.net/GEF/KN.xml
 Parsing gef-kn from https://d2mxkr7359ifh6.cloudfront.net/GEF/KN.xml
-found 2 activities
+found 9 activities
 
 Downloading gef-kp from https://d2mxkr7359ifh6.cloudfront.net/GEF/KP.xml
 Parsing gef-kp from https://d2mxkr7359ifh6.cloudfront.net/GEF/KP.xml
@@ -16010,7 +16012,7 @@ found 37 activities
 
 Downloading gef-la from https://d2mxkr7359ifh6.cloudfront.net/GEF/LA.xml
 Parsing gef-la from https://d2mxkr7359ifh6.cloudfront.net/GEF/LA.xml
-found 3 activities
+found 23 activities
 
 Downloading gef-lb from https://d2mxkr7359ifh6.cloudfront.net/GEF/LB.xml
 Parsing gef-lb from https://d2mxkr7359ifh6.cloudfront.net/GEF/LB.xml
@@ -16034,7 +16036,7 @@ found 17 activities
 
 Downloading gef-lt from https://d2mxkr7359ifh6.cloudfront.net/GEF/LT.xml
 Parsing gef-lt from https://d2mxkr7359ifh6.cloudfront.net/GEF/LT.xml
-found 5 activities
+found 10 activities
 
 Downloading gef-lv from https://d2mxkr7359ifh6.cloudfront.net/GEF/LV.xml
 Parsing gef-lv from https://d2mxkr7359ifh6.cloudfront.net/GEF/LV.xml
@@ -16050,7 +16052,7 @@ found 40 activities
 
 Downloading gef-md from https://d2mxkr7359ifh6.cloudfront.net/GEF/MD.xml
 Parsing gef-md from https://d2mxkr7359ifh6.cloudfront.net/GEF/MD.xml
-found 3 activities
+found 33 activities
 
 Downloading gef-me from https://d2mxkr7359ifh6.cloudfront.net/GEF/ME.xml
 Parsing gef-me from https://d2mxkr7359ifh6.cloudfront.net/GEF/ME.xml
@@ -16062,7 +16064,7 @@ found 39 activities
 
 Downloading gef-mh from https://d2mxkr7359ifh6.cloudfront.net/GEF/MH.xml
 Parsing gef-mh from https://d2mxkr7359ifh6.cloudfront.net/GEF/MH.xml
-found 1 activities
+found 10 activities
 
 Downloading gef-mk from https://d2mxkr7359ifh6.cloudfront.net/GEF/MK.xml
 Parsing gef-mk from https://d2mxkr7359ifh6.cloudfront.net/GEF/MK.xml
@@ -16070,7 +16072,7 @@ found 22 activities
 
 Downloading gef-ml from https://d2mxkr7359ifh6.cloudfront.net/GEF/ML.xml
 Parsing gef-ml from https://d2mxkr7359ifh6.cloudfront.net/GEF/ML.xml
-found 5 activities
+found 25 activities
 
 Downloading gef-mm from https://d2mxkr7359ifh6.cloudfront.net/GEF/MM.xml
 Parsing gef-mm from https://d2mxkr7359ifh6.cloudfront.net/GEF/MM.xml
@@ -16086,15 +16088,15 @@ found 25 activities
 
 Downloading gef-mt from https://d2mxkr7359ifh6.cloudfront.net/GEF/MT.xml
 Parsing gef-mt from https://d2mxkr7359ifh6.cloudfront.net/GEF/MT.xml
-found 1 activities
+found 2 activities
 
 Downloading gef-mu from https://d2mxkr7359ifh6.cloudfront.net/GEF/MU.xml
 Parsing gef-mu from https://d2mxkr7359ifh6.cloudfront.net/GEF/MU.xml
-found 7 activities
+found 26 activities
 
 Downloading gef-mv from https://d2mxkr7359ifh6.cloudfront.net/GEF/MV.xml
 Parsing gef-mv from https://d2mxkr7359ifh6.cloudfront.net/GEF/MV.xml
-found 3 activities
+found 15 activities
 
 Downloading gef-mw from https://d2mxkr7359ifh6.cloudfront.net/GEF/MW.xml
 Parsing gef-mw from https://d2mxkr7359ifh6.cloudfront.net/GEF/MW.xml
@@ -16115,7 +16117,7 @@ found 22 activities
 
 Downloading gef-na from https://d2mxkr7359ifh6.cloudfront.net/GEF/NA.xml
 Parsing gef-na from https://d2mxkr7359ifh6.cloudfront.net/GEF/NA.xml
-found 2 activities
+found 36 activities
 
 Downloading gef-ne from https://d2mxkr7359ifh6.cloudfront.net/GEF/NE.xml
 Parsing gef-ne from https://d2mxkr7359ifh6.cloudfront.net/GEF/NE.xml
@@ -16123,7 +16125,7 @@ found 25 activities
 
 Downloading gef-ng from https://d2mxkr7359ifh6.cloudfront.net/GEF/NG.xml
 Parsing gef-ng from https://d2mxkr7359ifh6.cloudfront.net/GEF/NG.xml
-found 3 activities
+found 37 activities
 
 Downloading gef-ni from https://d2mxkr7359ifh6.cloudfront.net/GEF/NI.xml
 Parsing gef-ni from https://d2mxkr7359ifh6.cloudfront.net/GEF/NI.xml
@@ -16159,7 +16161,7 @@ found 61 activities
 
 Downloading gef-pg from https://d2mxkr7359ifh6.cloudfront.net/GEF/PG.xml
 Parsing gef-pg from https://d2mxkr7359ifh6.cloudfront.net/GEF/PG.xml
-found 4 activities
+found 19 activities
 
 Downloading gef-ph from https://d2mxkr7359ifh6.cloudfront.net/GEF/PH.xml
 Parsing gef-ph from https://d2mxkr7359ifh6.cloudfront.net/GEF/PH.xml
@@ -16187,7 +16189,7 @@ found 1 activities
 
 Downloading gef-regional from https://d2mxkr7359ifh6.cloudfront.net/GEF/GEF%20Regional.xml
 Parsing gef-regional from https://d2mxkr7359ifh6.cloudfront.net/GEF/GEF%20Regional.xml
-found 133 activities
+found 1054 activities
 
 Downloading gef-ro from https://d2mxkr7359ifh6.cloudfront.net/GEF/RO.xml
 Parsing gef-ro from https://d2mxkr7359ifh6.cloudfront.net/GEF/RO.xml
@@ -16259,11 +16261,11 @@ found 18 activities
 
 Downloading gef-sy from https://d2mxkr7359ifh6.cloudfront.net/GEF/SY.xml
 Parsing gef-sy from https://d2mxkr7359ifh6.cloudfront.net/GEF/SY.xml
-found 6 activities
+found 12 activities
 
 Downloading gef-sz from https://d2mxkr7359ifh6.cloudfront.net/GEF/SZ.xml
 Parsing gef-sz from https://d2mxkr7359ifh6.cloudfront.net/GEF/SZ.xml
-found 3 activities
+found 14 activities
 
 Downloading gef-td from https://d2mxkr7359ifh6.cloudfront.net/GEF/TD.xml
 Parsing gef-td from https://d2mxkr7359ifh6.cloudfront.net/GEF/TD.xml
@@ -16275,7 +16277,7 @@ found 16 activities
 
 Downloading gef-th from https://d2mxkr7359ifh6.cloudfront.net/GEF/TH.xml
 Parsing gef-th from https://d2mxkr7359ifh6.cloudfront.net/GEF/TH.xml
-found 5 activities
+found 44 activities
 
 Downloading gef-tj from https://d2mxkr7359ifh6.cloudfront.net/GEF/TJ.xml
 Parsing gef-tj from https://d2mxkr7359ifh6.cloudfront.net/GEF/TJ.xml
@@ -16295,11 +16297,11 @@ found 10 activities
 
 Downloading gef-tr from https://d2mxkr7359ifh6.cloudfront.net/GEF/TR.xml
 Parsing gef-tr from https://d2mxkr7359ifh6.cloudfront.net/GEF/TR.xml
-found 2 activities
+found 39 activities
 
 Downloading gef-tt from https://d2mxkr7359ifh6.cloudfront.net/GEF/TT.xml
 Parsing gef-tt from https://d2mxkr7359ifh6.cloudfront.net/GEF/TT.xml
-found 2 activities
+found 12 activities
 
 Downloading gef-tv from https://d2mxkr7359ifh6.cloudfront.net/GEF/TV.xml
 Parsing gef-tv from https://d2mxkr7359ifh6.cloudfront.net/GEF/TV.xml
@@ -16319,7 +16321,7 @@ found 32 activities
 
 Downloading gef-uy from https://d2mxkr7359ifh6.cloudfront.net/GEF/UY.xml
 Parsing gef-uy from https://d2mxkr7359ifh6.cloudfront.net/GEF/UY.xml
-found 7 activities
+found 34 activities
 
 Downloading gef-uz from https://d2mxkr7359ifh6.cloudfront.net/GEF/UZ.xml
 Parsing gef-uz from https://d2mxkr7359ifh6.cloudfront.net/GEF/UZ.xml
@@ -16327,7 +16329,7 @@ found 27 activities
 
 Downloading gef-vc from https://d2mxkr7359ifh6.cloudfront.net/GEF/VC.xml
 Parsing gef-vc from https://d2mxkr7359ifh6.cloudfront.net/GEF/VC.xml
-found 2 activities
+found 9 activities
 
 Downloading gef-ve from https://d2mxkr7359ifh6.cloudfront.net/GEF/VE.xml
 Parsing gef-ve from https://d2mxkr7359ifh6.cloudfront.net/GEF/VE.xml
@@ -16343,7 +16345,7 @@ found 14 activities
 
 Downloading gef-ws from https://d2mxkr7359ifh6.cloudfront.net/GEF/WS.xml
 Parsing gef-ws from https://d2mxkr7359ifh6.cloudfront.net/GEF/WS.xml
-found 3 activities
+found 13 activities
 
 Downloading gef-xk from https://d2mxkr7359ifh6.cloudfront.net/GEF/XK.xml
 Parsing gef-xk from https://d2mxkr7359ifh6.cloudfront.net/GEF/XK.xml
@@ -16351,11 +16353,11 @@ found 1 activities
 
 Downloading gef-ye from https://d2mxkr7359ifh6.cloudfront.net/GEF/YE.xml
 Parsing gef-ye from https://d2mxkr7359ifh6.cloudfront.net/GEF/YE.xml
-found 9 activities
+found 21 activities
 
 Downloading gef-za from https://d2mxkr7359ifh6.cloudfront.net/GEF/ZA.xml
 Parsing gef-za from https://d2mxkr7359ifh6.cloudfront.net/GEF/ZA.xml
-found 9 activities
+found 58 activities
 
 Downloading gef-zm from https://d2mxkr7359ifh6.cloudfront.net/GEF/ZM.xml
 Parsing gef-zm from https://d2mxkr7359ifh6.cloudfront.net/GEF/ZM.xml
@@ -17561,82 +17563,60 @@ Parsing iadb-bb from https://webimages.iadb.org/iati/iadb-Barbados.xml
 found 30 activities
 
 Downloading iadb-bo from https://webimages.iadb.org/iati/iadb-Bolivia.xml
-curl: download ERROR 403
 Parsing iadb-bo from https://webimages.iadb.org/iati/iadb-Bolivia.xml
-dflat: input XML file does not exist
-restored 82 files
+found 82 activities
 
 Downloading iadb-br from https://webimages.iadb.org/iati/iadb-Brazil.xml
-curl: download ERROR 403
 Parsing iadb-br from https://webimages.iadb.org/iati/iadb-Brazil.xml
-dflat: input XML file does not exist
-restored 210 files
+found 210 activities
 
 Downloading iadb-bs from https://webimages.iadb.org/iati/iadb-Bahamas.xml
-curl: download ERROR 403
 Parsing iadb-bs from https://webimages.iadb.org/iati/iadb-Bahamas.xml
-dflat: input XML file does not exist
-restored 24 files
+found 24 activities
 
 Downloading iadb-bz from https://webimages.iadb.org/iati/iadb-Belize.xml
-curl: download ERROR 403
 Parsing iadb-bz from https://webimages.iadb.org/iati/iadb-Belize.xml
-dflat: input XML file does not exist
-restored 28 files
+found 28 activities
 
 Downloading iadb-cl from https://webimages.iadb.org/iati/iadb-Chile.xml
-curl: download ERROR 403
 Parsing iadb-cl from https://webimages.iadb.org/iati/iadb-Chile.xml
-dflat: input XML file does not exist
-restored 43 files
+found 43 activities
 
 Downloading iadb-co from https://webimages.iadb.org/iati/iadb-Colombia.xml
 Parsing iadb-co from https://webimages.iadb.org/iati/iadb-Colombia.xml
 found 113 activities
 
 Downloading iadb-cr from https://webimages.iadb.org/iati/iadb-Costa-Rica.xml
-curl: download ERROR 403
 Parsing iadb-cr from https://webimages.iadb.org/iati/iadb-Costa-Rica.xml
-dflat: input XML file does not exist
-restored 21 files
+found 21 activities
 
 Downloading iadb-do from https://webimages.iadb.org/iati/iadb-Dominican-Republic.xml
-curl: download ERROR 403
 Parsing iadb-do from https://webimages.iadb.org/iati/iadb-Dominican-Republic.xml
-dflat: input XML file does not exist
-restored 62 files
+found 62 activities
 
 Downloading iadb-ec from https://webimages.iadb.org/iati/iadb-Ecuador.xml
 Parsing iadb-ec from https://webimages.iadb.org/iati/iadb-Ecuador.xml
 found 89 activities
 
 Downloading iadb-gt from https://webimages.iadb.org/iati/iadb-Guatemala.xml
-curl: download ERROR 403
 Parsing iadb-gt from https://webimages.iadb.org/iati/iadb-Guatemala.xml
-dflat: input XML file does not exist
-restored 27 files
+found 27 activities
 
 Downloading iadb-gy from https://webimages.iadb.org/iati/iadb-Guyana.xml
 Parsing iadb-gy from https://webimages.iadb.org/iati/iadb-Guyana.xml
 found 46 activities
 
 Downloading iadb-ho from https://webimages.iadb.org/iati/iadb-Honduras.xml
-curl: download ERROR 403
 Parsing iadb-ho from https://webimages.iadb.org/iati/iadb-Honduras.xml
-dflat: input XML file does not exist
-restored 79 files
+found 79 activities
 
 Downloading iadb-ht from https://webimages.iadb.org/iati/iadb-Haiti.xml
-curl: download ERROR 403
 Parsing iadb-ht from https://webimages.iadb.org/iati/iadb-Haiti.xml
-dflat: input XML file does not exist
-restored 83 files
+found 83 activities
 
 Downloading iadb-jm from https://webimages.iadb.org/iati/iadb-Jamaica.xml
-curl: download ERROR 403
 Parsing iadb-jm from https://webimages.iadb.org/iati/iadb-Jamaica.xml
-dflat: input XML file does not exist
-restored 49 files
+found 49 activities
 
 Downloading iadb-mx from https://webimages.iadb.org/iati/iadb-Mexico.xml
 Parsing iadb-mx from https://webimages.iadb.org/iati/iadb-Mexico.xml
@@ -17647,62 +17627,44 @@ Parsing iadb-ni from https://webimages.iadb.org/iati/iadb-Nicaragua.xml
 found 69 activities
 
 Downloading iadb-org from https://webimages.iadb.org/iati/IATI_Organizations_Standard.xml
-curl: download ERROR 403
 Parsing iadb-org from https://webimages.iadb.org/iati/IATI_Organizations_Standard.xml
-dflat: input XML file does not exist
-restored 1 files
+found 1 organisations
 
 Downloading iadb-pa from https://webimages.iadb.org/iati/iadb-Panama.xml
-curl: download ERROR 403
 Parsing iadb-pa from https://webimages.iadb.org/iati/iadb-Panama.xml
-dflat: input XML file does not exist
-restored 79 files
+found 79 activities
 
 Downloading iadb-pe from https://webimages.iadb.org/iati/iadb-Peru.xml
-curl: download ERROR 403
 Parsing iadb-pe from https://webimages.iadb.org/iati/iadb-Peru.xml
-dflat: input XML file does not exist
-restored 104 files
+found 104 activities
 
 Downloading iadb-py from https://webimages.iadb.org/iati/iadb-Paraguay.xml
-curl: download ERROR 403
 Parsing iadb-py from https://webimages.iadb.org/iati/iadb-Paraguay.xml
-dflat: input XML file does not exist
-restored 68 files
+found 68 activities
 
 Downloading iadb-rg from https://webimages.iadb.org/iati/iadb-Regional.xml
-curl: download ERROR 403
 Parsing iadb-rg from https://webimages.iadb.org/iati/iadb-Regional.xml
-dflat: input XML file does not exist
-restored 12 files
+found 12 activities
 
 Downloading iadb-sr from https://webimages.iadb.org/iati/iadb-Suriname.xml
 Parsing iadb-sr from https://webimages.iadb.org/iati/iadb-Suriname.xml
 found 41 activities
 
 Downloading iadb-sv from https://webimages.iadb.org/iati/iadb-El-Salvador.xml
-curl: download ERROR 403
 Parsing iadb-sv from https://webimages.iadb.org/iati/iadb-El-Salvador.xml
-dflat: input XML file does not exist
-restored 40 files
+found 40 activities
 
 Downloading iadb-tt from https://webimages.iadb.org/iati/iadb-Trinidad-and-Tobago.xml
-curl: download ERROR 403
 Parsing iadb-tt from https://webimages.iadb.org/iati/iadb-Trinidad-and-Tobago.xml
-dflat: input XML file does not exist
-restored 21 files
+found 21 activities
 
 Downloading iadb-uy from https://webimages.iadb.org/iati/iadb-Uruguay.xml
-curl: download ERROR 403
 Parsing iadb-uy from https://webimages.iadb.org/iati/iadb-Uruguay.xml
-dflat: input XML file does not exist
-restored 107 files
+found 107 activities
 
 Downloading iadb-ve from https://webimages.iadb.org/iati/iadb-Venezuela.xml
-curl: download ERROR 403
 Parsing iadb-ve from https://webimages.iadb.org/iati/iadb-Venezuela.xml
-dflat: input XML file does not exist
-restored 15 files
+found 15 activities
 
 Downloading iaf-americaregional from https://iati-reporting.s3.amazonaws.com/inter-american_foundation/xml/iati-activities-America%20regional.xml
 Parsing iaf-americaregional from https://iati-reporting.s3.amazonaws.com/inter-american_foundation/xml/iati-activities-America%20regional.xml
@@ -18017,7 +17979,7 @@ found 1 organisations
 
 Downloading idbinvest-projects from https://idbinvest.org/sites/default/files/iati_publish_projects.xml
 Parsing idbinvest-projects from https://idbinvest.org/sites/default/files/iati_publish_projects.xml
-found 9 activities
+found 3152 activities
 
 Downloading idea-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/idea-activities.xml
 Parsing idea-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/idea-activities.xml
@@ -18869,7 +18831,7 @@ found 20 activities
 
 Downloading ifcwbg-br from https://disclosures.ifc.org/iati/ifc-br.xml
 Parsing ifcwbg-br from https://disclosures.ifc.org/iati/ifc-br.xml
-found 300 activities
+found 301 activities
 
 Downloading ifcwbg-bt from https://disclosures.ifc.org/iati/ifc-bt.xml
 Parsing ifcwbg-bt from https://disclosures.ifc.org/iati/ifc-bt.xml
@@ -19045,7 +19007,7 @@ found 1 activities
 
 Downloading ifcwbg-jo from https://disclosures.ifc.org/iati/ifc-jo.xml
 Parsing ifcwbg-jo from https://disclosures.ifc.org/iati/ifc-jo.xml
-found 59 activities
+found 60 activities
 
 Downloading ifcwbg-ke from https://disclosures.ifc.org/iati/ifc-ke.xml
 Parsing ifcwbg-ke from https://disclosures.ifc.org/iati/ifc-ke.xml
@@ -23869,88 +23831,130 @@ Parsing mercy-usa-activities from https://aidstream.s3.us-west-2.amazonaws.com/x
 found 2 activities
 
 Downloading mfat-iati-africa from https://www.mfat.govt.nz/assets/Aid/IATI/IATI-Africa.xml
+curl: download ERROR 404
 Parsing mfat-iati-africa from https://www.mfat.govt.nz/assets/Aid/IATI/IATI-Africa.xml
-found 120 activities
+dflat: input XML file does not exist
+restored 120 files
 
 Downloading mfat-iati-asean from https://www.mfat.govt.nz/assets/Aid/IATI/IATI-ASEAN.xml
+curl: download ERROR 404
 Parsing mfat-iati-asean from https://www.mfat.govt.nz/assets/Aid/IATI/IATI-ASEAN.xml
-found 253 activities
+dflat: input XML file does not exist
+restored 253 files
 
 Downloading mfat-iati-cook-islands from https://www.mfat.govt.nz/assets/Aid/IATI/IATI-Cook-Islands.xml
+curl: download ERROR 404
 Parsing mfat-iati-cook-islands from https://www.mfat.govt.nz/assets/Aid/IATI/IATI-Cook-Islands.xml
-found 50 activities
+dflat: input XML file does not exist
+restored 50 files
 
 Downloading mfat-iati-fiji from https://www.mfat.govt.nz/assets/Aid/IATI/IATI-Fiji.xml
+curl: download ERROR 404
 Parsing mfat-iati-fiji from https://www.mfat.govt.nz/assets/Aid/IATI/IATI-Fiji.xml
-found 141 activities
+dflat: input XML file does not exist
+restored 141 files
 
 Downloading mfat-iati-kiribati from https://www.mfat.govt.nz/assets/Aid/IATI/IATI-Kiribati.xml
+curl: download ERROR 404
 Parsing mfat-iati-kiribati from https://www.mfat.govt.nz/assets/Aid/IATI/IATI-Kiribati.xml
-found 90 activities
+dflat: input XML file does not exist
+restored 90 files
 
 Downloading mfat-iati-latin-america-and-caribbean from https://www.mfat.govt.nz/assets/Aid/IATI/IATI-Latin-America-Caribbean.xml
+curl: download ERROR 404
 Parsing mfat-iati-latin-america-and-caribbean from https://www.mfat.govt.nz/assets/Aid/IATI/IATI-Latin-America-Caribbean.xml
-found 60 activities
+dflat: input XML file does not exist
+restored 60 files
 
 Downloading mfat-iati-multi-country from https://www.mfat.govt.nz/assets/Aid/IATI/IATI-Multi-Country.xml
+curl: download ERROR 404
 Parsing mfat-iati-multi-country from https://www.mfat.govt.nz/assets/Aid/IATI/IATI-Multi-Country.xml
-found 315 activities
+dflat: input XML file does not exist
+restored 315 files
 
 Downloading mfat-iati-multilateral-agencies from https://www.mfat.govt.nz/assets/Aid/IATI/IATI-Multilateral-Agencies.xml
+curl: download ERROR 404
 Parsing mfat-iati-multilateral-agencies from https://www.mfat.govt.nz/assets/Aid/IATI/IATI-Multilateral-Agencies.xml
-found 136 activities
+dflat: input XML file does not exist
+restored 136 files
 
 Downloading mfat-iati-nauru from https://www.mfat.govt.nz/assets/Aid/IATI/IATI-Nauru.xml
+curl: download ERROR 404
 Parsing mfat-iati-nauru from https://www.mfat.govt.nz/assets/Aid/IATI/IATI-Nauru.xml
-found 22 activities
+dflat: input XML file does not exist
+restored 22 files
 
 Downloading mfat-iati-niue from https://www.mfat.govt.nz/assets/Aid/IATI/IATI-Niue.xml
+curl: download ERROR 404
 Parsing mfat-iati-niue from https://www.mfat.govt.nz/assets/Aid/IATI/IATI-Niue.xml
-found 62 activities
+dflat: input XML file does not exist
+restored 62 files
 
 Downloading mfat-iati-north-pacific from https://www.mfat.govt.nz/assets/Aid/IATI/IATI-North-Pacific.xml
+curl: download ERROR 404
 Parsing mfat-iati-north-pacific from https://www.mfat.govt.nz/assets/Aid/IATI/IATI-North-Pacific.xml
-found 22 activities
+dflat: input XML file does not exist
+restored 22 files
 
 Downloading mfat-iati-other-asia from https://www.mfat.govt.nz/assets/Aid/IATI/IATI-Other-Asia.xml
+curl: download ERROR 404
 Parsing mfat-iati-other-asia from https://www.mfat.govt.nz/assets/Aid/IATI/IATI-Other-Asia.xml
-found 153 activities
+dflat: input XML file does not exist
+restored 153 files
 
 Downloading mfat-iati-pacific-regional from https://www.mfat.govt.nz/assets/Aid/IATI/IATI-Pacific-Regional.xml
+curl: download ERROR 404
 Parsing mfat-iati-pacific-regional from https://www.mfat.govt.nz/assets/Aid/IATI/IATI-Pacific-Regional.xml
-found 360 activities
+dflat: input XML file does not exist
+restored 360 files
 
 Downloading mfat-iati-papua-new-guinea from https://www.mfat.govt.nz/assets/Aid/IATI/IATI-Papua-New-Guinea.xml
+curl: download ERROR 404
 Parsing mfat-iati-papua-new-guinea from https://www.mfat.govt.nz/assets/Aid/IATI/IATI-Papua-New-Guinea.xml
-found 116 activities
+dflat: input XML file does not exist
+restored 116 files
 
 Downloading mfat-iati-samoa from https://www.mfat.govt.nz/assets/Aid/IATI/IATI-Samoa.xml
+curl: download ERROR 404
 Parsing mfat-iati-samoa from https://www.mfat.govt.nz/assets/Aid/IATI/IATI-Samoa.xml
-found 82 activities
+dflat: input XML file does not exist
+restored 82 files
 
 Downloading mfat-iati-solomon-islands from https://www.mfat.govt.nz/assets/Aid/IATI/IATI-Solomon-Islands.xml
+curl: download ERROR 404
 Parsing mfat-iati-solomon-islands from https://www.mfat.govt.nz/assets/Aid/IATI/IATI-Solomon-Islands.xml
-found 109 activities
+dflat: input XML file does not exist
+restored 109 files
 
 Downloading mfat-iati-timor-leste from https://www.mfat.govt.nz/assets/Aid/IATI/IATI-Timor-Leste.xml
+curl: download ERROR 404
 Parsing mfat-iati-timor-leste from https://www.mfat.govt.nz/assets/Aid/IATI/IATI-Timor-Leste.xml
-found 43 activities
+dflat: input XML file does not exist
+restored 43 files
 
 Downloading mfat-iati-tokelau from https://www.mfat.govt.nz/assets/Aid/IATI/IATI-Tokelau.xml
+curl: download ERROR 404
 Parsing mfat-iati-tokelau from https://www.mfat.govt.nz/assets/Aid/IATI/IATI-Tokelau.xml
-found 53 activities
+dflat: input XML file does not exist
+restored 53 files
 
 Downloading mfat-iati-tonga from https://www.mfat.govt.nz/assets/Aid/IATI/IATI-Tonga.xml
+curl: download ERROR 404
 Parsing mfat-iati-tonga from https://www.mfat.govt.nz/assets/Aid/IATI/IATI-Tonga.xml
-found 111 activities
+dflat: input XML file does not exist
+restored 111 files
 
 Downloading mfat-iati-tuvalu from https://www.mfat.govt.nz/assets/Aid/IATI/IATI-Tuvalu.xml
+curl: download ERROR 404
 Parsing mfat-iati-tuvalu from https://www.mfat.govt.nz/assets/Aid/IATI/IATI-Tuvalu.xml
-found 44 activities
+dflat: input XML file does not exist
+restored 44 files
 
 Downloading mfat-iati-vanuatu from https://www.mfat.govt.nz/assets/Aid/IATI/IATI-Vanuatu.xml
+curl: download ERROR 404
 Parsing mfat-iati-vanuatu from https://www.mfat.govt.nz/assets/Aid/IATI/IATI-Vanuatu.xml
-found 117 activities
+dflat: input XML file does not exist
+restored 117 files
 
 Downloading mfat-org-file from https://www.mfat.govt.nz/assets/Aid/IATI/NZ-MFAT-IATI-ORG.xml
 Parsing mfat-org-file from https://www.mfat.govt.nz/assets/Aid/IATI/NZ-MFAT-IATI-ORG.xml
@@ -25161,8 +25165,10 @@ Parsing odakorea-act13 from https://www.odakorea.go.kr/opm/iati_act_KR-GOV-100.x
 found 68 activities
 
 Downloading odakorea-act14 from https://www.odakorea.go.kr/opm/iati_act_KR-GOV-120.xml
+curl: download ERROR 000
 Parsing odakorea-act14 from https://www.odakorea.go.kr/opm/iati_act_KR-GOV-120.xml
-found 35 activities
+dflat: input XML file does not exist
+restored 35 files
 
 Downloading odakorea-act15 from https://www.odakorea.go.kr/opm/iati_act_KR-GOV-130.xml
 Parsing odakorea-act15 from https://www.odakorea.go.kr/opm/iati_act_KR-GOV-130.xml
@@ -25419,13 +25425,13 @@ Parsing omdm-progr-22-26-be from http://diplomatie.be/oda/IATI_act_pr2022-26_Oxf
 found 4 activities
 
 Downloading omidyarnetwork-activities from http://www.omidyar.com/sites/default/files/file_archive/IATI%20Upload%20March%202017/ON-activities.xml
-curl: download ERROR 403
+curl: download ERROR 404
 Parsing omidyarnetwork-activities from http://www.omidyar.com/sites/default/files/file_archive/IATI%20Upload%20March%202017/ON-activities.xml
 dflat: input XML file does not exist
 restored 0 files
 
 Downloading omidyarnetwork-organization from http://www.omidyar.com/sites/default/files/file_archive/IATI%20Upload%20March%202017/ON-org.xml
-curl: download ERROR 403
+curl: download ERROR 404
 Parsing omidyarnetwork-organization from http://www.omidyar.com/sites/default/files/file_archive/IATI%20Upload%20March%202017/ON-org.xml
 dflat: input XML file does not exist
 restored 0 files
@@ -25457,7 +25463,7 @@ found 2212 activities
 
 Downloading onl-activity from https://www.oxfamnovib.nl/redactie/Downloads/XML/iati.xml
 Parsing onl-activity from https://www.oxfamnovib.nl/redactie/Downloads/XML/iati.xml
-found 2311 activities
+found 2312 activities
 
 Downloading onl-org from https://www.oxfamnovib.nl/redactie/downloads/xml/IATI_NL-KVK-27108436.xml
 Parsing onl-org from https://www.oxfamnovib.nl/redactie/downloads/xml/IATI_NL-KVK-27108436.xml
@@ -26817,10 +26823,8 @@ Parsing pilpg-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/p
 found 1 activities
 
 Downloading pin-activities from https://www.clovekvtisni.cz/media/publications/2107/file/cz-ico-25755277_iati_report.xml
-curl: download ERROR 000
 Parsing pin-activities from https://www.clovekvtisni.cz/media/publications/2107/file/cz-ico-25755277_iati_report.xml
-dflat: input XML file does not exist
-restored 25 files
+found 25 activities
 
 Downloading pi-uk-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/pi-uk-activities.xml
 Parsing pi-uk-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/pi-uk-activities.xml
@@ -27977,7 +27981,7 @@ found 1 organisations
 
 Downloading rvo-01 from https://projects.rvo.nl/opendata/iati.xml
 Parsing rvo-01 from https://projects.rvo.nl/opendata/iati.xml
-found 4717 activities
+found 4721 activities
 
 Downloading rvo-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/rvo-activities.xml
 Parsing rvo-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/rvo-activities.xml
@@ -36518,7 +36522,7 @@ found 91 activities
 
 Downloading unocha-cbpf-nigeria-allocation-2023 from https://cbpfapi.unocha.org/iati/iati/75/2023/GetAllocation.xml
 Parsing unocha-cbpf-nigeria-allocation-2023 from https://cbpfapi.unocha.org/iati/iati/75/2023/GetAllocation.xml
-found 23 activities
+found 39 activities
 
 Downloading unocha-cbpf-nigeria-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/75/2024/GetAllocation.xml
 Parsing unocha-cbpf-nigeria-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/75/2024/GetAllocation.xml
@@ -37466,7 +37470,7 @@ found 74 activities
 
 Downloading unocha-cbpf-ukraine-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/81/2024/GetAllocation.xml
 Parsing unocha-cbpf-ukraine-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/81/2024/GetAllocation.xml
-found 6 activities
+found 9 activities
 
 Downloading unocha-cbpf-ukraine-contribution-2019 from https://cbpfapi.unocha.org/iati/iati/81/2019/GetContribution.xml
 Parsing unocha-cbpf-ukraine-contribution-2019 from https://cbpfapi.unocha.org/iati/iati/81/2019/GetContribution.xml
@@ -38834,19 +38838,19 @@ found 161 activities
 
 Downloading usaid-19 from https://s3.amazonaws.com/files.explorer.devtechlab.com/iati-activities-Multiple+Countries-19.xml
 Parsing usaid-19 from https://s3.amazonaws.com/files.explorer.devtechlab.com/iati-activities-Multiple+Countries-19.xml
-found 885 activities
+found 865 activities
 
 Downloading usaid-20 from https://s3.amazonaws.com/files.explorer.devtechlab.com/iati-activities-Multiple+Countries-20.xml
 Parsing usaid-20 from https://s3.amazonaws.com/files.explorer.devtechlab.com/iati-activities-Multiple+Countries-20.xml
-found 420 activities
+found 445 activities
 
 Downloading usaid-289 from https://s3.amazonaws.com/files.explorer.devtechlab.com/iati-activities-South%20of%20Sahara%20regional.xml
 Parsing usaid-289 from https://s3.amazonaws.com/files.explorer.devtechlab.com/iati-activities-South%20of%20Sahara%20regional.xml
-found 758 activities
+found 757 activities
 
 Downloading usaid-298 from https://s3.amazonaws.com/files.explorer.devtechlab.com/iati-activities-Africa%20regional.xml
 Parsing usaid-298 from https://s3.amazonaws.com/files.explorer.devtechlab.com/iati-activities-Africa%20regional.xml
-found 355 activities
+found 356 activities
 
 Downloading usaid-380 from https://s3.amazonaws.com/files.explorer.devtechlab.com/iati-activities-West%20Indies%20regional.xml
 Parsing usaid-380 from https://s3.amazonaws.com/files.explorer.devtechlab.com/iati-activities-West%20Indies%20regional.xml
@@ -38874,7 +38878,7 @@ found 12 activities
 
 Downloading usaid-789 from https://s3.amazonaws.com/files.explorer.devtechlab.com/iati-activities-Far%20East%20Asia%20regional.xml
 Parsing usaid-789 from https://s3.amazonaws.com/files.explorer.devtechlab.com/iati-activities-Far%20East%20Asia%20regional.xml
-found 137 activities
+found 139 activities
 
 Downloading usaid-798 from https://s3.amazonaws.com/files.explorer.devtechlab.com/iati-activities-Asia%20regional.xml
 Parsing usaid-798 from https://s3.amazonaws.com/files.explorer.devtechlab.com/iati-activities-Asia%20regional.xml
@@ -38890,11 +38894,11 @@ found 102 activities
 
 Downloading usaid-998-1 from https://s3.amazonaws.com/files.explorer.devtechlab.com/iati-activities-Worldwide-1.xml
 Parsing usaid-998-1 from https://s3.amazonaws.com/files.explorer.devtechlab.com/iati-activities-Worldwide-1.xml
-found 5250 activities
+found 5255 activities
 
 Downloading usaid-998-2 from https://s3.amazonaws.com/files.explorer.devtechlab.com/iati-activities-Worldwide-2.xml
 Parsing usaid-998-2 from https://s3.amazonaws.com/files.explorer.devtechlab.com/iati-activities-Worldwide-2.xml
-found 2358 activities
+found 2360 activities
 
 Downloading usaid-998 from https://s3.amazonaws.com/files.explorer.devtechlab.com/iati-activities-Worldwide.xml
 Parsing usaid-998 from https://s3.amazonaws.com/files.explorer.devtechlab.com/iati-activities-Worldwide.xml
@@ -38950,7 +38954,7 @@ found 29 activities
 
 Downloading usaid-bi from https://s3.amazonaws.com/files.explorer.devtechlab.com/iati-activities-Burundi.xml
 Parsing usaid-bi from https://s3.amazonaws.com/files.explorer.devtechlab.com/iati-activities-Burundi.xml
-found 196 activities
+found 195 activities
 
 Downloading usaid-bj from https://s3.amazonaws.com/files.explorer.devtechlab.com/iati-activities-Benin.xml
 Parsing usaid-bj from https://s3.amazonaws.com/files.explorer.devtechlab.com/iati-activities-Benin.xml
@@ -38986,15 +38990,15 @@ found 49 activities
 
 Downloading usaid-cd from https://s3.amazonaws.com/files.explorer.devtechlab.com/iati-activities-Congo%20Democratic%20Republic%20of.xml
 Parsing usaid-cd from https://s3.amazonaws.com/files.explorer.devtechlab.com/iati-activities-Congo%20Democratic%20Republic%20of.xml
-found 868 activities
+found 870 activities
 
 Downloading usaid-cf from https://s3.amazonaws.com/files.explorer.devtechlab.com/iati-activities-Central%20African%20Republic.xml
 Parsing usaid-cf from https://s3.amazonaws.com/files.explorer.devtechlab.com/iati-activities-Central%20African%20Republic.xml
-found 311 activities
+found 310 activities
 
 Downloading usaid-cg from https://s3.amazonaws.com/files.explorer.devtechlab.com/iati-activities-Congo%20Republic%20of.xml
 Parsing usaid-cg from https://s3.amazonaws.com/files.explorer.devtechlab.com/iati-activities-Congo%20Republic%20of.xml
-found 61 activities
+found 62 activities
 
 Downloading usaid-ch from https://s3.amazonaws.com/files.explorer.devtechlab.com/iati-activities-Switzerland.xml
 Parsing usaid-ch from https://s3.amazonaws.com/files.explorer.devtechlab.com/iati-activities-Switzerland.xml
@@ -39006,11 +39010,11 @@ found 123 activities
 
 Downloading usaid-cl from https://s3.amazonaws.com/files.explorer.devtechlab.com/iati-activities-Chile.xml
 Parsing usaid-cl from https://s3.amazonaws.com/files.explorer.devtechlab.com/iati-activities-Chile.xml
-found 12 activities
+found 14 activities
 
 Downloading usaid-cm from https://s3.amazonaws.com/files.explorer.devtechlab.com/iati-activities-Cameroon.xml
 Parsing usaid-cm from https://s3.amazonaws.com/files.explorer.devtechlab.com/iati-activities-Cameroon.xml
-found 196 activities
+found 197 activities
 
 Downloading usaid-cnhk from https://s3.amazonaws.com/files.explorer.devtechlab.com/iati-activities-China%20Hong%20Kong.xml
 Parsing usaid-cnhk from https://s3.amazonaws.com/files.explorer.devtechlab.com/iati-activities-China%20Hong%20Kong.xml
@@ -39022,7 +39026,7 @@ found 53 activities
 
 Downloading usaid-co from https://s3.amazonaws.com/files.explorer.devtechlab.com/iati-activities-Colombia.xml
 Parsing usaid-co from https://s3.amazonaws.com/files.explorer.devtechlab.com/iati-activities-Colombia.xml
-found 601 activities
+found 605 activities
 
 Downloading usaid-cr from https://s3.amazonaws.com/files.explorer.devtechlab.com/iati-activities-Costa%20Rica.xml
 Parsing usaid-cr from https://s3.amazonaws.com/files.explorer.devtechlab.com/iati-activities-Costa%20Rica.xml
@@ -39074,7 +39078,7 @@ found 72 activities
 
 Downloading usaid-et from https://s3.amazonaws.com/files.explorer.devtechlab.com/iati-activities-Ethiopia.xml
 Parsing usaid-et from https://s3.amazonaws.com/files.explorer.devtechlab.com/iati-activities-Ethiopia.xml
-found 1282 activities
+found 1287 activities
 
 Downloading usaid-fj from https://s3.amazonaws.com/files.explorer.devtechlab.com/iati-activities-Fiji.xml
 Parsing usaid-fj from https://s3.amazonaws.com/files.explorer.devtechlab.com/iati-activities-Fiji.xml
@@ -39082,7 +39086,7 @@ found 13 activities
 
 Downloading usaid-fm from https://s3.amazonaws.com/files.explorer.devtechlab.com/iati-activities-Micronesia+Federated+States+of.xml
 Parsing usaid-fm from https://s3.amazonaws.com/files.explorer.devtechlab.com/iati-activities-Micronesia+Federated+States+of.xml
-found 16 activities
+found 17 activities
 
 Downloading usaid-ga from https://s3.amazonaws.com/files.explorer.devtechlab.com/iati-activities-Gabon.xml
 Parsing usaid-ga from https://s3.amazonaws.com/files.explorer.devtechlab.com/iati-activities-Gabon.xml
@@ -39114,7 +39118,7 @@ found 24 activities
 
 Downloading usaid-gt from https://s3.amazonaws.com/files.explorer.devtechlab.com/iati-activities-Guatemala.xml
 Parsing usaid-gt from https://s3.amazonaws.com/files.explorer.devtechlab.com/iati-activities-Guatemala.xml
-found 388 activities
+found 389 activities
 
 Downloading usaid-gw from https://s3.amazonaws.com/files.explorer.devtechlab.com/iati-activities-Guinea-Bissau.xml
 Parsing usaid-gw from https://s3.amazonaws.com/files.explorer.devtechlab.com/iati-activities-Guinea-Bissau.xml
@@ -39134,7 +39138,7 @@ found 11 activities
 
 Downloading usaid-ht from https://s3.amazonaws.com/files.explorer.devtechlab.com/iati-activities-Haiti.xml
 Parsing usaid-ht from https://s3.amazonaws.com/files.explorer.devtechlab.com/iati-activities-Haiti.xml
-found 1015 activities
+found 1019 activities
 
 Downloading usaid-hu from https://s3.amazonaws.com/files.explorer.devtechlab.com/iati-activities-Hungary.xml
 Parsing usaid-hu from https://s3.amazonaws.com/files.explorer.devtechlab.com/iati-activities-Hungary.xml
@@ -39142,7 +39146,7 @@ found 8 activities
 
 Downloading usaid-id from https://s3.amazonaws.com/files.explorer.devtechlab.com/iati-activities-Indonesia.xml
 Parsing usaid-id from https://s3.amazonaws.com/files.explorer.devtechlab.com/iati-activities-Indonesia.xml
-found 547 activities
+found 548 activities
 
 Downloading usaid-ie from https://s3.amazonaws.com/files.explorer.devtechlab.com/iati-activities-Ireland.xml
 Parsing usaid-ie from https://s3.amazonaws.com/files.explorer.devtechlab.com/iati-activities-Ireland.xml
@@ -39158,7 +39162,7 @@ found 560 activities
 
 Downloading usaid-iq from https://s3.amazonaws.com/files.explorer.devtechlab.com/iati-activities-Iraq.xml
 Parsing usaid-iq from https://s3.amazonaws.com/files.explorer.devtechlab.com/iati-activities-Iraq.xml
-found 304 activities
+found 305 activities
 
 Downloading usaid-ir from https://s3.amazonaws.com/files.explorer.devtechlab.com/iati-activities-Iran.xml
 Parsing usaid-ir from https://s3.amazonaws.com/files.explorer.devtechlab.com/iati-activities-Iran.xml
@@ -39170,7 +39174,7 @@ found 331 activities
 
 Downloading usaid-jo from https://s3.amazonaws.com/files.explorer.devtechlab.com/iati-activities-Jordan.xml
 Parsing usaid-jo from https://s3.amazonaws.com/files.explorer.devtechlab.com/iati-activities-Jordan.xml
-found 838 activities
+found 841 activities
 
 Downloading usaid-jp from https://s3.amazonaws.com/files.explorer.devtechlab.com/iati-activities-Japan.xml
 Parsing usaid-jp from https://s3.amazonaws.com/files.explorer.devtechlab.com/iati-activities-Japan.xml
@@ -39178,7 +39182,7 @@ found 5 activities
 
 Downloading usaid-ke from https://s3.amazonaws.com/files.explorer.devtechlab.com/iati-activities-Kenya.xml
 Parsing usaid-ke from https://s3.amazonaws.com/files.explorer.devtechlab.com/iati-activities-Kenya.xml
-found 930 activities
+found 931 activities
 
 Downloading usaid-kg from https://s3.amazonaws.com/files.explorer.devtechlab.com/iati-activities-Kyrgyzstan.xml
 Parsing usaid-kg from https://s3.amazonaws.com/files.explorer.devtechlab.com/iati-activities-Kyrgyzstan.xml
@@ -39214,11 +39218,11 @@ found 51 activities
 
 Downloading usaid-lb from https://s3.amazonaws.com/files.explorer.devtechlab.com/iati-activities-Lebanon.xml
 Parsing usaid-lb from https://s3.amazonaws.com/files.explorer.devtechlab.com/iati-activities-Lebanon.xml
-found 274 activities
+found 276 activities
 
 Downloading usaid-lk from https://s3.amazonaws.com/files.explorer.devtechlab.com/iati-activities-Sri%20Lanka.xml
 Parsing usaid-lk from https://s3.amazonaws.com/files.explorer.devtechlab.com/iati-activities-Sri%20Lanka.xml
-found 260 activities
+found 261 activities
 
 Downloading usaid-lr from https://s3.amazonaws.com/files.explorer.devtechlab.com/iati-activities-Liberia.xml
 Parsing usaid-lr from https://s3.amazonaws.com/files.explorer.devtechlab.com/iati-activities-Liberia.xml
@@ -39246,7 +39250,7 @@ found 213 activities
 
 Downloading usaid-md from https://s3.amazonaws.com/files.explorer.devtechlab.com/iati-activities-Moldova.xml
 Parsing usaid-md from https://s3.amazonaws.com/files.explorer.devtechlab.com/iati-activities-Moldova.xml
-found 124 activities
+found 123 activities
 
 Downloading usaid-me from https://s3.amazonaws.com/files.explorer.devtechlab.com/iati-activities-Montenegro.xml
 Parsing usaid-me from https://s3.amazonaws.com/files.explorer.devtechlab.com/iati-activities-Montenegro.xml
@@ -39350,19 +39354,19 @@ found 270 activities
 
 Downloading usaid-multiple-countries-18 from https://s3.amazonaws.com/files.explorer.devtechlab.com/iati-activities-Multiple+Countries-18.xml
 Parsing usaid-multiple-countries-18 from https://s3.amazonaws.com/files.explorer.devtechlab.com/iati-activities-Multiple+Countries-18.xml
-found 440 activities
+found 430 activities
 
 Downloading usaid-multiple-countries-21 from https://s3.amazonaws.com/files.explorer.devtechlab.com/iati-activities-Multiple+Countries-21.xml
 Parsing usaid-multiple-countries-21 from https://s3.amazonaws.com/files.explorer.devtechlab.com/iati-activities-Multiple+Countries-21.xml
-found 185 activities
+found 205 activities
 
 Downloading usaid-multiple-countries-22 from https://s3.amazonaws.com/files.explorer.devtechlab.com/iati-activities-Multiple+Countries-22.xml
 Parsing usaid-multiple-countries-22 from https://s3.amazonaws.com/files.explorer.devtechlab.com/iati-activities-Multiple+Countries-22.xml
-found 320 activities
+found 295 activities
 
 Downloading usaid-multiple-countries-23 from https://s3.amazonaws.com/files.explorer.devtechlab.com/iati-activities-Multiple+Countries-23.xml
 Parsing usaid-multiple-countries-23 from https://s3.amazonaws.com/files.explorer.devtechlab.com/iati-activities-Multiple+Countries-23.xml
-found 386 activities
+found 419 activities
 
 Downloading usaid-multiple from https://s3.amazonaws.com/files.explorer.devtechlab.com/iati-activities-Multiple%20Countries.xml
 Parsing usaid-multiple from https://s3.amazonaws.com/files.explorer.devtechlab.com/iati-activities-Multiple%20Countries.xml
@@ -39386,7 +39390,7 @@ found 5 activities
 
 Downloading usaid-mz from https://s3.amazonaws.com/files.explorer.devtechlab.com/iati-activities-Mozambique.xml
 Parsing usaid-mz from https://s3.amazonaws.com/files.explorer.devtechlab.com/iati-activities-Mozambique.xml
-found 687 activities
+found 689 activities
 
 Downloading usaid-na from https://s3.amazonaws.com/files.explorer.devtechlab.com/iati-activities-Namibia.xml
 Parsing usaid-na from https://s3.amazonaws.com/files.explorer.devtechlab.com/iati-activities-Namibia.xml
@@ -39394,11 +39398,11 @@ found 1077 activities
 
 Downloading usaid-ne from https://s3.amazonaws.com/files.explorer.devtechlab.com/iati-activities-Niger.xml
 Parsing usaid-ne from https://s3.amazonaws.com/files.explorer.devtechlab.com/iati-activities-Niger.xml
-found 304 activities
+found 306 activities
 
 Downloading usaid-ng from https://s3.amazonaws.com/files.explorer.devtechlab.com/iati-activities-Nigeria.xml
 Parsing usaid-ng from https://s3.amazonaws.com/files.explorer.devtechlab.com/iati-activities-Nigeria.xml
-found 784 activities
+found 786 activities
 
 Downloading usaid-ni from https://s3.amazonaws.com/files.explorer.devtechlab.com/iati-activities-Nicaragua.xml
 Parsing usaid-ni from https://s3.amazonaws.com/files.explorer.devtechlab.com/iati-activities-Nicaragua.xml
@@ -39406,7 +39410,7 @@ found 158 activities
 
 Downloading usaid-np from https://s3.amazonaws.com/files.explorer.devtechlab.com/iati-activities-Nepal.xml
 Parsing usaid-np from https://s3.amazonaws.com/files.explorer.devtechlab.com/iati-activities-Nepal.xml
-found 476 activities
+found 477 activities
 
 Downloading usaid-nz from https://s3.amazonaws.com/files.explorer.devtechlab.com/iati-activities-New%20Zealand.xml
 Parsing usaid-nz from https://s3.amazonaws.com/files.explorer.devtechlab.com/iati-activities-New%20Zealand.xml
@@ -39430,11 +39434,11 @@ found 32 activities
 
 Downloading usaid-ph from https://s3.amazonaws.com/files.explorer.devtechlab.com/iati-activities-Philippines.xml
 Parsing usaid-ph from https://s3.amazonaws.com/files.explorer.devtechlab.com/iati-activities-Philippines.xml
-found 429 activities
+found 431 activities
 
 Downloading usaid-pk from https://s3.amazonaws.com/files.explorer.devtechlab.com/iati-activities-Pakistan.xml
 Parsing usaid-pk from https://s3.amazonaws.com/files.explorer.devtechlab.com/iati-activities-Pakistan.xml
-found 909 activities
+found 910 activities
 
 Downloading usaid-pl from https://s3.amazonaws.com/files.explorer.devtechlab.com/iati-activities-Poland.xml
 Parsing usaid-pl from https://s3.amazonaws.com/files.explorer.devtechlab.com/iati-activities-Poland.xml
@@ -39478,7 +39482,7 @@ found 33 activities
 
 Downloading usaid-sd from https://s3.amazonaws.com/files.explorer.devtechlab.com/iati-activities-Sudan.xml
 Parsing usaid-sd from https://s3.amazonaws.com/files.explorer.devtechlab.com/iati-activities-Sudan.xml
-found 728 activities
+found 729 activities
 
 Downloading usaid-sk from https://s3.amazonaws.com/files.explorer.devtechlab.com/iati-activities-Slovakia.xml
 Parsing usaid-sk from https://s3.amazonaws.com/files.explorer.devtechlab.com/iati-activities-Slovakia.xml
@@ -39506,11 +39510,11 @@ found 33 activities
 
 Downloading usaid-sv from https://s3.amazonaws.com/files.explorer.devtechlab.com/iati-activities-El%20Salvador.xml
 Parsing usaid-sv from https://s3.amazonaws.com/files.explorer.devtechlab.com/iati-activities-El%20Salvador.xml
-found 248 activities
+found 249 activities
 
 Downloading usaid-sy from https://s3.amazonaws.com/files.explorer.devtechlab.com/iati-activities-Syria.xml
 Parsing usaid-sy from https://s3.amazonaws.com/files.explorer.devtechlab.com/iati-activities-Syria.xml
-found 443 activities
+found 444 activities
 
 Downloading usaid-sz from https://s3.amazonaws.com/files.explorer.devtechlab.com/iati-activities-eSwatini.xml
 Parsing usaid-sz from https://s3.amazonaws.com/files.explorer.devtechlab.com/iati-activities-eSwatini.xml
@@ -39534,7 +39538,7 @@ found 91 activities
 
 Downloading usaid-tl from https://s3.amazonaws.com/files.explorer.devtechlab.com/iati-activities-Timor-Leste.xml
 Parsing usaid-tl from https://s3.amazonaws.com/files.explorer.devtechlab.com/iati-activities-Timor-Leste.xml
-found 169 activities
+found 170 activities
 
 Downloading usaid-tm from https://s3.amazonaws.com/files.explorer.devtechlab.com/iati-activities-Turkmenistan.xml
 Parsing usaid-tm from https://s3.amazonaws.com/files.explorer.devtechlab.com/iati-activities-Turkmenistan.xml
@@ -39570,7 +39574,7 @@ found 908 activities
 
 Downloading usaid-ua from https://s3.amazonaws.com/files.explorer.devtechlab.com/iati-activities-Ukraine.xml
 Parsing usaid-ua from https://s3.amazonaws.com/files.explorer.devtechlab.com/iati-activities-Ukraine.xml
-found 335 activities
+found 338 activities
 
 Downloading usaid-ug from https://s3.amazonaws.com/files.explorer.devtechlab.com/iati-activities-Uganda.xml
 Parsing usaid-ug from https://s3.amazonaws.com/files.explorer.devtechlab.com/iati-activities-Uganda.xml
@@ -39610,7 +39614,7 @@ found 243 activities
 
 Downloading usaid-ye from https://s3.amazonaws.com/files.explorer.devtechlab.com/iati-activities-Yemen.xml
 Parsing usaid-ye from https://s3.amazonaws.com/files.explorer.devtechlab.com/iati-activities-Yemen.xml
-found 418 activities
+found 421 activities
 
 Downloading usaid-za from https://s3.amazonaws.com/files.explorer.devtechlab.com/iati-activities-South%20Africa.xml
 Parsing usaid-za from https://s3.amazonaws.com/files.explorer.devtechlab.com/iati-activities-South%20Africa.xml
@@ -44110,7 +44114,7 @@ found 1 organisations
 
 Downloading wvnld-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/wvnld-activities.xml
 Parsing wvnld-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/wvnld-activities.xml
-found 59 activities
+found 60 activities
 
 Downloading wvnld-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/wvnld-org.xml
 Parsing wvnld-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/wvnld-org.xml
