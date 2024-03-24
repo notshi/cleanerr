@@ -6554,8 +6554,9 @@ dflat: invalid XML format
 restored 0 files
 
 Downloading cif-998 from http://siteresources.worldbank.org/IATI/CIF/CIF-998.xml
+curl: download ERROR 404
 Parsing cif-998 from http://siteresources.worldbank.org/IATI/CIF/CIF-998.xml
-dflat: invalid XML format
+dflat: input XML file does not exist
 restored 0 files
 
 Downloading c_i_f-activities from https://iatipublisher-prod.s3.amazonaws.com/xml/mergedActivityXml/c_i_f-activities.xml
@@ -6592,8 +6593,9 @@ Parsing cif-br from http://doumodqax2qi2.cloudfront.net/CIF/CIF-05-2020/CIF-BR.x
 found 11 activities
 
 Downloading cif-cd from http://siteresources.worldbank.org/IATI/CIF/CIF-CD.xml
+curl: download ERROR 404
 Parsing cif-cd from http://siteresources.worldbank.org/IATI/CIF/CIF-CD.xml
-dflat: invalid XML format
+dflat: input XML file does not exist
 restored 0 files
 
 Downloading cif-ci from http://doumodqax2qi2.cloudfront.net/CIF/CIF-05-2020/CIF-CI.xml
@@ -6853,7 +6855,7 @@ found 14 activities
 
 Downloading cisu-gaia from https://vores.cisu.dk/activities.xml
 Parsing cisu-gaia from https://vores.cisu.dk/activities.xml
-found 2684 activities
+found 2687 activities
 
 Downloading cisu-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/cisu-org.xml
 Parsing cisu-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/cisu-org.xml
@@ -8696,8 +8698,10 @@ Parsing doc-brazil from https://iati-reporting.s3.amazonaws.com/department_of_co
 found 2 activities
 
 Downloading doc-burkinafaso from https://iati-reporting.s3.amazonaws.com/department_of_commerce/xml/iati-activities-Burkina%20Faso.xml
+curl: download ERROR 000
 Parsing doc-burkinafaso from https://iati-reporting.s3.amazonaws.com/department_of_commerce/xml/iati-activities-Burkina%20Faso.xml
-found 1 activities
+dflat: input XML file does not exist
+restored 1 files
 
 Downloading doc-burma from https://iati-reporting.s3.amazonaws.com/department_of_commerce/xml/iati-activities-Burma.xml
 Parsing doc-burma from https://iati-reporting.s3.amazonaws.com/department_of_commerce/xml/iati-activities-Burma.xml
@@ -11512,7 +11516,7 @@ restored 892 files
 
 Downloading ec-echo-2016 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2016.xml
 Parsing ec-echo-2016 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2016.xml
-found 840 activities
+found 842 activities
 
 Downloading ec-echo-2017 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2017.xml
 Parsing ec-echo-2017 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2017.xml
@@ -11520,7 +11524,7 @@ found 740 activities
 
 Downloading ec-echo-2018 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2018.xml
 Parsing ec-echo-2018 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2018.xml
-found 616 activities
+found 613 activities
 
 Downloading ec-echo-2019 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2019.xml
 Parsing ec-echo-2019 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2019.xml
@@ -11528,23 +11532,23 @@ found 500 activities
 
 Downloading ec-echo-2020 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2020.xml
 Parsing ec-echo-2020 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2020.xml
-found 606 activities
+found 607 activities
 
 Downloading ec-echo-2021 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2021.xml
 Parsing ec-echo-2021 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2021.xml
-found 582 activities
+found 575 activities
 
 Downloading ec-echo-2022 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2022.xml
 Parsing ec-echo-2022 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2022.xml
-found 454 activities
+found 458 activities
 
 Downloading ec-echo-2023 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2023.xml
 Parsing ec-echo-2023 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2023.xml
-found 598 activities
+found 604 activities
 
 Downloading ec-echo-2024 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2024.xml
 Parsing ec-echo-2024 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2024.xml
-found 33 activities
+found 31 activities
 
 Downloading ec-echo-org from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/iati-organisation-file.xml
 Parsing ec-echo-org from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/iati-organisation-file.xml
@@ -18593,7 +18597,7 @@ found 8 activities
 
 Downloading ifad-activitity-sz from https://webapps.ifad.org/iati/ifad_sz_activities.xml
 Parsing ifad-activitity-sz from https://webapps.ifad.org/iati/ifad_sz_activities.xml
-found 6 activities
+found 7 activities
 
 Downloading ifad-activitity-td from https://webapps.ifad.org/iati/ifad_td_activities.xml
 Parsing ifad-activitity-td from https://webapps.ifad.org/iati/ifad_td_activities.xml
@@ -29687,8 +29691,10 @@ Parsing state-guineabissau from https://iati-reporting.s3.amazonaws.com/departme
 found 47 activities
 
 Downloading state-guinea from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Guinea.xml
+curl: download ERROR 000
 Parsing state-guinea from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Guinea.xml
-found 112 activities
+dflat: input XML file does not exist
+restored 112 files
 
 Downloading state-guyana from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Guyana.xml
 Parsing state-guyana from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Guyana.xml
@@ -31794,8 +31800,10 @@ Parsing treasury-lesotho from https://iati-reporting.s3.amazonaws.com/department
 found 14 activities
 
 Downloading treasury-liberia from https://iati-reporting.s3.amazonaws.com/department_of_treasury/xml/iati-activities-Liberia.xml
+curl: download ERROR 000
 Parsing treasury-liberia from https://iati-reporting.s3.amazonaws.com/department_of_treasury/xml/iati-activities-Liberia.xml
-found 36 activities
+dflat: input XML file does not exist
+restored 36 files
 
 Downloading treasury-libya from https://iati-reporting.s3.amazonaws.com/department_of_treasury/xml/iati-activities-Libya.xml
 Parsing treasury-libya from https://iati-reporting.s3.amazonaws.com/department_of_treasury/xml/iati-activities-Libya.xml
@@ -35878,7 +35886,7 @@ found 52 activities
 
 Downloading unocha-cbpf-drc-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/24/2024/GetAllocation.xml
 Parsing unocha-cbpf-drc-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/24/2024/GetAllocation.xml
-found 1 activities
+found 2 activities
 
 Downloading unocha-cbpf-drc-contribution-2016 from https://cbpfapi.unocha.org/iati/iati/24/2016/GetContribution.xml
 Parsing unocha-cbpf-drc-contribution-2016 from https://cbpfapi.unocha.org/iati/iati/24/2016/GetContribution.xml
@@ -37270,7 +37278,7 @@ found 68 activities
 
 Downloading unocha-cbpf-syria-allocation-2023 from https://cbpfapi.unocha.org/iati/iati/62/2023/GetAllocation.xml
 Parsing unocha-cbpf-syria-allocation-2023 from https://cbpfapi.unocha.org/iati/iati/62/2023/GetAllocation.xml
-found 96 activities
+found 98 activities
 
 Downloading unocha-cbpf-syria-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/62/2024/GetAllocation.xml
 Parsing unocha-cbpf-syria-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/62/2024/GetAllocation.xml
@@ -37466,7 +37474,7 @@ found 74 activities
 
 Downloading unocha-cbpf-ukraine-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/81/2024/GetAllocation.xml
 Parsing unocha-cbpf-ukraine-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/81/2024/GetAllocation.xml
-found 10 activities
+found 11 activities
 
 Downloading unocha-cbpf-ukraine-contribution-2019 from https://cbpfapi.unocha.org/iati/iati/81/2019/GetContribution.xml
 Parsing unocha-cbpf-ukraine-contribution-2019 from https://cbpfapi.unocha.org/iati/iati/81/2019/GetContribution.xml
@@ -44038,8 +44046,10 @@ Parsing wsrc1-activities from https://iatipublisher-prod.s3.amazonaws.com/xml/me
 found 5 activities
 
 Downloading wsrc1-organisation from https://iatipublisher-prod.s3.amazonaws.com/organizationXmlFiles/wsrc1-organisation.xml
+curl: download ERROR 000
 Parsing wsrc1-organisation from https://iatipublisher-prod.s3.amazonaws.com/organizationXmlFiles/wsrc1-organisation.xml
-found 1 organisations
+dflat: input XML file does not exist
+restored 1 files
 
 Downloading wsrc1-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/wsrc1-org.xml
 Parsing wsrc1-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/wsrc1-org.xml
