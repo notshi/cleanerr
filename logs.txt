@@ -6010,6 +6010,10 @@ Converting IATI activities version 1.03 to version 2.03
 Parsing canoncollinstrust-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/canoncollinstrust-activities.xml
 found 1 activities
 
+Downloading cap-a-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/cap-a-activities.xml
+Parsing cap-a-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/cap-a-activities.xml
+found 1 activities
+
 Downloading capabui-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/capabui-activities.xml
 Parsing capabui-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/capabui-activities.xml
 found 11 activities
@@ -6281,7 +6285,7 @@ found 1 organisations
 
 Downloading cerf-contributionstodate from https://cerfgms-webapi.unocha.org/v1/iati/donorcontribution.xml
 Parsing cerf-contributionstodate from https://cerfgms-webapi.unocha.org/v1/iati/donorcontribution.xml
-found 1605 activities
+found 1608 activities
 
 Downloading cerf-organization from https://cerfgms-webapi.unocha.org/v1/iati/organizations.xml
 Parsing cerf-organization from https://cerfgms-webapi.unocha.org/v1/iati/organizations.xml
@@ -6549,8 +6553,9 @@ dflat: invalid XML format
 restored 0 files
 
 Downloading cif-889 from http://siteresources.worldbank.org/IATI/CIF/CIF-889.xml
+curl: download ERROR 404
 Parsing cif-889 from http://siteresources.worldbank.org/IATI/CIF/CIF-889.xml
-dflat: invalid XML format
+dflat: input XML file does not exist
 restored 0 files
 
 Downloading cif-998 from http://siteresources.worldbank.org/IATI/CIF/CIF-998.xml
@@ -7542,11 +7547,9 @@ Downloading csc-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml
 Parsing csc-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/csc-activities.xml
 found 2 activities
 
-Downloading csci_benkadi-actvities from https://www.woordendaad.nl/wp-content/uploads/2023/10/IATI-activities-1.xml
-curl: download ERROR 500
-Parsing csci_benkadi-actvities from https://www.woordendaad.nl/wp-content/uploads/2023/10/IATI-activities-1.xml
-dflat: input XML file does not exist
-restored 1 files
+Downloading csci_benkadi-actvities from https://www.woordendaad.nl/app/uploads/2024/03/IATI-activities-1.xml
+Parsing csci_benkadi-actvities from https://www.woordendaad.nl/app/uploads/2024/03/IATI-activities-1.xml
+found 1 activities
 
 Downloading csc-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/csc-org.xml
 Parsing csc-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/csc-org.xml
@@ -11528,31 +11531,31 @@ found 741 activities
 
 Downloading ec-echo-2018 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2018.xml
 Parsing ec-echo-2018 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2018.xml
-found 613 activities
+found 615 activities
 
 Downloading ec-echo-2019 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2019.xml
 Parsing ec-echo-2019 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2019.xml
-found 497 activities
+found 499 activities
 
 Downloading ec-echo-2020 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2020.xml
 Parsing ec-echo-2020 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2020.xml
-found 611 activities
+found 607 activities
 
 Downloading ec-echo-2021 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2021.xml
 Parsing ec-echo-2021 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2021.xml
-found 582 activities
+found 580 activities
 
 Downloading ec-echo-2022 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2022.xml
 Parsing ec-echo-2022 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2022.xml
-found 452 activities
+found 455 activities
 
 Downloading ec-echo-2023 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2023.xml
 Parsing ec-echo-2023 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2023.xml
-found 599 activities
+found 600 activities
 
 Downloading ec-echo-2024 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2024.xml
 Parsing ec-echo-2024 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2024.xml
-found 33 activities
+found 32 activities
 
 Downloading ec-echo-org from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/iati-organisation-file.xml
 Parsing ec-echo-org from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/iati-organisation-file.xml
@@ -11663,8 +11666,10 @@ Parsing ec-fpi-br from https://ec.europa.eu/international-partnerships/assets/ia
 found 2 activities
 
 Downloading ec-fpi-by from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_BY.xml
+curl: download ERROR 000
 Parsing ec-fpi-by from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_BY.xml
-found 8 activities
+dflat: input XML file does not exist
+restored 8 files
 
 Downloading ec-fpi-ca from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_CA.xml
 Parsing ec-fpi-ca from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_CA.xml
@@ -13573,7 +13578,7 @@ found 2 activities
 
 Downloading fcdo-cssf from http://iati.fcdo.gov.uk/iati_files/converted_files/cssf-oda-data.xml
 Parsing fcdo-cssf from http://iati.fcdo.gov.uk/iati_files/converted_files/cssf-oda-data.xml
-found 95 activities
+found 94 activities
 
 Downloading fcdo-frontlinediplomaticactivity from http://iati.fcdo.gov.uk/iati_files/converted_files/frontline-diplomatic-activity-oda-data.xml
 Parsing fcdo-frontlinediplomaticactivity from http://iati.fcdo.gov.uk/iati_files/converted_files/frontline-diplomatic-activity-oda-data.xml
@@ -13854,8 +13859,8 @@ Downloading finddiagnostics-org from https://aidstream.s3.us-west-2.amazonaws.co
 Parsing finddiagnostics-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/finddiagnostics-org.xml
 found 1 organisations
 
-Downloading finland_mfa-000 from https://s3.eu-north-1.amazonaws.com/www.aiddata.eu/xml/MFA_org_file.xml
-Parsing finland_mfa-000 from https://s3.eu-north-1.amazonaws.com/www.aiddata.eu/xml/MFA_org_file.xml
+Downloading finland_mfa-000 from https://s3.eu-north-1.amazonaws.com/www.aiddata.eu/xml/stg/MFA_org_file.xml
+Parsing finland_mfa-000 from https://s3.eu-north-1.amazonaws.com/www.aiddata.eu/xml/stg/MFA_org_file.xml
 found 1 organisations
 
 Downloading finland_mfa-001 from http://formin.finland.fi/opendata/IATI/Finland_total_2012.xml
@@ -16698,6 +16703,11 @@ Parsing gsma_foundation-050324 from https://1drv.ms/u/s!Avf6c2EK3xhLajeMhLJVFtB4
 dflat: input XML file does not exist
 restored 0 files
 
+Downloading gsma_foundation-280324 from https://github.com/philippob33220/IATI/blob/main/01032024.xml
+Parsing gsma_foundation-280324 from https://github.com/philippob33220/IATI/blob/main/01032024.xml
+dflat: invalid XML format
+restored 0 files
+
 Downloading gsma_foundation-datasetdec22 from https://dl.dropboxusercontent.com/s/01mk2yni5kfdlmg/231222.xml
 Parsing gsma_foundation-datasetdec22 from https://dl.dropboxusercontent.com/s/01mk2yni5kfdlmg/231222.xml
 found 138 activities
@@ -17365,7 +17375,7 @@ found 1 activities
 
 Downloading hiuk-cd from https://aidstream.s3.us-west-2.amazonaws.com/xml/hiuk-cd.xml
 Parsing hiuk-cd from https://aidstream.s3.us-west-2.amazonaws.com/xml/hiuk-cd.xml
-found 3 activities
+found 4 activities
 
 Downloading hiuk-cf from https://aidstream.s3.us-west-2.amazonaws.com/xml/hiuk-cf.xml
 Parsing hiuk-cf from https://aidstream.s3.us-west-2.amazonaws.com/xml/hiuk-cf.xml
@@ -17989,7 +17999,7 @@ found 1 organisations
 
 Downloading idbinvest-projects from https://idbinvest.org/sites/default/files/iati_publish_projects.xml
 Parsing idbinvest-projects from https://idbinvest.org/sites/default/files/iati_publish_projects.xml
-found 3156 activities
+found 3157 activities
 
 Downloading idea-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/idea-activities.xml
 Parsing idea-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/idea-activities.xml
@@ -18573,7 +18583,7 @@ found 10 activities
 
 Downloading ifad-activitity-sn from https://webapps.ifad.org/iati/ifad_sn_activities.xml
 Parsing ifad-activitity-sn from https://webapps.ifad.org/iati/ifad_sn_activities.xml
-found 20 activities
+found 21 activities
 
 Downloading ifad-activitity-so from https://webapps.ifad.org/iati/ifad_so_activities.xml
 Parsing ifad-activitity-so from https://webapps.ifad.org/iati/ifad_so_activities.xml
@@ -18929,7 +18939,7 @@ found 1 activities
 
 Downloading ifcwbg-et from https://disclosures.ifc.org/iati/ifc-et.xml
 Parsing ifcwbg-et from https://disclosures.ifc.org/iati/ifc-et.xml
-found 25 activities
+found 26 activities
 
 Downloading ifcwbg-fj from https://disclosures.ifc.org/iati/ifc-fj.xml
 Parsing ifcwbg-fj from https://disclosures.ifc.org/iati/ifc-fj.xml
@@ -19005,7 +19015,7 @@ found 2 activities
 
 Downloading ifcwbg-in from https://disclosures.ifc.org/iati/ifc-in.xml
 Parsing ifcwbg-in from https://disclosures.ifc.org/iati/ifc-in.xml
-found 477 activities
+found 478 activities
 
 Downloading ifcwbg-iq from https://disclosures.ifc.org/iati/ifc-iq.xml
 Parsing ifcwbg-iq from https://disclosures.ifc.org/iati/ifc-iq.xml
@@ -20446,9 +20456,14 @@ Downloading irishaid-2023-early-activity from https://assets.ireland.ie/document
 Parsing irishaid-2023-early-activity from https://assets.ireland.ie/documents/Irish_Aid_SUN_data_2023.xml
 found 740 activities
 
-Downloading irishaid-org from https://assets.ireland.ie/documents/orgXmlFile_20240326.xml
-Parsing irishaid-org from https://assets.ireland.ie/documents/orgXmlFile_20240326.xml
+Downloading irishaid-2023-org from https://assets.ireland.ie/documents/irishaid2024org.xml
+Parsing irishaid-2023-org from https://assets.ireland.ie/documents/irishaid2024org.xml
 found 1 organisations
+
+Downloading irishaid-2024-allocation-policy from https://assets.ireland.ie/documents/V27_IDC_2024_Executive_Summary.pdf
+Parsing irishaid-2024-allocation-policy from https://assets.ireland.ie/documents/V27_IDC_2024_Executive_Summary.pdf
+dflat: invalid XML format
+restored 0 files
 
 Downloading irw-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/irw-activities.xml
 Parsing irw-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/irw-activities.xml
@@ -23836,131 +23851,89 @@ Downloading mercy-usa-activities from https://aidstream.s3.us-west-2.amazonaws.c
 Parsing mercy-usa-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/mercy-usa-activities.xml
 found 2 activities
 
-Downloading mfat-iati-africa from https://www.mfat.govt.nz/assets/Aid/IATI/IATI-Africa.xml
-curl: download ERROR 404
-Parsing mfat-iati-africa from https://www.mfat.govt.nz/assets/Aid/IATI/IATI-Africa.xml
-dflat: input XML file does not exist
-restored 120 files
+Downloading mfat-iati-africa from https://www.mfat.govt.nz/assets/Aid/IATI/IATI-Activity-XML-Files/IATI-Africa.xml
+Parsing mfat-iati-africa from https://www.mfat.govt.nz/assets/Aid/IATI/IATI-Activity-XML-Files/IATI-Africa.xml
+found 121 activities
 
-Downloading mfat-iati-asean from https://www.mfat.govt.nz/assets/Aid/IATI/IATI-ASEAN.xml
-curl: download ERROR 404
-Parsing mfat-iati-asean from https://www.mfat.govt.nz/assets/Aid/IATI/IATI-ASEAN.xml
-dflat: input XML file does not exist
-restored 253 files
+Downloading mfat-iati-asean from https://www.mfat.govt.nz/assets/Aid/IATI/IATI-Activity-XML-Files/IATI-ASEAN.xml
+Parsing mfat-iati-asean from https://www.mfat.govt.nz/assets/Aid/IATI/IATI-Activity-XML-Files/IATI-ASEAN.xml
+found 257 activities
 
-Downloading mfat-iati-cook-islands from https://www.mfat.govt.nz/assets/Aid/IATI/IATI-Cook-Islands.xml
-curl: download ERROR 404
-Parsing mfat-iati-cook-islands from https://www.mfat.govt.nz/assets/Aid/IATI/IATI-Cook-Islands.xml
-dflat: input XML file does not exist
-restored 50 files
+Downloading mfat-iati-cook-islands from https://www.mfat.govt.nz/assets/Aid/IATI/IATI-Activity-XML-Files/IATI-Cook-Islands.xml
+Parsing mfat-iati-cook-islands from https://www.mfat.govt.nz/assets/Aid/IATI/IATI-Activity-XML-Files/IATI-Cook-Islands.xml
+found 50 activities
 
-Downloading mfat-iati-fiji from https://www.mfat.govt.nz/assets/Aid/IATI/IATI-Fiji.xml
-curl: download ERROR 404
-Parsing mfat-iati-fiji from https://www.mfat.govt.nz/assets/Aid/IATI/IATI-Fiji.xml
-dflat: input XML file does not exist
-restored 141 files
+Downloading mfat-iati-fiji from https://www.mfat.govt.nz/assets/Aid/IATI/IATI-Activity-XML-Files/IATI-Fiji.xml
+Parsing mfat-iati-fiji from https://www.mfat.govt.nz/assets/Aid/IATI/IATI-Activity-XML-Files/IATI-Fiji.xml
+found 142 activities
 
-Downloading mfat-iati-kiribati from https://www.mfat.govt.nz/assets/Aid/IATI/IATI-Kiribati.xml
-curl: download ERROR 404
-Parsing mfat-iati-kiribati from https://www.mfat.govt.nz/assets/Aid/IATI/IATI-Kiribati.xml
-dflat: input XML file does not exist
-restored 90 files
+Downloading mfat-iati-kiribati from https://www.mfat.govt.nz/assets/Aid/IATI/IATI-Activity-XML-Files/IATI-Kiribati.xml
+Parsing mfat-iati-kiribati from https://www.mfat.govt.nz/assets/Aid/IATI/IATI-Activity-XML-Files/IATI-Kiribati.xml
+found 90 activities
 
-Downloading mfat-iati-latin-america-and-caribbean from https://www.mfat.govt.nz/assets/Aid/IATI/IATI-Latin-America-Caribbean.xml
-curl: download ERROR 404
-Parsing mfat-iati-latin-america-and-caribbean from https://www.mfat.govt.nz/assets/Aid/IATI/IATI-Latin-America-Caribbean.xml
-dflat: input XML file does not exist
-restored 60 files
+Downloading mfat-iati-latin-america-and-caribbean from https://www.mfat.govt.nz/assets/Aid/IATI/IATI-Activity-XML-Files/IATI-Latin-America-Caribbean.xml
+Parsing mfat-iati-latin-america-and-caribbean from https://www.mfat.govt.nz/assets/Aid/IATI/IATI-Activity-XML-Files/IATI-Latin-America-Caribbean.xml
+found 60 activities
 
-Downloading mfat-iati-multi-country from https://www.mfat.govt.nz/assets/Aid/IATI/IATI-Multi-Country.xml
-curl: download ERROR 404
-Parsing mfat-iati-multi-country from https://www.mfat.govt.nz/assets/Aid/IATI/IATI-Multi-Country.xml
-dflat: input XML file does not exist
-restored 315 files
+Downloading mfat-iati-multi-country from https://www.mfat.govt.nz/assets/Aid/IATI/IATI-Activity-XML-Files/IATI-Multi-Country.xml
+Parsing mfat-iati-multi-country from https://www.mfat.govt.nz/assets/Aid/IATI/IATI-Activity-XML-Files/IATI-Multi-Country.xml
+found 321 activities
 
-Downloading mfat-iati-multilateral-agencies from https://www.mfat.govt.nz/assets/Aid/IATI/IATI-Multilateral-Agencies.xml
-curl: download ERROR 404
-Parsing mfat-iati-multilateral-agencies from https://www.mfat.govt.nz/assets/Aid/IATI/IATI-Multilateral-Agencies.xml
-dflat: input XML file does not exist
-restored 136 files
+Downloading mfat-iati-multilateral-agencies from https://www.mfat.govt.nz/assets/Aid/IATI/IATI-Activity-XML-Files/IATI-Multilateral-Agencies.xml
+Parsing mfat-iati-multilateral-agencies from https://www.mfat.govt.nz/assets/Aid/IATI/IATI-Activity-XML-Files/IATI-Multilateral-Agencies.xml
+found 140 activities
 
-Downloading mfat-iati-nauru from https://www.mfat.govt.nz/assets/Aid/IATI/IATI-Nauru.xml
-curl: download ERROR 404
-Parsing mfat-iati-nauru from https://www.mfat.govt.nz/assets/Aid/IATI/IATI-Nauru.xml
-dflat: input XML file does not exist
-restored 22 files
+Downloading mfat-iati-nauru from https://www.mfat.govt.nz/assets/Aid/IATI/IATI-Activity-XML-Files/IATI-Nauru.xml
+Parsing mfat-iati-nauru from https://www.mfat.govt.nz/assets/Aid/IATI/IATI-Activity-XML-Files/IATI-Nauru.xml
+found 22 activities
 
-Downloading mfat-iati-niue from https://www.mfat.govt.nz/assets/Aid/IATI/IATI-Niue.xml
-curl: download ERROR 404
-Parsing mfat-iati-niue from https://www.mfat.govt.nz/assets/Aid/IATI/IATI-Niue.xml
-dflat: input XML file does not exist
-restored 62 files
+Downloading mfat-iati-niue from https://www.mfat.govt.nz/assets/Aid/IATI/IATI-Activity-XML-Files/IATI-Niue.xml
+Parsing mfat-iati-niue from https://www.mfat.govt.nz/assets/Aid/IATI/IATI-Activity-XML-Files/IATI-Niue.xml
+found 63 activities
 
-Downloading mfat-iati-north-pacific from https://www.mfat.govt.nz/assets/Aid/IATI/IATI-North-Pacific.xml
-curl: download ERROR 404
-Parsing mfat-iati-north-pacific from https://www.mfat.govt.nz/assets/Aid/IATI/IATI-North-Pacific.xml
-dflat: input XML file does not exist
-restored 22 files
+Downloading mfat-iati-north-pacific from https://www.mfat.govt.nz/assets/Aid/IATI/IATI-Activity-XML-Files/IATI-North-Pacific.xml
+Parsing mfat-iati-north-pacific from https://www.mfat.govt.nz/assets/Aid/IATI/IATI-Activity-XML-Files/IATI-North-Pacific.xml
+found 22 activities
 
-Downloading mfat-iati-other-asia from https://www.mfat.govt.nz/assets/Aid/IATI/IATI-Other-Asia.xml
-curl: download ERROR 404
-Parsing mfat-iati-other-asia from https://www.mfat.govt.nz/assets/Aid/IATI/IATI-Other-Asia.xml
-dflat: input XML file does not exist
-restored 153 files
+Downloading mfat-iati-other-asia from https://www.mfat.govt.nz/assets/Aid/IATI/IATI-Activity-XML-Files/IATI-Other-Asia.xml
+Parsing mfat-iati-other-asia from https://www.mfat.govt.nz/assets/Aid/IATI/IATI-Activity-XML-Files/IATI-Other-Asia.xml
+found 154 activities
 
-Downloading mfat-iati-pacific-regional from https://www.mfat.govt.nz/assets/Aid/IATI/IATI-Pacific-Regional.xml
-curl: download ERROR 404
-Parsing mfat-iati-pacific-regional from https://www.mfat.govt.nz/assets/Aid/IATI/IATI-Pacific-Regional.xml
-dflat: input XML file does not exist
-restored 360 files
+Downloading mfat-iati-pacific-regional from https://www.mfat.govt.nz/assets/Aid/IATI/IATI-Activity-XML-Files/IATI-Pacific-Regional.xml
+Parsing mfat-iati-pacific-regional from https://www.mfat.govt.nz/assets/Aid/IATI/IATI-Activity-XML-Files/IATI-Pacific-Regional.xml
+found 359 activities
 
-Downloading mfat-iati-papua-new-guinea from https://www.mfat.govt.nz/assets/Aid/IATI/IATI-Papua-New-Guinea.xml
-curl: download ERROR 404
-Parsing mfat-iati-papua-new-guinea from https://www.mfat.govt.nz/assets/Aid/IATI/IATI-Papua-New-Guinea.xml
-dflat: input XML file does not exist
-restored 116 files
+Downloading mfat-iati-papua-new-guinea from https://www.mfat.govt.nz/assets/Aid/IATI/IATI-Activity-XML-Files/IATI-Papua-New-Guinea.xml
+Parsing mfat-iati-papua-new-guinea from https://www.mfat.govt.nz/assets/Aid/IATI/IATI-Activity-XML-Files/IATI-Papua-New-Guinea.xml
+found 117 activities
 
-Downloading mfat-iati-samoa from https://www.mfat.govt.nz/assets/Aid/IATI/IATI-Samoa.xml
-curl: download ERROR 404
-Parsing mfat-iati-samoa from https://www.mfat.govt.nz/assets/Aid/IATI/IATI-Samoa.xml
-dflat: input XML file does not exist
-restored 82 files
+Downloading mfat-iati-samoa from https://www.mfat.govt.nz/assets/Aid/IATI/IATI-Activity-XML-Files/IATI-Samoa.xml
+Parsing mfat-iati-samoa from https://www.mfat.govt.nz/assets/Aid/IATI/IATI-Activity-XML-Files/IATI-Samoa.xml
+found 83 activities
 
-Downloading mfat-iati-solomon-islands from https://www.mfat.govt.nz/assets/Aid/IATI/IATI-Solomon-Islands.xml
-curl: download ERROR 404
-Parsing mfat-iati-solomon-islands from https://www.mfat.govt.nz/assets/Aid/IATI/IATI-Solomon-Islands.xml
-dflat: input XML file does not exist
-restored 109 files
+Downloading mfat-iati-solomon-islands from https://www.mfat.govt.nz/assets/Aid/IATI/IATI-Activity-XML-Files/IATI-Solomon-Islands.xml
+Parsing mfat-iati-solomon-islands from https://www.mfat.govt.nz/assets/Aid/IATI/IATI-Activity-XML-Files/IATI-Solomon-Islands.xml
+found 110 activities
 
-Downloading mfat-iati-timor-leste from https://www.mfat.govt.nz/assets/Aid/IATI/IATI-Timor-Leste.xml
-curl: download ERROR 404
-Parsing mfat-iati-timor-leste from https://www.mfat.govt.nz/assets/Aid/IATI/IATI-Timor-Leste.xml
-dflat: input XML file does not exist
-restored 43 files
+Downloading mfat-iati-timor-leste from https://www.mfat.govt.nz/assets/Aid/IATI/IATI-Activity-XML-Files/IATI-Timor-Leste.xml
+Parsing mfat-iati-timor-leste from https://www.mfat.govt.nz/assets/Aid/IATI/IATI-Activity-XML-Files/IATI-Timor-Leste.xml
+found 43 activities
 
-Downloading mfat-iati-tokelau from https://www.mfat.govt.nz/assets/Aid/IATI/IATI-Tokelau.xml
-curl: download ERROR 404
-Parsing mfat-iati-tokelau from https://www.mfat.govt.nz/assets/Aid/IATI/IATI-Tokelau.xml
-dflat: input XML file does not exist
-restored 53 files
+Downloading mfat-iati-tokelau from https://www.mfat.govt.nz/assets/Aid/IATI/IATI-Activity-XML-Files/IATI-Tokelau.xml
+Parsing mfat-iati-tokelau from https://www.mfat.govt.nz/assets/Aid/IATI/IATI-Activity-XML-Files/IATI-Tokelau.xml
+found 53 activities
 
-Downloading mfat-iati-tonga from https://www.mfat.govt.nz/assets/Aid/IATI/IATI-Tonga.xml
-curl: download ERROR 404
-Parsing mfat-iati-tonga from https://www.mfat.govt.nz/assets/Aid/IATI/IATI-Tonga.xml
-dflat: input XML file does not exist
-restored 111 files
+Downloading mfat-iati-tonga from https://www.mfat.govt.nz/assets/Aid/IATI/IATI-Activity-XML-Files/IATI-Tonga.xml
+Parsing mfat-iati-tonga from https://www.mfat.govt.nz/assets/Aid/IATI/IATI-Activity-XML-Files/IATI-Tonga.xml
+found 111 activities
 
-Downloading mfat-iati-tuvalu from https://www.mfat.govt.nz/assets/Aid/IATI/IATI-Tuvalu.xml
-curl: download ERROR 404
-Parsing mfat-iati-tuvalu from https://www.mfat.govt.nz/assets/Aid/IATI/IATI-Tuvalu.xml
-dflat: input XML file does not exist
-restored 44 files
+Downloading mfat-iati-tuvalu from https://www.mfat.govt.nz/assets/Aid/IATI/IATI-Activity-XML-Files/IATI-Tuvalu.xml
+Parsing mfat-iati-tuvalu from https://www.mfat.govt.nz/assets/Aid/IATI/IATI-Activity-XML-Files/IATI-Tuvalu.xml
+found 45 activities
 
-Downloading mfat-iati-vanuatu from https://www.mfat.govt.nz/assets/Aid/IATI/IATI-Vanuatu.xml
-curl: download ERROR 404
-Parsing mfat-iati-vanuatu from https://www.mfat.govt.nz/assets/Aid/IATI/IATI-Vanuatu.xml
-dflat: input XML file does not exist
-restored 117 files
+Downloading mfat-iati-vanuatu from https://www.mfat.govt.nz/assets/Aid/IATI/IATI-Activity-XML-Files/IATI-Vanuatu.xml
+Parsing mfat-iati-vanuatu from https://www.mfat.govt.nz/assets/Aid/IATI/IATI-Activity-XML-Files/IATI-Vanuatu.xml
+found 117 activities
 
 Downloading mfat-org-file from https://www.mfat.govt.nz/assets/Aid/IATI/NZ-MFAT-IATI-ORG.xml
 Parsing mfat-org-file from https://www.mfat.govt.nz/assets/Aid/IATI/NZ-MFAT-IATI-ORG.xml
@@ -25467,7 +25440,7 @@ found 2211 activities
 
 Downloading onl-activity from https://www.oxfamnovib.nl/redactie/Downloads/XML/iati.xml
 Parsing onl-activity from https://www.oxfamnovib.nl/redactie/Downloads/XML/iati.xml
-found 2320 activities
+found 2323 activities
 
 Downloading onl-org from https://www.oxfamnovib.nl/redactie/downloads/xml/IATI_NL-KVK-27108436.xml
 Parsing onl-org from https://www.oxfamnovib.nl/redactie/downloads/xml/IATI_NL-KVK-27108436.xml
@@ -26241,6 +26214,10 @@ Downloading paradigm-creatingsafespaceforonlinefreedomofexpression from https://
 Parsing paradigm-creatingsafespaceforonlinefreedomofexpression from https://files.aida.tools/activities/NG-CAC-30547/71ac4a5d-10d6-4778-bc85-4d181a970db6/CreatingSafespaceforOnlineFreedomofExpression.xml
 found 1 activities
 
+Downloading paradigm-standsyear1 from https://files.aida.tools/activities/NG-CAC-30547/3ae81b32-0eca-428c-a471-98ab35c80cc1/STANDSYear1.xml
+Parsing paradigm-standsyear1 from https://files.aida.tools/activities/NG-CAC-30547/3ae81b32-0eca-428c-a471-98ab35c80cc1/STANDSYear1.xml
+found 1 activities
+
 Downloading parakou-act1 from https://rsr.akvo.org/organisation/4146/iati/
 Parsing parakou-act1 from https://rsr.akvo.org/organisation/4146/iati/
 found 5 activities
@@ -26261,17 +26238,13 @@ Downloading partos_nl-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/
 Parsing partos_nl-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/partos_nl-org.xml
 found 1 organisations
 
-Downloading pascib_benin-actvities from https://www.woordendaad.nl/wp-content/uploads/2023/10/IATI-activities-2.xml
-curl: download ERROR 500
-Parsing pascib_benin-actvities from https://www.woordendaad.nl/wp-content/uploads/2023/10/IATI-activities-2.xml
-dflat: input XML file does not exist
-restored 1 files
+Downloading pascib_benin-actvities from https://www.woordendaad.nl/app/uploads/2024/03/IATI-activities-2.xml
+Parsing pascib_benin-actvities from https://www.woordendaad.nl/app/uploads/2024/03/IATI-activities-2.xml
+found 1 activities
 
-Downloading pascib_benin-org from https://www.woordendaad.nl/wp-content/uploads/2022/04/org-PASCIB.xml
-curl: download ERROR 500
-Parsing pascib_benin-org from https://www.woordendaad.nl/wp-content/uploads/2022/04/org-PASCIB.xml
-dflat: input XML file does not exist
-restored 1 files
+Downloading pascib_benin-org from https://www.woordendaad.nl/app/uploads/2024/03/org-PASCIB.xml
+Parsing pascib_benin-org from https://www.woordendaad.nl/app/uploads/2024/03/org-PASCIB.xml
+found 1 organisations
 
 Downloading pasgr-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/pasgr-activities.xml
 Parsing pasgr-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/pasgr-activities.xml
@@ -28372,9 +28345,9 @@ Parsing sdc_ch-220325 from https://www.eda.admin.ch/dam/deza/de/documents/aktivi
 dflat: input XML file does not exist
 restored 4323 files
 
-Downloading sdc_ch-org_231222 from https://www.eda.admin.ch/content/dam/deza/de/documents/aktivitaeten-projekte/231222-IATI-XML-Organisation-file-SDC.xml
+Downloading sdc_ch-org_240328 from https://www.eda.admin.ch/content/dam/deza/de/documents/aktivitaeten-projekte/240328-IATI-XML-Organisation-file-SDC.xml
 curl: download ERROR 403
-Parsing sdc_ch-org_231222 from https://www.eda.admin.ch/content/dam/deza/de/documents/aktivitaeten-projekte/231222-IATI-XML-Organisation-file-SDC.xml
+Parsing sdc_ch-org_240328 from https://www.eda.admin.ch/content/dam/deza/de/documents/aktivitaeten-projekte/240328-IATI-XML-Organisation-file-SDC.xml
 dflat: input XML file does not exist
 restored 0 files
 
@@ -28418,17 +28391,13 @@ Downloading sdsna-activities from https://aidstream.s3.us-west-2.amazonaws.com/x
 Parsing sdsna-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/sdsna-activities.xml
 found 3 activities
 
-Downloading seco-ong-mali-activities from https://www.woordendaad.nl/wp-content/uploads/2023/10/IATI-activities-3.xml
-curl: download ERROR 500
-Parsing seco-ong-mali-activities from https://www.woordendaad.nl/wp-content/uploads/2023/10/IATI-activities-3.xml
-dflat: input XML file does not exist
-restored 1 files
+Downloading seco-ong-mali-activities from https://www.woordendaad.nl/app/uploads/2024/03/IATI-activities-3.xml
+Parsing seco-ong-mali-activities from https://www.woordendaad.nl/app/uploads/2024/03/IATI-activities-3.xml
+found 1 activities
 
-Downloading seco-ong-mali-org from https://www.woordendaad.nl/wp-content/uploads/2022/04/org-Seco-ONG.xml
-curl: download ERROR 500
-Parsing seco-ong-mali-org from https://www.woordendaad.nl/wp-content/uploads/2022/04/org-Seco-ONG.xml
-dflat: input XML file does not exist
-restored 1 files
+Downloading seco-ong-mali-org from https://www.woordendaad.nl/app/uploads/2024/03/org-Seco-ONG.xml
+Parsing seco-ong-mali-org from https://www.woordendaad.nl/app/uploads/2024/03/org-Seco-ONG.xml
+found 1 organisations
 
 Downloading seefar-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/seefar-activities.xml
 Parsing seefar-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/seefar-activities.xml
@@ -29292,17 +29261,13 @@ Downloading spark-organisation from https://iatipublisher-prod.s3.amazonaws.com/
 Parsing spark-organisation from https://iatipublisher-prod.s3.amazonaws.com/organizationXmlFiles/spark-organisation.xml
 found 1 organisations
 
-Downloading spong-burkina-activities from https://www.woordendaad.nl/wp-content/uploads/2023/10/IATI-activities-4.xml
-curl: download ERROR 500
-Parsing spong-burkina-activities from https://www.woordendaad.nl/wp-content/uploads/2023/10/IATI-activities-4.xml
-dflat: input XML file does not exist
-restored 2 files
+Downloading spong-burkina-activities from https://www.woordendaad.nl/app/uploads/2024/03/IATI-activities-4.xml
+Parsing spong-burkina-activities from https://www.woordendaad.nl/app/uploads/2024/03/IATI-activities-4.xml
+found 2 activities
 
-Downloading spong-burkina-org from https://www.woordendaad.nl/wp-content/uploads/2022/04/org-Spong.xml
-curl: download ERROR 500
-Parsing spong-burkina-org from https://www.woordendaad.nl/wp-content/uploads/2022/04/org-Spong.xml
-dflat: input XML file does not exist
-restored 1 files
+Downloading spong-burkina-org from https://www.woordendaad.nl/app/uploads/2024/03/org-Spong.xml
+Parsing spong-burkina-org from https://www.woordendaad.nl/app/uploads/2024/03/org-Spong.xml
+found 1 organisations
 
 Downloading sp-organisation from https://iatipublisher-prod.s3.amazonaws.com/organizationXmlFiles/sp-organisation.xml
 Parsing sp-organisation from https://iatipublisher-prod.s3.amazonaws.com/organizationXmlFiles/sp-organisation.xml
@@ -35570,7 +35535,7 @@ found 26 activities
 
 Downloading unocha-cbpf-afghanistan-contribution-2024 from https://cbpfapi.unocha.org/iati/iati/23/2024/GetContribution.xml
 Parsing unocha-cbpf-afghanistan-contribution-2024 from https://cbpfapi.unocha.org/iati/iati/23/2024/GetContribution.xml
-found 8 activities
+found 9 activities
 
 Downloading unocha-cbpf-burkinafasorhpf-2016 from https://cbpfapi.unocha.org/iati/iati/85/2016/GetPooledFund.xml
 Parsing unocha-cbpf-burkinafasorhpf-2016 from https://cbpfapi.unocha.org/iati/iati/85/2016/GetPooledFund.xml
@@ -35678,7 +35643,7 @@ found 10 activities
 
 Downloading unocha-cbpf-burkinafasorhpf-contribution-2024 from https://cbpfapi.unocha.org/iati/iati/85/2024/GetContribution.xml
 Parsing unocha-cbpf-burkinafasorhpf-contribution-2024 from https://cbpfapi.unocha.org/iati/iati/85/2024/GetContribution.xml
-found 4 activities
+found 5 activities
 
 Downloading unocha-cbpf-car-2016 from https://cbpfapi.unocha.org/iati/iati/17/2016/GetPooledFund.xml
 Parsing unocha-cbpf-car-2016 from https://cbpfapi.unocha.org/iati/iati/17/2016/GetPooledFund.xml
@@ -35750,7 +35715,7 @@ found 31 activities
 
 Downloading unocha-cbpf-car-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/17/2024/GetAllocation.xml
 Parsing unocha-cbpf-car-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/17/2024/GetAllocation.xml
-found 5 activities
+found 7 activities
 
 Downloading unocha-cbpf-car-contribution-2016 from https://cbpfapi.unocha.org/iati/iati/17/2016/GetContribution.xml
 Parsing unocha-cbpf-car-contribution-2016 from https://cbpfapi.unocha.org/iati/iati/17/2016/GetContribution.xml
@@ -36358,7 +36323,7 @@ found 13 activities
 
 Downloading unocha-cbpf-lebanon-contribution-2024 from https://cbpfapi.unocha.org/iati/iati/71/2024/GetContribution.xml
 Parsing unocha-cbpf-lebanon-contribution-2024 from https://cbpfapi.unocha.org/iati/iati/71/2024/GetContribution.xml
-found 6 activities
+found 7 activities
 
 Downloading unocha-cbpf-myanmar-2016 from https://cbpfapi.unocha.org/iati/iati/59/2016/GetPooledFund.xml
 Parsing unocha-cbpf-myanmar-2016 from https://cbpfapi.unocha.org/iati/iati/59/2016/GetPooledFund.xml
@@ -36778,7 +36743,7 @@ found 31 activities
 
 Downloading unocha-cbpf-opt-contribution-2024 from https://cbpfapi.unocha.org/iati/iati/67/2024/GetContribution.xml
 Parsing unocha-cbpf-opt-contribution-2024 from https://cbpfapi.unocha.org/iati/iati/67/2024/GetContribution.xml
-found 7 activities
+found 8 activities
 
 Downloading unocha-cbpf-pakistan-2016 from https://cbpfapi.unocha.org/iati/iati/60/2016/GetPooledFund.xml
 Parsing unocha-cbpf-pakistan-2016 from https://cbpfapi.unocha.org/iati/iati/60/2016/GetPooledFund.xml
@@ -36958,7 +36923,7 @@ found 123 activities
 
 Downloading unocha-cbpf-somalia-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/21/2024/GetAllocation.xml
 Parsing unocha-cbpf-somalia-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/21/2024/GetAllocation.xml
-found 0 activities
+found 6 activities
 
 Downloading unocha-cbpf-somalia-contribution-2016 from https://cbpfapi.unocha.org/iati/iati/21/2016/GetContribution.xml
 Parsing unocha-cbpf-somalia-contribution-2016 from https://cbpfapi.unocha.org/iati/iati/21/2016/GetContribution.xml
@@ -37318,7 +37283,7 @@ found 31 activities
 
 Downloading unocha-cbpf-syria-contribution-2024 from https://cbpfapi.unocha.org/iati/iati/62/2024/GetContribution.xml
 Parsing unocha-cbpf-syria-contribution-2024 from https://cbpfapi.unocha.org/iati/iati/62/2024/GetContribution.xml
-found 6 activities
+found 7 activities
 
 Downloading unocha-cbpf-syriacrossborder-2016 from https://cbpfapi.unocha.org/iati/iati/70/2016/GetPooledFund.xml
 Parsing unocha-cbpf-syriacrossborder-2016 from https://cbpfapi.unocha.org/iati/iati/70/2016/GetPooledFund.xml
@@ -37474,7 +37439,7 @@ found 74 activities
 
 Downloading unocha-cbpf-ukraine-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/81/2024/GetAllocation.xml
 Parsing unocha-cbpf-ukraine-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/81/2024/GetAllocation.xml
-found 16 activities
+found 17 activities
 
 Downloading unocha-cbpf-ukraine-contribution-2019 from https://cbpfapi.unocha.org/iati/iati/81/2019/GetContribution.xml
 Parsing unocha-cbpf-ukraine-contribution-2019 from https://cbpfapi.unocha.org/iati/iati/81/2019/GetContribution.xml
@@ -37498,7 +37463,7 @@ found 33 activities
 
 Downloading unocha-cbpf-ukraine-contribution-2024 from https://cbpfapi.unocha.org/iati/iati/81/2024/GetContribution.xml
 Parsing unocha-cbpf-ukraine-contribution-2024 from https://cbpfapi.unocha.org/iati/iati/81/2024/GetContribution.xml
-found 5 activities
+found 6 activities
 
 Downloading unocha-cbpf-venezuela-2020 from https://cbpfapi.unocha.org/iati/iati/83/2020/GetPooledFund.xml
 Parsing unocha-cbpf-venezuela-2020 from https://cbpfapi.unocha.org/iati/iati/83/2020/GetPooledFund.xml
@@ -37662,7 +37627,7 @@ found 25 activities
 
 Downloading unocha-cbpf-yemen-contribution-2024 from https://cbpfapi.unocha.org/iati/iati/64/2024/GetContribution.xml
 Parsing unocha-cbpf-yemen-contribution-2024 from https://cbpfapi.unocha.org/iati/iati/64/2024/GetContribution.xml
-found 10 activities
+found 11 activities
 
 Downloading unocha-central-costs from https://oct.unocha.org/octws/OCTPublishData.svc/GetIATIContribution?activity=O601
 Parsing unocha-central-costs from https://oct.unocha.org/octws/OCTPublishData.svc/GetIATIContribution?activity=O601
@@ -40823,7 +40788,7 @@ found 1 organisations
 
 Downloading vngi-activities from https://vnginternational.akvoapp.org/organisation/1371/iati/
 Parsing vngi-activities from https://vnginternational.akvoapp.org/organisation/1371/iati/
-found 39 activities
+found 38 activities
 
 Downloading vngi-organisation from https://vnginternational.akvoapp.org/organisation/1371/iati-org/
 Parsing vngi-organisation from https://vnginternational.akvoapp.org/organisation/1371/iati-org/
@@ -42388,11 +42353,9 @@ Downloading wcuk-activities from https://aidstream.s3.us-west-2.amazonaws.com/xm
 Parsing wcuk-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/wcuk-activities.xml
 found 138 activities
 
-Downloading w-d-actitvities from https://www.woordendaad.nl/wp-content/uploads/2023/12/IATI-activities.xml
-curl: download ERROR 500
-Parsing w-d-actitvities from https://www.woordendaad.nl/wp-content/uploads/2023/12/IATI-activities.xml
-dflat: input XML file does not exist
-restored 15 files
+Downloading w-d-actitvities from https://woordendaad.nl/app/uploads/2024/03/IATI-activities.xml
+Parsing w-d-actitvities from https://woordendaad.nl/app/uploads/2024/03/IATI-activities.xml
+found 16 activities
 
 Downloading w-d-org from https://aidstream.s3.amazonaws.com/xml/w-d-org.xml
 Parsing w-d-org from https://aidstream.s3.amazonaws.com/xml/w-d-org.xml
