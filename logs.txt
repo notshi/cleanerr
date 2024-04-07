@@ -6606,8 +6606,9 @@ Parsing cif-br from http://doumodqax2qi2.cloudfront.net/CIF/CIF-05-2020/CIF-BR.x
 found 11 activities
 
 Downloading cif-cd from http://siteresources.worldbank.org/IATI/CIF/CIF-CD.xml
+curl: download ERROR 404
 Parsing cif-cd from http://siteresources.worldbank.org/IATI/CIF/CIF-CD.xml
-dflat: invalid XML format
+dflat: input XML file does not exist
 restored 0 files
 
 Downloading cif-ci from http://doumodqax2qi2.cloudfront.net/CIF/CIF-05-2020/CIF-CI.xml
@@ -6799,9 +6800,8 @@ Parsing cif-ws from http://doumodqax2qi2.cloudfront.net/CIF/CIF-05-2020/CIF-WS.x
 found 2 activities
 
 Downloading cif-ye from http://siteresources.worldbank.org/IATI/CIF/CIF-YE.xml
-curl: download ERROR 404
 Parsing cif-ye from http://siteresources.worldbank.org/IATI/CIF/CIF-YE.xml
-dflat: input XML file does not exist
+dflat: invalid XML format
 restored 0 files
 
 Downloading cif-za from http://doumodqax2qi2.cloudfront.net/CIF/CIF-05-2020/CIF-ZA.xml
@@ -11533,23 +11533,23 @@ restored 892 files
 
 Downloading ec-echo-2016 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2016.xml
 Parsing ec-echo-2016 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2016.xml
-found 844 activities
+found 838 activities
 
 Downloading ec-echo-2017 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2017.xml
 Parsing ec-echo-2017 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2017.xml
-found 740 activities
+found 741 activities
 
 Downloading ec-echo-2018 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2018.xml
 Parsing ec-echo-2018 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2018.xml
-found 614 activities
+found 616 activities
 
 Downloading ec-echo-2019 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2019.xml
 Parsing ec-echo-2019 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2019.xml
-found 502 activities
+found 500 activities
 
 Downloading ec-echo-2020 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2020.xml
 Parsing ec-echo-2020 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2020.xml
-found 604 activities
+found 605 activities
 
 Downloading ec-echo-2021 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2021.xml
 Parsing ec-echo-2021 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2021.xml
@@ -11557,15 +11557,15 @@ found 578 activities
 
 Downloading ec-echo-2022 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2022.xml
 Parsing ec-echo-2022 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2022.xml
-found 461 activities
+found 462 activities
 
 Downloading ec-echo-2023 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2023.xml
 Parsing ec-echo-2023 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2023.xml
-found 591 activities
+found 588 activities
 
 Downloading ec-echo-2024 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2024.xml
 Parsing ec-echo-2024 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2024.xml
-found 39 activities
+found 45 activities
 
 Downloading ec-echo-org from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/iati-organisation-file.xml
 Parsing ec-echo-org from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/iati-organisation-file.xml
@@ -17592,11 +17592,11 @@ found 30 activities
 
 Downloading iadb-bo from https://webimages.iadb.org/iati/iadb-Bolivia.xml
 Parsing iadb-bo from https://webimages.iadb.org/iati/iadb-Bolivia.xml
-found 82 activities
+found 0 activities
 
 Downloading iadb-br from https://webimages.iadb.org/iati/iadb-Brazil.xml
 Parsing iadb-br from https://webimages.iadb.org/iati/iadb-Brazil.xml
-found 210 activities
+found 0 activities
 
 Downloading iadb-bs from https://webimages.iadb.org/iati/iadb-Bahamas.xml
 Parsing iadb-bs from https://webimages.iadb.org/iati/iadb-Bahamas.xml
@@ -17604,11 +17604,11 @@ found 24 activities
 
 Downloading iadb-bz from https://webimages.iadb.org/iati/iadb-Belize.xml
 Parsing iadb-bz from https://webimages.iadb.org/iati/iadb-Belize.xml
-found 28 activities
+found 0 activities
 
 Downloading iadb-cl from https://webimages.iadb.org/iati/iadb-Chile.xml
 Parsing iadb-cl from https://webimages.iadb.org/iati/iadb-Chile.xml
-found 43 activities
+found 0 activities
 
 Downloading iadb-co from https://webimages.iadb.org/iati/iadb-Colombia.xml
 Parsing iadb-co from https://webimages.iadb.org/iati/iadb-Colombia.xml
@@ -17616,39 +17616,39 @@ found 113 activities
 
 Downloading iadb-cr from https://webimages.iadb.org/iati/iadb-Costa-Rica.xml
 Parsing iadb-cr from https://webimages.iadb.org/iati/iadb-Costa-Rica.xml
-found 21 activities
+found 0 activities
 
 Downloading iadb-do from https://webimages.iadb.org/iati/iadb-Dominican-Republic.xml
 Parsing iadb-do from https://webimages.iadb.org/iati/iadb-Dominican-Republic.xml
-found 62 activities
+found 0 activities
 
 Downloading iadb-ec from https://webimages.iadb.org/iati/iadb-Ecuador.xml
 Parsing iadb-ec from https://webimages.iadb.org/iati/iadb-Ecuador.xml
-found 89 activities
+found 0 activities
 
 Downloading iadb-gt from https://webimages.iadb.org/iati/iadb-Guatemala.xml
 Parsing iadb-gt from https://webimages.iadb.org/iati/iadb-Guatemala.xml
-found 27 activities
+found 0 activities
 
 Downloading iadb-gy from https://webimages.iadb.org/iati/iadb-Guyana.xml
 Parsing iadb-gy from https://webimages.iadb.org/iati/iadb-Guyana.xml
-found 46 activities
+found 0 activities
 
 Downloading iadb-ho from https://webimages.iadb.org/iati/iadb-Honduras.xml
 Parsing iadb-ho from https://webimages.iadb.org/iati/iadb-Honduras.xml
-found 79 activities
+found 0 activities
 
 Downloading iadb-ht from https://webimages.iadb.org/iati/iadb-Haiti.xml
 Parsing iadb-ht from https://webimages.iadb.org/iati/iadb-Haiti.xml
-found 83 activities
+found 0 activities
 
 Downloading iadb-jm from https://webimages.iadb.org/iati/iadb-Jamaica.xml
 Parsing iadb-jm from https://webimages.iadb.org/iati/iadb-Jamaica.xml
-found 49 activities
+found 0 activities
 
 Downloading iadb-mx from https://webimages.iadb.org/iati/iadb-Mexico.xml
 Parsing iadb-mx from https://webimages.iadb.org/iati/iadb-Mexico.xml
-found 76 activities
+found 0 activities
 
 Downloading iadb-ni from https://webimages.iadb.org/iati/iadb-Nicaragua.xml
 Parsing iadb-ni from https://webimages.iadb.org/iati/iadb-Nicaragua.xml
@@ -17660,11 +17660,11 @@ found 1 organisations
 
 Downloading iadb-pa from https://webimages.iadb.org/iati/iadb-Panama.xml
 Parsing iadb-pa from https://webimages.iadb.org/iati/iadb-Panama.xml
-found 79 activities
+found 0 activities
 
 Downloading iadb-pe from https://webimages.iadb.org/iati/iadb-Peru.xml
 Parsing iadb-pe from https://webimages.iadb.org/iati/iadb-Peru.xml
-found 104 activities
+found 0 activities
 
 Downloading iadb-py from https://webimages.iadb.org/iati/iadb-Paraguay.xml
 Parsing iadb-py from https://webimages.iadb.org/iati/iadb-Paraguay.xml
@@ -17672,19 +17672,19 @@ found 68 activities
 
 Downloading iadb-rg from https://webimages.iadb.org/iati/iadb-Regional.xml
 Parsing iadb-rg from https://webimages.iadb.org/iati/iadb-Regional.xml
-found 12 activities
+found 0 activities
 
 Downloading iadb-sr from https://webimages.iadb.org/iati/iadb-Suriname.xml
 Parsing iadb-sr from https://webimages.iadb.org/iati/iadb-Suriname.xml
-found 41 activities
+found 0 activities
 
 Downloading iadb-sv from https://webimages.iadb.org/iati/iadb-El-Salvador.xml
 Parsing iadb-sv from https://webimages.iadb.org/iati/iadb-El-Salvador.xml
-found 40 activities
+found 0 activities
 
 Downloading iadb-tt from https://webimages.iadb.org/iati/iadb-Trinidad-and-Tobago.xml
 Parsing iadb-tt from https://webimages.iadb.org/iati/iadb-Trinidad-and-Tobago.xml
-found 21 activities
+found 0 activities
 
 Downloading iadb-uy from https://webimages.iadb.org/iati/iadb-Uruguay.xml
 Parsing iadb-uy from https://webimages.iadb.org/iati/iadb-Uruguay.xml
@@ -17692,7 +17692,7 @@ found 107 activities
 
 Downloading iadb-ve from https://webimages.iadb.org/iati/iadb-Venezuela.xml
 Parsing iadb-ve from https://webimages.iadb.org/iati/iadb-Venezuela.xml
-found 15 activities
+found 0 activities
 
 Downloading iaf-americaregional from https://iati-reporting.s3.amazonaws.com/inter-american_foundation/xml/iati-activities-America%20regional.xml
 Parsing iaf-americaregional from https://iati-reporting.s3.amazonaws.com/inter-american_foundation/xml/iati-activities-America%20regional.xml
@@ -18851,7 +18851,7 @@ found 7 activities
 
 Downloading ifcwbg-bj from https://disclosures.ifc.org/iati/ifc-bj.xml
 Parsing ifcwbg-bj from https://disclosures.ifc.org/iati/ifc-bj.xml
-found 4 activities
+found 5 activities
 
 Downloading ifcwbg-bo from https://disclosures.ifc.org/iati/ifc-bo.xml
 Parsing ifcwbg-bo from https://disclosures.ifc.org/iati/ifc-bo.xml
@@ -19317,7 +19317,7 @@ found 13 activities
 
 Downloading ifcwbg-uz from https://disclosures.ifc.org/iati/ifc-uz.xml
 Parsing ifcwbg-uz from https://disclosures.ifc.org/iati/ifc-uz.xml
-found 34 activities
+found 35 activities
 
 Downloading ifcwbg-ve from https://disclosures.ifc.org/iati/ifc-ve.xml
 Parsing ifcwbg-ve from https://disclosures.ifc.org/iati/ifc-ve.xml
@@ -20485,11 +20485,9 @@ Downloading isdao-activities from https://aidstream.s3.us-west-2.amazonaws.com/x
 Parsing isdao-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/isdao-activities.xml
 found 4 activities
 
-Downloading isdb-activity-2000_2022 from https://www.isdb.org/sites/default/files/isdb-files/isdb_activities_2000_2022.xml
-curl: download ERROR 404
-Parsing isdb-activity-2000_2022 from https://www.isdb.org/sites/default/files/isdb-files/isdb_activities_2000_2022.xml
-dflat: input XML file does not exist
-restored 0 files
+Downloading isdb-activity-2015_2022 from https://www.isdb.org/sites/default/files/isdb-files/isdb_activities_2015_2022.xml
+Parsing isdb-activity-2015_2022 from https://www.isdb.org/sites/default/files/isdb-files/isdb_activities_2015_2022.xml
+found 301 activities
 
 Downloading isdb-org from https://www.isdb.org/sites/default/files/isdb-files/isdb_organisation.xml
 Parsing isdb-org from https://www.isdb.org/sites/default/files/isdb-files/isdb_organisation.xml
@@ -30802,7 +30800,7 @@ found 29 activities
 
 Downloading theglobalfund-ind from https://data-service.theglobalfund.org/v2.1/iati/activities-xml/IND
 Parsing theglobalfund-ind from https://data-service.theglobalfund.org/v2.1/iati/activities-xml/IND
-found 39 activities
+found 42 activities
 
 Downloading theglobalfund-irn from https://data-service.theglobalfund.org/v2.1/iati/activities-xml/IRN
 Parsing theglobalfund-irn from https://data-service.theglobalfund.org/v2.1/iati/activities-xml/IRN
