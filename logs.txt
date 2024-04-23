@@ -728,28 +728,38 @@ Parsing adili_sh-activities from https://aidstream.s3.us-west-2.amazonaws.com/xm
 found 2 activities
 
 Downloading adja-ouere-act from https://rsr.akvo.org/organisation/4142/iati/
+curl: download ERROR 502
 Parsing adja-ouere-act from https://rsr.akvo.org/organisation/4142/iati/
-found 1 activities
+dflat: input XML file does not exist
+restored 1 files
 
 Downloading adja-ouere-org from https://rsr.akvo.org/organisation/4142/iati-org/
+curl: download ERROR 502
 Parsing adja-ouere-org from https://rsr.akvo.org/organisation/4142/iati-org/
-found 1 organisations
+dflat: input XML file does not exist
+restored 1 files
 
 Downloading adjarra-act from https://rsr.akvo.org/organisation/4643/iati/
 Parsing adjarra-act from https://rsr.akvo.org/organisation/4643/iati/
 found 1 activities
 
 Downloading adjarra-org from https://rsr.akvo.org/organisation/4643/iati-org/
+curl: download ERROR 502
 Parsing adjarra-org from https://rsr.akvo.org/organisation/4643/iati-org/
-found 1 organisations
+dflat: input XML file does not exist
+restored 1 files
 
 Downloading adjohoun-act1 from https://rsr.akvo.org/organisation/4644/iati/
+curl: download ERROR 502
 Parsing adjohoun-act1 from https://rsr.akvo.org/organisation/4644/iati/
-found 1 activities
+dflat: input XML file does not exist
+restored 1 files
 
 Downloading adjohoun-org from https://rsr.akvo.org/organisation/4644/iati-org/
+curl: download ERROR 502
 Parsing adjohoun-org from https://rsr.akvo.org/organisation/4644/iati-org/
-found 1 organisations
+dflat: input XML file does not exist
+restored 1 files
 
 Downloading adpp-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/adpp-activities.xml
 Parsing adpp-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/adpp-activities.xml
@@ -1230,10 +1240,9 @@ Converting IATI activities version 1.03 to version 2.03
 Parsing af-14 from https://raw.githubusercontent.com/IATI/CSV2IATI-public-backup/master/1397049497.46.xml
 found 30 activities
 
-Downloading afd-al from https://static.data.gouv.fr/resources/donnees-de-laide-au-developpement-de-lafd-1/20240311-091942/fr-afd-al.csv
-Parsing afd-al from https://static.data.gouv.fr/resources/donnees-de-laide-au-developpement-de-lafd-1/20240311-091942/fr-afd-al.csv
-dflat: invalid XML format
-restored 7 files
+Downloading afd-al from https://static.data.gouv.fr/resources/donnees-de-laide-au-developpement-de-lafd-1/20240422-132517/fr-afd-al.xml
+Parsing afd-al from https://static.data.gouv.fr/resources/donnees-de-laide-au-developpement-de-lafd-1/20240422-132517/fr-afd-al.xml
+found 12 activities
 
 Downloading afd-am from https://static.data.gouv.fr/resources/donnees-de-laide-au-developpement-de-lafd-1/20240311-093424/fr-afd-am.xml
 Parsing afd-am from https://static.data.gouv.fr/resources/donnees-de-laide-au-developpement-de-lafd-1/20240311-093424/fr-afd-am.xml
@@ -1587,10 +1596,9 @@ Downloading afd-gm from https://static.data.gouv.fr/resources/donnees-de-laide-a
 Parsing afd-gm from https://static.data.gouv.fr/resources/donnees-de-laide-au-developpement-de-lafd-1/20240311-100713/fr-afd-gm.xml
 found 11 activities
 
-Downloading afd-gn from https://static.data.gouv.fr/resources/donnees-de-laide-au-developpement-de-lafd-1/20240313-092022/fr-afd-gn.csv
-Parsing afd-gn from https://static.data.gouv.fr/resources/donnees-de-laide-au-developpement-de-lafd-1/20240313-092022/fr-afd-gn.csv
-dflat: invalid XML format
-restored 62 files
+Downloading afd-gn from https://static.data.gouv.fr/resources/donnees-de-laide-au-developpement-de-lafd-1/20240422-132641/fr-afd-gn.xml
+Parsing afd-gn from https://static.data.gouv.fr/resources/donnees-de-laide-au-developpement-de-lafd-1/20240422-132641/fr-afd-gn.xml
+found 76 activities
 
 Downloading afd-gw from https://static.data.gouv.fr/resources/donnees-de-laide-au-developpement-de-lafd-1/20240311-100825/fr-afd-gw.xml
 Parsing afd-gw from https://static.data.gouv.fr/resources/donnees-de-laide-au-developpement-de-lafd-1/20240311-100825/fr-afd-gw.xml
@@ -1605,14 +1613,16 @@ Parsing afd-id from https://static.data.gouv.fr/resources/donnees-de-laide-au-de
 found 27 activities
 
 Downloading afdi-fr-activity from http://rsr.akvo.org/organisation/5280/iati/
-curl: download ERROR 404
+curl: download ERROR 502
 Parsing afdi-fr-activity from http://rsr.akvo.org/organisation/5280/iati/
 dflat: input XML file does not exist
 restored 0 files
 
 Downloading afdi-fr-org from http://rsr.akvo.org/organisation/5280/iati-org/
+curl: download ERROR 502
 Parsing afdi-fr-org from http://rsr.akvo.org/organisation/5280/iati-org/
-found 1 organisations
+dflat: input XML file does not exist
+restored 1 files
 
 Downloading afd-in from https://static.data.gouv.fr/resources/donnees-de-laide-au-developpement-de-lafd-1/20240311-101147/fr-afd-in.xml
 Parsing afd-in from https://static.data.gouv.fr/resources/donnees-de-laide-au-developpement-de-lafd-1/20240311-101147/fr-afd-in.xml
@@ -1759,11 +1769,9 @@ Downloading afd-sy from https://static.data.gouv.fr/resources/donnees-de-laide-a
 Parsing afd-sy from https://static.data.gouv.fr/resources/donnees-de-laide-au-developpement-de-lafd-1/20230614-161100/fr-afd-sy.xml
 found 0 activities
 
-Downloading afd-td from https://static.data.gouv.fr/resources/donnees-de-laide-au-developpement-de-lafd-1/20240313-093101/fr-afd-td.xml
-curl: download ERROR 404
-Parsing afd-td from https://static.data.gouv.fr/resources/donnees-de-laide-au-developpement-de-lafd-1/20240313-093101/fr-afd-td.xml
-dflat: input XML file does not exist
-restored 64 files
+Downloading afd-td from https://static.data.gouv.fr/resources/donnees-de-laide-au-developpement-de-lafd-1/20240422-132319/fr-afd-td.xml
+Parsing afd-td from https://static.data.gouv.fr/resources/donnees-de-laide-au-developpement-de-lafd-1/20240422-132319/fr-afd-td.xml
+found 69 activities
 
 Downloading afd-tg from https://static.data.gouv.fr/resources/donnees-de-laide-au-developpement-de-lafd-1/20240311-104626/fr-afd-tg.xml
 Parsing afd-tg from https://static.data.gouv.fr/resources/donnees-de-laide-au-developpement-de-lafd-1/20240311-104626/fr-afd-tg.xml
@@ -2562,12 +2570,16 @@ Parsing akfuk73-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/akfuk7
 found 5 organisations
 
 Downloading akpro-misserete-act from https://rsr.akvo.org/organisation/4642/iati/
+curl: download ERROR 502
 Parsing akpro-misserete-act from https://rsr.akvo.org/organisation/4642/iati/
-found 1 activities
+dflat: input XML file does not exist
+restored 1 files
 
 Downloading akpro-misserete-org from https://rsr.akvo.org/organisation/4642/iati-org/
+curl: download ERROR 502
 Parsing akpro-misserete-org from https://rsr.akvo.org/organisation/4642/iati-org/
-found 1 organisations
+dflat: input XML file does not exist
+restored 1 files
 
 Downloading aktis-998 from https://aidstream.s3.us-west-2.amazonaws.com/xml/aktis-998.xml
 Parsing aktis-998 from https://aidstream.s3.us-west-2.amazonaws.com/xml/aktis-998.xml
@@ -2594,8 +2606,10 @@ Parsing aktis-sy from https://aidstream.s3.us-west-2.amazonaws.com/xml/aktis-sy.
 found 1 activities
 
 Downloading akvo-1 from http://rsr.akvo.org/organisation/42/iati-org.xml
+curl: download ERROR 502
 Parsing akvo-1 from http://rsr.akvo.org/organisation/42/iati-org.xml
-found 1 organisations
+dflat: input XML file does not exist
+restored 1 files
 
 Downloading akvo-activities from http://rsr.akvo.org/organisation/42/iati.xml
 Parsing akvo-activities from http://rsr.akvo.org/organisation/42/iati.xml
@@ -2614,12 +2628,16 @@ Parsing alcis-af from https://aidstream.s3.us-west-2.amazonaws.com/xml/alcis-af.
 found 1 activities
 
 Downloading alcrer-1-act from https://rsr.akvo.org/organisation/4538/iati/
+curl: download ERROR 502
 Parsing alcrer-1-act from https://rsr.akvo.org/organisation/4538/iati/
-found 1 activities
+dflat: input XML file does not exist
+restored 1 files
 
 Downloading alcrer-1-org from https://rsr.akvo.org/organisation/4538/iati-org/
+curl: download ERROR 502
 Parsing alcrer-1-org from https://rsr.akvo.org/organisation/4538/iati-org/
-found 1 organisations
+dflat: input XML file does not exist
+restored 1 files
 
 Downloading alfalit-gec from https://www.vsointernational.org/sites/default/files/alfalit_gec.xml
 Converting IATI activities version 1.03 to version 2.03
@@ -2635,8 +2653,10 @@ Parsing alineainternational_2020-org from https://aidstream.s3.us-west-2.amazona
 found 1 organisations
 
 Downloading allada-act1 from https://rsr.akvo.org/organisation/4647/iati/
+curl: download ERROR 502
 Parsing allada-act1 from https://rsr.akvo.org/organisation/4647/iati/
-found 2 activities
+dflat: input XML file does not exist
+restored 2 files
 
 Downloading allada-org from https://rsr.akvo.org/organisation/4647/iati-org/
 Parsing allada-org from https://rsr.akvo.org/organisation/4647/iati-org/
@@ -2787,8 +2807,10 @@ Parsing amwa-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/am
 found 4 activities
 
 Downloading amwa-makeway from https://rsr.akvo.org/organisation/6175/iati/
+curl: download ERROR 502
 Parsing amwa-makeway from https://rsr.akvo.org/organisation/6175/iati/
-found 7 activities
+dflat: input XML file does not exist
+restored 7 files
 
 Downloading amwa-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/amwa-org.xml
 Parsing amwa-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/amwa-org.xml
@@ -2799,24 +2821,32 @@ Parsing amwa-pod-activity from https://iati.nimd.org/Documents%20PoD_L4P/consort
 found 3 activities
 
 Downloading anaepmr_benin-act from https://rsr.akvo.org/organisation/4985/iati/
+curl: download ERROR 502
 Parsing anaepmr_benin-act from https://rsr.akvo.org/organisation/4985/iati/
-found 4 activities
+dflat: input XML file does not exist
+restored 4 files
 
 Downloading anaepmr_benin-org from https://rsr.akvo.org/organisation/4985/iati-org/
+curl: download ERROR 502
 Parsing anaepmr_benin-org from https://rsr.akvo.org/organisation/4985/iati-org/
-found 1 organisations
+dflat: input XML file does not exist
+restored 1 files
 
 Downloading ancb_benin-act from https://storage.googleapis.com/akvo-rsr-production-media-files/db/org/42/iati/20210721-112716.xml
 Parsing ancb_benin-act from https://storage.googleapis.com/akvo-rsr-production-media-files/db/org/42/iati/20210721-112716.xml
 found 24 activities
 
 Downloading ancb_benin-com_dangbo-org from https://rsr.akvo.org/organisation/4646/iati-org/
+curl: download ERROR 502
 Parsing ancb_benin-com_dangbo-org from https://rsr.akvo.org/organisation/4646/iati-org/
-found 1 organisations
+dflat: input XML file does not exist
+restored 1 files
 
 Downloading ancb_benin-org from https://rsr.akvo.org/organisation/3654/iati-org/
+curl: download ERROR 502
 Parsing ancb_benin-org from https://rsr.akvo.org/organisation/3654/iati-org/
-found 1 organisations
+dflat: input XML file does not exist
+restored 1 files
 
 Downloading anda-gec from https://www.vsointernational.org/sites/default/files/anda_gec.xml
 Converting IATI activities version 1.03 to version 2.03
@@ -2880,12 +2910,16 @@ Parsing aphrc-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/a
 found 1 activities
 
 Downloading aplahoue-act1 from https://rsr.akvo.org/organisation/4653/iati/
+curl: download ERROR 502
 Parsing aplahoue-act1 from https://rsr.akvo.org/organisation/4653/iati/
-found 2 activities
+dflat: input XML file does not exist
+restored 2 files
 
 Downloading aplahoue-org from https://rsr.akvo.org/organisation/4653/iati-org/
+curl: download ERROR 502
 Parsing aplahoue-org from https://rsr.akvo.org/organisation/4653/iati-org/
-found 1 organisations
+dflat: input XML file does not exist
+restored 1 files
 
 Downloading apn-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/apn-activities.xml
 Parsing apn-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/apn-activities.xml
@@ -2932,8 +2966,10 @@ Parsing apt-ug from https://aidstream.s3.us-west-2.amazonaws.com/xml/apt-ug.xml
 found 3 activities
 
 Downloading aqua4all-rsr from https://rsr.akvo.org/organisation/43/iati/
+curl: download ERROR 502
 Parsing aqua4all-rsr from https://rsr.akvo.org/organisation/43/iati/
-found 121 activities
+dflat: input XML file does not exist
+restored 121 files
 
 Downloading arasaregional-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/arasaregional-activities.xml
 Parsing arasaregional-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/arasaregional-activities.xml
@@ -3011,12 +3047,16 @@ Parsing art19-sn from https://aidstream.s3.us-west-2.amazonaws.com/xml/art19-sn.
 found 1 activities
 
 Downloading asdap-activity2 from https://rsr.akvo.org/organisation/5844/iati/
+curl: download ERROR 502
 Parsing asdap-activity2 from https://rsr.akvo.org/organisation/5844/iati/
-found 1 activities
+dflat: input XML file does not exist
+restored 1 files
 
 Downloading asdap-activity from https://rsr.akvo.org/organisation/5844/iati/
+curl: download ERROR 502
 Parsing asdap-activity from https://rsr.akvo.org/organisation/5844/iati/
-found 1 activities
+dflat: input XML file does not exist
+restored 1 files
 
 Downloading asdap-file3 from https://storage.googleapis.com/akvo-rsr-production-media-files/db/org/5844/iati/20220324-023805.xml
 Parsing asdap-file3 from https://storage.googleapis.com/akvo-rsr-production-media-files/db/org/5844/iati/20220324-023805.xml
@@ -4035,12 +4075,16 @@ Parsing ava_admin-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/ava_
 found 1 organisations
 
 Downloading avrankou-act from https://rsr.akvo.org/organisation/4639/iati/
+curl: download ERROR 502
 Parsing avrankou-act from https://rsr.akvo.org/organisation/4639/iati/
-found 1 activities
+dflat: input XML file does not exist
+restored 1 files
 
 Downloading avrankou-org from https://rsr.akvo.org/organisation/4639/iati-org/
+curl: download ERROR 502
 Parsing avrankou-org from https://rsr.akvo.org/organisation/4639/iati-org/
-found 1 organisations
+dflat: input XML file does not exist
+restored 1 files
 
 Downloading avsi-ssd-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/avsi-ssd-activities.xml
 Parsing avsi-ssd-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/avsi-ssd-activities.xml
@@ -4099,8 +4143,10 @@ Parsing awid-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/awid-org.
 found 1 organisations
 
 Downloading aw-jo from https://rsr.akvo.org/organisation/3977/iati.xml
+curl: download ERROR 502
 Parsing aw-jo from https://rsr.akvo.org/organisation/3977/iati.xml
-found 1 activities
+dflat: input XML file does not exist
+restored 1 files
 
 Downloading awo2022-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/awo2022-activities.xml
 Parsing awo2022-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/awo2022-activities.xml
@@ -4294,7 +4340,7 @@ found 1 activities
 
 Downloading be-dgd-2021_1 from http://diplomatie.be/oda/IATI_2024_1.xml
 Parsing be-dgd-2021_1 from http://diplomatie.be/oda/IATI_2024_1.xml
-found 93 activities
+found 94 activities
 
 Downloading be-dgd-2021_2 from http://diplomatie.be/oda/IATI_2024_2.xml
 Parsing be-dgd-2021_2 from http://diplomatie.be/oda/IATI_2024_2.xml
@@ -4306,7 +4352,7 @@ found 177 activities
 
 Downloading be-dgd-2021_4 from http://diplomatie.be/oda/IATI_2024_4.xml
 Parsing be-dgd-2021_4 from http://diplomatie.be/oda/IATI_2024_4.xml
-found 307 activities
+found 306 activities
 
 Downloading be-dgd-orgfile2023 from http://diplomatie.be/oda/iati-organisations.xml
 Parsing be-dgd-orgfile2023 from http://diplomatie.be/oda/iati-organisations.xml
@@ -5238,12 +5284,16 @@ Parsing bond-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/bond-org.
 found 1 organisations
 
 Downloading bopa-act1 from https://rsr.akvo.org/organisation/4645/iati/
+curl: download ERROR 502
 Parsing bopa-act1 from https://rsr.akvo.org/organisation/4645/iati/
-found 3 activities
+dflat: input XML file does not exist
+restored 3 files
 
 Downloading bopa-org from https://rsr.akvo.org/organisation/4645/iati-org/
+curl: download ERROR 502
 Parsing bopa-org from https://rsr.akvo.org/organisation/4645/iati-org/
-found 1 organisations
+dflat: input XML file does not exist
+restored 1 files
 
 Downloading bopinc-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/bopinc-activities.xml
 Parsing bopinc-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/bopinc-activities.xml
@@ -5539,8 +5589,10 @@ Parsing cadtm-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/cadtm-or
 found 1 organisations
 
 Downloading caeb_mali-act from https://rsr.akvo.org/organisation/632/iati/
+curl: download ERROR 502
 Parsing caeb_mali-act from https://rsr.akvo.org/organisation/632/iati/
-found 1 activities
+dflat: input XML file does not exist
+restored 1 files
 
 Downloading caeb_mali-org from https://rsr.akvo.org/organisation/632/iati-org/
 Parsing caeb_mali-org from https://rsr.akvo.org/organisation/632/iati-org/
@@ -6188,8 +6240,10 @@ Parsing cdc_ohg-act from https://rsr.akvo.org/organisation/6313/iati/
 found 1 activities
 
 Downloading cdc_ohg-org from https://rsr.akvo.org/organisation/6313/iati-org/
+curl: download ERROR 502
 Parsing cdc_ohg-org from https://rsr.akvo.org/organisation/6313/iati-org/
-found 1 organisations
+dflat: input XML file does not exist
+restored 1 files
 
 Downloading cdeb-kvhb_admin-89 from https://aidstream.s3.us-west-2.amazonaws.com/xml/cdeb-kvhb_admin-89.xml
 Parsing cdeb-kvhb_admin-89 from https://aidstream.s3.us-west-2.amazonaws.com/xml/cdeb-kvhb_admin-89.xml
@@ -6318,7 +6372,7 @@ found 1 organisations
 
 Downloading cerf-contributionstodate from https://cerfgms-webapi.unocha.org/v1/iati/donorcontribution.xml
 Parsing cerf-contributionstodate from https://cerfgms-webapi.unocha.org/v1/iati/donorcontribution.xml
-found 1609 activities
+found 1610 activities
 
 Downloading cerf-organization from https://cerfgms-webapi.unocha.org/v1/iati/organizations.xml
 Parsing cerf-organization from https://cerfgms-webapi.unocha.org/v1/iati/organizations.xml
@@ -6591,9 +6645,8 @@ dflat: invalid XML format
 restored 0 files
 
 Downloading cif-998 from http://siteresources.worldbank.org/IATI/CIF/CIF-998.xml
-curl: download ERROR 404
 Parsing cif-998 from http://siteresources.worldbank.org/IATI/CIF/CIF-998.xml
-dflat: input XML file does not exist
+dflat: invalid XML format
 restored 0 files
 
 Downloading c_i_f-activities from https://iatipublisher-prod.s3.amazonaws.com/xml/mergedActivityXml/c_i_f-activities.xml
@@ -6823,8 +6876,9 @@ Parsing cif-ws from http://doumodqax2qi2.cloudfront.net/CIF/CIF-05-2020/CIF-WS.x
 found 2 activities
 
 Downloading cif-ye from http://siteresources.worldbank.org/IATI/CIF/CIF-YE.xml
+curl: download ERROR 404
 Parsing cif-ye from http://siteresources.worldbank.org/IATI/CIF/CIF-YE.xml
-dflat: invalid XML format
+dflat: input XML file does not exist
 restored 0 files
 
 Downloading cif-za from http://doumodqax2qi2.cloudfront.net/CIF/CIF-05-2020/CIF-ZA.xml
@@ -7244,6 +7298,10 @@ Downloading coffey-sl from https://aidstream.s3.us-west-2.amazonaws.com/xml/coff
 Parsing coffey-sl from https://aidstream.s3.us-west-2.amazonaws.com/xml/coffey-sl.xml
 found 2 activities
 
+Downloading coffey-so from https://aidstream.s3.us-west-2.amazonaws.com/xml/coffey-so.xml
+Parsing coffey-so from https://aidstream.s3.us-west-2.amazonaws.com/xml/coffey-so.xml
+found 1 activities
+
 Downloading coffey-ug from https://aidstream.s3.us-west-2.amazonaws.com/xml/coffey-ug.xml
 Parsing coffey-ug from https://aidstream.s3.us-west-2.amazonaws.com/xml/coffey-ug.xml
 found 2 activities
@@ -7269,12 +7327,16 @@ Parsing col-greenfinance-activities from https://aidstream.s3.us-west-2.amazonaw
 found 2 activities
 
 Downloading come-act1 from https://rsr.akvo.org/organisation/4641/iati/
+curl: download ERROR 502
 Parsing come-act1 from https://rsr.akvo.org/organisation/4641/iati/
-found 2 activities
+dflat: input XML file does not exist
+restored 2 files
 
 Downloading come-org from https://rsr.akvo.org/organisation/4641/iati-org/
+curl: download ERROR 502
 Parsing come-org from https://rsr.akvo.org/organisation/4641/iati-org/
-found 1 organisations
+dflat: input XML file does not exist
+restored 1 files
 
 Downloading commonwealthsecretariat-xi_iati_cwsec_activity_2022_1 from https://dbsstore.blob.core.windows.net/public/iati/CommonwealthSecretariat_ActivityStandard_2022.xml
 Parsing commonwealthsecretariat-xi_iati_cwsec_activity_2022_1 from https://dbsstore.blob.core.windows.net/public/iati/CommonwealthSecretariat_ActivityStandard_2022.xml
@@ -7418,12 +7480,16 @@ Parsing cowi-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/co
 found 1 activities
 
 Downloading cowi-act from https://rsr.akvo.org/organisation/4662/iati/
+curl: download ERROR 502
 Parsing cowi-act from https://rsr.akvo.org/organisation/4662/iati/
-found 2 activities
+dflat: input XML file does not exist
+restored 2 files
 
 Downloading cowi-org from https://rsr.akvo.org/organisation/4662/iati-org/
+curl: download ERROR 502
 Parsing cowi-org from https://rsr.akvo.org/organisation/4662/iati-org/
-found 1 organisations
+dflat: input XML file does not exist
+restored 1 files
 
 Downloading cpd_2021-activities from https://iatipublisher-prod.s3.amazonaws.com/xml/mergedActivityXml/cpd_2021-activities.xml
 Parsing cpd_2021-activities from https://iatipublisher-prod.s3.amazonaws.com/xml/mergedActivityXml/cpd_2021-activities.xml
@@ -7748,8 +7814,10 @@ Parsing dangbo-act from https://rsr.akvo.org/organisation/4646/iati/
 found 3 activities
 
 Downloading dangbo-org from https://rsr.akvo.org/organisation/4646/iati-org/
+curl: download ERROR 502
 Parsing dangbo-org from https://rsr.akvo.org/organisation/4646/iati-org/
-found 1 organisations
+dflat: input XML file does not exist
+restored 1 files
 
 Downloading danida-all_1 from http://iati.um.dk/api/v2/files/iati1.xml
 Parsing danida-all_1 from http://iati.um.dk/api/v2/files/iati1.xml
@@ -11563,11 +11631,11 @@ found 841 activities
 
 Downloading ec-echo-2017 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2017.xml
 Parsing ec-echo-2017 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2017.xml
-found 742 activities
+found 739 activities
 
 Downloading ec-echo-2018 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2018.xml
 Parsing ec-echo-2018 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2018.xml
-found 614 activities
+found 612 activities
 
 Downloading ec-echo-2019 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2019.xml
 Parsing ec-echo-2019 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2019.xml
@@ -11575,19 +11643,19 @@ found 507 activities
 
 Downloading ec-echo-2020 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2020.xml
 Parsing ec-echo-2020 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2020.xml
-found 601 activities
+found 603 activities
 
 Downloading ec-echo-2021 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2021.xml
 Parsing ec-echo-2021 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2021.xml
-found 575 activities
+found 570 activities
 
 Downloading ec-echo-2022 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2022.xml
 Parsing ec-echo-2022 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2022.xml
-found 459 activities
+found 466 activities
 
 Downloading ec-echo-2023 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2023.xml
 Parsing ec-echo-2023 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2023.xml
-found 574 activities
+found 572 activities
 
 Downloading ec-echo-2024 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2024.xml
 Parsing ec-echo-2024 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2024.xml
@@ -12886,8 +12954,10 @@ Parsing ec-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/ec-org.xml
 found 1 organisations
 
 Downloading ecorysnl-203031306 from https://rsr.akvo.org/organisation/2251/iati/
+curl: download ERROR 502
 Parsing ecorysnl-203031306 from https://rsr.akvo.org/organisation/2251/iati/
-found 1 activities
+dflat: input XML file does not exist
+restored 1 files
 
 Downloading ecorysnl-org from https://rsr.akvo.org/organisation/2251/iati-org/
 Parsing ecorysnl-org from https://rsr.akvo.org/organisation/2251/iati-org/
@@ -13159,7 +13229,7 @@ found 1 activities
 
 Downloading enabel-all-activities from https://open.enabel.be/iati/all-activities.xml
 Parsing enabel-all-activities from https://open.enabel.be/iati/all-activities.xml
-found 1259 activities
+found 1256 activities
 
 Downloading enabel-contractors from https://open.enabel.be/iati/contractors.xml
 Parsing enabel-contractors from https://open.enabel.be/iati/contractors.xml
@@ -13467,7 +13537,7 @@ found 1 organisations
 
 Downloading ewdna2025-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/ewdna2025-activities.xml
 Parsing ewdna2025-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/ewdna2025-activities.xml
-found 2 activities
+found 1 activities
 
 Downloading ewf-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/ewf-activities.xml
 Parsing ewf-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/ewf-activities.xml
@@ -16653,16 +16723,22 @@ Parsing gppac-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/gppac-or
 found 1 organisations
 
 Downloading gpsp-org-activity2 from https://rsr.akvo.org/organisation/5096/iati/
+curl: download ERROR 502
 Parsing gpsp-org-activity2 from https://rsr.akvo.org/organisation/5096/iati/
-found 1 activities
+dflat: input XML file does not exist
+restored 1 files
 
 Downloading gpsp-org-activity from https://rsr.akvo.org/organisation/5096/iati/
+curl: download ERROR 502
 Parsing gpsp-org-activity from https://rsr.akvo.org/organisation/5096/iati/
-found 1 activities
+dflat: input XML file does not exist
+restored 1 files
 
 Downloading gpsp-org-org from https://rsr.akvo.org/organisation/5096/iati-org/
+curl: download ERROR 502
 Parsing gpsp-org-org from https://rsr.akvo.org/organisation/5096/iati-org/
-found 1 organisations
+dflat: input XML file does not exist
+restored 1 files
 
 Downloading grc2018-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/grc2018-activities.xml
 Parsing grc2018-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/grc2018-activities.xml
@@ -17966,8 +18042,10 @@ Parsing icraf_-drydev-project from https://rsr.akvo.org/organisation/4530/iati/
 found 1 activities
 
 Downloading icraf_-drydev from https://rsr.akvo.org/organisation/4530/iati-org/
+curl: download ERROR 502
 Parsing icraf_-drydev from https://rsr.akvo.org/organisation/4530/iati-org/
-found 1 organisations
+dflat: input XML file does not exist
+restored 1 files
 
 Downloading icrc-2017 from https://app.icrc.org/data/iati/XM-DAC-21016-2017.xml
 Parsing icrc-2017 from https://app.icrc.org/data/iati/XM-DAC-21016-2017.xml
@@ -18732,12 +18810,16 @@ Parsing ifad-organisation from https://webapps.ifad.org/iati/ifad_organisation.x
 found 1 organisations
 
 Downloading ifangni-act from https://rsr.akvo.org/organisation/4143/iati/
+curl: download ERROR 502
 Parsing ifangni-act from https://rsr.akvo.org/organisation/4143/iati/
-found 1 activities
+dflat: input XML file does not exist
+restored 1 files
 
 Downloading ifangni-org from https://rsr.akvo.org/organisation/4143/iati-org/
+curl: download ERROR 502
 Parsing ifangni-org from https://rsr.akvo.org/organisation/4143/iati-org/
-found 1 organisations
+dflat: input XML file does not exist
+restored 1 files
 
 Downloading ifcwbg-10 from https://disclosures.ifc.org/IATI/IFC-10.xml
 Parsing ifcwbg-10 from https://disclosures.ifc.org/IATI/IFC-10.xml
@@ -20117,12 +20199,16 @@ dflat: input XML file does not exist
 restored 1 files
 
 Downloading ine_benin-act from https://rsr.akvo.org/organisation/3967/iati/
+curl: download ERROR 502
 Parsing ine_benin-act from https://rsr.akvo.org/organisation/3967/iati/
-found 1 activities
+dflat: input XML file does not exist
+restored 1 files
 
 Downloading ine_benin-org from https://rsr.akvo.org/organisation/3967/iati-org/
+curl: download ERROR 502
 Parsing ine_benin-org from https://rsr.akvo.org/organisation/3967/iati-org/
-found 1 organisations
+dflat: input XML file does not exist
+restored 1 files
 
 Downloading infnepal-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/infnepal-activities.xml
 Parsing infnepal-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/infnepal-activities.xml
@@ -20269,8 +20355,10 @@ Parsing intrac-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/
 found 2 activities
 
 Downloading intrahealth-activities from https://rsr.akvo.org/organisation/4439/iati/
+curl: download ERROR 502
 Parsing intrahealth-activities from https://rsr.akvo.org/organisation/4439/iati/
-found 1 activities
+dflat: input XML file does not exist
+restored 1 files
 
 Downloading intrahealth-org from https://rsr.akvo.org/organisation/4439/iati-org/
 Parsing intrahealth-org from https://rsr.akvo.org/organisation/4439/iati-org/
@@ -20289,8 +20377,10 @@ Parsing investinternational-activities from https://aidstream.s3.us-west-2.amazo
 found 533 activities
 
 Downloading inwrdam-jo-3r from https://rsr.akvo.org/organisation/6375/iati/.xml
+curl: download ERROR 502
 Parsing inwrdam-jo-3r from https://rsr.akvo.org/organisation/6375/iati/.xml
-found 1 activities
+dflat: input XML file does not exist
+restored 1 files
 
 Downloading inwrdam-org from https://rsr.akvo.org/organisation/6375/iati-org/.xml
 Parsing inwrdam-org from https://rsr.akvo.org/organisation/6375/iati-org/.xml
@@ -20410,12 +20500,14 @@ Parsing iraq_foundation-org from https://aidstream.s3.us-west-2.amazonaws.com/xm
 found 1 organisations
 
 Downloading irc-e1600 from http://rsr.akvo.org/organisation/260/iati/
+curl: download ERROR 502
 Parsing irc-e1600 from http://rsr.akvo.org/organisation/260/iati/
-found 7 activities
+dflat: input XML file does not exist
+restored 7 files
 
 Downloading irc_inc-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/irc_inc-activities.xml
 Parsing irc_inc-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/irc_inc-activities.xml
-found 134 activities
+found 139 activities
 
 Downloading irc_inc-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/irc_inc-org.xml
 Parsing irc_inc-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/irc_inc-org.xml
@@ -20423,7 +20515,7 @@ found 1 organisations
 
 Downloading irc_uk-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/irc_uk-activities.xml
 Parsing irc_uk-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/irc_uk-activities.xml
-found 116 activities
+found 122 activities
 
 Downloading irc_uk-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/irc_uk-org.xml
 Parsing irc_uk-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/irc_uk-org.xml
@@ -20636,8 +20728,10 @@ Parsing iucn-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/iu
 found 1 activities
 
 Downloading iucn-activity from https://iucn.akvoapp.org/organisation/3257/iati/
+curl: download ERROR 502
 Parsing iucn-activity from https://iucn.akvoapp.org/organisation/3257/iati/
-found 6 activities
+dflat: input XML file does not exist
+restored 6 files
 
 Downloading iucn_nl-activities from https://greenlivelihoodsalliance.org/images/gladocs/IATI-activities-IUCN-NL.xml
 Parsing iucn_nl-activities from https://greenlivelihoodsalliance.org/images/gladocs/IATI-activities-IUCN-NL.xml
@@ -20650,8 +20744,10 @@ dflat: input XML file does not exist
 restored 1 files
 
 Downloading iucn-org from https://rsr.akvo.org/organisation/3257/iati-org/
+curl: download ERROR 502
 Parsing iucn-org from https://rsr.akvo.org/organisation/3257/iati-org/
-found 1 organisations
+dflat: input XML file does not exist
+restored 1 files
 
 Downloading iw_admin-activities from https://iatipublisher-prod.s3.amazonaws.com/xml/mergedActivityXml/iw_admin-activities.xml
 Parsing iw_admin-activities from https://iatipublisher-prod.s3.amazonaws.com/xml/mergedActivityXml/iw_admin-activities.xml
@@ -20828,7 +20924,7 @@ found 2 activities
 
 Downloading kcdf-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/kcdf-activities.xml
 Parsing kcdf-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/kcdf-activities.xml
-found 1 activities
+found 2 activities
 
 Downloading kcdf-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/kcdf-org.xml
 Parsing kcdf-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/kcdf-org.xml
@@ -20891,12 +20987,16 @@ Parsing kesho_kenya-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/ke
 found 1 organisations
 
 Downloading ketou-act from https://rsr.akvo.org/organisation/4144/iati/
+curl: download ERROR 502
 Parsing ketou-act from https://rsr.akvo.org/organisation/4144/iati/
-found 4 activities
+dflat: input XML file does not exist
+restored 4 files
 
 Downloading ketou-org from https://rsr.akvo.org/organisation/4144/iati-org/
+curl: download ERROR 502
 Parsing ketou-org from https://rsr.akvo.org/organisation/4144/iati-org/
-found 1 organisations
+dflat: input XML file does not exist
+restored 1 files
 
 Downloading khf-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/khf-activities.xml
 Parsing khf-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/khf-activities.xml
@@ -20959,12 +21059,16 @@ Parsing kiyo-programma2022 from http://diplomatie.be/oda/IATI_act_pr2022-26_KIYO
 found 6 activities
 
 Downloading klouekanme-act from https://rsr.akvo.org/organisation/4648/iati/
+curl: download ERROR 502
 Parsing klouekanme-act from https://rsr.akvo.org/organisation/4648/iati/
-found 3 activities
+dflat: input XML file does not exist
+restored 3 files
 
 Downloading klouekanme-org from https://rsr.akvo.org/organisation/4648/iati-org/
+curl: download ERROR 502
 Parsing klouekanme-org from https://rsr.akvo.org/organisation/4648/iati-org/
-found 1 organisations
+dflat: input XML file does not exist
+restored 1 files
 
 Downloading kmc-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/kmc-activities.xml
 Parsing kmc-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/kmc-activities.xml
@@ -21019,8 +21123,10 @@ Parsing kpmgllp-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/kpmgll
 found 1 organisations
 
 Downloading kpomasse-act1 from https://rsr.akvo.org/organisation/4651/iati/
+curl: download ERROR 502
 Parsing kpomasse-act1 from https://rsr.akvo.org/organisation/4651/iati/
-found 4 activities
+dflat: input XML file does not exist
+restored 4 files
 
 Downloading kpomasse-org from https://rsr.akvo.org/organisation/4651/iati-org/
 Parsing kpomasse-org from https://rsr.akvo.org/organisation/4651/iati-org/
@@ -21428,8 +21534,10 @@ Parsing lalo-act1 from https://rsr.akvo.org/organisation/4654/iati/
 found 4 activities
 
 Downloading lalo-org from https://rsr.akvo.org/organisation/4654/iati-org/
+curl: download ERROR 502
 Parsing lalo-org from https://rsr.akvo.org/organisation/4654/iati-org/
-found 1 organisations
+dflat: input XML file does not exist
+restored 1 files
 
 Downloading landell-mills-289 from https://aidstream.s3.us-west-2.amazonaws.com/xml/landell-mills-289.xml
 Parsing landell-mills-289 from https://aidstream.s3.us-west-2.amazonaws.com/xml/landell-mills-289.xml
@@ -23886,12 +23994,16 @@ Parsing medecins-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/medec
 found 1 organisations
 
 Downloading mefbenin-act from https://rsr.akvo.org/organisation/4132/iati/
+curl: download ERROR 502
 Parsing mefbenin-act from https://rsr.akvo.org/organisation/4132/iati/
-found 2 activities
+dflat: input XML file does not exist
+restored 2 files
 
 Downloading mefbenin-org from https://rsr.akvo.org/organisation/4132/iati-org/
+curl: download ERROR 502
 Parsing mefbenin-org from https://rsr.akvo.org/organisation/4132/iati-org/
-found 1 organisations
+dflat: input XML file does not exist
+restored 1 files
 
 Downloading memisa-2022-2026-iati from http://diplomatie.be/oda/IATI_act_pr2022-26_MEMISA_4038.xml
 Parsing memisa-2022-2026-iati from http://diplomatie.be/oda/IATI_act_pr2022-26_MEMISA_4038.xml
@@ -24641,16 +24753,22 @@ Parsing nef_mali-act from https://rsr.akvo.org/organisation/5427/iati/
 found 1 activities
 
 Downloading nef_mali-org from https://rsr.akvo.org/organisation/5427/iati-org/
+curl: download ERROR 502
 Parsing nef_mali-org from https://rsr.akvo.org/organisation/5427/iati-org/
-found 1 organisations
+dflat: input XML file does not exist
+restored 1 files
 
 Downloading nef-uk-activities from https://rsr.akvo.org/organisation/5221/iati/
+curl: download ERROR 502
 Parsing nef-uk-activities from https://rsr.akvo.org/organisation/5221/iati/
-found 1 activities
+dflat: input XML file does not exist
+restored 1 files
 
 Downloading nef_usa-activities from https://rsr.akvo.org/organisation/3062/iati/
+curl: download ERROR 502
 Parsing nef_usa-activities from https://rsr.akvo.org/organisation/3062/iati/
-found 1 activities
+dflat: input XML file does not exist
+restored 1 files
 
 Downloading nef_usa-org from https://rsr.akvo.org/organisation/3062/iati-org
 Parsing nef_usa-org from https://rsr.akvo.org/organisation/3062/iati-org
@@ -24765,8 +24883,10 @@ Parsing nlr-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/nlr
 found 1 activities
 
 Downloading nlr-activity from https://rsr.akvo.org/organisation/3104/iati/
+curl: download ERROR 502
 Parsing nlr-activity from https://rsr.akvo.org/organisation/3104/iati/
-found 1 activities
+dflat: input XML file does not exist
+restored 1 files
 
 Downloading nlrc-activities from https://nrkia-open.azurewebsites.net/home/Iati_document
 Parsing nlrc-activities from https://nrkia-open.azurewebsites.net/home/Iati_document
@@ -26273,12 +26393,16 @@ Parsing paradigm-standsyear1 from https://files.aida.tools/activities/NG-CAC-305
 found 1 activities
 
 Downloading parakou-act1 from https://rsr.akvo.org/organisation/4146/iati/
+curl: download ERROR 502
 Parsing parakou-act1 from https://rsr.akvo.org/organisation/4146/iati/
-found 5 activities
+dflat: input XML file does not exist
+restored 5 files
 
 Downloading parakou-org from https://rsr.akvo.org/organisation/4146/iati-org/
+curl: download ERROR 502
 Parsing parakou-org from https://rsr.akvo.org/organisation/4146/iati-org/
-found 1 organisations
+dflat: input XML file does not exist
+restored 1 files
 
 Downloading particip-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/particip-activities.xml
 Parsing particip-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/particip-activities.xml
@@ -26377,16 +26501,20 @@ Parsing pbi_io-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/
 found 1 activities
 
 Downloading pca-gire-activities from https://rsr.akvo.org/organisation/2562/iati/
+curl: download ERROR 502
 Parsing pca-gire-activities from https://rsr.akvo.org/organisation/2562/iati/
-found 1 activities
+dflat: input XML file does not exist
+restored 1 files
 
 Downloading pca-gire-activties from https://rsr.akvo.org/organisation/2562/iati/
 Parsing pca-gire-activties from https://rsr.akvo.org/organisation/2562/iati/
 found 1 activities
 
 Downloading pca-gire-org from https://rsr.akvo.org/organisation/2562/iati-org/
+curl: download ERROR 502
 Parsing pca-gire-org from https://rsr.akvo.org/organisation/2562/iati-org/
-found 1 organisations
+dflat: input XML file does not exist
+restored 1 files
 
 Downloading pcf-88 from https://aidstream.s3.us-west-2.amazonaws.com/xml/pcf-88.xml
 Parsing pcf-88 from https://aidstream.s3.us-west-2.amazonaws.com/xml/pcf-88.xml
@@ -26433,8 +26561,10 @@ Parsing pcf-ng from https://aidstream.s3.us-west-2.amazonaws.com/xml/pcf-ng.xml
 found 1 activities
 
 Downloading pcf-org2019 from https://rsr.akvo.org/organisation/4607/iati/
+curl: download ERROR 502
 Parsing pcf-org2019 from https://rsr.akvo.org/organisation/4607/iati/
-found 92 activities
+dflat: input XML file does not exist
+restored 92 files
 
 Downloading pcf-org2020 from https://aidstream.s3.us-west-2.amazonaws.com/xml/pcf-998.xml
 Parsing pcf-org2020 from https://aidstream.s3.us-west-2.amazonaws.com/xml/pcf-998.xml
@@ -27066,8 +27196,10 @@ Parsing pobe-act from https://rsr.akvo.org/organisation/4163/iati/
 found 5 activities
 
 Downloading pobe-org from https://rsr.akvo.org/organisation/4163/iati-org/
+curl: download ERROR 502
 Parsing pobe-org from https://rsr.akvo.org/organisation/4163/iati-org/
-found 1 organisations
+dflat: input XML file does not exist
+restored 1 files
 
 Downloading polea-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/polea-activities.xml
 Parsing polea-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/polea-activities.xml
@@ -28020,7 +28152,7 @@ found 1 organisations
 
 Downloading rvo-01 from https://projects.rvo.nl/opendata/iati.xml
 Parsing rvo-01 from https://projects.rvo.nl/opendata/iati.xml
-found 4745 activities
+found 4746 activities
 
 Downloading rvo-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/rvo-activities.xml
 Parsing rvo-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/rvo-activities.xml
@@ -29050,12 +29182,16 @@ Parsing skn-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/skn-org.xm
 found 1 organisations
 
 Downloading slf-makeway from https://rsr.akvo.org/organisation/6018/iati/
+curl: download ERROR 502
 Parsing slf-makeway from https://rsr.akvo.org/organisation/6018/iati/
-found 7 activities
+dflat: input XML file does not exist
+restored 7 files
 
 Downloading slf-org from https://rsr.akvo.org/organisation/6018/iati-org/
+curl: download ERROR 502
 Parsing slf-org from https://rsr.akvo.org/organisation/6018/iati-org/
-found 1 organisations
+dflat: input XML file does not exist
+restored 1 files
 
 Downloading slovakaid-69_1_ac from http://www.slovakdev.sk/xml/iati-activity-sk.xml
 Parsing slovakaid-69_1_ac from http://www.slovakdev.sk/xml/iati-activity-sk.xml
@@ -29082,12 +29218,16 @@ Parsing sn-ninea-50255162x2-org from https://aidstream.s3.us-west-2.amazonaws.co
 found 1 organisations
 
 Downloading snv-org from https://rsr.akvo.org/organisation/3210/iati-org/
+curl: download ERROR 502
 Parsing snv-org from https://rsr.akvo.org/organisation/3210/iati-org/
-found 1 organisations
+dflat: input XML file does not exist
+restored 1 files
 
 Downloading snv-world from https://rsr.akvo.org/organisation/3210/iati/
+curl: download ERROR 502
 Parsing snv-world from https://rsr.akvo.org/organisation/3210/iati/
-found 41 activities
+dflat: input XML file does not exist
+restored 41 files
 
 Downloading soas-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/soas-activities.xml
 Parsing soas-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/soas-activities.xml
@@ -29251,8 +29391,10 @@ Parsing soneb-benin-act from https://rsr.akvo.org/organisation/4133/iati/
 found 2 activities
 
 Downloading soneb-benin-org from https://rsr.akvo.org/organisation/4133/iati-org/
+curl: download ERROR 502
 Parsing soneb-benin-org from https://rsr.akvo.org/organisation/4133/iati-org/
-found 1 organisations
+dflat: input XML file does not exist
+restored 1 files
 
 Downloading soscvkenya-001 from https://raw.githubusercontent.com/IATI/CSV2IATI-public-backup/master/1442398280.44.xml
 Converting IATI activities version 1.03 to version 2.03
@@ -30357,12 +30499,16 @@ Parsing svrg-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/sv
 found 1 activities
 
 Downloading swb_1-act from https://rsr.akvo.org/organisation/4532/iati/
+curl: download ERROR 502
 Parsing swb_1-act from https://rsr.akvo.org/organisation/4532/iati/
-found 2 activities
+dflat: input XML file does not exist
+restored 2 files
 
 Downloading swb_1-org from https://rsr.akvo.org/organisation/4532/iati-org
+curl: download ERROR 502
 Parsing swb_1-org from https://rsr.akvo.org/organisation/4532/iati-org
-found 1 organisations
+dflat: input XML file does not exist
+restored 1 files
 
 Downloading swda-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/swda-activities.xml
 Parsing swda-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/swda-activities.xml
@@ -31590,20 +31736,26 @@ Parsing tns-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/tns-org.xm
 found 2 organisations
 
 Downloading toffo-act1 from https://rsr.akvo.org/organisation/4650/iati/
+curl: download ERROR 502
 Parsing toffo-act1 from https://rsr.akvo.org/organisation/4650/iati/
-found 6 activities
+dflat: input XML file does not exist
+restored 6 files
 
 Downloading toffo-org from https://rsr.akvo.org/organisation/4650/iati-org/
 Parsing toffo-org from https://rsr.akvo.org/organisation/4650/iati-org/
 found 1 organisations
 
 Downloading toviklin-act1 from https://rsr.akvo.org/organisation/4649/iati/
+curl: download ERROR 502
 Parsing toviklin-act1 from https://rsr.akvo.org/organisation/4649/iati/
-found 6 activities
+dflat: input XML file does not exist
+restored 6 files
 
 Downloading toviklin-org1 from https://rsr.akvo.org/organisation/4649/iati-org/
+curl: download ERROR 502
 Parsing toviklin-org1 from https://rsr.akvo.org/organisation/4649/iati-org/
-found 1 organisations
+dflat: input XML file does not exist
+restored 1 files
 
 Downloading traffic-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/traffic-activities.xml
 Parsing traffic-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/traffic-activities.xml
@@ -33479,6 +33631,10 @@ found 10 activities
 Downloading un-environment-xm-dac-41116-p-006 from https://open.unep.org/iati/downloads/unenvironment-activities-p-006.xml
 Parsing un-environment-xm-dac-41116-p-006 from https://open.unep.org/iati/downloads/unenvironment-activities-p-006.xml
 found 8 activities
+
+Downloading un-environment-xm-dac-41116-p-007 from https://open.unep.org/iati/downloads/unenvironment-activities-p-007.xml
+Parsing un-environment-xm-dac-41116-p-007 from https://open.unep.org/iati/downloads/unenvironment-activities-p-007.xml
+found 10 activities
 
 Downloading un-environment-xm-dac-41116 from http://open.unep.org/iati/downloads/unenvironment-open-data.xml
 Parsing un-environment-xm-dac-41116 from http://open.unep.org/iati/downloads/unenvironment-open-data.xml
@@ -41476,8 +41632,10 @@ Parsing utwente-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/utwent
 found 1 organisations
 
 Downloading utz-activities from https://rsr.akvo.org/organisation/3656/iati/
+curl: download ERROR 502
 Parsing utz-activities from https://rsr.akvo.org/organisation/3656/iati/
-found 9 activities
+dflat: input XML file does not exist
+restored 9 files
 
 Downloading utz-org from https://rsr.akvo.org/organisation/3656/iati-org/
 Parsing utz-org from https://rsr.akvo.org/organisation/3656/iati-org/
@@ -41619,12 +41777,16 @@ Parsing vlir-uos-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/vlir-
 found 1 organisations
 
 Downloading vngi-activities from https://vnginternational.akvoapp.org/organisation/1371/iati/
+curl: download ERROR 502
 Parsing vngi-activities from https://vnginternational.akvoapp.org/organisation/1371/iati/
-found 38 activities
+dflat: input XML file does not exist
+restored 38 files
 
 Downloading vngi-organisation from https://vnginternational.akvoapp.org/organisation/1371/iati-org/
+curl: download ERROR 502
 Parsing vngi-organisation from https://vnginternational.akvoapp.org/organisation/1371/iati-org/
-found 1 organisations
+dflat: input XML file does not exist
+restored 1 files
 
 Downloading vsfbelgium-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/vsfbelgium-activities.xml
 Parsing vsfbelgium-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/vsfbelgium-activities.xml
@@ -43135,6 +43297,10 @@ Downloading wbtf-tfm53529 from https://d2mxkr7359ifh6.cloudfront.net/TFM53529.xm
 Parsing wbtf-tfm53529 from https://d2mxkr7359ifh6.cloudfront.net/TFM53529.xml
 found 1 activities
 
+Downloading wcaf-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/wcaf-activities.xml
+Parsing wcaf-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/wcaf-activities.xml
+found 1 activities
+
 Downloading wcaf-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/wcaf-org.xml
 Parsing wcaf-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/wcaf-org.xml
 found 1 organisations
@@ -43251,12 +43417,16 @@ Parsing wemos-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/w
 found 3 activities
 
 Downloading wemos-makeway from https://rsr.akvo.org/organisation/6002/iati/
+curl: download ERROR 502
 Parsing wemos-makeway from https://rsr.akvo.org/organisation/6002/iati/
-found 8 activities
+dflat: input XML file does not exist
+restored 8 files
 
 Downloading wemos-org from https://rsr.akvo.org/organisation/6002/iati-org/
+curl: download ERROR 502
 Parsing wemos-org from https://rsr.akvo.org/organisation/6002/iati-org/
-found 1 organisations
+dflat: input XML file does not exist
+restored 1 files
 
 Downloading wep-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/wep-activities.xml
 Parsing wep-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/wep-activities.xml
@@ -44124,8 +44294,10 @@ Parsing win-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/win-org.xm
 found 1 organisations
 
 Downloading wi-org from https://rsr.akvo.org/organisation/474/iati/
+curl: download ERROR 502
 Parsing wi-org from https://rsr.akvo.org/organisation/474/iati/
-found 24 activities
+dflat: input XML file does not exist
+restored 24 files
 
 Downloading wipc-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/wipc-activities.xml
 Parsing wipc-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/wipc-activities.xml
@@ -45178,29 +45350,13 @@ Downloading yffhsd-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/yff
 Parsing yffhsd-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/yffhsd-org.xml
 found 1 organisations
 
-Downloading yipl-89 from https://aidstream-stage.s3.us-west-2.amazonaws.com/xml/yipl-89.xml
-curl: download ERROR 403
-Parsing yipl-89 from https://aidstream-stage.s3.us-west-2.amazonaws.com/xml/yipl-89.xml
-dflat: input XML file does not exist
-restored 1 files
-
 Downloading yipl-activities from https://aidstream-stage.s3.us-west-2.amazonaws.com/xml/yipl-activities.xml
 Parsing yipl-activities from https://aidstream-stage.s3.us-west-2.amazonaws.com/xml/yipl-activities.xml
-found 2 activities
-
-Downloading yipl-ao from https://aidstream-stage.s3.us-west-2.amazonaws.com/xml/yipl-ao.xml
-curl: download ERROR 403
-Parsing yipl-ao from https://aidstream-stage.s3.us-west-2.amazonaws.com/xml/yipl-ao.xml
-dflat: input XML file does not exist
-restored 0 files
+found 9 activities
 
 Downloading yipl-org from https://aidstream-stage.s3.us-west-2.amazonaws.com/xml/yipl-org.xml
 Parsing yipl-org from https://aidstream-stage.s3.us-west-2.amazonaws.com/xml/yipl-org.xml
 found 2 organisations
-
-Downloading yipl-wf from https://aidstream-stage.s3.us-west-2.amazonaws.com/xml/yipl-wf.xml
-Parsing yipl-wf from https://aidstream-stage.s3.us-west-2.amazonaws.com/xml/yipl-wf.xml
-found 1 activities
 
 Downloading ylabs-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/ylabs-activities.xml
 Parsing ylabs-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/ylabs-activities.xml
@@ -45247,8 +45403,10 @@ Parsing ze-act1 from https://rsr.akvo.org/organisation/4652/iati/
 found 7 activities
 
 Downloading ze-org from https://rsr.akvo.org/organisation/4652/iati-org/
+curl: download ERROR 502
 Parsing ze-org from https://rsr.akvo.org/organisation/4652/iati-org/
-found 1 organisations
+dflat: input XML file does not exist
+restored 1 files
 
 Downloading zet-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/zet-activities.xml
 Parsing zet-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/zet-activities.xml
