@@ -1714,8 +1714,8 @@ Parsing afd-ng from https://static.data.gouv.fr/resources/donnees-de-laide-au-de
 dflat: input XML file does not exist
 restored 25 files
 
-Downloading afd-org from https://static.data.gouv.fr/resources/donnees-de-laide-au-developpement-de-lafd-1/20240122-094652/afd-organisation-file-2024-01-22.xml
-Parsing afd-org from https://static.data.gouv.fr/resources/donnees-de-laide-au-developpement-de-lafd-1/20240122-094652/afd-organisation-file-2024-01-22.xml
+Downloading afd-org from https://static.data.gouv.fr/resources/donnees-de-laide-au-developpement-de-lafd-1/20240426-164741/afd-organisation-file-2024-04-26.xml
+Parsing afd-org from https://static.data.gouv.fr/resources/donnees-de-laide-au-developpement-de-lafd-1/20240426-164741/afd-organisation-file-2024-04-26.xml
 found 5 organisations
 
 Downloading afd-pe from https://static.data.gouv.fr/resources/donnees-de-laide-au-developpement-de-lafd-1/20240423-111829/fr-afd-pe.xml
@@ -6618,8 +6618,9 @@ dflat: invalid XML format
 restored 0 files
 
 Downloading cif-889 from http://siteresources.worldbank.org/IATI/CIF/CIF-889.xml
+curl: download ERROR 404
 Parsing cif-889 from http://siteresources.worldbank.org/IATI/CIF/CIF-889.xml
-dflat: invalid XML format
+dflat: input XML file does not exist
 restored 0 files
 
 Downloading cif-998 from http://siteresources.worldbank.org/IATI/CIF/CIF-998.xml
@@ -11598,23 +11599,23 @@ found 841 activities
 
 Downloading ec-echo-2017 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2017.xml
 Parsing ec-echo-2017 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2017.xml
-found 741 activities
+found 740 activities
 
 Downloading ec-echo-2018 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2018.xml
 Parsing ec-echo-2018 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2018.xml
-found 617 activities
+found 616 activities
 
 Downloading ec-echo-2019 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2019.xml
 Parsing ec-echo-2019 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2019.xml
-found 498 activities
+found 499 activities
 
 Downloading ec-echo-2020 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2020.xml
 Parsing ec-echo-2020 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2020.xml
-found 607 activities
+found 606 activities
 
 Downloading ec-echo-2021 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2021.xml
 Parsing ec-echo-2021 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2021.xml
-found 575 activities
+found 578 activities
 
 Downloading ec-echo-2022 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2022.xml
 Parsing ec-echo-2022 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2022.xml
@@ -11622,11 +11623,11 @@ found 458 activities
 
 Downloading ec-echo-2023 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2023.xml
 Parsing ec-echo-2023 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2023.xml
-found 567 activities
+found 564 activities
 
 Downloading ec-echo-2024 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2024.xml
 Parsing ec-echo-2024 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2024.xml
-found 102 activities
+found 108 activities
 
 Downloading ec-echo-org from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/iati-organisation-file.xml
 Parsing ec-echo-org from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/iati-organisation-file.xml
@@ -13430,7 +13431,7 @@ found 1 organisations
 
 Downloading et-adf-0317-activities from https://iatipublisher-prod.s3.amazonaws.com/xml/mergedActivityXml/et-adf-0317-activities.xml
 Parsing et-adf-0317-activities from https://iatipublisher-prod.s3.amazonaws.com/xml/mergedActivityXml/et-adf-0317-activities.xml
-found 6 activities
+found 7 activities
 
 Downloading et-adf-0317-organisation from https://iatipublisher-prod.s3.amazonaws.com/organizationXmlFiles/et-adf-0317-organisation.xml
 Parsing et-adf-0317-organisation from https://iatipublisher-prod.s3.amazonaws.com/organizationXmlFiles/et-adf-0317-organisation.xml
@@ -13711,8 +13712,7 @@ found 1505 activities
 
 Downloading fcdo-set-18 from http://iati.fcdo.gov.uk/iati_files/solr/FCDO-set-18.xml
 Parsing fcdo-set-18 from http://iati.fcdo.gov.uk/iati_files/solr/FCDO-set-18.xml
-dflat: invalid XML format
-restored 1459 files
+found 1468 activities
 
 Downloading fcdo-set-19 from http://iati.fcdo.gov.uk/iati_files/solr/FCDO-set-19.xml
 Parsing fcdo-set-19 from http://iati.fcdo.gov.uk/iati_files/solr/FCDO-set-19.xml
@@ -14486,10 +14486,6 @@ found 45 activities
 
 Downloading finland_mfa-na from http://formin.finland.fi/opendata/IATI/Finland_NA.xml
 Converting IATI activities version 1.00 to version 2.03
-./iati-activities.xsl:531: parser error : Premature end of data in tag for-each line 530
-          
-          ^
-cannot parse ./iati-activities.xsl
 Parsing finland_mfa-na from http://formin.finland.fi/opendata/IATI/Finland_NA.xml
 found 31 activities
 
@@ -15702,7 +15698,7 @@ found 1 organisations
 
 Downloading gain-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/gain-activities.xml
 Parsing gain-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/gain-activities.xml
-found 713 activities
+found 721 activities
 
 Downloading gain-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/gain-org.xml
 Parsing gain-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/gain-org.xml
@@ -18160,16 +18156,12 @@ Parsing idrccrdi-act-active from https://idrc-crdi.ca/sites/default/files/2024-0
 found 1441 activities
 
 Downloading idrccrdi-act-closed-2009-2015 from https://idrc-crdi.ca/sites/default/files/2023-05/idrc_iati_activities_Closed_2009-04-01_2015-03-31_0.xml
-curl: download ERROR 000
 Parsing idrccrdi-act-closed-2009-2015 from https://idrc-crdi.ca/sites/default/files/2023-05/idrc_iati_activities_Closed_2009-04-01_2015-03-31_0.xml
-dflat: input XML file does not exist
-restored 205 files
+found 205 activities
 
 Downloading idrccrdi-act-closed-2015-2016 from https://idrc-crdi.ca/sites/default/files/2023-05/idrc_iati_activities_Closed_2015-04-01_2016-03-31.xml
-curl: download ERROR 000
 Parsing idrccrdi-act-closed-2015-2016 from https://idrc-crdi.ca/sites/default/files/2023-05/idrc_iati_activities_Closed_2015-04-01_2016-03-31.xml
-dflat: input XML file does not exist
-restored 160 files
+found 160 activities
 
 Downloading idrccrdi-act-closed-2016-2017 from https://idrc-crdi.ca/sites/default/files/2023-05/idrc_iati_activities_Closed_2016-04-01_2017-03-31.xml
 Parsing idrccrdi-act-closed-2016-2017 from https://idrc-crdi.ca/sites/default/files/2023-05/idrc_iati_activities_Closed_2016-04-01_2017-03-31.xml
@@ -18184,32 +18176,24 @@ Parsing idrccrdi-act-closed-2018-2019 from https://idrc-crdi.ca/sites/default/fi
 found 449 activities
 
 Downloading idrccrdi-act-closed-2019-2020 from https://idrc-crdi.ca/sites/default/files/2023-05/idrc_iati_activities_Closed_2019-04-01_2020-03-31_0.xml
-curl: download ERROR 000
 Parsing idrccrdi-act-closed-2019-2020 from https://idrc-crdi.ca/sites/default/files/2023-05/idrc_iati_activities_Closed_2019-04-01_2020-03-31_0.xml
-dflat: input XML file does not exist
-restored 509 files
+found 509 activities
 
 Downloading idrccrdi-act-closed-2020-2021 from https://idrc-crdi.ca/sites/default/files/2023-05/idrc_iati_activities_Closed_2020-04-01_2021-03-31.xml
-curl: download ERROR 000
 Parsing idrccrdi-act-closed-2020-2021 from https://idrc-crdi.ca/sites/default/files/2023-05/idrc_iati_activities_Closed_2020-04-01_2021-03-31.xml
-dflat: input XML file does not exist
-restored 337 files
+found 337 activities
 
 Downloading idrccrdi-act-closed-2021-2022 from https://idrc-crdi.ca/sites/default/files/2023-05/idrc_iati_activities_Closed_2021-04-01_2022-03-31_0.xml
-curl: download ERROR 000
 Parsing idrccrdi-act-closed-2021-2022 from https://idrc-crdi.ca/sites/default/files/2023-05/idrc_iati_activities_Closed_2021-04-01_2022-03-31_0.xml
-dflat: input XML file does not exist
-restored 329 files
+found 329 activities
 
 Downloading idrccrdi-act-closed-2022-2023 from https://idrc-crdi.ca/sites/default/files/2023-08/idrc_iati_activities_Closed_2022-04-01_2023-03-31.xml
 Parsing idrccrdi-act-closed-2022-2023 from https://idrc-crdi.ca/sites/default/files/2023-08/idrc_iati_activities_Closed_2022-04-01_2023-03-31.xml
 found 305 activities
 
 Downloading idrccrdi-org from https://idrc-crdi.ca/sites/default/files/2023-06/idrc_iati_organization_2023-06-16.xml
-curl: download ERROR 000
 Parsing idrccrdi-org from https://idrc-crdi.ca/sites/default/files/2023-06/idrc_iati_organization_2023-06-16.xml
-dflat: input XML file does not exist
-restored 1 files
+found 1 organisations
 
 Downloading ids-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/ids-activities.xml
 Parsing ids-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/ids-activities.xml
@@ -18941,7 +18925,7 @@ found 20 activities
 
 Downloading ifcwbg-br from https://disclosures.ifc.org/iati/ifc-br.xml
 Parsing ifcwbg-br from https://disclosures.ifc.org/iati/ifc-br.xml
-found 302 activities
+found 303 activities
 
 Downloading ifcwbg-bt from https://disclosures.ifc.org/iati/ifc-bt.xml
 Parsing ifcwbg-bt from https://disclosures.ifc.org/iati/ifc-bt.xml
@@ -27449,7 +27433,7 @@ found 12 activities
 
 Downloading pwcplindia-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/pwcplindia-activities.xml
 Parsing pwcplindia-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/pwcplindia-activities.xml
-found 28 activities
+found 29 activities
 
 Downloading pwcplindia-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/pwcplindia-org.xml
 Parsing pwcplindia-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/pwcplindia-org.xml
@@ -28076,7 +28060,7 @@ found 1 organisations
 
 Downloading rvo-01 from https://projects.rvo.nl/opendata/iati.xml
 Parsing rvo-01 from https://projects.rvo.nl/opendata/iati.xml
-found 4749 activities
+found 4754 activities
 
 Downloading rvo-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/rvo-activities.xml
 Parsing rvo-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/rvo-activities.xml
@@ -38360,7 +38344,7 @@ found 33 activities
 
 Downloading unocha-cbpf-ukraine-contribution-2024 from https://cbpfapi.unocha.org/iati/iati/81/2024/GetContribution.xml
 Parsing unocha-cbpf-ukraine-contribution-2024 from https://cbpfapi.unocha.org/iati/iati/81/2024/GetContribution.xml
-found 6 activities
+found 7 activities
 
 Downloading unocha-cbpf-venezuela-2020 from https://cbpfapi.unocha.org/iati/iati/83/2020/GetPooledFund.xml
 Parsing unocha-cbpf-venezuela-2020 from https://cbpfapi.unocha.org/iati/iati/83/2020/GetPooledFund.xml
@@ -45247,9 +45231,9 @@ Downloading yffhsd-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/yff
 Parsing yffhsd-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/yffhsd-org.xml
 found 1 organisations
 
-Downloading yipl-activities from https://aidstream-stage.s3.us-west-2.amazonaws.com/xml/yipl-activities.xml
-Parsing yipl-activities from https://aidstream-stage.s3.us-west-2.amazonaws.com/xml/yipl-activities.xml
-found 1 activities
+Downloading yipl-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/yipl-activities.xml
+Parsing yipl-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/yipl-activities.xml
+found 9 activities
 
 Downloading yipl-org from https://aidstream-stage.s3.us-west-2.amazonaws.com/xml/yipl-org.xml
 Parsing yipl-org from https://aidstream-stage.s3.us-west-2.amazonaws.com/xml/yipl-org.xml
