@@ -6618,9 +6618,8 @@ dflat: invalid XML format
 restored 0 files
 
 Downloading cif-889 from http://siteresources.worldbank.org/IATI/CIF/CIF-889.xml
-curl: download ERROR 404
 Parsing cif-889 from http://siteresources.worldbank.org/IATI/CIF/CIF-889.xml
-dflat: input XML file does not exist
+dflat: invalid XML format
 restored 0 files
 
 Downloading cif-998 from http://siteresources.worldbank.org/IATI/CIF/CIF-998.xml
@@ -6923,7 +6922,7 @@ found 14 activities
 
 Downloading cisu-gaia from https://vores.cisu.dk/activities.xml
 Parsing cisu-gaia from https://vores.cisu.dk/activities.xml
-found 2724 activities
+found 2726 activities
 
 Downloading cisu-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/cisu-org.xml
 Parsing cisu-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/cisu-org.xml
@@ -11599,35 +11598,35 @@ found 841 activities
 
 Downloading ec-echo-2017 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2017.xml
 Parsing ec-echo-2017 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2017.xml
-found 740 activities
+found 741 activities
 
 Downloading ec-echo-2018 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2018.xml
 Parsing ec-echo-2018 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2018.xml
-found 616 activities
+found 615 activities
 
 Downloading ec-echo-2019 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2019.xml
 Parsing ec-echo-2019 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2019.xml
-found 499 activities
+found 500 activities
 
 Downloading ec-echo-2020 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2020.xml
 Parsing ec-echo-2020 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2020.xml
-found 606 activities
+found 607 activities
 
 Downloading ec-echo-2021 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2021.xml
 Parsing ec-echo-2021 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2021.xml
-found 578 activities
+found 577 activities
 
 Downloading ec-echo-2022 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2022.xml
 Parsing ec-echo-2022 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2022.xml
-found 458 activities
+found 457 activities
 
 Downloading ec-echo-2023 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2023.xml
 Parsing ec-echo-2023 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2023.xml
-found 564 activities
+found 563 activities
 
 Downloading ec-echo-2024 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2024.xml
 Parsing ec-echo-2024 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2024.xml
-found 108 activities
+found 112 activities
 
 Downloading ec-echo-org from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/iati-organisation-file.xml
 Parsing ec-echo-org from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/iati-organisation-file.xml
@@ -18925,7 +18924,7 @@ found 20 activities
 
 Downloading ifcwbg-br from https://disclosures.ifc.org/iati/ifc-br.xml
 Parsing ifcwbg-br from https://disclosures.ifc.org/iati/ifc-br.xml
-found 303 activities
+found 304 activities
 
 Downloading ifcwbg-bt from https://disclosures.ifc.org/iati/ifc-bt.xml
 Parsing ifcwbg-bt from https://disclosures.ifc.org/iati/ifc-bt.xml
@@ -19089,7 +19088,7 @@ found 2 activities
 
 Downloading ifcwbg-in from https://disclosures.ifc.org/iati/ifc-in.xml
 Parsing ifcwbg-in from https://disclosures.ifc.org/iati/ifc-in.xml
-found 480 activities
+found 481 activities
 
 Downloading ifcwbg-iq from https://disclosures.ifc.org/iati/ifc-iq.xml
 Parsing ifcwbg-iq from https://disclosures.ifc.org/iati/ifc-iq.xml
@@ -34959,8 +34958,10 @@ Parsing unicef-caboverde from https://open.unicef.org/sites/transparency/files/c
 found 46 activities
 
 Downloading unicef-cambodia from https://open.unicef.org/sites/transparency/files/countrydata/iatiActivity_Cambodia.xml
+curl: download ERROR 000
 Parsing unicef-cambodia from https://open.unicef.org/sites/transparency/files/countrydata/iatiActivity_Cambodia.xml
-found 111 activities
+dflat: input XML file does not exist
+restored 111 files
 
 Downloading unicef-cameroon from https://open.unicef.org/sites/transparency/files/countrydata/iatiActivity_Republic_of_Cameroon.xml
 Parsing unicef-cameroon from https://open.unicef.org/sites/transparency/files/countrydata/iatiActivity_Republic_of_Cameroon.xml
@@ -35195,8 +35196,10 @@ Parsing unicef-malaysia from https://open.unicef.org/sites/transparency/files/co
 found 69 activities
 
 Downloading unicef-maldives from https://open.unicef.org/sites/transparency/files/countrydata/iatiActivity_Maldives.xml
+curl: download ERROR 000
 Parsing unicef-maldives from https://open.unicef.org/sites/transparency/files/countrydata/iatiActivity_Maldives.xml
-found 61 activities
+dflat: input XML file does not exist
+restored 61 files
 
 Downloading unicef-mali from https://open.unicef.org/sites/transparency/files/countrydata/iatiActivity_Mali.xml
 Parsing unicef-mali from https://open.unicef.org/sites/transparency/files/countrydata/iatiActivity_Mali.xml
@@ -35231,8 +35234,10 @@ Parsing unicef-morocco from https://open.unicef.org/sites/transparency/files/cou
 found 77 activities
 
 Downloading unicef-mozambique from https://open.unicef.org/sites/transparency/files/countrydata/iatiActivity_Republic_of_Mozambique.xml
+curl: download ERROR 000
 Parsing unicef-mozambique from https://open.unicef.org/sites/transparency/files/countrydata/iatiActivity_Republic_of_Mozambique.xml
-found 116 activities
+dflat: input XML file does not exist
+restored 116 files
 
 Downloading unicef-myanmar from https://open.unicef.org/sites/transparency/files/countrydata/iatiActivity_Myanmar.xml
 Parsing unicef-myanmar from https://open.unicef.org/sites/transparency/files/countrydata/iatiActivity_Myanmar.xml
@@ -35287,8 +35292,10 @@ Parsing unicefnl-unicef-sho-ukraine from https://files.aida.tools/activities/NL-
 found 2 activities
 
 Downloading unicef-oman from https://open.unicef.org/sites/transparency/files/countrydata/iatiActivity_Oman.xml
+curl: download ERROR 000
 Parsing unicef-oman from https://open.unicef.org/sites/transparency/files/countrydata/iatiActivity_Oman.xml
-found 47 activities
+dflat: input XML file does not exist
+restored 47 files
 
 Downloading unicef-organisation from https://open.unicef.org/sites/transparency/files/countrydata/IATI_ORG.xml
 Parsing unicef-organisation from https://open.unicef.org/sites/transparency/files/countrydata/IATI_ORG.xml
