@@ -11692,7 +11692,7 @@ found 1 organisations
 
 Downloading ebrd-activity from http://www.ebrd.com/ebrd-activity.xml
 Parsing ebrd-activity from http://www.ebrd.com/ebrd-activity.xml
-dflat: no activities or organisations found in XML file
+dflat: invalid XML format
 restored 1757 files
 
 Downloading ebrd-org from http://www.ebrd.com/ebrd-organisation.xml
@@ -11730,19 +11730,19 @@ found 892 activities
 
 Downloading ec-echo-2016 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2016.xml
 Parsing ec-echo-2016 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2016.xml
-found 840 activities
+found 843 activities
 
 Downloading ec-echo-2017 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2017.xml
 Parsing ec-echo-2017 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2017.xml
-found 743 activities
+found 740 activities
 
 Downloading ec-echo-2018 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2018.xml
 Parsing ec-echo-2018 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2018.xml
-found 613 activities
+found 615 activities
 
 Downloading ec-echo-2019 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2019.xml
 Parsing ec-echo-2019 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2019.xml
-found 500 activities
+found 499 activities
 
 Downloading ec-echo-2020 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2020.xml
 Parsing ec-echo-2020 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2020.xml
@@ -11750,19 +11750,19 @@ found 608 activities
 
 Downloading ec-echo-2021 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2021.xml
 Parsing ec-echo-2021 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2021.xml
-found 577 activities
+found 572 activities
 
 Downloading ec-echo-2022 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2022.xml
 Parsing ec-echo-2022 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2022.xml
-found 453 activities
+found 464 activities
 
 Downloading ec-echo-2023 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2023.xml
 Parsing ec-echo-2023 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2023.xml
-found 549 activities
+found 543 activities
 
 Downloading ec-echo-2024 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2024.xml
 Parsing ec-echo-2024 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2024.xml
-found 314 activities
+found 315 activities
 
 Downloading ec-echo-org from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/iati-organisation-file.xml
 Parsing ec-echo-org from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/iati-organisation-file.xml
@@ -13669,10 +13669,9 @@ Downloading f2a-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/f2a-or
 Parsing f2a-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/f2a-org.xml
 found 1 organisations
 
-Downloading f2a-yw4a from https://grants.faithtoactionetwork.org/grants
-Parsing f2a-yw4a from https://grants.faithtoactionetwork.org/grants
-dflat: no activities or organisations found in XML file
-restored 0 files
+Downloading f2a-yw4a from https://grants.faithtoactionetwork.org/grants/f2a-yw4a.xml
+Parsing f2a-yw4a from https://grants.faithtoactionetwork.org/grants/f2a-yw4a.xml
+found 5 activities
 
 Downloading fa-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/fa-activities.xml
 Parsing fa-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/fa-activities.xml
@@ -19111,7 +19110,7 @@ found 303 activities
 
 Downloading ifcwbg-co from https://disclosures.ifc.org/iati/ifc-co.xml
 Parsing ifcwbg-co from https://disclosures.ifc.org/iati/ifc-co.xml
-found 133 activities
+found 132 activities
 
 Downloading ifcwbg-cr from https://disclosures.ifc.org/iati/ifc-cr.xml
 Parsing ifcwbg-cr from https://disclosures.ifc.org/iati/ifc-cr.xml
@@ -19263,7 +19262,7 @@ found 42 activities
 
 Downloading ifcwbg-la from https://disclosures.ifc.org/iati/ifc-la.xml
 Parsing ifcwbg-la from https://disclosures.ifc.org/iati/ifc-la.xml
-found 19 activities
+found 18 activities
 
 Downloading ifcwbg-lb from https://disclosures.ifc.org/iati/ifc-lb.xml
 Parsing ifcwbg-lb from https://disclosures.ifc.org/iati/ifc-lb.xml
@@ -36658,7 +36657,7 @@ dflat: input XML file does not exist
 restored 11 files
 
 Downloading unocha-cbpf-afghanistan-contribution-2017 from https://cbpfapi.unocha.org/iati/iati/23/2017/GetContribution.xml
-curl: download ERROR 000
+curl: download ERROR 500
 Parsing unocha-cbpf-afghanistan-contribution-2017 from https://cbpfapi.unocha.org/iati/iati/23/2017/GetContribution.xml
 dflat: input XML file does not exist
 restored 7 files
@@ -37306,7 +37305,7 @@ dflat: input XML file does not exist
 restored 142 files
 
 Downloading unocha-cbpf-ethiopia-allocation-2019 from https://cbpfapi.unocha.org/iati/iati/53/2019/GetAllocation.xml
-curl: download ERROR 000
+curl: download ERROR 500
 Parsing unocha-cbpf-ethiopia-allocation-2019 from https://cbpfapi.unocha.org/iati/iati/53/2019/GetAllocation.xml
 dflat: input XML file does not exist
 restored 127 files
@@ -38062,7 +38061,7 @@ dflat: input XML file does not exist
 restored 1 files
 
 Downloading unocha-cbpf-nigeria-2019 from https://cbpfapi.unocha.org/iati/iati/75/2019/GetPooledFund.xml
-curl: download ERROR 000
+curl: download ERROR 500
 Parsing unocha-cbpf-nigeria-2019 from https://cbpfapi.unocha.org/iati/iati/75/2019/GetPooledFund.xml
 dflat: input XML file does not exist
 restored 1 files
@@ -38482,7 +38481,7 @@ dflat: input XML file does not exist
 restored 18 files
 
 Downloading unocha-cbpf-opt-contribution-2019 from https://cbpfapi.unocha.org/iati/iati/67/2019/GetContribution.xml
-curl: download ERROR 000
+curl: download ERROR 500
 Parsing unocha-cbpf-opt-contribution-2019 from https://cbpfapi.unocha.org/iati/iati/67/2019/GetContribution.xml
 dflat: input XML file does not exist
 restored 11 files
@@ -38812,7 +38811,7 @@ dflat: input XML file does not exist
 restored 19 files
 
 Downloading unocha-cbpf-somalia-contribution-2020 from https://cbpfapi.unocha.org/iati/iati/21/2020/GetContribution.xml
-curl: download ERROR 000
+curl: download ERROR 500
 Parsing unocha-cbpf-somalia-contribution-2020 from https://cbpfapi.unocha.org/iati/iati/21/2020/GetContribution.xml
 dflat: input XML file does not exist
 restored 21 files
@@ -38950,7 +38949,7 @@ dflat: input XML file does not exist
 restored 12 files
 
 Downloading unocha-cbpf-southsudan-contribution-2016 from https://cbpfapi.unocha.org/iati/iati/19/2016/GetContribution.xml
-curl: download ERROR 000
+curl: download ERROR 500
 Parsing unocha-cbpf-southsudan-contribution-2016 from https://cbpfapi.unocha.org/iati/iati/19/2016/GetContribution.xml
 dflat: input XML file does not exist
 restored 17 files
@@ -39274,7 +39273,7 @@ dflat: input XML file does not exist
 restored 0 files
 
 Downloading unocha-cbpf-syria-contribution-2016 from https://cbpfapi.unocha.org/iati/iati/62/2016/GetContribution.xml
-curl: download ERROR 000
+curl: download ERROR 500
 Parsing unocha-cbpf-syria-contribution-2016 from https://cbpfapi.unocha.org/iati/iati/62/2016/GetContribution.xml
 dflat: input XML file does not exist
 restored 22 files
@@ -39316,7 +39315,7 @@ dflat: input XML file does not exist
 restored 20 files
 
 Downloading unocha-cbpf-syria-contribution-2023 from https://cbpfapi.unocha.org/iati/iati/62/2023/GetContribution.xml
-curl: download ERROR 000
+curl: download ERROR 500
 Parsing unocha-cbpf-syria-contribution-2023 from https://cbpfapi.unocha.org/iati/iati/62/2023/GetContribution.xml
 dflat: input XML file does not exist
 restored 31 files
@@ -39538,7 +39537,7 @@ dflat: input XML file does not exist
 restored 27 files
 
 Downloading unocha-cbpf-ukraine-allocation-2021 from https://cbpfapi.unocha.org/iati/iati/81/2021/GetAllocation.xml
-curl: download ERROR 000
+curl: download ERROR 500
 Parsing unocha-cbpf-ukraine-allocation-2021 from https://cbpfapi.unocha.org/iati/iati/81/2021/GetAllocation.xml
 dflat: input XML file does not exist
 restored 26 files
@@ -39700,7 +39699,7 @@ dflat: input XML file does not exist
 restored 1 files
 
 Downloading unocha-cbpf-yemen-2018 from https://cbpfapi.unocha.org/iati/iati/64/2018/GetPooledFund.xml
-curl: download ERROR 000
+curl: download ERROR 500
 Parsing unocha-cbpf-yemen-2018 from https://cbpfapi.unocha.org/iati/iati/64/2018/GetPooledFund.xml
 dflat: input XML file does not exist
 restored 1 files
