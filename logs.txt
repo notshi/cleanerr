@@ -4349,7 +4349,7 @@ found 1 activities
 
 Downloading be-dgd-2021_1 from http://diplomatie.be/oda/IATI_2024_1.xml
 Parsing be-dgd-2021_1 from http://diplomatie.be/oda/IATI_2024_1.xml
-found 98 activities
+found 101 activities
 
 Downloading be-dgd-2021_2 from http://diplomatie.be/oda/IATI_2024_2.xml
 Parsing be-dgd-2021_2 from http://diplomatie.be/oda/IATI_2024_2.xml
@@ -7153,7 +7153,7 @@ found 14 activities
 
 Downloading cisu-gaia from https://vores.cisu.dk/activities.xml
 Parsing cisu-gaia from https://vores.cisu.dk/activities.xml
-found 2789 activities
+found 2792 activities
 
 Downloading cisu-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/cisu-org.xml
 Parsing cisu-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/cisu-org.xml
@@ -11864,15 +11864,15 @@ found 892 activities
 
 Downloading ec-echo-2016 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2016.xml
 Parsing ec-echo-2016 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2016.xml
-found 843 activities
+found 845 activities
 
 Downloading ec-echo-2017 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2017.xml
 Parsing ec-echo-2017 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2017.xml
-found 732 activities
+found 729 activities
 
 Downloading ec-echo-2018 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2018.xml
 Parsing ec-echo-2018 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2018.xml
-found 603 activities
+found 604 activities
 
 Downloading ec-echo-2019 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2019.xml
 Parsing ec-echo-2019 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2019.xml
@@ -11884,15 +11884,15 @@ found 597 activities
 
 Downloading ec-echo-2021 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2021.xml
 Parsing ec-echo-2021 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2021.xml
-found 583 activities
+found 584 activities
 
 Downloading ec-echo-2022 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2022.xml
 Parsing ec-echo-2022 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2022.xml
-found 446 activities
+found 452 activities
 
 Downloading ec-echo-2023 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2023.xml
 Parsing ec-echo-2023 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2023.xml
-found 540 activities
+found 534 activities
 
 Downloading ec-echo-2024 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2024.xml
 Parsing ec-echo-2024 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2024.xml
@@ -12459,8 +12459,10 @@ Parsing ec-intpa-am from https://ec.europa.eu/international-partnerships/assets/
 found 17 activities
 
 Downloading ec-intpa-ao from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_AO.xml
+curl: download ERROR 000
 Parsing ec-intpa-ao from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_AO.xml
-found 81 activities
+dflat: input XML file does not exist
+restored 81 files
 
 Downloading ec-intpa-ar from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_AR.xml
 Parsing ec-intpa-ar from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_INTPA_C_AR.xml
@@ -14720,6 +14722,10 @@ found 3 activities
 
 Downloading finland_mfa-mk from http://formin.finland.fi/opendata/IATI/Finland_MK.xml
 Converting IATI activities version 1.00 to version 2.03
+./iati-activities.xsl:252: parser error : Premature end of data in tag administrative line 251
+          
+          ^
+cannot parse ./iati-activities.xsl
 Parsing finland_mfa-mk from http://formin.finland.fi/opendata/IATI/Finland_MK.xml
 found 7 activities
 
@@ -18433,8 +18439,7 @@ found 386 activities
 
 Downloading idrccrdi-act-closed-2018-2019 from https://idrc-crdi.ca/sites/default/files/2023-05/idrc_iati_activities_Closed_2018-04-01_2019-03-31.xml
 Parsing idrccrdi-act-closed-2018-2019 from https://idrc-crdi.ca/sites/default/files/2023-05/idrc_iati_activities_Closed_2018-04-01_2019-03-31.xml
-dflat: invalid XML format
-restored 449 files
+found 449 activities
 
 Downloading idrccrdi-act-closed-2019-2020 from https://idrc-crdi.ca/sites/default/files/2023-05/idrc_iati_activities_Closed_2019-04-01_2020-03-31_0.xml
 Parsing idrccrdi-act-closed-2019-2020 from https://idrc-crdi.ca/sites/default/files/2023-05/idrc_iati_activities_Closed_2019-04-01_2020-03-31_0.xml
@@ -20762,7 +20767,7 @@ found 7 activities
 
 Downloading irc_inc-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/irc_inc-activities.xml
 Parsing irc_inc-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/irc_inc-activities.xml
-found 146 activities
+found 147 activities
 
 Downloading irc_inc-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/irc_inc-org.xml
 Parsing irc_inc-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/irc_inc-org.xml
@@ -25318,8 +25323,10 @@ Parsing nri-798 from https://aidstream.s3.us-west-2.amazonaws.com/xml/nri-798.xm
 found 1 activities
 
 Downloading nri-998 from https://aidstream.s3.us-west-2.amazonaws.com/xml/nri-998.xml
+curl: download ERROR 403
 Parsing nri-998 from https://aidstream.s3.us-west-2.amazonaws.com/xml/nri-998.xml
-found 1 activities
+dflat: input XML file does not exist
+restored 1 files
 
 Downloading nri-co from https://aidstream.s3.us-west-2.amazonaws.com/xml/nri-co.xml
 Parsing nri-co from https://aidstream.s3.us-west-2.amazonaws.com/xml/nri-co.xml
@@ -25904,7 +25911,7 @@ found 2205 activities
 
 Downloading onl-activity from https://www.oxfamnovib.nl/redactie/Downloads/XML/iati.xml
 Parsing onl-activity from https://www.oxfamnovib.nl/redactie/Downloads/XML/iati.xml
-found 2323 activities
+found 2324 activities
 
 Downloading onl-org from https://www.oxfamnovib.nl/redactie/downloads/xml/IATI_NL-KVK-27108436.xml
 Parsing onl-org from https://www.oxfamnovib.nl/redactie/downloads/xml/IATI_NL-KVK-27108436.xml
@@ -27791,7 +27798,7 @@ found 1 organisations
 
 Downloading pumnl-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/pumnl-activities.xml
 Parsing pumnl-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/pumnl-activities.xml
-found 90 activities
+found 94 activities
 
 Downloading pumnl-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/pumnl-org.xml
 Parsing pumnl-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/pumnl-org.xml
@@ -28447,7 +28454,7 @@ found 1 organisations
 
 Downloading rvo-01 from https://projects.rvo.nl/opendata/iati.xml
 Parsing rvo-01 from https://projects.rvo.nl/opendata/iati.xml
-found 4859 activities
+found 4870 activities
 
 Downloading rvo-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/rvo-activities.xml
 Parsing rvo-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/rvo-activities.xml
@@ -30675,9 +30682,8 @@ Parsing state-westindiesregional from https://iati-reporting.s3.amazonaws.com/de
 found 84 activities
 
 Downloading state-worldwide from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Worldwide.xml
-curl: download ERROR 403
 Parsing state-worldwide from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Worldwide.xml
-dflat: input XML file does not exist
+dflat: invalid XML format
 restored 14748 files
 
 Downloading state-yemen from https://iati-reporting.s3.amazonaws.com/department_of_state/xml/iati-activities-Yemen.xml
@@ -30759,7 +30765,7 @@ found 1 organisations
 
 Downloading st_vluchteling-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/st_vluchteling-activities.xml
 Parsing st_vluchteling-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/st_vluchteling-activities.xml
-found 99 activities
+found 101 activities
 
 Downloading st_vluchteling-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/st_vluchteling-org.xml
 Parsing st_vluchteling-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/st_vluchteling-org.xml
@@ -30918,8 +30924,8 @@ Converting IATI organisations version 1.03 to version 2.03
 Parsing tamtf-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/tamtf-org.xml
 found 1 organisations
 
-Downloading tan-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/tan-activities.xml
-Parsing tan-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/tan-activities.xml
+Downloading tan-activities from https://iatipublisher-prod.s3.amazonaws.com/xml/mergedActivityXml/tan-activities.xml
+Parsing tan-activities from https://iatipublisher-prod.s3.amazonaws.com/xml/mergedActivityXml/tan-activities.xml
 found 1 activities
 
 Downloading tan-organisation from https://iatipublisher-prod.s3.amazonaws.com/organizationXmlFiles/tan-organisation.xml
@@ -38480,7 +38486,7 @@ found 33 activities
 
 Downloading unocha-cbpf-ukraine-contribution-2024 from https://cbpfapi.unocha.org/iati/iati/81/2024/GetContribution.xml
 Parsing unocha-cbpf-ukraine-contribution-2024 from https://cbpfapi.unocha.org/iati/iati/81/2024/GetContribution.xml
-found 13 activities
+found 14 activities
 
 Downloading unocha-cbpf-venezuela-2020 from https://cbpfapi.unocha.org/iati/iati/83/2020/GetPooledFund.xml
 Parsing unocha-cbpf-venezuela-2020 from https://cbpfapi.unocha.org/iati/iati/83/2020/GetPooledFund.xml
@@ -42634,6 +42640,30 @@ Downloading wbtf-tf071154 from https://d2mxkr7359ifh6.cloudfront.net/TF071154.xm
 Parsing wbtf-tf071154 from https://d2mxkr7359ifh6.cloudfront.net/TF071154.xml
 found 1 activities
 
+Downloading wbtf-tf071156 from https://d2mxkr7359ifh6.cloudfront.net/TF071156.xml
+Parsing wbtf-tf071156 from https://d2mxkr7359ifh6.cloudfront.net/TF071156.xml
+found 5 activities
+
+Downloading wbtf-tf071157 from https://d2mxkr7359ifh6.cloudfront.net/TF071157.xml
+Parsing wbtf-tf071157 from https://d2mxkr7359ifh6.cloudfront.net/TF071157.xml
+found 3 activities
+
+Downloading wbtf-tf071161 from https://d2mxkr7359ifh6.cloudfront.net/TF071161.xml
+Parsing wbtf-tf071161 from https://d2mxkr7359ifh6.cloudfront.net/TF071161.xml
+found 3 activities
+
+Downloading wbtf-tf071165 from https://d2mxkr7359ifh6.cloudfront.net/TF071165.xml
+Parsing wbtf-tf071165 from https://d2mxkr7359ifh6.cloudfront.net/TF071165.xml
+found 9 activities
+
+Downloading wbtf-tf071166 from https://d2mxkr7359ifh6.cloudfront.net/TF071166.xml
+Parsing wbtf-tf071166 from https://d2mxkr7359ifh6.cloudfront.net/TF071166.xml
+found 2 activities
+
+Downloading wbtf-tf071187 from https://d2mxkr7359ifh6.cloudfront.net/TF071187.xml
+Parsing wbtf-tf071187 from https://d2mxkr7359ifh6.cloudfront.net/TF071187.xml
+found 4 activities
+
 Downloading wbtf-tf071192 from https://d2mxkr7359ifh6.cloudfront.net/TF071192.xml
 Parsing wbtf-tf071192 from https://d2mxkr7359ifh6.cloudfront.net/TF071192.xml
 found 2 activities
@@ -42646,13 +42676,33 @@ Downloading wbtf-tf071199 from https://d2mxkr7359ifh6.cloudfront.net/TF071199.xm
 Parsing wbtf-tf071199 from https://d2mxkr7359ifh6.cloudfront.net/TF071199.xml
 found 1 activities
 
+Downloading wbtf-tf071200 from https://d2mxkr7359ifh6.cloudfront.net/TF071200.xml
+Parsing wbtf-tf071200 from https://d2mxkr7359ifh6.cloudfront.net/TF071200.xml
+found 4 activities
+
 Downloading wbtf-tf071202 from https://d2mxkr7359ifh6.cloudfront.net/TF071202.xml
 Parsing wbtf-tf071202 from https://d2mxkr7359ifh6.cloudfront.net/TF071202.xml
 found 2 activities
 
+Downloading wbtf-tf071208 from https://d2mxkr7359ifh6.cloudfront.net/TF071208.xml
+Parsing wbtf-tf071208 from https://d2mxkr7359ifh6.cloudfront.net/TF071208.xml
+found 5 activities
+
 Downloading wbtf-tf071209 from https://d2mxkr7359ifh6.cloudfront.net/TF071209.xml
 Parsing wbtf-tf071209 from https://d2mxkr7359ifh6.cloudfront.net/TF071209.xml
 found 1 activities
+
+Downloading wbtf-tf071220 from https://d2mxkr7359ifh6.cloudfront.net/TF071220.xml
+Parsing wbtf-tf071220 from https://d2mxkr7359ifh6.cloudfront.net/TF071220.xml
+found 6 activities
+
+Downloading wbtf-tf071223 from https://d2mxkr7359ifh6.cloudfront.net/TF071223.xml
+Parsing wbtf-tf071223 from https://d2mxkr7359ifh6.cloudfront.net/TF071223.xml
+found 1 activities
+
+Downloading wbtf-tf071225 from https://d2mxkr7359ifh6.cloudfront.net/TF071225.xml
+Parsing wbtf-tf071225 from https://d2mxkr7359ifh6.cloudfront.net/TF071225.xml
+found 6 activities
 
 Downloading wbtf-tf071227 from https://d2mxkr7359ifh6.cloudfront.net/TF071227.xml
 Parsing wbtf-tf071227 from https://d2mxkr7359ifh6.cloudfront.net/TF071227.xml
@@ -42662,6 +42712,10 @@ Downloading wbtf-tf071228 from https://d2mxkr7359ifh6.cloudfront.net/TF071228.xm
 Parsing wbtf-tf071228 from https://d2mxkr7359ifh6.cloudfront.net/TF071228.xml
 found 2 activities
 
+Downloading wbtf-tf071232 from https://d2mxkr7359ifh6.cloudfront.net/TF071232.xml
+Parsing wbtf-tf071232 from https://d2mxkr7359ifh6.cloudfront.net/TF071232.xml
+found 1 activities
+
 Downloading wbtf-tf071234 from https://d2mxkr7359ifh6.cloudfront.net/TF071234.xml
 Parsing wbtf-tf071234 from https://d2mxkr7359ifh6.cloudfront.net/TF071234.xml
 found 1 activities
@@ -42669,6 +42723,10 @@ found 1 activities
 Downloading wbtf-tf071235 from https://d2mxkr7359ifh6.cloudfront.net/TF071235.xml
 Parsing wbtf-tf071235 from https://d2mxkr7359ifh6.cloudfront.net/TF071235.xml
 found 1 activities
+
+Downloading wbtf-tf071239 from https://d2mxkr7359ifh6.cloudfront.net/TF071239.xml
+Parsing wbtf-tf071239 from https://d2mxkr7359ifh6.cloudfront.net/TF071239.xml
+found 7 activities
 
 Downloading wbtf-tf071241 from https://d2mxkr7359ifh6.cloudfront.net/TF071241.xml
 Parsing wbtf-tf071241 from https://d2mxkr7359ifh6.cloudfront.net/TF071241.xml
@@ -42678,6 +42736,22 @@ Downloading wbtf-tf071244 from https://d2mxkr7359ifh6.cloudfront.net/TF071244.xm
 Parsing wbtf-tf071244 from https://d2mxkr7359ifh6.cloudfront.net/TF071244.xml
 found 3 activities
 
+Downloading wbtf-tf071249 from https://d2mxkr7359ifh6.cloudfront.net/TF071249.xml
+Parsing wbtf-tf071249 from https://d2mxkr7359ifh6.cloudfront.net/TF071249.xml
+found 11 activities
+
+Downloading wbtf-tf071250 from https://d2mxkr7359ifh6.cloudfront.net/TF071250.xml
+Parsing wbtf-tf071250 from https://d2mxkr7359ifh6.cloudfront.net/TF071250.xml
+found 7 activities
+
+Downloading wbtf-tf071265 from https://d2mxkr7359ifh6.cloudfront.net/TF071265.xml
+Parsing wbtf-tf071265 from https://d2mxkr7359ifh6.cloudfront.net/TF071265.xml
+found 5 activities
+
+Downloading wbtf-tf071266 from https://d2mxkr7359ifh6.cloudfront.net/TF071266.xml
+Parsing wbtf-tf071266 from https://d2mxkr7359ifh6.cloudfront.net/TF071266.xml
+found 2 activities
+
 Downloading wbtf-tf071267 from https://d2mxkr7359ifh6.cloudfront.net/TF071267.xml
 Parsing wbtf-tf071267 from https://d2mxkr7359ifh6.cloudfront.net/TF071267.xml
 found 2 activities
@@ -42685,6 +42759,26 @@ found 2 activities
 Downloading wbtf-tf071293 from https://d2mxkr7359ifh6.cloudfront.net/TF071293.xml
 Parsing wbtf-tf071293 from https://d2mxkr7359ifh6.cloudfront.net/TF071293.xml
 found 2 activities
+
+Downloading wbtf-tf071294 from https://d2mxkr7359ifh6.cloudfront.net/TF071294.xml
+Parsing wbtf-tf071294 from https://d2mxkr7359ifh6.cloudfront.net/TF071294.xml
+found 4 activities
+
+Downloading wbtf-tf071295 from https://d2mxkr7359ifh6.cloudfront.net/TF071295.xml
+Parsing wbtf-tf071295 from https://d2mxkr7359ifh6.cloudfront.net/TF071295.xml
+found 2 activities
+
+Downloading wbtf-tf071297 from https://d2mxkr7359ifh6.cloudfront.net/TF071297.xml
+Parsing wbtf-tf071297 from https://d2mxkr7359ifh6.cloudfront.net/TF071297.xml
+found 3 activities
+
+Downloading wbtf-tf071307 from https://d2mxkr7359ifh6.cloudfront.net/TF071307.xml
+Parsing wbtf-tf071307 from https://d2mxkr7359ifh6.cloudfront.net/TF071307.xml
+found 2 activities
+
+Downloading wbtf-tf071309 from https://d2mxkr7359ifh6.cloudfront.net/TF071309.xml
+Parsing wbtf-tf071309 from https://d2mxkr7359ifh6.cloudfront.net/TF071309.xml
+found 23 activities
 
 Downloading wbtf-tf071328 from https://d2mxkr7359ifh6.cloudfront.net/TF071328.xml
 Parsing wbtf-tf071328 from https://d2mxkr7359ifh6.cloudfront.net/TF071328.xml
