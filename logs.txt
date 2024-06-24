@@ -11869,23 +11869,23 @@ found 892 activities
 
 Downloading ec-echo-2016 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2016.xml
 Parsing ec-echo-2016 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2016.xml
-found 846 activities
+found 847 activities
 
 Downloading ec-echo-2017 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2017.xml
 Parsing ec-echo-2017 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2017.xml
-found 730 activities
+found 727 activities
 
 Downloading ec-echo-2018 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2018.xml
 Parsing ec-echo-2018 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2018.xml
-found 601 activities
+found 604 activities
 
 Downloading ec-echo-2019 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2019.xml
 Parsing ec-echo-2019 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2019.xml
-found 517 activities
+found 518 activities
 
 Downloading ec-echo-2020 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2020.xml
 Parsing ec-echo-2020 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2020.xml
-found 602 activities
+found 600 activities
 
 Downloading ec-echo-2021 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2021.xml
 Parsing ec-echo-2021 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2021.xml
@@ -11893,15 +11893,15 @@ found 583 activities
 
 Downloading ec-echo-2022 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2022.xml
 Parsing ec-echo-2022 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2022.xml
-found 455 activities
+found 453 activities
 
 Downloading ec-echo-2023 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2023.xml
 Parsing ec-echo-2023 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2023.xml
-found 538 activities
+found 530 activities
 
 Downloading ec-echo-2024 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2024.xml
 Parsing ec-echo-2024 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2024.xml
-found 400 activities
+found 409 activities
 
 Downloading ec-echo-org from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/iati-organisation-file.xml
 Parsing ec-echo-org from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/iati-organisation-file.xml
@@ -18418,7 +18418,8 @@ found 8 activities
 
 Downloading idrccrdi-act-active from https://idrc-crdi.ca/sites/default/files/2024-05/idrc_iati_activities_Active_2023-04-01_2024-03-31.xml
 Parsing idrccrdi-act-active from https://idrc-crdi.ca/sites/default/files/2024-05/idrc_iati_activities_Active_2023-04-01_2024-03-31.xml
-found 1544 activities
+dflat: invalid XML format
+restored 1544 files
 
 Downloading idrccrdi-act-closed-2009-2015 from https://idrc-crdi.ca/sites/default/files/2023-05/idrc_iati_activities_Closed_2009-04-01_2015-03-31_0.xml
 Parsing idrccrdi-act-closed-2009-2015 from https://idrc-crdi.ca/sites/default/files/2023-05/idrc_iati_activities_Closed_2009-04-01_2015-03-31_0.xml
@@ -28525,8 +28526,10 @@ Parsing sas_sana-activities from https://aidstream.s3.us-west-2.amazonaws.com/xm
 found 3 activities
 
 Downloading satelliteapplicationscatapultltd-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/satelliteapplicationscatapultltd-activities.xml
+curl: download ERROR 000
 Parsing satelliteapplicationscatapultltd-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/satelliteapplicationscatapultltd-activities.xml
-found 1 activities
+dflat: input XML file does not exist
+restored 1 files
 
 Downloading savsign-org-201801 from http://iati.simavi.org/SAVSIGN/IATI-activities.xml
 curl: download ERROR 404
@@ -42116,10 +42119,6 @@ found 25 activities
 
 Downloading wateraid-ke from https://www.wateraid.org/sites/g/files/jkxoof271/files/-wa-opendata-ke_1.xml
 Converting IATI activities version 1.04 to version 2.03
-./iati-activities.xsl:531: parser error : Premature end of data in tag for-each line 530
-          
-          ^
-cannot parse ./iati-activities.xsl
 Parsing wateraid-ke from https://www.wateraid.org/sites/g/files/jkxoof271/files/-wa-opendata-ke_1.xml
 found 1 activities
 
