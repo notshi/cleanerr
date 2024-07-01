@@ -7179,6 +7179,14 @@ Downloading cnepal-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/cne
 Parsing cnepal-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/cnepal-org.xml
 found 1 organisations
 
+Downloading cnrs-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/cnrs-activities.xml
+Parsing cnrs-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/cnrs-activities.xml
+found 1 activities
+
+Downloading cnrs-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/cnrs-org.xml
+Parsing cnrs-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/cnrs-org.xml
+found 1 organisations
+
 Downloading cobracollective-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/cobracollective-activities.xml
 Parsing cobracollective-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/cobracollective-activities.xml
 found 1 activities
@@ -11683,39 +11691,39 @@ found 892 activities
 
 Downloading ec-echo-2016 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2016.xml
 Parsing ec-echo-2016 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2016.xml
-found 845 activities
+found 842 activities
 
 Downloading ec-echo-2017 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2017.xml
 Parsing ec-echo-2017 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2017.xml
-found 729 activities
+found 731 activities
 
 Downloading ec-echo-2018 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2018.xml
 Parsing ec-echo-2018 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2018.xml
-found 601 activities
+found 605 activities
 
 Downloading ec-echo-2019 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2019.xml
 Parsing ec-echo-2019 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2019.xml
-found 521 activities
+found 520 activities
 
 Downloading ec-echo-2020 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2020.xml
 Parsing ec-echo-2020 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2020.xml
-found 599 activities
+found 597 activities
 
 Downloading ec-echo-2021 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2021.xml
 Parsing ec-echo-2021 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2021.xml
-found 580 activities
+found 581 activities
 
 Downloading ec-echo-2022 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2022.xml
 Parsing ec-echo-2022 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2022.xml
-found 459 activities
+found 454 activities
 
 Downloading ec-echo-2023 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2023.xml
 Parsing ec-echo-2023 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2023.xml
-found 531 activities
+found 533 activities
 
 Downloading ec-echo-2024 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2024.xml
 Parsing ec-echo-2024 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2024.xml
-found 417 activities
+found 420 activities
 
 Downloading ec-echo-org from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/iati-organisation-file.xml
 Parsing ec-echo-org from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/iati-organisation-file.xml
@@ -25544,8 +25552,10 @@ Parsing odakorea-act3 from https://www.odakorea.go.kr/opm/iati_act_KR-GOV-050.xm
 found 4 activities
 
 Downloading odakorea-act40 from https://www.odakorea.go.kr/opm/iati_act_KR-GOV-390.xml
+curl: download ERROR 000
 Parsing odakorea-act40 from https://www.odakorea.go.kr/opm/iati_act_KR-GOV-390.xml
-found 1 activities
+dflat: input XML file does not exist
+restored 1 files
 
 Downloading odakorea-act41 from https://www.odakorea.go.kr/opm/iati_act_KR-GOV-400.xml
 Parsing odakorea-act41 from https://www.odakorea.go.kr/opm/iati_act_KR-GOV-400.xml
@@ -25652,16 +25662,22 @@ Parsing oecd-beps from http://www.oecd.org/about/budget/iati/ctp/activity-file-b
 found 1 activities
 
 Downloading oecd-development_taxation from http://www.oecd.org/about/budget/iati/ctp/activity-file-development-activities-in-oecd-work-on-taxation.xml
+curl: download ERROR 404
 Parsing oecd-development_taxation from http://www.oecd.org/about/budget/iati/ctp/activity-file-development-activities-in-oecd-work-on-taxation.xml
-found 1 activities
+dflat: input XML file does not exist
+restored 1 files
 
 Downloading oecd-global_forum from http://www.oecd.org/about/budget/iati/ctp/activity-file-global-forum-on-transparency-and-exchange-of-information-for-tax-purposes.xml
+curl: download ERROR 404
 Parsing oecd-global_forum from http://www.oecd.org/about/budget/iati/ctp/activity-file-global-forum-on-transparency-and-exchange-of-information-for-tax-purposes.xml
-found 1 activities
+dflat: input XML file does not exist
+restored 1 files
 
 Downloading oecd-org from https://www.oecd.org/about/budget/iati/ctp/organisation-file.xml
+curl: download ERROR 404
 Parsing oecd-org from https://www.oecd.org/about/budget/iati/ctp/organisation-file.xml
-found 1 organisations
+dflat: input XML file does not exist
+restored 1 files
 
 Downloading ofid-activity1 from https://app1.opecfund.org/IATI/OFID_IATI_XML.xml
 curl: download ERROR 000
@@ -27151,7 +27167,7 @@ Parsing plannlno-org from https://iati.plannederland.nl/plannlno-org.xml
 found 1 organisations
 
 Downloading plan_uk-organisationfile from https://plan-uk.org/iatifeed/plan_uk-org.xml
-curl: download ERROR 500
+curl: download ERROR 000
 Parsing plan_uk-organisationfile from https://plan-uk.org/iatifeed/plan_uk-org.xml
 dflat: input XML file does not exist
 restored 1 files
