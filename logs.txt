@@ -1631,10 +1631,8 @@ Parsing afd-gm from https://static.data.gouv.fr/resources/donnees-de-laide-au-de
 found 11 activities
 
 Downloading afd-gn from https://static.data.gouv.fr/resources/donnees-de-laide-au-developpement-de-lafd-1/20240822-153932/fr-afd-gn.xml
-curl: download ERROR 000
 Parsing afd-gn from https://static.data.gouv.fr/resources/donnees-de-laide-au-developpement-de-lafd-1/20240822-153932/fr-afd-gn.xml
-dflat: input XML file does not exist
-restored 78 files
+found 78 activities
 
 Downloading afd-gw from https://static.data.gouv.fr/resources/donnees-de-laide-au-developpement-de-lafd-1/20240822-154220/fr-afd-gw.xml
 Parsing afd-gw from https://static.data.gouv.fr/resources/donnees-de-laide-au-developpement-de-lafd-1/20240822-154220/fr-afd-gw.xml
@@ -3595,10 +3593,8 @@ Parsing ausgov-et from https://www.dfat.gov.au/sites/default/files/Australian_Ai
 found 102 activities
 
 Downloading ausgov-fj from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Fiji.xml
-curl: download ERROR 000
 Parsing ausgov-fj from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Fiji.xml
-dflat: input XML file does not exist
-restored 356 files
+found 356 activities
 
 Downloading ausgov-fm from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Micronesia_Fed_Sts.xml
 Parsing ausgov-fm from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Micronesia_Fed_Sts.xml
@@ -3725,8 +3721,10 @@ Parsing ausgov-lk from https://www.dfat.gov.au/sites/default/files/Australian_Ai
 found 180 activities
 
 Downloading ausgov-lr from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Liberia.xml
+curl: download ERROR 000
 Parsing ausgov-lr from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Liberia.xml
-found 44 activities
+dflat: input XML file does not exist
+restored 44 files
 
 Downloading ausgov-ls from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Lesotho.xml
 Parsing ausgov-ls from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Lesotho.xml
@@ -4404,7 +4402,7 @@ found 1 organisations
 
 Downloading beis-activities from https://science-and-innovation-network.s3.eu-west-2.amazonaws.com/BEIS+ICF+Activity+File.xml
 Parsing beis-activities from https://science-and-innovation-network.s3.eu-west-2.amazonaws.com/BEIS+ICF+Activity+File.xml
-found 11 activities
+found 43 activities
 
 Downloading beis-activity from https://science-and-innovation-network.s3.eu-west-2.amazonaws.com/BEIS+ICF+Activity+Managed+by+FCDO+File.xml
 Parsing beis-activity from https://science-and-innovation-network.s3.eu-west-2.amazonaws.com/BEIS+ICF+Activity+Managed+by+FCDO+File.xml
@@ -5612,6 +5610,10 @@ Downloading cabi-tz from https://aidstream.s3.us-west-2.amazonaws.com/xml/cabi-t
 Parsing cabi-tz from https://aidstream.s3.us-west-2.amazonaws.com/xml/cabi-tz.xml
 found 1 activities
 
+Downloading cadasta-activities from https://iatipublisher-prod.s3.amazonaws.com/xml/mergedActivityXml/cadasta-activities.xml
+Parsing cadasta-activities from https://iatipublisher-prod.s3.amazonaws.com/xml/mergedActivityXml/cadasta-activities.xml
+found 1 activities
+
 Downloading cadasta-organisation from https://iatipublisher-prod.s3.amazonaws.com/organizationXmlFiles/cadasta-organisation.xml
 Parsing cadasta-organisation from https://iatipublisher-prod.s3.amazonaws.com/organizationXmlFiles/cadasta-organisation.xml
 found 1 organisations
@@ -6510,7 +6512,7 @@ found 381 activities
 
 Downloading cerf-projectsfunded2024 from https://cerfgms-webapi.unocha.org/v1/iati/project/year/2024.xml
 Parsing cerf-projectsfunded2024 from https://cerfgms-webapi.unocha.org/v1/iati/project/year/2024.xml
-found 149 activities
+found 150 activities
 
 Downloading cesc-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/cesc-activities.xml
 Parsing cesc-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/cesc-activities.xml
@@ -7012,7 +7014,7 @@ found 2 activities
 
 Downloading cisu-gaia from https://vores.cisu.dk/activities.xml
 Parsing cisu-gaia from https://vores.cisu.dk/activities.xml
-found 2835 activities
+found 2799 activities
 
 Downloading cisu-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/cisu-org.xml
 Parsing cisu-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/cisu-org.xml
@@ -11918,7 +11920,7 @@ found 892 activities
 
 Downloading ec-echo-2016 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2016.xml
 Parsing ec-echo-2016 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2016.xml
-found 844 activities
+found 848 activities
 
 Downloading ec-echo-2017 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2017.xml
 Parsing ec-echo-2017 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2017.xml
@@ -11934,23 +11936,23 @@ found 517 activities
 
 Downloading ec-echo-2020 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2020.xml
 Parsing ec-echo-2020 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2020.xml
-found 601 activities
+found 599 activities
 
 Downloading ec-echo-2021 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2021.xml
 Parsing ec-echo-2021 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2021.xml
-found 578 activities
+found 580 activities
 
 Downloading ec-echo-2022 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2022.xml
 Parsing ec-echo-2022 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2022.xml
-found 457 activities
+found 451 activities
 
 Downloading ec-echo-2023 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2023.xml
 Parsing ec-echo-2023 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2023.xml
-found 532 activities
+found 534 activities
 
 Downloading ec-echo-2024 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2024.xml
 Parsing ec-echo-2024 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2024.xml
-found 460 activities
+found 465 activities
 
 Downloading ec-echo-org from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/iati-organisation-file.xml
 Parsing ec-echo-org from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/iati-organisation-file.xml
@@ -13325,6 +13327,10 @@ found 1 activities
 Downloading ecuk-zw from https://aidstream.s3.us-west-2.amazonaws.com/xml/ecuk-zw.xml
 Parsing ecuk-zw from https://aidstream.s3.us-west-2.amazonaws.com/xml/ecuk-zw.xml
 found 1 activities
+
+Downloading ecw-0924 from https://www.educationcannotwait.org/sites/default/files/2024-09/ECWIATI.xml
+Parsing ecw-0924 from https://www.educationcannotwait.org/sites/default/files/2024-09/ECWIATI.xml
+found 365 activities
 
 Downloading edc-activities from https://iatipublisher-prod.s3.amazonaws.com/xml/mergedActivityXml/edc-activities.xml
 Parsing edc-activities from https://iatipublisher-prod.s3.amazonaws.com/xml/mergedActivityXml/edc-activities.xml
@@ -15476,7 +15482,7 @@ Parsing france-cg from https://baseprojets.transparence-aide.gouv.fr/api/iati/2.
 found 66 activities
 
 Downloading france-cicid from https://www.diplomatie.gouv.fr/en/french-foreign-policy/development-assistance/news/2018/article/interministerial-committee-for-international-cooperation-and-development-a-new
-curl: download ERROR 000
+curl: download ERROR 404
 Parsing france-cicid from https://www.diplomatie.gouv.fr/en/french-foreign-policy/development-assistance/news/2018/article/interministerial-committee-for-international-cooperation-and-development-a-new
 dflat: input XML file does not exist
 restored 0 files
@@ -15635,7 +15641,7 @@ Parsing france-pk from https://baseprojets.transparence-aide.gouv.fr/api/iati/2.
 found 4 activities
 
 Downloading france-rapportbisannuelparlement from https://www.diplomatie.gouv.fr/fr/photos-videos-publications-infographies/publications/enjeux-planetaires-cooperation-internationale/rapports-et-etudes/article/publication-du-rapport-bisannuel-au-parlement-mise-en-oeuvre-de-la-strategie
-curl: download ERROR 000
+curl: download ERROR 404
 Parsing france-rapportbisannuelparlement from https://www.diplomatie.gouv.fr/fr/photos-videos-publications-infographies/publications/enjeux-planetaires-cooperation-internationale/rapports-et-etudes/article/publication-du-rapport-bisannuel-au-parlement-mise-en-oeuvre-de-la-strategie
 dflat: input XML file does not exist
 restored 0 files
@@ -16039,11 +16045,11 @@ found 8 activities
 
 Downloading gac-amc-act_2_3 from http://w05.international.gc.ca/projectbrowser-banqueprojets/iita-iati/dfatd-maecd_activit_status_2_3.xml
 Parsing gac-amc-act_2_3 from http://w05.international.gc.ca/projectbrowser-banqueprojets/iita-iati/dfatd-maecd_activit_status_2_3.xml
-found 2411 activities
+found 2418 activities
 
 Downloading gac-amc-act_4 from http://w05.international.gc.ca/projectbrowser-banqueprojets/iita-iati/dfatd-maecd_activit_status_4.xml
 Parsing gac-amc-act_4 from http://w05.international.gc.ca/projectbrowser-banqueprojets/iita-iati/dfatd-maecd_activit_status_4.xml
-found 247 activities
+found 251 activities
 
 Downloading gac-amc-org from http://w05.international.gc.ca/projectbrowser-banqueprojets/iita-iati/dfatd-maecd_organisation.xml
 Parsing gac-amc-org from http://w05.international.gc.ca/projectbrowser-banqueprojets/iita-iati/dfatd-maecd_organisation.xml
@@ -19748,7 +19754,7 @@ found 24 activities
 
 Downloading ifcwbg-tr from https://disclosures.ifc.org/iati/ifc-tr.xml
 Parsing ifcwbg-tr from https://disclosures.ifc.org/iati/ifc-tr.xml
-found 252 activities
+found 253 activities
 
 Downloading ifcwbg-tt from https://disclosures.ifc.org/iati/ifc-tt.xml
 Parsing ifcwbg-tt from https://disclosures.ifc.org/iati/ifc-tt.xml
@@ -27047,6 +27053,10 @@ Downloading pattiro-activities from https://aidstream.s3.us-west-2.amazonaws.com
 Parsing pattiro-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/pattiro-activities.xml
 found 4 activities
 
+Downloading pax-lop_iati from https://files.aida.tools/activities/NL-KVK-30214009/30621681-b22d-4de5-a92d-663434857a4a/LoP_IATI.xml
+Parsing pax-lop_iati from https://files.aida.tools/activities/NL-KVK-30214009/30621681-b22d-4de5-a92d-663434857a4a/LoP_IATI.xml
+found 1 activities
+
 Downloading pax-pax-c1-activitiesfile from https://files.aida.tools/activities/NL-KVK-30214009/97a510b0-8268-46c7-810d-5aaeeeb520e1/PAX-C1-Activitiesfile.xml
 Parsing pax-pax-c1-activitiesfile from https://files.aida.tools/activities/NL-KVK-30214009/97a510b0-8268-46c7-810d-5aaeeeb520e1/PAX-C1-Activitiesfile.xml
 found 1 activities
@@ -27613,6 +27623,19 @@ found 25 activities
 
 Downloading plan_ireland-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/plan_ireland-activities.xml
 Converting IATI activities version 1.03 to version 2.03
+./iati-activities.xsl:309: namespace error : Failed to parse QName 'xsl:'
+    <xsl:if test="@vocabulary = 'RO2'"><xsl:attribute name="vocabulary">98</xsl:
+                                                                               ^
+./iati-activities.xsl:309: parser error : expected '>'
+    <xsl:if test="@vocabulary = 'RO2'"><xsl:attribute name="vocabulary">98</xsl:
+                                                                               ^
+./iati-activities.xsl:309: parser error : Opening and ending tag mismatch: attribute line 309 and xsl:
+    <xsl:if test="@vocabulary = 'RO2'"><xsl:attribute name="vocabulary">98</xsl:
+                                                                               ^
+./iati-activities.xsl:309: parser error : Premature end of data in tag if line 309
+    <xsl:if test="@vocabulary = 'RO2'"><xsl:attribute name="vocabulary">98</xsl:
+                                                                               ^
+cannot parse ./iati-activities.xsl
 Parsing plan_ireland-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/plan_ireland-activities.xml
 found 1 activities
 
@@ -28766,7 +28789,7 @@ found 1 organisations
 
 Downloading rvo-01 from https://projects.rvo.nl/opendata/iati.xml
 Parsing rvo-01 from https://projects.rvo.nl/opendata/iati.xml
-found 4975 activities
+found 4976 activities
 
 Downloading rvo-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/rvo-activities.xml
 Parsing rvo-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/rvo-activities.xml
@@ -30149,9 +30172,9 @@ Downloading ssn-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/ssn-or
 Parsing ssn-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/ssn-org.xml
 found 1 organisations
 
-Downloading ss-org-activities-3 from https://www.sightsavers.org/wp-content/uploads/2024/05/sightsavers_iati_activities5.xml
-Parsing ss-org-activities-3 from https://www.sightsavers.org/wp-content/uploads/2024/05/sightsavers_iati_activities5.xml
-found 925 activities
+Downloading ss-org-activities-3 from https://www.sightsavers.org/wp-content/uploads/2024/09/sightsavers_iati_activities6.xml
+Parsing ss-org-activities-3 from https://www.sightsavers.org/wp-content/uploads/2024/09/sightsavers_iati_activities6.xml
+found 985 activities
 
 Downloading ss-org-org from https://www.sightsavers.org/wp-content/uploads/2024/05/sightsavers_iati_organisation2024.xml
 Parsing ss-org-org from https://www.sightsavers.org/wp-content/uploads/2024/05/sightsavers_iati_organisation2024.xml
@@ -38803,7 +38826,7 @@ found 74 activities
 
 Downloading unocha-cbpf-ukraine-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/81/2024/GetAllocation.xml
 Parsing unocha-cbpf-ukraine-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/81/2024/GetAllocation.xml
-found 64 activities
+found 65 activities
 
 Downloading unocha-cbpf-ukraine-contribution-2019 from https://cbpfapi.unocha.org/iati/iati/81/2019/GetContribution.xml
 Parsing unocha-cbpf-ukraine-contribution-2019 from https://cbpfapi.unocha.org/iati/iati/81/2019/GetContribution.xml
@@ -46421,6 +46444,19 @@ found 1 organisations
 
 Downloading wwfpakistan-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/wwfpakistan-activities.xml
 Converting IATI activities version 1.03 to version 2.03
+./iati-activities.xsl:309: namespace error : Failed to parse QName 'xsl:'
+    <xsl:if test="@vocabulary = 'RO2'"><xsl:attribute name="vocabulary">98</xsl:
+                                                                               ^
+./iati-activities.xsl:309: parser error : expected '>'
+    <xsl:if test="@vocabulary = 'RO2'"><xsl:attribute name="vocabulary">98</xsl:
+                                                                               ^
+./iati-activities.xsl:309: parser error : Opening and ending tag mismatch: attribute line 309 and xsl:
+    <xsl:if test="@vocabulary = 'RO2'"><xsl:attribute name="vocabulary">98</xsl:
+                                                                               ^
+./iati-activities.xsl:309: parser error : Premature end of data in tag if line 309
+    <xsl:if test="@vocabulary = 'RO2'"><xsl:attribute name="vocabulary">98</xsl:
+                                                                               ^
+cannot parse ./iati-activities.xsl
 Parsing wwfpakistan-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/wwfpakistan-activities.xml
 found 2 activities
 
