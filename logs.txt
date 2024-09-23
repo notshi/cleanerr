@@ -11915,39 +11915,39 @@ found 892 activities
 
 Downloading ec-echo-2016 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2016.xml
 Parsing ec-echo-2016 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2016.xml
-found 847 activities
+found 845 activities
 
 Downloading ec-echo-2017 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2017.xml
 Parsing ec-echo-2017 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2017.xml
-found 728 activities
+found 729 activities
 
 Downloading ec-echo-2018 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2018.xml
 Parsing ec-echo-2018 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2018.xml
-found 604 activities
+found 605 activities
 
 Downloading ec-echo-2019 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2019.xml
 Parsing ec-echo-2019 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2019.xml
-found 518 activities
+found 519 activities
 
 Downloading ec-echo-2020 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2020.xml
 Parsing ec-echo-2020 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2020.xml
-found 599 activities
+found 596 activities
 
 Downloading ec-echo-2021 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2021.xml
 Parsing ec-echo-2021 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2021.xml
-found 576 activities
+found 579 activities
 
 Downloading ec-echo-2022 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2022.xml
 Parsing ec-echo-2022 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2022.xml
-found 459 activities
+found 455 activities
 
 Downloading ec-echo-2023 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2023.xml
 Parsing ec-echo-2023 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2023.xml
-found 526 activities
+found 530 activities
 
 Downloading ec-echo-2024 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2024.xml
 Parsing ec-echo-2024 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2024.xml
-found 470 activities
+found 469 activities
 
 Downloading ec-echo-org from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/iati-organisation-file.xml
 Parsing ec-echo-org from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/iati-organisation-file.xml
@@ -16053,18 +16053,18 @@ found 8 activities
 
 Downloading gac-amc-act_2_3 from http://w05.international.gc.ca/projectbrowser-banqueprojets/iita-iati/dfatd-maecd_activit_status_2_3.xml
 Parsing gac-amc-act_2_3 from http://w05.international.gc.ca/projectbrowser-banqueprojets/iita-iati/dfatd-maecd_activit_status_2_3.xml
-dflat: invalid XML format
+dflat: input XML file does not exist
 restored 2416 files
 
 Downloading gac-amc-act_4 from http://w05.international.gc.ca/projectbrowser-banqueprojets/iita-iati/dfatd-maecd_activit_status_4.xml
+curl: download ERROR 000
 Parsing gac-amc-act_4 from http://w05.international.gc.ca/projectbrowser-banqueprojets/iita-iati/dfatd-maecd_activit_status_4.xml
-dflat: invalid XML format
+dflat: input XML file does not exist
 restored 270 files
 
 Downloading gac-amc-org from http://w05.international.gc.ca/projectbrowser-banqueprojets/iita-iati/dfatd-maecd_organisation.xml
 Parsing gac-amc-org from http://w05.international.gc.ca/projectbrowser-banqueprojets/iita-iati/dfatd-maecd_organisation.xml
-dflat: input XML file does not exist
-restored 1 files
+found 1 organisations
 
 Downloading gadp-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/gadp-activities.xml
 Parsing gadp-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/gadp-activities.xml
@@ -21408,6 +21408,22 @@ found 5 activities
 
 Downloading kepa-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/kepa-org.xml
 Converting IATI organisations version 1.03 to version 2.03
+./iati-organisations.xsl:63: parser error : Char 0x0 out of allowed range
+                    <xsl:for-each select="recipient-org-bud
+                                                           ^
+./iati-organisations.xsl:63: parser error : AttValue: ' expected
+                    <xsl:for-each select="recipient-org-bud
+                                                           ^
+./iati-organisations.xsl:63: parser error : attributes construct error
+                    <xsl:for-each select="recipient-org-bud
+                                                           ^
+./iati-organisations.xsl:63: parser error : Couldn't find end of Start Tag for-each line 63
+                    <xsl:for-each select="recipient-org-bud
+                                                           ^
+./iati-organisations.xsl:63: parser error : Premature end of data in tag iati-organisation line 10
+                    <xsl:for-each select="recipient-org-bud
+                                                           ^
+cannot parse ./iati-organisations.xsl
 Parsing kepa-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/kepa-org.xml
 found 1 organisations
 
@@ -29939,8 +29955,9 @@ Parsing solidaridad-ssea-activities from https://files.aida.tools/activities/NL-
 found 29 activities
 
 Downloading solidaridad-ssea-org from https://sites.google.com/a/solidaridadnetwork.org/iati-publications/iati-datasets/south-south-east-asia/Solidaridad-South-and-South-East-Asia.xml
+curl: download ERROR 404
 Parsing solidaridad-ssea-org from https://sites.google.com/a/solidaridadnetwork.org/iati-publications/iati-datasets/south-south-east-asia/Solidaridad-South-and-South-East-Asia.xml
-dflat: invalid XML format
+dflat: input XML file does not exist
 restored 1 files
 
 Downloading solidaridad-waf-activity from https://drive.google.com/uc?export=download&confirm=t&id=1aGPpUBYh6NvSmC-3j1S-4QcQfsEIJNy7
@@ -29949,8 +29966,9 @@ dflat: invalid XML format
 restored 17 files
 
 Downloading solidaridad-waf-org from https://sites.google.com/a/solidaridadnetwork.org/iati-publications/iati-datasets/west-africa/Solidaridad-West-Africa.xml
+curl: download ERROR 404
 Parsing solidaridad-waf-org from https://sites.google.com/a/solidaridadnetwork.org/iati-publications/iati-datasets/west-africa/Solidaridad-West-Africa.xml
-dflat: invalid XML format
+dflat: input XML file does not exist
 restored 1 files
 
 Downloading solidarites-international-1028 from https://aidstream.s3.us-west-2.amazonaws.com/xml/solidarites-international-1028.xml
@@ -31100,6 +31118,22 @@ found 11 activities
 
 Downloading street_child-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/street_child-org.xml
 Converting IATI organisations version 1.03 to version 2.03
+./iati-organisations.xsl:63: parser error : Char 0x0 out of allowed range
+                    <xsl:for-each select="recipient-org-bud
+                                                           ^
+./iati-organisations.xsl:63: parser error : AttValue: ' expected
+                    <xsl:for-each select="recipient-org-bud
+                                                           ^
+./iati-organisations.xsl:63: parser error : attributes construct error
+                    <xsl:for-each select="recipient-org-bud
+                                                           ^
+./iati-organisations.xsl:63: parser error : Couldn't find end of Start Tag for-each line 63
+                    <xsl:for-each select="recipient-org-bud
+                                                           ^
+./iati-organisations.xsl:63: parser error : Premature end of data in tag iati-organisation line 10
+                    <xsl:for-each select="recipient-org-bud
+                                                           ^
+cannot parse ./iati-organisations.xsl
 Parsing street_child-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/street_child-org.xml
 found 1 organisations
 
