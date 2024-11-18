@@ -12011,15 +12011,15 @@ found 575 activities
 
 Downloading ec-echo-2022 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2022.xml
 Parsing ec-echo-2022 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2022.xml
-found 459 activities
+found 460 activities
 
 Downloading ec-echo-2023 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2023.xml
 Parsing ec-echo-2023 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2023.xml
-found 525 activities
+found 527 activities
 
 Downloading ec-echo-2024 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2024.xml
 Parsing ec-echo-2024 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2024.xml
-found 502 activities
+found 499 activities
 
 Downloading ec-echo-org from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/iati-organisation-file.xml
 Parsing ec-echo-org from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/iati-organisation-file.xml
@@ -13586,7 +13586,7 @@ Parsing emms-zm from https://aidstream.s3.us-west-2.amazonaws.com/xml/emms-zm.xm
 found 1 activities
 
 Downloading enabel-all-activities from https://open.enabel.be/iati/all-activities.xml
-curl: download ERROR 500
+curl: download ERROR 000
 Parsing enabel-all-activities from https://open.enabel.be/iati/all-activities.xml
 dflat: input XML file does not exist
 restored 1247 files
@@ -28860,7 +28860,7 @@ found 1 organisations
 
 Downloading rvo-01 from https://projects.rvo.nl/opendata/iati.xml
 Parsing rvo-01 from https://projects.rvo.nl/opendata/iati.xml
-found 5059 activities
+found 5065 activities
 
 Downloading rvo-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/rvo-activities.xml
 Parsing rvo-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/rvo-activities.xml
@@ -30010,9 +30010,8 @@ Parsing solidaridad-ssea-activities from https://files.aida.tools/activities/NL-
 found 29 activities
 
 Downloading solidaridad-ssea-org from https://sites.google.com/a/solidaridadnetwork.org/iati-publications/iati-datasets/south-south-east-asia/Solidaridad-South-and-South-East-Asia.xml
-curl: download ERROR 404
 Parsing solidaridad-ssea-org from https://sites.google.com/a/solidaridadnetwork.org/iati-publications/iati-datasets/south-south-east-asia/Solidaridad-South-and-South-East-Asia.xml
-dflat: input XML file does not exist
+dflat: invalid XML format
 restored 1 files
 
 Downloading solidaridad-waf-activity from https://drive.google.com/uc?export=download&confirm=t&id=1aGPpUBYh6NvSmC-3j1S-4QcQfsEIJNy7
@@ -30021,8 +30020,9 @@ dflat: invalid XML format
 restored 17 files
 
 Downloading solidaridad-waf-org from https://sites.google.com/a/solidaridadnetwork.org/iati-publications/iati-datasets/west-africa/Solidaridad-West-Africa.xml
+curl: download ERROR 404
 Parsing solidaridad-waf-org from https://sites.google.com/a/solidaridadnetwork.org/iati-publications/iati-datasets/west-africa/Solidaridad-West-Africa.xml
-dflat: invalid XML format
+dflat: input XML file does not exist
 restored 1 files
 
 Downloading solidarites-international-1028 from https://aidstream.s3.us-west-2.amazonaws.com/xml/solidarites-international-1028.xml
