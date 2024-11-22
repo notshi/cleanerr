@@ -1313,8 +1313,10 @@ Parsing afdb-angola from https://www.afdb.org/sites/default/files/iati/iatiangol
 found 46 activities
 
 Downloading afd-ba from https://static.data.gouv.fr/resources/donnees-de-laide-au-developpement-de-lafd-1/20241114-085200/fr-afd-ba.xml
+curl: download ERROR 404
 Parsing afd-ba from https://static.data.gouv.fr/resources/donnees-de-laide-au-developpement-de-lafd-1/20241114-085200/fr-afd-ba.xml
-found 2 activities
+dflat: input XML file does not exist
+restored 2 files
 
 Downloading afdb-benin from https://www.afdb.org/sites/default/files/iati/iatibenindata.xml
 Parsing afdb-benin from https://www.afdb.org/sites/default/files/iati/iatibenindata.xml
@@ -1556,11 +1558,9 @@ Downloading afdb-zimbabwe from https://www.afdb.org/sites/default/files/iati/iat
 Parsing afdb-zimbabwe from https://www.afdb.org/sites/default/files/iati/iatizimbabwedata.xml
 found 64 activities
 
-Downloading afd-cd from https://static.data.gouv.fr/resources/donnees-de-laide-au-developpement-de-lafd-1/20241016-150614/fr-afd-cd.xml
-curl: download ERROR 404
-Parsing afd-cd from https://static.data.gouv.fr/resources/donnees-de-laide-au-developpement-de-lafd-1/20241016-150614/fr-afd-cd.xml
-dflat: input XML file does not exist
-restored 70 files
+Downloading afd-cd from https://static.data.gouv.fr/resources/donnees-de-laide-au-developpement-de-lafd-1/20241120-163336/fr-afd-cd.xml
+Parsing afd-cd from https://static.data.gouv.fr/resources/donnees-de-laide-au-developpement-de-lafd-1/20241120-163336/fr-afd-cd.xml
+found 70 activities
 
 Downloading afd-cf from https://static.data.gouv.fr/resources/donnees-de-laide-au-developpement-de-lafd-1/20241120-163640/fr-afd-cf.xml
 Parsing afd-cf from https://static.data.gouv.fr/resources/donnees-de-laide-au-developpement-de-lafd-1/20241120-163640/fr-afd-cf.xml
@@ -1808,11 +1808,9 @@ Downloading afd-so from https://static.data.gouv.fr/resources/donnees-de-laide-a
 Parsing afd-so from https://static.data.gouv.fr/resources/donnees-de-laide-au-developpement-de-lafd-1/20241120-190146/fr-afd-so.xml
 found 2 activities
 
-Downloading afd-srn from https://static.data.gouv.fr/resources/donnees-de-laide-au-developpement-de-lafd-1/20241016-173616/fr-afd-sr.xml
-curl: download ERROR 404
-Parsing afd-srn from https://static.data.gouv.fr/resources/donnees-de-laide-au-developpement-de-lafd-1/20241016-173616/fr-afd-sr.xml
-dflat: input XML file does not exist
-restored 2 files
+Downloading afd-srn from https://static.data.gouv.fr/resources/donnees-de-laide-au-developpement-de-lafd-1/20241120-190430/fr-afd-sr.xml
+Parsing afd-srn from https://static.data.gouv.fr/resources/donnees-de-laide-au-developpement-de-lafd-1/20241120-190430/fr-afd-sr.xml
+found 2 activities
 
 Downloading afd-ss from https://static.data.gouv.fr/resources/donnees-de-laide-au-developpement-de-lafd-1/20241120-190526/fr-afd-ss.xml
 Parsing afd-ss from https://static.data.gouv.fr/resources/donnees-de-laide-au-developpement-de-lafd-1/20241120-190526/fr-afd-ss.xml
@@ -3375,366 +3373,6 @@ Downloading atsf-activities from https://aidstream.s3.us-west-2.amazonaws.com/xm
 Parsing atsf-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/atsf-activities.xml
 found 16 activities
 
-Downloading ausgov-189 from http://dfat.gov.au/data/downloads/Australian_Aid_Regional_File_North_of_Sahara.xml
-curl: download ERROR 404
-Parsing ausgov-189 from http://dfat.gov.au/data/downloads/Australian_Aid_Regional_File_North_of_Sahara.xml
-dflat: input XML file does not exist
-restored 0 files
-
-Downloading ausgov-289 from http://dfat.gov.au/data/downloads/Australian_Aid_Regional_File_South_of_Sahara_Unspecified.xml
-curl: download ERROR 404
-Parsing ausgov-289 from http://dfat.gov.au/data/downloads/Australian_Aid_Regional_File_South_of_Sahara_Unspecified.xml
-dflat: input XML file does not exist
-restored 0 files
-
-Downloading ausgov-298 from http://dfat.gov.au/data/downloads/Australian_Aid_Regional_File_Africa_Unspecified.xml
-curl: download ERROR 404
-Parsing ausgov-298 from http://dfat.gov.au/data/downloads/Australian_Aid_Regional_File_Africa_Unspecified.xml
-dflat: input XML file does not exist
-restored 0 files
-
-Downloading ausgov-380 from http://dfat.gov.au/data/downloads/Australian_Aid_Regional_File_West_Indies_Unspecified.xml
-curl: download ERROR 404
-Parsing ausgov-380 from http://dfat.gov.au/data/downloads/Australian_Aid_Regional_File_West_Indies_Unspecified.xml
-dflat: input XML file does not exist
-restored 0 files
-
-Downloading ausgov-389 from http://dfat.gov.au/data/downloads/Australian_Aid_Regional_File_North_and_Central_America_Unspecified.xml
-curl: download ERROR 404
-Parsing ausgov-389 from http://dfat.gov.au/data/downloads/Australian_Aid_Regional_File_North_and_Central_America_Unspecified.xml
-dflat: input XML file does not exist
-restored 0 files
-
-Downloading ausgov-489 from http://dfat.gov.au/data/downloads/Australian_Aid_Regional_File_South_America_Unspecified.xml
-curl: download ERROR 404
-Parsing ausgov-489 from http://dfat.gov.au/data/downloads/Australian_Aid_Regional_File_South_America_Unspecified.xml
-dflat: input XML file does not exist
-restored 0 files
-
-Downloading ausgov-589 from http://dfat.gov.au/data/downloads/Australian_Aid_Regional_File_Middle_East_Unspecified.xml
-curl: download ERROR 404
-Parsing ausgov-589 from http://dfat.gov.au/data/downloads/Australian_Aid_Regional_File_Middle_East_Unspecified.xml
-dflat: input XML file does not exist
-restored 0 files
-
-Downloading ausgov-689 from http://dfat.gov.au/data/downloads/Australian_Aid_Regional_File_South_and_Central_Asia_Unspecified.xml
-curl: download ERROR 404
-Parsing ausgov-689 from http://dfat.gov.au/data/downloads/Australian_Aid_Regional_File_South_and_Central_Asia_Unspecified.xml
-dflat: input XML file does not exist
-restored 0 files
-
-Downloading ausgov-789 from http://dfat.gov.au/data/downloads/Australian_Aid_Regional_File_Far_East_Asia_Unspecified.xml
-curl: download ERROR 404
-Parsing ausgov-789 from http://dfat.gov.au/data/downloads/Australian_Aid_Regional_File_Far_East_Asia_Unspecified.xml
-dflat: input XML file does not exist
-restored 0 files
-
-Downloading ausgov-798 from http://dfat.gov.au/data/downloads/Australian_Aid_Regional_File_Asia_Unspecified.xml
-curl: download ERROR 404
-Parsing ausgov-798 from http://dfat.gov.au/data/downloads/Australian_Aid_Regional_File_Asia_Unspecified.xml
-dflat: input XML file does not exist
-restored 0 files
-
-Downloading ausgov-889 from http://dfat.gov.au/data/downloads/Australian_Aid_Regional_File_Oceania_Unspecified.xml
-curl: download ERROR 404
-Parsing ausgov-889 from http://dfat.gov.au/data/downloads/Australian_Aid_Regional_File_Oceania_Unspecified.xml
-dflat: input XML file does not exist
-restored 0 files
-
-Downloading ausgov-88 from http://dfat.gov.au/data/downloads/Australian_Aid_Regional_File_States_of_Ex-Yugoslavia.xml
-curl: download ERROR 404
-Parsing ausgov-88 from http://dfat.gov.au/data/downloads/Australian_Aid_Regional_File_States_of_Ex-Yugoslavia.xml
-dflat: input XML file does not exist
-restored 0 files
-
-Downloading ausgov-89 from http://dfat.gov.au/data/downloads/Australian_Aid_Regional_File_Europe_Unspecified.xml
-curl: download ERROR 404
-Parsing ausgov-89 from http://dfat.gov.au/data/downloads/Australian_Aid_Regional_File_Europe_Unspecified.xml
-dflat: input XML file does not exist
-restored 0 files
-
-Downloading ausgov-998 from http://dfat.gov.au/data/downloads/Australian_Aid_Regional_File_Global_Unspecified.xml
-curl: download ERROR 404
-Parsing ausgov-998 from http://dfat.gov.au/data/downloads/Australian_Aid_Regional_File_Global_Unspecified.xml
-dflat: input XML file does not exist
-restored 0 files
-
-Downloading ausgov-af from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Afghanistan.xml
-Parsing ausgov-af from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Afghanistan.xml
-found 177 activities
-
-Downloading ausgov-ag from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Antigua_And_Barbuda.xml
-Parsing ausgov-ag from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Antigua_And_Barbuda.xml
-found 14 activities
-
-Downloading ausgov-al from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Albania.xml
-Parsing ausgov-al from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Albania.xml
-found 14 activities
-
-Downloading ausgov-am from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Armenia.xml
-Parsing ausgov-am from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Armenia.xml
-found 4 activities
-
-Downloading ausgov-ao from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Angola.xml
-Parsing ausgov-ao from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Angola.xml
-found 13 activities
-
-Downloading ausgov-ar from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Argentina.xml
-Parsing ausgov-ar from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Argentina.xml
-found 47 activities
-
-Downloading ausgov-az from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Azerbaijan.xml
-Parsing ausgov-az from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Azerbaijan.xml
-found 8 activities
-
-Downloading ausgov-ba from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Bosnia-Herzegovina.xml
-Parsing ausgov-ba from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Bosnia-Herzegovina.xml
-found 15 activities
-
-Downloading ausgov-bb from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Barbados.xml
-Parsing ausgov-bb from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Barbados.xml
-found 3 activities
-
-Downloading ausgov-bd from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Bangladesh.xml
-Parsing ausgov-bd from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Bangladesh.xml
-found 224 activities
-
-Downloading ausgov-bf from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Burkina_Faso.xml
-Parsing ausgov-bf from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Burkina_Faso.xml
-found 28 activities
-
-Downloading ausgov-bi from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Burundi.xml
-Parsing ausgov-bi from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Burundi.xml
-found 43 activities
-
-Downloading ausgov-bj from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Benin.xml
-Parsing ausgov-bj from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Benin.xml
-found 15 activities
-
-Downloading ausgov-bo from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Bolivia.xml
-Parsing ausgov-bo from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Bolivia.xml
-found 22 activities
-
-Downloading ausgov-br from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Brazil.xml
-Parsing ausgov-br from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Brazil.xml
-found 49 activities
-
-Downloading ausgov-bt from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Bhutan.xml
-Parsing ausgov-bt from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Bhutan.xml
-found 75 activities
-
-Downloading ausgov-bw from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Botswana.xml
-Parsing ausgov-bw from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Botswana.xml
-found 51 activities
-
-Downloading ausgov-bz from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Belize.xml
-Parsing ausgov-bz from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Belize.xml
-found 25 activities
-
-Downloading ausgov-cd from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Congo_Dem_Rep.xml
-Parsing ausgov-cd from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Congo_Dem_Rep.xml
-found 60 activities
-
-Downloading ausgov-cf from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Central_African_Rep.xml
-Parsing ausgov-cf from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Central_African_Rep.xml
-found 23 activities
-
-Downloading ausgov-cg from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Congo_Rep.xml
-Parsing ausgov-cg from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Congo_Rep.xml
-found 10 activities
-
-Downloading ausgov-ci from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Cote_Divoire.xml
-Parsing ausgov-ci from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Cote_Divoire.xml
-found 26 activities
-
-Downloading ausgov-ck from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Cook_Islands.xml
-Parsing ausgov-ck from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Cook_Islands.xml
-found 88 activities
-
-Downloading ausgov-cl from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Chile.xml
-Parsing ausgov-cl from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Chile.xml
-found 41 activities
-
-Downloading ausgov-cm from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Cambodia.xml
-Parsing ausgov-cm from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Cambodia.xml
-found 295 activities
-
-Downloading ausgov-cn from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_China.xml
-Parsing ausgov-cn from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_China.xml
-found 211 activities
-
-Downloading ausgov-co from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Colombia.xml
-Parsing ausgov-co from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Colombia.xml
-found 43 activities
-
-Downloading ausgov-cr from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Costa_Rica.xml
-Parsing ausgov-cr from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Costa_Rica.xml
-found 24 activities
-
-Downloading ausgov-cu from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Cuba.xml
-Parsing ausgov-cu from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Cuba.xml
-found 13 activities
-
-Downloading ausgov-cv from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Cape_Verde.xml
-Parsing ausgov-cv from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Cape_Verde.xml
-found 29 activities
-
-Downloading ausgov-dj from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Djibouti.xml
-Parsing ausgov-dj from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Djibouti.xml
-found 11 activities
-
-Downloading ausgov-dm from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Dominica.xml
-Parsing ausgov-dm from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Dominica.xml
-found 31 activities
-
-Downloading ausgov-do from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Dominican_Republic.xml
-Parsing ausgov-do from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Dominican_Republic.xml
-found 20 activities
-
-Downloading ausgov-dz from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Algeria.xml
-Parsing ausgov-dz from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Algeria.xml
-found 8 activities
-
-Downloading ausgov-ec from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Ecuador.xml
-Parsing ausgov-ec from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Ecuador.xml
-found 28 activities
-
-Downloading ausgov-eg from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Egypt.xml
-Parsing ausgov-eg from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Egypt.xml
-found 41 activities
-
-Downloading ausgov-er from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Eritrea.xml
-Parsing ausgov-er from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Eritrea.xml
-found 13 activities
-
-Downloading ausgov-et from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Ethiopia.xml
-Parsing ausgov-et from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Ethiopia.xml
-found 102 activities
-
-Downloading ausgov-fj from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Fiji.xml
-Parsing ausgov-fj from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Fiji.xml
-found 356 activities
-
-Downloading ausgov-fm from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Micronesia_Fed_Sts.xml
-Parsing ausgov-fm from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Micronesia_Fed_Sts.xml
-found 111 activities
-
-Downloading ausgov-ga from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Gabon.xml
-Parsing ausgov-ga from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Gabon.xml
-found 7 activities
-
-Downloading ausgov-gd from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Grenada.xml
-Parsing ausgov-gd from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Grenada.xml
-found 24 activities
-
-Downloading ausgov-ge from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Georgia.xml
-Parsing ausgov-ge from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Georgia.xml
-found 5 activities
-
-Downloading ausgov-gh from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Ghana.xml
-Parsing ausgov-gh from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Ghana.xml
-found 84 activities
-
-Downloading ausgov-gm from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Gambia.xml
-Parsing ausgov-gm from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Gambia.xml
-found 16 activities
-
-Downloading ausgov-gn from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Guinea.xml
-Parsing ausgov-gn from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Guinea.xml
-found 16 activities
-
-Downloading ausgov-gq from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Equatorial_Guinea.xml
-Parsing ausgov-gq from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Equatorial_Guinea.xml
-found 10 activities
-
-Downloading ausgov-gt from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Guatemala.xml
-Parsing ausgov-gt from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Guatemala.xml
-found 28 activities
-
-Downloading ausgov-gw from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Guinea-Bissau.xml
-Parsing ausgov-gw from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Guinea-Bissau.xml
-found 17 activities
-
-Downloading ausgov-gy from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Guyana.xml
-Parsing ausgov-gy from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Guyana.xml
-found 26 activities
-
-Downloading ausgov-hn from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Honduras.xml
-Parsing ausgov-hn from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Honduras.xml
-found 21 activities
-
-Downloading ausgov-ht from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Haiti.xml
-Parsing ausgov-ht from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Haiti.xml
-found 46 activities
-
-Downloading ausgov-id from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Indonesia.xml
-Parsing ausgov-id from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Indonesia.xml
-found 581 activities
-
-Downloading ausgov-in from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_India.xml
-Parsing ausgov-in from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_India.xml
-found 193 activities
-
-Downloading ausgov-iq from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Iraq.xml
-Parsing ausgov-iq from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Iraq.xml
-found 81 activities
-
-Downloading ausgov-ir from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Iran.xml
-Parsing ausgov-ir from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Iran.xml
-found 30 activities
-
-Downloading ausgov-jm from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Jamaica.xml
-Parsing ausgov-jm from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Jamaica.xml
-found 26 activities
-
-Downloading ausgov-jo from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Jordan.xml
-Parsing ausgov-jo from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Jordan.xml
-found 48 activities
-
-Downloading ausgov-ke from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Kenya.xml
-Parsing ausgov-ke from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Kenya.xml
-found 149 activities
-
-Downloading ausgov-kg from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Kyrgyz_Rep.xml
-Parsing ausgov-kg from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Kyrgyz_Rep.xml
-found 12 activities
-
-Downloading ausgov-kh from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Cambodia.xml
-Parsing ausgov-kh from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Cambodia.xml
-found 295 activities
-
-Downloading ausgov-ki from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Kiribati.xml
-Parsing ausgov-ki from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Kiribati.xml
-found 225 activities
-
-Downloading ausgov-km from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Comoros.xml
-Parsing ausgov-km from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Comoros.xml
-found 23 activities
-
-Downloading ausgov-kn from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_St-Kitts-Nevis.xml
-Parsing ausgov-kn from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_St-Kitts-Nevis.xml
-found 2 activities
-
-Downloading ausgov-kp from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Korea_Dem.xml
-Parsing ausgov-kp from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Korea_Dem.xml
-found 14 activities
-
-Downloading ausgov-kz from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Kazakhstan.xml
-Parsing ausgov-kz from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Kazakhstan.xml
-found 2 activities
-
-Downloading ausgov-la from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Laos.xml
-Parsing ausgov-la from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Laos.xml
-found 295 activities
-
-Downloading ausgov-lb from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Lebanon.xml
-Parsing ausgov-lb from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Lebanon.xml
-found 59 activities
-
-Downloading ausgov-lc from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_St-Lucia.xml
-Parsing ausgov-lc from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_St-Lucia.xml
-found 27 activities
-
 Downloading ausgov-legacy1 from https://data.gov.au/data/dataset/3119efd1-145d-4bae-bc89-03bd27ca5637/resource/dfcf2cf8-2b09-499d-9992-efbd7ab888f7/download/australia-legacy-activities_0001.xml
 Parsing ausgov-legacy1 from https://data.gov.au/data/dataset/3119efd1-145d-4bae-bc89-03bd27ca5637/resource/dfcf2cf8-2b09-499d-9992-efbd7ab888f7/download/australia-legacy-activities_0001.xml
 dflat: invalid XML format
@@ -3750,365 +3388,9 @@ Parsing ausgov-legacy3 from https://data.gov.au/data/dataset/2fe860bf-9009-4b7b-
 dflat: invalid XML format
 restored 0 files
 
-Downloading ausgov-lk from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Sri_Lanka.xml
-Parsing ausgov-lk from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Sri_Lanka.xml
-found 180 activities
-
-Downloading ausgov-lr from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Liberia.xml
-Parsing ausgov-lr from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Liberia.xml
-found 44 activities
-
-Downloading ausgov-ls from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Lesotho.xml
-Parsing ausgov-ls from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Lesotho.xml
-found 48 activities
-
-Downloading ausgov-ly from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Libya.xml
-Parsing ausgov-ly from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Libya.xml
-found 12 activities
-
-Downloading ausgov-ma from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Morocco.xml
-Parsing ausgov-ma from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Morocco.xml
-found 16 activities
-
-Downloading ausgov-md from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Moldova.xml
-Parsing ausgov-md from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Moldova.xml
-found 2 activities
-
-Downloading ausgov-me from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Montenegro.xml
-Parsing ausgov-me from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Montenegro.xml
-found 11 activities
-
-Downloading ausgov-mg from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Madagascar.xml
-Parsing ausgov-mg from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Madagascar.xml
-found 44 activities
-
-Downloading ausgov-mh from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Marshall_Islands.xml
-Parsing ausgov-mh from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Marshall_Islands.xml
-found 119 activities
-
-Downloading ausgov-mk from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Macedonia_Fyrom.xml
-Parsing ausgov-mk from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Macedonia_Fyrom.xml
-found 10 activities
-
-Downloading ausgov-ml from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Mali.xml
-Parsing ausgov-ml from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Mali.xml
-found 33 activities
-
-Downloading ausgov-mm from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Myanmar_Burma.xml
-Parsing ausgov-mm from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Myanmar_Burma.xml
-found 264 activities
-
-Downloading ausgov-mn from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Mongolia.xml
-Parsing ausgov-mn from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Mongolia.xml
-found 110 activities
-
-Downloading ausgov-mr from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Mauritania.xml
-Parsing ausgov-mr from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Mauritania.xml
-found 13 activities
-
-Downloading ausgov-mu from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Mauritius.xml
-Parsing ausgov-mu from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Mauritius.xml
-found 46 activities
-
-Downloading ausgov-mv from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Maldives.xml
-Parsing ausgov-mv from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Maldives.xml
-found 63 activities
-
-Downloading ausgov-mw from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Malawi.xml
-Parsing ausgov-mw from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Malawi.xml
-found 98 activities
-
-Downloading ausgov-mx from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Mexico.xml
-Parsing ausgov-mx from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Mexico.xml
-found 45 activities
-
-Downloading ausgov-my from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Malaysia.xml
-Parsing ausgov-my from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Malaysia.xml
-found 108 activities
-
-Downloading ausgov-mz from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Mozambique.xml
-Parsing ausgov-mz from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Mozambique.xml
-found 87 activities
-
-Downloading ausgov-na from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Namibia.xml
-Parsing ausgov-na from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Namibia.xml
-found 38 activities
-
-Downloading ausgov-ne from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Niger.xml
-Parsing ausgov-ne from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Niger.xml
-found 31 activities
-
-Downloading ausgov-ng from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Nigeria.xml
-Parsing ausgov-ng from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Nigeria.xml
-found 79 activities
-
-Downloading ausgov-ni from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Nicaragua.xml
-Parsing ausgov-ni from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Nicaragua.xml
-found 29 activities
-
-Downloading ausgov-np from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Nepal.xml
-Parsing ausgov-np from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Nepal.xml
-found 182 activities
-
-Downloading ausgov-nr from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Nauru.xml
-Parsing ausgov-nr from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Nauru.xml
-found 132 activities
-
-Downloading ausgov-nu from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Niue.xml
-Parsing ausgov-nu from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Niue.xml
-found 65 activities
-
 Downloading ausgov-org from https://www.dfat.gov.au/sites/default/files/ausgov-organisation-file.xml
 Parsing ausgov-org from https://www.dfat.gov.au/sites/default/files/ausgov-organisation-file.xml
 found 1 organisations
-
-Downloading ausgov-pa from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Panama.xml
-Parsing ausgov-pa from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Panama.xml
-found 15 activities
-
-Downloading ausgov-pe from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Peru.xml
-Parsing ausgov-pe from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Peru.xml
-found 54 activities
-
-Downloading ausgov-pg from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Papua_New_Guinea.xml
-Parsing ausgov-pg from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Papua_New_Guinea.xml
-found 520 activities
-
-Downloading ausgov-ph from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Philippines.xml
-Parsing ausgov-ph from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Philippines.xml
-found 356 activities
-
-Downloading ausgov-pk from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Pakistan.xml
-Parsing ausgov-pk from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Pakistan.xml
-found 198 activities
-
-Downloading ausgov-ps from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Palestinian_Admin_Areas.xml
-Parsing ausgov-ps from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Palestinian_Admin_Areas.xml
-found 103 activities
-
-Downloading ausgov-pw from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Palau.xml
-Parsing ausgov-pw from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Palau.xml
-found 118 activities
-
-Downloading ausgov-py from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Paraguay.xml
-Parsing ausgov-py from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Paraguay.xml
-found 30 activities
-
-Downloading ausgov-rs from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Serbia.xml
-Parsing ausgov-rs from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Serbia.xml
-found 22 activities
-
-Downloading ausgov-rw from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Rwanda.xml
-Parsing ausgov-rw from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Rwanda.xml
-found 52 activities
-
-Downloading ausgov-sb from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Solomon_Islands.xml
-Parsing ausgov-sb from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Solomon_Islands.xml
-found 373 activities
-
-Downloading ausgov-sc from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Seychelles.xml
-Parsing ausgov-sc from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Seychelles.xml
-found 29 activities
-
-Downloading ausgov-sd from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Sudan.xml
-Parsing ausgov-sd from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Sudan.xml
-found 51 activities
-
-Downloading ausgov-sl from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Sierra_Leone.xml
-Parsing ausgov-sl from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Sierra_Leone.xml
-found 37 activities
-
-Downloading ausgov-sn from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Senegal.xml
-Parsing ausgov-sn from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Senegal.xml
-found 31 activities
-
-Downloading ausgov-so from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Somalia.xml
-Parsing ausgov-so from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Somalia.xml
-found 55 activities
-
-Downloading ausgov-sr from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Suriname.xml
-Parsing ausgov-sr from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Suriname.xml
-found 25 activities
-
-Downloading ausgov-st from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Sao_Tome_and_Principe.xml
-Parsing ausgov-st from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Sao_Tome_and_Principe.xml
-found 21 activities
-
-Downloading ausgov-sv from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_El_Salvador.xml
-Parsing ausgov-sv from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_El_Salvador.xml
-found 28 activities
-
-Downloading ausgov-sy from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Syria.xml
-Parsing ausgov-sy from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Syria.xml
-found 32 activities
-
-Downloading ausgov-sz from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Swaziland.xml
-Parsing ausgov-sz from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Swaziland.xml
-found 45 activities
-
-Downloading ausgov-td from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Chad.xml
-Parsing ausgov-td from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Chad.xml
-found 18 activities
-
-Downloading ausgov-tg from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Togo.xml
-Parsing ausgov-tg from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Togo.xml
-found 25 activities
-
-Downloading ausgov-th from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Thailand.xml
-Parsing ausgov-th from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Thailand.xml
-found 211 activities
-
-Downloading ausgov-tj from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Tajikistan.xml
-Parsing ausgov-tj from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Tajikistan.xml
-found 14 activities
-
-Downloading ausgov-tk from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Tokelau.xml
-Parsing ausgov-tk from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Tokelau.xml
-found 26 activities
-
-Downloading ausgov-tl from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Timor-Leste_East_Timor.xml
-Parsing ausgov-tl from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Timor-Leste_East_Timor.xml
-found 235 activities
-
-Downloading ausgov-tn from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Tunisia.xml
-Parsing ausgov-tn from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Tunisia.xml
-found 19 activities
-
-Downloading ausgov-to from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Tonga.xml
-Parsing ausgov-to from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Tonga.xml
-found 270 activities
-
-Downloading ausgov-tr from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Turkey.xml
-Parsing ausgov-tr from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Turkey.xml
-found 36 activities
-
-Downloading ausgov-tt from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Trinidad_and_Tobago.xml
-Parsing ausgov-tt from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Trinidad_and_Tobago.xml
-found 6 activities
-
-Downloading ausgov-tv from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Tuvalu.xml
-Parsing ausgov-tv from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Tuvalu.xml
-found 149 activities
-
-Downloading ausgov-tz from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Tanzania.xml
-Parsing ausgov-tz from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Tanzania.xml
-found 106 activities
-
-Downloading ausgov-ua from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Ukraine.xml
-Parsing ausgov-ua from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Ukraine.xml
-found 19 activities
-
-Downloading ausgov-ug from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Uganda.xml
-Parsing ausgov-ug from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Uganda.xml
-found 93 activities
-
-Downloading ausgov-uy from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Uruguay.xml
-Parsing ausgov-uy from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Uruguay.xml
-found 17 activities
-
-Downloading ausgov-uz from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Uzbekistan.xml
-Parsing ausgov-uz from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Uzbekistan.xml
-found 2 activities
-
-Downloading ausgov-vc from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_St-Vincent_and_Grenadines.xml
-Parsing ausgov-vc from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_St-Vincent_and_Grenadines.xml
-found 26 activities
-
-Downloading ausgov-ve from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Venezuela.xml
-Parsing ausgov-ve from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Venezuela.xml
-found 12 activities
-
-Downloading ausgov-vn from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Viet_Nam.xml
-Parsing ausgov-vn from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Viet_Nam.xml
-found 401 activities
-
-Downloading ausgov-vu from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Vanuatu.xml
-Parsing ausgov-vu from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Vanuatu.xml
-found 324 activities
-
-Downloading ausgov-wf from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Wallis_and_Futuna.xml
-Parsing ausgov-wf from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Wallis_and_Futuna.xml
-found 21 activities
-
-Downloading ausgov-ws from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Samoa.xml
-Parsing ausgov-ws from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Samoa.xml
-found 276 activities
-
-Downloading ausgov-xa from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Regional_File_Asia_Unspecified.xml
-Parsing ausgov-xa from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Regional_File_Asia_Unspecified.xml
-found 225 activities
-
-Downloading ausgov-xc from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Regional_File_South_and_Central_Asia_Unspecified.xml
-Parsing ausgov-xc from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Regional_File_South_and_Central_Asia_Unspecified.xml
-found 59 activities
-
-Downloading ausgov-xe from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Regional_File_Europe_Unspecified.xml
-Parsing ausgov-xe from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Regional_File_Europe_Unspecified.xml
-found 10 activities
-
-Downloading ausgov-xf from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Regional_File_Far_East_Asia_Unspecified.xml
-Parsing ausgov-xf from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Regional_File_Far_East_Asia_Unspecified.xml
-found 95 activities
-
-Downloading ausgov-xg from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Regional_File_Global_Unspecified.xml
-Parsing ausgov-xg from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Regional_File_Global_Unspecified.xml
-found 1404 activities
-
-Downloading ausgov-xi from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Regional_File_North_of_Sahara.xml
-curl: download ERROR 404
-Parsing ausgov-xi from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Regional_File_North_of_Sahara.xml
-dflat: input XML file does not exist
-restored 0 files
-
-Downloading ausgov-xl from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Regional_File_South_America_Unspecified.xml
-Parsing ausgov-xl from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Regional_File_South_America_Unspecified.xml
-found 46 activities
-
-Downloading ausgov-xm from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Regional_File_Middle_East_Unspecified.xml
-Parsing ausgov-xm from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Regional_File_Middle_East_Unspecified.xml
-found 24 activities
-
-Downloading ausgov-xn from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Regional_File_North_and_Central_America_Unspecified.xml
-curl: download ERROR 404
-Parsing ausgov-xn from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Regional_File_North_and_Central_America_Unspecified.xml
-dflat: input XML file does not exist
-restored 0 files
-
-Downloading ausgov-xo from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Regional_File_Oceania_Unspecified.xml
-Parsing ausgov-xo from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Regional_File_Oceania_Unspecified.xml
-found 425 activities
-
-Downloading ausgov-xs from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Regional_File_South_of_Sahara_Unspecified.xml
-Parsing ausgov-xs from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Regional_File_South_of_Sahara_Unspecified.xml
-found 52 activities
-
-Downloading ausgov-xw from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Regional_File_West_Indies_Unspecified.xml
-Parsing ausgov-xw from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Regional_File_West_Indies_Unspecified.xml
-found 20 activities
-
-Downloading ausgov-xy from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Regional_File_States_of_Ex-Yugoslavia.xml
-Parsing ausgov-xy from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Regional_File_States_of_Ex-Yugoslavia.xml
-found 1 activities
-
-Downloading ausgov-xz from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Regional_File_Africa_Unspecified.xml
-Parsing ausgov-xz from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Regional_File_Africa_Unspecified.xml
-found 81 activities
-
-Downloading ausgov-ye from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Yemen.xml
-Parsing ausgov-ye from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Yemen.xml
-found 27 activities
-
-Downloading ausgov-za from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_South_Africa.xml
-Parsing ausgov-za from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_South_Africa.xml
-found 94 activities
-
-Downloading ausgov-zm from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Zambia.xml
-Parsing ausgov-zm from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Zambia.xml
-found 69 activities
-
-Downloading ausgov-zw from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Zimbabwe.xml
-Parsing ausgov-zw from https://www.dfat.gov.au/sites/default/files/Australian_Aid_Country_File_Zimbabwe.xml
-found 112 activities
 
 Downloading auxfinbi-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/auxfinbi-activities.xml
 Parsing auxfinbi-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/auxfinbi-activities.xml
@@ -6170,10 +5452,6 @@ Downloading canadem-998 from https://aidstream.s3.us-west-2.amazonaws.com/xml/ca
 Parsing canadem-998 from https://aidstream.s3.us-west-2.amazonaws.com/xml/canadem-998.xml
 found 8 activities
 
-Downloading canadem-bf from https://aidstream.s3.us-west-2.amazonaws.com/xml/canadem-bf.xml
-Parsing canadem-bf from https://aidstream.s3.us-west-2.amazonaws.com/xml/canadem-bf.xml
-found 0 activities
-
 Downloading canadem-et from https://aidstream.s3.us-west-2.amazonaws.com/xml/canadem-et.xml
 Parsing canadem-et from https://aidstream.s3.us-west-2.amazonaws.com/xml/canadem-et.xml
 found 1 activities
@@ -6488,7 +5766,7 @@ found 1 organisations
 
 Downloading cerf-contributionstodate from https://cerfgms-webapi.unocha.org/v1/iati/donorcontribution.xml
 Parsing cerf-contributionstodate from https://cerfgms-webapi.unocha.org/v1/iati/donorcontribution.xml
-found 1644 activities
+found 1645 activities
 
 Downloading cerf-organization from https://cerfgms-webapi.unocha.org/v1/iati/organizations.xml
 Parsing cerf-organization from https://cerfgms-webapi.unocha.org/v1/iati/organizations.xml
@@ -6568,7 +5846,7 @@ found 381 activities
 
 Downloading cerf-projectsfunded2024 from https://cerfgms-webapi.unocha.org/v1/iati/project/year/2024.xml
 Parsing cerf-projectsfunded2024 from https://cerfgms-webapi.unocha.org/v1/iati/project/year/2024.xml
-found 234 activities
+found 235 activities
 
 Downloading cesc-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/cesc-activities.xml
 Parsing cesc-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/cesc-activities.xml
@@ -7074,7 +6352,7 @@ found 2 activities
 
 Downloading cisu-gaia from https://vores.cisu.dk/activities.xml
 Parsing cisu-gaia from https://vores.cisu.dk/activities.xml
-found 2867 activities
+found 2869 activities
 
 Downloading cisu-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/cisu-org.xml
 Parsing cisu-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/cisu-org.xml
@@ -8026,7 +7304,7 @@ found 2732 activities
 
 Downloading danida-all_7 from http://iati.um.dk/api/v2/files/iati7.xml
 Parsing danida-all_7 from http://iati.um.dk/api/v2/files/iati7.xml
-found 2732 activities
+found 2730 activities
 
 Downloading danida-org from http://iati.um.dk/api/v2/organisations/files/iati-organisations.xml
 Parsing danida-org from http://iati.um.dk/api/v2/organisations/files/iati-organisations.xml
@@ -12016,11 +11294,11 @@ found 731 activities
 
 Downloading ec-echo-2018 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2018.xml
 Parsing ec-echo-2018 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2018.xml
-found 606 activities
+found 603 activities
 
 Downloading ec-echo-2019 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2019.xml
 Parsing ec-echo-2019 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2019.xml
-found 517 activities
+found 519 activities
 
 Downloading ec-echo-2020 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2020.xml
 Parsing ec-echo-2020 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2020.xml
@@ -12028,19 +11306,19 @@ found 598 activities
 
 Downloading ec-echo-2021 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2021.xml
 Parsing ec-echo-2021 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2021.xml
-found 580 activities
+found 578 activities
 
 Downloading ec-echo-2022 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2022.xml
 Parsing ec-echo-2022 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2022.xml
-found 456 activities
+found 458 activities
 
 Downloading ec-echo-2023 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2023.xml
 Parsing ec-echo-2023 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2023.xml
-found 519 activities
+found 522 activities
 
 Downloading ec-echo-2024 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2024.xml
 Parsing ec-echo-2024 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2024.xml
-found 510 activities
+found 512 activities
 
 Downloading ec-echo-org from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/iati-organisation-file.xml
 Parsing ec-echo-org from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/iati-organisation-file.xml
@@ -16123,7 +15401,7 @@ found 8 activities
 
 Downloading gac-amc-act_2_3 from http://w05.international.gc.ca/projectbrowser-banqueprojets/iita-iati/dfatd-maecd_activit_status_2_3.xml
 Parsing gac-amc-act_2_3 from http://w05.international.gc.ca/projectbrowser-banqueprojets/iita-iati/dfatd-maecd_activit_status_2_3.xml
-found 2440 activities
+found 2441 activities
 
 Downloading gac-amc-act_4 from http://w05.international.gc.ca/projectbrowser-banqueprojets/iita-iati/dfatd-maecd_activit_status_4.xml
 Parsing gac-amc-act_4 from http://w05.international.gc.ca/projectbrowser-banqueprojets/iita-iati/dfatd-maecd_activit_status_4.xml
@@ -16605,10 +15883,8 @@ Parsing gef-md from https://d2mxkr7359ifh6.cloudfront.net/GEF/MD.xml
 found 20 activities
 
 Downloading gef-me from https://d2mxkr7359ifh6.cloudfront.net/GEF/ME.xml
-curl: download ERROR 000
 Parsing gef-me from https://d2mxkr7359ifh6.cloudfront.net/GEF/ME.xml
-dflat: input XML file does not exist
-restored 10 files
+found 10 activities
 
 Downloading gef-mg from https://d2mxkr7359ifh6.cloudfront.net/GEF/MG.xml
 Parsing gef-mg from https://d2mxkr7359ifh6.cloudfront.net/GEF/MG.xml
@@ -18645,7 +17921,7 @@ found 1 organisations
 
 Downloading idlo-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/idlo-activities.xml
 Parsing idlo-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/idlo-activities.xml
-found 261 activities
+found 262 activities
 
 Downloading idlo-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/idlo-org.xml
 Parsing idlo-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/idlo-org.xml
@@ -19489,7 +18765,7 @@ found 32 activities
 
 Downloading ifcwbg-cn from https://disclosures.ifc.org/iati/ifc-cn.xml
 Parsing ifcwbg-cn from https://disclosures.ifc.org/iati/ifc-cn.xml
-found 308 activities
+found 309 activities
 
 Downloading ifcwbg-co from https://disclosures.ifc.org/iati/ifc-co.xml
 Parsing ifcwbg-co from https://disclosures.ifc.org/iati/ifc-co.xml
@@ -19525,7 +18801,7 @@ found 10 activities
 
 Downloading ifcwbg-eg from https://disclosures.ifc.org/iati/ifc-eg.xml
 Parsing ifcwbg-eg from https://disclosures.ifc.org/iati/ifc-eg.xml
-found 129 activities
+found 130 activities
 
 Downloading ifcwbg-er from https://disclosures.ifc.org/iati/ifc-er.xml
 Parsing ifcwbg-er from https://disclosures.ifc.org/iati/ifc-er.xml
@@ -19609,7 +18885,7 @@ found 2 activities
 
 Downloading ifcwbg-in from https://disclosures.ifc.org/iati/ifc-in.xml
 Parsing ifcwbg-in from https://disclosures.ifc.org/iati/ifc-in.xml
-found 501 activities
+found 500 activities
 
 Downloading ifcwbg-iq from https://disclosures.ifc.org/iati/ifc-iq.xml
 Parsing ifcwbg-iq from https://disclosures.ifc.org/iati/ifc-iq.xml
@@ -19705,7 +18981,7 @@ found 27 activities
 
 Downloading ifcwbg-mn from https://disclosures.ifc.org/iati/ifc-mn.xml
 Parsing ifcwbg-mn from https://disclosures.ifc.org/iati/ifc-mn.xml
-found 37 activities
+found 38 activities
 
 Downloading ifcwbg-mr from https://disclosures.ifc.org/iati/ifc-mr.xml
 Parsing ifcwbg-mr from https://disclosures.ifc.org/iati/ifc-mr.xml
@@ -19891,7 +19167,7 @@ found 57 activities
 
 Downloading ifcwbg-ua from https://disclosures.ifc.org/iati/ifc-ua.xml
 Parsing ifcwbg-ua from https://disclosures.ifc.org/iati/ifc-ua.xml
-found 96 activities
+found 97 activities
 
 Downloading ifcwbg-ug from https://disclosures.ifc.org/iati/ifc-ug.xml
 Parsing ifcwbg-ug from https://disclosures.ifc.org/iati/ifc-ug.xml
@@ -24703,11 +23979,11 @@ found 2 activities
 
 Downloading mfat-iati-africa from https://devdata.mfat.govt.nz/assets/Aid/IATI/IATI-Activity-XML-Files/IATI-Africa.xml
 Parsing mfat-iati-africa from https://devdata.mfat.govt.nz/assets/Aid/IATI/IATI-Activity-XML-Files/IATI-Africa.xml
-found 130 activities
+found 131 activities
 
 Downloading mfat-iati-asean from https://devdata.mfat.govt.nz/assets/Aid/IATI/IATI-Activity-XML-Files/IATI-ASEAN.xml
 Parsing mfat-iati-asean from https://devdata.mfat.govt.nz/assets/Aid/IATI/IATI-Activity-XML-Files/IATI-ASEAN.xml
-found 262 activities
+found 273 activities
 
 Downloading mfat-iati-cook-islands from https://devdata.mfat.govt.nz/assets/Aid/IATI/IATI-Activity-XML-Files/IATI-Cook-Islands.xml
 Parsing mfat-iati-cook-islands from https://devdata.mfat.govt.nz/assets/Aid/IATI/IATI-Activity-XML-Files/IATI-Cook-Islands.xml
@@ -24715,23 +23991,23 @@ found 51 activities
 
 Downloading mfat-iati-fiji from https://devdata.mfat.govt.nz/assets/Aid/IATI/IATI-Activity-XML-Files/IATI-Fiji.xml
 Parsing mfat-iati-fiji from https://devdata.mfat.govt.nz/assets/Aid/IATI/IATI-Activity-XML-Files/IATI-Fiji.xml
-found 143 activities
+found 144 activities
 
 Downloading mfat-iati-kiribati from https://devdata.mfat.govt.nz/assets/Aid/IATI/IATI-Activity-XML-Files/IATI-Kiribati.xml
 Parsing mfat-iati-kiribati from https://devdata.mfat.govt.nz/assets/Aid/IATI/IATI-Activity-XML-Files/IATI-Kiribati.xml
-found 95 activities
+found 94 activities
 
 Downloading mfat-iati-latin-america-and-caribbean from https://devdata.mfat.govt.nz/assets/Aid/IATI/IATI-Activity-XML-Files/IATI-Latin-America-Caribbean.xml
 Parsing mfat-iati-latin-america-and-caribbean from https://devdata.mfat.govt.nz/assets/Aid/IATI/IATI-Activity-XML-Files/IATI-Latin-America-Caribbean.xml
-found 67 activities
+found 68 activities
 
 Downloading mfat-iati-multi-country from https://devdata.mfat.govt.nz/assets/Aid/IATI/IATI-Activity-XML-Files/IATI-Multi-Country.xml
 Parsing mfat-iati-multi-country from https://devdata.mfat.govt.nz/assets/Aid/IATI/IATI-Activity-XML-Files/IATI-Multi-Country.xml
-found 367 activities
+found 311 activities
 
 Downloading mfat-iati-multilateral-agencies from https://devdata.mfat.govt.nz/assets/Aid/IATI/IATI-Activity-XML-Files/IATI-Multilateral-Agencies.xml
 Parsing mfat-iati-multilateral-agencies from https://devdata.mfat.govt.nz/assets/Aid/IATI/IATI-Activity-XML-Files/IATI-Multilateral-Agencies.xml
-found 143 activities
+found 88 activities
 
 Downloading mfat-iati-nauru from https://devdata.mfat.govt.nz/assets/Aid/IATI/IATI-Activity-XML-Files/IATI-Nauru.xml
 Parsing mfat-iati-nauru from https://devdata.mfat.govt.nz/assets/Aid/IATI/IATI-Activity-XML-Files/IATI-Nauru.xml
@@ -24751,11 +24027,11 @@ found 179 activities
 
 Downloading mfat-iati-pacific-regional from https://devdata.mfat.govt.nz/assets/Aid/IATI/IATI-Activity-XML-Files/IATI-Pacific-Regional.xml
 Parsing mfat-iati-pacific-regional from https://devdata.mfat.govt.nz/assets/Aid/IATI/IATI-Activity-XML-Files/IATI-Pacific-Regional.xml
-found 366 activities
+found 353 activities
 
 Downloading mfat-iati-papua-new-guinea from https://devdata.mfat.govt.nz/assets/Aid/IATI/IATI-Activity-XML-Files/IATI-Papua-New-Guinea.xml
 Parsing mfat-iati-papua-new-guinea from https://devdata.mfat.govt.nz/assets/Aid/IATI/IATI-Activity-XML-Files/IATI-Papua-New-Guinea.xml
-found 127 activities
+found 128 activities
 
 Downloading mfat-iati-samoa from https://devdata.mfat.govt.nz/assets/Aid/IATI/IATI-Activity-XML-Files/IATI-Samoa.xml
 Parsing mfat-iati-samoa from https://devdata.mfat.govt.nz/assets/Aid/IATI/IATI-Activity-XML-Files/IATI-Samoa.xml
@@ -24767,7 +24043,7 @@ found 112 activities
 
 Downloading mfat-iati-timor-leste from https://devdata.mfat.govt.nz/assets/Aid/IATI/IATI-Activity-XML-Files/IATI-Timor-Leste.xml
 Parsing mfat-iati-timor-leste from https://devdata.mfat.govt.nz/assets/Aid/IATI/IATI-Activity-XML-Files/IATI-Timor-Leste.xml
-found 47 activities
+found 48 activities
 
 Downloading mfat-iati-tokelau from https://devdata.mfat.govt.nz/assets/Aid/IATI/IATI-Activity-XML-Files/IATI-Tokelau.xml
 Parsing mfat-iati-tokelau from https://devdata.mfat.govt.nz/assets/Aid/IATI/IATI-Activity-XML-Files/IATI-Tokelau.xml
@@ -24779,7 +24055,7 @@ found 117 activities
 
 Downloading mfat-iati-tuvalu from https://devdata.mfat.govt.nz/assets/Aid/IATI/IATI-Activity-XML-Files/IATI-Tuvalu.xml
 Parsing mfat-iati-tuvalu from https://devdata.mfat.govt.nz/assets/Aid/IATI/IATI-Activity-XML-Files/IATI-Tuvalu.xml
-found 52 activities
+found 53 activities
 
 Downloading mfat-iati-vanuatu from https://devdata.mfat.govt.nz/assets/Aid/IATI/IATI-Activity-XML-Files/IATI-Vanuatu.xml
 Parsing mfat-iati-vanuatu from https://devdata.mfat.govt.nz/assets/Aid/IATI/IATI-Activity-XML-Files/IATI-Vanuatu.xml
@@ -26351,7 +25627,7 @@ found 2205 activities
 
 Downloading onl-activity from https://www.oxfamnovib.nl/redactie/Downloads/XML/iati.xml
 Parsing onl-activity from https://www.oxfamnovib.nl/redactie/Downloads/XML/iati.xml
-found 2516 activities
+found 2520 activities
 
 Downloading onl-org from https://www.oxfamnovib.nl/redactie/downloads/xml/IATI_NL-KVK-27108436.xml
 Parsing onl-org from https://www.oxfamnovib.nl/redactie/downloads/xml/IATI_NL-KVK-27108436.xml
@@ -28883,7 +28159,7 @@ found 1 organisations
 
 Downloading rvo-01 from https://projects.rvo.nl/opendata/iati.xml
 Parsing rvo-01 from https://projects.rvo.nl/opendata/iati.xml
-found 5066 activities
+found 5067 activities
 
 Downloading rvo-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/rvo-activities.xml
 Parsing rvo-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/rvo-activities.xml
@@ -28987,8 +28263,10 @@ Parsing sce-gmbh-activities from https://aidstream.s3.us-west-2.amazonaws.com/xm
 found 2 activities
 
 Downloading sci-activities from http://iati.savethechildren.org.uk/Files/SCI/activities.xml
+curl: download ERROR 000
 Parsing sci-activities from http://iati.savethechildren.org.uk/Files/SCI/activities.xml
-found 1153 activities
+dflat: input XML file does not exist
+restored 1153 files
 
 Downloading sciaf-cd from https://aidstream.s3.us-west-2.amazonaws.com/xml/sciaf-cd.xml
 Parsing sciaf-cd from https://aidstream.s3.us-west-2.amazonaws.com/xml/sciaf-cd.xml
@@ -29027,11 +28305,13 @@ Parsing scibelgium-program2022 from http://diplomatie.be/oda/IATI_act_pr2022-26_
 found 2 activities
 
 Downloading sci-myanmar from http://iati.savethechildren.org.uk/Files/SCI/ActivitiesMM.xml
+curl: download ERROR 000
 Parsing sci-myanmar from http://iati.savethechildren.org.uk/Files/SCI/ActivitiesMM.xml
-found 1 activities
+dflat: input XML file does not exist
+restored 1 files
 
 Downloading sci-org from http://iati.savethechildren.org.uk/Files/SCI/organisation.xml
-curl: download ERROR 404
+curl: download ERROR 000
 Parsing sci-org from http://iati.savethechildren.org.uk/Files/SCI/organisation.xml
 dflat: input XML file does not exist
 restored 0 files
@@ -29211,20 +28491,28 @@ Parsing sct-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/sct-org.xm
 found 1 organisations
 
 Downloading scuk-archive from http://iati.savethechildren.org.uk/files/archive.xml
+curl: download ERROR 000
 Parsing scuk-archive from http://iati.savethechildren.org.uk/files/archive.xml
-found 183 activities
+dflat: input XML file does not exist
+restored 183 files
 
 Downloading scuk-organisation from http://iati.savethechildren.org.uk/files/organisation.xml
+curl: download ERROR 000
 Parsing scuk-organisation from http://iati.savethechildren.org.uk/files/organisation.xml
-found 1 organisations
+dflat: input XML file does not exist
+restored 1 files
 
 Downloading scuk-scukppa from http://iati.savethechildren.org.uk/Files/SCUKPPA.xml
+curl: download ERROR 000
 Parsing scuk-scukppa from http://iati.savethechildren.org.uk/Files/SCUKPPA.xml
-found 1 activities
+dflat: input XML file does not exist
+restored 1 files
 
 Downloading scuk-zz from http://iati.savethechildren.org.uk/files/activities.xml
+curl: download ERROR 000
 Parsing scuk-zz from http://iati.savethechildren.org.uk/files/activities.xml
-found 1302 activities
+dflat: input XML file does not exist
+restored 1302 files
 
 Downloading sdc_ch-022024 from https://www.eda.admin.ch/content/dam/deza/de/documents/aktivitaeten-projekte/IATI-XML-Activity-file-2024-Q2.xml
 curl: download ERROR 403
@@ -35971,7 +35259,7 @@ found 56 activities
 
 Downloading unicef-dprk from https://open.unicef.org/sites/transparency/files/countrydata/iatiActivity_DP_Republic_of_Korea.xml
 Parsing unicef-dprk from https://open.unicef.org/sites/transparency/files/countrydata/iatiActivity_DP_Republic_of_Korea.xml
-found 87 activities
+found 86 activities
 
 Downloading unicef-drc from https://open.unicef.org/sites/transparency/files/countrydata/iatiActivity_Democratic_Republic_of_Congo.xml
 Parsing unicef-drc from https://open.unicef.org/sites/transparency/files/countrydata/iatiActivity_Democratic_Republic_of_Congo.xml
@@ -36263,7 +35551,7 @@ found 52 activities
 
 Downloading unicef-papuanewguinea from https://open.unicef.org/sites/transparency/files/countrydata/iatiActivity_Papua_New_Guinea.xml
 Parsing unicef-papuanewguinea from https://open.unicef.org/sites/transparency/files/countrydata/iatiActivity_Papua_New_Guinea.xml
-found 82 activities
+found 81 activities
 
 Downloading unicef-paraguay from https://open.unicef.org/sites/transparency/files/countrydata/iatiActivity_Paraguay.xml
 Parsing unicef-paraguay from https://open.unicef.org/sites/transparency/files/countrydata/iatiActivity_Paraguay.xml
@@ -36299,7 +35587,7 @@ found 62 activities
 
 Downloading unicef-saudiarabia from https://open.unicef.org/sites/transparency/files/countrydata/iatiActivity_Saudi_Arabia.xml
 Parsing unicef-saudiarabia from https://open.unicef.org/sites/transparency/files/countrydata/iatiActivity_Saudi_Arabia.xml
-found 61 activities
+found 62 activities
 
 Downloading unicef-senegal from https://open.unicef.org/sites/transparency/files/countrydata/iatiActivity_Senegal.xml
 Parsing unicef-senegal from https://open.unicef.org/sites/transparency/files/countrydata/iatiActivity_Senegal.xml
@@ -37073,7 +36361,7 @@ found 26 activities
 
 Downloading unocha-cbpf-afghanistan-contribution-2024 from https://cbpfapi.unocha.org/iati/iati/23/2024/GetContribution.xml
 Parsing unocha-cbpf-afghanistan-contribution-2024 from https://cbpfapi.unocha.org/iati/iati/23/2024/GetContribution.xml
-found 19 activities
+found 20 activities
 
 Downloading unocha-cbpf-burkinafasorhpf-2016 from https://cbpfapi.unocha.org/iati/iati/85/2016/GetPooledFund.xml
 Parsing unocha-cbpf-burkinafasorhpf-2016 from https://cbpfapi.unocha.org/iati/iati/85/2016/GetPooledFund.xml
@@ -38245,7 +37533,7 @@ found 110 activities
 
 Downloading unocha-cbpf-opt-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/67/2024/GetAllocation.xml
 Parsing unocha-cbpf-opt-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/67/2024/GetAllocation.xml
-found 58 activities
+found 63 activities
 
 Downloading unocha-cbpf-opt-contribution-2016 from https://cbpfapi.unocha.org/iati/iati/67/2016/GetContribution.xml
 Parsing unocha-cbpf-opt-contribution-2016 from https://cbpfapi.unocha.org/iati/iati/67/2016/GetContribution.xml
@@ -38677,7 +37965,7 @@ found 80 activities
 
 Downloading unocha-cbpf-sudan-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/15/2024/GetAllocation.xml
 Parsing unocha-cbpf-sudan-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/15/2024/GetAllocation.xml
-found 60 activities
+found 64 activities
 
 Downloading unocha-cbpf-sudan-contribution-2016 from https://cbpfapi.unocha.org/iati/iati/15/2016/GetContribution.xml
 Parsing unocha-cbpf-sudan-contribution-2016 from https://cbpfapi.unocha.org/iati/iati/15/2016/GetContribution.xml
@@ -38929,7 +38217,7 @@ found 42 activities
 
 Downloading unocha-cbpf-syriacrossborder-contribution-2024 from https://cbpfapi.unocha.org/iati/iati/70/2024/GetContribution.xml
 Parsing unocha-cbpf-syriacrossborder-contribution-2024 from https://cbpfapi.unocha.org/iati/iati/70/2024/GetContribution.xml
-found 19 activities
+found 20 activities
 
 Downloading unocha-cbpf-ukraine-2019 from https://cbpfapi.unocha.org/iati/iati/81/2019/GetPooledFund.xml
 Parsing unocha-cbpf-ukraine-2019 from https://cbpfapi.unocha.org/iati/iati/81/2019/GetPooledFund.xml
@@ -39001,7 +38289,7 @@ found 33 activities
 
 Downloading unocha-cbpf-ukraine-contribution-2024 from https://cbpfapi.unocha.org/iati/iati/81/2024/GetContribution.xml
 Parsing unocha-cbpf-ukraine-contribution-2024 from https://cbpfapi.unocha.org/iati/iati/81/2024/GetContribution.xml
-found 27 activities
+found 28 activities
 
 Downloading unocha-cbpf-venezuela-2020 from https://cbpfapi.unocha.org/iati/iati/83/2020/GetPooledFund.xml
 Parsing unocha-cbpf-venezuela-2020 from https://cbpfapi.unocha.org/iati/iati/83/2020/GetPooledFund.xml
@@ -42828,10 +42116,8 @@ Parsing wbtf-tf050887 from https://d2mxkr7359ifh6.cloudfront.net/TF050887.xml
 found 31 activities
 
 Downloading wbtf-tf050990 from https://d2mxkr7359ifh6.cloudfront.net/TF050990.xml
-curl: download ERROR 000
 Parsing wbtf-tf050990 from https://d2mxkr7359ifh6.cloudfront.net/TF050990.xml
-dflat: input XML file does not exist
-restored 3 files
+found 3 activities
 
 Downloading wbtf-tf050998 from https://d2mxkr7359ifh6.cloudfront.net/TF050998.xml
 Parsing wbtf-tf050998 from https://d2mxkr7359ifh6.cloudfront.net/TF050998.xml
@@ -42878,10 +42164,8 @@ Parsing wbtf-tf054005 from https://d2mxkr7359ifh6.cloudfront.net/TF054005.xml
 found 20 activities
 
 Downloading wbtf-tf054035 from https://d2mxkr7359ifh6.cloudfront.net/TF054035.xml
-curl: download ERROR 000
 Parsing wbtf-tf054035 from https://d2mxkr7359ifh6.cloudfront.net/TF054035.xml
-dflat: input XML file does not exist
-restored 3 files
+found 3 activities
 
 Downloading wbtf-tf054674 from https://d2mxkr7359ifh6.cloudfront.net/TF054674.xml
 Parsing wbtf-tf054674 from https://d2mxkr7359ifh6.cloudfront.net/TF054674.xml
@@ -44076,10 +43360,8 @@ Parsing wbtf-tf072232 from https://d2mxkr7359ifh6.cloudfront.net/TF072232.xml
 found 2 activities
 
 Downloading wbtf-tf072236 from https://d2mxkr7359ifh6.cloudfront.net/TF072236.xml
-curl: download ERROR 000
 Parsing wbtf-tf072236 from https://d2mxkr7359ifh6.cloudfront.net/TF072236.xml
-dflat: input XML file does not exist
-restored 9 files
+found 9 activities
 
 Downloading wbtf-tf072239 from https://d2mxkr7359ifh6.cloudfront.net/TF072239.xml
 Parsing wbtf-tf072239 from https://d2mxkr7359ifh6.cloudfront.net/TF072239.xml
@@ -44198,10 +43480,8 @@ Parsing wbtf-tf072424 from https://d2mxkr7359ifh6.cloudfront.net/TF072424.xml
 found 1 activities
 
 Downloading wbtf-tf072427 from https://d2mxkr7359ifh6.cloudfront.net/TF072427.xml
-curl: download ERROR 000
 Parsing wbtf-tf072427 from https://d2mxkr7359ifh6.cloudfront.net/TF072427.xml
-dflat: input XML file does not exist
-restored 1 files
+found 1 activities
 
 Downloading wbtf-tf072443 from https://d2mxkr7359ifh6.cloudfront.net/TF072443.xml
 Parsing wbtf-tf072443 from https://d2mxkr7359ifh6.cloudfront.net/TF072443.xml
@@ -44384,10 +43664,8 @@ Parsing wbtf-tf072593 from https://d2mxkr7359ifh6.cloudfront.net/TF072593.xml
 found 1 activities
 
 Downloading wbtf-tf072600 from https://d2mxkr7359ifh6.cloudfront.net/TF072600.xml
-curl: download ERROR 000
 Parsing wbtf-tf072600 from https://d2mxkr7359ifh6.cloudfront.net/TF072600.xml
-dflat: input XML file does not exist
-restored 8 files
+found 8 activities
 
 Downloading wbtf-tf072601 from https://d2mxkr7359ifh6.cloudfront.net/TF072601.xml
 Parsing wbtf-tf072601 from https://d2mxkr7359ifh6.cloudfront.net/TF072601.xml
@@ -44630,10 +43908,8 @@ Parsing wbtf-tf072784 from https://d2mxkr7359ifh6.cloudfront.net/TF072784.xml
 found 1 activities
 
 Downloading wbtf-tf072791 from https://d2mxkr7359ifh6.cloudfront.net/TF072791.xml
-curl: download ERROR 000
 Parsing wbtf-tf072791 from https://d2mxkr7359ifh6.cloudfront.net/TF072791.xml
-dflat: input XML file does not exist
-restored 1 files
+found 1 activities
 
 Downloading wbtf-tf072793 from https://d2mxkr7359ifh6.cloudfront.net/TF072793.xml
 Parsing wbtf-tf072793 from https://d2mxkr7359ifh6.cloudfront.net/TF072793.xml
@@ -44800,10 +44076,8 @@ Parsing wbtf-tf073012 from https://d2mxkr7359ifh6.cloudfront.net/TF073012.xml
 found 1 activities
 
 Downloading wbtf-tf073022 from https://d2mxkr7359ifh6.cloudfront.net/TF073022.xml
-curl: download ERROR 000
 Parsing wbtf-tf073022 from https://d2mxkr7359ifh6.cloudfront.net/TF073022.xml
-dflat: input XML file does not exist
-restored 6 files
+found 6 activities
 
 Downloading wbtf-tf073024 from https://d2mxkr7359ifh6.cloudfront.net/TF073024.xml
 Parsing wbtf-tf073024 from https://d2mxkr7359ifh6.cloudfront.net/TF073024.xml
@@ -44882,10 +44156,8 @@ Parsing wbtf-tf073168 from https://d2mxkr7359ifh6.cloudfront.net/TF073168.xml
 found 2 activities
 
 Downloading wbtf-tf073170 from https://d2mxkr7359ifh6.cloudfront.net/TF073170.xml
-curl: download ERROR 000
 Parsing wbtf-tf073170 from https://d2mxkr7359ifh6.cloudfront.net/TF073170.xml
-dflat: input XML file does not exist
-restored 1 files
+found 1 activities
 
 Downloading wbtf-tf073183 from https://d2mxkr7359ifh6.cloudfront.net/TF073183.xml
 Parsing wbtf-tf073183 from https://d2mxkr7359ifh6.cloudfront.net/TF073183.xml
