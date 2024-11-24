@@ -7306,7 +7306,7 @@ found 2732 activities
 
 Downloading danida-all_7 from http://iati.um.dk/api/v2/files/iati7.xml
 Parsing danida-all_7 from http://iati.um.dk/api/v2/files/iati7.xml
-found 2730 activities
+found 2731 activities
 
 Downloading danida-org from http://iati.um.dk/api/v2/organisations/files/iati-organisations.xml
 Parsing danida-org from http://iati.um.dk/api/v2/organisations/files/iati-organisations.xml
@@ -11288,7 +11288,7 @@ found 892 activities
 
 Downloading ec-echo-2016 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2016.xml
 Parsing ec-echo-2016 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2016.xml
-found 844 activities
+found 846 activities
 
 Downloading ec-echo-2017 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2017.xml
 Parsing ec-echo-2017 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2017.xml
@@ -11300,15 +11300,15 @@ found 602 activities
 
 Downloading ec-echo-2019 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2019.xml
 Parsing ec-echo-2019 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2019.xml
-found 518 activities
+found 520 activities
 
 Downloading ec-echo-2020 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2020.xml
 Parsing ec-echo-2020 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2020.xml
-found 600 activities
+found 599 activities
 
 Downloading ec-echo-2021 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2021.xml
 Parsing ec-echo-2021 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2021.xml
-found 578 activities
+found 577 activities
 
 Downloading ec-echo-2022 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2022.xml
 Parsing ec-echo-2022 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2022.xml
@@ -11316,11 +11316,11 @@ found 454 activities
 
 Downloading ec-echo-2023 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2023.xml
 Parsing ec-echo-2023 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2023.xml
-found 519 activities
+found 528 activities
 
 Downloading ec-echo-2024 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2024.xml
 Parsing ec-echo-2024 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2024.xml
-found 523 activities
+found 515 activities
 
 Downloading ec-echo-org from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/iati-organisation-file.xml
 Parsing ec-echo-org from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/iati-organisation-file.xml
@@ -11569,7 +11569,7 @@ found 13 activities
 
 Downloading ec-fpi-ir from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_IR.xml
 Parsing ec-fpi-ir from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_IR.xml
-dflat: input XML file does not exist
+dflat: invalid XML format
 restored 3 files
 
 Downloading ec-fpi-jo from https://ec.europa.eu/international-partnerships/assets/iati/XI-IATI-EC_FPI_C_JO.xml
@@ -19067,7 +19067,7 @@ found 28 activities
 
 Downloading ifcwbg-ro from https://disclosures.ifc.org/iati/ifc-ro.xml
 Parsing ifcwbg-ro from https://disclosures.ifc.org/iati/ifc-ro.xml
-found 101 activities
+found 102 activities
 
 Downloading ifcwbg-rs from https://disclosures.ifc.org/iati/ifc-rs.xml
 Parsing ifcwbg-rs from https://disclosures.ifc.org/iati/ifc-rs.xml
@@ -19079,7 +19079,7 @@ found 200 activities
 
 Downloading ifcwbg-rw from https://disclosures.ifc.org/iati/ifc-rw.xml
 Parsing ifcwbg-rw from https://disclosures.ifc.org/iati/ifc-rw.xml
-found 18 activities
+found 19 activities
 
 Downloading ifcwbg-sa from https://disclosures.ifc.org/iati/ifc-sa.xml
 Parsing ifcwbg-sa from https://disclosures.ifc.org/iati/ifc-sa.xml
@@ -25629,7 +25629,7 @@ found 2205 activities
 
 Downloading onl-activity from https://www.oxfamnovib.nl/redactie/Downloads/XML/iati.xml
 Parsing onl-activity from https://www.oxfamnovib.nl/redactie/Downloads/XML/iati.xml
-found 2521 activities
+found 2522 activities
 
 Downloading onl-org from https://www.oxfamnovib.nl/redactie/downloads/xml/IATI_NL-KVK-27108436.xml
 Parsing onl-org from https://www.oxfamnovib.nl/redactie/downloads/xml/IATI_NL-KVK-27108436.xml
@@ -31320,8 +31320,10 @@ Parsing theglobalfund-rou from https://data-service.theglobalfund.org/v2.1/iati/
 found 6 activities
 
 Downloading theglobalfund-rus from https://data-service.theglobalfund.org/v2.1/iati/activities-xml/RUS
+curl: download ERROR 000
 Parsing theglobalfund-rus from https://data-service.theglobalfund.org/v2.1/iati/activities-xml/RUS
-found 7 activities
+dflat: input XML file does not exist
+restored 7 files
 
 Downloading theglobalfund-rwa from https://data-service.theglobalfund.org/v2.1/iati/activities-xml/RWA
 Parsing theglobalfund-rwa from https://data-service.theglobalfund.org/v2.1/iati/activities-xml/RWA
@@ -32559,19 +32561,19 @@ Parsing uand_2020-activities from https://aidstream.s3.us-west-2.amazonaws.com/x
 found 7 activities
 
 Downloading uasd-77 from http://www.roaid.ro/uploads/documents/66/iati-export%20Romania%202015_final.xml
-curl: download ERROR 000
+curl: download ERROR 403
 Parsing uasd-77 from http://www.roaid.ro/uploads/documents/66/iati-export%20Romania%202015_final.xml
 dflat: input XML file does not exist
 restored 0 files
 
 Downloading uasd-dataset from http://roaid.ro/uploads/Romania_Activity_File_2015_1.xml
-curl: download ERROR 000
+curl: download ERROR 403
 Parsing uasd-dataset from http://roaid.ro/uploads/Romania_Activity_File_2015_1.xml
 dflat: input XML file does not exist
 restored 0 files
 
 Downloading uasd-org from http://www.roaid.ro/uploads/documents/145/iati-export%202014-2016.xml
-curl: download ERROR 000
+curl: download ERROR 403
 Parsing uasd-org from http://www.roaid.ro/uploads/documents/145/iati-export%202014-2016.xml
 dflat: input XML file does not exist
 restored 0 files
@@ -36543,7 +36545,7 @@ found 31 activities
 
 Downloading unocha-cbpf-car-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/17/2024/GetAllocation.xml
 Parsing unocha-cbpf-car-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/17/2024/GetAllocation.xml
-found 40 activities
+found 41 activities
 
 Downloading unocha-cbpf-car-contribution-2016 from https://cbpfapi.unocha.org/iati/iati/17/2016/GetContribution.xml
 Parsing unocha-cbpf-car-contribution-2016 from https://cbpfapi.unocha.org/iati/iati/17/2016/GetContribution.xml
@@ -37535,7 +37537,7 @@ found 110 activities
 
 Downloading unocha-cbpf-opt-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/67/2024/GetAllocation.xml
 Parsing unocha-cbpf-opt-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/67/2024/GetAllocation.xml
-found 71 activities
+found 75 activities
 
 Downloading unocha-cbpf-opt-contribution-2016 from https://cbpfapi.unocha.org/iati/iati/67/2016/GetContribution.xml
 Parsing unocha-cbpf-opt-contribution-2016 from https://cbpfapi.unocha.org/iati/iati/67/2016/GetContribution.xml
@@ -47088,7 +47090,7 @@ found 1 organisations
 
 Downloading yffhsd-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/yffhsd-activities.xml
 Parsing yffhsd-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/yffhsd-activities.xml
-found 9 activities
+found 10 activities
 
 Downloading yffhsd-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/yffhsd-org.xml
 Parsing yffhsd-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/yffhsd-org.xml
