@@ -5802,7 +5802,7 @@ found 1 organisations
 
 Downloading cerf-contributionstodate from https://cerfgms-webapi.unocha.org/v1/iati/donorcontribution.xml
 Parsing cerf-contributionstodate from https://cerfgms-webapi.unocha.org/v1/iati/donorcontribution.xml
-found 1698 activities
+found 1700 activities
 
 Downloading cerf-organization from https://cerfgms-webapi.unocha.org/v1/iati/organizations.xml
 Parsing cerf-organization from https://cerfgms-webapi.unocha.org/v1/iati/organizations.xml
@@ -11385,7 +11385,7 @@ found 851 activities
 
 Downloading ec-echo-2017 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2017.xml
 Parsing ec-echo-2017 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2017.xml
-found 734 activities
+found 736 activities
 
 Downloading ec-echo-2018 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2018.xml
 Parsing ec-echo-2018 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2018.xml
@@ -11393,11 +11393,11 @@ found 605 activities
 
 Downloading ec-echo-2019 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2019.xml
 Parsing ec-echo-2019 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2019.xml
-found 523 activities
+found 520 activities
 
 Downloading ec-echo-2020 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2020.xml
 Parsing ec-echo-2020 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2020.xml
-found 593 activities
+found 595 activities
 
 Downloading ec-echo-2021 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2021.xml
 Parsing ec-echo-2021 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2021.xml
@@ -11405,15 +11405,15 @@ found 572 activities
 
 Downloading ec-echo-2022 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2022.xml
 Parsing ec-echo-2022 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2022.xml
-found 462 activities
+found 465 activities
 
 Downloading ec-echo-2023 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2023.xml
 Parsing ec-echo-2023 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2023.xml
-found 516 activities
+found 517 activities
 
 Downloading ec-echo-2024 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2024.xml
 Parsing ec-echo-2024 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2024.xml
-found 533 activities
+found 530 activities
 
 Downloading ec-echo-2025 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2025.xml
 Parsing ec-echo-2025 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2025.xml
@@ -14139,13 +14139,6 @@ found 1 activities
 
 Downloading finland_mfa-ge from http://formin.finland.fi/opendata/IATI/Finland_GE.xml
 Converting IATI activities version 1.00 to version 2.03
-./iati-activities.xsl:252: parser error : Char 0x0 out of allowed range
-          
-          ^
-./iati-activities.xsl:252: parser error : Premature end of data in tag administrative line 251
-          
-          ^
-cannot parse ./iati-activities.xsl
 Parsing finland_mfa-ge from http://formin.finland.fi/opendata/IATI/Finland_GE.xml
 found 8 activities
 
@@ -15620,18 +15613,20 @@ Parsing ga-activities from https://iatipublisher-prod.s3.amazonaws.com/xml/merge
 found 8 activities
 
 Downloading gac-amc-act_2_3 from http://w05.international.gc.ca/projectbrowser-banqueprojets/iita-iati/dfatd-maecd_activit_status_2_3.xml
+curl: download ERROR 000
 Parsing gac-amc-act_2_3 from http://w05.international.gc.ca/projectbrowser-banqueprojets/iita-iati/dfatd-maecd_activit_status_2_3.xml
 dflat: input XML file does not exist
 restored 2490 files
 
 Downloading gac-amc-act_4 from http://w05.international.gc.ca/projectbrowser-banqueprojets/iita-iati/dfatd-maecd_activit_status_4.xml
 Parsing gac-amc-act_4 from http://w05.international.gc.ca/projectbrowser-banqueprojets/iita-iati/dfatd-maecd_activit_status_4.xml
-dflat: input XML file does not exist
+dflat: invalid XML format
 restored 341 files
 
 Downloading gac-amc-org from http://w05.international.gc.ca/projectbrowser-banqueprojets/iita-iati/dfatd-maecd_organisation.xml
 Parsing gac-amc-org from http://w05.international.gc.ca/projectbrowser-banqueprojets/iita-iati/dfatd-maecd_organisation.xml
-found 1 organisations
+dflat: input XML file does not exist
+restored 1 files
 
 Downloading gadp-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/gadp-activities.xml
 Parsing gadp-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/gadp-activities.xml
@@ -19001,7 +18996,7 @@ found 60 activities
 
 Downloading ifcwbg-cm from https://disclosures.ifc.org/iati/ifc-cm.xml
 Parsing ifcwbg-cm from https://disclosures.ifc.org/iati/ifc-cm.xml
-found 33 activities
+found 34 activities
 
 Downloading ifcwbg-cn from https://disclosures.ifc.org/iati/ifc-cn.xml
 Parsing ifcwbg-cn from https://disclosures.ifc.org/iati/ifc-cn.xml
@@ -20705,8 +20700,10 @@ Parsing itad-gh from https://aidstream.s3.us-west-2.amazonaws.com/xml/itad-gh.xm
 found 2 activities
 
 Downloading itad-gt from https://aidstream.s3.us-west-2.amazonaws.com/xml/itad-gt.xml
+curl: download ERROR 000
 Parsing itad-gt from https://aidstream.s3.us-west-2.amazonaws.com/xml/itad-gt.xml
-found 1 activities
+dflat: input XML file does not exist
+restored 1 files
 
 Downloading itad-ml from https://aidstream.s3.us-west-2.amazonaws.com/xml/itad-ml.xml
 Parsing itad-ml from https://aidstream.s3.us-west-2.amazonaws.com/xml/itad-ml.xml
@@ -23250,10 +23247,8 @@ dflat: input XML file does not exist
 restored 2 files
 
 Downloading malariaconsortium-m1 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-M1.xml
-curl: download ERROR 403
 Parsing malariaconsortium-m1 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-M1.xml
-dflat: input XML file does not exist
-restored 5 files
+found 5 activities
 
 Downloading malariaconsortium-m2 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-M2.xml
 curl: download ERROR 403
@@ -23898,10 +23893,8 @@ dflat: input XML file does not exist
 restored 2 files
 
 Downloading malariaconsortium-y2 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-Y2.xml
-curl: download ERROR 403
 Parsing malariaconsortium-y2 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-Y2.xml
-dflat: input XML file does not exist
-restored 2 files
+found 2 activities
 
 Downloading malariaconsortium-y3 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-Y3.xml
 curl: download ERROR 403
@@ -24764,16 +24757,12 @@ Parsing mondefemmes-program2022 from http://diplomatie.be/oda/IATI_act_pr2022-26
 found 7 activities
 
 Downloading mondiaalfnv-act-21-25 from https://www.fnv.nl/getmedia/b3cc8643-5508-466c-866f-dc19cb1e22d1/mondiaalfnv-activities20241213-1623.xml
-curl: download ERROR 000
 Parsing mondiaalfnv-act-21-25 from https://www.fnv.nl/getmedia/b3cc8643-5508-466c-866f-dc19cb1e22d1/mondiaalfnv-activities20241213-1623.xml
-dflat: input XML file does not exist
-restored 51 files
+found 51 activities
 
 Downloading mondiaalfnv-org-1725 from https://www.fnv.nl/getmedia/09fed18e-96b2-4264-b115-48bb3272138a/mondiaalfnv-org-241211.xml
-curl: download ERROR 503
 Parsing mondiaalfnv-org-1725 from https://www.fnv.nl/getmedia/09fed18e-96b2-4264-b115-48bb3272138a/mondiaalfnv-org-241211.xml
-dflat: input XML file does not exist
-restored 1 files
+found 1 organisations
 
 Downloading montrose_llp-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/montrose_llp-activities.xml
 Parsing montrose_llp-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/montrose_llp-activities.xml
@@ -29644,9 +29633,8 @@ dflat: invalid XML format
 restored 45 files
 
 Downloading solidaridad-europe-org from https://sites.google.com/a/solidaridadnetwork.org/iati-publications/iati-datasets/europe/Solidaridad-Europe-org.xml
-curl: download ERROR 404
 Parsing solidaridad-europe-org from https://sites.google.com/a/solidaridadnetwork.org/iati-publications/iati-datasets/europe/Solidaridad-Europe-org.xml
-dflat: input XML file does not exist
+dflat: invalid XML format
 restored 1 files
 
 Downloading solidaridad-solidaridadhistoricalactivities from https://files.aida.tools/activities/NL-KVK-51756811/c94a5cf8-439e-49d9-a471-8cb1988e1a2f/solidaridadhistoricalactivities.xml
@@ -29836,7 +29824,7 @@ found 1 activities
 
 Downloading sp-activities from https://iatipublisher-prod.s3.amazonaws.com/xml/mergedActivityXml/sp-activities.xml
 Parsing sp-activities from https://iatipublisher-prod.s3.amazonaws.com/xml/mergedActivityXml/sp-activities.xml
-found 1 activities
+found 2 activities
 
 Downloading sparc_iati-activities from https://iatipublisher-prod.s3.amazonaws.com/xml/mergedActivityXml/sparc_iati-activities.xml
 Parsing sparc_iati-activities from https://iatipublisher-prod.s3.amazonaws.com/xml/mergedActivityXml/sparc_iati-activities.xml
