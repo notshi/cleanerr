@@ -1000,8 +1000,9 @@ Parsing aecid-do from https://www.aecid.es/documents/d/guest/AECID_REPUBLICA_DOM
 found 82 activities
 
 Downloading aecid-dz from https://www.aecid.es/documents/d/guest/AECID_ARGELIA_DZ-xml
+curl: download ERROR 502
 Parsing aecid-dz from https://www.aecid.es/documents/d/guest/AECID_ARGELIA_DZ-xml
-dflat: invalid XML format
+dflat: input XML file does not exist
 restored 23 files
 
 Downloading aecid-ec from https://www.aecid.es/documents/d/guest/AECID_ECUADOR_EC-xml
@@ -5806,7 +5807,7 @@ found 1 organisations
 
 Downloading cerf-contributionstodate from https://cerfgms-webapi.unocha.org/v1/iati/donorcontribution.xml
 Parsing cerf-contributionstodate from https://cerfgms-webapi.unocha.org/v1/iati/donorcontribution.xml
-found 1698 activities
+found 1695 activities
 
 Downloading cerf-organization from https://cerfgms-webapi.unocha.org/v1/iati/organizations.xml
 Parsing cerf-organization from https://cerfgms-webapi.unocha.org/v1/iati/organizations.xml
@@ -5934,7 +5935,7 @@ found 16 organisations
 
 Downloading chai-activities from https://iatipublisher-prod.s3.amazonaws.com/xml/mergedActivityXml/chai-activities.xml
 Parsing chai-activities from https://iatipublisher-prod.s3.amazonaws.com/xml/mergedActivityXml/chai-activities.xml
-found 19 activities
+found 20 activities
 
 Downloading chai-organisation from https://iatipublisher-prod.s3.amazonaws.com/organizationXmlFiles/chai-organisation.xml
 Parsing chai-organisation from https://iatipublisher-prod.s3.amazonaws.com/organizationXmlFiles/chai-organisation.xml
@@ -6852,7 +6853,7 @@ found 1 organisations
 
 Downloading concernuk-cuk from https://files.aida.tools/activities/GB-CHC-1092236/a7c45f59-96e8-4f38-9171-b510f7ec84a3/CUK.xml
 Parsing concernuk-cuk from https://files.aida.tools/activities/GB-CHC-1092236/a7c45f59-96e8-4f38-9171-b510f7ec84a3/CUK.xml
-found 72 activities
+found 86 activities
 
 Downloading concernuk-org from https://www.dataworkbench.io/publisher/concernuk/concernuk-org.xml
 Parsing concernuk-org from https://www.dataworkbench.io/publisher/concernuk/concernuk-org.xml
@@ -11381,7 +11382,7 @@ found 851 activities
 
 Downloading ec-echo-2017 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2017.xml
 Parsing ec-echo-2017 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2017.xml
-found 732 activities
+found 733 activities
 
 Downloading ec-echo-2018 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2018.xml
 Parsing ec-echo-2018 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2018.xml
@@ -23061,7 +23062,7 @@ dflat: input XML file does not exist
 restored 5 files
 
 Downloading malariaconsortium-f2 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-F2.xml
-curl: download ERROR 522
+curl: download ERROR 403
 Parsing malariaconsortium-f2 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-F2.xml
 dflat: input XML file does not exist
 restored 2 files
@@ -23073,8 +23074,10 @@ dflat: input XML file does not exist
 restored 2 files
 
 Downloading malariaconsortium-h1 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-H1.xml
+curl: download ERROR 403
 Parsing malariaconsortium-h1 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-H1.xml
-found 2 activities
+dflat: input XML file does not exist
+restored 2 files
 
 Downloading malariaconsortium-h3 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-H3.xml
 curl: download ERROR 403
@@ -23089,8 +23092,10 @@ dflat: input XML file does not exist
 restored 2 files
 
 Downloading malariaconsortium-i1 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-I1.xml
+curl: download ERROR 403
 Parsing malariaconsortium-i1 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-I1.xml
-found 2 activities
+dflat: input XML file does not exist
+restored 2 files
 
 Downloading malariaconsortium-i2 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-I2.xml
 curl: download ERROR 403
@@ -23105,8 +23110,10 @@ dflat: input XML file does not exist
 restored 3 files
 
 Downloading malariaconsortium-i4 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-I4.xml
+curl: download ERROR 403
 Parsing malariaconsortium-i4 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-I4.xml
-found 2 activities
+dflat: input XML file does not exist
+restored 2 files
 
 Downloading malariaconsortium-i5 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-I5.xml
 curl: download ERROR 403
@@ -23139,7 +23146,7 @@ dflat: input XML file does not exist
 restored 2 files
 
 Downloading malariaconsortium-j1 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-J1.xml
-curl: download ERROR 522
+curl: download ERROR 403
 Parsing malariaconsortium-j1 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-J1.xml
 dflat: input XML file does not exist
 restored 2 files
@@ -23229,10 +23236,8 @@ dflat: input XML file does not exist
 restored 2 files
 
 Downloading malariaconsortium-l7 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-L7.xml
-curl: download ERROR 403
 Parsing malariaconsortium-l7 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-L7.xml
-dflat: input XML file does not exist
-restored 2 files
+found 2 activities
 
 Downloading malariaconsortium-l8 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-L8.xml
 curl: download ERROR 403
@@ -23301,10 +23306,8 @@ dflat: input XML file does not exist
 restored 2 files
 
 Downloading malariaconsortium-n2 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-N2.xml
-curl: download ERROR 403
 Parsing malariaconsortium-n2 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-N2.xml
-dflat: input XML file does not exist
-restored 2 files
+found 2 activities
 
 Downloading malariaconsortium-n3 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-N3.xml
 curl: download ERROR 403
@@ -23475,8 +23478,10 @@ dflat: input XML file does not exist
 restored 2 files
 
 Downloading malariaconsortium-q4 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-Q4.xml
+curl: download ERROR 403
 Parsing malariaconsortium-q4 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-Q4.xml
-found 2 activities
+dflat: input XML file does not exist
+restored 2 files
 
 Downloading malariaconsortium-q5 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-Q5.xml
 curl: download ERROR 403
@@ -23497,10 +23502,8 @@ dflat: input XML file does not exist
 restored 2 files
 
 Downloading malariaconsortium-q8 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-Q8.xml
-curl: download ERROR 403
 Parsing malariaconsortium-q8 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-Q8.xml
-dflat: input XML file does not exist
-restored 2 files
+found 2 activities
 
 Downloading malariaconsortium-q9 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-Q9.xml
 curl: download ERROR 403
@@ -23563,8 +23566,10 @@ dflat: input XML file does not exist
 restored 2 files
 
 Downloading malariaconsortium-s1 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-S1.xml
+curl: download ERROR 403
 Parsing malariaconsortium-s1 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-S1.xml
-found 2 activities
+dflat: input XML file does not exist
+restored 2 files
 
 Downloading malariaconsortium-s2 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-S2.xml
 curl: download ERROR 403
@@ -23723,8 +23728,10 @@ dflat: input XML file does not exist
 restored 2 files
 
 Downloading malariaconsortium-v1 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-V1.xml
+curl: download ERROR 403
 Parsing malariaconsortium-v1 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-V1.xml
-found 2 activities
+dflat: input XML file does not exist
+restored 2 files
 
 Downloading malariaconsortium-v2 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-V2.xml
 curl: download ERROR 403
@@ -23811,10 +23818,8 @@ dflat: input XML file does not exist
 restored 2 files
 
 Downloading malariaconsortium-w7 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-W7.xml
-curl: download ERROR 403
 Parsing malariaconsortium-w7 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-W7.xml
-dflat: input XML file does not exist
-restored 2 files
+found 2 activities
 
 Downloading malariaconsortium-w8 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-W8.xml
 curl: download ERROR 403
@@ -23865,8 +23870,10 @@ dflat: input XML file does not exist
 restored 2 files
 
 Downloading malariaconsortium-x7 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-X7.xml
+curl: download ERROR 403
 Parsing malariaconsortium-x7 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-X7.xml
-found 5 activities
+dflat: input XML file does not exist
+restored 5 files
 
 Downloading malariaconsortium-x8 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-X8.xml
 curl: download ERROR 403
@@ -23881,8 +23888,10 @@ dflat: input XML file does not exist
 restored 2 files
 
 Downloading malariaconsortium-y1 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-Y1.xml
+curl: download ERROR 403
 Parsing malariaconsortium-y1 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-Y1.xml
-found 2 activities
+dflat: input XML file does not exist
+restored 2 files
 
 Downloading malariaconsortium-y2 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-Y2.xml
 curl: download ERROR 403
@@ -23915,8 +23924,10 @@ dflat: input XML file does not exist
 restored 2 files
 
 Downloading malariaconsortium-y7 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-Y7.xml
+curl: download ERROR 403
 Parsing malariaconsortium-y7 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-Y7.xml
-found 2 activities
+dflat: input XML file does not exist
+restored 2 files
 
 Downloading malariaconsortium-y8 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-Y8.xml
 curl: download ERROR 403
@@ -25820,8 +25831,10 @@ Parsing odakorea-act8 from https://www.odakorea.go.kr/opm/iati_act_KR-GOV-040.xm
 found 35 activities
 
 Downloading odakorea-act9 from https://www.odakorea.go.kr/opm/iati_act_KR-GOV-060.xml
+curl: download ERROR 000
 Parsing odakorea-act9 from https://www.odakorea.go.kr/opm/iati_act_KR-GOV-060.xml
-found 6 activities
+dflat: input XML file does not exist
+restored 6 files
 
 Downloading odakorea-koica-org from https://www.odakorea.go.kr/opm/iati_org_KOICA.xml
 Parsing odakorea-koica-org from https://www.odakorea.go.kr/opm/iati_org_KOICA.xml
@@ -31087,9 +31100,9 @@ Downloading tdh_foundation-org from https://aidstream.s3.us-west-2.amazonaws.com
 Parsing tdh_foundation-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/tdh_foundation-org.xml
 found 1 organisations
 
-Downloading tdh_nl-201607311659 from https://raw.githubusercontent.com/ProjectBackOfficeTdH/TdH-IATI-Publication/refs/heads/main/NL-KVK-41149287-20241031_195751.xml
-Parsing tdh_nl-201607311659 from https://raw.githubusercontent.com/ProjectBackOfficeTdH/TdH-IATI-Publication/refs/heads/main/NL-KVK-41149287-20241031_195751.xml
-found 442 activities
+Downloading tdh_nl-201607311659 from https://raw.githubusercontent.com/ProjectBackOfficeTdH/TdH-IATI-Publication/refs/heads/main/Q4-2024%20NL-KVK-41149287-20250131_103707.xml
+Parsing tdh_nl-201607311659 from https://raw.githubusercontent.com/ProjectBackOfficeTdH/TdH-IATI-Publication/refs/heads/main/Q4-2024%20NL-KVK-41149287-20250131_103707.xml
+found 451 activities
 
 Downloading tear-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/tear-activities.xml
 Parsing tear-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/tear-activities.xml
@@ -36258,7 +36271,7 @@ found 20 activities
 
 Downloading unido-activity-egypt from https://downloads.unido.org/iati/EG-unido-activities.xml
 Parsing unido-activity-egypt from https://downloads.unido.org/iati/EG-unido-activities.xml
-found 0 activities
+found 61 activities
 
 Downloading unido-activity-eritrea from https://downloads.unido.org/iati/ER-unido-activities.xml
 Parsing unido-activity-eritrea from https://downloads.unido.org/iati/ER-unido-activities.xml
@@ -36342,7 +36355,7 @@ found 8 activities
 
 Downloading unido-activity-kyrgyzstan from https://downloads.unido.org/iati/KG-unido-activities.xml
 Parsing unido-activity-kyrgyzstan from https://downloads.unido.org/iati/KG-unido-activities.xml
-found 9 activities
+found 0 activities
 
 Downloading unido-activity-lao-peoples-democratic-republic from https://downloads.unido.org/iati/LA-unido-activities.xml
 Parsing unido-activity-lao-peoples-democratic-republic from https://downloads.unido.org/iati/LA-unido-activities.xml
