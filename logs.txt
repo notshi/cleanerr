@@ -3872,7 +3872,7 @@ found 77 activities
 
 Downloading beis-gb-gov-13-rs-gcrf from https://science-and-innovation-network.s3.eu-west-2.amazonaws.com/Royal+Society+GCRF+Activity+File.xml
 Parsing beis-gb-gov-13-rs-gcrf from https://science-and-innovation-network.s3.eu-west-2.amazonaws.com/Royal+Society+GCRF+Activity+File.xml
-found 8 activities
+found 6 activities
 
 Downloading beis-gb-gov-13-rs from https://science-and-innovation-network.s3.eu-west-2.amazonaws.com/Royal+Society+R%26I+Activity+File.xml
 Parsing beis-gb-gov-13-rs from https://science-and-innovation-network.s3.eu-west-2.amazonaws.com/Royal+Society+R%26I+Activity+File.xml
@@ -3914,7 +3914,7 @@ found 18 activities
 
 Downloading beis-rs from https://science-and-innovation-network.s3.eu-west-2.amazonaws.com/Royal+Society+R%26I+Activity+Level+B+Programme+File.xml
 Parsing beis-rs from https://science-and-innovation-network.s3.eu-west-2.amazonaws.com/Royal+Society+R%26I+Activity+Level+B+Programme+File.xml
-found 6 activities
+found 4 activities
 
 Downloading bepl-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/bepl-activities.xml
 Parsing bepl-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/bepl-activities.xml
@@ -5806,7 +5806,7 @@ found 1 organisations
 
 Downloading cerf-contributionstodate from https://cerfgms-webapi.unocha.org/v1/iati/donorcontribution.xml
 Parsing cerf-contributionstodate from https://cerfgms-webapi.unocha.org/v1/iati/donorcontribution.xml
-found 1695 activities
+found 1696 activities
 
 Downloading cerf-organization from https://cerfgms-webapi.unocha.org/v1/iati/organizations.xml
 Parsing cerf-organization from https://cerfgms-webapi.unocha.org/v1/iati/organizations.xml
@@ -6081,9 +6081,8 @@ Parsing cidr-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/ci
 found 1 activities
 
 Downloading cif-389 from http://siteresources.worldbank.org/IATI/CIF/CIF-389.xml
-curl: download ERROR 523
 Parsing cif-389 from http://siteresources.worldbank.org/IATI/CIF/CIF-389.xml
-dflat: input XML file does not exist
+dflat: invalid XML format
 restored 0 files
 
 Downloading cif-889 from http://siteresources.worldbank.org/IATI/CIF/CIF-889.xml
@@ -6323,8 +6322,9 @@ Parsing cif-ws from http://doumodqax2qi2.cloudfront.net/CIF/CIF-05-2020/CIF-WS.x
 found 2 activities
 
 Downloading cif-ye from http://siteresources.worldbank.org/IATI/CIF/CIF-YE.xml
+curl: download ERROR 523
 Parsing cif-ye from http://siteresources.worldbank.org/IATI/CIF/CIF-YE.xml
-dflat: invalid XML format
+dflat: input XML file does not exist
 restored 0 files
 
 Downloading cif-za from http://doumodqax2qi2.cloudfront.net/CIF/CIF-05-2020/CIF-ZA.xml
@@ -11257,9 +11257,17 @@ Downloading dsit-re-ispf from https://science-and-innovation-network.s3.eu-west-
 Parsing dsit-re-ispf from https://science-and-innovation-network.s3.eu-west-2.amazonaws.com/DSIT+Research+England+IPSF+Activity+File.xml
 found 80 activities
 
+Downloading dsit-rs-gcrf from https://science-and-innovation-network.s3.eu-west-2.amazonaws.com/DSIT+Royal+Society+GCRF+Activity+File.xml
+Parsing dsit-rs-gcrf from https://science-and-innovation-network.s3.eu-west-2.amazonaws.com/DSIT+Royal+Society+GCRF+Activity+File.xml
+found 3 activities
+
 Downloading dsit-rs-ispf from https://science-and-innovation-network.s3.eu-west-2.amazonaws.com/DSIT+Royal+Society+ISPF+Activity+File.xml
 Parsing dsit-rs-ispf from https://science-and-innovation-network.s3.eu-west-2.amazonaws.com/DSIT+Royal+Society+ISPF+Activity+File.xml
 found 2 activities
+
+Downloading dsit-rs-nf from https://science-and-innovation-network.s3.eu-west-2.amazonaws.com/DSIT+Royal+Society+NF+Activity+File.xml
+Parsing dsit-rs-nf from https://science-and-innovation-network.s3.eu-west-2.amazonaws.com/DSIT+Royal+Society+NF+Activity+File.xml
+found 3 activities
 
 Downloading dsit-sfc-ispf from https://science-and-innovation-network.s3.eu-west-2.amazonaws.com/DSIT+Scottish+Funding+Council+ISPF+Activity+File.xml
 Parsing dsit-sfc-ispf from https://science-and-innovation-network.s3.eu-west-2.amazonaws.com/DSIT+Scottish+Funding+Council+ISPF+Activity+File.xml
@@ -11386,11 +11394,11 @@ found 851 activities
 
 Downloading ec-echo-2017 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2017.xml
 Parsing ec-echo-2017 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2017.xml
-found 731 activities
+found 732 activities
 
 Downloading ec-echo-2018 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2018.xml
 Parsing ec-echo-2018 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2018.xml
-found 607 activities
+found 605 activities
 
 Downloading ec-echo-2019 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2019.xml
 Parsing ec-echo-2019 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2019.xml
@@ -11398,27 +11406,27 @@ found 517 activities
 
 Downloading ec-echo-2020 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2020.xml
 Parsing ec-echo-2020 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2020.xml
-found 597 activities
+found 599 activities
 
 Downloading ec-echo-2021 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2021.xml
 Parsing ec-echo-2021 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2021.xml
-found 576 activities
+found 577 activities
 
 Downloading ec-echo-2022 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2022.xml
 Parsing ec-echo-2022 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2022.xml
-found 464 activities
+found 461 activities
 
 Downloading ec-echo-2023 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2023.xml
 Parsing ec-echo-2023 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2023.xml
-found 509 activities
+found 505 activities
 
 Downloading ec-echo-2024 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2024.xml
 Parsing ec-echo-2024 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2024.xml
-found 533 activities
+found 538 activities
 
 Downloading ec-echo-2025 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2025.xml
 Parsing ec-echo-2025 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2025.xml
-found 20 activities
+found 22 activities
 
 Downloading ec-echo-org from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/iati-organisation-file.xml
 Parsing ec-echo-org from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/iati-organisation-file.xml
@@ -16494,7 +16502,7 @@ found 1 organisations
 
 Downloading gif-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/gif-activities.xml
 Parsing gif-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/gif-activities.xml
-found 75 activities
+found 74 activities
 
 Downloading gif-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/gif-org.xml
 Parsing gif-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/gif-org.xml
@@ -18838,8 +18846,10 @@ dflat: input XML file does not exist
 restored 4 files
 
 Downloading ifcwbg-21 from https://disclosures.ifc.org/IATI/IFC-21.xml
+curl: download ERROR 523
 Parsing ifcwbg-21 from https://disclosures.ifc.org/IATI/IFC-21.xml
-found 8 activities
+dflat: input XML file does not exist
+restored 8 files
 
 Downloading ifcwbg-245 from https://disclosures.ifc.org/IATI/IFC-245.xml
 curl: download ERROR 523
@@ -18860,8 +18870,10 @@ dflat: input XML file does not exist
 restored 14 files
 
 Downloading ifcwbg-251 from https://disclosures.ifc.org/IATI/IFC-251.xml
+curl: download ERROR 523
 Parsing ifcwbg-251 from https://disclosures.ifc.org/IATI/IFC-251.xml
-found 25 activities
+dflat: input XML file does not exist
+restored 25 files
 
 Downloading ifcwbg-274 from https://disclosures.ifc.org/IATI/IFC-274.xml
 curl: download ERROR 523
@@ -18870,8 +18882,10 @@ dflat: input XML file does not exist
 restored 31 files
 
 Downloading ifcwbg-51 from https://disclosures.ifc.org/IATI/IFC-51.xml
+curl: download ERROR 523
 Parsing ifcwbg-51 from https://disclosures.ifc.org/IATI/IFC-51.xml
-found 6 activities
+dflat: input XML file does not exist
+restored 6 files
 
 Downloading ifcwbg-55 from https://disclosures.ifc.org/IATI/IFC-55.xml
 curl: download ERROR 523
@@ -18886,8 +18900,10 @@ dflat: input XML file does not exist
 restored 9 files
 
 Downloading ifcwbg-67 from https://disclosures.ifc.org/IATI/IFC-67.xml
+curl: download ERROR 523
 Parsing ifcwbg-67 from https://disclosures.ifc.org/IATI/IFC-67.xml
-found 8 activities
+dflat: input XML file does not exist
+restored 8 files
 
 Downloading ifcwbg-79 from https://disclosures.ifc.org/IATI/IFC-79.xml
 curl: download ERROR 523
@@ -18908,8 +18924,10 @@ dflat: input XML file does not exist
 restored 53 files
 
 Downloading ifcwbg-82 from https://disclosures.ifc.org/IATI/IFC-82.xml
+curl: download ERROR 523
 Parsing ifcwbg-82 from https://disclosures.ifc.org/IATI/IFC-82.xml
-found 38 activities
+dflat: input XML file does not exist
+restored 38 files
 
 Downloading ifcwbg-84 from https://disclosures.ifc.org/IATI/IFC-84.xml
 curl: download ERROR 523
@@ -18930,8 +18948,10 @@ dflat: input XML file does not exist
 restored 148 files
 
 Downloading ifcwbg-ae from https://disclosures.ifc.org/iati/ifc-ae.xml
+curl: download ERROR 523
 Parsing ifcwbg-ae from https://disclosures.ifc.org/iati/ifc-ae.xml
-found 6 activities
+dflat: input XML file does not exist
+restored 6 files
 
 Downloading ifcwbg-af from https://disclosures.ifc.org/iati/ifc-af.xml
 curl: download ERROR 523
@@ -18976,12 +18996,16 @@ dflat: input XML file does not exist
 restored 32 files
 
 Downloading ifcwbg-ba from https://disclosures.ifc.org/iati/ifc-ba.xml
+curl: download ERROR 523
 Parsing ifcwbg-ba from https://disclosures.ifc.org/iati/ifc-ba.xml
-found 35 activities
+dflat: input XML file does not exist
+restored 35 files
 
 Downloading ifcwbg-bb from https://disclosures.ifc.org/iati/ifc-bb.xml
+curl: download ERROR 523
 Parsing ifcwbg-bb from https://disclosures.ifc.org/iati/ifc-bb.xml
-found 2 activities
+dflat: input XML file does not exist
+restored 2 files
 
 Downloading ifcwbg-bd from https://disclosures.ifc.org/iati/ifc-bd.xml
 curl: download ERROR 523
@@ -18996,12 +19020,16 @@ dflat: input XML file does not exist
 restored 18 files
 
 Downloading ifcwbg-bg from https://disclosures.ifc.org/iati/ifc-bg.xml
+curl: download ERROR 523
 Parsing ifcwbg-bg from https://disclosures.ifc.org/iati/ifc-bg.xml
-found 33 activities
+dflat: input XML file does not exist
+restored 33 files
 
 Downloading ifcwbg-bh from https://disclosures.ifc.org/iati/ifc-bh.xml
+curl: download ERROR 523
 Parsing ifcwbg-bh from https://disclosures.ifc.org/iati/ifc-bh.xml
-found 1 activities
+dflat: input XML file does not exist
+restored 1 files
 
 Downloading ifcwbg-bi from https://disclosures.ifc.org/iati/ifc-bi.xml
 curl: download ERROR 523
@@ -19016,8 +19044,10 @@ dflat: input XML file does not exist
 restored 6 files
 
 Downloading ifcwbg-bo from https://disclosures.ifc.org/iati/ifc-bo.xml
+curl: download ERROR 523
 Parsing ifcwbg-bo from https://disclosures.ifc.org/iati/ifc-bo.xml
-found 20 activities
+dflat: input XML file does not exist
+restored 20 files
 
 Downloading ifcwbg-br from https://disclosures.ifc.org/iati/ifc-br.xml
 curl: download ERROR 523
@@ -19062,8 +19092,10 @@ dflat: input XML file does not exist
 restored 1 files
 
 Downloading ifcwbg-cg from https://disclosures.ifc.org/iati/ifc-cg.xml
+curl: download ERROR 523
 Parsing ifcwbg-cg from https://disclosures.ifc.org/iati/ifc-cg.xml
-found 1 activities
+dflat: input XML file does not exist
+restored 1 files
 
 Downloading ifcwbg-ci from https://disclosures.ifc.org/iati/ifc-ci.xml
 curl: download ERROR 523
@@ -19120,8 +19152,10 @@ dflat: input XML file does not exist
 restored 35 files
 
 Downloading ifcwbg-dz from https://disclosures.ifc.org/iati/ifc-dz.xml
+curl: download ERROR 523
 Parsing ifcwbg-dz from https://disclosures.ifc.org/iati/ifc-dz.xml
-found 11 activities
+dflat: input XML file does not exist
+restored 11 files
 
 Downloading ifcwbg-ec from https://disclosures.ifc.org/iati/ifc-ec.xml
 curl: download ERROR 523
@@ -19154,8 +19188,10 @@ dflat: input XML file does not exist
 restored 29 files
 
 Downloading ifcwbg-fj from https://disclosures.ifc.org/iati/ifc-fj.xml
+curl: download ERROR 523
 Parsing ifcwbg-fj from https://disclosures.ifc.org/iati/ifc-fj.xml
-found 5 activities
+dflat: input XML file does not exist
+restored 5 files
 
 Downloading ifcwbg-ga from https://disclosures.ifc.org/iati/ifc-ga.xml
 curl: download ERROR 523
@@ -19176,8 +19212,10 @@ dflat: input XML file does not exist
 restored 49 files
 
 Downloading ifcwbg-gh from https://disclosures.ifc.org/iati/ifc-gh.xml
+curl: download ERROR 523
 Parsing ifcwbg-gh from https://disclosures.ifc.org/iati/ifc-gh.xml
-found 66 activities
+dflat: input XML file does not exist
+restored 66 files
 
 Downloading ifcwbg-gm from https://disclosures.ifc.org/iati/ifc-gm.xml
 curl: download ERROR 523
@@ -19186,8 +19224,10 @@ dflat: input XML file does not exist
 restored 3 files
 
 Downloading ifcwbg-gn from https://disclosures.ifc.org/iati/ifc-gn.xml
+curl: download ERROR 523
 Parsing ifcwbg-gn from https://disclosures.ifc.org/iati/ifc-gn.xml
-found 16 activities
+dflat: input XML file does not exist
+restored 16 files
 
 Downloading ifcwbg-gr from https://disclosures.ifc.org/iati/ifc-gr.xml
 curl: download ERROR 523
@@ -19196,8 +19236,10 @@ dflat: input XML file does not exist
 restored 10 files
 
 Downloading ifcwbg-gt from https://disclosures.ifc.org/iati/ifc-gt.xml
+curl: download ERROR 523
 Parsing ifcwbg-gt from https://disclosures.ifc.org/iati/ifc-gt.xml
-found 30 activities
+dflat: input XML file does not exist
+restored 30 files
 
 Downloading ifcwbg-gw from https://disclosures.ifc.org/iati/ifc-gw.xml
 curl: download ERROR 523
@@ -19248,8 +19290,10 @@ dflat: input XML file does not exist
 restored 131 files
 
 Downloading ifcwbg-il from https://disclosures.ifc.org/iati/ifc-il.xml
+curl: download ERROR 523
 Parsing ifcwbg-il from https://disclosures.ifc.org/iati/ifc-il.xml
-found 2 activities
+dflat: input XML file does not exist
+restored 2 files
 
 Downloading ifcwbg-in from https://disclosures.ifc.org/iati/ifc-in.xml
 curl: download ERROR 523
@@ -19258,16 +19302,22 @@ dflat: input XML file does not exist
 restored 507 files
 
 Downloading ifcwbg-iq from https://disclosures.ifc.org/iati/ifc-iq.xml
+curl: download ERROR 523
 Parsing ifcwbg-iq from https://disclosures.ifc.org/iati/ifc-iq.xml
-found 20 activities
+dflat: input XML file does not exist
+restored 20 files
 
 Downloading ifcwbg-ir from https://disclosures.ifc.org/iati/ifc-ir.xml
+curl: download ERROR 523
 Parsing ifcwbg-ir from https://disclosures.ifc.org/iati/ifc-ir.xml
-found 1 activities
+dflat: input XML file does not exist
+restored 1 files
 
 Downloading ifcwbg-jo from https://disclosures.ifc.org/iati/ifc-jo.xml
+curl: download ERROR 523
 Parsing ifcwbg-jo from https://disclosures.ifc.org/iati/ifc-jo.xml
-found 63 activities
+dflat: input XML file does not exist
+restored 63 files
 
 Downloading ifcwbg-ke from https://disclosures.ifc.org/iati/ifc-ke.xml
 curl: download ERROR 523
@@ -19300,8 +19350,10 @@ dflat: input XML file does not exist
 restored 45 files
 
 Downloading ifcwbg-la from https://disclosures.ifc.org/iati/ifc-la.xml
+curl: download ERROR 523
 Parsing ifcwbg-la from https://disclosures.ifc.org/iati/ifc-la.xml
-found 18 activities
+dflat: input XML file does not exist
+restored 18 files
 
 Downloading ifcwbg-lb from https://disclosures.ifc.org/iati/ifc-lb.xml
 curl: download ERROR 523
@@ -19340,8 +19392,10 @@ dflat: input XML file does not exist
 restored 3 files
 
 Downloading ifcwbg-ma from https://disclosures.ifc.org/iati/ifc-ma.xml
+curl: download ERROR 523
 Parsing ifcwbg-ma from https://disclosures.ifc.org/iati/ifc-ma.xml
-found 45 activities
+dflat: input XML file does not exist
+restored 45 files
 
 Downloading ifcwbg-md from https://disclosures.ifc.org/iati/ifc-md.xml
 curl: download ERROR 523
@@ -19356,8 +19410,10 @@ dflat: input XML file does not exist
 restored 7 files
 
 Downloading ifcwbg-mg from https://disclosures.ifc.org/iati/ifc-mg.xml
+curl: download ERROR 523
 Parsing ifcwbg-mg from https://disclosures.ifc.org/iati/ifc-mg.xml
-found 19 activities
+dflat: input XML file does not exist
+restored 19 files
 
 Downloading ifcwbg-mh from https://disclosures.ifc.org/iati/ifc-mh.xml
 curl: download ERROR 523
@@ -19438,8 +19494,10 @@ dflat: input XML file does not exist
 restored 127 files
 
 Downloading ifcwbg-ni from https://disclosures.ifc.org/iati/ifc-ni.xml
+curl: download ERROR 523
 Parsing ifcwbg-ni from https://disclosures.ifc.org/iati/ifc-ni.xml
-found 23 activities
+dflat: input XML file does not exist
+restored 23 files
 
 Downloading ifcwbg-nl from https://disclosures.ifc.org/iati/ifc-nl.xml
 curl: download ERROR 523
@@ -19460,12 +19518,16 @@ dflat: input XML file does not exist
 restored 10 files
 
 Downloading ifcwbg-org from https://disclosures.ifc.org/IATI/IFC-organization.xml
+curl: download ERROR 523
 Parsing ifcwbg-org from https://disclosures.ifc.org/IATI/IFC-organization.xml
-found 1 organisations
+dflat: input XML file does not exist
+restored 1 files
 
 Downloading ifcwbg-pa from https://disclosures.ifc.org/iati/ifc-pa.xml
+curl: download ERROR 523
 Parsing ifcwbg-pa from https://disclosures.ifc.org/iati/ifc-pa.xml
-found 30 activities
+dflat: input XML file does not exist
+restored 30 files
 
 Downloading ifcwbg-pe from https://disclosures.ifc.org/iati/ifc-pe.xml
 curl: download ERROR 523
@@ -19540,12 +19602,15 @@ dflat: input XML file does not exist
 restored 3 files
 
 Downloading ifcwbg-sc from https://disclosures.ifc.org/iati/ifc-sc.xml
+curl: download ERROR 523
 Parsing ifcwbg-sc from https://disclosures.ifc.org/iati/ifc-sc.xml
-found 4 activities
+dflat: input XML file does not exist
+restored 4 files
 
 Downloading ifcwbg-sd from https://disclosures.ifc.org/iati/ifc-sd.xml
+curl: download ERROR 523
 Parsing ifcwbg-sd from https://disclosures.ifc.org/iati/ifc-sd.xml
-dflat: invalid XML format
+dflat: input XML file does not exist
 restored 1 files
 
 Downloading ifcwbg-sg from https://disclosures.ifc.org/iati/ifc-sg.xml
@@ -19591,12 +19656,16 @@ dflat: input XML file does not exist
 restored 29 files
 
 Downloading ifcwbg-sy from https://disclosures.ifc.org/iati/ifc-sy.xml
+curl: download ERROR 523
 Parsing ifcwbg-sy from https://disclosures.ifc.org/iati/ifc-sy.xml
-found 5 activities
+dflat: input XML file does not exist
+restored 5 files
 
 Downloading ifcwbg-sz from https://disclosures.ifc.org/iati/ifc-sz.xml
+curl: download ERROR 523
 Parsing ifcwbg-sz from https://disclosures.ifc.org/iati/ifc-sz.xml
-found 2 activities
+dflat: input XML file does not exist
+restored 2 files
 
 Downloading ifcwbg-tg from https://disclosures.ifc.org/iati/ifc-tg.xml
 curl: download ERROR 523
@@ -19605,8 +19674,10 @@ dflat: input XML file does not exist
 restored 9 files
 
 Downloading ifcwbg-th from https://disclosures.ifc.org/iati/ifc-th.xml
+curl: download ERROR 523
 Parsing ifcwbg-th from https://disclosures.ifc.org/iati/ifc-th.xml
-found 49 activities
+dflat: input XML file does not exist
+restored 49 files
 
 Downloading ifcwbg-tj from https://disclosures.ifc.org/iati/ifc-tj.xml
 curl: download ERROR 523
@@ -19615,8 +19686,10 @@ dflat: input XML file does not exist
 restored 35 files
 
 Downloading ifcwbg-tl from https://disclosures.ifc.org/iati/ifc-tl.xml
+curl: download ERROR 523
 Parsing ifcwbg-tl from https://disclosures.ifc.org/iati/ifc-tl.xml
-found 3 activities
+dflat: input XML file does not exist
+restored 3 files
 
 Downloading ifcwbg-tn from https://disclosures.ifc.org/iati/ifc-tn.xml
 curl: download ERROR 523
@@ -19637,8 +19710,10 @@ dflat: input XML file does not exist
 restored 12 files
 
 Downloading ifcwbg-tz from https://disclosures.ifc.org/iati/ifc-tz.xml
+curl: download ERROR 523
 Parsing ifcwbg-tz from https://disclosures.ifc.org/iati/ifc-tz.xml
-found 57 activities
+dflat: input XML file does not exist
+restored 57 files
 
 Downloading ifcwbg-ua from https://disclosures.ifc.org/iati/ifc-ua.xml
 curl: download ERROR 523
@@ -19665,8 +19740,10 @@ dflat: input XML file does not exist
 restored 38 files
 
 Downloading ifcwbg-ve from https://disclosures.ifc.org/iati/ifc-ve.xml
+curl: download ERROR 523
 Parsing ifcwbg-ve from https://disclosures.ifc.org/iati/ifc-ve.xml
-found 12 activities
+dflat: input XML file does not exist
+restored 12 files
 
 Downloading ifcwbg-vn from https://disclosures.ifc.org/iati/ifc-vn.xml
 curl: download ERROR 523
@@ -19675,8 +19752,10 @@ dflat: input XML file does not exist
 restored 93 files
 
 Downloading ifcwbg-vu from https://disclosures.ifc.org/iati/ifc-vu.xml
+curl: download ERROR 523
 Parsing ifcwbg-vu from https://disclosures.ifc.org/iati/ifc-vu.xml
-found 2 activities
+dflat: input XML file does not exist
+restored 2 files
 
 Downloading ifcwbg-ws from https://disclosures.ifc.org/iati/ifc-ws.xml
 curl: download ERROR 523
@@ -23253,10 +23332,8 @@ dflat: input XML file does not exist
 restored 0 files
 
 Downloading malariaconsortium-1y from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-1Y.xml
-curl: download ERROR 403
 Parsing malariaconsortium-1y from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-1Y.xml
-dflat: input XML file does not exist
-restored 0 files
+found 4 activities
 
 Downloading malariaconsortium-2a from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-2A.xml
 curl: download ERROR 403
@@ -23277,14 +23354,14 @@ dflat: input XML file does not exist
 restored 0 files
 
 Downloading malariaconsortium-b8 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-B8.xml
-curl: download ERROR 403
 Parsing malariaconsortium-b8 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-B8.xml
-dflat: input XML file does not exist
-restored 2 files
+found 2 activities
 
 Downloading malariaconsortium-c8 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-C8.xml
+curl: download ERROR 403
 Parsing malariaconsortium-c8 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-C8.xml
-found 3 activities
+dflat: input XML file does not exist
+restored 3 files
 
 Downloading malariaconsortium-c9 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-C9.xml
 curl: download ERROR 403
@@ -23323,7 +23400,7 @@ dflat: input XML file does not exist
 restored 2 files
 
 Downloading malariaconsortium-g8 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-G8.xml
-curl: download ERROR 403
+curl: download ERROR 522
 Parsing malariaconsortium-g8 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-G8.xml
 dflat: input XML file does not exist
 restored 2 files
@@ -23353,8 +23430,10 @@ dflat: input XML file does not exist
 restored 2 files
 
 Downloading malariaconsortium-i2 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-I2.xml
+curl: download ERROR 403
 Parsing malariaconsortium-i2 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-I2.xml
-found 2 activities
+dflat: input XML file does not exist
+restored 2 files
 
 Downloading malariaconsortium-i3 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-I3.xml
 curl: download ERROR 403
@@ -23405,8 +23484,10 @@ dflat: input XML file does not exist
 restored 2 files
 
 Downloading malariaconsortium-j4 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-J4.xml
+curl: download ERROR 403
 Parsing malariaconsortium-j4 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-J4.xml
-found 2 activities
+dflat: input XML file does not exist
+restored 2 files
 
 Downloading malariaconsortium-j7 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-J7.xml
 curl: download ERROR 403
@@ -23457,10 +23538,8 @@ dflat: input XML file does not exist
 restored 2 files
 
 Downloading malariaconsortium-l2 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-L2.xml
-curl: download ERROR 403
 Parsing malariaconsortium-l2 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-L2.xml
-dflat: input XML file does not exist
-restored 2 files
+found 2 activities
 
 Downloading malariaconsortium-l3 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-L3.xml
 curl: download ERROR 403
@@ -23535,10 +23614,8 @@ dflat: input XML file does not exist
 restored 2 files
 
 Downloading malariaconsortium-m7 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-M7.xml
-curl: download ERROR 403
 Parsing malariaconsortium-m7 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-M7.xml
-dflat: input XML file does not exist
-restored 11 files
+found 11 activities
 
 Downloading malariaconsortium-m8 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-M8.xml
 curl: download ERROR 403
@@ -23595,8 +23672,10 @@ dflat: input XML file does not exist
 restored 2 files
 
 Downloading malariaconsortium-n9 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-N9.xml
+curl: download ERROR 403
 Parsing malariaconsortium-n9 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-N9.xml
-found 2 activities
+dflat: input XML file does not exist
+restored 2 files
 
 Downloading malariaconsortium-o1 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-O1.xml
 curl: download ERROR 403
@@ -23605,10 +23684,8 @@ dflat: input XML file does not exist
 restored 2 files
 
 Downloading malariaconsortium-o2 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-O2.xml
-curl: download ERROR 403
 Parsing malariaconsortium-o2 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-O2.xml
-dflat: input XML file does not exist
-restored 3 files
+found 3 activities
 
 Downloading malariaconsortium-o3 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-O3.xml
 curl: download ERROR 403
@@ -23713,8 +23790,10 @@ dflat: input XML file does not exist
 restored 2 files
 
 Downloading malariaconsortium-q1 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-Q1.xml
+curl: download ERROR 403
 Parsing malariaconsortium-q1 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-Q1.xml
-found 3 activities
+dflat: input XML file does not exist
+restored 3 files
 
 Downloading malariaconsortium-q2 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-Q2.xml
 curl: download ERROR 403
@@ -23723,7 +23802,7 @@ dflat: input XML file does not exist
 restored 2 files
 
 Downloading malariaconsortium-q3 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-Q3.xml
-curl: download ERROR 522
+curl: download ERROR 403
 Parsing malariaconsortium-q3 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-Q3.xml
 dflat: input XML file does not exist
 restored 2 files
@@ -23777,8 +23856,10 @@ dflat: input XML file does not exist
 restored 5 files
 
 Downloading malariaconsortium-r3 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-R3.xml
+curl: download ERROR 403
 Parsing malariaconsortium-r3 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-R3.xml
-found 2 activities
+dflat: input XML file does not exist
+restored 2 files
 
 Downloading malariaconsortium-r4 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-R4.xml
 curl: download ERROR 403
@@ -23787,10 +23868,8 @@ dflat: input XML file does not exist
 restored 2 files
 
 Downloading malariaconsortium-r5 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-R5.xml
-curl: download ERROR 403
 Parsing malariaconsortium-r5 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-R5.xml
-dflat: input XML file does not exist
-restored 2 files
+found 2 activities
 
 Downloading malariaconsortium-r6 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-R6.xml
 curl: download ERROR 403
@@ -23817,8 +23896,10 @@ dflat: input XML file does not exist
 restored 2 files
 
 Downloading malariaconsortium-s1 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-S1.xml
+curl: download ERROR 403
 Parsing malariaconsortium-s1 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-S1.xml
-found 2 activities
+dflat: input XML file does not exist
+restored 2 files
 
 Downloading malariaconsortium-s2 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-S2.xml
 curl: download ERROR 403
@@ -23911,10 +23992,8 @@ dflat: input XML file does not exist
 restored 2 files
 
 Downloading malariaconsortium-t8 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-T8.xml
-curl: download ERROR 403
 Parsing malariaconsortium-t8 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-T8.xml
-dflat: input XML file does not exist
-restored 2 files
+found 2 activities
 
 Downloading malariaconsortium-t9 from https://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-T9.xml
 curl: download ERROR 403
@@ -23995,8 +24074,10 @@ dflat: input XML file does not exist
 restored 2 files
 
 Downloading malariaconsortium-v4 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-V4.xml
+curl: download ERROR 403
 Parsing malariaconsortium-v4 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-V4.xml
-found 2 activities
+dflat: input XML file does not exist
+restored 2 files
 
 Downloading malariaconsortium-v5 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-V5.xml
 curl: download ERROR 403
@@ -24041,8 +24122,10 @@ dflat: input XML file does not exist
 restored 2 files
 
 Downloading malariaconsortium-w3 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-W3.xml
+curl: download ERROR 403
 Parsing malariaconsortium-w3 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-W3.xml
-found 2 activities
+dflat: input XML file does not exist
+restored 2 files
 
 Downloading malariaconsortium-w4 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-W4.xml
 curl: download ERROR 403
@@ -24075,12 +24158,16 @@ dflat: input XML file does not exist
 restored 2 files
 
 Downloading malariaconsortium-w9 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-W9.xml
+curl: download ERROR 403
 Parsing malariaconsortium-w9 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-W9.xml
-found 2 activities
+dflat: input XML file does not exist
+restored 2 files
 
 Downloading malariaconsortium-x1 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-X1.xml
+curl: download ERROR 403
 Parsing malariaconsortium-x1 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-X1.xml
-found 2 activities
+dflat: input XML file does not exist
+restored 2 files
 
 Downloading malariaconsortium-x2 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-X2.xml
 curl: download ERROR 403
@@ -29317,7 +29404,7 @@ found 9 activities
 
 Downloading sfcg-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/sfcg-activities.xml
 Parsing sfcg-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/sfcg-activities.xml
-found 26 activities
+found 30 activities
 
 Downloading sfcg-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/sfcg-org.xml
 Parsing sfcg-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/sfcg-org.xml
@@ -29867,7 +29954,7 @@ found 1 organisations
 
 Downloading snv-world from https://rsr.akvo.org/organisation/3210/iati/
 Parsing snv-world from https://rsr.akvo.org/organisation/3210/iati/
-found 46 activities
+found 48 activities
 
 Downloading soas-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/soas-activities.xml
 Parsing soas-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/soas-activities.xml
@@ -39463,8 +39550,10 @@ Parsing unops-cv from https://storage.googleapis.com/unops-iati-datafiles/data/i
 found 4 activities
 
 Downloading unops-cw from https://storage.googleapis.com/unops-iati-datafiles/data/iati/20231108/iati-activities/iati_activity_CW.xml
+curl: download ERROR 404
 Parsing unops-cw from https://storage.googleapis.com/unops-iati-datafiles/data/iati/20231108/iati-activities/iati_activity_CW.xml
-found 1 activities
+dflat: input XML file does not exist
+restored 1 files
 
 Downloading unops-de from https://storage.googleapis.com/unops-iati-datafiles/data/iati/20250203/iati-activities/iati_activity_DE.xml
 Parsing unops-de from https://storage.googleapis.com/unops-iati-datafiles/data/iati/20250203/iati-activities/iati_activity_DE.xml
@@ -39599,8 +39688,10 @@ Parsing unops-id from https://storage.googleapis.com/unops-iati-datafiles/data/i
 found 12 activities
 
 Downloading unops-il from https://iati-content.unops.org/data/iati/20220304/iati-activities/iati_activity_IL.xml
+curl: download ERROR 404
 Parsing unops-il from https://iati-content.unops.org/data/iati/20220304/iati-activities/iati_activity_IL.xml
-found 1 activities
+dflat: input XML file does not exist
+restored 1 files
 
 Downloading unops-in from https://storage.googleapis.com/unops-iati-datafiles/data/iati/20250203/iati-activities/iati_activity_IN.xml
 Parsing unops-in from https://storage.googleapis.com/unops-iati-datafiles/data/iati/20250203/iati-activities/iati_activity_IN.xml
