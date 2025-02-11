@@ -47,11 +47,9 @@ Downloading 3ie-htw from https://www.3ieimpact.org/sites/default/files/hatw.xml
 Parsing 3ie-htw from https://www.3ieimpact.org/sites/default/files/hatw.xml
 found 1 activities
 
-Downloading 3ie-rcc from https://3ieimpact.org/rcc.xml
-curl: download ERROR 404
-Parsing 3ie-rcc from https://3ieimpact.org/rcc.xml
-dflat: input XML file does not exist
-restored 0 files
+Downloading 3ie-rcc from https://www.3ieimpact.org/sites/default/files/rcc.xml
+Parsing 3ie-rcc from https://www.3ieimpact.org/sites/default/files/rcc.xml
+found 1 activities
 
 Downloading 3ie-sptw from https://www.3ieimpact.org/sites/default/files/sptw.xml
 Parsing 3ie-sptw from https://www.3ieimpact.org/sites/default/files/sptw.xml
@@ -5894,7 +5892,7 @@ found 381 activities
 
 Downloading cerf-projectsfunded2024 from https://cerfgms-webapi.unocha.org/v1/iati/project/year/2024.xml
 Parsing cerf-projectsfunded2024 from https://cerfgms-webapi.unocha.org/v1/iati/project/year/2024.xml
-found 348 activities
+found 351 activities
 
 Downloading cesc-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/cesc-activities.xml
 Parsing cesc-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/cesc-activities.xml
@@ -11176,6 +11174,10 @@ Downloading dsit-ba-ispf from https://science-and-innovation-network.s3.eu-west-
 Parsing dsit-ba-ispf from https://science-and-innovation-network.s3.eu-west-2.amazonaws.com/DSIT+British+Academy+ISPF+Activity+File.xml
 found 6 activities
 
+Downloading dsit-ba-nf from https://science-and-innovation-network.s3.eu-west-2.amazonaws.com/DSIT+British+Academy+NF+Activity+File.xml
+Parsing dsit-ba-nf from https://science-and-innovation-network.s3.eu-west-2.amazonaws.com/DSIT+British+Academy+NF+Activity+File.xml
+found 1 activities
+
 Downloading dsit-bbsrc-gcrf from https://science-and-innovation-network.s3.eu-west-2.amazonaws.com/DSIT+Biotechnology+and+Biological+Sciences+Research+Council+GCRF+Activity+File.xml
 Parsing dsit-bbsrc-gcrf from https://science-and-innovation-network.s3.eu-west-2.amazonaws.com/DSIT+Biotechnology+and+Biological+Sciences+Research+Council+GCRF+Activity+File.xml
 found 6 activities
@@ -11425,31 +11427,31 @@ found 732 activities
 
 Downloading ec-echo-2018 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2018.xml
 Parsing ec-echo-2018 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2018.xml
-found 605 activities
+found 604 activities
 
 Downloading ec-echo-2019 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2019.xml
 Parsing ec-echo-2019 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2019.xml
-found 518 activities
+found 519 activities
 
 Downloading ec-echo-2020 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2020.xml
 Parsing ec-echo-2020 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2020.xml
-found 597 activities
+found 598 activities
 
 Downloading ec-echo-2021 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2021.xml
 Parsing ec-echo-2021 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2021.xml
-found 584 activities
+found 583 activities
 
 Downloading ec-echo-2022 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2022.xml
 Parsing ec-echo-2022 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2022.xml
-found 453 activities
+found 456 activities
 
 Downloading ec-echo-2023 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2023.xml
 Parsing ec-echo-2023 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2023.xml
-found 509 activities
+found 508 activities
 
 Downloading ec-echo-2024 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2024.xml
 Parsing ec-echo-2024 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2024.xml
-found 536 activities
+found 534 activities
 
 Downloading ec-echo-2025 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2025.xml
 Parsing ec-echo-2025 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2025.xml
@@ -14599,6 +14601,10 @@ found 75 activities
 
 Downloading finland_mfa-ye from http://formin.finland.fi/opendata/IATI/Finland_YE.xml
 Converting IATI activities version 1.00 to version 2.03
+./iati-activities.xsl:531: parser error : Premature end of data in tag for-each line 530
+          
+          ^
+cannot parse ./iati-activities.xsl
 Parsing finland_mfa-ye from http://formin.finland.fi/opendata/IATI/Finland_YE.xml
 found 12 activities
 
@@ -15157,7 +15163,7 @@ found 48 activities
 
 Downloading france-lopdsi2014 from https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000029210384&categorieLien=id
 Parsing france-lopdsi2014 from https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000029210384&categorieLien=id
-dflat: invalid XML format
+dflat: input XML file does not exist
 restored 0 files
 
 Downloading france-ma from https://baseprojets.transparence-aide.gouv.fr/api/iati/2.01/MA.xml
@@ -18142,7 +18148,7 @@ found 1 organisations
 
 Downloading idbinvest-projects from https://idbinvest.org/sites/default/files/iati_publish_projects.xml
 Parsing idbinvest-projects from https://idbinvest.org/sites/default/files/iati_publish_projects.xml
-found 1923 activities
+found 1924 activities
 
 Downloading idea-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/idea-activities.xml
 Parsing idea-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/idea-activities.xml
@@ -18362,7 +18368,7 @@ found 7 activities
 
 Downloading ifad-activitity-ao from https://webapps.ifad.org/iati/ifad_ao_activities.xml
 Parsing ifad-activitity-ao from https://webapps.ifad.org/iati/ifad_ao_activities.xml
-found 9 activities
+found 10 activities
 
 Downloading ifad-activitity-ar from https://webapps.ifad.org/iati/ifad_ar_activities.xml
 Parsing ifad-activitity-ar from https://webapps.ifad.org/iati/ifad_ar_activities.xml
@@ -18394,11 +18400,11 @@ found 14 activities
 
 Downloading ifad-activitity-bo from https://webapps.ifad.org/iati/ifad_bo_activities.xml
 Parsing ifad-activitity-bo from https://webapps.ifad.org/iati/ifad_bo_activities.xml
-found 14 activities
+found 16 activities
 
 Downloading ifad-activitity-br from https://webapps.ifad.org/iati/ifad_br_activities.xml
 Parsing ifad-activitity-br from https://webapps.ifad.org/iati/ifad_br_activities.xml
-found 16 activities
+found 19 activities
 
 Downloading ifad-activitity-bt from https://webapps.ifad.org/iati/ifad_bt_activities.xml
 Parsing ifad-activitity-bt from https://webapps.ifad.org/iati/ifad_bt_activities.xml
@@ -18426,7 +18432,7 @@ found 9 activities
 
 Downloading ifad-activitity-ci from https://webapps.ifad.org/iati/ifad_ci_activities.xml
 Parsing ifad-activitity-ci from https://webapps.ifad.org/iati/ifad_ci_activities.xml
-found 12 activities
+found 13 activities
 
 Downloading ifad-activitity-cl from https://webapps.ifad.org/iati/ifad_cl_activities.xml
 Parsing ifad-activitity-cl from https://webapps.ifad.org/iati/ifad_cl_activities.xml
@@ -18434,15 +18440,15 @@ found 1 activities
 
 Downloading ifad-activitity-cm from https://webapps.ifad.org/iati/ifad_cm_activities.xml
 Parsing ifad-activitity-cm from https://webapps.ifad.org/iati/ifad_cm_activities.xml
-found 13 activities
+found 11 activities
 
 Downloading ifad-activitity-cn from https://webapps.ifad.org/iati/ifad_cn_activities.xml
 Parsing ifad-activitity-cn from https://webapps.ifad.org/iati/ifad_cn_activities.xml
-found 33 activities
+found 35 activities
 
 Downloading ifad-activitity-co from https://webapps.ifad.org/iati/ifad_co_activities.xml
 Parsing ifad-activitity-co from https://webapps.ifad.org/iati/ifad_co_activities.xml
-found 4 activities
+found 5 activities
 
 Downloading ifad-activitity-cr from https://webapps.ifad.org/iati/ifad_cr_activities.xml
 Parsing ifad-activitity-cr from https://webapps.ifad.org/iati/ifad_cr_activities.xml
@@ -18462,7 +18468,7 @@ found 1 activities
 
 Downloading ifad-activitity-dj from https://webapps.ifad.org/iati/ifad_dj_activities.xml
 Parsing ifad-activitity-dj from https://webapps.ifad.org/iati/ifad_dj_activities.xml
-found 8 activities
+found 9 activities
 
 Downloading ifad-activitity-dm from https://webapps.ifad.org/iati/ifad_dm_activities.xml
 Parsing ifad-activitity-dm from https://webapps.ifad.org/iati/ifad_dm_activities.xml
@@ -18482,7 +18488,7 @@ found 11 activities
 
 Downloading ifad-activitity-eg from https://webapps.ifad.org/iati/ifad_eg_activities.xml
 Parsing ifad-activitity-eg from https://webapps.ifad.org/iati/ifad_eg_activities.xml
-found 14 activities
+found 15 activities
 
 Downloading ifad-activitity-er from https://webapps.ifad.org/iati/ifad_er_activities.xml
 Parsing ifad-activitity-er from https://webapps.ifad.org/iati/ifad_er_activities.xml
@@ -18490,7 +18496,7 @@ found 8 activities
 
 Downloading ifad-activitity-et from https://webapps.ifad.org/iati/ifad_et_activities.xml
 Parsing ifad-activitity-et from https://webapps.ifad.org/iati/ifad_et_activities.xml
-found 22 activities
+found 21 activities
 
 Downloading ifad-activitity-fj from https://webapps.ifad.org/iati/ifad_fj_activities.xml
 Parsing ifad-activitity-fj from https://webapps.ifad.org/iati/ifad_fj_activities.xml
@@ -18566,7 +18572,7 @@ found 9 activities
 
 Downloading ifad-activitity-ke from https://webapps.ifad.org/iati/ifad_ke_activities.xml
 Parsing ifad-activitity-ke from https://webapps.ifad.org/iati/ifad_ke_activities.xml
-found 20 activities
+found 21 activities
 
 Downloading ifad-activitity-kg from https://webapps.ifad.org/iati/ifad_kg_activities.xml
 Parsing ifad-activitity-kg from https://webapps.ifad.org/iati/ifad_kg_activities.xml
@@ -18574,7 +18580,7 @@ found 6 activities
 
 Downloading ifad-activitity-kh from https://webapps.ifad.org/iati/ifad_kh_activities.xml
 Parsing ifad-activitity-kh from https://webapps.ifad.org/iati/ifad_kh_activities.xml
-found 12 activities
+found 11 activities
 
 Downloading ifad-activitity-ki from https://webapps.ifad.org/iati/ifad_ki_activities.xml
 Parsing ifad-activitity-ki from https://webapps.ifad.org/iati/ifad_ki_activities.xml
@@ -18678,7 +18684,7 @@ found 15 activities
 
 Downloading ifad-activitity-ng from https://webapps.ifad.org/iati/ifad_ng_activities.xml
 Parsing ifad-activitity-ng from https://webapps.ifad.org/iati/ifad_ng_activities.xml
-found 12 activities
+found 13 activities
 
 Downloading ifad-activitity-ni from https://webapps.ifad.org/iati/ifad_ni_activities.xml
 Parsing ifad-activitity-ni from https://webapps.ifad.org/iati/ifad_ni_activities.xml
@@ -18706,11 +18712,11 @@ found 17 activities
 
 Downloading ifad-activitity-pk from https://webapps.ifad.org/iati/ifad_pk_activities.xml
 Parsing ifad-activitity-pk from https://webapps.ifad.org/iati/ifad_pk_activities.xml
-found 28 activities
+found 29 activities
 
 Downloading ifad-activitity-ps from https://webapps.ifad.org/iati/ifad_ps_activities.xml
 Parsing ifad-activitity-ps from https://webapps.ifad.org/iati/ifad_ps_activities.xml
-found 5 activities
+found 4 activities
 
 Downloading ifad-activitity-py from https://webapps.ifad.org/iati/ifad_py_activities.xml
 Parsing ifad-activitity-py from https://webapps.ifad.org/iati/ifad_py_activities.xml
@@ -18738,15 +18744,15 @@ found 22 activities
 
 Downloading ifad-activitity-sl from https://webapps.ifad.org/iati/ifad_sl_activities.xml
 Parsing ifad-activitity-sl from https://webapps.ifad.org/iati/ifad_sl_activities.xml
-found 9 activities
+found 10 activities
 
 Downloading ifad-activitity-sn from https://webapps.ifad.org/iati/ifad_sn_activities.xml
 Parsing ifad-activitity-sn from https://webapps.ifad.org/iati/ifad_sn_activities.xml
-found 21 activities
+found 22 activities
 
 Downloading ifad-activitity-so from https://webapps.ifad.org/iati/ifad_so_activities.xml
 Parsing ifad-activitity-so from https://webapps.ifad.org/iati/ifad_so_activities.xml
-found 5 activities
+found 6 activities
 
 Downloading ifad-activitity-sr from https://webapps.ifad.org/iati/ifad_sr_activities.xml
 Parsing ifad-activitity-sr from https://webapps.ifad.org/iati/ifad_sr_activities.xml
@@ -18754,7 +18760,7 @@ found 1 activities
 
 Downloading ifad-activitity-ss from https://webapps.ifad.org/iati/ifad_ss_activities.xml
 Parsing ifad-activitity-ss from https://webapps.ifad.org/iati/ifad_ss_activities.xml
-found 3 activities
+found 4 activities
 
 Downloading ifad-activitity-st from https://webapps.ifad.org/iati/ifad_st_activities.xml
 Parsing ifad-activitity-st from https://webapps.ifad.org/iati/ifad_st_activities.xml
@@ -18802,15 +18808,15 @@ found 5 activities
 
 Downloading ifad-activitity-tr from https://webapps.ifad.org/iati/ifad_tr_activities.xml
 Parsing ifad-activitity-tr from https://webapps.ifad.org/iati/ifad_tr_activities.xml
-found 11 activities
+found 12 activities
 
 Downloading ifad-activitity-tz from https://webapps.ifad.org/iati/ifad_tz_activities.xml
 Parsing ifad-activitity-tz from https://webapps.ifad.org/iati/ifad_tz_activities.xml
-found 17 activities
+found 18 activities
 
 Downloading ifad-activitity-ug from https://webapps.ifad.org/iati/ifad_ug_activities.xml
 Parsing ifad-activitity-ug from https://webapps.ifad.org/iati/ifad_ug_activities.xml
-found 18 activities
+found 19 activities
 
 Downloading ifad-activitity-uy from https://webapps.ifad.org/iati/ifad_uy_activities.xml
 Parsing ifad-activitity-uy from https://webapps.ifad.org/iati/ifad_uy_activities.xml
@@ -18818,7 +18824,7 @@ found 3 activities
 
 Downloading ifad-activitity-uz from https://webapps.ifad.org/iati/ifad_uz_activities.xml
 Parsing ifad-activitity-uz from https://webapps.ifad.org/iati/ifad_uz_activities.xml
-found 3 activities
+found 4 activities
 
 Downloading ifad-activitity-vc from https://webapps.ifad.org/iati/ifad_vc_activities.xml
 Parsing ifad-activitity-vc from https://webapps.ifad.org/iati/ifad_vc_activities.xml
@@ -18830,7 +18836,7 @@ found 6 activities
 
 Downloading ifad-activitity-vn from https://webapps.ifad.org/iati/ifad_vn_activities.xml
 Parsing ifad-activitity-vn from https://webapps.ifad.org/iati/ifad_vn_activities.xml
-found 16 activities
+found 18 activities
 
 Downloading ifad-activitity-ws from https://webapps.ifad.org/iati/ifad_ws_activities.xml
 Parsing ifad-activitity-ws from https://webapps.ifad.org/iati/ifad_ws_activities.xml
@@ -20491,7 +20497,7 @@ found 1 organisations
 
 Downloading iodparc-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/iodparc-activities.xml
 Parsing iodparc-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/iodparc-activities.xml
-found 17 activities
+found 21 activities
 
 Downloading iodparc-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/iodparc-org.xml
 Parsing iodparc-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/iodparc-org.xml
