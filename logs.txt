@@ -2515,6 +2515,19 @@ found 2289 activities
 
 Downloading aiddata-hndamp-v104 from https://github.com/AidData-WM/public_datasets/raw/master/iati/iati_1.04_HondurasAIMS_GeocodedResearchRelease.xml
 Converting IATI activities version 1.04 to version 2.03
+./iati-activities.xsl:309: namespace error : Failed to parse QName 'xsl:'
+    <xsl:if test="@vocabulary = 'RO2'"><xsl:attribute name="vocabulary">98</xsl:
+                                                                               ^
+./iati-activities.xsl:309: parser error : expected '>'
+    <xsl:if test="@vocabulary = 'RO2'"><xsl:attribute name="vocabulary">98</xsl:
+                                                                               ^
+./iati-activities.xsl:309: parser error : Opening and ending tag mismatch: attribute line 309 and xsl:
+    <xsl:if test="@vocabulary = 'RO2'"><xsl:attribute name="vocabulary">98</xsl:
+                                                                               ^
+./iati-activities.xsl:309: parser error : Premature end of data in tag if line 309
+    <xsl:if test="@vocabulary = 'RO2'"><xsl:attribute name="vocabulary">98</xsl:
+                                                                               ^
+cannot parse ./iati-activities.xsl
 Parsing aiddata-hndamp-v104 from https://github.com/AidData-WM/public_datasets/raw/master/iati/iati_1.04_HondurasAIMS_GeocodedResearchRelease.xml
 found 26 activities
 
@@ -11451,19 +11464,19 @@ found 851 activities
 
 Downloading ec-echo-2017 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2017.xml
 Parsing ec-echo-2017 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2017.xml
-found 730 activities
+found 727 activities
 
 Downloading ec-echo-2018 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2018.xml
 Parsing ec-echo-2018 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2018.xml
-found 603 activities
+found 604 activities
 
 Downloading ec-echo-2019 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2019.xml
 Parsing ec-echo-2019 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2019.xml
-found 522 activities
+found 520 activities
 
 Downloading ec-echo-2020 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2020.xml
 Parsing ec-echo-2020 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2020.xml
-found 595 activities
+found 596 activities
 
 Downloading ec-echo-2021 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2021.xml
 Parsing ec-echo-2021 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2021.xml
@@ -11471,15 +11484,15 @@ found 581 activities
 
 Downloading ec-echo-2022 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2022.xml
 Parsing ec-echo-2022 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2022.xml
-found 459 activities
+found 455 activities
 
 Downloading ec-echo-2023 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2023.xml
 Parsing ec-echo-2023 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2023.xml
-found 510 activities
+found 516 activities
 
 Downloading ec-echo-2024 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2024.xml
 Parsing ec-echo-2024 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2024.xml
-found 531 activities
+found 528 activities
 
 Downloading ec-echo-2025 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2025.xml
 Parsing ec-echo-2025 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2025.xml
@@ -14489,6 +14502,19 @@ found 5 activities
 
 Downloading finland_mfa-rs from http://formin.finland.fi/opendata/IATI/Finland_RS.xml
 Converting IATI activities version 1.00 to version 2.03
+./iati-activities.xsl:309: namespace error : Failed to parse QName 'xsl:'
+    <xsl:if test="@vocabulary = 'RO2'"><xsl:attribute name="vocabulary">98</xsl:
+                                                                               ^
+./iati-activities.xsl:309: parser error : expected '>'
+    <xsl:if test="@vocabulary = 'RO2'"><xsl:attribute name="vocabulary">98</xsl:
+                                                                               ^
+./iati-activities.xsl:309: parser error : Opening and ending tag mismatch: attribute line 309 and xsl:
+    <xsl:if test="@vocabulary = 'RO2'"><xsl:attribute name="vocabulary">98</xsl:
+                                                                               ^
+./iati-activities.xsl:309: parser error : Premature end of data in tag if line 309
+    <xsl:if test="@vocabulary = 'RO2'"><xsl:attribute name="vocabulary">98</xsl:
+                                                                               ^
+cannot parse ./iati-activities.xsl
 Parsing finland_mfa-rs from http://formin.finland.fi/opendata/IATI/Finland_RS.xml
 found 22 activities
 
@@ -19442,7 +19468,8 @@ found 41 activities
 
 Downloading ifcwbg-ss from https://disclosures.ifc.org/iati/ifc-ss.xml
 Parsing ifcwbg-ss from https://disclosures.ifc.org/iati/ifc-ss.xml
-found 2 activities
+dflat: invalid XML format
+restored 2 files
 
 Downloading ifcwbg-st from https://disclosures.ifc.org/iati/ifc-st.xml
 Parsing ifcwbg-st from https://disclosures.ifc.org/iati/ifc-st.xml
@@ -31635,10 +31662,8 @@ Parsing theglobalfund-guy from https://data-service.theglobalfund.org/v2.1/iati/
 found 10 activities
 
 Downloading theglobalfund-hnd from https://data-service.theglobalfund.org/v2.1/iati/activities-xml/HND
-curl: download ERROR 000
 Parsing theglobalfund-hnd from https://data-service.theglobalfund.org/v2.1/iati/activities-xml/HND
-dflat: input XML file does not exist
-restored 9 files
+found 9 activities
 
 Downloading theglobalfund-hrv from https://data-service.theglobalfund.org/v2.1/iati/activities-xml/HRV
 Parsing theglobalfund-hrv from https://data-service.theglobalfund.org/v2.1/iati/activities-xml/HRV
@@ -37720,7 +37745,7 @@ found 47 activities
 
 Downloading unocha-cbpf-lebanon-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/71/2024/GetAllocation.xml
 Parsing unocha-cbpf-lebanon-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/71/2024/GetAllocation.xml
-found 65 activities
+found 69 activities
 
 Downloading unocha-cbpf-lebanon-contribution-2016 from https://cbpfapi.unocha.org/iati/iati/71/2016/GetContribution.xml
 Parsing unocha-cbpf-lebanon-contribution-2016 from https://cbpfapi.unocha.org/iati/iati/71/2016/GetContribution.xml
@@ -38572,7 +38597,7 @@ found 80 activities
 
 Downloading unocha-cbpf-sudan-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/15/2024/GetAllocation.xml
 Parsing unocha-cbpf-sudan-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/15/2024/GetAllocation.xml
-found 95 activities
+found 96 activities
 
 Downloading unocha-cbpf-sudan-contribution-2016 from https://cbpfapi.unocha.org/iati/iati/15/2016/GetContribution.xml
 Parsing unocha-cbpf-sudan-contribution-2016 from https://cbpfapi.unocha.org/iati/iati/15/2016/GetContribution.xml
