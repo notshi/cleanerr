@@ -7181,8 +7181,10 @@ Parsing csom1-so from https://aidstream.s3.us-west-2.amazonaws.com/xml/csom1-so.
 found 3 activities
 
 Downloading cssf-org from https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/824219/CSSF-iati-organisation-file.xml
+curl: download ERROR 403
 Parsing cssf-org from https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/824219/CSSF-iati-organisation-file.xml
-found 1 organisations
+dflat: input XML file does not exist
+restored 1 files
 
 Downloading cst-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/cst-activities.xml
 Parsing cst-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/cst-activities.xml
@@ -11461,7 +11463,7 @@ found 851 activities
 
 Downloading ec-echo-2017 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2017.xml
 Parsing ec-echo-2017 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2017.xml
-found 728 activities
+found 727 activities
 
 Downloading ec-echo-2018 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2018.xml
 Parsing ec-echo-2018 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2018.xml
@@ -11469,7 +11471,7 @@ found 605 activities
 
 Downloading ec-echo-2019 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2019.xml
 Parsing ec-echo-2019 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2019.xml
-found 516 activities
+found 517 activities
 
 Downloading ec-echo-2020 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2020.xml
 Parsing ec-echo-2020 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2020.xml
@@ -11477,19 +11479,19 @@ found 599 activities
 
 Downloading ec-echo-2021 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2021.xml
 Parsing ec-echo-2021 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2021.xml
-found 576 activities
+found 580 activities
 
 Downloading ec-echo-2022 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2022.xml
 Parsing ec-echo-2022 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2022.xml
-found 462 activities
+found 459 activities
 
 Downloading ec-echo-2023 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2023.xml
 Parsing ec-echo-2023 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2023.xml
-found 510 activities
+found 512 activities
 
 Downloading ec-echo-2024 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2024.xml
 Parsing ec-echo-2024 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2024.xml
-found 530 activities
+found 526 activities
 
 Downloading ec-echo-2025 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2025.xml
 Parsing ec-echo-2025 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2025.xml
@@ -18186,7 +18188,7 @@ found 1 organisations
 
 Downloading idbinvest-projects from https://idbinvest.org/sites/default/files/iati_publish_projects.xml
 Parsing idbinvest-projects from https://idbinvest.org/sites/default/files/iati_publish_projects.xml
-found 1929 activities
+found 1930 activities
 
 Downloading idea-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/idea-activities.xml
 Parsing idea-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/idea-activities.xml
@@ -28694,7 +28696,7 @@ found 1 organisations
 
 Downloading rvo-01 from https://projects.rvo.nl/opendata/iati.xml
 Parsing rvo-01 from https://projects.rvo.nl/opendata/iati.xml
-found 5300 activities
+found 5309 activities
 
 Downloading rvo-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/rvo-activities.xml
 Parsing rvo-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/rvo-activities.xml
@@ -33248,10 +33250,9 @@ Parsing ukmod-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/u
 found 33 activities
 
 Downloading ukmod-activity2013 from https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/412808/iati-final_mod_xml_data3.xml
-curl: download ERROR 403
+Converting IATI activities version 1.03 to version 2.03
 Parsing ukmod-activity2013 from https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/412808/iati-final_mod_xml_data3.xml
-dflat: input XML file does not exist
-restored 10 files
+found 10 activities
 
 Downloading ukmod-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/ukmod-org.xml
 Parsing ukmod-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/ukmod-org.xml
@@ -36917,7 +36918,7 @@ found 119 activities
 
 Downloading unocha-cbpf-afghanistan-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/23/2024/GetAllocation.xml
 Parsing unocha-cbpf-afghanistan-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/23/2024/GetAllocation.xml
-found 63 activities
+found 66 activities
 
 Downloading unocha-cbpf-afghanistan-contribution-2016 from https://cbpfapi.unocha.org/iati/iati/23/2016/GetContribution.xml
 Parsing unocha-cbpf-afghanistan-contribution-2016 from https://cbpfapi.unocha.org/iati/iati/23/2016/GetContribution.xml
@@ -37705,7 +37706,7 @@ found 47 activities
 
 Downloading unocha-cbpf-lebanon-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/71/2024/GetAllocation.xml
 Parsing unocha-cbpf-lebanon-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/71/2024/GetAllocation.xml
-found 71 activities
+found 76 activities
 
 Downloading unocha-cbpf-lebanon-contribution-2016 from https://cbpfapi.unocha.org/iati/iati/71/2016/GetContribution.xml
 Parsing unocha-cbpf-lebanon-contribution-2016 from https://cbpfapi.unocha.org/iati/iati/71/2016/GetContribution.xml
@@ -38557,7 +38558,7 @@ found 80 activities
 
 Downloading unocha-cbpf-sudan-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/15/2024/GetAllocation.xml
 Parsing unocha-cbpf-sudan-allocation-2024 from https://cbpfapi.unocha.org/iati/iati/15/2024/GetAllocation.xml
-found 100 activities
+found 101 activities
 
 Downloading unocha-cbpf-sudan-contribution-2016 from https://cbpfapi.unocha.org/iati/iati/15/2016/GetContribution.xml
 Parsing unocha-cbpf-sudan-contribution-2016 from https://cbpfapi.unocha.org/iati/iati/15/2016/GetContribution.xml
