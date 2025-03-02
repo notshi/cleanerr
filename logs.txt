@@ -5827,10 +5827,8 @@ Parsing cerf-contributionstodate from https://cerfgms-webapi.unocha.org/v1/iati/
 found 1702 activities
 
 Downloading cerf-organization from https://cerfgms-webapi.unocha.org/v1/iati/organizations.xml
-curl: download ERROR 000
 Parsing cerf-organization from https://cerfgms-webapi.unocha.org/v1/iati/organizations.xml
-dflat: input XML file does not exist
-restored 1 files
+found 1 organisations
 
 Downloading cerf-projectsfunded2006 from https://cerfgms-webapi.unocha.org/v1/iati/project/year/2006.xml
 Parsing cerf-projectsfunded2006 from https://cerfgms-webapi.unocha.org/v1/iati/project/year/2006.xml
@@ -8173,9 +8171,8 @@ Parsing di-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/di-org.xml
 found 1 organisations
 
 Downloading dipr-998 from https://devinit.org/documents/691/Latest_IATI_-_data2.xml
-curl: download ERROR 404
 Parsing dipr-998 from https://devinit.org/documents/691/Latest_IATI_-_data2.xml
-dflat: input XML file does not exist
+dflat: no activities or organisations found in XML file
 restored 76 files
 
 Downloading dipr-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/dipr-org.xml
@@ -11457,11 +11454,11 @@ found 851 activities
 
 Downloading ec-echo-2017 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2017.xml
 Parsing ec-echo-2017 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2017.xml
-found 731 activities
+found 730 activities
 
 Downloading ec-echo-2018 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2018.xml
 Parsing ec-echo-2018 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2018.xml
-found 603 activities
+found 600 activities
 
 Downloading ec-echo-2019 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2019.xml
 Parsing ec-echo-2019 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2019.xml
@@ -11469,27 +11466,27 @@ found 519 activities
 
 Downloading ec-echo-2020 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2020.xml
 Parsing ec-echo-2020 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2020.xml
-found 599 activities
+found 600 activities
 
 Downloading ec-echo-2021 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2021.xml
 Parsing ec-echo-2021 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2021.xml
-found 576 activities
+found 580 activities
 
 Downloading ec-echo-2022 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2022.xml
 Parsing ec-echo-2022 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2022.xml
-found 462 activities
+found 456 activities
 
 Downloading ec-echo-2023 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2023.xml
 Parsing ec-echo-2023 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2023.xml
-found 508 activities
+found 510 activities
 
 Downloading ec-echo-2024 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2024.xml
 Parsing ec-echo-2024 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2024.xml
-found 531 activities
+found 532 activities
 
 Downloading ec-echo-2025 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2025.xml
 Parsing ec-echo-2025 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2025.xml
-found 28 activities
+found 29 activities
 
 Downloading ec-echo-org from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/iati-organisation-file.xml
 Parsing ec-echo-org from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/iati-organisation-file.xml
@@ -14736,40 +14733,28 @@ Parsing foenl-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/foenl-or
 found 1 organisations
 
 Downloading fo_germany-africa-298 from https://www.auswaertiges-amt.de/blob/2107742/3a7516ce1102a92fc6379ca2f34d3bd3/iati-afrika-data.xml
-curl: download ERROR 400
 Parsing fo_germany-africa-298 from https://www.auswaertiges-amt.de/blob/2107742/3a7516ce1102a92fc6379ca2f34d3bd3/iati-afrika-data.xml
-dflat: input XML file does not exist
-restored 2254 files
+found 2254 activities
 
 Downloading fo_germany-america-498 from https://www.auswaertiges-amt.de/blob/2107746/3f91a64cf3356414d980f34cf8e1e0ed/iati-amerika-data.xml
-curl: download ERROR 400
 Parsing fo_germany-america-498 from https://www.auswaertiges-amt.de/blob/2107746/3f91a64cf3356414d980f34cf8e1e0ed/iati-amerika-data.xml
-dflat: input XML file does not exist
-restored 808 files
+found 808 activities
 
 Downloading fo_germany-asia-798 from https://www.auswaertiges-amt.de/blob/2107748/316e21e9260adb3212fb30e14b97fad6/iati-asien-data.xml
-curl: download ERROR 400
 Parsing fo_germany-asia-798 from https://www.auswaertiges-amt.de/blob/2107748/316e21e9260adb3212fb30e14b97fad6/iati-asien-data.xml
-dflat: input XML file does not exist
-restored 1234 files
+found 1234 activities
 
 Downloading fo_germany-europe-89 from https://www.auswaertiges-amt.de/blob/2107752/9d42e5ee5d0ea26127f21bf304a80305/iati-europa-data.xml
-curl: download ERROR 400
 Parsing fo_germany-europe-89 from https://www.auswaertiges-amt.de/blob/2107752/9d42e5ee5d0ea26127f21bf304a80305/iati-europa-data.xml
-dflat: input XML file does not exist
-restored 1279 files
+found 1279 activities
 
 Downloading fo_germany-middle_east-589 from https://www.auswaertiges-amt.de/blob/2107754/37d6f04fcd910534a036655532c71584/iati-nahost-data.xml
-curl: download ERROR 400
 Parsing fo_germany-middle_east-589 from https://www.auswaertiges-amt.de/blob/2107754/37d6f04fcd910534a036655532c71584/iati-nahost-data.xml
-dflat: input XML file does not exist
-restored 658 files
+found 658 activities
 
 Downloading fo_germany-unspecified-998 from https://www.auswaertiges-amt.de/blob/2107758/663bb5bb06b684d06dffe61ab45372b5/iati-weltweit-data.xml
-curl: download ERROR 400
 Parsing fo_germany-unspecified-998 from https://www.auswaertiges-amt.de/blob/2107758/663bb5bb06b684d06dffe61ab45372b5/iati-weltweit-data.xml
-dflat: input XML file does not exist
-restored 1062 files
+found 1062 activities
 
 Downloading fomin-ar from https://webimages.iadb.org/iati/fomin-Argentina.xml
 curl: download ERROR 404
@@ -15205,7 +15190,7 @@ found 48 activities
 
 Downloading france-lopdsi2014 from https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000029210384&categorieLien=id
 Parsing france-lopdsi2014 from https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000029210384&categorieLien=id
-dflat: invalid XML format
+dflat: input XML file does not exist
 restored 0 files
 
 Downloading france-ma from https://baseprojets.transparence-aide.gouv.fr/api/iati/2.01/MA.xml
@@ -15992,8 +15977,10 @@ Parsing gef-dz from https://d2mxkr7359ifh6.cloudfront.net/GEF/DZ.xml
 found 10 activities
 
 Downloading gef-ec from https://d2mxkr7359ifh6.cloudfront.net/GEF/EC.xml
+curl: download ERROR 000
 Parsing gef-ec from https://d2mxkr7359ifh6.cloudfront.net/GEF/EC.xml
-found 46 activities
+dflat: input XML file does not exist
+restored 46 files
 
 Downloading gef-ee from https://d2mxkr7359ifh6.cloudfront.net/GEF/EE.xml
 Parsing gef-ee from https://d2mxkr7359ifh6.cloudfront.net/GEF/EE.xml
@@ -16008,8 +15995,10 @@ Parsing gef-er from https://d2mxkr7359ifh6.cloudfront.net/GEF/ER.xml
 found 7 activities
 
 Downloading gef-et from https://d2mxkr7359ifh6.cloudfront.net/GEF/ET.xml
+curl: download ERROR 000
 Parsing gef-et from https://d2mxkr7359ifh6.cloudfront.net/GEF/ET.xml
-found 21 activities
+dflat: input XML file does not exist
+restored 21 files
 
 Downloading gef-fj from https://d2mxkr7359ifh6.cloudfront.net/GEF/FJ.xml
 Parsing gef-fj from https://d2mxkr7359ifh6.cloudfront.net/GEF/FJ.xml
@@ -16390,8 +16379,10 @@ Parsing gef-sv from https://d2mxkr7359ifh6.cloudfront.net/GEF/SV.xml
 found 10 activities
 
 Downloading gef-sy from https://d2mxkr7359ifh6.cloudfront.net/GEF/SY.xml
+curl: download ERROR 000
 Parsing gef-sy from https://d2mxkr7359ifh6.cloudfront.net/GEF/SY.xml
-found 7 activities
+dflat: input XML file does not exist
+restored 7 files
 
 Downloading gef-sz from https://d2mxkr7359ifh6.cloudfront.net/GEF/SZ.xml
 Parsing gef-sz from https://d2mxkr7359ifh6.cloudfront.net/GEF/SZ.xml
@@ -19066,7 +19057,7 @@ found 20 activities
 
 Downloading ifcwbg-br from https://disclosures.ifc.org/iati/ifc-br.xml
 Parsing ifcwbg-br from https://disclosures.ifc.org/iati/ifc-br.xml
-found 327 activities
+found 328 activities
 
 Downloading ifcwbg-bt from https://disclosures.ifc.org/iati/ifc-bt.xml
 Parsing ifcwbg-bt from https://disclosures.ifc.org/iati/ifc-bt.xml
@@ -19114,7 +19105,7 @@ found 310 activities
 
 Downloading ifcwbg-co from https://disclosures.ifc.org/iati/ifc-co.xml
 Parsing ifcwbg-co from https://disclosures.ifc.org/iati/ifc-co.xml
-found 136 activities
+found 137 activities
 
 Downloading ifcwbg-cr from https://disclosures.ifc.org/iati/ifc-cr.xml
 Parsing ifcwbg-cr from https://disclosures.ifc.org/iati/ifc-cr.xml
@@ -28706,7 +28697,7 @@ found 1 organisations
 
 Downloading rvo-01 from https://projects.rvo.nl/opendata/iati.xml
 Parsing rvo-01 from https://projects.rvo.nl/opendata/iati.xml
-found 5313 activities
+found 5314 activities
 
 Downloading rvo-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/rvo-activities.xml
 Parsing rvo-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/rvo-activities.xml
@@ -36302,7 +36293,7 @@ found 193 activities
 
 Downloading unido-activity-afghanistan from https://downloads.unido.org/iati/AF-unido-activities.xml
 Parsing unido-activity-afghanistan from https://downloads.unido.org/iati/AF-unido-activities.xml
-found 13 activities
+found 12 activities
 
 Downloading unido-activity-albania from https://downloads.unido.org/iati/AL-unido-activities.xml
 Parsing unido-activity-albania from https://downloads.unido.org/iati/AL-unido-activities.xml
@@ -36344,7 +36335,7 @@ found 5 activities
 
 Downloading unido-activity-bangladesh from https://downloads.unido.org/iati/BD-unido-activities.xml
 Parsing unido-activity-bangladesh from https://downloads.unido.org/iati/BD-unido-activities.xml
-found 14 activities
+found 0 activities
 
 Downloading unido-activity-barbados from https://downloads.unido.org/iati/BB-unido-activities.xml
 Parsing unido-activity-barbados from https://downloads.unido.org/iati/BB-unido-activities.xml
@@ -36440,7 +36431,7 @@ found 29 activities
 
 Downloading unido-activity-cuba from https://downloads.unido.org/iati/CU-unido-activities.xml
 Parsing unido-activity-cuba from https://downloads.unido.org/iati/CU-unido-activities.xml
-found 0 activities
+found 11 activities
 
 Downloading unido-activity-democratic-peoples-republic-of-korea from https://downloads.unido.org/iati/KP-unido-activities.xml
 Parsing unido-activity-democratic-peoples-republic-of-korea from https://downloads.unido.org/iati/KP-unido-activities.xml
@@ -36460,7 +36451,7 @@ found 20 activities
 
 Downloading unido-activity-egypt from https://downloads.unido.org/iati/EG-unido-activities.xml
 Parsing unido-activity-egypt from https://downloads.unido.org/iati/EG-unido-activities.xml
-found 61 activities
+found 62 activities
 
 Downloading unido-activity-eritrea from https://downloads.unido.org/iati/ER-unido-activities.xml
 Parsing unido-activity-eritrea from https://downloads.unido.org/iati/ER-unido-activities.xml
@@ -36520,7 +36511,7 @@ found 25 activities
 
 Downloading unido-activity-iraq from https://downloads.unido.org/iati/IQ-unido-activities.xml
 Parsing unido-activity-iraq from https://downloads.unido.org/iati/IQ-unido-activities.xml
-found 42 activities
+found 0 activities
 
 Downloading unido-activity-islamic-republic-of-iran from https://downloads.unido.org/iati/IR-unido-activities.xml
 Parsing unido-activity-islamic-republic-of-iran from https://downloads.unido.org/iati/IR-unido-activities.xml
@@ -36536,7 +36527,7 @@ found 4 activities
 
 Downloading unido-activity-kenya from https://downloads.unido.org/iati/KE-unido-activities.xml
 Parsing unido-activity-kenya from https://downloads.unido.org/iati/KE-unido-activities.xml
-found 0 activities
+found 44 activities
 
 Downloading unido-activity-kuwait from https://downloads.unido.org/iati/KW-unido-activities.xml
 Parsing unido-activity-kuwait from https://downloads.unido.org/iati/KW-unido-activities.xml
@@ -36544,7 +36535,7 @@ found 8 activities
 
 Downloading unido-activity-kyrgyzstan from https://downloads.unido.org/iati/KG-unido-activities.xml
 Parsing unido-activity-kyrgyzstan from https://downloads.unido.org/iati/KG-unido-activities.xml
-found 0 activities
+found 9 activities
 
 Downloading unido-activity-lao-peoples-democratic-republic from https://downloads.unido.org/iati/LA-unido-activities.xml
 Parsing unido-activity-lao-peoples-democratic-republic from https://downloads.unido.org/iati/LA-unido-activities.xml
@@ -36568,7 +36559,7 @@ found 11 activities
 
 Downloading unido-activity-madagascar from https://downloads.unido.org/iati/MG-unido-activities.xml
 Parsing unido-activity-madagascar from https://downloads.unido.org/iati/MG-unido-activities.xml
-found 22 activities
+found 0 activities
 
 Downloading unido-activity-malawi from https://downloads.unido.org/iati/MW-unido-activities.xml
 Parsing unido-activity-malawi from https://downloads.unido.org/iati/MW-unido-activities.xml
@@ -36580,7 +36571,7 @@ found 12 activities
 
 Downloading unido-activity-mali from https://downloads.unido.org/iati/ML-unido-activities.xml
 Parsing unido-activity-mali from https://downloads.unido.org/iati/ML-unido-activities.xml
-found 10 activities
+found 0 activities
 
 Downloading unido-activity-mauritania from https://downloads.unido.org/iati/MR-unido-activities.xml
 Parsing unido-activity-mauritania from https://downloads.unido.org/iati/MR-unido-activities.xml
@@ -36624,7 +36615,7 @@ found 19 activities
 
 Downloading unido-activity-nigeria from https://downloads.unido.org/iati/NG-unido-activities.xml
 Parsing unido-activity-nigeria from https://downloads.unido.org/iati/NG-unido-activities.xml
-found 64 activities
+found 66 activities
 
 Downloading unido-activity-niger from https://downloads.unido.org/iati/NE-unido-activities.xml
 Parsing unido-activity-niger from https://downloads.unido.org/iati/NE-unido-activities.xml
@@ -36640,7 +36631,7 @@ found 13 activities
 
 Downloading unido-activity-pakistan from https://downloads.unido.org/iati/PK-unido-activities.xml
 Parsing unido-activity-pakistan from https://downloads.unido.org/iati/PK-unido-activities.xml
-found 32 activities
+found 0 activities
 
 Downloading unido-activity-paraguay from https://downloads.unido.org/iati/PY-unido-activities.xml
 Parsing unido-activity-paraguay from https://downloads.unido.org/iati/PY-unido-activities.xml
@@ -36708,11 +36699,11 @@ found 20 activities
 
 Downloading unido-activity-state-of-palestine from https://downloads.unido.org/iati/PS-unido-activities.xml
 Parsing unido-activity-state-of-palestine from https://downloads.unido.org/iati/PS-unido-activities.xml
-found 12 activities
+found 13 activities
 
 Downloading unido-activity-sudan from https://downloads.unido.org/iati/SD-unido-activities.xml
 Parsing unido-activity-sudan from https://downloads.unido.org/iati/SD-unido-activities.xml
-found 44 activities
+found 46 activities
 
 Downloading unido-activity-suriname from https://downloads.unido.org/iati/SR-unido-activities.xml
 Parsing unido-activity-suriname from https://downloads.unido.org/iati/SR-unido-activities.xml
@@ -36728,11 +36719,11 @@ found 7 activities
 
 Downloading unido-activity-tanzania-united-republic-of from https://downloads.unido.org/iati/TZ-unido-activities.xml
 Parsing unido-activity-tanzania-united-republic-of from https://downloads.unido.org/iati/TZ-unido-activities.xml
-found 66 activities
+found 67 activities
 
 Downloading unido-activity-thailand from https://downloads.unido.org/iati/TH-unido-activities.xml
 Parsing unido-activity-thailand from https://downloads.unido.org/iati/TH-unido-activities.xml
-found 20 activities
+found 0 activities
 
 Downloading unido-activity-timor-leste from https://downloads.unido.org/iati/TL-unido-activities.xml
 Parsing unido-activity-timor-leste from https://downloads.unido.org/iati/TL-unido-activities.xml
@@ -42783,8 +42774,10 @@ Parsing wbtf-tf053980 from https://d2mxkr7359ifh6.cloudfront.net/TF053980.xml
 found 26 activities
 
 Downloading wbtf-tf054004 from https://d2mxkr7359ifh6.cloudfront.net/TF054004.xml
+curl: download ERROR 000
 Parsing wbtf-tf054004 from https://d2mxkr7359ifh6.cloudfront.net/TF054004.xml
-found 10 activities
+dflat: input XML file does not exist
+restored 10 files
 
 Downloading wbtf-tf054005 from https://d2mxkr7359ifh6.cloudfront.net/TF054005.xml
 Parsing wbtf-tf054005 from https://d2mxkr7359ifh6.cloudfront.net/TF054005.xml
@@ -43175,8 +43168,10 @@ Parsing wbtf-tf071244 from https://d2mxkr7359ifh6.cloudfront.net/TF071244.xml
 found 3 activities
 
 Downloading wbtf-tf071249 from https://d2mxkr7359ifh6.cloudfront.net/TF071249.xml
+curl: download ERROR 000
 Parsing wbtf-tf071249 from https://d2mxkr7359ifh6.cloudfront.net/TF071249.xml
-found 11 activities
+dflat: input XML file does not exist
+restored 11 files
 
 Downloading wbtf-tf071250 from https://d2mxkr7359ifh6.cloudfront.net/TF071250.xml
 Parsing wbtf-tf071250 from https://d2mxkr7359ifh6.cloudfront.net/TF071250.xml
@@ -43195,8 +43190,10 @@ Parsing wbtf-tf071267 from https://d2mxkr7359ifh6.cloudfront.net/TF071267.xml
 found 2 activities
 
 Downloading wbtf-tf071293 from https://d2mxkr7359ifh6.cloudfront.net/TF071293.xml
+curl: download ERROR 000
 Parsing wbtf-tf071293 from https://d2mxkr7359ifh6.cloudfront.net/TF071293.xml
-found 2 activities
+dflat: input XML file does not exist
+restored 2 files
 
 Downloading wbtf-tf071294 from https://d2mxkr7359ifh6.cloudfront.net/TF071294.xml
 Parsing wbtf-tf071294 from https://d2mxkr7359ifh6.cloudfront.net/TF071294.xml
@@ -43543,8 +43540,10 @@ Parsing wbtf-tf071759 from https://d2mxkr7359ifh6.cloudfront.net/TF071759.xml
 found 1 activities
 
 Downloading wbtf-tf071772 from https://d2mxkr7359ifh6.cloudfront.net/TF071772.xml
+curl: download ERROR 000
 Parsing wbtf-tf071772 from https://d2mxkr7359ifh6.cloudfront.net/TF071772.xml
-found 3 activities
+dflat: input XML file does not exist
+restored 3 files
 
 Downloading wbtf-tf071778 from https://d2mxkr7359ifh6.cloudfront.net/TF071778.xml
 Parsing wbtf-tf071778 from https://d2mxkr7359ifh6.cloudfront.net/TF071778.xml
@@ -44255,8 +44254,10 @@ Parsing wbtf-tf072570 from https://d2mxkr7359ifh6.cloudfront.net/TF072570.xml
 found 1 activities
 
 Downloading wbtf-tf072571 from https://d2mxkr7359ifh6.cloudfront.net/TF072571.xml
+curl: download ERROR 000
 Parsing wbtf-tf072571 from https://d2mxkr7359ifh6.cloudfront.net/TF072571.xml
-found 1 activities
+dflat: input XML file does not exist
+restored 1 files
 
 Downloading wbtf-tf072575 from https://d2mxkr7359ifh6.cloudfront.net/TF072575.xml
 Parsing wbtf-tf072575 from https://d2mxkr7359ifh6.cloudfront.net/TF072575.xml
@@ -44359,8 +44360,10 @@ Parsing wbtf-tf072636 from https://d2mxkr7359ifh6.cloudfront.net/TF072636.xml
 found 2 activities
 
 Downloading wbtf-tf072638 from https://d2mxkr7359ifh6.cloudfront.net/TF072638.xml
+curl: download ERROR 000
 Parsing wbtf-tf072638 from https://d2mxkr7359ifh6.cloudfront.net/TF072638.xml
-found 3 activities
+dflat: input XML file does not exist
+restored 3 files
 
 Downloading wbtf-tf072642 from https://d2mxkr7359ifh6.cloudfront.net/TF072642.xml
 Parsing wbtf-tf072642 from https://d2mxkr7359ifh6.cloudfront.net/TF072642.xml
@@ -45179,8 +45182,10 @@ Parsing wbtf-tf073700 from https://d2mxkr7359ifh6.cloudfront.net/TF073700.xml
 found 2 activities
 
 Downloading wbtf-tf073705 from https://d2mxkr7359ifh6.cloudfront.net/TF073705.xml
+curl: download ERROR 000
 Parsing wbtf-tf073705 from https://d2mxkr7359ifh6.cloudfront.net/TF073705.xml
-found 1 activities
+dflat: input XML file does not exist
+restored 1 files
 
 Downloading wbtf-tf073706 from https://d2mxkr7359ifh6.cloudfront.net/TF073706.xml
 Parsing wbtf-tf073706 from https://d2mxkr7359ifh6.cloudfront.net/TF073706.xml
