@@ -6463,7 +6463,7 @@ found 2 activities
 
 Downloading cisu-gaia from https://vores.cisu.dk/activities.xml
 Parsing cisu-gaia from https://vores.cisu.dk/activities.xml
-found 2948 activities
+found 2960 activities
 
 Downloading cisu-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/cisu-org.xml
 Parsing cisu-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/cisu-org.xml
@@ -6881,8 +6881,10 @@ Parsing come-act1 from https://rsr.akvo.org/organisation/4641/iati/
 found 2 activities
 
 Downloading come-org from https://rsr.akvo.org/organisation/4641/iati-org/
+curl: download ERROR 502
 Parsing come-org from https://rsr.akvo.org/organisation/4641/iati-org/
-found 1 organisations
+dflat: input XML file does not exist
+restored 1 files
 
 Downloading commonwealthsecretariat-xi_iati_cwsec_activity_2022_1 from https://dbsstore.blob.core.windows.net/public/iati/CommonwealthSecretariat_ActivityStandard_2022.xml
 Parsing commonwealthsecretariat-xi_iati_cwsec_activity_2022_1 from https://dbsstore.blob.core.windows.net/public/iati/CommonwealthSecretariat_ActivityStandard_2022.xml
@@ -7362,8 +7364,10 @@ Parsing dance4life-pk from https://aidstream.s3.us-west-2.amazonaws.com/xml/danc
 found 1 activities
 
 Downloading dangbo-act from https://rsr.akvo.org/organisation/4646/iati/
+curl: download ERROR 502
 Parsing dangbo-act from https://rsr.akvo.org/organisation/4646/iati/
-found 3 activities
+dflat: input XML file does not exist
+restored 3 files
 
 Downloading dangbo-org from https://rsr.akvo.org/organisation/4646/iati-org/
 Parsing dangbo-org from https://rsr.akvo.org/organisation/4646/iati-org/
@@ -11315,25 +11319,49 @@ Downloading dsit-mo-nf from https://science-and-innovation-network.s3.eu-west-2.
 Parsing dsit-mo-nf from https://science-and-innovation-network.s3.eu-west-2.amazonaws.com/DSIT+Met+Office+NF+Activity+File.xml
 found 24 activities
 
+Downloading dsit-mrc-gcrf-lc from https://science-and-innovation-network.s3.eu-west-2.amazonaws.com/DSIT+Medical+Research+Council+GCRF+Level+C+Activity+File.xml
+Parsing dsit-mrc-gcrf-lc from https://science-and-innovation-network.s3.eu-west-2.amazonaws.com/DSIT+Medical+Research+Council+GCRF+Level+C+Activity+File.xml
+found 1 activities
+
 Downloading dsit-mrc-gcrf from https://science-and-innovation-network.s3.eu-west-2.amazonaws.com/DSIT+Medical+Research+Council+GCRF+Activity+File.xml
 Parsing dsit-mrc-gcrf from https://science-and-innovation-network.s3.eu-west-2.amazonaws.com/DSIT+Medical+Research+Council+GCRF+Activity+File.xml
 found 46 activities
+
+Downloading dsit-mrc-ispf-lc from https://science-and-innovation-network.s3.eu-west-2.amazonaws.com/DSIT+Medical+Research+Council+International+Science+Partnerships+Fund+Level+C+Activity+File.xml
+Parsing dsit-mrc-ispf-lc from https://science-and-innovation-network.s3.eu-west-2.amazonaws.com/DSIT+Medical+Research+Council+International+Science+Partnerships+Fund+Level+C+Activity+File.xml
+found 4 activities
 
 Downloading dsit-mrc-nf from https://science-and-innovation-network.s3.eu-west-2.amazonaws.com/DSIT+Medical+Research+Council+NF+Activity+File.xml
 Parsing dsit-mrc-nf from https://science-and-innovation-network.s3.eu-west-2.amazonaws.com/DSIT+Medical+Research+Council+NF+Activity+File.xml
 found 26 activities
 
+Downloading dsit-mrc-ooda-lc from https://science-and-innovation-network.s3.eu-west-2.amazonaws.com/DSIT+Medical+Research+Council+OODA+Level+C+Activity+File.xml
+Parsing dsit-mrc-ooda-lc from https://science-and-innovation-network.s3.eu-west-2.amazonaws.com/DSIT+Medical+Research+Council+OODA+Level+C+Activity+File.xml
+found 3 activities
+
 Downloading dsit-mrc-ooda from https://science-and-innovation-network.s3.eu-west-2.amazonaws.com/DSIT+Medical+Research+Council+Other+ODA+Activity+File.xml
 Parsing dsit-mrc-ooda from https://science-and-innovation-network.s3.eu-west-2.amazonaws.com/DSIT+Medical+Research+Council+Other+ODA+Activity+File.xml
 found 166 activities
+
+Downloading dsit-nerc-gcrf-lc from https://science-and-innovation-network.s3.eu-west-2.amazonaws.com/DSIT+Natural+Environment+Research+Council+GCRF+Level+C+Activity+File.xml
+Parsing dsit-nerc-gcrf-lc from https://science-and-innovation-network.s3.eu-west-2.amazonaws.com/DSIT+Natural+Environment+Research+Council+GCRF+Level+C+Activity+File.xml
+found 5 activities
 
 Downloading dsit-nerc-gcrf from https://science-and-innovation-network.s3.eu-west-2.amazonaws.com/DSIT+Natural+Environment+Research+Council+GCRF+Activity+File.xml
 Parsing dsit-nerc-gcrf from https://science-and-innovation-network.s3.eu-west-2.amazonaws.com/DSIT+Natural+Environment+Research+Council+GCRF+Activity+File.xml
 found 29 activities
 
+Downloading dsit-nerc-ispf-lc from https://science-and-innovation-network.s3.eu-west-2.amazonaws.com/DSIT+Natural+Environment+Research+Council+International+Science+Partnerships+Fund+Level+C+Activity+File.xml
+Parsing dsit-nerc-ispf-lc from https://science-and-innovation-network.s3.eu-west-2.amazonaws.com/DSIT+Natural+Environment+Research+Council+International+Science+Partnerships+Fund+Level+C+Activity+File.xml
+found 2 activities
+
 Downloading dsit-nerc-nf from https://science-and-innovation-network.s3.eu-west-2.amazonaws.com/DSIT+Natural+Environmental+Research+Council+NF+Activity+File.xml
 Parsing dsit-nerc-nf from https://science-and-innovation-network.s3.eu-west-2.amazonaws.com/DSIT+Natural+Environmental+Research+Council+NF+Activity+File.xml
 found 1 activities
+
+Downloading dsit-nerc-ooda-lc from https://science-and-innovation-network.s3.eu-west-2.amazonaws.com/DSIT+Natural+Environment+Research+Council+OODA+Level+C+Activity+File.xml
+Parsing dsit-nerc-ooda-lc from https://science-and-innovation-network.s3.eu-west-2.amazonaws.com/DSIT+Natural+Environment+Research+Council+OODA+Level+C+Activity+File.xml
+found 3 activities
 
 Downloading dsit-nerc-ooda from https://science-and-innovation-network.s3.eu-west-2.amazonaws.com/DSIT+Natural+and+Environmental+Research+Council+OODA+Activity+File.xml
 Parsing dsit-nerc-ooda from https://science-and-innovation-network.s3.eu-west-2.amazonaws.com/DSIT+Natural+and+Environmental+Research+Council+OODA+Activity+File.xml
@@ -11375,6 +11403,10 @@ Downloading dsit-sfc-ispf from https://science-and-innovation-network.s3.eu-west
 Parsing dsit-sfc-ispf from https://science-and-innovation-network.s3.eu-west-2.amazonaws.com/DSIT+Scottish+Funding+Council+International+Science+Partnerships+Fund+Activity+File.xml
 found 1 activities
 
+Downloading dsit-stfc-ispf-lc from https://science-and-innovation-network.s3.eu-west-2.amazonaws.com/DSIT+Science+And+Technology+Facilities+Council+International+Science+Partnerships+Fund+Level+C+Activity+File.xml
+Parsing dsit-stfc-ispf-lc from https://science-and-innovation-network.s3.eu-west-2.amazonaws.com/DSIT+Science+And+Technology+Facilities+Council+International+Science+Partnerships+Fund+Level+C+Activity+File.xml
+found 3 activities
+
 Downloading dsit-stfc-nf from https://science-and-innovation-network.s3.eu-west-2.amazonaws.com/DSIT+Science+and+Technology+Facilities+Council+NF+Activity+File.xml
 Parsing dsit-stfc-nf from https://science-and-innovation-network.s3.eu-west-2.amazonaws.com/DSIT+Science+and+Technology+Facilities+Council+NF+Activity+File.xml
 found 2 activities
@@ -11383,9 +11415,17 @@ Downloading dsit-strc-gcrf from https://science-and-innovation-network.s3.eu-wes
 Parsing dsit-strc-gcrf from https://science-and-innovation-network.s3.eu-west-2.amazonaws.com/DSIT+Science+and+Technology+Facilities+Council+GCRF+Activity+File.xml
 found 1 activities
 
+Downloading dsit-ukri-gcrf-lc from https://science-and-innovation-network.s3.eu-west-2.amazonaws.com/DSIT+UK+Research+and+Innovation+GCRF+Level+C+Activity+File.xml
+Parsing dsit-ukri-gcrf-lc from https://science-and-innovation-network.s3.eu-west-2.amazonaws.com/DSIT+UK+Research+and+Innovation+GCRF+Level+C+Activity+File.xml
+found 7 activities
+
 Downloading dsit-ukri-gcrf from https://science-and-innovation-network.s3.eu-west-2.amazonaws.com/DSIT+UK+Research+and+Innovation+GCRF+Activity+File.xml
 Parsing dsit-ukri-gcrf from https://science-and-innovation-network.s3.eu-west-2.amazonaws.com/DSIT+UK+Research+and+Innovation+GCRF+Activity+File.xml
 found 44 activities
+
+Downloading dsit-ukri-ispf-lc from https://science-and-innovation-network.s3.eu-west-2.amazonaws.com/DSIT+UK+Research+And+Innovation+International+Science+Partnerships+Fund+Level+C+Activity+File.xml
+Parsing dsit-ukri-ispf-lc from https://science-and-innovation-network.s3.eu-west-2.amazonaws.com/DSIT+UK+Research+And+Innovation+International+Science+Partnerships+Fund+Level+C+Activity+File.xml
+found 1 activities
 
 Downloading dsit-ukri-ooda from https://science-and-innovation-network.s3.eu-west-2.amazonaws.com/DSIT+UK+Research+and+Innovation+OODA+Activity+File.xml
 Parsing dsit-ukri-ooda from https://science-and-innovation-network.s3.eu-west-2.amazonaws.com/DSIT+UK+Research+and+Innovation+OODA+Activity+File.xml
@@ -11506,39 +11546,39 @@ found 851 activities
 
 Downloading ec-echo-2017 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2017.xml
 Parsing ec-echo-2017 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2017.xml
-found 732 activities
+found 730 activities
 
 Downloading ec-echo-2018 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2018.xml
 Parsing ec-echo-2018 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2018.xml
-found 606 activities
+found 604 activities
 
 Downloading ec-echo-2019 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2019.xml
 Parsing ec-echo-2019 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2019.xml
-found 519 activities
+found 523 activities
 
 Downloading ec-echo-2020 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2020.xml
 Parsing ec-echo-2020 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2020.xml
-found 596 activities
+found 595 activities
 
 Downloading ec-echo-2021 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2021.xml
 Parsing ec-echo-2021 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2021.xml
-found 579 activities
+found 580 activities
 
 Downloading ec-echo-2022 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2022.xml
 Parsing ec-echo-2022 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2022.xml
-found 453 activities
+found 457 activities
 
 Downloading ec-echo-2023 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2023.xml
 Parsing ec-echo-2023 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2023.xml
-found 511 activities
+found 506 activities
 
 Downloading ec-echo-2024 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2024.xml
 Parsing ec-echo-2024 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2024.xml
-found 534 activities
+found 532 activities
 
 Downloading ec-echo-2025 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2025.xml
 Parsing ec-echo-2025 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2025.xml
-found 33 activities
+found 34 activities
 
 Downloading ec-echo-org from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/iati-organisation-file.xml
 Parsing ec-echo-org from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/iati-organisation-file.xml
@@ -15738,11 +15778,11 @@ found 8 activities
 
 Downloading gac-amc-act_2_3 from http://w05.international.gc.ca/projectbrowser-banqueprojets/iita-iati/dfatd-maecd_activit_status_2_3.xml
 Parsing gac-amc-act_2_3 from http://w05.international.gc.ca/projectbrowser-banqueprojets/iita-iati/dfatd-maecd_activit_status_2_3.xml
-found 2594 activities
+found 2586 activities
 
 Downloading gac-amc-act_4 from http://w05.international.gc.ca/projectbrowser-banqueprojets/iita-iati/dfatd-maecd_activit_status_4.xml
 Parsing gac-amc-act_4 from http://w05.international.gc.ca/projectbrowser-banqueprojets/iita-iati/dfatd-maecd_activit_status_4.xml
-found 392 activities
+found 395 activities
 
 Downloading gac-amc-org from http://w05.international.gc.ca/projectbrowser-banqueprojets/iita-iati/dfatd-maecd_organisation.xml
 Parsing gac-amc-org from http://w05.international.gc.ca/projectbrowser-banqueprojets/iita-iati/dfatd-maecd_organisation.xml
@@ -18012,7 +18052,7 @@ found 96 activities
 
 Downloading ibis_denmark-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/ibis_denmark-activities.xml
 Parsing ibis_denmark-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/ibis_denmark-activities.xml
-found 63 activities
+found 64 activities
 
 Downloading ibis_denmark-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/ibis_denmark-org.xml
 Parsing ibis_denmark-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/ibis_denmark-org.xml
@@ -18932,8 +18972,10 @@ Parsing ifangni-act from https://rsr.akvo.org/organisation/4143/iati/
 found 1 activities
 
 Downloading ifangni-org from https://rsr.akvo.org/organisation/4143/iati-org/
+curl: download ERROR 502
 Parsing ifangni-org from https://rsr.akvo.org/organisation/4143/iati-org/
-found 1 organisations
+dflat: input XML file does not exist
+restored 1 files
 
 Downloading ifcwbg-10 from https://disclosures.ifc.org/IATI/IFC-10.xml
 Parsing ifcwbg-10 from https://disclosures.ifc.org/IATI/IFC-10.xml
@@ -18985,7 +19027,7 @@ found 9 activities
 
 Downloading ifcwbg-67 from https://disclosures.ifc.org/IATI/IFC-67.xml
 Parsing ifcwbg-67 from https://disclosures.ifc.org/IATI/IFC-67.xml
-found 8 activities
+found 7 activities
 
 Downloading ifcwbg-79 from https://disclosures.ifc.org/IATI/IFC-79.xml
 Parsing ifcwbg-79 from https://disclosures.ifc.org/IATI/IFC-79.xml
@@ -21189,8 +21231,10 @@ Parsing kesho_kenya-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/ke
 found 1 organisations
 
 Downloading ketou-act from https://rsr.akvo.org/organisation/4144/iati/
+curl: download ERROR 502
 Parsing ketou-act from https://rsr.akvo.org/organisation/4144/iati/
-found 4 activities
+dflat: input XML file does not exist
+restored 4 files
 
 Downloading ketou-org from https://rsr.akvo.org/organisation/4144/iati-org/
 Parsing ketou-org from https://rsr.akvo.org/organisation/4144/iati-org/
@@ -21331,8 +21375,10 @@ Parsing kpomasse-act1 from https://rsr.akvo.org/organisation/4651/iati/
 found 4 activities
 
 Downloading kpomasse-org from https://rsr.akvo.org/organisation/4651/iati-org/
+curl: download ERROR 502
 Parsing kpomasse-org from https://rsr.akvo.org/organisation/4651/iati-org/
-found 1 organisations
+dflat: input XML file does not exist
+restored 1 files
 
 Downloading kse-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/kse-activities.xml
 Parsing kse-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/kse-activities.xml
@@ -21792,8 +21838,10 @@ Parsing lalo-act1 from https://rsr.akvo.org/organisation/4654/iati/
 found 4 activities
 
 Downloading lalo-org from https://rsr.akvo.org/organisation/4654/iati-org/
+curl: download ERROR 502
 Parsing lalo-org from https://rsr.akvo.org/organisation/4654/iati-org/
-found 1 organisations
+dflat: input XML file does not exist
+restored 1 files
 
 Downloading landell-mills-289 from https://aidstream.s3.us-west-2.amazonaws.com/xml/landell-mills-289.xml
 Parsing landell-mills-289 from https://aidstream.s3.us-west-2.amazonaws.com/xml/landell-mills-289.xml
@@ -23183,8 +23231,10 @@ dflat: input XML file does not exist
 restored 0 files
 
 Downloading malariaconsortium-1q from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-1Q.xml
+curl: download ERROR 403
 Parsing malariaconsortium-1q from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-1Q.xml
-found 2 activities
+dflat: input XML file does not exist
+restored 2 files
 
 Downloading malariaconsortium-1r from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-1R.xml
 curl: download ERROR 403
@@ -23199,8 +23249,10 @@ dflat: input XML file does not exist
 restored 2 files
 
 Downloading malariaconsortium-1v from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-1V.xml
+curl: download ERROR 403
 Parsing malariaconsortium-1v from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-1V.xml
-found 2 activities
+dflat: input XML file does not exist
+restored 2 files
 
 Downloading malariaconsortium-1w from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-1W.xml
 curl: download ERROR 403
@@ -23245,8 +23297,10 @@ dflat: input XML file does not exist
 restored 3 files
 
 Downloading malariaconsortium-c9 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-C9.xml
+curl: download ERROR 403
 Parsing malariaconsortium-c9 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-C9.xml
-found 2 activities
+dflat: input XML file does not exist
+restored 2 files
 
 Downloading malariaconsortium-d3 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-D3.xml
 curl: download ERROR 403
@@ -23279,8 +23333,10 @@ dflat: input XML file does not exist
 restored 2 files
 
 Downloading malariaconsortium-g8 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-G8.xml
+curl: download ERROR 403
 Parsing malariaconsortium-g8 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-G8.xml
-found 2 activities
+dflat: input XML file does not exist
+restored 2 files
 
 Downloading malariaconsortium-h1 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-H1.xml
 curl: download ERROR 403
@@ -23301,11 +23357,13 @@ dflat: input XML file does not exist
 restored 2 files
 
 Downloading malariaconsortium-i1 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-I1.xml
+curl: download ERROR 403
 Parsing malariaconsortium-i1 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-I1.xml
-found 2 activities
+dflat: input XML file does not exist
+restored 2 files
 
 Downloading malariaconsortium-i2 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-I2.xml
-curl: download ERROR 522
+curl: download ERROR 403
 Parsing malariaconsortium-i2 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-I2.xml
 dflat: input XML file does not exist
 restored 2 files
@@ -23317,7 +23375,7 @@ dflat: input XML file does not exist
 restored 3 files
 
 Downloading malariaconsortium-i4 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-I4.xml
-curl: download ERROR 522
+curl: download ERROR 403
 Parsing malariaconsortium-i4 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-I4.xml
 dflat: input XML file does not exist
 restored 2 files
@@ -23341,8 +23399,10 @@ dflat: input XML file does not exist
 restored 2 files
 
 Downloading malariaconsortium-i8 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-I8.xml
+curl: download ERROR 403
 Parsing malariaconsortium-i8 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-I8.xml
-found 2 activities
+dflat: input XML file does not exist
+restored 2 files
 
 Downloading malariaconsortium-i9 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-I9.xml
 curl: download ERROR 403
@@ -23381,8 +23441,10 @@ dflat: input XML file does not exist
 restored 2 files
 
 Downloading malariaconsortium-k2 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-K2.xml
+curl: download ERROR 403
 Parsing malariaconsortium-k2 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-K2.xml
-found 2 activities
+dflat: input XML file does not exist
+restored 2 files
 
 Downloading malariaconsortium-k6 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-K6.xml
 curl: download ERROR 403
@@ -23409,8 +23471,10 @@ dflat: input XML file does not exist
 restored 2 files
 
 Downloading malariaconsortium-l2 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-L2.xml
+curl: download ERROR 403
 Parsing malariaconsortium-l2 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-L2.xml
-found 2 activities
+dflat: input XML file does not exist
+restored 2 files
 
 Downloading malariaconsortium-l3 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-L3.xml
 curl: download ERROR 403
@@ -23431,8 +23495,10 @@ dflat: input XML file does not exist
 restored 2 files
 
 Downloading malariaconsortium-l6 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-L6.xml
+curl: download ERROR 403
 Parsing malariaconsortium-l6 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-L6.xml
-found 2 activities
+dflat: input XML file does not exist
+restored 2 files
 
 Downloading malariaconsortium-l7 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-L7.xml
 curl: download ERROR 403
@@ -23447,8 +23513,10 @@ dflat: input XML file does not exist
 restored 2 files
 
 Downloading malariaconsortium-l9 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-L9.xml
+curl: download ERROR 403
 Parsing malariaconsortium-l9 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-L9.xml
-found 2 activities
+dflat: input XML file does not exist
+restored 2 files
 
 Downloading malariaconsortium-m1 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-M1.xml
 curl: download ERROR 403
@@ -23493,8 +23561,10 @@ dflat: input XML file does not exist
 restored 2 files
 
 Downloading malariaconsortium-m9 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-M9.xml
+curl: download ERROR 403
 Parsing malariaconsortium-m9 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-M9.xml
-found 10 activities
+dflat: input XML file does not exist
+restored 10 files
 
 Downloading malariaconsortium-n1 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-N1.xml
 curl: download ERROR 403
@@ -23521,8 +23591,10 @@ dflat: input XML file does not exist
 restored 2 files
 
 Downloading malariaconsortium-n5 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-N5.xml
+curl: download ERROR 403
 Parsing malariaconsortium-n5 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-N5.xml
-found 2 activities
+dflat: input XML file does not exist
+restored 2 files
 
 Downloading malariaconsortium-n6 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-N6.xml
 curl: download ERROR 403
@@ -23543,8 +23615,10 @@ dflat: input XML file does not exist
 restored 2 files
 
 Downloading malariaconsortium-o1 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-O1.xml
+curl: download ERROR 403
 Parsing malariaconsortium-o1 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-O1.xml
-found 2 activities
+dflat: input XML file does not exist
+restored 2 files
 
 Downloading malariaconsortium-o2 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-O2.xml
 curl: download ERROR 403
@@ -23619,8 +23693,10 @@ dflat: input XML file does not exist
 restored 0 files
 
 Downloading malariaconsortium-p4 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-P4.xml
+curl: download ERROR 403
 Parsing malariaconsortium-p4 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-P4.xml
-found 2 activities
+dflat: input XML file does not exist
+restored 2 files
 
 Downloading malariaconsortium-p5 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-P5.xml
 curl: download ERROR 403
@@ -23665,8 +23741,10 @@ dflat: input XML file does not exist
 restored 2 files
 
 Downloading malariaconsortium-q3 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-Q3.xml
+curl: download ERROR 403
 Parsing malariaconsortium-q3 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-Q3.xml
-found 2 activities
+dflat: input XML file does not exist
+restored 2 files
 
 Downloading malariaconsortium-q4 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-Q4.xml
 curl: download ERROR 403
@@ -23687,8 +23765,10 @@ dflat: input XML file does not exist
 restored 2 files
 
 Downloading malariaconsortium-q7 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-Q7.xml
+curl: download ERROR 403
 Parsing malariaconsortium-q7 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-Q7.xml
-found 2 activities
+dflat: input XML file does not exist
+restored 2 files
 
 Downloading malariaconsortium-q8 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-Q8.xml
 curl: download ERROR 403
@@ -23697,16 +23777,22 @@ dflat: input XML file does not exist
 restored 2 files
 
 Downloading malariaconsortium-q9 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-Q9.xml
+curl: download ERROR 403
 Parsing malariaconsortium-q9 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-Q9.xml
-found 2 activities
+dflat: input XML file does not exist
+restored 2 files
 
 Downloading malariaconsortium-r1 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-R1.xml
+curl: download ERROR 403
 Parsing malariaconsortium-r1 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-R1.xml
-found 12 activities
+dflat: input XML file does not exist
+restored 12 files
 
 Downloading malariaconsortium-r2 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-R2.xml
+curl: download ERROR 403
 Parsing malariaconsortium-r2 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-R2.xml
-found 5 activities
+dflat: input XML file does not exist
+restored 5 files
 
 Downloading malariaconsortium-r3 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-R3.xml
 curl: download ERROR 403
@@ -23721,12 +23807,16 @@ dflat: input XML file does not exist
 restored 2 files
 
 Downloading malariaconsortium-r5 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-R5.xml
+curl: download ERROR 403
 Parsing malariaconsortium-r5 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-R5.xml
-found 2 activities
+dflat: input XML file does not exist
+restored 2 files
 
 Downloading malariaconsortium-r6 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-R6.xml
+curl: download ERROR 403
 Parsing malariaconsortium-r6 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-R6.xml
-found 2 activities
+dflat: input XML file does not exist
+restored 2 files
 
 Downloading malariaconsortium-r7 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-R7.xml
 curl: download ERROR 403
@@ -23759,8 +23849,10 @@ dflat: input XML file does not exist
 restored 4 files
 
 Downloading malariaconsortium-s3 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-S3.xml
+curl: download ERROR 403
 Parsing malariaconsortium-s3 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-S3.xml
-found 11 activities
+dflat: input XML file does not exist
+restored 11 files
 
 Downloading malariaconsortium-s4 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-S4.xml
 curl: download ERROR 403
@@ -23769,8 +23861,10 @@ dflat: input XML file does not exist
 restored 2 files
 
 Downloading malariaconsortium-s5 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-S5.xml
+curl: download ERROR 403
 Parsing malariaconsortium-s5 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-S5.xml
-found 2 activities
+dflat: input XML file does not exist
+restored 2 files
 
 Downloading malariaconsortium-s6 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-S6.xml
 curl: download ERROR 403
@@ -23785,12 +23879,16 @@ dflat: input XML file does not exist
 restored 2 files
 
 Downloading malariaconsortium-s8 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-S8.xml
+curl: download ERROR 403
 Parsing malariaconsortium-s8 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-S8.xml
-found 2 activities
+dflat: input XML file does not exist
+restored 2 files
 
 Downloading malariaconsortium-s9 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-S9.xml
+curl: download ERROR 403
 Parsing malariaconsortium-s9 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-S9.xml
-found 2 activities
+dflat: input XML file does not exist
+restored 2 files
 
 Downloading malariaconsortium-t1 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-T1.xml
 curl: download ERROR 403
@@ -23829,7 +23927,7 @@ dflat: input XML file does not exist
 restored 2 files
 
 Downloading malariaconsortium-t7 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-T7.xml
-curl: download ERROR 522
+curl: download ERROR 403
 Parsing malariaconsortium-t7 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-T7.xml
 dflat: input XML file does not exist
 restored 2 files
@@ -23889,8 +23987,10 @@ dflat: input XML file does not exist
 restored 2 files
 
 Downloading malariaconsortium-u8 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-U8.xml
+curl: download ERROR 403
 Parsing malariaconsortium-u8 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-U8.xml
-found 2 activities
+dflat: input XML file does not exist
+restored 2 files
 
 Downloading malariaconsortium-u9 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-U9.xml
 curl: download ERROR 403
@@ -23905,8 +24005,10 @@ dflat: input XML file does not exist
 restored 2 files
 
 Downloading malariaconsortium-v2 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-V2.xml
+curl: download ERROR 403
 Parsing malariaconsortium-v2 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-V2.xml
-found 2 activities
+dflat: input XML file does not exist
+restored 2 files
 
 Downloading malariaconsortium-v3 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-V3.xml
 curl: download ERROR 403
@@ -23915,11 +24017,13 @@ dflat: input XML file does not exist
 restored 2 files
 
 Downloading malariaconsortium-v4 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-V4.xml
+curl: download ERROR 403
 Parsing malariaconsortium-v4 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-V4.xml
-found 2 activities
+dflat: input XML file does not exist
+restored 2 files
 
 Downloading malariaconsortium-v5 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-V5.xml
-curl: download ERROR 522
+curl: download ERROR 403
 Parsing malariaconsortium-v5 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-V5.xml
 dflat: input XML file does not exist
 restored 2 files
@@ -23979,8 +24083,10 @@ dflat: input XML file does not exist
 restored 2 files
 
 Downloading malariaconsortium-w6 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-W6.xml
+curl: download ERROR 403
 Parsing malariaconsortium-w6 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-W6.xml
-found 2 activities
+dflat: input XML file does not exist
+restored 2 files
 
 Downloading malariaconsortium-w7 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-W7.xml
 curl: download ERROR 403
@@ -24031,8 +24137,10 @@ dflat: input XML file does not exist
 restored 2 files
 
 Downloading malariaconsortium-x6 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-X6.xml
+curl: download ERROR 403
 Parsing malariaconsortium-x6 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-X6.xml
-found 2 activities
+dflat: input XML file does not exist
+restored 2 files
 
 Downloading malariaconsortium-x7 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-X7.xml
 curl: download ERROR 403
@@ -24047,8 +24155,10 @@ dflat: input XML file does not exist
 restored 2 files
 
 Downloading malariaconsortium-x9 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-X9.xml
+curl: download ERROR 403
 Parsing malariaconsortium-x9 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-X9.xml
-found 2 activities
+dflat: input XML file does not exist
+restored 2 files
 
 Downloading malariaconsortium-y1 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-Y1.xml
 curl: download ERROR 403
@@ -24069,8 +24179,10 @@ dflat: input XML file does not exist
 restored 2 files
 
 Downloading malariaconsortium-y4 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-Y4.xml
+curl: download ERROR 403
 Parsing malariaconsortium-y4 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-Y4.xml
-found 2 activities
+dflat: input XML file does not exist
+restored 2 files
 
 Downloading malariaconsortium-y5 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-Y5.xml
 curl: download ERROR 403
@@ -25169,8 +25281,10 @@ Parsing neem-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/ne
 found 1 activities
 
 Downloading nef_mali-act from https://rsr.akvo.org/organisation/5427/iati/
+curl: download ERROR 502
 Parsing nef_mali-act from https://rsr.akvo.org/organisation/5427/iati/
-found 1 activities
+dflat: input XML file does not exist
+restored 1 files
 
 Downloading nef_mali-org from https://rsr.akvo.org/organisation/5427/iati-org/
 Parsing nef_mali-org from https://rsr.akvo.org/organisation/5427/iati-org/
@@ -25465,20 +25579,20 @@ Converting IATI activities version 1.03 to version 2.03
 Parsing nrc-977538319 from https://www.nrc.no/globalassets/office/iati/dec-2016/dfid-ppa-extension-closed.xml
 found 29 activities
 
-Downloading nrc-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/nrc-activities.xml
-Parsing nrc-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/nrc-activities.xml
+Downloading nrc-activities from https://iatipublisher-prod.s3.amazonaws.com/xml/mergedActivityXml/nrc-activities.xml
+Parsing nrc-activities from https://iatipublisher-prod.s3.amazonaws.com/xml/mergedActivityXml/nrc-activities.xml
 found 46 activities
 
 Downloading nrc-closed-activities-2021 from https://www.nrc.no/globalassets/office/iati/jan-2022/nrc_activities_closed.xml
 Parsing nrc-closed-activities-2021 from https://www.nrc.no/globalassets/office/iati/jan-2022/nrc_activities_closed.xml
 found 42 activities
 
-Downloading nrc-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/nrc-org.xml
-Parsing nrc-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/nrc-org.xml
+Downloading nrc-organisation from https://iatipublisher-prod.s3.amazonaws.com/organizationXmlFiles/nrc-organisation.xml
+Parsing nrc-organisation from https://iatipublisher-prod.s3.amazonaws.com/organizationXmlFiles/nrc-organisation.xml
 found 1 organisations
 
 Downloading nrgi-org from https://resourcegovernance.org/files/xml/NRGI-organisation.xml
-curl: download ERROR 404
+curl: download ERROR 403
 Parsing nrgi-org from https://resourcegovernance.org/files/xml/NRGI-organisation.xml
 dflat: input XML file does not exist
 restored 1 files
@@ -26110,7 +26224,7 @@ found 2205 activities
 
 Downloading onl-activity from https://www.oxfamnovib.nl/redactie/Downloads/XML/iati.xml
 Parsing onl-activity from https://www.oxfamnovib.nl/redactie/Downloads/XML/iati.xml
-found 2648 activities
+found 2653 activities
 
 Downloading onl-org from https://www.oxfamnovib.nl/redactie/downloads/xml/IATI_NL-KVK-27108436.xml
 Parsing onl-org from https://www.oxfamnovib.nl/redactie/downloads/xml/IATI_NL-KVK-27108436.xml
@@ -27680,8 +27794,10 @@ Parsing pmo-us-rw from https://aidstream.s3.us-west-2.amazonaws.com/xml/pmo-us-r
 found 2 activities
 
 Downloading pobe-act from https://rsr.akvo.org/organisation/4163/iati/
+curl: download ERROR 502
 Parsing pobe-act from https://rsr.akvo.org/organisation/4163/iati/
-found 5 activities
+dflat: input XML file does not exist
+restored 5 files
 
 Downloading pobe-org from https://rsr.akvo.org/organisation/4163/iati-org/
 Parsing pobe-org from https://rsr.akvo.org/organisation/4163/iati-org/
@@ -28678,7 +28794,7 @@ found 1 organisations
 
 Downloading rvo-01 from https://projects.rvo.nl/opendata/iati.xml
 Parsing rvo-01 from https://projects.rvo.nl/opendata/iati.xml
-found 5324 activities
+found 5326 activities
 
 Downloading rvo-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/rvo-activities.xml
 Parsing rvo-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/rvo-activities.xml
@@ -29354,53 +29470,49 @@ Downloading si-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/
 Parsing si-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/si-activities.xml
 found 1 activities
 
-Downloading sida-100 from https://iati.openaid.se/xml/IATI_SE_BISI_File_100_1_of_12.xml
-Parsing sida-100 from https://iati.openaid.se/xml/IATI_SE_BISI_File_100_1_of_12.xml
-found 2413 activities
+Downloading sida-100 from https://iati.openaid.se/xml/IATI_SE_BISI_File_100_1_of_11.xml
+Parsing sida-100 from https://iati.openaid.se/xml/IATI_SE_BISI_File_100_1_of_11.xml
+found 2632 activities
 
-Downloading sida-101 from https://iati.openaid.se/xml/IATI_SE_BISI_File_101_2_of_12.xml
-Parsing sida-101 from https://iati.openaid.se/xml/IATI_SE_BISI_File_101_2_of_12.xml
-found 2598 activities
+Downloading sida-101 from https://iati.openaid.se/xml/IATI_SE_BISI_File_101_2_of_11.xml
+Parsing sida-101 from https://iati.openaid.se/xml/IATI_SE_BISI_File_101_2_of_11.xml
+found 2835 activities
 
-Downloading sida-102 from https://iati.openaid.se/xml/IATI_SE_BISI_File_102_3_of_12.xml
-Parsing sida-102 from https://iati.openaid.se/xml/IATI_SE_BISI_File_102_3_of_12.xml
-found 2560 activities
+Downloading sida-102 from https://iati.openaid.se/xml/IATI_SE_BISI_File_102_3_of_11.xml
+Parsing sida-102 from https://iati.openaid.se/xml/IATI_SE_BISI_File_102_3_of_11.xml
+found 2803 activities
 
-Downloading sida-103 from https://iati.openaid.se/xml/IATI_SE_BISI_File_103_4_of_12.xml
-Parsing sida-103 from https://iati.openaid.se/xml/IATI_SE_BISI_File_103_4_of_12.xml
-found 2530 activities
+Downloading sida-103 from https://iati.openaid.se/xml/IATI_SE_BISI_File_103_4_of_11.xml
+Parsing sida-103 from https://iati.openaid.se/xml/IATI_SE_BISI_File_103_4_of_11.xml
+found 2751 activities
 
-Downloading sida-104 from https://iati.openaid.se/xml/IATI_SE_BISI_File_104_5_of_12.xml
-Parsing sida-104 from https://iati.openaid.se/xml/IATI_SE_BISI_File_104_5_of_12.xml
-found 2507 activities
+Downloading sida-104 from https://iati.openaid.se/xml/IATI_SE_BISI_File_104_5_of_11.xml
+Parsing sida-104 from https://iati.openaid.se/xml/IATI_SE_BISI_File_104_5_of_11.xml
+found 2709 activities
 
-Downloading sida-105 from https://iati.openaid.se/xml/IATI_SE_BISI_File_105_6_of_12.xml
-Parsing sida-105 from https://iati.openaid.se/xml/IATI_SE_BISI_File_105_6_of_12.xml
-found 2494 activities
+Downloading sida-105 from https://iati.openaid.se/xml/IATI_SE_BISI_File_105_6_of_11.xml
+Parsing sida-105 from https://iati.openaid.se/xml/IATI_SE_BISI_File_105_6_of_11.xml
+found 2694 activities
 
-Downloading sida-106 from https://iati.openaid.se/xml/IATI_SE_BISI_File_106_7_of_12.xml
-Parsing sida-106 from https://iati.openaid.se/xml/IATI_SE_BISI_File_106_7_of_12.xml
-found 2441 activities
+Downloading sida-106 from https://iati.openaid.se/xml/IATI_SE_BISI_File_106_7_of_11.xml
+Parsing sida-106 from https://iati.openaid.se/xml/IATI_SE_BISI_File_106_7_of_11.xml
+found 2677 activities
 
-Downloading sida-107 from https://iati.openaid.se/xml/IATI_SE_BISI_File_107_8_of_12.xml
-Parsing sida-107 from https://iati.openaid.se/xml/IATI_SE_BISI_File_107_8_of_12.xml
-found 2436 activities
+Downloading sida-107 from https://iati.openaid.se/xml/IATI_SE_BISI_File_107_8_of_11.xml
+Parsing sida-107 from https://iati.openaid.se/xml/IATI_SE_BISI_File_107_8_of_11.xml
+found 2667 activities
 
-Downloading sida-108 from https://iati.openaid.se/xml/IATI_SE_BISI_File_108_9_of_12.xml
-Parsing sida-108 from https://iati.openaid.se/xml/IATI_SE_BISI_File_108_9_of_12.xml
-found 2439 activities
+Downloading sida-108 from https://iati.openaid.se/xml/IATI_SE_BISI_File_108_9_of_11.xml
+Parsing sida-108 from https://iati.openaid.se/xml/IATI_SE_BISI_File_108_9_of_11.xml
+found 2646 activities
 
-Downloading sida-109 from https://iati.openaid.se/xml/IATI_SE_BISI_File_109_10_of_12.xml
-Parsing sida-109 from https://iati.openaid.se/xml/IATI_SE_BISI_File_109_10_of_12.xml
-found 2432 activities
+Downloading sida-109 from https://iati.openaid.se/xml/IATI_SE_BISI_File_109_10_of_11.xml
+Parsing sida-109 from https://iati.openaid.se/xml/IATI_SE_BISI_File_109_10_of_11.xml
+found 2643 activities
 
-Downloading sida-110 from https://iati.openaid.se/xml/IATI_SE_BISI_File_110_11_of_12.xml
-Parsing sida-110 from https://iati.openaid.se/xml/IATI_SE_BISI_File_110_11_of_12.xml
-found 2435 activities
-
-Downloading sida-111 from https://iati.openaid.se/xml/IATI_SE_BISI_File_111_12_of_12.xml
-Parsing sida-111 from https://iati.openaid.se/xml/IATI_SE_BISI_File_111_12_of_12.xml
-found 2421 activities
+Downloading sida-110 from https://iati.openaid.se/xml/IATI_SE_BISI_File_110_11_of_11.xml
+Parsing sida-110 from https://iati.openaid.se/xml/IATI_SE_BISI_File_110_11_of_11.xml
+found 2634 activities
 
 Downloading sida-200 from https://iati.openaid.se/xml/IATI_SE_OA_File_200_1_of_4.xml
 Parsing sida-200 from https://iati.openaid.se/xml/IATI_SE_OA_File_200_1_of_4.xml
@@ -29778,8 +29890,10 @@ Parsing skn-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/skn-org.xm
 found 1 organisations
 
 Downloading slf-makeway from https://rsr.akvo.org/organisation/6018/iati/
+curl: download ERROR 502
 Parsing slf-makeway from https://rsr.akvo.org/organisation/6018/iati/
-found 7 activities
+dflat: input XML file does not exist
+restored 7 files
 
 Downloading slf-org from https://rsr.akvo.org/organisation/6018/iati-org/
 Parsing slf-org from https://rsr.akvo.org/organisation/6018/iati-org/
@@ -31095,8 +31209,10 @@ Parsing swb_1-act from https://rsr.akvo.org/organisation/4532/iati/
 found 2 activities
 
 Downloading swb_1-org from https://rsr.akvo.org/organisation/4532/iati-org
+curl: download ERROR 502
 Parsing swb_1-org from https://rsr.akvo.org/organisation/4532/iati-org
-found 1 organisations
+dflat: input XML file does not exist
+restored 1 files
 
 Downloading swda-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/swda-activities.xml
 Parsing swda-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/swda-activities.xml
@@ -32427,8 +32543,10 @@ Parsing toffo-act1 from https://rsr.akvo.org/organisation/4650/iati/
 found 6 activities
 
 Downloading toffo-org from https://rsr.akvo.org/organisation/4650/iati-org/
+curl: download ERROR 502
 Parsing toffo-org from https://rsr.akvo.org/organisation/4650/iati-org/
-found 1 organisations
+dflat: input XML file does not exist
+restored 1 files
 
 Downloading toviklin-act1 from https://rsr.akvo.org/organisation/4649/iati/
 Parsing toviklin-act1 from https://rsr.akvo.org/organisation/4649/iati/
@@ -33084,8 +33202,10 @@ Parsing twnafrica-act from https://rsr.akvo.org/organisation/6305/iati/
 found 1 activities
 
 Downloading twnafrica-org from https://rsr.akvo.org/organisation/6305/iati-org/
+curl: download ERROR 502
 Parsing twnafrica-org from https://rsr.akvo.org/organisation/6305/iati-org/
-found 1 organisations
+dflat: input XML file does not exist
+restored 1 files
 
 Downloading twynstragudde-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/twynstragudde-activities.xml
 Parsing twynstragudde-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/twynstragudde-activities.xml
@@ -33211,6 +33331,10 @@ found 1 activities
 
 Downloading uea_uk-organisation from https://iatipublisher-prod.s3.amazonaws.com/organizationXmlFiles/uea_uk-organisation.xml
 Parsing uea_uk-organisation from https://iatipublisher-prod.s3.amazonaws.com/organizationXmlFiles/uea_uk-organisation.xml
+found 1 organisations
+
+Downloading ufscar_brasil-organisation from https://iatipublisher-prod.s3.amazonaws.com/organizationXmlFiles/ufscar_brasil-organisation.xml
+Parsing ufscar_brasil-organisation from https://iatipublisher-prod.s3.amazonaws.com/organizationXmlFiles/ufscar_brasil-organisation.xml
 found 1 organisations
 
 Downloading ugorid-org-233 from https://figshare.com/articles/dataset/FCDO_GHANA_seroprevance_summarySheet_v2_xml/23546595
