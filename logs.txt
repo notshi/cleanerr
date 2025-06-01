@@ -11776,31 +11776,31 @@ found 730 activities
 
 Downloading ec-echo-2018 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2018.xml
 Parsing ec-echo-2018 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2018.xml
-found 604 activities
+found 602 activities
 
 Downloading ec-echo-2019 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2019.xml
 Parsing ec-echo-2019 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2019.xml
-found 519 activities
+found 520 activities
 
 Downloading ec-echo-2020 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2020.xml
 Parsing ec-echo-2020 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2020.xml
-found 599 activities
+found 597 activities
 
 Downloading ec-echo-2021 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2021.xml
 Parsing ec-echo-2021 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2021.xml
-found 579 activities
+found 578 activities
 
 Downloading ec-echo-2022 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2022.xml
 Parsing ec-echo-2022 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2022.xml
-found 455 activities
+found 456 activities
 
 Downloading ec-echo-2023 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2023.xml
 Parsing ec-echo-2023 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2023.xml
-found 502 activities
+found 506 activities
 
 Downloading ec-echo-2024 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2024.xml
 Parsing ec-echo-2024 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2024.xml
-found 487 activities
+found 484 activities
 
 Downloading ec-echo-2025 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2025.xml
 Parsing ec-echo-2025 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2025.xml
@@ -16016,10 +16016,8 @@ Parsing gadp-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/ga
 found 2 activities
 
 Downloading gaia-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/gaia-activities.xml
-curl: download ERROR 000
 Parsing gaia-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/gaia-activities.xml
-dflat: input XML file does not exist
-restored 4 files
+found 4 activities
 
 Downloading gaia-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/gaia-org.xml
 Parsing gaia-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/gaia-org.xml
@@ -19392,7 +19390,7 @@ found 20 activities
 
 Downloading ifcwbg-br from https://disclosures.ifc.org/iati/ifc-br.xml
 Parsing ifcwbg-br from https://disclosures.ifc.org/iati/ifc-br.xml
-found 333 activities
+found 334 activities
 
 Downloading ifcwbg-bt from https://disclosures.ifc.org/iati/ifc-bt.xml
 Parsing ifcwbg-bt from https://disclosures.ifc.org/iati/ifc-bt.xml
@@ -20999,7 +20997,7 @@ found 7 activities
 
 Downloading irc_inc-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/irc_inc-activities.xml
 Parsing irc_inc-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/irc_inc-activities.xml
-found 158 activities
+found 159 activities
 
 Downloading irc_inc-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/irc_inc-org.xml
 Parsing irc_inc-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/irc_inc-org.xml
@@ -23466,18 +23464,22 @@ Parsing maksph-organisation from https://iatipublisher-prod.s3.amazonaws.com/org
 found 1 organisations
 
 Downloading malariaconsortium-1a from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-1A.xml
-curl: download ERROR 522
+curl: download ERROR 403
 Parsing malariaconsortium-1a from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-1A.xml
 dflat: input XML file does not exist
 restored 2 files
 
 Downloading malariaconsortium-1c from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-1C.xml
+curl: download ERROR 403
 Parsing malariaconsortium-1c from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-1C.xml
-found 2 activities
+dflat: input XML file does not exist
+restored 2 files
 
 Downloading malariaconsortium-1d from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-1D.xml
+curl: download ERROR 403
 Parsing malariaconsortium-1d from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-1D.xml
-found 2 activities
+dflat: input XML file does not exist
+restored 2 files
 
 Downloading malariaconsortium-1g from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-1G.xml
 curl: download ERROR 403
@@ -23486,114 +23488,166 @@ dflat: input XML file does not exist
 restored 2 files
 
 Downloading malariaconsortium-1h from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-1H.xml
+curl: download ERROR 403
 Parsing malariaconsortium-1h from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-1H.xml
-found 2 activities
+dflat: input XML file does not exist
+restored 2 files
 
 Downloading malariaconsortium-1j from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-1J.xml
+curl: download ERROR 403
 Parsing malariaconsortium-1j from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-1J.xml
-found 2 activities
+dflat: input XML file does not exist
+restored 2 files
 
 Downloading malariaconsortium-1k from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-1K.xml
+curl: download ERROR 403
 Parsing malariaconsortium-1k from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-1K.xml
-found 2 activities
+dflat: input XML file does not exist
+restored 2 files
 
 Downloading malariaconsortium-1m from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-1M.xml
+curl: download ERROR 403
 Parsing malariaconsortium-1m from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-1M.xml
-found 2 activities
+dflat: input XML file does not exist
+restored 2 files
 
 Downloading malariaconsortium-1q from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-1Q.xml
+curl: download ERROR 403
 Parsing malariaconsortium-1q from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-1Q.xml
-found 2 activities
+dflat: input XML file does not exist
+restored 2 files
 
 Downloading malariaconsortium-1r from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-1R.xml
+curl: download ERROR 403
 Parsing malariaconsortium-1r from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-1R.xml
-found 2 activities
+dflat: input XML file does not exist
+restored 2 files
 
 Downloading malariaconsortium-1t from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-1T.xml
+curl: download ERROR 403
 Parsing malariaconsortium-1t from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-1T.xml
-found 2 activities
+dflat: input XML file does not exist
+restored 2 files
 
 Downloading malariaconsortium-1v from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-1V.xml
+curl: download ERROR 403
 Parsing malariaconsortium-1v from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-1V.xml
-found 2 activities
+dflat: input XML file does not exist
+restored 2 files
 
 Downloading malariaconsortium-1w from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-1W.xml
+curl: download ERROR 403
 Parsing malariaconsortium-1w from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-1W.xml
-found 2 activities
+dflat: input XML file does not exist
+restored 2 files
 
 Downloading malariaconsortium-1y from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-1Y.xml
+curl: download ERROR 403
 Parsing malariaconsortium-1y from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-1Y.xml
-found 4 activities
+dflat: input XML file does not exist
+restored 4 files
 
 Downloading malariaconsortium-2a from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-2A.xml
+curl: download ERROR 403
 Parsing malariaconsortium-2a from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-2A.xml
-found 2 activities
+dflat: input XML file does not exist
+restored 2 files
 
 Downloading malariaconsortium-2c from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-2C.xml
+curl: download ERROR 403
 Parsing malariaconsortium-2c from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-2C.xml
-found 2 activities
+dflat: input XML file does not exist
+restored 2 files
 
 Downloading malariaconsortium-2d from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-2D.xml
+curl: download ERROR 403
 Parsing malariaconsortium-2d from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-2D.xml
-found 2 activities
+dflat: input XML file does not exist
+restored 2 files
 
 Downloading malariaconsortium-2n from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-2N.xml
+curl: download ERROR 403
 Parsing malariaconsortium-2n from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-2N.xml
-found 2 activities
+dflat: input XML file does not exist
+restored 2 files
 
 Downloading malariaconsortium-2q from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-2Q.xml
+curl: download ERROR 403
 Parsing malariaconsortium-2q from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-2Q.xml
-found 2 activities
+dflat: input XML file does not exist
+restored 2 files
 
 Downloading malariaconsortium-2v from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-2V.xml
+curl: download ERROR 403
 Parsing malariaconsortium-2v from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-2V.xml
-found 2 activities
+dflat: input XML file does not exist
+restored 2 files
 
 Downloading malariaconsortium-b8 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-B8.xml
+curl: download ERROR 403
 Parsing malariaconsortium-b8 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-B8.xml
-found 2 activities
+dflat: input XML file does not exist
+restored 2 files
 
 Downloading malariaconsortium-c8 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-C8.xml
+curl: download ERROR 403
 Parsing malariaconsortium-c8 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-C8.xml
-found 3 activities
+dflat: input XML file does not exist
+restored 3 files
 
 Downloading malariaconsortium-c9 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-C9.xml
+curl: download ERROR 403
 Parsing malariaconsortium-c9 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-C9.xml
-found 2 activities
+dflat: input XML file does not exist
+restored 2 files
 
 Downloading malariaconsortium-d3 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-D3.xml
+curl: download ERROR 403
 Parsing malariaconsortium-d3 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-D3.xml
-found 2 activities
+dflat: input XML file does not exist
+restored 2 files
 
 Downloading malariaconsortium-e1 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-E1.xml
+curl: download ERROR 403
 Parsing malariaconsortium-e1 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-E1.xml
-found 2 activities
+dflat: input XML file does not exist
+restored 2 files
 
 Downloading malariaconsortium-e4 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-E4.xml
+curl: download ERROR 403
 Parsing malariaconsortium-e4 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-E4.xml
-found 4 activities
+dflat: input XML file does not exist
+restored 4 files
 
 Downloading malariaconsortium-e5 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-E5.xml
+curl: download ERROR 403
 Parsing malariaconsortium-e5 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-E5.xml
-found 2 activities
+dflat: input XML file does not exist
+restored 2 files
 
 Downloading malariaconsortium-e6 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-E6.xml
+curl: download ERROR 403
 Parsing malariaconsortium-e6 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-E6.xml
-found 5 activities
+dflat: input XML file does not exist
+restored 5 files
 
 Downloading malariaconsortium-f2 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-F2.xml
+curl: download ERROR 403
 Parsing malariaconsortium-f2 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-F2.xml
-found 2 activities
+dflat: input XML file does not exist
+restored 2 files
 
 Downloading malariaconsortium-g8 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-G8.xml
-curl: download ERROR 522
+curl: download ERROR 403
 Parsing malariaconsortium-g8 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-G8.xml
 dflat: input XML file does not exist
 restored 2 files
 
 Downloading malariaconsortium-h1 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-H1.xml
+curl: download ERROR 403
 Parsing malariaconsortium-h1 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-H1.xml
-found 2 activities
+dflat: input XML file does not exist
+restored 2 files
 
 Downloading malariaconsortium-h3 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-H3.xml
 curl: download ERROR 403
@@ -23602,36 +23656,52 @@ dflat: input XML file does not exist
 restored 2 files
 
 Downloading malariaconsortium-h8 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-H8.xml
+curl: download ERROR 403
 Parsing malariaconsortium-h8 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-H8.xml
-found 2 activities
+dflat: input XML file does not exist
+restored 2 files
 
 Downloading malariaconsortium-i1 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-I1.xml
+curl: download ERROR 403
 Parsing malariaconsortium-i1 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-I1.xml
-found 2 activities
+dflat: input XML file does not exist
+restored 2 files
 
 Downloading malariaconsortium-i2 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-I2.xml
+curl: download ERROR 403
 Parsing malariaconsortium-i2 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-I2.xml
-found 2 activities
+dflat: input XML file does not exist
+restored 2 files
 
 Downloading malariaconsortium-i3 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-I3.xml
+curl: download ERROR 403
 Parsing malariaconsortium-i3 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-I3.xml
-found 3 activities
+dflat: input XML file does not exist
+restored 3 files
 
 Downloading malariaconsortium-i4 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-I4.xml
+curl: download ERROR 403
 Parsing malariaconsortium-i4 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-I4.xml
-found 2 activities
+dflat: input XML file does not exist
+restored 2 files
 
 Downloading malariaconsortium-i5 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-I5.xml
+curl: download ERROR 403
 Parsing malariaconsortium-i5 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-I5.xml
-found 2 activities
+dflat: input XML file does not exist
+restored 2 files
 
 Downloading malariaconsortium-i6 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-I6.xml
+curl: download ERROR 403
 Parsing malariaconsortium-i6 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-I6.xml
-found 3 activities
+dflat: input XML file does not exist
+restored 3 files
 
 Downloading malariaconsortium-i7 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-I7.xml
+curl: download ERROR 403
 Parsing malariaconsortium-i7 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-I7.xml
-found 2 activities
+dflat: input XML file does not exist
+restored 2 files
 
 Downloading malariaconsortium-i8 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-I8.xml
 curl: download ERROR 403
@@ -23640,27 +23710,37 @@ dflat: input XML file does not exist
 restored 2 files
 
 Downloading malariaconsortium-i9 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-I9.xml
+curl: download ERROR 403
 Parsing malariaconsortium-i9 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-I9.xml
-found 2 activities
+dflat: input XML file does not exist
+restored 2 files
 
 Downloading malariaconsortium-j1 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-J1.xml
+curl: download ERROR 403
 Parsing malariaconsortium-j1 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-J1.xml
-found 2 activities
+dflat: input XML file does not exist
+restored 2 files
 
 Downloading malariaconsortium-j4 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-J4.xml
+curl: download ERROR 403
 Parsing malariaconsortium-j4 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-J4.xml
-found 2 activities
+dflat: input XML file does not exist
+restored 2 files
 
 Downloading malariaconsortium-j7 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-J7.xml
+curl: download ERROR 403
 Parsing malariaconsortium-j7 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-J7.xml
-found 13 activities
+dflat: input XML file does not exist
+restored 13 files
 
 Downloading malariaconsortium-j9 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-J9.xml
+curl: download ERROR 403
 Parsing malariaconsortium-j9 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-J9.xml
-found 8 activities
+dflat: input XML file does not exist
+restored 8 files
 
 Downloading malariaconsortium-k1 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-K1.xml
-curl: download ERROR 522
+curl: download ERROR 403
 Parsing malariaconsortium-k1 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-K1.xml
 dflat: input XML file does not exist
 restored 2 files
@@ -23672,16 +23752,22 @@ dflat: input XML file does not exist
 restored 2 files
 
 Downloading malariaconsortium-k6 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-K6.xml
+curl: download ERROR 403
 Parsing malariaconsortium-k6 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-K6.xml
-found 2 activities
+dflat: input XML file does not exist
+restored 2 files
 
 Downloading malariaconsortium-k7 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-K7.xml
+curl: download ERROR 403
 Parsing malariaconsortium-k7 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-K7.xml
-found 2 activities
+dflat: input XML file does not exist
+restored 2 files
 
 Downloading malariaconsortium-k8 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-K8.xml
+curl: download ERROR 403
 Parsing malariaconsortium-k8 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-K8.xml
-found 2 activities
+dflat: input XML file does not exist
+restored 2 files
 
 Downloading malariaconsortium-l1 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-L1.xml
 curl: download ERROR 403
@@ -23690,12 +23776,16 @@ dflat: input XML file does not exist
 restored 2 files
 
 Downloading malariaconsortium-l2 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-L2.xml
+curl: download ERROR 403
 Parsing malariaconsortium-l2 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-L2.xml
-found 2 activities
+dflat: input XML file does not exist
+restored 2 files
 
 Downloading malariaconsortium-l3 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-L3.xml
+curl: download ERROR 403
 Parsing malariaconsortium-l3 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-L3.xml
-found 2 activities
+dflat: input XML file does not exist
+restored 2 files
 
 Downloading malariaconsortium-l4 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-L4.xml
 curl: download ERROR 403
@@ -23710,16 +23800,22 @@ dflat: input XML file does not exist
 restored 2 files
 
 Downloading malariaconsortium-l6 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-L6.xml
+curl: download ERROR 403
 Parsing malariaconsortium-l6 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-L6.xml
-found 2 activities
+dflat: input XML file does not exist
+restored 2 files
 
 Downloading malariaconsortium-l7 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-L7.xml
+curl: download ERROR 403
 Parsing malariaconsortium-l7 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-L7.xml
-found 2 activities
+dflat: input XML file does not exist
+restored 2 files
 
 Downloading malariaconsortium-l8 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-L8.xml
+curl: download ERROR 403
 Parsing malariaconsortium-l8 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-L8.xml
-found 2 activities
+dflat: input XML file does not exist
+restored 2 files
 
 Downloading malariaconsortium-l9 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-L9.xml
 curl: download ERROR 403
@@ -23728,28 +23824,40 @@ dflat: input XML file does not exist
 restored 2 files
 
 Downloading malariaconsortium-m1 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-M1.xml
+curl: download ERROR 403
 Parsing malariaconsortium-m1 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-M1.xml
-found 5 activities
+dflat: input XML file does not exist
+restored 5 files
 
 Downloading malariaconsortium-m2 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-M2.xml
+curl: download ERROR 403
 Parsing malariaconsortium-m2 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-M2.xml
-found 5 activities
+dflat: input XML file does not exist
+restored 5 files
 
 Downloading malariaconsortium-m3 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-M3.xml
+curl: download ERROR 403
 Parsing malariaconsortium-m3 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-M3.xml
-found 2 activities
+dflat: input XML file does not exist
+restored 2 files
 
 Downloading malariaconsortium-m4 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-M4.xml
+curl: download ERROR 403
 Parsing malariaconsortium-m4 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-M4.xml
-found 6 activities
+dflat: input XML file does not exist
+restored 6 files
 
 Downloading malariaconsortium-m5 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-M5.xml
+curl: download ERROR 403
 Parsing malariaconsortium-m5 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-M5.xml
-found 2 activities
+dflat: input XML file does not exist
+restored 2 files
 
 Downloading malariaconsortium-m7 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-M7.xml
+curl: download ERROR 403
 Parsing malariaconsortium-m7 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-M7.xml
-found 11 activities
+dflat: input XML file does not exist
+restored 11 files
 
 Downloading malariaconsortium-m8 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-M8.xml
 curl: download ERROR 403
@@ -23764,8 +23872,10 @@ dflat: input XML file does not exist
 restored 10 files
 
 Downloading malariaconsortium-n1 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-N1.xml
+curl: download ERROR 403
 Parsing malariaconsortium-n1 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-N1.xml
-found 2 activities
+dflat: input XML file does not exist
+restored 2 files
 
 Downloading malariaconsortium-n2 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-N2.xml
 curl: download ERROR 403
@@ -23774,16 +23884,22 @@ dflat: input XML file does not exist
 restored 2 files
 
 Downloading malariaconsortium-n3 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-N3.xml
+curl: download ERROR 403
 Parsing malariaconsortium-n3 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-N3.xml
-found 2 activities
+dflat: input XML file does not exist
+restored 2 files
 
 Downloading malariaconsortium-n4 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-N4.xml
+curl: download ERROR 403
 Parsing malariaconsortium-n4 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-N4.xml
-found 2 activities
+dflat: input XML file does not exist
+restored 2 files
 
 Downloading malariaconsortium-n5 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-N5.xml
+curl: download ERROR 403
 Parsing malariaconsortium-n5 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-N5.xml
-found 2 activities
+dflat: input XML file does not exist
+restored 2 files
 
 Downloading malariaconsortium-n6 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-N6.xml
 curl: download ERROR 403
@@ -23792,68 +23908,100 @@ dflat: input XML file does not exist
 restored 2 files
 
 Downloading malariaconsortium-n8 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-N8.xml
+curl: download ERROR 403
 Parsing malariaconsortium-n8 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-N8.xml
-found 2 activities
+dflat: input XML file does not exist
+restored 2 files
 
 Downloading malariaconsortium-n9 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-N9.xml
+curl: download ERROR 403
 Parsing malariaconsortium-n9 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-N9.xml
-found 2 activities
+dflat: input XML file does not exist
+restored 2 files
 
 Downloading malariaconsortium-o1 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-O1.xml
+curl: download ERROR 403
 Parsing malariaconsortium-o1 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-O1.xml
-found 2 activities
+dflat: input XML file does not exist
+restored 2 files
 
 Downloading malariaconsortium-o2 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-O2.xml
+curl: download ERROR 403
 Parsing malariaconsortium-o2 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-O2.xml
-found 3 activities
+dflat: input XML file does not exist
+restored 3 files
 
 Downloading malariaconsortium-o3 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-O3.xml
+curl: download ERROR 403
 Parsing malariaconsortium-o3 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-O3.xml
-found 2 activities
+dflat: input XML file does not exist
+restored 2 files
 
 Downloading malariaconsortium-o4 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-O4.xml
+curl: download ERROR 403
 Parsing malariaconsortium-o4 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-O4.xml
-found 2 activities
+dflat: input XML file does not exist
+restored 2 files
 
 Downloading malariaconsortium-o5 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-O5.xml
+curl: download ERROR 403
 Parsing malariaconsortium-o5 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-O5.xml
-found 2 activities
+dflat: input XML file does not exist
+restored 2 files
 
 Downloading malariaconsortium-o6 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-O6.xml
+curl: download ERROR 403
 Parsing malariaconsortium-o6 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-O6.xml
-found 2 activities
+dflat: input XML file does not exist
+restored 2 files
 
 Downloading malariaconsortium-o7 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-O7.xml
+curl: download ERROR 403
 Parsing malariaconsortium-o7 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-O7.xml
-found 2 activities
+dflat: input XML file does not exist
+restored 2 files
 
 Downloading malariaconsortium-o8 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-O8.xml
+curl: download ERROR 403
 Parsing malariaconsortium-o8 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-O8.xml
-found 2 activities
+dflat: input XML file does not exist
+restored 2 files
 
 Downloading malariaconsortium-o9 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-O9.xml
+curl: download ERROR 403
 Parsing malariaconsortium-o9 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-O9.xml
-found 2 activities
+dflat: input XML file does not exist
+restored 2 files
 
 Downloading malariaconsortium-org from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776.xml
+curl: download ERROR 403
 Parsing malariaconsortium-org from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776.xml
-found 1 organisations
+dflat: input XML file does not exist
+restored 1 files
 
 Downloading malariaconsortium-p1 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-P1.xml
+curl: download ERROR 403
 Parsing malariaconsortium-p1 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-P1.xml
-found 2 activities
+dflat: input XML file does not exist
+restored 2 files
 
 Downloading malariaconsortium-p2 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-P2.xml
+curl: download ERROR 403
 Parsing malariaconsortium-p2 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-P2.xml
-found 2 activities
+dflat: input XML file does not exist
+restored 2 files
 
 Downloading malariaconsortium-p3 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-P3.xml
+curl: download ERROR 403
 Parsing malariaconsortium-p3 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-P3.xml
-found 2 activities
+dflat: input XML file does not exist
+restored 2 files
 
 Downloading malariaconsortium-p4 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-P4.xml
+curl: download ERROR 403
 Parsing malariaconsortium-p4 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-P4.xml
-found 2 activities
+dflat: input XML file does not exist
+restored 2 files
 
 Downloading malariaconsortium-p5 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-P5.xml
 curl: download ERROR 403
@@ -23862,68 +24010,100 @@ dflat: input XML file does not exist
 restored 2 files
 
 Downloading malariaconsortium-p6 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-P6.xml
+curl: download ERROR 403
 Parsing malariaconsortium-p6 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-P6.xml
-found 2 activities
+dflat: input XML file does not exist
+restored 2 files
 
 Downloading malariaconsortium-p7 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-P7.xml
+curl: download ERROR 403
 Parsing malariaconsortium-p7 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-P7.xml
-found 2 activities
+dflat: input XML file does not exist
+restored 2 files
 
 Downloading malariaconsortium-p8 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-P8.xml
+curl: download ERROR 403
 Parsing malariaconsortium-p8 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-P8.xml
-found 2 activities
+dflat: input XML file does not exist
+restored 2 files
 
 Downloading malariaconsortium-p9 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-P9.xml
+curl: download ERROR 403
 Parsing malariaconsortium-p9 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-P9.xml
-found 2 activities
+dflat: input XML file does not exist
+restored 2 files
 
 Downloading malariaconsortium-q1 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-Q1.xml
+curl: download ERROR 403
 Parsing malariaconsortium-q1 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-Q1.xml
-found 3 activities
+dflat: input XML file does not exist
+restored 3 files
 
 Downloading malariaconsortium-q2 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-Q2.xml
+curl: download ERROR 403
 Parsing malariaconsortium-q2 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-Q2.xml
-found 2 activities
+dflat: input XML file does not exist
+restored 2 files
 
 Downloading malariaconsortium-q3 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-Q3.xml
+curl: download ERROR 403
 Parsing malariaconsortium-q3 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-Q3.xml
-found 2 activities
+dflat: input XML file does not exist
+restored 2 files
 
 Downloading malariaconsortium-q4 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-Q4.xml
+curl: download ERROR 403
 Parsing malariaconsortium-q4 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-Q4.xml
-found 2 activities
+dflat: input XML file does not exist
+restored 2 files
 
 Downloading malariaconsortium-q5 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-Q5.xml
+curl: download ERROR 403
 Parsing malariaconsortium-q5 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-Q5.xml
-found 3 activities
+dflat: input XML file does not exist
+restored 3 files
 
 Downloading malariaconsortium-q6 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-Q6.xml
+curl: download ERROR 403
 Parsing malariaconsortium-q6 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-Q6.xml
-found 2 activities
+dflat: input XML file does not exist
+restored 2 files
 
 Downloading malariaconsortium-q7 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-Q7.xml
+curl: download ERROR 403
 Parsing malariaconsortium-q7 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-Q7.xml
-found 2 activities
+dflat: input XML file does not exist
+restored 2 files
 
 Downloading malariaconsortium-q8 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-Q8.xml
+curl: download ERROR 403
 Parsing malariaconsortium-q8 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-Q8.xml
-found 2 activities
+dflat: input XML file does not exist
+restored 2 files
 
 Downloading malariaconsortium-q9 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-Q9.xml
+curl: download ERROR 403
 Parsing malariaconsortium-q9 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-Q9.xml
-found 2 activities
+dflat: input XML file does not exist
+restored 2 files
 
 Downloading malariaconsortium-r1 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-R1.xml
+curl: download ERROR 403
 Parsing malariaconsortium-r1 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-R1.xml
-found 12 activities
+dflat: input XML file does not exist
+restored 12 files
 
 Downloading malariaconsortium-r2 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-R2.xml
+curl: download ERROR 403
 Parsing malariaconsortium-r2 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-R2.xml
-found 5 activities
+dflat: input XML file does not exist
+restored 5 files
 
 Downloading malariaconsortium-r3 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-R3.xml
+curl: download ERROR 403
 Parsing malariaconsortium-r3 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-R3.xml
-found 2 activities
+dflat: input XML file does not exist
+restored 2 files
 
 Downloading malariaconsortium-r4 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-R4.xml
 curl: download ERROR 403
@@ -23932,20 +24112,28 @@ dflat: input XML file does not exist
 restored 2 files
 
 Downloading malariaconsortium-r5 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-R5.xml
+curl: download ERROR 403
 Parsing malariaconsortium-r5 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-R5.xml
-found 2 activities
+dflat: input XML file does not exist
+restored 2 files
 
 Downloading malariaconsortium-r6 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-R6.xml
+curl: download ERROR 403
 Parsing malariaconsortium-r6 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-R6.xml
-found 2 activities
+dflat: input XML file does not exist
+restored 2 files
 
 Downloading malariaconsortium-r7 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-R7.xml
+curl: download ERROR 403
 Parsing malariaconsortium-r7 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-R7.xml
-found 2 activities
+dflat: input XML file does not exist
+restored 2 files
 
 Downloading malariaconsortium-r8 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-R8.xml
+curl: download ERROR 403
 Parsing malariaconsortium-r8 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-R8.xml
-found 2 activities
+dflat: input XML file does not exist
+restored 2 files
 
 Downloading malariaconsortium-r9 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-R9.xml
 curl: download ERROR 403
@@ -23954,91 +24142,127 @@ dflat: input XML file does not exist
 restored 2 files
 
 Downloading malariaconsortium-s1 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-S1.xml
+curl: download ERROR 403
 Parsing malariaconsortium-s1 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-S1.xml
-found 2 activities
+dflat: input XML file does not exist
+restored 2 files
 
 Downloading malariaconsortium-s2 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-S2.xml
+curl: download ERROR 403
 Parsing malariaconsortium-s2 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-S2.xml
-found 4 activities
+dflat: input XML file does not exist
+restored 4 files
 
 Downloading malariaconsortium-s3 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-S3.xml
+curl: download ERROR 403
 Parsing malariaconsortium-s3 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-S3.xml
-found 11 activities
+dflat: input XML file does not exist
+restored 11 files
 
 Downloading malariaconsortium-s4 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-S4.xml
+curl: download ERROR 403
 Parsing malariaconsortium-s4 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-S4.xml
-found 2 activities
+dflat: input XML file does not exist
+restored 2 files
 
 Downloading malariaconsortium-s5 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-S5.xml
+curl: download ERROR 403
 Parsing malariaconsortium-s5 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-S5.xml
-found 2 activities
+dflat: input XML file does not exist
+restored 2 files
 
 Downloading malariaconsortium-s6 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-S6.xml
-curl: download ERROR 522
+curl: download ERROR 403
 Parsing malariaconsortium-s6 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-S6.xml
 dflat: input XML file does not exist
 restored 2 files
 
 Downloading malariaconsortium-s7 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-S7.xml
+curl: download ERROR 403
 Parsing malariaconsortium-s7 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-S7.xml
-found 2 activities
+dflat: input XML file does not exist
+restored 2 files
 
 Downloading malariaconsortium-s8 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-S8.xml
+curl: download ERROR 403
 Parsing malariaconsortium-s8 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-S8.xml
-found 2 activities
+dflat: input XML file does not exist
+restored 2 files
 
 Downloading malariaconsortium-s9 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-S9.xml
+curl: download ERROR 403
 Parsing malariaconsortium-s9 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-S9.xml
-found 2 activities
+dflat: input XML file does not exist
+restored 2 files
 
 Downloading malariaconsortium-t1 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-T1.xml
+curl: download ERROR 403
 Parsing malariaconsortium-t1 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-T1.xml
-found 2 activities
+dflat: input XML file does not exist
+restored 2 files
 
 Downloading malariaconsortium-t2 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-T2.xml
+curl: download ERROR 403
 Parsing malariaconsortium-t2 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-T2.xml
-found 2 activities
+dflat: input XML file does not exist
+restored 2 files
 
 Downloading malariaconsortium-t3 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-T3.xml
+curl: download ERROR 403
 Parsing malariaconsortium-t3 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-T3.xml
-found 2 activities
+dflat: input XML file does not exist
+restored 2 files
 
 Downloading malariaconsortium-t4 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-T4.xml
+curl: download ERROR 403
 Parsing malariaconsortium-t4 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-T4.xml
-found 2 activities
+dflat: input XML file does not exist
+restored 2 files
 
 Downloading malariaconsortium-t5 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-T5.xml
+curl: download ERROR 403
 Parsing malariaconsortium-t5 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-T5.xml
-found 2 activities
+dflat: input XML file does not exist
+restored 2 files
 
 Downloading malariaconsortium-t6 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-T6.xml
+curl: download ERROR 403
 Parsing malariaconsortium-t6 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-T6.xml
-found 2 activities
+dflat: input XML file does not exist
+restored 2 files
 
 Downloading malariaconsortium-t7 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-T7.xml
+curl: download ERROR 403
 Parsing malariaconsortium-t7 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-T7.xml
-found 2 activities
+dflat: input XML file does not exist
+restored 2 files
 
 Downloading malariaconsortium-t8 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-T8.xml
-curl: download ERROR 522
+curl: download ERROR 403
 Parsing malariaconsortium-t8 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-T8.xml
 dflat: input XML file does not exist
 restored 2 files
 
 Downloading malariaconsortium-t9 from https://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-T9.xml
+curl: download ERROR 403
 Parsing malariaconsortium-t9 from https://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-T9.xml
-found 2 activities
+dflat: input XML file does not exist
+restored 2 files
 
 Downloading malariaconsortium-u1 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-U1.xml
+curl: download ERROR 403
 Parsing malariaconsortium-u1 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-U1.xml
-found 2 activities
+dflat: input XML file does not exist
+restored 2 files
 
 Downloading malariaconsortium-u2 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-U2.xml
+curl: download ERROR 403
 Parsing malariaconsortium-u2 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-U2.xml
-found 2 activities
+dflat: input XML file does not exist
+restored 2 files
 
 Downloading malariaconsortium-u3 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-U3.xml
-curl: download ERROR 522
+curl: download ERROR 403
 Parsing malariaconsortium-u3 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-U3.xml
 dflat: input XML file does not exist
 restored 5 files
@@ -24050,52 +24274,70 @@ dflat: input XML file does not exist
 restored 2 files
 
 Downloading malariaconsortium-u5 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-U5.xml
+curl: download ERROR 403
 Parsing malariaconsortium-u5 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-U5.xml
-found 2 activities
+dflat: input XML file does not exist
+restored 2 files
 
 Downloading malariaconsortium-u6 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-U6.xml
+curl: download ERROR 403
 Parsing malariaconsortium-u6 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-U6.xml
-found 2 activities
+dflat: input XML file does not exist
+restored 2 files
 
 Downloading malariaconsortium-u7 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-U7.xml
-curl: download ERROR 522
+curl: download ERROR 403
 Parsing malariaconsortium-u7 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-U7.xml
 dflat: input XML file does not exist
 restored 2 files
 
 Downloading malariaconsortium-u8 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-U8.xml
+curl: download ERROR 403
 Parsing malariaconsortium-u8 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-U8.xml
-found 2 activities
+dflat: input XML file does not exist
+restored 2 files
 
 Downloading malariaconsortium-u9 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-U9.xml
+curl: download ERROR 403
 Parsing malariaconsortium-u9 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-U9.xml
-found 2 activities
+dflat: input XML file does not exist
+restored 2 files
 
 Downloading malariaconsortium-v1 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-V1.xml
-curl: download ERROR 522
+curl: download ERROR 403
 Parsing malariaconsortium-v1 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-V1.xml
 dflat: input XML file does not exist
 restored 2 files
 
 Downloading malariaconsortium-v2 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-V2.xml
+curl: download ERROR 403
 Parsing malariaconsortium-v2 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-V2.xml
-found 2 activities
+dflat: input XML file does not exist
+restored 2 files
 
 Downloading malariaconsortium-v3 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-V3.xml
+curl: download ERROR 403
 Parsing malariaconsortium-v3 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-V3.xml
-found 2 activities
+dflat: input XML file does not exist
+restored 2 files
 
 Downloading malariaconsortium-v4 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-V4.xml
+curl: download ERROR 403
 Parsing malariaconsortium-v4 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-V4.xml
-found 2 activities
+dflat: input XML file does not exist
+restored 2 files
 
 Downloading malariaconsortium-v5 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-V5.xml
+curl: download ERROR 403
 Parsing malariaconsortium-v5 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-V5.xml
-found 2 activities
+dflat: input XML file does not exist
+restored 2 files
 
 Downloading malariaconsortium-v6 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-V6.xml
+curl: download ERROR 403
 Parsing malariaconsortium-v6 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-V6.xml
-found 2 activities
+dflat: input XML file does not exist
+restored 2 files
 
 Downloading malariaconsortium-v7 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-V7.xml
 curl: download ERROR 403
@@ -24104,19 +24346,25 @@ dflat: input XML file does not exist
 restored 2 files
 
 Downloading malariaconsortium-v8 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-V8.xml
+curl: download ERROR 403
 Parsing malariaconsortium-v8 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-V8.xml
-found 2 activities
+dflat: input XML file does not exist
+restored 2 files
 
 Downloading malariaconsortium-v9 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-V9.xml
+curl: download ERROR 403
 Parsing malariaconsortium-v9 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-V9.xml
-found 2 activities
+dflat: input XML file does not exist
+restored 2 files
 
 Downloading malariaconsortium-w1 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-W1.xml
+curl: download ERROR 403
 Parsing malariaconsortium-w1 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-W1.xml
-found 2 activities
+dflat: input XML file does not exist
+restored 2 files
 
 Downloading malariaconsortium-w2 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-W2.xml
-curl: download ERROR 522
+curl: download ERROR 403
 Parsing malariaconsortium-w2 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-W2.xml
 dflat: input XML file does not exist
 restored 2 files
@@ -24134,8 +24382,10 @@ dflat: input XML file does not exist
 restored 2 files
 
 Downloading malariaconsortium-w5 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-W5.xml
+curl: download ERROR 403
 Parsing malariaconsortium-w5 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-W5.xml
-found 2 activities
+dflat: input XML file does not exist
+restored 2 files
 
 Downloading malariaconsortium-w6 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-W6.xml
 curl: download ERROR 403
@@ -24150,40 +24400,58 @@ dflat: input XML file does not exist
 restored 2 files
 
 Downloading malariaconsortium-w8 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-W8.xml
+curl: download ERROR 403
 Parsing malariaconsortium-w8 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-W8.xml
-found 2 activities
+dflat: input XML file does not exist
+restored 2 files
 
 Downloading malariaconsortium-w9 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-W9.xml
+curl: download ERROR 403
 Parsing malariaconsortium-w9 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-W9.xml
-found 2 activities
+dflat: input XML file does not exist
+restored 2 files
 
 Downloading malariaconsortium-x1 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-X1.xml
+curl: download ERROR 403
 Parsing malariaconsortium-x1 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-X1.xml
-found 2 activities
+dflat: input XML file does not exist
+restored 2 files
 
 Downloading malariaconsortium-x2 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-X2.xml
+curl: download ERROR 403
 Parsing malariaconsortium-x2 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-X2.xml
-found 2 activities
+dflat: input XML file does not exist
+restored 2 files
 
 Downloading malariaconsortium-x3 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-X3.xml
+curl: download ERROR 403
 Parsing malariaconsortium-x3 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-X3.xml
-found 2 activities
+dflat: input XML file does not exist
+restored 2 files
 
 Downloading malariaconsortium-x4 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-X4.xml
+curl: download ERROR 403
 Parsing malariaconsortium-x4 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-X4.xml
-found 2 activities
+dflat: input XML file does not exist
+restored 2 files
 
 Downloading malariaconsortium-x5 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-X5.xml
+curl: download ERROR 403
 Parsing malariaconsortium-x5 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-X5.xml
-found 2 activities
+dflat: input XML file does not exist
+restored 2 files
 
 Downloading malariaconsortium-x6 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-X6.xml
+curl: download ERROR 403
 Parsing malariaconsortium-x6 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-X6.xml
-found 2 activities
+dflat: input XML file does not exist
+restored 2 files
 
 Downloading malariaconsortium-x7 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-X7.xml
+curl: download ERROR 403
 Parsing malariaconsortium-x7 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-X7.xml
-found 5 activities
+dflat: input XML file does not exist
+restored 5 files
 
 Downloading malariaconsortium-x8 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-X8.xml
 curl: download ERROR 403
@@ -24192,46 +24460,64 @@ dflat: input XML file does not exist
 restored 2 files
 
 Downloading malariaconsortium-x9 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-X9.xml
+curl: download ERROR 403
 Parsing malariaconsortium-x9 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-X9.xml
-found 2 activities
+dflat: input XML file does not exist
+restored 2 files
 
 Downloading malariaconsortium-y1 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-Y1.xml
+curl: download ERROR 403
 Parsing malariaconsortium-y1 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-Y1.xml
-found 2 activities
+dflat: input XML file does not exist
+restored 2 files
 
 Downloading malariaconsortium-y2 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-Y2.xml
+curl: download ERROR 403
 Parsing malariaconsortium-y2 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-Y2.xml
-found 2 activities
+dflat: input XML file does not exist
+restored 2 files
 
 Downloading malariaconsortium-y3 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-Y3.xml
-curl: download ERROR 522
+curl: download ERROR 403
 Parsing malariaconsortium-y3 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-Y3.xml
 dflat: input XML file does not exist
 restored 2 files
 
 Downloading malariaconsortium-y4 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-Y4.xml
+curl: download ERROR 403
 Parsing malariaconsortium-y4 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-Y4.xml
-found 2 activities
+dflat: input XML file does not exist
+restored 2 files
 
 Downloading malariaconsortium-y5 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-Y5.xml
+curl: download ERROR 403
 Parsing malariaconsortium-y5 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-Y5.xml
-found 2 activities
+dflat: input XML file does not exist
+restored 2 files
 
 Downloading malariaconsortium-y6 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-Y6.xml
+curl: download ERROR 403
 Parsing malariaconsortium-y6 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-Y6.xml
-found 2 activities
+dflat: input XML file does not exist
+restored 2 files
 
 Downloading malariaconsortium-y7 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-Y7.xml
+curl: download ERROR 403
 Parsing malariaconsortium-y7 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-Y7.xml
-found 2 activities
+dflat: input XML file does not exist
+restored 2 files
 
 Downloading malariaconsortium-y8 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-Y8.xml
+curl: download ERROR 403
 Parsing malariaconsortium-y8 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-Y8.xml
-found 2 activities
+dflat: input XML file does not exist
+restored 2 files
 
 Downloading malariaconsortium-y9 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-Y9.xml
+curl: download ERROR 403
 Parsing malariaconsortium-y9 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-Y9.xml
-found 2 activities
+dflat: input XML file does not exist
+restored 2 files
 
 Downloading mamac-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/mamac-activities.xml
 Parsing mamac-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/mamac-activities.xml
@@ -32258,7 +32544,8 @@ found 35 activities
 
 Downloading theglobalfund-zwe from https://data-service.theglobalfund.org/v2.1/iati/activities-xml/ZWE
 Parsing theglobalfund-zwe from https://data-service.theglobalfund.org/v2.1/iati/activities-xml/ZWE
-found 19 activities
+dflat: invalid XML format
+restored 19 files
 
 Downloading theict-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/theict-activities.xml
 Parsing theict-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/theict-activities.xml
@@ -33581,7 +33868,7 @@ found 3 activities
 
 Downloading unaids-am from https://aidstream.s3.us-west-2.amazonaws.com/xml/unaids-am.xml
 Parsing unaids-am from https://aidstream.s3.us-west-2.amazonaws.com/xml/unaids-am.xml
-found 11 activities
+found 15 activities
 
 Downloading unaids-ao from https://aidstream.s3.us-west-2.amazonaws.com/xml/unaids-ao.xml
 Parsing unaids-ao from https://aidstream.s3.us-west-2.amazonaws.com/xml/unaids-ao.xml
@@ -33861,7 +34148,7 @@ found 10 activities
 
 Downloading unaids-pg from https://aidstream.s3.us-west-2.amazonaws.com/xml/unaids-pg.xml
 Parsing unaids-pg from https://aidstream.s3.us-west-2.amazonaws.com/xml/unaids-pg.xml
-found 10 activities
+found 12 activities
 
 Downloading unaids-ph from https://aidstream.s3.us-west-2.amazonaws.com/xml/unaids-ph.xml
 Parsing unaids-ph from https://aidstream.s3.us-west-2.amazonaws.com/xml/unaids-ph.xml
@@ -46920,8 +47207,7 @@ found 30 activities
 
 Downloading worldbank-am from http://doumodqax2qi2.cloudfront.net/IATI-04-2025/WB-AM.xml
 Parsing worldbank-am from http://doumodqax2qi2.cloudfront.net/IATI-04-2025/WB-AM.xml
-dflat: invalid XML format
-restored 33 files
+found 33 activities
 
 Downloading worldbank-ao from http://doumodqax2qi2.cloudfront.net/IATI-04-2025/WB-AO.xml
 Parsing worldbank-ao from http://doumodqax2qi2.cloudfront.net/IATI-04-2025/WB-AO.xml
@@ -46994,8 +47280,7 @@ found 6 activities
 
 Downloading worldbank-cd from http://doumodqax2qi2.cloudfront.net/IATI-04-2025/WB-CD.xml
 Parsing worldbank-cd from http://doumodqax2qi2.cloudfront.net/IATI-04-2025/WB-CD.xml
-dflat: invalid XML format
-restored 51 files
+found 51 activities
 
 Downloading worldbank-cf from http://doumodqax2qi2.cloudfront.net/IATI-04-2025/WB-CF.xml
 Parsing worldbank-cf from http://doumodqax2qi2.cloudfront.net/IATI-04-2025/WB-CF.xml
@@ -47119,8 +47404,7 @@ found 94 activities
 
 Downloading worldbank-in from http://doumodqax2qi2.cloudfront.net/IATI-04-2025/WB-IN.xml
 Parsing worldbank-in from http://doumodqax2qi2.cloudfront.net/IATI-04-2025/WB-IN.xml
-dflat: invalid XML format
-restored 238 files
+found 238 activities
 
 Downloading worldbank-iq from http://doumodqax2qi2.cloudfront.net/IATI-04-2025/WB-IQ.xml
 Parsing worldbank-iq from http://doumodqax2qi2.cloudfront.net/IATI-04-2025/WB-IQ.xml
@@ -47144,8 +47428,7 @@ found 69 activities
 
 Downloading worldbank-kg from http://doumodqax2qi2.cloudfront.net/IATI-04-2025/WB-KG.xml
 Parsing worldbank-kg from http://doumodqax2qi2.cloudfront.net/IATI-04-2025/WB-KG.xml
-dflat: invalid XML format
-restored 52 files
+found 52 activities
 
 Downloading worldbank-kh from http://doumodqax2qi2.cloudfront.net/IATI-04-2025/WB-KH.xml
 Parsing worldbank-kh from http://doumodqax2qi2.cloudfront.net/IATI-04-2025/WB-KH.xml
@@ -47202,13 +47485,11 @@ found 12 activities
 
 Downloading worldbank-mg from http://doumodqax2qi2.cloudfront.net/IATI-04-2025/WB-MG.xml
 Parsing worldbank-mg from http://doumodqax2qi2.cloudfront.net/IATI-04-2025/WB-MG.xml
-dflat: invalid XML format
-restored 50 files
+found 50 activities
 
 Downloading worldbank-mh from http://doumodqax2qi2.cloudfront.net/IATI-04-2025/WB-MH.xml
 Parsing worldbank-mh from http://doumodqax2qi2.cloudfront.net/IATI-04-2025/WB-MH.xml
-dflat: invalid XML format
-restored 16 files
+found 16 activities
 
 Downloading worldbank-mk from http://doumodqax2qi2.cloudfront.net/IATI-04-2025/WB-MK.xml
 Parsing worldbank-mk from http://doumodqax2qi2.cloudfront.net/IATI-04-2025/WB-MK.xml
@@ -47224,8 +47505,7 @@ found 19 activities
 
 Downloading worldbank-mn from http://doumodqax2qi2.cloudfront.net/IATI-04-2025/WB-MN.xml
 Parsing worldbank-mn from http://doumodqax2qi2.cloudfront.net/IATI-04-2025/WB-MN.xml
-dflat: invalid XML format
-restored 31 files
+found 31 activities
 
 Downloading worldbank-mr from http://doumodqax2qi2.cloudfront.net/IATI-04-2025/WB-MR.xml
 Parsing worldbank-mr from http://doumodqax2qi2.cloudfront.net/IATI-04-2025/WB-MR.xml
@@ -47328,8 +47608,7 @@ found 49 activities
 
 Downloading worldbank-sb from http://doumodqax2qi2.cloudfront.net/IATI-04-2025/WB-SB.xml
 Parsing worldbank-sb from http://doumodqax2qi2.cloudfront.net/IATI-04-2025/WB-SB.xml
-dflat: invalid XML format
-restored 26 files
+found 26 activities
 
 Downloading worldbank-sc from http://doumodqax2qi2.cloudfront.net/IATI-04-2025/WB-SC.xml
 Parsing worldbank-sc from http://doumodqax2qi2.cloudfront.net/IATI-04-2025/WB-SC.xml
@@ -47341,8 +47620,7 @@ found 8 activities
 
 Downloading worldbank-sl from http://doumodqax2qi2.cloudfront.net/IATI-04-2025/WB-SL.xml
 Parsing worldbank-sl from http://doumodqax2qi2.cloudfront.net/IATI-04-2025/WB-SL.xml
-dflat: invalid XML format
-restored 43 files
+found 43 activities
 
 Downloading worldbank-sn from http://doumodqax2qi2.cloudfront.net/IATI-04-2025/WB-SN.xml
 Parsing worldbank-sn from http://doumodqax2qi2.cloudfront.net/IATI-04-2025/WB-SN.xml
@@ -47398,8 +47676,7 @@ found 1 activities
 
 Downloading worldbank-tn from http://doumodqax2qi2.cloudfront.net/IATI-04-2025/WB-TN.xml
 Parsing worldbank-tn from http://doumodqax2qi2.cloudfront.net/IATI-04-2025/WB-TN.xml
-dflat: invalid XML format
-restored 36 files
+found 36 activities
 
 Downloading worldbank-to from http://doumodqax2qi2.cloudfront.net/IATI-04-2025/WB-TO.xml
 Parsing worldbank-to from http://doumodqax2qi2.cloudfront.net/IATI-04-2025/WB-TO.xml
