@@ -269,6 +269,10 @@ Downloading acceleratornepal-activities from https://aidstream.s3.us-west-2.amaz
 Parsing acceleratornepal-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/acceleratornepal-activities.xml
 found 1 activities
 
+Downloading accord_2024-activities from https://iatipublisher-prod.s3.amazonaws.com/xml/mergedActivityXml/accord_2024-activities.xml
+Parsing accord_2024-activities from https://iatipublisher-prod.s3.amazonaws.com/xml/mergedActivityXml/accord_2024-activities.xml
+found 1 activities
+
 Downloading accord_2024-organisation from https://iatipublisher-prod.s3.amazonaws.com/organizationXmlFiles/accord_2024-organisation.xml
 Parsing accord_2024-organisation from https://iatipublisher-prod.s3.amazonaws.com/organizationXmlFiles/accord_2024-organisation.xml
 found 1 organisations
@@ -11772,39 +11776,39 @@ found 851 activities
 
 Downloading ec-echo-2017 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2017.xml
 Parsing ec-echo-2017 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2017.xml
-found 732 activities
+found 729 activities
 
 Downloading ec-echo-2018 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2018.xml
 Parsing ec-echo-2018 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2018.xml
-found 603 activities
+found 605 activities
 
 Downloading ec-echo-2019 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2019.xml
 Parsing ec-echo-2019 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2019.xml
-found 521 activities
+found 517 activities
 
 Downloading ec-echo-2020 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2020.xml
 Parsing ec-echo-2020 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2020.xml
-found 596 activities
+found 599 activities
 
 Downloading ec-echo-2021 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2021.xml
 Parsing ec-echo-2021 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2021.xml
-found 577 activities
+found 579 activities
 
 Downloading ec-echo-2022 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2022.xml
 Parsing ec-echo-2022 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2022.xml
-found 458 activities
+found 454 activities
 
 Downloading ec-echo-2023 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2023.xml
 Parsing ec-echo-2023 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2023.xml
-found 500 activities
+found 504 activities
 
 Downloading ec-echo-2024 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2024.xml
 Parsing ec-echo-2024 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2024.xml
-found 487 activities
+found 486 activities
 
 Downloading ec-echo-2025 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2025.xml
 Parsing ec-echo-2025 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2025.xml
-found 326 activities
+found 324 activities
 
 Downloading ec-echo-org from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/iati-organisation-file.xml
 Parsing ec-echo-org from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/iati-organisation-file.xml
@@ -13154,8 +13158,10 @@ Parsing educomm-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml
 found 1 activities
 
 Downloading educomm-delivered from https://educationcommission.org/files/DeliverEd-IATI-XML-File.xml
+curl: download ERROR 403
 Parsing educomm-delivered from https://educationcommission.org/files/DeliverEd-IATI-XML-File.xml
-found 1 activities
+dflat: input XML file does not exist
+restored 1 files
 
 Downloading edukans_foundation-03 from https://www.unienzv.nl/downloads/NL-KVK-32092131_32.xml
 curl: download ERROR 404
@@ -25879,7 +25885,7 @@ found 1 organisations
 
 Downloading npss-1027 from https://aidstream.s3.us-west-2.amazonaws.com/xml/npss-1027.xml
 Parsing npss-1027 from https://aidstream.s3.us-west-2.amazonaws.com/xml/npss-1027.xml
-found 3 activities
+found 4 activities
 
 Downloading npss-298 from https://aidstream.s3.us-west-2.amazonaws.com/xml/npss-298.xml
 Parsing npss-298 from https://aidstream.s3.us-west-2.amazonaws.com/xml/npss-298.xml
@@ -33912,7 +33918,7 @@ found 10 activities
 
 Downloading unaids-by from https://aidstream.s3.us-west-2.amazonaws.com/xml/unaids-by.xml
 Parsing unaids-by from https://aidstream.s3.us-west-2.amazonaws.com/xml/unaids-by.xml
-found 10 activities
+found 15 activities
 
 Downloading unaids-cd from https://aidstream.s3.us-west-2.amazonaws.com/xml/unaids-cd.xml
 Parsing unaids-cd from https://aidstream.s3.us-west-2.amazonaws.com/xml/unaids-cd.xml
@@ -34044,7 +34050,7 @@ found 10 activities
 
 Downloading unaids-kg from https://aidstream.s3.us-west-2.amazonaws.com/xml/unaids-kg.xml
 Parsing unaids-kg from https://aidstream.s3.us-west-2.amazonaws.com/xml/unaids-kg.xml
-found 10 activities
+found 15 activities
 
 Downloading unaids-kh from https://aidstream.s3.us-west-2.amazonaws.com/xml/unaids-kh.xml
 Parsing unaids-kh from https://aidstream.s3.us-west-2.amazonaws.com/xml/unaids-kh.xml
@@ -34052,7 +34058,7 @@ found 10 activities
 
 Downloading unaids-kz from https://aidstream.s3.us-west-2.amazonaws.com/xml/unaids-kz.xml
 Parsing unaids-kz from https://aidstream.s3.us-west-2.amazonaws.com/xml/unaids-kz.xml
-found 10 activities
+found 15 activities
 
 Downloading unaids-la from https://aidstream.s3.us-west-2.amazonaws.com/xml/unaids-la.xml
 Parsing unaids-la from https://aidstream.s3.us-west-2.amazonaws.com/xml/unaids-la.xml
@@ -34148,7 +34154,7 @@ found 10 activities
 
 Downloading unaids-pg from https://aidstream.s3.us-west-2.amazonaws.com/xml/unaids-pg.xml
 Parsing unaids-pg from https://aidstream.s3.us-west-2.amazonaws.com/xml/unaids-pg.xml
-found 12 activities
+found 15 activities
 
 Downloading unaids-ph from https://aidstream.s3.us-west-2.amazonaws.com/xml/unaids-ph.xml
 Parsing unaids-ph from https://aidstream.s3.us-west-2.amazonaws.com/xml/unaids-ph.xml
@@ -34212,7 +34218,7 @@ found 10 activities
 
 Downloading unaids-tn from https://aidstream.s3.us-west-2.amazonaws.com/xml/unaids-tn.xml
 Parsing unaids-tn from https://aidstream.s3.us-west-2.amazonaws.com/xml/unaids-tn.xml
-found 10 activities
+found 11 activities
 
 Downloading unaids-tz from https://aidstream.s3.us-west-2.amazonaws.com/xml/unaids-tz.xml
 Parsing unaids-tz from https://aidstream.s3.us-west-2.amazonaws.com/xml/unaids-tz.xml
