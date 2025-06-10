@@ -8436,7 +8436,7 @@ Parsing di-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/di-org.xml
 found 1 organisations
 
 Downloading dipr-998 from https://devinit.org/documents/691/Latest_IATI_-_data2.xml
-curl: download ERROR 522
+curl: download ERROR 404
 Parsing dipr-998 from https://devinit.org/documents/691/Latest_IATI_-_data2.xml
 dflat: input XML file does not exist
 restored 76 files
@@ -11884,7 +11884,7 @@ found 851 activities
 
 Downloading ec-echo-2017 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2017.xml
 Parsing ec-echo-2017 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2017.xml
-found 728 activities
+found 730 activities
 
 Downloading ec-echo-2018 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2018.xml
 Parsing ec-echo-2018 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2018.xml
@@ -11892,31 +11892,31 @@ found 603 activities
 
 Downloading ec-echo-2019 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2019.xml
 Parsing ec-echo-2019 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2019.xml
-found 518 activities
+found 519 activities
 
 Downloading ec-echo-2020 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2020.xml
 Parsing ec-echo-2020 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2020.xml
-found 600 activities
+found 599 activities
 
 Downloading ec-echo-2021 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2021.xml
 Parsing ec-echo-2021 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2021.xml
-found 577 activities
+found 578 activities
 
 Downloading ec-echo-2022 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2022.xml
 Parsing ec-echo-2022 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2022.xml
-found 453 activities
+found 456 activities
 
 Downloading ec-echo-2023 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2023.xml
 Parsing ec-echo-2023 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2023.xml
-found 509 activities
+found 500 activities
 
 Downloading ec-echo-2024 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2024.xml
 Parsing ec-echo-2024 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2024.xml
-found 476 activities
+found 478 activities
 
 Downloading ec-echo-2025 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2025.xml
 Parsing ec-echo-2025 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2025.xml
-found 347 activities
+found 350 activities
 
 Downloading ec-echo-org from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/iati-organisation-file.xml
 Parsing ec-echo-org from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/iati-organisation-file.xml
@@ -17085,11 +17085,13 @@ found 1 organisations
 
 Downloading globalgiving-activity from http://www.globalgiving.org/iati/activities.xml
 Parsing globalgiving-activity from http://www.globalgiving.org/iati/activities.xml
-found 27015 activities
+dflat: input XML file does not exist
+restored 27015 files
 
 Downloading globalgiving-org from http://www.globalgiving.org/iati/organisations.xml
 Parsing globalgiving-org from http://www.globalgiving.org/iati/organisations.xml
-found 15247 organisations
+dflat: input XML file does not exist
+restored 15247 files
 
 Downloading globalshea-activities from https://iatipublisher-prod.s3.amazonaws.com/xml/mergedActivityXml/globalshea-activities.xml
 Parsing globalshea-activities from https://iatipublisher-prod.s3.amazonaws.com/xml/mergedActivityXml/globalshea-activities.xml
@@ -17148,10 +17150,8 @@ Parsing goodweave_intl-org from https://aidstream.s3.us-west-2.amazonaws.com/xml
 found 1 organisations
 
 Downloading gorin-org from https://iati.nimd.org/Documents%20PoD_L4P/consortium%20partners/GORIN/org-file-gorin.xml
-curl: download ERROR 522
 Parsing gorin-org from https://iati.nimd.org/Documents%20PoD_L4P/consortium%20partners/GORIN/org-file-gorin.xml
-dflat: input XML file does not exist
-restored 1 files
+found 1 organisations
 
 Downloading gorin-pod-activity from https://iati.nimd.org/Documents%20PoD_L4P/consortium%20partners/GORIN/%5bIATI-activities-PoD-Gorin%5d.xml
 Parsing gorin-pod-activity from https://iati.nimd.org/Documents%20PoD_L4P/consortium%20partners/GORIN/%5bIATI-activities-PoD-Gorin%5d.xml
@@ -20578,7 +20578,7 @@ dflat: input XML file does not exist
 restored 2 files
 
 Downloading igd_benin-act from https://iati.nimd.org/Other%20IATI%20projects/NIMD_BN_RNE_2022/IATI-activities-IGDBenin2022.xml
-curl: download ERROR 522
+curl: download ERROR 500
 Parsing igd_benin-act from https://iati.nimd.org/Other%20IATI%20projects/NIMD_BN_RNE_2022/IATI-activities-IGDBenin2022.xml
 dflat: input XML file does not exist
 restored 1 files
@@ -21370,8 +21370,10 @@ Parsing iucn-activity from https://iucn.akvoapp.org/organisation/3257/iati/
 found 6 activities
 
 Downloading iucn_nl-activities from https://greenlivelihoodsalliance.org/images/gladocs/IATI-activities-IUCN-NL.xml
+curl: download ERROR 000
 Parsing iucn_nl-activities from https://greenlivelihoodsalliance.org/images/gladocs/IATI-activities-IUCN-NL.xml
-found 48 activities
+dflat: input XML file does not exist
+restored 48 files
 
 Downloading iucn_nl-org from https://aidstream.org/files/xml/iucn_admin-org.xml
 curl: download ERROR 404
@@ -23927,10 +23929,8 @@ Parsing malariaconsortium-o6 from http://www.malariaconsortium.org/IATI-XML/GB-C
 found 2 activities
 
 Downloading malariaconsortium-o7 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-O7.xml
-curl: download ERROR 522
 Parsing malariaconsortium-o7 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-O7.xml
-dflat: input XML file does not exist
-restored 2 files
+found 2 activities
 
 Downloading malariaconsortium-o8 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-O8.xml
 Parsing malariaconsortium-o8 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-O8.xml
@@ -23949,10 +23949,8 @@ Parsing malariaconsortium-p1 from http://www.malariaconsortium.org/IATI-XML/GB-C
 found 2 activities
 
 Downloading malariaconsortium-p2 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-P2.xml
-curl: download ERROR 522
 Parsing malariaconsortium-p2 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-P2.xml
-dflat: input XML file does not exist
-restored 2 files
+found 2 activities
 
 Downloading malariaconsortium-p3 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-P3.xml
 Parsing malariaconsortium-p3 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-P3.xml
@@ -24167,10 +24165,8 @@ Parsing malariaconsortium-v1 from http://www.malariaconsortium.org/IATI-XML/GB-C
 found 2 activities
 
 Downloading malariaconsortium-v2 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-V2.xml
-curl: download ERROR 522
 Parsing malariaconsortium-v2 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-V2.xml
-dflat: input XML file does not exist
-restored 2 files
+found 2 activities
 
 Downloading malariaconsortium-v3 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-V3.xml
 Parsing malariaconsortium-v3 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-V3.xml
@@ -24209,10 +24205,8 @@ Parsing malariaconsortium-w2 from http://www.malariaconsortium.org/IATI-XML/GB-C
 found 2 activities
 
 Downloading malariaconsortium-w3 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-W3.xml
-curl: download ERROR 522
 Parsing malariaconsortium-w3 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-W3.xml
-dflat: input XML file does not exist
-restored 2 files
+found 2 activities
 
 Downloading malariaconsortium-w4 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-W4.xml
 Parsing malariaconsortium-w4 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-W4.xml
@@ -29321,6 +29315,10 @@ curl: download ERROR 000
 Parsing scottish_government-1213 from http://labs.data.scotland.gov.uk/iati/data/2012_2013_ScotGov_IATI.xml
 dflat: input XML file does not exist
 restored 0 files
+
+Downloading scottish_government-organisation from https://iatipublisher-prod.s3.amazonaws.com/organizationXmlFiles/scottish_government-organisation.xml
+Parsing scottish_government-organisation from https://iatipublisher-prod.s3.amazonaws.com/organizationXmlFiles/scottish_government-organisation.xml
+found 1 organisations
 
 Downloading scss-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/scss-activities.xml
 Parsing scss-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/scss-activities.xml
