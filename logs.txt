@@ -1,7 +1,9 @@
 
-Downloading 111111_publisher-activities from https://iatipublisher-prod.s3.amazonaws.com/xml/mergedActivityXml/111111_publisher-activities.xml
-Parsing 111111_publisher-activities from https://iatipublisher-prod.s3.amazonaws.com/xml/mergedActivityXml/111111_publisher-activities.xml
-found 1 activities
+Downloading 111111_publisher-f4r2024 from https://iatipublisher-prod.s3.amazonaws.com/xml/mergedActivityXml/111111_F4R%202024.xml
+curl: download ERROR 403
+Parsing 111111_publisher-f4r2024 from https://iatipublisher-prod.s3.amazonaws.com/xml/mergedActivityXml/111111_F4R%202024.xml
+dflat: input XML file does not exist
+restored 0 files
 
 Downloading 111111_publisher-ngo-programma-2022-2026 from http://diplomatie.be/oda/IATI_act_pr2022-26_11.11.11_4087.xml
 Parsing 111111_publisher-ngo-programma-2022-2026 from http://diplomatie.be/oda/IATI_act_pr2022-26_11.11.11_4087.xml
@@ -5986,10 +5988,8 @@ Parsing cemi-org from https://iati.nimd.org/Documents%20PoD_L4P/consortium%20par
 found 1 organisations
 
 Downloading cemi-pod-activity from https://iati.nimd.org/Documents%20PoD_L4P/consortium%20partners/CEMI/%5bIATI-activities-PoD-CEMI%5d.xml
-curl: download ERROR 522
 Parsing cemi-pod-activity from https://iati.nimd.org/Documents%20PoD_L4P/consortium%20partners/CEMI/%5bIATI-activities-PoD-CEMI%5d.xml
-dflat: input XML file does not exist
-restored 3 files
+found 3 activities
 
 Downloading ceobs-activities from https://iatipublisher-prod.s3.amazonaws.com/xml/mergedActivityXml/ceobs-activities.xml
 Parsing ceobs-activities from https://iatipublisher-prod.s3.amazonaws.com/xml/mergedActivityXml/ceobs-activities.xml
@@ -11898,11 +11898,11 @@ found 851 activities
 
 Downloading ec-echo-2017 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2017.xml
 Parsing ec-echo-2017 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2017.xml
-found 727 activities
+found 729 activities
 
 Downloading ec-echo-2018 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2018.xml
 Parsing ec-echo-2018 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2018.xml
-found 603 activities
+found 601 activities
 
 Downloading ec-echo-2019 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2019.xml
 Parsing ec-echo-2019 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2019.xml
@@ -11910,11 +11910,11 @@ found 520 activities
 
 Downloading ec-echo-2020 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2020.xml
 Parsing ec-echo-2020 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2020.xml
-found 597 activities
+found 599 activities
 
 Downloading ec-echo-2021 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2021.xml
 Parsing ec-echo-2021 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2021.xml
-found 580 activities
+found 577 activities
 
 Downloading ec-echo-2022 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2022.xml
 Parsing ec-echo-2022 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2022.xml
@@ -11922,15 +11922,15 @@ found 453 activities
 
 Downloading ec-echo-2023 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2023.xml
 Parsing ec-echo-2023 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2023.xml
-found 507 activities
+found 506 activities
 
 Downloading ec-echo-2024 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2024.xml
 Parsing ec-echo-2024 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2024.xml
-found 478 activities
+found 479 activities
 
 Downloading ec-echo-2025 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2025.xml
 Parsing ec-echo-2025 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2025.xml
-found 345 activities
+found 353 activities
 
 Downloading ec-echo-org from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/iati-organisation-file.xml
 Parsing ec-echo-org from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/iati-organisation-file.xml
@@ -14422,10 +14422,6 @@ found 6 activities
 
 Downloading finland_mfa-798 from http://formin.finland.fi/opendata/IATI/Finland_798.xml
 Converting IATI activities version 1.00 to version 2.03
-./iati-activities.xsl:531: parser error : Premature end of data in tag for-each line 530
-          
-          ^
-cannot parse ./iati-activities.xsl
 Parsing finland_mfa-798 from http://formin.finland.fi/opendata/IATI/Finland_798.xml
 found 39 activities
 
@@ -16141,24 +16137,31 @@ Parsing ga-activities from https://iatipublisher-prod.s3.amazonaws.com/xml/merge
 found 8 activities
 
 Downloading gac-amc-4a from https://w05.international.gc.ca/projectbrowser-banqueprojets/iita-iati/dfatd-maecd_activit_status_4a.xml
+curl: download ERROR 000
 Parsing gac-amc-4a from https://w05.international.gc.ca/projectbrowser-banqueprojets/iita-iati/dfatd-maecd_activit_status_4a.xml
-found 1788 activities
+dflat: input XML file does not exist
+restored 1788 files
 
 Downloading gac-amc-4b from https://w05.international.gc.ca/projectbrowser-banqueprojets/iita-iati/dfatd-maecd_activit_status_4b.xml
+curl: download ERROR 000
 Parsing gac-amc-4b from https://w05.international.gc.ca/projectbrowser-banqueprojets/iita-iati/dfatd-maecd_activit_status_4b.xml
-found 3260 activities
+dflat: input XML file does not exist
+restored 3260 files
 
 Downloading gac-amc-act_2_3 from http://w05.international.gc.ca/projectbrowser-banqueprojets/iita-iati/dfatd-maecd_activit_status_2_3.xml
 Parsing gac-amc-act_2_3 from http://w05.international.gc.ca/projectbrowser-banqueprojets/iita-iati/dfatd-maecd_activit_status_2_3.xml
-found 2507 activities
+dflat: input XML file does not exist
+restored 2507 files
 
 Downloading gac-amc-act_4 from http://w05.international.gc.ca/projectbrowser-banqueprojets/iita-iati/dfatd-maecd_activit_status_4.xml
 Parsing gac-amc-act_4 from http://w05.international.gc.ca/projectbrowser-banqueprojets/iita-iati/dfatd-maecd_activit_status_4.xml
-found 499 activities
+dflat: input XML file does not exist
+restored 499 files
 
 Downloading gac-amc-org from http://w05.international.gc.ca/projectbrowser-banqueprojets/iita-iati/dfatd-maecd_organisation.xml
 Parsing gac-amc-org from http://w05.international.gc.ca/projectbrowser-banqueprojets/iita-iati/dfatd-maecd_organisation.xml
-found 1 organisations
+dflat: input XML file does not exist
+restored 1 files
 
 Downloading gadp-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/gadp-activities.xml
 Parsing gadp-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/gadp-activities.xml
@@ -18011,7 +18014,7 @@ found 5 activities
 
 Downloading hiuk-ke from https://aidstream.s3.us-west-2.amazonaws.com/xml/hiuk-ke.xml
 Parsing hiuk-ke from https://aidstream.s3.us-west-2.amazonaws.com/xml/hiuk-ke.xml
-found 6 activities
+found 7 activities
 
 Downloading hiuk-kh from https://aidstream.s3.us-west-2.amazonaws.com/xml/hiuk-kh.xml
 Parsing hiuk-kh from https://aidstream.s3.us-west-2.amazonaws.com/xml/hiuk-kh.xml
@@ -18757,9 +18760,9 @@ Downloading idp-programme2022 from http://diplomatie.be/oda/IATI_act_pr2022-26_I
 Parsing idp-programme2022 from http://diplomatie.be/oda/IATI_act_pr2022-26_IdP_4049.xml
 found 8 activities
 
-Downloading idrccrdi-act-active from https://idrc-crdi.ca/sites/default/files/2025-04/idrc_iati_activities_Active_2024-04-01_2024-12-31.xml
-Parsing idrccrdi-act-active from https://idrc-crdi.ca/sites/default/files/2025-04/idrc_iati_activities_Active_2024-04-01_2024-12-31.xml
-found 1438 activities
+Downloading idrccrdi-act-active from https://idrc-crdi.ca/sites/default/files/2025-06/idrc_iati_activities_Active_2024-04-01_2025-03-31.xml
+Parsing idrccrdi-act-active from https://idrc-crdi.ca/sites/default/files/2025-06/idrc_iati_activities_Active_2024-04-01_2025-03-31.xml
+found 1579 activities
 
 Downloading idrccrdi-act-closed-2009-2015 from https://idrc-crdi.ca/sites/default/files/2023-05/idrc_iati_activities_Closed_2009-04-01_2015-03-31_0.xml
 Parsing idrccrdi-act-closed-2009-2015 from https://idrc-crdi.ca/sites/default/files/2023-05/idrc_iati_activities_Closed_2009-04-01_2015-03-31_0.xml
@@ -18801,8 +18804,8 @@ Downloading idrccrdi-act-closed-2023-2024 from https://idrc-crdi.ca/sites/defaul
 Parsing idrccrdi-act-closed-2023-2024 from https://idrc-crdi.ca/sites/default/files/2024-08/idrc_iati_activities_Closed_2023-04-01_2024-03-31.xml
 found 409 activities
 
-Downloading idrccrdi-org from https://idrc-crdi.ca/sites/default/files/2024-05/idrc_iati_organization_2024-05-21.xml
-Parsing idrccrdi-org from https://idrc-crdi.ca/sites/default/files/2024-05/idrc_iati_organization_2024-05-21.xml
+Downloading idrccrdi-org from https://idrc-crdi.ca/sites/default/files/2025-06/idrc_iati_organization_2025-06-03.xml
+Parsing idrccrdi-org from https://idrc-crdi.ca/sites/default/files/2025-06/idrc_iati_organization_2025-06-03.xml
 found 1 organisations
 
 Downloading ids-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/ids-activities.xml
@@ -20596,7 +20599,7 @@ dflat: input XML file does not exist
 restored 2 files
 
 Downloading igd_benin-act from https://iati.nimd.org/Other%20IATI%20projects/NIMD_BN_RNE_2022/IATI-activities-IGDBenin2022.xml
-curl: download ERROR 522
+curl: download ERROR 500
 Parsing igd_benin-act from https://iati.nimd.org/Other%20IATI%20projects/NIMD_BN_RNE_2022/IATI-activities-IGDBenin2022.xml
 dflat: input XML file does not exist
 restored 1 files
@@ -23629,8 +23632,10 @@ Parsing malariaconsortium-1d from http://www.malariaconsortium.org/IATI-XML/GB-C
 found 2 activities
 
 Downloading malariaconsortium-1g from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-1G.xml
+curl: download ERROR 522
 Parsing malariaconsortium-1g from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-1G.xml
-found 2 activities
+dflat: input XML file does not exist
+restored 2 files
 
 Downloading malariaconsortium-1h from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-1H.xml
 Parsing malariaconsortium-1h from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-1H.xml
@@ -23813,8 +23818,10 @@ Parsing malariaconsortium-k6 from http://www.malariaconsortium.org/IATI-XML/GB-C
 found 2 activities
 
 Downloading malariaconsortium-k7 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-K7.xml
+curl: download ERROR 522
 Parsing malariaconsortium-k7 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-K7.xml
-found 2 activities
+dflat: input XML file does not exist
+restored 2 files
 
 Downloading malariaconsortium-k8 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-K8.xml
 Parsing malariaconsortium-k8 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-K8.xml
@@ -23829,8 +23836,10 @@ Parsing malariaconsortium-l2 from http://www.malariaconsortium.org/IATI-XML/GB-C
 found 2 activities
 
 Downloading malariaconsortium-l3 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-L3.xml
+curl: download ERROR 522
 Parsing malariaconsortium-l3 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-L3.xml
-found 2 activities
+dflat: input XML file does not exist
+restored 2 files
 
 Downloading malariaconsortium-l4 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-L4.xml
 Parsing malariaconsortium-l4 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-L4.xml
@@ -23869,8 +23878,10 @@ Parsing malariaconsortium-m3 from http://www.malariaconsortium.org/IATI-XML/GB-C
 found 2 activities
 
 Downloading malariaconsortium-m4 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-M4.xml
+curl: download ERROR 522
 Parsing malariaconsortium-m4 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-M4.xml
-found 6 activities
+dflat: input XML file does not exist
+restored 6 files
 
 Downloading malariaconsortium-m5 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-M5.xml
 Parsing malariaconsortium-m5 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-M5.xml
@@ -23901,8 +23912,10 @@ Parsing malariaconsortium-n3 from http://www.malariaconsortium.org/IATI-XML/GB-C
 found 2 activities
 
 Downloading malariaconsortium-n4 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-N4.xml
+curl: download ERROR 522
 Parsing malariaconsortium-n4 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-N4.xml
-found 2 activities
+dflat: input XML file does not exist
+restored 2 files
 
 Downloading malariaconsortium-n5 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-N5.xml
 Parsing malariaconsortium-n5 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-N5.xml
@@ -23913,8 +23926,10 @@ Parsing malariaconsortium-n6 from http://www.malariaconsortium.org/IATI-XML/GB-C
 found 2 activities
 
 Downloading malariaconsortium-n8 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-N8.xml
+curl: download ERROR 522
 Parsing malariaconsortium-n8 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-N8.xml
-found 2 activities
+dflat: input XML file does not exist
+restored 2 files
 
 Downloading malariaconsortium-n9 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-N9.xml
 Parsing malariaconsortium-n9 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-N9.xml
@@ -24049,8 +24064,10 @@ Parsing malariaconsortium-r4 from http://www.malariaconsortium.org/IATI-XML/GB-C
 found 2 activities
 
 Downloading malariaconsortium-r5 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-R5.xml
+curl: download ERROR 522
 Parsing malariaconsortium-r5 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-R5.xml
-found 2 activities
+dflat: input XML file does not exist
+restored 2 files
 
 Downloading malariaconsortium-r6 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-R6.xml
 Parsing malariaconsortium-r6 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-R6.xml
@@ -24133,8 +24150,10 @@ Parsing malariaconsortium-t7 from http://www.malariaconsortium.org/IATI-XML/GB-C
 found 2 activities
 
 Downloading malariaconsortium-t8 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-T8.xml
+curl: download ERROR 522
 Parsing malariaconsortium-t8 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-T8.xml
-found 2 activities
+dflat: input XML file does not exist
+restored 2 files
 
 Downloading malariaconsortium-t9 from https://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-T9.xml
 Parsing malariaconsortium-t9 from https://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-T9.xml
@@ -24169,8 +24188,10 @@ Parsing malariaconsortium-u7 from http://www.malariaconsortium.org/IATI-XML/GB-C
 found 2 activities
 
 Downloading malariaconsortium-u8 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-U8.xml
+curl: download ERROR 522
 Parsing malariaconsortium-u8 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-U8.xml
-found 2 activities
+dflat: input XML file does not exist
+restored 2 files
 
 Downloading malariaconsortium-u9 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-U9.xml
 Parsing malariaconsortium-u9 from http://www.malariaconsortium.org/IATI-XML/GB-CHC-1099776-U9.xml
@@ -24823,7 +24844,7 @@ found 104 activities
 
 Downloading millenniumchallenge-cv from https://inventory.data.gov/dataset/d4b25051-0bf8-4dd1-8c06-bbed2e4bb193/resource/5eae179f-9d4a-4963-b069-f75c8cd4b58e/download/mcc_cv.xml
 Parsing millenniumchallenge-cv from https://inventory.data.gov/dataset/d4b25051-0bf8-4dd1-8c06-bbed2e4bb193/resource/5eae179f-9d4a-4963-b069-f75c8cd4b58e/download/mcc_cv.xml
-found 147 activities
+found 149 activities
 
 Downloading millenniumchallenge-et from https://inventory.data.gov/dataset/d4b25051-0bf8-4dd1-8c06-bbed2e4bb193/resource/675e3134-03b9-4c32-bc1e-2fbabd0e2180/download/mcc_et.xml
 Parsing millenniumchallenge-et from https://inventory.data.gov/dataset/d4b25051-0bf8-4dd1-8c06-bbed2e4bb193/resource/675e3134-03b9-4c32-bc1e-2fbabd0e2180/download/mcc_et.xml
@@ -24863,7 +24884,7 @@ found 85 activities
 
 Downloading millenniumchallenge-ke from https://inventory.data.gov/dataset/d4b25051-0bf8-4dd1-8c06-bbed2e4bb193/resource/04090c54-0aff-47ef-bfa6-2ee8dcbbe396/download/mcc_ke.xml
 Parsing millenniumchallenge-ke from https://inventory.data.gov/dataset/d4b25051-0bf8-4dd1-8c06-bbed2e4bb193/resource/04090c54-0aff-47ef-bfa6-2ee8dcbbe396/download/mcc_ke.xml
-found 40 activities
+found 42 activities
 
 Downloading millenniumchallenge-kg from https://inventory.data.gov/dataset/d4b25051-0bf8-4dd1-8c06-bbed2e4bb193/resource/4a6d8842-3273-49f3-b081-972e7dfa65ae/download/mcc_kg.xml
 Parsing millenniumchallenge-kg from https://inventory.data.gov/dataset/d4b25051-0bf8-4dd1-8c06-bbed2e4bb193/resource/4a6d8842-3273-49f3-b081-972e7dfa65ae/download/mcc_kg.xml
@@ -24907,7 +24928,7 @@ found 175 activities
 
 Downloading millenniumchallenge-mr from https://inventory.data.gov/dataset/d4b25051-0bf8-4dd1-8c06-bbed2e4bb193/resource/a9f60329-3e34-4d16-8914-1468fdd86b32/download/mcc_mr.xml
 Parsing millenniumchallenge-mr from https://inventory.data.gov/dataset/d4b25051-0bf8-4dd1-8c06-bbed2e4bb193/resource/a9f60329-3e34-4d16-8914-1468fdd86b32/download/mcc_mr.xml
-found 5 activities
+found 10 activities
 
 Downloading millenniumchallenge-mw from https://inventory.data.gov/dataset/d4b25051-0bf8-4dd1-8c06-bbed2e4bb193/resource/dc166e3c-6225-4e38-b006-746a7ff3ead4/download/mcc_mw.xml
 Parsing millenniumchallenge-mw from https://inventory.data.gov/dataset/d4b25051-0bf8-4dd1-8c06-bbed2e4bb193/resource/dc166e3c-6225-4e38-b006-746a7ff3ead4/download/mcc_mw.xml
@@ -24947,7 +24968,7 @@ found 4 activities
 
 Downloading millenniumchallenge-sb from https://inventory.data.gov/dataset/d4b25051-0bf8-4dd1-8c06-bbed2e4bb193/resource/eb7a8c7c-60f8-4e28-9dc4-c382c74e3391/download/mcc_sb.xml
 Parsing millenniumchallenge-sb from https://inventory.data.gov/dataset/d4b25051-0bf8-4dd1-8c06-bbed2e4bb193/resource/eb7a8c7c-60f8-4e28-9dc4-c382c74e3391/download/mcc_sb.xml
-found 24 activities
+found 25 activities
 
 Downloading millenniumchallenge-sl from https://inventory.data.gov/dataset/d4b25051-0bf8-4dd1-8c06-bbed2e4bb193/resource/f786f7e6-0f46-421e-9ceb-e824c7eedd8e/download/mcc_sl.xml
 Parsing millenniumchallenge-sl from https://inventory.data.gov/dataset/d4b25051-0bf8-4dd1-8c06-bbed2e4bb193/resource/f786f7e6-0f46-421e-9ceb-e824c7eedd8e/download/mcc_sl.xml
@@ -24955,7 +24976,7 @@ found 108 activities
 
 Downloading millenniumchallenge-sn from https://inventory.data.gov/dataset/d4b25051-0bf8-4dd1-8c06-bbed2e4bb193/resource/07f35ebb-3e0d-48b6-893c-09ecb6bcee93/download/mcc_sn.xml
 Parsing millenniumchallenge-sn from https://inventory.data.gov/dataset/d4b25051-0bf8-4dd1-8c06-bbed2e4bb193/resource/07f35ebb-3e0d-48b6-893c-09ecb6bcee93/download/mcc_sn.xml
-found 153 activities
+found 155 activities
 
 Downloading millenniumchallenge-st from https://inventory.data.gov/dataset/d4b25051-0bf8-4dd1-8c06-bbed2e4bb193/resource/6b2fe134-4aab-4687-985b-fa07694e0ff3/download/mcc_st.xml
 Parsing millenniumchallenge-st from https://inventory.data.gov/dataset/d4b25051-0bf8-4dd1-8c06-bbed2e4bb193/resource/6b2fe134-4aab-4687-985b-fa07694e0ff3/download/mcc_st.xml
@@ -24995,7 +25016,7 @@ found 96 activities
 
 Downloading millenniumchallenge-zm from https://inventory.data.gov/dataset/d4b25051-0bf8-4dd1-8c06-bbed2e4bb193/resource/ceb1021f-df21-413b-a877-68ce78eff6ee/download/mcc_zm.xml
 Parsing millenniumchallenge-zm from https://inventory.data.gov/dataset/d4b25051-0bf8-4dd1-8c06-bbed2e4bb193/resource/ceb1021f-df21-413b-a877-68ce78eff6ee/download/mcc_zm.xml
-found 124 activities
+found 126 activities
 
 Downloading minbuza_nl-activities19972007 from https://static.rijksoverheid.nl/bz/IATIACTIVITIES19972007.xml
 Parsing minbuza_nl-activities19972007 from https://static.rijksoverheid.nl/bz/IATIACTIVITIES19972007.xml
@@ -25514,10 +25535,8 @@ Parsing nimd-hq-activities from https://iati.nimd.org/Documents_NIMD%20SP%20DfS/
 found 138 activities
 
 Downloading nimd-hq-activity from https://iati.nimd.org/Documents%20PoD_L4P/NIMD/IATI%20activity%20file/IATI-activities-HQ.xml
-curl: download ERROR 522
 Parsing nimd-hq-activity from https://iati.nimd.org/Documents%20PoD_L4P/NIMD/IATI%20activity%20file/IATI-activities-HQ.xml
-dflat: input XML file does not exist
-restored 34 files
+found 34 activities
 
 Downloading nimd-hq-org from https://iati.nimd.org/Documents_NIMD%20SP%20DfS/Organisation%20file%20-%20nimd.xml
 Parsing nimd-hq-org from https://iati.nimd.org/Documents_NIMD%20SP%20DfS/Organisation%20file%20-%20nimd.xml
@@ -26403,7 +26422,7 @@ found 2205 activities
 
 Downloading onl-activity from https://www.oxfamnovib.nl/redactie/Downloads/XML/iati.xml
 Parsing onl-activity from https://www.oxfamnovib.nl/redactie/Downloads/XML/iati.xml
-found 2762 activities
+found 2763 activities
 
 Downloading onl-org from https://www.oxfamnovib.nl/redactie/downloads/xml/IATI_NL-KVK-27108436.xml
 Parsing onl-org from https://www.oxfamnovib.nl/redactie/downloads/xml/IATI_NL-KVK-27108436.xml
@@ -28991,7 +29010,7 @@ found 1 organisations
 
 Downloading rvo-01 from https://projects.rvo.nl/opendata/iati.xml
 Parsing rvo-01 from https://projects.rvo.nl/opendata/iati.xml
-found 5459 activities
+found 5463 activities
 
 Downloading rvo-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/rvo-activities.xml
 Parsing rvo-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/rvo-activities.xml
@@ -30453,6 +30472,10 @@ found 11 activities
 Downloading srhr_africa_trust-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/srhr_africa_trust-org.xml
 Parsing srhr_africa_trust-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/srhr_africa_trust-org.xml
 found 1 organisations
+
+Downloading ssap-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/ssap-activities.xml
+Parsing ssap-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/ssap-activities.xml
+found 1 activities
 
 Downloading ssn-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/ssn-activities.xml
 Parsing ssn-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/ssn-activities.xml
@@ -47684,7 +47707,7 @@ found 1 activities
 
 Downloading wu-activities from https://iatipublisher-prod.s3.amazonaws.com/xml/mergedActivityXml/wu-activities.xml
 Parsing wu-activities from https://iatipublisher-prod.s3.amazonaws.com/xml/mergedActivityXml/wu-activities.xml
-found 4 activities
+found 5 activities
 
 Downloading wu-organisation from https://iatipublisher-prod.s3.amazonaws.com/organizationXmlFiles/wu-organisation.xml
 Parsing wu-organisation from https://iatipublisher-prod.s3.amazonaws.com/organizationXmlFiles/wu-organisation.xml
