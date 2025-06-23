@@ -3470,24 +3470,34 @@ Parsing atsf-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/at
 found 16 activities
 
 Downloading ausgov-activity from https://data.gov.au/data/dataset/07136b9b-f877-4af8-b19b-b0cb9a76a7d0/resource/490a7503-2caf-4fbe-9ddb-a7ff05272044/download/dfat-australia-iati-activity-file-.xml
+curl: download ERROR 403
 Parsing ausgov-activity from https://data.gov.au/data/dataset/07136b9b-f877-4af8-b19b-b0cb9a76a7d0/resource/490a7503-2caf-4fbe-9ddb-a7ff05272044/download/dfat-australia-iati-activity-file-.xml
-found 1186 activities
+dflat: input XML file does not exist
+restored 1186 files
 
 Downloading ausgov-legacy1 from https://data.gov.au/data/dataset/3119efd1-145d-4bae-bc89-03bd27ca5637/resource/dfcf2cf8-2b09-499d-9992-efbd7ab888f7/download/aus-legacy-all.0001.xml
+curl: download ERROR 403
 Parsing ausgov-legacy1 from https://data.gov.au/data/dataset/3119efd1-145d-4bae-bc89-03bd27ca5637/resource/dfcf2cf8-2b09-499d-9992-efbd7ab888f7/download/aus-legacy-all.0001.xml
-found 5001 activities
+dflat: input XML file does not exist
+restored 5001 files
 
 Downloading ausgov-legacy2 from https://data.gov.au/data/dataset/242ab036-65e3-495d-9b96-e49692b8cdd9/resource/7960abad-917a-4ad4-92ca-6202a71166f9/download/aus-legacy-all.0002.xml
+curl: download ERROR 403
 Parsing ausgov-legacy2 from https://data.gov.au/data/dataset/242ab036-65e3-495d-9b96-e49692b8cdd9/resource/7960abad-917a-4ad4-92ca-6202a71166f9/download/aus-legacy-all.0002.xml
-found 5001 activities
+dflat: input XML file does not exist
+restored 5001 files
 
 Downloading ausgov-legacy3 from https://data.gov.au/data/dataset/2fe860bf-9009-4b7b-bd53-4e11e7dc54b4/resource/c2a81d4e-0ff0-4110-8e85-475fee9eccaa/download/aus-legacy-all.0003.xml
+curl: download ERROR 403
 Parsing ausgov-legacy3 from https://data.gov.au/data/dataset/2fe860bf-9009-4b7b-bd53-4e11e7dc54b4/resource/c2a81d4e-0ff0-4110-8e85-475fee9eccaa/download/aus-legacy-all.0003.xml
-found 3630 activities
+dflat: input XML file does not exist
+restored 3630 files
 
 Downloading ausgov-org from https://data.gov.au/data/dataset/581af739-577c-46ab-9606-0e31bcd2b2ae/resource/5bb9b795-0c8d-415e-be3c-c304b36c95c7/download/dfat-australia-iati-organisation-file.xml
+curl: download ERROR 403
 Parsing ausgov-org from https://data.gov.au/data/dataset/581af739-577c-46ab-9606-0e31bcd2b2ae/resource/5bb9b795-0c8d-415e-be3c-c304b36c95c7/download/dfat-australia-iati-organisation-file.xml
-found 1 organisations
+dflat: input XML file does not exist
+restored 1 files
 
 Downloading auxfinbi-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/auxfinbi-activities.xml
 Parsing auxfinbi-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/auxfinbi-activities.xml
@@ -6044,7 +6054,7 @@ found 16 organisations
 
 Downloading chai-activities from https://iatipublisher-prod.s3.amazonaws.com/xml/mergedActivityXml/chai-activities.xml
 Parsing chai-activities from https://iatipublisher-prod.s3.amazonaws.com/xml/mergedActivityXml/chai-activities.xml
-found 20 activities
+found 22 activities
 
 Downloading chai-organisation from https://iatipublisher-prod.s3.amazonaws.com/organizationXmlFiles/chai-organisation.xml
 Parsing chai-organisation from https://iatipublisher-prod.s3.amazonaws.com/organizationXmlFiles/chai-organisation.xml
@@ -11816,8 +11826,10 @@ Parsing eap-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/eap-org.xm
 found 1 organisations
 
 Downloading ebrd-activity from https://www.ebrd.com/content/dam/ebrd_dxp/assets/xml/iati/EBRD_IATI_Activity.xml
+curl: download ERROR 000
 Parsing ebrd-activity from https://www.ebrd.com/content/dam/ebrd_dxp/assets/xml/iati/EBRD_IATI_Activity.xml
-found 1748 activities
+dflat: input XML file does not exist
+restored 1748 files
 
 Downloading ebrd-org from https://www.ebrd.com/content/dam/ebrd_dxp/assets/xml/iati/EBRD-organisation.xml
 Parsing ebrd-org from https://www.ebrd.com/content/dam/ebrd_dxp/assets/xml/iati/EBRD-organisation.xml
@@ -11857,39 +11869,39 @@ found 851 activities
 
 Downloading ec-echo-2017 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2017.xml
 Parsing ec-echo-2017 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2017.xml
-found 730 activities
+found 732 activities
 
 Downloading ec-echo-2018 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2018.xml
 Parsing ec-echo-2018 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2018.xml
-found 603 activities
+found 605 activities
 
 Downloading ec-echo-2019 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2019.xml
 Parsing ec-echo-2019 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2019.xml
-found 520 activities
+found 518 activities
 
 Downloading ec-echo-2020 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2020.xml
 Parsing ec-echo-2020 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2020.xml
-found 597 activities
+found 599 activities
 
 Downloading ec-echo-2021 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2021.xml
 Parsing ec-echo-2021 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2021.xml
-found 578 activities
+found 579 activities
 
 Downloading ec-echo-2022 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2022.xml
 Parsing ec-echo-2022 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2022.xml
-found 455 activities
+found 453 activities
 
 Downloading ec-echo-2023 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2023.xml
 Parsing ec-echo-2023 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2023.xml
-found 507 activities
+found 503 activities
 
 Downloading ec-echo-2024 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2024.xml
 Parsing ec-echo-2024 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2024.xml
-found 468 activities
+found 469 activities
 
 Downloading ec-echo-2025 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2025.xml
 Parsing ec-echo-2025 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2025.xml
-found 377 activities
+found 381 activities
 
 Downloading ec-echo-org from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/iati-organisation-file.xml
 Parsing ec-echo-org from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/iati-organisation-file.xml
@@ -19534,7 +19546,7 @@ found 34 activities
 
 Downloading ifcwbg-cn from https://disclosures.ifc.org/iati/ifc-cn.xml
 Parsing ifcwbg-cn from https://disclosures.ifc.org/iati/ifc-cn.xml
-found 310 activities
+found 309 activities
 
 Downloading ifcwbg-co from https://disclosures.ifc.org/iati/ifc-co.xml
 Parsing ifcwbg-co from https://disclosures.ifc.org/iati/ifc-co.xml
