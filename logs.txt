@@ -5876,6 +5876,10 @@ Downloading cec-programme-2022 from http://diplomatie.be/oda/IATI_act_pr2022-26_
 Parsing cec-programme-2022 from http://diplomatie.be/oda/IATI_act_pr2022-26_CEC_4074.xml
 found 3 activities
 
+Downloading cec-programme2024 from http://diplomatie.be/oda/IATI_act_pr2022-26_CEC_4074.xml
+Parsing cec-programme2024 from http://diplomatie.be/oda/IATI_act_pr2022-26_CEC_4074.xml
+found 3 activities
+
 Downloading ced-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/ced-org.xml
 Parsing ced-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/ced-org.xml
 found 1 organisations
@@ -5926,7 +5930,7 @@ found 1 organisations
 
 Downloading cerf-contributionstodate from https://cerfgms-webapi.unocha.org/v1/iati/donorcontribution.xml
 Parsing cerf-contributionstodate from https://cerfgms-webapi.unocha.org/v1/iati/donorcontribution.xml
-found 1711 activities
+found 1712 activities
 
 Downloading cerf-organization from https://cerfgms-webapi.unocha.org/v1/iati/organizations.xml
 Parsing cerf-organization from https://cerfgms-webapi.unocha.org/v1/iati/organizations.xml
@@ -11850,8 +11854,10 @@ Parsing eap-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/eap-org.xm
 found 1 organisations
 
 Downloading ebrd-activity from https://www.ebrd.com/content/dam/ebrd_dxp/assets/xml/iati/EBRD_IATI_Activity.xml
+curl: download ERROR 000
 Parsing ebrd-activity from https://www.ebrd.com/content/dam/ebrd_dxp/assets/xml/iati/EBRD_IATI_Activity.xml
-found 1748 activities
+dflat: input XML file does not exist
+restored 1748 files
 
 Downloading ebrd-org from https://www.ebrd.com/content/dam/ebrd_dxp/assets/xml/iati/EBRD-organisation.xml
 curl: download ERROR 000
@@ -11893,7 +11899,7 @@ found 851 activities
 
 Downloading ec-echo-2017 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2017.xml
 Parsing ec-echo-2017 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2017.xml
-found 729 activities
+found 728 activities
 
 Downloading ec-echo-2018 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2018.xml
 Parsing ec-echo-2018 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2018.xml
@@ -11901,31 +11907,31 @@ found 603 activities
 
 Downloading ec-echo-2019 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2019.xml
 Parsing ec-echo-2019 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2019.xml
-found 522 activities
+found 519 activities
 
 Downloading ec-echo-2020 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2020.xml
 Parsing ec-echo-2020 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2020.xml
-found 595 activities
+found 600 activities
 
 Downloading ec-echo-2021 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2021.xml
 Parsing ec-echo-2021 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2021.xml
-found 583 activities
+found 575 activities
 
 Downloading ec-echo-2022 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2022.xml
 Parsing ec-echo-2022 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2022.xml
-found 448 activities
+found 452 activities
 
 Downloading ec-echo-2023 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2023.xml
 Parsing ec-echo-2023 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2023.xml
-found 500 activities
+found 509 activities
 
 Downloading ec-echo-2024 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2024.xml
 Parsing ec-echo-2024 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2024.xml
-found 475 activities
+found 470 activities
 
 Downloading ec-echo-2025 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2025.xml
 Parsing ec-echo-2025 from https://webgate.ec.europa.eu/edris/api/Ops/readIatiPublications/ec-echo-2025.xml
-found 396 activities
+found 394 activities
 
 Downloading ec-echo-org from https://ec.europa.eu/echo/assets/iati/iati-organisation-file.xml
 Parsing ec-echo-org from https://ec.europa.eu/echo/assets/iati/iati-organisation-file.xml
@@ -13846,7 +13852,7 @@ Parsing f2a-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/f2a-org.xm
 found 1 organisations
 
 Downloading f2a-yw4a from https://grants.faithtoactionetwork.org/grants/f2a-yw4a.xml
-curl: download ERROR 404
+curl: download ERROR 000
 Parsing f2a-yw4a from https://grants.faithtoactionetwork.org/grants/f2a-yw4a.xml
 dflat: input XML file does not exist
 restored 5 files
@@ -19392,7 +19398,7 @@ found 4 activities
 
 Downloading ifcwbg-21 from https://disclosures.ifc.org/IATI/IFC-21.xml
 Parsing ifcwbg-21 from https://disclosures.ifc.org/IATI/IFC-21.xml
-found 10 activities
+found 11 activities
 
 Downloading ifcwbg-245 from https://disclosures.ifc.org/IATI/IFC-245.xml
 Parsing ifcwbg-245 from https://disclosures.ifc.org/IATI/IFC-245.xml
@@ -26401,7 +26407,7 @@ found 2205 activities
 
 Downloading onl-activity from https://www.oxfamnovib.nl/redactie/Downloads/XML/iati.xml
 Parsing onl-activity from https://www.oxfamnovib.nl/redactie/Downloads/XML/iati.xml
-found 2802 activities
+found 2804 activities
 
 Downloading onl-org from https://www.oxfamnovib.nl/redactie/downloads/xml/IATI_NL-KVK-27108436.xml
 Parsing onl-org from https://www.oxfamnovib.nl/redactie/downloads/xml/IATI_NL-KVK-27108436.xml
@@ -26416,147 +26422,123 @@ Parsing ons-organisation from https://iatipublisher-prod.s3.amazonaws.com/organi
 found 1 organisations
 
 Downloading openmindedly-costaf1213 from http://iati.openmindedly.com/COSTAF-1213.xml
-curl: download ERROR 404
 Parsing openmindedly-costaf1213 from http://iati.openmindedly.com/COSTAF-1213.xml
-dflat: input XML file does not exist
+dflat: invalid XML format
 restored 19 files
 
 Downloading openmindedly-costaf1314 from http://iati.openmindedly.com/COSTAF-1314.xml
-curl: download ERROR 404
 Parsing openmindedly-costaf1314 from http://iati.openmindedly.com/COSTAF-1314.xml
-dflat: input XML file does not exist
+dflat: invalid XML format
 restored 34 files
 
 Downloading openmindedly-costaf1415 from http://iati.openmindedly.com/COSTAF-1415.xml
-curl: download ERROR 404
 Parsing openmindedly-costaf1415 from http://iati.openmindedly.com/COSTAF-1415.xml
-dflat: input XML file does not exist
+dflat: invalid XML format
 restored 51 files
 
 Downloading openmindedly-costaf1516 from http://iati.openmindedly.com/COSTAF-1516.xml
-curl: download ERROR 404
 Parsing openmindedly-costaf1516 from http://iati.openmindedly.com/COSTAF-1516.xml
-dflat: input XML file does not exist
+dflat: invalid XML format
 restored 73 files
 
 Downloading openmindedly-gg10 from http://iati.openmindedly.com/GG-OAC-2010.xml
-curl: download ERROR 404
 Parsing openmindedly-gg10 from http://iati.openmindedly.com/GG-OAC-2010.xml
-dflat: input XML file does not exist
+dflat: invalid XML format
 restored 80 files
 
 Downloading openmindedly-gg11 from http://iati.openmindedly.com/GG-OAC-2011.xml
-curl: download ERROR 404
 Parsing openmindedly-gg11 from http://iati.openmindedly.com/GG-OAC-2011.xml
-dflat: input XML file does not exist
+dflat: invalid XML format
 restored 79 files
 
 Downloading openmindedly-gg12 from http://iati.openmindedly.com/GG-OAC-2012.xml
-curl: download ERROR 404
 Parsing openmindedly-gg12 from http://iati.openmindedly.com/GG-OAC-2012.xml
-dflat: input XML file does not exist
+dflat: invalid XML format
 restored 86 files
 
 Downloading openmindedly-gg13 from http://iati.openmindedly.com/GG-OAC-2013.xml
-curl: download ERROR 404
 Parsing openmindedly-gg13 from http://iati.openmindedly.com/GG-OAC-2013.xml
-dflat: input XML file does not exist
+dflat: invalid XML format
 restored 93 files
 
 Downloading openmindedly-gg14 from http://iati.openmindedly.com/GG-OAC-2014.xml
-curl: download ERROR 404
 Parsing openmindedly-gg14 from http://iati.openmindedly.com/GG-OAC-2014.xml
-dflat: input XML file does not exist
+dflat: invalid XML format
 restored 91 files
 
 Downloading openmindedly-im0405 from http://iati.openmindedly.com/IM-IDC-2004.xml
-curl: download ERROR 404
 Parsing openmindedly-im0405 from http://iati.openmindedly.com/IM-IDC-2004.xml
-dflat: input XML file does not exist
+dflat: invalid XML format
 restored 76 files
 
 Downloading openmindedly-im1112 from http://iati.openmindedly.com/IM-IDC-2011.xml
-curl: download ERROR 404
 Parsing openmindedly-im1112 from http://iati.openmindedly.com/IM-IDC-2011.xml
-dflat: input XML file does not exist
+dflat: invalid XML format
 restored 53 files
 
 Downloading openmindedly-im1213 from http://iati.openmindedly.com/IM-IDC-2012.xml
-curl: download ERROR 404
 Parsing openmindedly-im1213 from http://iati.openmindedly.com/IM-IDC-2012.xml
-dflat: input XML file does not exist
+dflat: invalid XML format
 restored 37 files
 
 Downloading openmindedly-im1314 from http://iati.openmindedly.com/IM-IDC-2013.xml
-curl: download ERROR 404
 Parsing openmindedly-im1314 from http://iati.openmindedly.com/IM-IDC-2013.xml
-dflat: input XML file does not exist
+dflat: invalid XML format
 restored 49 files
 
 Downloading openmindedly-im1415 from http://iati.openmindedly.com/IM-IDC-2014.xml
-curl: download ERROR 404
 Parsing openmindedly-im1415 from http://iati.openmindedly.com/IM-IDC-2014.xml
-dflat: input XML file does not exist
+dflat: invalid XML format
 restored 54 files
 
 Downloading openmindedly-im1516 from http://iati.openmindedly.com/IM-IDC-2015.xml
-curl: download ERROR 404
 Parsing openmindedly-im1516 from http://iati.openmindedly.com/IM-IDC-2015.xml
-dflat: input XML file does not exist
+dflat: invalid XML format
 restored 44 files
 
 Downloading openmindedly-im2005 from http://iati.openmindedly.com/IM-IDC-2005.xml
-curl: download ERROR 404
 Parsing openmindedly-im2005 from http://iati.openmindedly.com/IM-IDC-2005.xml
-dflat: input XML file does not exist
+dflat: invalid XML format
 restored 98 files
 
 Downloading openmindedly-je04 from http://iati.openmindedly.com/JE-OAC-2004.xml
-curl: download ERROR 404
 Parsing openmindedly-je04 from http://iati.openmindedly.com/JE-OAC-2004.xml
-dflat: input XML file does not exist
+dflat: invalid XML format
 restored 181 files
 
 Downloading openmindedly-je11 from http://iati.openmindedly.com/JE-OAC-2011.xml
-curl: download ERROR 404
 Parsing openmindedly-je11 from http://iati.openmindedly.com/JE-OAC-2011.xml
-dflat: input XML file does not exist
+dflat: invalid XML format
 restored 195 files
 
 Downloading openmindedly-je12 from http://iati.openmindedly.com/JE-OAC-2012.xml
-curl: download ERROR 404
 Parsing openmindedly-je12 from http://iati.openmindedly.com/JE-OAC-2012.xml
-dflat: input XML file does not exist
+dflat: invalid XML format
 restored 204 files
 
 Downloading openmindedly-je13 from http://iati.openmindedly.com/JE-OAC-2013.xml
-curl: download ERROR 404
 Parsing openmindedly-je13 from http://iati.openmindedly.com/JE-OAC-2013.xml
-dflat: input XML file does not exist
+dflat: invalid XML format
 restored 164 files
 
 Downloading openmindedly-je14 from http://iati.openmindedly.com/je-oac-2014.xml
-curl: download ERROR 404
 Parsing openmindedly-je14 from http://iati.openmindedly.com/je-oac-2014.xml
-dflat: input XML file does not exist
+dflat: invalid XML format
 restored 151 files
 
 Downloading openmindedly-je15 from http://iati.openmindedly.com/JE-OAC-2015.xml
-curl: download ERROR 404
 Parsing openmindedly-je15 from http://iati.openmindedly.com/JE-OAC-2015.xml
-dflat: input XML file does not exist
+dflat: invalid XML format
 restored 164 files
 
 Downloading openmindedly-org from http://iati.openmindedly.com/IM-CR-024714B.xml
-curl: download ERROR 404
 Parsing openmindedly-org from http://iati.openmindedly.com/IM-CR-024714B.xml
-dflat: input XML file does not exist
+dflat: invalid XML format
 restored 1 files
 
 Downloading openmindedly-xbt2015 from http://iati.openmindedly.com/GB-COH-04430228-2015.xml
-curl: download ERROR 404
 Parsing openmindedly-xbt2015 from http://iati.openmindedly.com/GB-COH-04430228-2015.xml
-dflat: input XML file does not exist
+dflat: invalid XML format
 restored 1 files
 
 Downloading opennorth-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/opennorth-org.xml
@@ -29329,7 +29311,7 @@ found 1 activities
 
 Downloading scopeinsight-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/scopeinsight-activities.xml
 Parsing scopeinsight-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/scopeinsight-activities.xml
-found 1 activities
+found 3 activities
 
 Downloading scottish_government-1213 from http://labs.data.scotland.gov.uk/iati/data/2012_2013_ScotGov_IATI.xml
 curl: download ERROR 000
@@ -29406,10 +29388,8 @@ dflat: input XML file does not exist
 restored 4069 files
 
 Downloading sdc_ch-042024 from https://www.eda.admin.ch/content/dam/deza/de/documents/aktivitaeten-projekte/IATI-XML-Activity-file-2024-Q4.xml
-curl: download ERROR 403
 Parsing sdc_ch-042024 from https://www.eda.admin.ch/content/dam/deza/de/documents/aktivitaeten-projekte/IATI-XML-Activity-file-2024-Q4.xml
-dflat: input XML file does not exist
-restored 0 files
+found 3632 activities
 
 Downloading sdc_ch-140402 from https://www.eda.admin.ch/dam/deza/en/documents/aktivitaeten-projekte/140401-IATI-XML-Activity-file-SDC.xml
 curl: download ERROR 403
