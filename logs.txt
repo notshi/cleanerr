@@ -679,6 +679,10 @@ Downloading act4africa-org from https://aidstream.s3.us-west-2.amazonaws.com/xml
 Parsing act4africa-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/act4africa-org.xml
 found 1 organisations
 
+Downloading actade-activities from https://iatipublisher-prod.s3.amazonaws.com/xml/mergedActivityXml/actade-activities.xml
+Parsing actade-activities from https://iatipublisher-prod.s3.amazonaws.com/xml/mergedActivityXml/actade-activities.xml
+found 2 activities
+
 Downloading actade-organisation from https://iatipublisher-prod.s3.amazonaws.com/organizationXmlFiles/actade-organisation.xml
 Parsing actade-organisation from https://iatipublisher-prod.s3.amazonaws.com/organizationXmlFiles/actade-organisation.xml
 found 1 organisations
@@ -877,6 +881,19 @@ found 1 activities
 
 Downloading adrasom-somgep from https://raw.githubusercontent.com/IATI/CSV2IATI-public-backup/master/1461923899.85.xml
 Converting IATI activities version 1.03 to version 2.03
+./iati-activities.xsl:189: parser error : AttValue: ' expected
+                    <xsl:for-each select="recipient-regio
+                                                         ^
+./iati-activities.xsl:189: parser error : attributes construct error
+                    <xsl:for-each select="recipient-regio
+                                                         ^
+./iati-activities.xsl:189: parser error : Couldn't find end of Start Tag for-each line 189
+                    <xsl:for-each select="recipient-regio
+                                                         ^
+./iati-activities.xsl:189: parser error : Premature end of data in tag iati-activity line 11
+                    <xsl:for-each select="recipient-regio
+                                                         ^
+cannot parse ./iati-activities.xsl
 Parsing adrasom-somgep from https://raw.githubusercontent.com/IATI/CSV2IATI-public-backup/master/1461923899.85.xml
 found 1 activities
 
@@ -5093,9 +5110,9 @@ Downloading caeb_mali-org from https://rsr.akvo.org/organisation/632/iati-org/
 Parsing caeb_mali-org from https://rsr.akvo.org/organisation/632/iati-org/
 found 1 organisations
 
-Downloading caf-actfile-46008-2603 from https://stgintgcr01.blob.core.windows.net/iati-public-files/CAF-ActivityFile-2025-06-03.xml
-Parsing caf-actfile-46008-2603 from https://stgintgcr01.blob.core.windows.net/iati-public-files/CAF-ActivityFile-2025-06-03.xml
-found 404 activities
+Downloading caf-actfile-46008-2603 from https://stgintgcr01.blob.core.windows.net/iati-public-files/CAF-ActivityFile-2025-07-06.xml
+Parsing caf-actfile-46008-2603 from https://stgintgcr01.blob.core.windows.net/iati-public-files/CAF-ActivityFile-2025-07-06.xml
+found 446 activities
 
 Downloading cafod-afghanistan from https://iati.cafod.org.uk/uploads/IATIFile_Afghanistan.xml
 Parsing cafod-afghanistan from https://iati.cafod.org.uk/uploads/IATIFile_Afghanistan.xml
@@ -11874,8 +11891,10 @@ Parsing eap-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/eap-org.xm
 found 1 organisations
 
 Downloading ebrd-activity from https://www.ebrd.com/content/dam/ebrd_dxp/assets/xml/iati/EBRD_IATI_Activity.xml
+curl: download ERROR 000
 Parsing ebrd-activity from https://www.ebrd.com/content/dam/ebrd_dxp/assets/xml/iati/EBRD_IATI_Activity.xml
-found 1796 activities
+dflat: input XML file does not exist
+restored 1796 files
 
 Downloading ebrd-org from https://www.ebrd.com/content/dam/ebrd_dxp/assets/xml/iati/EBRD-organisation.xml
 Parsing ebrd-org from https://www.ebrd.com/content/dam/ebrd_dxp/assets/xml/iati/EBRD-organisation.xml
@@ -15044,6 +15063,16 @@ found 15 activities
 
 Downloading finland_mfa-tt from http://formin.finland.fi/opendata/IATI/Finland_TT.xml
 Converting IATI activities version 1.00 to version 2.03
+./iati-activities.xsl:120: parser error : expected '>'
+                                        </narrativ
+                                                  ^
+./iati-activities.xsl:120: parser error : Opening and ending tag mismatch: narrative line 117 and narrativ
+                                        </narrativ
+                                                  ^
+./iati-activities.xsl:120: parser error : Premature end of data in tag for-each line 116
+                                        </narrativ
+                                                  ^
+cannot parse ./iati-activities.xsl
 Parsing finland_mfa-tt from http://formin.finland.fi/opendata/IATI/Finland_TT.xml
 found 1 activities
 
@@ -18690,7 +18719,7 @@ found 1 organisations
 
 Downloading idbinvest-projects from https://idbinvest.org/sites/default/files/iati_publish_projects.xml
 Parsing idbinvest-projects from https://idbinvest.org/sites/default/files/iati_publish_projects.xml
-found 1956 activities
+found 1957 activities
 
 Downloading idea-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/idea-activities.xml
 Parsing idea-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/idea-activities.xml
@@ -19638,7 +19667,7 @@ found 10 activities
 
 Downloading ifcwbg-eg from https://disclosures.ifc.org/iati/ifc-eg.xml
 Parsing ifcwbg-eg from https://disclosures.ifc.org/iati/ifc-eg.xml
-found 134 activities
+found 135 activities
 
 Downloading ifcwbg-er from https://disclosures.ifc.org/iati/ifc-er.xml
 Parsing ifcwbg-er from https://disclosures.ifc.org/iati/ifc-er.xml
@@ -22160,7 +22189,7 @@ found 5 activities
 
 Downloading ksrelief291-sd from https://aidstream.s3.us-west-2.amazonaws.com/xml/ksrelief291-sd.xml
 Parsing ksrelief291-sd from https://aidstream.s3.us-west-2.amazonaws.com/xml/ksrelief291-sd.xml
-found 130 activities
+found 131 activities
 
 Downloading ksrelief291-sl from https://aidstream.s3.us-west-2.amazonaws.com/xml/ksrelief291-sl.xml
 Parsing ksrelief291-sl from https://aidstream.s3.us-west-2.amazonaws.com/xml/ksrelief291-sl.xml
@@ -22228,7 +22257,7 @@ found 2 activities
 
 Downloading ksrelief291-uz from https://aidstream.s3.us-west-2.amazonaws.com/xml/ksrelief291-uz.xml
 Parsing ksrelief291-uz from https://aidstream.s3.us-west-2.amazonaws.com/xml/ksrelief291-uz.xml
-found 1 activities
+found 2 activities
 
 Downloading ksrelief291-vn from https://aidstream.s3.us-west-2.amazonaws.com/xml/ksrelief291-vn.xml
 Parsing ksrelief291-vn from https://aidstream.s3.us-west-2.amazonaws.com/xml/ksrelief291-vn.xml
@@ -22240,7 +22269,7 @@ found 1 activities
 
 Downloading ksrelief291-ye from https://aidstream.s3.us-west-2.amazonaws.com/xml/ksrelief291-ye.xml
 Parsing ksrelief291-ye from https://aidstream.s3.us-west-2.amazonaws.com/xml/ksrelief291-ye.xml
-found 506 activities
+found 510 activities
 
 Downloading ksrelief291-za from https://aidstream.s3.us-west-2.amazonaws.com/xml/ksrelief291-za.xml
 Parsing ksrelief291-za from https://aidstream.s3.us-west-2.amazonaws.com/xml/ksrelief291-za.xml
@@ -26439,7 +26468,7 @@ found 2205 activities
 
 Downloading onl-activity from https://www.oxfamnovib.nl/redactie/Downloads/XML/iati.xml
 Parsing onl-activity from https://www.oxfamnovib.nl/redactie/Downloads/XML/iati.xml
-found 2808 activities
+found 2809 activities
 
 Downloading onl-org from https://www.oxfamnovib.nl/redactie/downloads/xml/IATI_NL-KVK-27108436.xml
 Parsing onl-org from https://www.oxfamnovib.nl/redactie/downloads/xml/IATI_NL-KVK-27108436.xml
@@ -26529,8 +26558,9 @@ dflat: invalid XML format
 restored 44 files
 
 Downloading openmindedly-im2005 from http://iati.openmindedly.com/IM-IDC-2005.xml
+curl: download ERROR 432
 Parsing openmindedly-im2005 from http://iati.openmindedly.com/IM-IDC-2005.xml
-dflat: invalid XML format
+dflat: input XML file does not exist
 restored 98 files
 
 Downloading openmindedly-je04 from http://iati.openmindedly.com/JE-OAC-2004.xml
@@ -29004,7 +29034,7 @@ found 1 organisations
 
 Downloading rvo-01 from https://projects.rvo.nl/opendata/iati.xml
 Parsing rvo-01 from https://projects.rvo.nl/opendata/iati.xml
-found 5496 activities
+found 5498 activities
 
 Downloading rvo-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/rvo-activities.xml
 Parsing rvo-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/rvo-activities.xml
@@ -30410,7 +30440,7 @@ found 1 activities
 
 Downloading sp-activities from https://iatipublisher-prod.s3.amazonaws.com/xml/mergedActivityXml/sp-activities.xml
 Parsing sp-activities from https://iatipublisher-prod.s3.amazonaws.com/xml/mergedActivityXml/sp-activities.xml
-found 3 activities
+found 8 activities
 
 Downloading sparc_iati-activities from https://iatipublisher-prod.s3.amazonaws.com/xml/mergedActivityXml/sparc_iati-activities.xml
 Parsing sparc_iati-activities from https://iatipublisher-prod.s3.amazonaws.com/xml/mergedActivityXml/sparc_iati-activities.xml
@@ -31377,9 +31407,9 @@ Parsing stichting_hivos-hivos-historical from https://files.aida.tools/activitie
 dflat: input XML file does not exist
 restored 17 files
 
-Downloading stichting_hivos-ongoingprojects02 from https://dmel.hivos.org/public/iati-xml/compiled/iati_compiled_20250509112803.xml
-Parsing stichting_hivos-ongoingprojects02 from https://dmel.hivos.org/public/iati-xml/compiled/iati_compiled_20250509112803.xml
-found 33 activities
+Downloading stichting_hivos-ongoingprojects02 from https://dmel.hivos.org/public/iati-xml/compiled/iati_compiled_20250706215425.xml
+Parsing stichting_hivos-ongoingprojects02 from https://dmel.hivos.org/public/iati-xml/compiled/iati_compiled_20250706215425.xml
+found 32 activities
 
 Downloading stichting-subsidiegelden-dra-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/stichting-subsidiegelden-dra-activities.xml
 Parsing stichting-subsidiegelden-dra-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/stichting-subsidiegelden-dra-activities.xml
@@ -42888,6 +42918,16 @@ found 1 organisations
 
 Downloading w4p-pe from https://aidstream.s3.us-west-2.amazonaws.com/xml/w4p-pe.xml
 Converting IATI activities version 1.03 to version 2.03
+./iati-activities.xsl:120: parser error : expected '>'
+                                        </narrativ
+                                                  ^
+./iati-activities.xsl:120: parser error : Opening and ending tag mismatch: narrative line 117 and narrativ
+                                        </narrativ
+                                                  ^
+./iati-activities.xsl:120: parser error : Premature end of data in tag for-each line 116
+                                        </narrativ
+                                                  ^
+cannot parse ./iati-activities.xsl
 Parsing w4p-pe from https://aidstream.s3.us-west-2.amazonaws.com/xml/w4p-pe.xml
 found 2 activities
 
