@@ -881,19 +881,6 @@ found 1 activities
 
 Downloading adrasom-somgep from https://raw.githubusercontent.com/IATI/CSV2IATI-public-backup/master/1461923899.85.xml
 Converting IATI activities version 1.03 to version 2.03
-./iati-activities.xsl:189: parser error : AttValue: ' expected
-                    <xsl:for-each select="recipient-regio
-                                                         ^
-./iati-activities.xsl:189: parser error : attributes construct error
-                    <xsl:for-each select="recipient-regio
-                                                         ^
-./iati-activities.xsl:189: parser error : Couldn't find end of Start Tag for-each line 189
-                    <xsl:for-each select="recipient-regio
-                                                         ^
-./iati-activities.xsl:189: parser error : Premature end of data in tag iati-activity line 11
-                    <xsl:for-each select="recipient-regio
-                                                         ^
-cannot parse ./iati-activities.xsl
 Parsing adrasom-somgep from https://raw.githubusercontent.com/IATI/CSV2IATI-public-backup/master/1461923899.85.xml
 found 1 activities
 
@@ -6224,18 +6211,21 @@ Parsing cientifica-pe-organisation from https://iatipublisher-prod.s3.amazonaws.
 found 1 organisations
 
 Downloading cif-389 from http://siteresources.worldbank.org/IATI/CIF/CIF-389.xml
+curl: download ERROR 520
 Parsing cif-389 from http://siteresources.worldbank.org/IATI/CIF/CIF-389.xml
-dflat: invalid XML format
+dflat: input XML file does not exist
 restored 0 files
 
 Downloading cif-889 from http://siteresources.worldbank.org/IATI/CIF/CIF-889.xml
+curl: download ERROR 520
 Parsing cif-889 from http://siteresources.worldbank.org/IATI/CIF/CIF-889.xml
-dflat: invalid XML format
+dflat: input XML file does not exist
 restored 0 files
 
 Downloading cif-998 from http://siteresources.worldbank.org/IATI/CIF/CIF-998.xml
+curl: download ERROR 520
 Parsing cif-998 from http://siteresources.worldbank.org/IATI/CIF/CIF-998.xml
-dflat: invalid XML format
+dflat: input XML file does not exist
 restored 0 files
 
 Downloading c_i_f-activities from https://iatipublisher-prod.s3.amazonaws.com/xml/mergedActivityXml/c_i_f-activities.xml
@@ -6272,8 +6262,9 @@ Parsing cif-br from http://doumodqax2qi2.cloudfront.net/CIF/CIF-05-2020/CIF-BR.x
 found 11 activities
 
 Downloading cif-cd from http://siteresources.worldbank.org/IATI/CIF/CIF-CD.xml
+curl: download ERROR 520
 Parsing cif-cd from http://siteresources.worldbank.org/IATI/CIF/CIF-CD.xml
-dflat: invalid XML format
+dflat: input XML file does not exist
 restored 0 files
 
 Downloading cif-ci from http://doumodqax2qi2.cloudfront.net/CIF/CIF-05-2020/CIF-CI.xml
@@ -6465,8 +6456,9 @@ Parsing cif-ws from http://doumodqax2qi2.cloudfront.net/CIF/CIF-05-2020/CIF-WS.x
 found 2 activities
 
 Downloading cif-ye from http://siteresources.worldbank.org/IATI/CIF/CIF-YE.xml
+curl: download ERROR 520
 Parsing cif-ye from http://siteresources.worldbank.org/IATI/CIF/CIF-YE.xml
-dflat: invalid XML format
+dflat: input XML file does not exist
 restored 0 files
 
 Downloading cif-za from http://doumodqax2qi2.cloudfront.net/CIF/CIF-05-2020/CIF-ZA.xml
@@ -6680,7 +6672,7 @@ found 117 activities
 
 Downloading cku-grant from https://cku.grant.nu/api/iati
 Parsing cku-grant from https://cku.grant.nu/api/iati
-found 151 activities
+found 152 activities
 
 Downloading cku-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/cku-org.xml
 Parsing cku-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/cku-org.xml
@@ -7741,6 +7733,10 @@ found 1 activities
 Downloading dec_ethiopia-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/dec_ethiopia-activities.xml
 Parsing dec_ethiopia-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/dec_ethiopia-activities.xml
 found 2 activities
+
+Downloading dec_ethiopia-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/dec_ethiopia-org.xml
+Parsing dec_ethiopia-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/dec_ethiopia-org.xml
+found 1 organisations
 
 Downloading decp-decpactivities2014-2017 from http://dev.pummoodle.com/_decp/decpactivities2014-2017.xml
 Parsing decp-decpactivities2014-2017 from http://dev.pummoodle.com/_decp/decpactivities2014-2017.xml
@@ -11891,10 +11887,8 @@ Parsing eap-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/eap-org.xm
 found 1 organisations
 
 Downloading ebrd-activity from https://www.ebrd.com/content/dam/ebrd_dxp/assets/xml/iati/EBRD_IATI_Activity.xml
-curl: download ERROR 000
 Parsing ebrd-activity from https://www.ebrd.com/content/dam/ebrd_dxp/assets/xml/iati/EBRD_IATI_Activity.xml
-dflat: input XML file does not exist
-restored 1796 files
+found 1796 activities
 
 Downloading ebrd-org from https://www.ebrd.com/content/dam/ebrd_dxp/assets/xml/iati/EBRD-organisation.xml
 Parsing ebrd-org from https://www.ebrd.com/content/dam/ebrd_dxp/assets/xml/iati/EBRD-organisation.xml
@@ -14152,8 +14146,8 @@ Downloading fcdo-set-9 from http://iati.fcdo.gov.uk/iati_files/solr/FCDO-set-9.x
 Parsing fcdo-set-9 from http://iati.fcdo.gov.uk/iati_files/solr/FCDO-set-9.xml
 found 876 activities
 
-Downloading fcdo-ukisf from https://s3.eu-west-1.amazonaws.com/iati.fcdo.gov.uk/iati_files/converted_files/ukisf-oda-data.xml
-Parsing fcdo-ukisf from https://s3.eu-west-1.amazonaws.com/iati.fcdo.gov.uk/iati_files/converted_files/ukisf-oda-data.xml
+Downloading fcdo-ukisf from https://iati.fcdo.gov.uk/iati_files/converted_files/ukisf-oda-data.xml
+Parsing fcdo-ukisf from https://iati.fcdo.gov.uk/iati_files/converted_files/ukisf-oda-data.xml
 found 26 activities
 
 Downloading fcdo-z_historic-programme from http://iati.fcdo.gov.uk/iati_files/converted_files/fco-programme-oda-data-2016-to-2017.xml
@@ -15063,16 +15057,6 @@ found 15 activities
 
 Downloading finland_mfa-tt from http://formin.finland.fi/opendata/IATI/Finland_TT.xml
 Converting IATI activities version 1.00 to version 2.03
-./iati-activities.xsl:120: parser error : expected '>'
-                                        </narrativ
-                                                  ^
-./iati-activities.xsl:120: parser error : Opening and ending tag mismatch: narrative line 117 and narrativ
-                                        </narrativ
-                                                  ^
-./iati-activities.xsl:120: parser error : Premature end of data in tag for-each line 116
-                                        </narrativ
-                                                  ^
-cannot parse ./iati-activities.xsl
 Parsing finland_mfa-tt from http://formin.finland.fi/opendata/IATI/Finland_TT.xml
 found 1 activities
 
@@ -18751,7 +18735,7 @@ found 88 activities
 
 Downloading idh-ghana-activities from https://iatipublisher-prod.s3.amazonaws.com/xml/mergedActivityXml/idh-ghana-activities.xml
 Parsing idh-ghana-activities from https://iatipublisher-prod.s3.amazonaws.com/xml/mergedActivityXml/idh-ghana-activities.xml
-found 13 activities
+found 17 activities
 
 Downloading idh-ghana-organisation from https://iatipublisher-prod.s3.amazonaws.com/organizationXmlFiles/idh-ghana-organisation.xml
 Parsing idh-ghana-organisation from https://iatipublisher-prod.s3.amazonaws.com/organizationXmlFiles/idh-ghana-organisation.xml
@@ -19438,650 +19422,970 @@ Parsing ifangni-org from https://rsr.akvo.org/organisation/4143/iati-org/
 found 1 organisations
 
 Downloading ifcwbg-10 from https://disclosures.ifc.org/IATI/IFC-10.xml
+curl: download ERROR 520
 Parsing ifcwbg-10 from https://disclosures.ifc.org/IATI/IFC-10.xml
-found 9 activities
+dflat: input XML file does not exist
+restored 9 files
 
 Downloading ifcwbg-128 from https://disclosures.ifc.org/IATI/IFC-128.xml
+curl: download ERROR 520
 Parsing ifcwbg-128 from https://disclosures.ifc.org/IATI/IFC-128.xml
-found 98 activities
+dflat: input XML file does not exist
+restored 98 files
 
 Downloading ifcwbg-189 from https://disclosures.ifc.org/IATI/IFC-189.xml
+curl: download ERROR 520
 Parsing ifcwbg-189 from https://disclosures.ifc.org/IATI/IFC-189.xml
-found 4 activities
+dflat: input XML file does not exist
+restored 4 files
 
 Downloading ifcwbg-21 from https://disclosures.ifc.org/IATI/IFC-21.xml
+curl: download ERROR 520
 Parsing ifcwbg-21 from https://disclosures.ifc.org/IATI/IFC-21.xml
-found 11 activities
+dflat: input XML file does not exist
+restored 11 files
 
 Downloading ifcwbg-245 from https://disclosures.ifc.org/IATI/IFC-245.xml
+curl: download ERROR 520
 Parsing ifcwbg-245 from https://disclosures.ifc.org/IATI/IFC-245.xml
-found 22 activities
+dflat: input XML file does not exist
+restored 22 files
 
 Downloading ifcwbg-246 from https://disclosures.ifc.org/IATI/IFC-246.xml
+curl: download ERROR 520
 Parsing ifcwbg-246 from https://disclosures.ifc.org/IATI/IFC-246.xml
-found 244 activities
+dflat: input XML file does not exist
+restored 244 files
 
 Downloading ifcwbg-249 from https://disclosures.ifc.org/IATI/IFC-249.xml
+curl: download ERROR 520
 Parsing ifcwbg-249 from https://disclosures.ifc.org/IATI/IFC-249.xml
-found 14 activities
+dflat: input XML file does not exist
+restored 14 files
 
 Downloading ifcwbg-251 from https://disclosures.ifc.org/IATI/IFC-251.xml
+curl: download ERROR 520
 Parsing ifcwbg-251 from https://disclosures.ifc.org/IATI/IFC-251.xml
-found 25 activities
+dflat: input XML file does not exist
+restored 25 files
 
 Downloading ifcwbg-274 from https://disclosures.ifc.org/IATI/IFC-274.xml
+curl: download ERROR 520
 Parsing ifcwbg-274 from https://disclosures.ifc.org/IATI/IFC-274.xml
-found 33 activities
+dflat: input XML file does not exist
+restored 33 files
 
 Downloading ifcwbg-51 from https://disclosures.ifc.org/IATI/IFC-51.xml
+curl: download ERROR 520
 Parsing ifcwbg-51 from https://disclosures.ifc.org/IATI/IFC-51.xml
-found 7 activities
+dflat: input XML file does not exist
+restored 7 files
 
 Downloading ifcwbg-55 from https://disclosures.ifc.org/IATI/IFC-55.xml
+curl: download ERROR 520
 Parsing ifcwbg-55 from https://disclosures.ifc.org/IATI/IFC-55.xml
-found 14 activities
+dflat: input XML file does not exist
+restored 14 files
 
 Downloading ifcwbg-57 from https://disclosures.ifc.org/IATI/IFC-57.xml
+curl: download ERROR 520
 Parsing ifcwbg-57 from https://disclosures.ifc.org/IATI/IFC-57.xml
-found 9 activities
+dflat: input XML file does not exist
+restored 9 files
 
 Downloading ifcwbg-67 from https://disclosures.ifc.org/IATI/IFC-67.xml
+curl: download ERROR 520
 Parsing ifcwbg-67 from https://disclosures.ifc.org/IATI/IFC-67.xml
-found 7 activities
+dflat: input XML file does not exist
+restored 7 files
 
 Downloading ifcwbg-79 from https://disclosures.ifc.org/IATI/IFC-79.xml
+curl: download ERROR 520
 Parsing ifcwbg-79 from https://disclosures.ifc.org/IATI/IFC-79.xml
-found 15 activities
+dflat: input XML file does not exist
+restored 15 files
 
 Downloading ifcwbg-7 from https://disclosures.ifc.org/IATI/IFC-7.xml
+curl: download ERROR 520
 Parsing ifcwbg-7 from https://disclosures.ifc.org/IATI/IFC-7.xml
-found 2 activities
+dflat: input XML file does not exist
+restored 2 files
 
 Downloading ifcwbg-80 from https://disclosures.ifc.org/IATI/IFC-80.xml
+curl: download ERROR 520
 Parsing ifcwbg-80 from https://disclosures.ifc.org/IATI/IFC-80.xml
-found 53 activities
+dflat: input XML file does not exist
+restored 53 files
 
 Downloading ifcwbg-82 from https://disclosures.ifc.org/IATI/IFC-82.xml
+curl: download ERROR 520
 Parsing ifcwbg-82 from https://disclosures.ifc.org/IATI/IFC-82.xml
-found 39 activities
+dflat: input XML file does not exist
+restored 39 files
 
 Downloading ifcwbg-84 from https://disclosures.ifc.org/IATI/IFC-84.xml
+curl: download ERROR 520
 Parsing ifcwbg-84 from https://disclosures.ifc.org/IATI/IFC-84.xml
-found 56 activities
+dflat: input XML file does not exist
+restored 56 files
 
 Downloading ifcwbg-90 from https://disclosures.ifc.org/IATI/IFC-90.xml
+curl: download ERROR 520
 Parsing ifcwbg-90 from https://disclosures.ifc.org/IATI/IFC-90.xml
-found 39 activities
+dflat: input XML file does not exist
+restored 39 files
 
 Downloading ifcwbg-9 from https://disclosures.ifc.org/IATI/IFC-9.xml
+curl: download ERROR 520
 Parsing ifcwbg-9 from https://disclosures.ifc.org/IATI/IFC-9.xml
-found 148 activities
+dflat: input XML file does not exist
+restored 148 files
 
 Downloading ifcwbg-ae from https://disclosures.ifc.org/iati/ifc-ae.xml
+curl: download ERROR 520
 Parsing ifcwbg-ae from https://disclosures.ifc.org/iati/ifc-ae.xml
-found 6 activities
+dflat: input XML file does not exist
+restored 6 files
 
 Downloading ifcwbg-af from https://disclosures.ifc.org/iati/ifc-af.xml
+curl: download ERROR 520
 Parsing ifcwbg-af from https://disclosures.ifc.org/iati/ifc-af.xml
-found 9 activities
+dflat: input XML file does not exist
+restored 9 files
 
 Downloading ifcwbg-ag from https://disclosures.ifc.org/iati/ifc-ag.xml
+curl: download ERROR 520
 Parsing ifcwbg-ag from https://disclosures.ifc.org/iati/ifc-ag.xml
-found 1 activities
+dflat: input XML file does not exist
+restored 1 files
 
 Downloading ifcwbg-al from https://disclosures.ifc.org/iati/ifc-al.xml
+curl: download ERROR 520
 Parsing ifcwbg-al from https://disclosures.ifc.org/iati/ifc-al.xml
-found 19 activities
+dflat: input XML file does not exist
+restored 19 files
 
 Downloading ifcwbg-am from https://disclosures.ifc.org/iati/ifc-am.xml
+curl: download ERROR 520
 Parsing ifcwbg-am from https://disclosures.ifc.org/iati/ifc-am.xml
-found 43 activities
+dflat: input XML file does not exist
+restored 43 files
 
 Downloading ifcwbg-ao from https://disclosures.ifc.org/iati/ifc-ao.xml
+curl: download ERROR 520
 Parsing ifcwbg-ao from https://disclosures.ifc.org/iati/ifc-ao.xml
-found 7 activities
+dflat: input XML file does not exist
+restored 7 files
 
 Downloading ifcwbg-ar from https://disclosures.ifc.org/iati/ifc-ar.xml
+curl: download ERROR 520
 Parsing ifcwbg-ar from https://disclosures.ifc.org/iati/ifc-ar.xml
-found 124 activities
+dflat: input XML file does not exist
+restored 124 files
 
 Downloading ifcwbg-az from https://disclosures.ifc.org/iati/ifc-az.xml
+curl: download ERROR 520
 Parsing ifcwbg-az from https://disclosures.ifc.org/iati/ifc-az.xml
-found 32 activities
+dflat: input XML file does not exist
+restored 32 files
 
 Downloading ifcwbg-ba from https://disclosures.ifc.org/iati/ifc-ba.xml
+curl: download ERROR 520
 Parsing ifcwbg-ba from https://disclosures.ifc.org/iati/ifc-ba.xml
-found 36 activities
+dflat: input XML file does not exist
+restored 36 files
 
 Downloading ifcwbg-bb from https://disclosures.ifc.org/iati/ifc-bb.xml
+curl: download ERROR 520
 Parsing ifcwbg-bb from https://disclosures.ifc.org/iati/ifc-bb.xml
-found 2 activities
+dflat: input XML file does not exist
+restored 2 files
 
 Downloading ifcwbg-bd from https://disclosures.ifc.org/iati/ifc-bd.xml
+curl: download ERROR 520
 Parsing ifcwbg-bd from https://disclosures.ifc.org/iati/ifc-bd.xml
-found 95 activities
+dflat: input XML file does not exist
+restored 95 files
 
 Downloading ifcwbg-bf from https://disclosures.ifc.org/iati/ifc-bf.xml
+curl: download ERROR 520
 Parsing ifcwbg-bf from https://disclosures.ifc.org/iati/ifc-bf.xml
-found 18 activities
+dflat: input XML file does not exist
+restored 18 files
 
 Downloading ifcwbg-bg from https://disclosures.ifc.org/iati/ifc-bg.xml
+curl: download ERROR 520
 Parsing ifcwbg-bg from https://disclosures.ifc.org/iati/ifc-bg.xml
-found 33 activities
+dflat: input XML file does not exist
+restored 33 files
 
 Downloading ifcwbg-bh from https://disclosures.ifc.org/iati/ifc-bh.xml
+curl: download ERROR 520
 Parsing ifcwbg-bh from https://disclosures.ifc.org/iati/ifc-bh.xml
-found 1 activities
+dflat: input XML file does not exist
+restored 1 files
 
 Downloading ifcwbg-bi from https://disclosures.ifc.org/iati/ifc-bi.xml
+curl: download ERROR 520
 Parsing ifcwbg-bi from https://disclosures.ifc.org/iati/ifc-bi.xml
-found 7 activities
+dflat: input XML file does not exist
+restored 7 files
 
 Downloading ifcwbg-bj from https://disclosures.ifc.org/iati/ifc-bj.xml
+curl: download ERROR 520
 Parsing ifcwbg-bj from https://disclosures.ifc.org/iati/ifc-bj.xml
-found 6 activities
+dflat: input XML file does not exist
+restored 6 files
 
 Downloading ifcwbg-bo from https://disclosures.ifc.org/iati/ifc-bo.xml
+curl: download ERROR 520
 Parsing ifcwbg-bo from https://disclosures.ifc.org/iati/ifc-bo.xml
-found 20 activities
+dflat: input XML file does not exist
+restored 20 files
 
 Downloading ifcwbg-br from https://disclosures.ifc.org/iati/ifc-br.xml
+curl: download ERROR 520
 Parsing ifcwbg-br from https://disclosures.ifc.org/iati/ifc-br.xml
-found 337 activities
+dflat: input XML file does not exist
+restored 337 files
 
 Downloading ifcwbg-bt from https://disclosures.ifc.org/iati/ifc-bt.xml
+curl: download ERROR 520
 Parsing ifcwbg-bt from https://disclosures.ifc.org/iati/ifc-bt.xml
-found 6 activities
+dflat: input XML file does not exist
+restored 6 files
 
 Downloading ifcwbg-bw from https://disclosures.ifc.org/iati/ifc-bw.xml
+curl: download ERROR 520
 Parsing ifcwbg-bw from https://disclosures.ifc.org/iati/ifc-bw.xml
-found 12 activities
+dflat: input XML file does not exist
+restored 12 files
 
 Downloading ifcwbg-by from https://disclosures.ifc.org/iati/ifc-by.xml
+curl: download ERROR 520
 Parsing ifcwbg-by from https://disclosures.ifc.org/iati/ifc-by.xml
-found 22 activities
+dflat: input XML file does not exist
+restored 22 files
 
 Downloading ifcwbg-bz from https://disclosures.ifc.org/iati/ifc-bz.xml
+curl: download ERROR 520
 Parsing ifcwbg-bz from https://disclosures.ifc.org/iati/ifc-bz.xml
-found 1 activities
+dflat: input XML file does not exist
+restored 1 files
 
 Downloading ifcwbg-cd from https://disclosures.ifc.org/iati/ifc-cd.xml
+curl: download ERROR 520
 Parsing ifcwbg-cd from https://disclosures.ifc.org/iati/ifc-cd.xml
-found 24 activities
+dflat: input XML file does not exist
+restored 24 files
 
 Downloading ifcwbg-cf from https://disclosures.ifc.org/iati/ifc-cf.xml
+curl: download ERROR 520
 Parsing ifcwbg-cf from https://disclosures.ifc.org/iati/ifc-cf.xml
-found 1 activities
+dflat: input XML file does not exist
+restored 1 files
 
 Downloading ifcwbg-cg from https://disclosures.ifc.org/iati/ifc-cg.xml
+curl: download ERROR 520
 Parsing ifcwbg-cg from https://disclosures.ifc.org/iati/ifc-cg.xml
-found 2 activities
+dflat: input XML file does not exist
+restored 2 files
 
 Downloading ifcwbg-ci from https://disclosures.ifc.org/iati/ifc-ci.xml
+curl: download ERROR 520
 Parsing ifcwbg-ci from https://disclosures.ifc.org/iati/ifc-ci.xml
-found 60 activities
+dflat: input XML file does not exist
+restored 60 files
 
 Downloading ifcwbg-cl from https://disclosures.ifc.org/iati/ifc-cl.xml
+curl: download ERROR 520
 Parsing ifcwbg-cl from https://disclosures.ifc.org/iati/ifc-cl.xml
-found 61 activities
+dflat: input XML file does not exist
+restored 61 files
 
 Downloading ifcwbg-cm from https://disclosures.ifc.org/iati/ifc-cm.xml
+curl: download ERROR 520
 Parsing ifcwbg-cm from https://disclosures.ifc.org/iati/ifc-cm.xml
-found 35 activities
+dflat: input XML file does not exist
+restored 35 files
 
 Downloading ifcwbg-cn from https://disclosures.ifc.org/iati/ifc-cn.xml
+curl: download ERROR 520
 Parsing ifcwbg-cn from https://disclosures.ifc.org/iati/ifc-cn.xml
-found 309 activities
+dflat: input XML file does not exist
+restored 309 files
 
 Downloading ifcwbg-co from https://disclosures.ifc.org/iati/ifc-co.xml
+curl: download ERROR 520
 Parsing ifcwbg-co from https://disclosures.ifc.org/iati/ifc-co.xml
-found 138 activities
+dflat: input XML file does not exist
+restored 138 files
 
 Downloading ifcwbg-cr from https://disclosures.ifc.org/iati/ifc-cr.xml
+curl: download ERROR 520
 Parsing ifcwbg-cr from https://disclosures.ifc.org/iati/ifc-cr.xml
-found 25 activities
+dflat: input XML file does not exist
+restored 25 files
 
 Downloading ifcwbg-cv from https://disclosures.ifc.org/iati/ifc-cv.xml
+curl: download ERROR 520
 Parsing ifcwbg-cv from https://disclosures.ifc.org/iati/ifc-cv.xml
-found 4 activities
+dflat: input XML file does not exist
+restored 4 files
 
 Downloading ifcwbg-cz from https://disclosures.ifc.org/iati/ifc-cz.xml
+curl: download ERROR 520
 Parsing ifcwbg-cz from https://disclosures.ifc.org/iati/ifc-cz.xml
-found 7 activities
+dflat: input XML file does not exist
+restored 7 files
 
 Downloading ifcwbg-do from https://disclosures.ifc.org/iati/ifc-do.xml
+curl: download ERROR 520
 Parsing ifcwbg-do from https://disclosures.ifc.org/iati/ifc-do.xml
-found 35 activities
+dflat: input XML file does not exist
+restored 35 files
 
 Downloading ifcwbg-dz from https://disclosures.ifc.org/iati/ifc-dz.xml
+curl: download ERROR 520
 Parsing ifcwbg-dz from https://disclosures.ifc.org/iati/ifc-dz.xml
-found 11 activities
+dflat: input XML file does not exist
+restored 11 files
 
 Downloading ifcwbg-ec from https://disclosures.ifc.org/iati/ifc-ec.xml
+curl: download ERROR 520
 Parsing ifcwbg-ec from https://disclosures.ifc.org/iati/ifc-ec.xml
-found 44 activities
+dflat: input XML file does not exist
+restored 44 files
 
 Downloading ifcwbg-ee from https://disclosures.ifc.org/iati/ifc-ee.xml
+curl: download ERROR 520
 Parsing ifcwbg-ee from https://disclosures.ifc.org/iati/ifc-ee.xml
-found 10 activities
+dflat: input XML file does not exist
+restored 10 files
 
 Downloading ifcwbg-eg from https://disclosures.ifc.org/iati/ifc-eg.xml
+curl: download ERROR 520
 Parsing ifcwbg-eg from https://disclosures.ifc.org/iati/ifc-eg.xml
-found 135 activities
+dflat: input XML file does not exist
+restored 135 files
 
 Downloading ifcwbg-er from https://disclosures.ifc.org/iati/ifc-er.xml
+curl: download ERROR 520
 Parsing ifcwbg-er from https://disclosures.ifc.org/iati/ifc-er.xml
-found 1 activities
+dflat: input XML file does not exist
+restored 1 files
 
 Downloading ifcwbg-et from https://disclosures.ifc.org/iati/ifc-et.xml
+curl: download ERROR 520
 Parsing ifcwbg-et from https://disclosures.ifc.org/iati/ifc-et.xml
-found 30 activities
+dflat: input XML file does not exist
+restored 30 files
 
 Downloading ifcwbg-fj from https://disclosures.ifc.org/iati/ifc-fj.xml
+curl: download ERROR 520
 Parsing ifcwbg-fj from https://disclosures.ifc.org/iati/ifc-fj.xml
-found 5 activities
+dflat: input XML file does not exist
+restored 5 files
 
 Downloading ifcwbg-ga from https://disclosures.ifc.org/iati/ifc-ga.xml
+curl: download ERROR 520
 Parsing ifcwbg-ga from https://disclosures.ifc.org/iati/ifc-ga.xml
-found 7 activities
+dflat: input XML file does not exist
+restored 7 files
 
 Downloading ifcwbg-gd from https://disclosures.ifc.org/iati/ifc-gd.xml
+curl: download ERROR 520
 Parsing ifcwbg-gd from https://disclosures.ifc.org/iati/ifc-gd.xml
-found 1 activities
+dflat: input XML file does not exist
+restored 1 files
 
 Downloading ifcwbg-ge from https://disclosures.ifc.org/iati/ifc-ge.xml
+curl: download ERROR 520
 Parsing ifcwbg-ge from https://disclosures.ifc.org/iati/ifc-ge.xml
-found 49 activities
+dflat: input XML file does not exist
+restored 49 files
 
 Downloading ifcwbg-gh from https://disclosures.ifc.org/iati/ifc-gh.xml
+curl: download ERROR 520
 Parsing ifcwbg-gh from https://disclosures.ifc.org/iati/ifc-gh.xml
-found 66 activities
+dflat: input XML file does not exist
+restored 66 files
 
 Downloading ifcwbg-gm from https://disclosures.ifc.org/iati/ifc-gm.xml
+curl: download ERROR 520
 Parsing ifcwbg-gm from https://disclosures.ifc.org/iati/ifc-gm.xml
-found 3 activities
+dflat: input XML file does not exist
+restored 3 files
 
 Downloading ifcwbg-gn from https://disclosures.ifc.org/iati/ifc-gn.xml
+curl: download ERROR 520
 Parsing ifcwbg-gn from https://disclosures.ifc.org/iati/ifc-gn.xml
-found 17 activities
+dflat: input XML file does not exist
+restored 17 files
 
 Downloading ifcwbg-gr from https://disclosures.ifc.org/iati/ifc-gr.xml
+curl: download ERROR 520
 Parsing ifcwbg-gr from https://disclosures.ifc.org/iati/ifc-gr.xml
-found 10 activities
+dflat: input XML file does not exist
+restored 10 files
 
 Downloading ifcwbg-gt from https://disclosures.ifc.org/iati/ifc-gt.xml
+curl: download ERROR 520
 Parsing ifcwbg-gt from https://disclosures.ifc.org/iati/ifc-gt.xml
-found 30 activities
+dflat: input XML file does not exist
+restored 30 files
 
 Downloading ifcwbg-gw from https://disclosures.ifc.org/iati/ifc-gw.xml
+curl: download ERROR 520
 Parsing ifcwbg-gw from https://disclosures.ifc.org/iati/ifc-gw.xml
-found 1 activities
+dflat: input XML file does not exist
+restored 1 files
 
 Downloading ifcwbg-gy from https://disclosures.ifc.org/iati/ifc-gy.xml
+curl: download ERROR 520
 Parsing ifcwbg-gy from https://disclosures.ifc.org/iati/ifc-gy.xml
-found 6 activities
+dflat: input XML file does not exist
+restored 6 files
 
 Downloading ifcwbg-hk from https://disclosures.ifc.org/iati/ifc-hk.xml
+curl: download ERROR 520
 Parsing ifcwbg-hk from https://disclosures.ifc.org/iati/ifc-hk.xml
-found 2 activities
+dflat: input XML file does not exist
+restored 2 files
 
 Downloading ifcwbg-hn from https://disclosures.ifc.org/iati/ifc-hn.xml
+curl: download ERROR 520
 Parsing ifcwbg-hn from https://disclosures.ifc.org/iati/ifc-hn.xml
-found 21 activities
+dflat: input XML file does not exist
+restored 21 files
 
 Downloading ifcwbg-hr from https://disclosures.ifc.org/iati/ifc-hr.xml
+curl: download ERROR 520
 Parsing ifcwbg-hr from https://disclosures.ifc.org/iati/ifc-hr.xml
-found 29 activities
+dflat: input XML file does not exist
+restored 29 files
 
 Downloading ifcwbg-ht from https://disclosures.ifc.org/iati/ifc-ht.xml
+curl: download ERROR 520
 Parsing ifcwbg-ht from https://disclosures.ifc.org/iati/ifc-ht.xml
-found 20 activities
+dflat: input XML file does not exist
+restored 20 files
 
 Downloading ifcwbg-hu from https://disclosures.ifc.org/iati/ifc-hu.xml
+curl: download ERROR 520
 Parsing ifcwbg-hu from https://disclosures.ifc.org/iati/ifc-hu.xml
-found 5 activities
+dflat: input XML file does not exist
+restored 5 files
 
 Downloading ifcwbg-id from https://disclosures.ifc.org/iati/ifc-id.xml
+curl: download ERROR 520
 Parsing ifcwbg-id from https://disclosures.ifc.org/iati/ifc-id.xml
-found 132 activities
+dflat: input XML file does not exist
+restored 132 files
 
 Downloading ifcwbg-il from https://disclosures.ifc.org/iati/ifc-il.xml
+curl: download ERROR 520
 Parsing ifcwbg-il from https://disclosures.ifc.org/iati/ifc-il.xml
-found 2 activities
+dflat: input XML file does not exist
+restored 2 files
 
 Downloading ifcwbg-in from https://disclosures.ifc.org/iati/ifc-in.xml
+curl: download ERROR 520
 Parsing ifcwbg-in from https://disclosures.ifc.org/iati/ifc-in.xml
-found 527 activities
+dflat: input XML file does not exist
+restored 527 files
 
 Downloading ifcwbg-iq from https://disclosures.ifc.org/iati/ifc-iq.xml
+curl: download ERROR 520
 Parsing ifcwbg-iq from https://disclosures.ifc.org/iati/ifc-iq.xml
-found 22 activities
+dflat: input XML file does not exist
+restored 22 files
 
 Downloading ifcwbg-ir from https://disclosures.ifc.org/iati/ifc-ir.xml
+curl: download ERROR 520
 Parsing ifcwbg-ir from https://disclosures.ifc.org/iati/ifc-ir.xml
-found 1 activities
+dflat: input XML file does not exist
+restored 1 files
 
 Downloading ifcwbg-jo from https://disclosures.ifc.org/iati/ifc-jo.xml
+curl: download ERROR 520
 Parsing ifcwbg-jo from https://disclosures.ifc.org/iati/ifc-jo.xml
-found 63 activities
+dflat: input XML file does not exist
+restored 63 files
 
 Downloading ifcwbg-ke from https://disclosures.ifc.org/iati/ifc-ke.xml
+curl: download ERROR 520
 Parsing ifcwbg-ke from https://disclosures.ifc.org/iati/ifc-ke.xml
-found 111 activities
+dflat: input XML file does not exist
+restored 111 files
 
 Downloading ifcwbg-kh from https://disclosures.ifc.org/iati/ifc-kh.xml
+curl: download ERROR 520
 Parsing ifcwbg-kh from https://disclosures.ifc.org/iati/ifc-kh.xml
-found 45 activities
+dflat: input XML file does not exist
+restored 45 files
 
 Downloading ifcwbg-kr from https://disclosures.ifc.org/iati/ifc-kr.xml
+curl: download ERROR 520
 Parsing ifcwbg-kr from https://disclosures.ifc.org/iati/ifc-kr.xml
-found 14 activities
+dflat: input XML file does not exist
+restored 14 files
 
 Downloading ifcwbg-kw from https://disclosures.ifc.org/iati/ifc-kw.xml
+curl: download ERROR 520
 Parsing ifcwbg-kw from https://disclosures.ifc.org/iati/ifc-kw.xml
-found 1 activities
+dflat: input XML file does not exist
+restored 1 files
 
 Downloading ifcwbg-kz from https://disclosures.ifc.org/iati/ifc-kz.xml
+curl: download ERROR 520
 Parsing ifcwbg-kz from https://disclosures.ifc.org/iati/ifc-kz.xml
-found 47 activities
+dflat: input XML file does not exist
+restored 47 files
 
 Downloading ifcwbg-la from https://disclosures.ifc.org/iati/ifc-la.xml
+curl: download ERROR 520
 Parsing ifcwbg-la from https://disclosures.ifc.org/iati/ifc-la.xml
-found 18 activities
+dflat: input XML file does not exist
+restored 18 files
 
 Downloading ifcwbg-lb from https://disclosures.ifc.org/iati/ifc-lb.xml
+curl: download ERROR 520
 Parsing ifcwbg-lb from https://disclosures.ifc.org/iati/ifc-lb.xml
-found 38 activities
+dflat: input XML file does not exist
+restored 38 files
 
 Downloading ifcwbg-lc from https://disclosures.ifc.org/iati/ifc-lc.xml
+curl: download ERROR 520
 Parsing ifcwbg-lc from https://disclosures.ifc.org/iati/ifc-lc.xml
-found 1 activities
+dflat: input XML file does not exist
+restored 1 files
 
 Downloading ifcwbg-lk from https://disclosures.ifc.org/iati/ifc-lk.xml
+curl: download ERROR 520
 Parsing ifcwbg-lk from https://disclosures.ifc.org/iati/ifc-lk.xml
-found 54 activities
+dflat: input XML file does not exist
+restored 54 files
 
 Downloading ifcwbg-lr from https://disclosures.ifc.org/iati/ifc-lr.xml
+curl: download ERROR 520
 Parsing ifcwbg-lr from https://disclosures.ifc.org/iati/ifc-lr.xml
-found 7 activities
+dflat: input XML file does not exist
+restored 7 files
 
 Downloading ifcwbg-lt from https://disclosures.ifc.org/iati/ifc-lt.xml
+curl: download ERROR 520
 Parsing ifcwbg-lt from https://disclosures.ifc.org/iati/ifc-lt.xml
-found 6 activities
+dflat: input XML file does not exist
+restored 6 files
 
 Downloading ifcwbg-lv from https://disclosures.ifc.org/iati/ifc-lv.xml
+curl: download ERROR 520
 Parsing ifcwbg-lv from https://disclosures.ifc.org/iati/ifc-lv.xml
-found 3 activities
+dflat: input XML file does not exist
+restored 3 files
 
 Downloading ifcwbg-ma from https://disclosures.ifc.org/iati/ifc-ma.xml
+curl: download ERROR 520
 Parsing ifcwbg-ma from https://disclosures.ifc.org/iati/ifc-ma.xml
-found 46 activities
+dflat: input XML file does not exist
+restored 46 files
 
 Downloading ifcwbg-md from https://disclosures.ifc.org/iati/ifc-md.xml
+curl: download ERROR 520
 Parsing ifcwbg-md from https://disclosures.ifc.org/iati/ifc-md.xml
-found 20 activities
+dflat: input XML file does not exist
+restored 20 files
 
 Downloading ifcwbg-me from https://disclosures.ifc.org/iati/ifc-me.xml
+curl: download ERROR 520
 Parsing ifcwbg-me from https://disclosures.ifc.org/iati/ifc-me.xml
-found 7 activities
+dflat: input XML file does not exist
+restored 7 files
 
 Downloading ifcwbg-mg from https://disclosures.ifc.org/iati/ifc-mg.xml
+curl: download ERROR 520
 Parsing ifcwbg-mg from https://disclosures.ifc.org/iati/ifc-mg.xml
-found 19 activities
+dflat: input XML file does not exist
+restored 19 files
 
 Downloading ifcwbg-mh from https://disclosures.ifc.org/iati/ifc-mh.xml
+curl: download ERROR 520
 Parsing ifcwbg-mh from https://disclosures.ifc.org/iati/ifc-mh.xml
-found 1 activities
+dflat: input XML file does not exist
+restored 1 files
 
 Downloading ifcwbg-mk from https://disclosures.ifc.org/iati/ifc-mk.xml
+curl: download ERROR 520
 Parsing ifcwbg-mk from https://disclosures.ifc.org/iati/ifc-mk.xml
-found 16 activities
+dflat: input XML file does not exist
+restored 16 files
 
 Downloading ifcwbg-ml from https://disclosures.ifc.org/iati/ifc-ml.xml
+curl: download ERROR 520
 Parsing ifcwbg-ml from https://disclosures.ifc.org/iati/ifc-ml.xml
-found 27 activities
+dflat: input XML file does not exist
+restored 27 files
 
 Downloading ifcwbg-mm from https://disclosures.ifc.org/iati/ifc-mm.xml
+curl: download ERROR 520
 Parsing ifcwbg-mm from https://disclosures.ifc.org/iati/ifc-mm.xml
-found 27 activities
+dflat: input XML file does not exist
+restored 27 files
 
 Downloading ifcwbg-mn from https://disclosures.ifc.org/iati/ifc-mn.xml
+curl: download ERROR 520
 Parsing ifcwbg-mn from https://disclosures.ifc.org/iati/ifc-mn.xml
-found 39 activities
+dflat: input XML file does not exist
+restored 39 files
 
 Downloading ifcwbg-mr from https://disclosures.ifc.org/iati/ifc-mr.xml
+curl: download ERROR 520
 Parsing ifcwbg-mr from https://disclosures.ifc.org/iati/ifc-mr.xml
-found 18 activities
+dflat: input XML file does not exist
+restored 18 files
 
 Downloading ifcwbg-mu from https://disclosures.ifc.org/iati/ifc-mu.xml
+curl: download ERROR 520
 Parsing ifcwbg-mu from https://disclosures.ifc.org/iati/ifc-mu.xml
-found 7 activities
+dflat: input XML file does not exist
+restored 7 files
 
 Downloading ifcwbg-mv from https://disclosures.ifc.org/iati/ifc-mv.xml
+curl: download ERROR 520
 Parsing ifcwbg-mv from https://disclosures.ifc.org/iati/ifc-mv.xml
-found 11 activities
+dflat: input XML file does not exist
+restored 11 files
 
 Downloading ifcwbg-mw from https://disclosures.ifc.org/iati/ifc-mw.xml
+curl: download ERROR 520
 Parsing ifcwbg-mw from https://disclosures.ifc.org/iati/ifc-mw.xml
-found 11 activities
+dflat: input XML file does not exist
+restored 11 files
 
 Downloading ifcwbg-mx from https://disclosures.ifc.org/iati/ifc-mx.xml
+curl: download ERROR 520
 Parsing ifcwbg-mx from https://disclosures.ifc.org/iati/ifc-mx.xml
-found 192 activities
+dflat: input XML file does not exist
+restored 192 files
 
 Downloading ifcwbg-mz from https://disclosures.ifc.org/iati/ifc-mz.xml
+curl: download ERROR 520
 Parsing ifcwbg-mz from https://disclosures.ifc.org/iati/ifc-mz.xml
-found 36 activities
+dflat: input XML file does not exist
+restored 36 files
 
 Downloading ifcwbg-na from https://disclosures.ifc.org/iati/ifc-na.xml
+curl: download ERROR 520
 Parsing ifcwbg-na from https://disclosures.ifc.org/iati/ifc-na.xml
-found 9 activities
+dflat: input XML file does not exist
+restored 9 files
 
 Downloading ifcwbg-ng from https://disclosures.ifc.org/iati/ifc-ng.xml
+curl: download ERROR 520
 Parsing ifcwbg-ng from https://disclosures.ifc.org/iati/ifc-ng.xml
-found 130 activities
+dflat: input XML file does not exist
+restored 130 files
 
 Downloading ifcwbg-ni from https://disclosures.ifc.org/iati/ifc-ni.xml
+curl: download ERROR 520
 Parsing ifcwbg-ni from https://disclosures.ifc.org/iati/ifc-ni.xml
-found 23 activities
+dflat: input XML file does not exist
+restored 23 files
 
 Downloading ifcwbg-nl from https://disclosures.ifc.org/iati/ifc-nl.xml
+curl: download ERROR 520
 Parsing ifcwbg-nl from https://disclosures.ifc.org/iati/ifc-nl.xml
-found 1 activities
+dflat: input XML file does not exist
+restored 1 files
 
 Downloading ifcwbg-np from https://disclosures.ifc.org/iati/ifc-np.xml
+curl: download ERROR 520
 Parsing ifcwbg-np from https://disclosures.ifc.org/iati/ifc-np.xml
-found 24 activities
+dflat: input XML file does not exist
+restored 24 files
 
 Downloading ifcwbg-om from https://disclosures.ifc.org/iati/ifc-om.xml
+curl: download ERROR 520
 Parsing ifcwbg-om from https://disclosures.ifc.org/iati/ifc-om.xml
-found 11 activities
+dflat: input XML file does not exist
+restored 11 files
 
 Downloading ifcwbg-org from https://disclosures.ifc.org/IATI/IFC-organization.xml
+curl: download ERROR 520
 Parsing ifcwbg-org from https://disclosures.ifc.org/IATI/IFC-organization.xml
-found 1 organisations
+dflat: input XML file does not exist
+restored 1 files
 
 Downloading ifcwbg-pa from https://disclosures.ifc.org/iati/ifc-pa.xml
+curl: download ERROR 520
 Parsing ifcwbg-pa from https://disclosures.ifc.org/iati/ifc-pa.xml
-found 30 activities
+dflat: input XML file does not exist
+restored 30 files
 
 Downloading ifcwbg-pe from https://disclosures.ifc.org/iati/ifc-pe.xml
+curl: download ERROR 520
 Parsing ifcwbg-pe from https://disclosures.ifc.org/iati/ifc-pe.xml
-found 78 activities
+dflat: input XML file does not exist
+restored 78 files
 
 Downloading ifcwbg-pg from https://disclosures.ifc.org/iati/ifc-pg.xml
+curl: download ERROR 520
 Parsing ifcwbg-pg from https://disclosures.ifc.org/iati/ifc-pg.xml
-found 15 activities
+dflat: input XML file does not exist
+restored 15 files
 
 Downloading ifcwbg-ph from https://disclosures.ifc.org/iati/ifc-ph.xml
+curl: download ERROR 520
 Parsing ifcwbg-ph from https://disclosures.ifc.org/iati/ifc-ph.xml
-found 82 activities
+dflat: input XML file does not exist
+restored 82 files
 
 Downloading ifcwbg-pk from https://disclosures.ifc.org/iati/ifc-pk.xml
+curl: download ERROR 520
 Parsing ifcwbg-pk from https://disclosures.ifc.org/iati/ifc-pk.xml
-found 94 activities
+dflat: input XML file does not exist
+restored 94 files
 
 Downloading ifcwbg-pl from https://disclosures.ifc.org/iati/ifc-pl.xml
+curl: download ERROR 520
 Parsing ifcwbg-pl from https://disclosures.ifc.org/iati/ifc-pl.xml
-found 32 activities
+dflat: input XML file does not exist
+restored 32 files
 
 Downloading ifcwbg-py from https://disclosures.ifc.org/iati/ifc-py.xml
+curl: download ERROR 520
 Parsing ifcwbg-py from https://disclosures.ifc.org/iati/ifc-py.xml
-found 29 activities
+dflat: input XML file does not exist
+restored 29 files
 
 Downloading ifcwbg-ro from https://disclosures.ifc.org/iati/ifc-ro.xml
+curl: download ERROR 520
 Parsing ifcwbg-ro from https://disclosures.ifc.org/iati/ifc-ro.xml
-found 104 activities
+dflat: input XML file does not exist
+restored 104 files
 
 Downloading ifcwbg-rs from https://disclosures.ifc.org/iati/ifc-rs.xml
+curl: download ERROR 520
 Parsing ifcwbg-rs from https://disclosures.ifc.org/iati/ifc-rs.xml
-found 37 activities
+dflat: input XML file does not exist
+restored 37 files
 
 Downloading ifcwbg-ru from https://disclosures.ifc.org/iati/ifc-ru.xml
+curl: download ERROR 520
 Parsing ifcwbg-ru from https://disclosures.ifc.org/iati/ifc-ru.xml
-found 200 activities
+dflat: input XML file does not exist
+restored 200 files
 
 Downloading ifcwbg-rw from https://disclosures.ifc.org/iati/ifc-rw.xml
+curl: download ERROR 520
 Parsing ifcwbg-rw from https://disclosures.ifc.org/iati/ifc-rw.xml
-found 19 activities
+dflat: input XML file does not exist
+restored 19 files
 
 Downloading ifcwbg-sa from https://disclosures.ifc.org/iati/ifc-sa.xml
+curl: download ERROR 520
 Parsing ifcwbg-sa from https://disclosures.ifc.org/iati/ifc-sa.xml
-found 10 activities
+dflat: input XML file does not exist
+restored 10 files
 
 Downloading ifcwbg-sb from https://disclosures.ifc.org/iati/ifc-sb.xml
+curl: download ERROR 520
 Parsing ifcwbg-sb from https://disclosures.ifc.org/iati/ifc-sb.xml
-found 3 activities
+dflat: input XML file does not exist
+restored 3 files
 
 Downloading ifcwbg-sc from https://disclosures.ifc.org/iati/ifc-sc.xml
+curl: download ERROR 520
 Parsing ifcwbg-sc from https://disclosures.ifc.org/iati/ifc-sc.xml
-found 4 activities
+dflat: input XML file does not exist
+restored 4 files
 
 Downloading ifcwbg-sd from https://disclosures.ifc.org/iati/ifc-sd.xml
+curl: download ERROR 520
 Parsing ifcwbg-sd from https://disclosures.ifc.org/iati/ifc-sd.xml
-dflat: invalid XML format
+dflat: input XML file does not exist
 restored 1 files
 
 Downloading ifcwbg-sg from https://disclosures.ifc.org/iati/ifc-sg.xml
+curl: download ERROR 520
 Parsing ifcwbg-sg from https://disclosures.ifc.org/iati/ifc-sg.xml
-found 7 activities
+dflat: input XML file does not exist
+restored 7 files
 
 Downloading ifcwbg-si from https://disclosures.ifc.org/iati/ifc-si.xml
+curl: download ERROR 520
 Parsing ifcwbg-si from https://disclosures.ifc.org/iati/ifc-si.xml
-dflat: invalid XML format
+dflat: input XML file does not exist
 restored 1 files
 
 Downloading ifcwbg-sl from https://disclosures.ifc.org/iati/ifc-sl.xml
+curl: download ERROR 520
 Parsing ifcwbg-sl from https://disclosures.ifc.org/iati/ifc-sl.xml
-found 8 activities
+dflat: input XML file does not exist
+restored 8 files
 
 Downloading ifcwbg-sn from https://disclosures.ifc.org/iati/ifc-sn.xml
+curl: download ERROR 520
 Parsing ifcwbg-sn from https://disclosures.ifc.org/iati/ifc-sn.xml
-found 47 activities
+dflat: input XML file does not exist
+restored 47 files
 
 Downloading ifcwbg-ss from https://disclosures.ifc.org/iati/ifc-ss.xml
+curl: download ERROR 520
 Parsing ifcwbg-ss from https://disclosures.ifc.org/iati/ifc-ss.xml
-found 2 activities
+dflat: input XML file does not exist
+restored 2 files
 
 Downloading ifcwbg-st from https://disclosures.ifc.org/iati/ifc-st.xml
+curl: download ERROR 520
 Parsing ifcwbg-st from https://disclosures.ifc.org/iati/ifc-st.xml
-found 1 activities
+dflat: input XML file does not exist
+restored 1 files
 
 Downloading ifcwbg-sv from https://disclosures.ifc.org/iati/ifc-sv.xml
+curl: download ERROR 520
 Parsing ifcwbg-sv from https://disclosures.ifc.org/iati/ifc-sv.xml
-found 30 activities
+dflat: input XML file does not exist
+restored 30 files
 
 Downloading ifcwbg-sy from https://disclosures.ifc.org/iati/ifc-sy.xml
+curl: download ERROR 520
 Parsing ifcwbg-sy from https://disclosures.ifc.org/iati/ifc-sy.xml
-found 5 activities
+dflat: input XML file does not exist
+restored 5 files
 
 Downloading ifcwbg-sz from https://disclosures.ifc.org/iati/ifc-sz.xml
+curl: download ERROR 520
 Parsing ifcwbg-sz from https://disclosures.ifc.org/iati/ifc-sz.xml
-found 2 activities
+dflat: input XML file does not exist
+restored 2 files
 
 Downloading ifcwbg-tg from https://disclosures.ifc.org/iati/ifc-tg.xml
+curl: download ERROR 520
 Parsing ifcwbg-tg from https://disclosures.ifc.org/iati/ifc-tg.xml
-found 11 activities
+dflat: input XML file does not exist
+restored 11 files
 
 Downloading ifcwbg-th from https://disclosures.ifc.org/iati/ifc-th.xml
+curl: download ERROR 520
 Parsing ifcwbg-th from https://disclosures.ifc.org/iati/ifc-th.xml
-found 51 activities
+dflat: input XML file does not exist
+restored 51 files
 
 Downloading ifcwbg-tj from https://disclosures.ifc.org/iati/ifc-tj.xml
+curl: download ERROR 520
 Parsing ifcwbg-tj from https://disclosures.ifc.org/iati/ifc-tj.xml
-found 36 activities
+dflat: input XML file does not exist
+restored 36 files
 
 Downloading ifcwbg-tl from https://disclosures.ifc.org/iati/ifc-tl.xml
+curl: download ERROR 520
 Parsing ifcwbg-tl from https://disclosures.ifc.org/iati/ifc-tl.xml
-found 3 activities
+dflat: input XML file does not exist
+restored 3 files
 
 Downloading ifcwbg-tn from https://disclosures.ifc.org/iati/ifc-tn.xml
+curl: download ERROR 520
 Parsing ifcwbg-tn from https://disclosures.ifc.org/iati/ifc-tn.xml
-found 25 activities
+dflat: input XML file does not exist
+restored 25 files
 
 Downloading ifcwbg-tr from https://disclosures.ifc.org/iati/ifc-tr.xml
+curl: download ERROR 520
 Parsing ifcwbg-tr from https://disclosures.ifc.org/iati/ifc-tr.xml
-found 274 activities
+dflat: input XML file does not exist
+restored 274 files
 
 Downloading ifcwbg-tt from https://disclosures.ifc.org/iati/ifc-tt.xml
+curl: download ERROR 520
 Parsing ifcwbg-tt from https://disclosures.ifc.org/iati/ifc-tt.xml
-found 12 activities
+dflat: input XML file does not exist
+restored 12 files
 
 Downloading ifcwbg-tz from https://disclosures.ifc.org/iati/ifc-tz.xml
+curl: download ERROR 520
 Parsing ifcwbg-tz from https://disclosures.ifc.org/iati/ifc-tz.xml
-found 58 activities
+dflat: input XML file does not exist
+restored 58 files
 
 Downloading ifcwbg-ua from https://disclosures.ifc.org/iati/ifc-ua.xml
+curl: download ERROR 520
 Parsing ifcwbg-ua from https://disclosures.ifc.org/iati/ifc-ua.xml
-found 99 activities
+dflat: input XML file does not exist
+restored 99 files
 
 Downloading ifcwbg-ug from https://disclosures.ifc.org/iati/ifc-ug.xml
+curl: download ERROR 520
 Parsing ifcwbg-ug from https://disclosures.ifc.org/iati/ifc-ug.xml
-found 37 activities
+dflat: input XML file does not exist
+restored 37 files
 
 Downloading ifcwbg-uy from https://disclosures.ifc.org/iati/ifc-uy.xml
+curl: download ERROR 520
 Parsing ifcwbg-uy from https://disclosures.ifc.org/iati/ifc-uy.xml
-found 14 activities
+dflat: input XML file does not exist
+restored 14 files
 
 Downloading ifcwbg-uz from https://disclosures.ifc.org/iati/ifc-uz.xml
+curl: download ERROR 520
 Parsing ifcwbg-uz from https://disclosures.ifc.org/iati/ifc-uz.xml
-found 39 activities
+dflat: input XML file does not exist
+restored 39 files
 
 Downloading ifcwbg-ve from https://disclosures.ifc.org/iati/ifc-ve.xml
+curl: download ERROR 520
 Parsing ifcwbg-ve from https://disclosures.ifc.org/iati/ifc-ve.xml
-found 12 activities
+dflat: input XML file does not exist
+restored 12 files
 
 Downloading ifcwbg-vn from https://disclosures.ifc.org/iati/ifc-vn.xml
+curl: download ERROR 520
 Parsing ifcwbg-vn from https://disclosures.ifc.org/iati/ifc-vn.xml
-found 93 activities
+dflat: input XML file does not exist
+restored 93 files
 
 Downloading ifcwbg-vu from https://disclosures.ifc.org/iati/ifc-vu.xml
+curl: download ERROR 520
 Parsing ifcwbg-vu from https://disclosures.ifc.org/iati/ifc-vu.xml
-found 3 activities
+dflat: input XML file does not exist
+restored 3 files
 
 Downloading ifcwbg-ws from https://disclosures.ifc.org/iati/ifc-ws.xml
+curl: download ERROR 520
 Parsing ifcwbg-ws from https://disclosures.ifc.org/iati/ifc-ws.xml
-found 6 activities
+dflat: input XML file does not exist
+restored 6 files
 
 Downloading ifcwbg-xk from https://disclosures.ifc.org/iati/ifc-xk.xml
+curl: download ERROR 520
 Parsing ifcwbg-xk from https://disclosures.ifc.org/iati/ifc-xk.xml
-found 22 activities
+dflat: input XML file does not exist
+restored 22 files
 
 Downloading ifcwbg-ye from https://disclosures.ifc.org/iati/ifc-ye.xml
+curl: download ERROR 520
 Parsing ifcwbg-ye from https://disclosures.ifc.org/iati/ifc-ye.xml
-found 10 activities
+dflat: input XML file does not exist
+restored 10 files
 
 Downloading ifcwbg-za from https://disclosures.ifc.org/iati/ifc-za.xml
+curl: download ERROR 520
 Parsing ifcwbg-za from https://disclosures.ifc.org/iati/ifc-za.xml
-found 137 activities
+dflat: input XML file does not exist
+restored 137 files
 
 Downloading ifcwbg-zm from https://disclosures.ifc.org/iati/ifc-zm.xml
+curl: download ERROR 520
 Parsing ifcwbg-zm from https://disclosures.ifc.org/iati/ifc-zm.xml
-found 35 activities
+dflat: input XML file does not exist
+restored 35 files
 
 Downloading ifcwbg-zw from https://disclosures.ifc.org/iati/ifc-zw.xml
+curl: download ERROR 520
 Parsing ifcwbg-zw from https://disclosures.ifc.org/iati/ifc-zw.xml
-found 17 activities
+dflat: input XML file does not exist
+restored 17 files
 
 Downloading ifdc-us-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/ifdc-us-activities.xml
 Parsing ifdc-us-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/ifdc-us-activities.xml
@@ -22209,7 +22513,7 @@ found 7 activities
 
 Downloading ksrelief291-sy from https://aidstream.s3.us-west-2.amazonaws.com/xml/ksrelief291-sy.xml
 Parsing ksrelief291-sy from https://aidstream.s3.us-west-2.amazonaws.com/xml/ksrelief291-sy.xml
-found 66 activities
+found 68 activities
 
 Downloading ksrelief291-td from https://aidstream.s3.us-west-2.amazonaws.com/xml/ksrelief291-td.xml
 Parsing ksrelief291-td from https://aidstream.s3.us-west-2.amazonaws.com/xml/ksrelief291-td.xml
@@ -22269,7 +22573,7 @@ found 1 activities
 
 Downloading ksrelief291-ye from https://aidstream.s3.us-west-2.amazonaws.com/xml/ksrelief291-ye.xml
 Parsing ksrelief291-ye from https://aidstream.s3.us-west-2.amazonaws.com/xml/ksrelief291-ye.xml
-found 510 activities
+found 512 activities
 
 Downloading ksrelief291-za from https://aidstream.s3.us-west-2.amazonaws.com/xml/ksrelief291-za.xml
 Parsing ksrelief291-za from https://aidstream.s3.us-west-2.amazonaws.com/xml/ksrelief291-za.xml
@@ -26558,9 +26862,8 @@ dflat: invalid XML format
 restored 44 files
 
 Downloading openmindedly-im2005 from http://iati.openmindedly.com/IM-IDC-2005.xml
-curl: download ERROR 432
 Parsing openmindedly-im2005 from http://iati.openmindedly.com/IM-IDC-2005.xml
-dflat: input XML file does not exist
+dflat: invalid XML format
 restored 98 files
 
 Downloading openmindedly-je04 from http://iati.openmindedly.com/JE-OAC-2004.xml
@@ -27177,6 +27480,10 @@ found 14 activities
 Downloading oxsol-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/oxsol-org.xml
 Parsing oxsol-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/oxsol-org.xml
 found 1 organisations
+
+Downloading oxsol-program2022 from http://diplomatie.be/oda/IATI_act_pr2022-26_Oxfam_Sol._4032.xml
+Parsing oxsol-program2022 from http://diplomatie.be/oda/IATI_act_pr2022-26_Oxfam_Sol._4032.xml
+found 9 activities
 
 Downloading oyw-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/oyw-activities.xml
 Parsing oyw-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/oyw-activities.xml
@@ -30440,7 +30747,7 @@ found 1 activities
 
 Downloading sp-activities from https://iatipublisher-prod.s3.amazonaws.com/xml/mergedActivityXml/sp-activities.xml
 Parsing sp-activities from https://iatipublisher-prod.s3.amazonaws.com/xml/mergedActivityXml/sp-activities.xml
-found 8 activities
+found 10 activities
 
 Downloading sparc_iati-activities from https://iatipublisher-prod.s3.amazonaws.com/xml/mergedActivityXml/sparc_iati-activities.xml
 Parsing sparc_iati-activities from https://iatipublisher-prod.s3.amazonaws.com/xml/mergedActivityXml/sparc_iati-activities.xml
@@ -31407,8 +31714,8 @@ Parsing stichting_hivos-hivos-historical from https://files.aida.tools/activitie
 dflat: input XML file does not exist
 restored 17 files
 
-Downloading stichting_hivos-ongoingprojects02 from https://dmel.hivos.org/public/iati-xml/compiled/iati_compiled_20250706215425.xml
-Parsing stichting_hivos-ongoingprojects02 from https://dmel.hivos.org/public/iati-xml/compiled/iati_compiled_20250706215425.xml
+Downloading stichting_hivos-ongoingprojects02 from https://dmel.hivos.org/public/iati-xml/compiled/iati_compiled_20250707112742.xml
+Parsing stichting_hivos-ongoingprojects02 from https://dmel.hivos.org/public/iati-xml/compiled/iati_compiled_20250707112742.xml
 found 32 activities
 
 Downloading stichting-subsidiegelden-dra-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/stichting-subsidiegelden-dra-activities.xml
@@ -42918,16 +43225,6 @@ found 1 organisations
 
 Downloading w4p-pe from https://aidstream.s3.us-west-2.amazonaws.com/xml/w4p-pe.xml
 Converting IATI activities version 1.03 to version 2.03
-./iati-activities.xsl:120: parser error : expected '>'
-                                        </narrativ
-                                                  ^
-./iati-activities.xsl:120: parser error : Opening and ending tag mismatch: narrative line 117 and narrativ
-                                        </narrativ
-                                                  ^
-./iati-activities.xsl:120: parser error : Premature end of data in tag for-each line 116
-                                        </narrativ
-                                                  ^
-cannot parse ./iati-activities.xsl
 Parsing w4p-pe from https://aidstream.s3.us-west-2.amazonaws.com/xml/w4p-pe.xml
 found 2 activities
 
@@ -48057,9 +48354,9 @@ Converting IATI organisations version 1.03 to version 2.03
 Parsing zet-org from https://aidstream.s3.us-west-2.amazonaws.com/xml/zet-org.xml
 found 1 organisations
 
-Downloading zimmzimm-6-15-10-18-56_activity-file_nl-kvk-34176587 from https://test.files.aida.tools/activities/NL-KVK-34176587/8e04aed3-ff03-45b3-86a1-4285382f7c2c/6-15-10-18-56_activity-file_NL-KVK-34176587.xml
-Parsing zimmzimm-6-15-10-18-56_activity-file_nl-kvk-34176587 from https://test.files.aida.tools/activities/NL-KVK-34176587/8e04aed3-ff03-45b3-86a1-4285382f7c2c/6-15-10-18-56_activity-file_NL-KVK-34176587.xml
-found 3 activities
+Downloading zimmzimm-7-7-20-19-25_activity-file_aa-aaa-123456789 from https://test.files.aida.tools/activities/AA-AAA-123456789/c13c83cc-5822-4728-a93e-ca7d3173585f/7-7-20-19-25_activity-file_AA-AAA-123456789.xml
+Parsing zimmzimm-7-7-20-19-25_activity-file_aa-aaa-123456789 from https://test.files.aida.tools/activities/AA-AAA-123456789/c13c83cc-5822-4728-a93e-ca7d3173585f/7-7-20-19-25_activity-file_AA-AAA-123456789.xml
+found 1 activities
 
 Downloading zing-activities from http://zing.org.uk/open/zingactivities.xml
 Converting IATI activities version 1.03 to version 2.03
