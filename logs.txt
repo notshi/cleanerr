@@ -26836,7 +26836,7 @@ found 2205 activities
 
 Downloading onl-activity from https://www.oxfamnovib.nl/redactie/Downloads/XML/iati.xml
 Parsing onl-activity from https://www.oxfamnovib.nl/redactie/Downloads/XML/iati.xml
-found 2822 activities
+found 2823 activities
 
 Downloading onl-org from https://www.oxfamnovib.nl/redactie/downloads/xml/IATI_NL-KVK-27108436.xml
 Parsing onl-org from https://www.oxfamnovib.nl/redactie/downloads/xml/IATI_NL-KVK-27108436.xml
@@ -26881,8 +26881,9 @@ dflat: invalid XML format
 restored 79 files
 
 Downloading openmindedly-gg12 from http://iati.openmindedly.com/GG-OAC-2012.xml
+curl: download ERROR 432
 Parsing openmindedly-gg12 from http://iati.openmindedly.com/GG-OAC-2012.xml
-dflat: invalid XML format
+dflat: input XML file does not exist
 restored 86 files
 
 Downloading openmindedly-gg13 from http://iati.openmindedly.com/GG-OAC-2013.xml
@@ -29414,7 +29415,7 @@ found 1 organisations
 
 Downloading rvo-01 from https://projects.rvo.nl/opendata/iati.xml
 Parsing rvo-01 from https://projects.rvo.nl/opendata/iati.xml
-found 5516 activities
+found 5517 activities
 
 Downloading rvo-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/rvo-activities.xml
 Parsing rvo-activities from https://aidstream.s3.us-west-2.amazonaws.com/xml/rvo-activities.xml
@@ -33843,9 +33844,8 @@ Parsing tripleline_crownagents-cscf from https://raw.githubusercontent.com/IATI/
 found 111 activities
 
 Downloading tripleline_crownagents-gpaf from http://www.tripleline.com/wp-content/uploads/GPAF%20Disburse.%202013%20Onwards%2012.03.2015.xml
-curl: download ERROR 404
 Parsing tripleline_crownagents-gpaf from http://www.tripleline.com/wp-content/uploads/GPAF%20Disburse.%202013%20Onwards%2012.03.2015.xml
-dflat: input XML file does not exist
+dflat: no activities or organisations found in XML file
 restored 0 files
 
 Downloading tripleline_crownagents-incoming from https://raw.githubusercontent.com/IATI/CSV2IATI-public-backup/master/1415116692.4.xml
